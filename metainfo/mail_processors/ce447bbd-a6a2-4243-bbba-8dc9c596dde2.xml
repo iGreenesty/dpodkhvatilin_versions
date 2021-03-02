@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<rule xmlns:xi="http://www.w3.org/2001/XInclude" authorLogin="naumen" code="ce447bbd-a6a2-4243-bbba-8dc9c596dde2" creationDate="2020-12-03T06:17:09.568Z" enabled="true" firstVersionCode="97defb76-c6a2-49c1-9b6a-384cc992e5f3" ip="91.232.196.17" oldVersion="false" seg-detach="true" seg-id="ce447bbd-a6a2-4243-bbba-8dc9c596dde2" seg-type="mail_processors" version="23">
-    <script><![CDATA[PraviloObrabotkiPochty165]]></script>
-    <title lang="ru">Правило обработки почты</title>
-</rule>

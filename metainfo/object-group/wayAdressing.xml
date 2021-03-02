@@ -13,8 +13,8 @@
                 <file>
                     <title>По почте.png</title>
                     <mimeType>image/png</mimeType>
-                    <size>437</size>
-                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAQAAACROWYpAAABfElEQVR42tWVvUvDQBiHnxYrFUsRUQoKCrWDDgXp4NBJ0EFx0EFEKhSXjkWHiotCQQengoM6VRCcFLu56qII1UEHET8QFD//Cn0TStqmlzTN1vcg3F1+D3f35ndvoEkjQoZVFy0jJC/ssuWi7fEEf7J6An9Du/WTRCc1eJ8rQo7RkKgPyrBHzvBOzBEa5VU27SnDWszyy3RddEJUC6V+BQzDvJG1RZf4YMQYVcHQww15WpVgCzvc0VcxY4KhnQIXdNegnZxxSrBqrgbWkpeVbz9kMtID23hNSgWsxbykZcoYjfPDokJlAUOcT9J6L8U3o0qNJQxh7jniWJ5hC4UCjlMs9QIsy8cJlEZFeVMHjsr5JpXrjEkeYnZwREwwZ2mRGb4YtIJ7xbUpW4clxYP9KrhLUrNS19tpHo37Z8BBrtlwdKs2uaWjEm7jXJzrNHJcio0N+ITDGvNZh1fUhTKcwNdQGfLpd1rIZ9mGm+qZ0wpghHVX1XONgSb92fwDt0qaauXhVhcAAAAASUVORK5CYII=</content>
+                    <size>457</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAQAAACROWYpAAABkElEQVR4XtWUzytEURSAvxEikySaoqgxCxZKFhazUizIgoWkUZPNLCcWZEMpFlbKAitKWZHZ2bIhNSxYSH6kyM+/gvNez51773tvmuzmuzXdc+75mvvuO+9CmZJgjoV/jDkxeWKLtX+MbR7gR/49RY29oaLUkMY1HXmXC2J2RSgxqd5DyRF5hld67apAunmWTUdQssM434zqVYEMSdWUN9dk6OGFZRUFMcMbfSoyZGjhih2qtUyBSja5oU3LWDLUkeOMZiPn0MgJx9QbOZ/sHN6yvPsuI5fgjg0qjFyg7DApxzKiokG+mC4sKkJkSPJO1p1l+KTfXPQIlSHOLQccym/cXvIIkJPkvVmUWXk5US/Ky4qJT+6W5xs2Mn8MyDmYPWjJCWmCCS02GeODTi025Fbp2oy26CctPdiuIk1ukqOZVwthZLlX35+S67lkpVBThFWuaXBnnlzLqXRuqaxzLm2s5CP2fc0XToVU51Byiiq7oihV7jct5qNsw74ZSxnrzgWYYMl3M5YyFumwN1Qm/AK3Sppqkd/DxgAAAABJRU5ErkJggg==</content>
                 </file>
             </list>
         </attribute>
@@ -51,8 +51,8 @@
                 <file>
                     <title>Мобильное приложение.png</title>
                     <mimeType>image/png</mimeType>
-                    <size>236</size>
-                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAQAAACROWYpAAAAs0lEQVR42mP4z4CAQFDD8JHhPw74j+E0gxKKehSOCsNjBlEGCPBl8AHiciD0gYowMlQxLMKt2YFhPwMMBIBhBxAGwMWA8vg0/ycA8WjOR7IZG8Br8zpKNINtxu1mImwmV/PA2ewwqnlU86hm/AUgySUJhZopKD1Rbc5iuMgwg+EeAyc5zt4IrDEYGM4xGBKnWYXhCYMYXGkmw2WGWUg2MzFU46tuGIC1Ee6K7i/DKQZFZAEA/8XFTCXgy/4AAAAASUVORK5CYII=</content>
+                    <size>261</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAQAAACROWYpAAAAzElEQVR4XmP4z4CAQFDD8BFJABX+YzjNoISiHoWjwvCYQRRkBhD4MvgAcTkQ+kBFGBmqGBbh1uzAsB+qkIEhAAw7gDAALgaUx6cZmYsN4tGcj2QzNoDX5nWUaAbbjCyCCvFrBtuMqgFFHq/mgbMZHM+oGtDlUfjokqOaUeGo5uGkGQ+gpWZkLjaIVzOyzVkMFxlmMNxj4CTWZmTNG4E1BgPDOQZDuAhezSoMTxjE4EozGS4zzEKymYmhGl91wwCsjXBXdH8ZTjEoIgsAAP/FxUxIfg4/AAAAAElFTkSuQmCC</content>
                 </file>
             </list>
         </attribute>
@@ -91,8 +91,8 @@
                 <file>
                     <title>Через оператора.png</title>
                     <mimeType>image/png</mimeType>
-                    <size>722</size>
-                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAACmUlEQVR42s2VS2yMURiGHzNtOq1FtVhM2AzFbFobsaCIqkhDNaINidu4NkhEBF0gbMSgakWVSGrRUpJuZAhDaJBxiWCQpkbRuKYTJZ2yovXOiOj0v8wkNt6T/+Sc73b+c77vvAfM4GQGR7hDJ31qLzWqpRgHaWI6Yd7IpRwvo9S8LFS4Lp4wLR33DfTqy2QsOwkoVFj9DsZIUk2Mdancy+mmkCytH6MFHzPVfBrFJMmiiCjz7dyH60cXkMtdgoxL0oznuqS5VPCabOsAa2jTUd2giQyDLoNmrkl7m1XWAa6wkk080s+awaVj3MhqLlm5D+Or9t/FXMsF5mkDRfTI0hQj6Wc276zUiSXeMouf5JkpvYSkesFZ2yydo0NWISYZVS0cooCb1NkGqFNVFHBcgQwIUqX+GH7bAP6Efq2s/8MAV1mi/oRK1g61HFa/XtYG7Oc5p/hMo22A03ziJBFZG5CpO3iAg6p4O4Q4ygBbZG0Bl6oxz9I9X9oVtNtf6Atss9Rt1QailNkHKOJ90j9MYRHLRCZ+LosVQiK7lGikVaz4BwFuKWnnRWo9ZvVnhgZ+cGYIIzipl7QhvQDtIrHH+tnJg7bVJokv1fH9zkKxstxKjq5WH/dUWPVKbEzpzZE0Iq3L2nmOqCym69rMKzZrPoLKxLtQqRGSdKrQwuLsJkqGujpk9EBvwS4mJOZTZVaYCPmRD+rRrFfSODyi+wj3Wfz3oVmuVR8qWc5BIWt4JvYNsJs96rM1q0lasEzk2sHS+GS7iqPCQGMOpe4i3/Qujea7RkGTh61E9FeNulLTE3Hrifkix6DKt1szM5Rq27oa+RaH+pS94ogq9mlkdTf64wE8Kl1jc6twJiZGXo3cpjYeeetyDPxDi/4C+UDglXC9TaAAAAAASUVORK5CYII=</content>
+                    <size>745</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAACsElEQVR4XsWVS2xMURjHf6aaTmtRBouGTSlm07ERC8+oigjViDYkXvVskIgIukDYiEHViiqR1KL1SmxkCEMQbcYjooo0jKLxTBslnbJC/e9EZ3rPvdMuLPxO7sk53/87595zz3e+A26kMZ0jNNJKt8ortSqZhsd0S8VUmnmrIUX4GaHiZ6Gma+MJU0xXNzbQpSed0ewkpKmaVe9glCzlxFhnupsU0U4+GXp/jPOUMUOlTK2YLBkE6GC+OaQvQ/ShC8jmHmHG2JSx3JQ1m2LekGlTbKzhjn7VLeoYbEqy1HNDagOrTCnJNVayicf6WDe8+o0bWc0VU+hlEN+0/jbmmEKCuVpAgE55ujKc38zifSoZ6xXvmMkvhpmChZ+IpJecNQUb53ghrwgTTAFt1SHyuE2VKdioUlTkcVwTOQhTqvoYQVOwEYzra+Xt4P9PcJ0lqk8oZPujksOq18vbwX6ec4ov1JqCjdN85iRReTtI1xk8wEFFfH9EOEoPW+SdAq+i0TVM4vikrqDFNNu5yDbTlGCrFtDBPNNsJ8AH2zdMYhHLlEyCXFVWiCjZDUgtl5QVewlxV5t2QUmt0y3+3KjhJ2eMjJBGtaw1NltKWpTEmvSxExOWgBJNk6wD/D4Lr9J3VEvI0tHq5r4Cq1obG9P2Zskaleo1hySZrVQW03Gt5zWb1R9KSfxeKFELWVoVaM3K2XUUmEM9cnqou2AX4+L9yXLLx5ryEx9Vo16XrBa5SvdRHrA4edEs11sfabOSfx4qeKbsG2I3e1RnqlfRR/UoFho0aqnV2a7gKHakMY+27jLfdS+N5IdaYZeLrUDprxxVhaYSJ0dXzFcNDCt829Vzo1DL1tHwmfa/PGWvckQp+9Ryx6c0rAlyFbrOkqPAGR9v+dXKcehWydVoHY6efygdfwD5QOCVXBiFtwAAAABJRU5ErkJggg==</content>
                 </file>
             </list>
         </attribute>
@@ -131,8 +131,8 @@
                 <file>
                     <title>Личный кабинет.png</title>
                     <mimeType>image/png</mimeType>
-                    <size>280</size>
-                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAA30lEQVR42u2VwQoBURSGv7JiN9aDjb2FBzCRnc0sKJIslGKrzCNY2noWi3kKoUaZbCxIrDXc2ZmmCYdSmvOvzr3n/7r31L0HIEWBokAFkspNlSMuG4FcDlRgRR1pNFiCR1oMSCs3NzQxQFNuH3BDphgQA/4N8PFj+hQwZSLU9EuAX/fAxRADymyhxQmbuUC2cjZ9Tg5Tfe1B9bkGco9uqMYkG324GutA7lJ65255NXeGgZURCzKvmRMMOLPDYvwgi70agT21+zQ6OMwi5NB+DjC4RI7Ty2ud0CMHuh4uvgNnJQYeGi4vtQAAAABJRU5ErkJggg==</content>
+                    <size>296</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAA70lEQVR4Xu2VvQ4BQRSFv0RFt1v7afQKD0CITqMgISIKiYRWwiMot/Usin0KQbISG42CCLUss4XEzEZMhkqcr7pn7j3ZnWT3AiTIkTcgR1xMU+GIz8YAnwNlWFEPc4zUYAkBtupryxbT3LBUX1uWmA4DbpjxD/gHhPxSgPqNaOtbAQ5TQ5wvBXz8Ch8G+BRVX1slttDihMvcAFdMNsOcDDXxa5fpc5XqgG6kp0ZaeaInVVlLtU9Bqt8oK/bOUHJGLEhJzkvFGHBmx4TxExP2YgX2xOlbdfCYvcCjrbZHVeQSWaMPLno3kYws8gdJtRXuZyUGHhhTvrAAAAAASUVORK5CYII=</content>
                 </file>
             </list>
         </attribute>

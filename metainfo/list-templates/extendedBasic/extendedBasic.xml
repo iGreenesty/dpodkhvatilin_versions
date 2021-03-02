@@ -13,9 +13,9 @@
             </classFqn>
             <contentUuid>ed81c3e6-d485-2a9b-ab9d-1815ccbec8a6</contentUuid>
             <formCode>__window__</formCode>
-            <settingsParts>ObjectActions</settingsParts>
             <settingsParts>ActionPanel</settingsParts>
             <settingsParts>MassActionPanel</settingsParts>
+            <settingsParts>ObjectActions</settingsParts>
         </listTemplateUsagePoint>
         <listTemplateUsagePoint>
             <classFqn>
@@ -24,9 +24,9 @@
             </classFqn>
             <contentUuid>b16de624-764c-a501-1844-bf3b2ec0fc47</contentUuid>
             <formCode>__window__</formCode>
-            <settingsParts>ObjectActions</settingsParts>
             <settingsParts>ActionPanel</settingsParts>
             <settingsParts>MassActionPanel</settingsParts>
+            <settingsParts>ObjectActions</settingsParts>
         </listTemplateUsagePoint>
         <listTemplateUsagePoint>
             <classFqn>
@@ -35,10 +35,10 @@
             </classFqn>
             <contentUuid>serviceCallsResponsibleList</contentUuid>
             <formCode>__window__</formCode>
-            <settingsParts>ObjectActions</settingsParts>
             <settingsParts>ObjectFilter</settingsParts>
             <settingsParts>ActionPanel</settingsParts>
             <settingsParts>MassActionPanel</settingsParts>
+            <settingsParts>ObjectActions</settingsParts>
         </listTemplateUsagePoint>
     </listTemplateUsagePoints>
 </list-template>

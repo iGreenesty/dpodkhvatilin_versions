@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rule xmlns:xi="http://www.w3.org/2001/XInclude" authorLogin="naumen" code="106bfbc6-55bc-4a41-a970-0a2c00f70e56" creationDate="2021-03-02T09:50:21.536Z" enabled="true" firstVersionCode="97151b9e-e988-43c8-a2ad-bf1e4c09d49f" ip="91.232.196.253" oldVersion="false" seg-detach="true" seg-id="106bfbc6-55bc-4a41-a970-0a2c00f70e56" seg-type="mail_processors" version="4">
+    <script><![CDATA[VyvestiParametrySoobsheniyaVKonsol]]></script>
+    <title lang="ru">Вывести параметры сообщения в консоль</title>
+</rule>

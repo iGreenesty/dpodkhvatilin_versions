@@ -13,10 +13,10 @@
             </classFqn>
             <contentUuid>ZayavkiTab</contentUuid>
             <formCode>__window__</formCode>
-            <settingsParts>ObjectActions</settingsParts>
             <settingsParts>ObjectFilter</settingsParts>
             <settingsParts>ActionPanel</settingsParts>
             <settingsParts>MassActionPanel</settingsParts>
+            <settingsParts>ObjectActions</settingsParts>
         </listTemplateUsagePoint>
         <listTemplateUsagePoint>
             <classFqn>
@@ -25,9 +25,9 @@
             </classFqn>
             <contentUuid>KontaktnyeLicaFilialov</contentUuid>
             <formCode>__window__</formCode>
-            <settingsParts>ObjectActions</settingsParts>
             <settingsParts>ActionPanel</settingsParts>
             <settingsParts>MassActionPanel</settingsParts>
+            <settingsParts>ObjectActions</settingsParts>
         </listTemplateUsagePoint>
         <listTemplateUsagePoint>
             <classFqn>
@@ -35,9 +35,9 @@
             </classFqn>
             <contentUuid>f69ece49-13f7-1d43-0000-ffffffffc53c4b5e</contentUuid>
             <formCode>__window__</formCode>
-            <settingsParts>ObjectActions</settingsParts>
             <settingsParts>ActionPanel</settingsParts>
             <settingsParts>MassActionPanel</settingsParts>
+            <settingsParts>ObjectActions</settingsParts>
         </listTemplateUsagePoint>
         <listTemplateUsagePoint>
             <classFqn>
@@ -45,9 +45,9 @@
             </classFqn>
             <contentUuid>f69f5177-13f7-1d51-0000-ffffffffc53c4b5e</contentUuid>
             <formCode>__window__</formCode>
-            <settingsParts>ObjectActions</settingsParts>
             <settingsParts>ActionPanel</settingsParts>
             <settingsParts>MassActionPanel</settingsParts>
+            <settingsParts>ObjectActions</settingsParts>
         </listTemplateUsagePoint>
         <listTemplateUsagePoint>
             <classFqn>
@@ -56,9 +56,9 @@
             </classFqn>
             <contentUuid>f663ecb7-13f7-071f-0000-ffffffffc53c4b5e</contentUuid>
             <formCode>__window__</formCode>
-            <settingsParts>ObjectActions</settingsParts>
             <settingsParts>ActionPanel</settingsParts>
             <settingsParts>MassActionPanel</settingsParts>
+            <settingsParts>ObjectActions</settingsParts>
         </listTemplateUsagePoint>
         <listTemplateUsagePoint>
             <classFqn>
@@ -67,9 +67,9 @@
             </classFqn>
             <contentUuid>f666dd41-13f7-07b5-0000-ffffffffc53c4b5e</contentUuid>
             <formCode>__window__</formCode>
-            <settingsParts>ObjectActions</settingsParts>
             <settingsParts>ActionPanel</settingsParts>
             <settingsParts>MassActionPanel</settingsParts>
+            <settingsParts>ObjectActions</settingsParts>
         </listTemplateUsagePoint>
         <listTemplateUsagePoint>
             <classFqn>
@@ -78,9 +78,9 @@
             </classFqn>
             <contentUuid>f6676549-13f7-07c3-0000-ffffffffc53c4b5e</contentUuid>
             <formCode>__window__</formCode>
-            <settingsParts>ObjectActions</settingsParts>
             <settingsParts>ActionPanel</settingsParts>
             <settingsParts>MassActionPanel</settingsParts>
+            <settingsParts>ObjectActions</settingsParts>
         </listTemplateUsagePoint>
         <listTemplateUsagePoint>
             <classFqn>
@@ -89,9 +89,9 @@
             </classFqn>
             <contentUuid>emplsWorkRecords</contentUuid>
             <formCode>__window__</formCode>
-            <settingsParts>ObjectActions</settingsParts>
             <settingsParts>ActionPanel</settingsParts>
             <settingsParts>MassActionPanel</settingsParts>
+            <settingsParts>ObjectActions</settingsParts>
         </listTemplateUsagePoint>
         <listTemplateUsagePoint>
             <classFqn>
@@ -100,10 +100,10 @@
             </classFqn>
             <contentUuid>serviceCallsResponsibleList</contentUuid>
             <formCode>__window__</formCode>
-            <settingsParts>ObjectActions</settingsParts>
             <settingsParts>ObjectFilter</settingsParts>
             <settingsParts>ActionPanel</settingsParts>
             <settingsParts>MassActionPanel</settingsParts>
+            <settingsParts>ObjectActions</settingsParts>
         </listTemplateUsagePoint>
     </listTemplateUsagePoints>
 </list-template>

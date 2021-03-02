@@ -582,8 +582,8 @@
     <xi:include href="scheduler-tasks/ExecuteScriptTask_recalcSumWorkRecords.xml" parse="xml"/>
     <xi:include href="scheduler-tasks/ReceiveMailTask_3.xml" parse="xml"/>
     <mail-processor-rules>
-        <xi:include href="mail_processors/80395b8d-240f-48bf-8fd7-f8e7e5034bce.xml" parse="xml"/>
-        <xi:include href="mail_processors/ce447bbd-a6a2-4243-bbba-8dc9c596dde2.xml" parse="xml"/>
+        <xi:include href="mail_processors/106bfbc6-55bc-4a41-a970-0a2c00f70e56.xml" parse="xml"/>
+        <xi:include href="mail_processors/2534efb1-9c44-4282-ad88-f6330d5e6b6b.xml" parse="xml"/>
     </mail-processor-rules>
     <xi:include href="timer-definition/forNegotiation.xml" parse="xml"/>
     <xi:include href="timer-definition/processingTime.xml" parse="xml"/>
