@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<system-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="abstractEvt" seg-type="metaclasses">
+    <fqn>
+        <id>abstractEvt</id>
+    </fqn>
+    <parent>
+        <id>abstractSysObj</id>
+    </parent>
+    <properties/>
+    <tags/>
+    <responsibilityTransferTableEnabled>true</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/eventDate.xml" parse="xml"/>
+        <xi:include href="attribute/newResponsibleEmployee.xml" parse="xml"/>
+        <xi:include href="attribute/newResponsibleTeam.xml" parse="xml"/>
+        <xi:include href="attribute/newStateCode.xml" parse="xml"/>
+        <xi:include href="attribute/responsibleChanged.xml" parse="xml"/>
+        <xi:include href="attribute/responsibleElapsed.xml" parse="xml"/>
+        <xi:include href="attribute/responsibleEmployee.xml" parse="xml"/>
+        <xi:include href="attribute/responsibleStartTime.xml" parse="xml"/>
+        <xi:include href="attribute/responsibleTeam.xml" parse="xml"/>
+        <xi:include href="attribute/senderTitle.xml" parse="xml"/>
+        <xi:include href="attribute/senderUuid.xml" parse="xml"/>
+        <xi:include href="attribute/stateChanged.xml" parse="xml"/>
+        <xi:include href="attribute/stateCode.xml" parse="xml"/>
+        <xi:include href="attribute/stateElapsed.xml" parse="xml"/>
+        <xi:include href="attribute/stateStartTime.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/eventDate.xml" parse="xml"/>
+        <xi:include href="attribute-override/newResponsibleEmployee.xml" parse="xml"/>
+        <xi:include href="attribute-override/newResponsibleTeam.xml" parse="xml"/>
+        <xi:include href="attribute-override/newStateCode.xml" parse="xml"/>
+        <xi:include href="attribute-override/responsibleChanged.xml" parse="xml"/>
+        <xi:include href="attribute-override/responsibleElapsed.xml" parse="xml"/>
+        <xi:include href="attribute-override/responsibleEmployee.xml" parse="xml"/>
+        <xi:include href="attribute-override/responsibleStartTime.xml" parse="xml"/>
+        <xi:include href="attribute-override/responsibleTeam.xml" parse="xml"/>
+        <xi:include href="attribute-override/senderTitle/senderTitle.xml" parse="xml"/>
+        <xi:include href="attribute-override/senderUuid.xml" parse="xml"/>
+        <xi:include href="attribute-override/stateChanged.xml" parse="xml"/>
+        <xi:include href="attribute-override/stateCode.xml" parse="xml"/>
+        <xi:include href="attribute-override/stateElapsed.xml" parse="xml"/>
+        <xi:include href="attribute-override/stateStartTime.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo/>
+    <attribute-groups/>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>0</searchOrder>
+</system-metaclass>

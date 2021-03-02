@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="workRecord_quickAddAndEditForm$624365bd-dc3c-cd02-9034-37e5167ec934" seg-type="ui-container">
+    <fqn>
+        <id>workRecord</id>
+    </fqn>
+    <code>quickAddAndEditForm$624365bd-dc3c-cd02-9034-37e5167ec934</code>
+    <quickform seg-detach="false" uuid="quickAddAndEditForm$624365bd-dc3c-cd02-9034-37e5167ec934">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Быстрое добавление трудозатрат</caption>
+        <layout seg-detach="false" uuid="3edeff91-8a7b-2609-c020-d0e20b40f55d">
+            <profiles/>
+            <tags/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <attrGroup>DlyaBystroiFormyDobavleniya</attrGroup>
+        <custom-form>QuickForm</custom-form>
+        <show-attr-description>false</show-attr-description>
+        <transitioncases>
+            <id>workRecord</id>
+            <case>workRecord</case>
+        </transitioncases>
+        <code>624365bd-dc3c-cd02-9034-37e5167ec934</code>
+    </quickform>
+</ui>

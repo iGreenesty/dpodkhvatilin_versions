@@ -1,0 +1,1 @@
+return (subject.state == 'closed') ? '' : 'Статус не "Закрыт"'

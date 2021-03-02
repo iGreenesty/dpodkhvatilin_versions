@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="respForChReqs" seg-type="attribute">
+    <code>respForChReqs</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>false</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">Запросы на изменение в ответственности</title>
+    <description lang="ru"/>
+    <type>
+        <code>backBOLinks</code>
+        <property code="backLinkAttr">responsibleEmployee</property>
+        <property code="code">backBOLinks</property>
+        <property code="complexRelation">false</property>
+        <property code="metaClassFqn">changeRequest</property>
+        <property code="permittedTypes">["changeRequest","changeRequest$changeRequest"]</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>boLinksView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>boLinksEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>backBOLinksAccessor</accessor>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>false</systemEditable>
+    <xi:include href="search-settings/respForChReqs_respForChReqs.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <tags>ZaprosyNaIzmenenie</tags>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

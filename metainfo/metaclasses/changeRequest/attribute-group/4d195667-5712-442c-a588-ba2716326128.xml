@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="4d195667-5712-442c-a588-ba2716326128" seg-type="attribute-group">
+    <code>4d195667-5712-442c-a588-ba2716326128</code>
+    <title lang="ru">Ход работы</title>
+    <attribute>planImplemn</attribute>
+    <attribute>rollbackPlan</attribute>
+    <attribute>results</attribute>
+    <order>planImplemn</order>
+    <order>rollbackPlan</order>
+    <order>results</order>
+</group>

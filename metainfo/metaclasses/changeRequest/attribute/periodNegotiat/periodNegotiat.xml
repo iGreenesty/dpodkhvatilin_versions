@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="periodNegotiat" seg-type="attribute">
+    <code>periodNegotiat</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">Период согласования</title>
+    <description lang="ru"/>
+    <type>
+        <code>dtInterval</code>
+        <property code="code">dtInterval</property>
+        <property code="intervalAvailableUnits">["HOUR","MINUTE","DAY"]</property>
+        <property code="needStoreUnits">true</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>dtIntervalView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>dtIntervalEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>flexAccessor</accessor>
+    <defaultValue>
+        <dateTimeInterval interval="HOUR" ms="28800000"/>
+    </defaultValue>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>true</systemEditable>
+    <xi:include href="search-settings/periodNegotiat_periodNegotiat.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <tags>Soglasovaniya</tags>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

@@ -1,0 +1,1 @@
+return (subject.state == 'waitClientAnswer') ? "" : "Статус не ожидает ответа контрагента"

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ParametryNovogoTura" seg-type="attribute-group-override">
+    <code>ParametryNovogoTura</code>
+    <attribute>startHash</attribute>
+    <attribute>cases</attribute>
+    <order>title</order>
+    <order>secGroups</order>
+    <order>required</order>
+    <order>cardClass</order>
+    <order>userLanguage</order>
+    <order>startHash</order>
+    <order>cases</order>
+    <order>jsonSettings</order>
+    <order>buttonNext</order>
+    <order>buttonEnd</order>
+    <order>buttonBack</order>
+    <order>buttonNever</order>
+    <order>buttonLater</order>
+</override>

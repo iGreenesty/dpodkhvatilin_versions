@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_inboxAgreementsTab" seg-type="tab-bars" uuid="tabs_inboxAgreementsTab">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efc99-16fc-174f-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="inboxAgreementsTab">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Входящие</caption>
+        <countObjectsContentUuid>agreementsResponsibleList</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="b3d6af66-da31-39a5-ad79-fb1639077745">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/agreementsResponsibleList/agreementsResponsibleList.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efc9a-16fc-1751-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="outboxAgreementsTab">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Исходящие</caption>
+        <countObjectsContentUuid>agreementsOutList</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="5eaaafd4-24b8-c0c5-6c15-6b428f067495">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/agreementsOutList/agreementsOutList.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efc9b-16fc-1753-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="cpuType" flat="false" seg-detach="true" seg-id="cpuType" seg-type="catalog" withFolders="false" xsi:type="UserCatalog">
+    <title lang="ru">Типы процессоров</title>
+    <itemMetaClassFqn>
+        <id>cpuType</id>
+    </itemMetaClassFqn>
+</catalog>

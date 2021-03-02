@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<editable-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="Otvetstvennyi" seg-type="contents" uuid="Otvetstvennyi">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+    </profiles>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6f0325-16fc-2ed7-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Ответственный</caption>
+    <showCaption>false</showCaption>
+    <attributeGroup>c5aa85ac-594c-4b5f-877c-ec42db15702a</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/ff40c410-1659-6b8f-001d-000000ee8080.xml" parse="xml"/>
+    <resetValuesIfHidden>false</resetValuesIfHidden>
+</editable-properties>

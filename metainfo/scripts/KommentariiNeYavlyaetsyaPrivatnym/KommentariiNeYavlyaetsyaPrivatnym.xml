@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="KommentariiNeYavlyaetsyaPrivatnym" seg-type="scripts">
+    <code>KommentariiNeYavlyaetsyaPrivatnym</code>
+    <title lang="ru">Комментарий не является приватным</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="KommentariiNeYavlyaetsyaPrivatnym.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

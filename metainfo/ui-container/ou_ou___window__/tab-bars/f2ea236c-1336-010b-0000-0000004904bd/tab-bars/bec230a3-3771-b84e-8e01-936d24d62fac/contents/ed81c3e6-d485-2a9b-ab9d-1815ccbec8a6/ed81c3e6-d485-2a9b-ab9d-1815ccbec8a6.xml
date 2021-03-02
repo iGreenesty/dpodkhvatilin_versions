@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ed81c3e6-d485-2a9b-ab9d-1815ccbec8a6" seg-type="contents" uuid="ed81c3e6-d485-2a9b-ab9d-1815ccbec8a6">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efdd1-16fc-17de-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Созданные сотрудниками вложенных отделов</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>task</id>
+    </class>
+    <attributeGroup>a5c0ed8e-efc1-401d-8f88-2da382e409f7</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/101d9199-2d38-dd18-aeb6-80f9b99172d9/101d9199-2d38-dd18-aeb6-80f9b99172d9.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae6794-15a2-1159-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f49da1c0-1619-6fec-000b-000000184e6e">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f49da1f3-1619-711e-000b-000000184e6e">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4fae-168d-120d-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>createdTasks</attr-link-code>
+    <attrs-chain attr-code="childOUs" class-fqn="ou$ou"/>
+    <attrs-chain attr-code="employees" class-fqn="ou"/>
+    <attrs-chain attr-code="createdTasks" class-fqn="employee"/>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="abstractBO" code="author"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="task" code="serviceCall"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="task" code="responsible"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Задача</caption>
+    </add-form>
+    <nested-attr-link-code>parent</nested-attr-link-code>
+    <nested-attr-link-fqn classFqn="ou" code="parent"/>
+    <nested-hierarchy-attr-fqn>ou$ou@childOUs</nested-hierarchy-attr-fqn>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>true</show-related-with-nested>
+</related-objects>

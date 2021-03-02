@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="observers" seg-type="attribute">
+    <code>observers</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">Наблюдатели</title>
+    <description lang="ru">Получают оповещения при смене статуса и о&amp;nbsp;&lt;strong fr-original-style="" style="font-weight: 700;"&gt;неприватных&lt;/strong&gt;&amp;nbsp;комментариях.</description>
+    <type>
+        <code>boLinks</code>
+        <property code="code">boLinks</property>
+        <property code="complexRelation">false</property>
+        <property code="metaClassFqn">employee</property>
+        <property code="permittedTypes">["employee$employee","employee$contactPerson","employee"]</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>boLinksView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>boLinksEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>flexAccessor</accessor>
+    <defaultValue list="true"/>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>true</systemEditable>
+    <xi:include href="search-settings/observers_observers.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

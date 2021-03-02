@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<class xmlns:xi="http://www.w3.org/2001/XInclude" id="blackListSubject" seg-detach="true" seg-id="blackListSubject" seg-type="object-group">
+    <object>
+        <attribute code="code">
+            <string>autoMail</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>blackListSubject</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Как воспользоваться почтой с мобильного?</ru>
+                <en>Как воспользоваться почтой с мобильного?</en>
+                <client>Как воспользоваться почтой с мобильного?</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>blackListSubject$2274501</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>autoMailMeet</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>blackListSubject</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Mail.ru – больше, чем почта. Познакомьтесь с проектами Mail.ru</ru>
+                <en>Mail.ru – больше, чем почта. Познакомьтесь с проектами Mail.ru</en>
+                <client>Mail.ru – больше, чем почта. Познакомьтесь с проектами Mail.ru</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>blackListSubject$2275001</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>autoMailSuperOp</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>blackListSubject</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Узнайте о супервозможностях Почты Mail.ru</ru>
+                <en>Узнайте о супервозможностях Почты Mail.ru</en>
+                <client>Узнайте о супервозможностях Почты Mail.ru</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>blackListSubject$2275002</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>cant_deliver</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>blackListSubject</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Не удается доставить:</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>blackListSubject$2254301</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>delivery_failure</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>blackListSubject</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>DELIVERY FAILURE:</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>blackListSubject$2254302</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>serviceCall$9843310</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>blackListSubject</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>ььтт</ru>
+                <en>ььтт</en>
+                <client>ььтт</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>blackListSubject$2277301</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>undelivered</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>blackListSubject</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Undelivered:</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>blackListSubject$2254304</string>
+        </attribute>
+    </object>
+</class>

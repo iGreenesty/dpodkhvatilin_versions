@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<event xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="userEvent$214" seg-type="user-events">
+    <enabled>true</enabled>
+    <fqn>
+        <id>serviceCall</id>
+    </fqn>
+    <title lang="ru">[Кнопка] Себе в ответственность</title>
+    <uuid>userEvent$214</uuid>
+</event>

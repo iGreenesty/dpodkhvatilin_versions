@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="tasksFollowsList" seg-type="contents" uuid="tasksFollowsList">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efc99-16fc-174c-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Задачи в подписке</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>task</id>
+    </class>
+    <attributeGroup>a5c0ed8e-efc1-401d-8f88-2da382e409f7</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/fa1f9ea6-2236-f8bf-2535-51e6c47a5378/fa1f9ea6-2236-f8bf-2535-51e6c47a5378.xml" parse="xml"/>
+    <xi:include href="tool-panels/c0665ca5-0c4e-64de-d8d5-d4f838c90ce4/c0665ca5-0c4e-64de-d8d5-d4f838c90ce4.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="ff7bff24-1657-fff6-0006-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="ff7bff64-1657-029d-0007-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c51a4-168d-124e-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>taskForSubs</attr-link-code>
+    <attrs-chain attr-code="taskForSubs" class-fqn="employee$employee"/>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="abstractBO" code="author"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="task" code="serviceCall"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="task" code="responsible"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Задача</caption>
+    </add-form>
+    <objectActionsMenu>
+        <menuIconCatalogCode>additionalActions</menuIconCatalogCode>
+        <objectActionsMenuPosition>LEFT</objectActionsMenuPosition>
+        <xi:include href="tool-panels/f1e33879-161e-487f-0045-000001840552/f1e33879-161e-487f-0045-000001840552.xml" parse="xml"/>
+        <useSystemSettings>false</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

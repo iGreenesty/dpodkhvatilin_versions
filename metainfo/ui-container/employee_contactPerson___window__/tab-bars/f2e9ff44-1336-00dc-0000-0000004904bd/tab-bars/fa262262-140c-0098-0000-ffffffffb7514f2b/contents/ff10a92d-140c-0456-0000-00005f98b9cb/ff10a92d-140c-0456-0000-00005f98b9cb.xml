@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ff10a92d-140c-0456-0000-00005f98b9cb" seg-type="contents" uuid="ff10a92d-140c-0456-0000-00005f98b9cb">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6eff09-16fc-1893-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Заявки контактного лица</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>serviceCall</id>
+    </class>
+    <attributeGroup>DlyaKartochkiSotrudnika-kontragenta(rasshirennaya)</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/67ea3c3f-bb13-4bf8-b0c0-cab4a5f78eae/67ea3c3f-bb13-4bf8-b0c0-cab4a5f78eae.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae667a-15a2-109c-0000-000001c8b871/f6ae667a-15a2-109c-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f3255920-1695-aa6c-003d-000000ffc2f3">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f325597d-1695-ab19-003d-000000ffc2f3">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c5068-168d-121b-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>serviceCalls</attr-link-code>
+    <attrs-chain attr-code="serviceCalls" class-fqn="employee$contactPerson"/>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="serviceCall" code="priority"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="serviceCall" code="responsible"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="serviceCall" code="metaClass"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="serviceCall" code="createUp"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="serviceCall" code="service"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="serviceCall" code="agreement"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Заявка</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

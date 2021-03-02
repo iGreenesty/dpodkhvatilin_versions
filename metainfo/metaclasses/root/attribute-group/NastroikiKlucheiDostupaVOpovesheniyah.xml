@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="NastroikiKlucheiDostupaVOpovesheniyah" seg-type="attribute-group">
+    <code>NastroikiKlucheiDostupaVOpovesheniyah</code>
+    <title lang="ru">Настройки ключей доступа в оповещениях</title>
+    <attribute>keyNotLogin</attribute>
+    <attribute>keyReusable</attribute>
+    <attribute>keyLifesDays</attribute>
+</group>

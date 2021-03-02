@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fdaf4322-1417-014b-0000-ffffffffffdd2d07" seg-type="contents" uuid="fdaf4322-1417-014b-0000-ffffffffffdd2d07">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+    </profiles>
+    <tags>
+        <tag>Zadachi</tag>
+    </tags>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef9e0-16fc-1620-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="en">Tasks</caption>
+    <caption lang="ru">Задачи</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>task</id>
+    </class>
+    <attributeGroup>c52d4bf6-3c5c-4807-ae07-bc8f3c20a2fa</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/fa9da169-141e-0086-0000-000022544323/fa9da169-141e-0086-0000-000022544323.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae67fb-15a2-11c5-0000-000001c8b871/f6ae67fb-15a2-11c5-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f6ae67fb-15a2-11c6-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f6ae67fb-15a2-11c7-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4f07-168d-11dd-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>tasks</attr-link-code>
+    <attrs-chain attr-code="tasks" class-fqn="serviceCall"/>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="task" code="state"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="task" code="responsible"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <add-form>
+        <caption lang="en">Добавление связи с объектом класса Задача</caption>
+        <caption lang="ru">Добавление связи с объектом класса Задача</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

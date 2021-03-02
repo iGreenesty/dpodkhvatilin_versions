@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="f694176f-13f7-1cc5-0000-ffffffffc53c4b5e" seg-type="tab-bars" uuid="f694176f-13f7-1cc5-0000-ffffffffc53c4b5e">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efe26-16fc-181b-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="f694176e-13f7-1cc3-0000-ffffffffc53c4b5e">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Заявки</caption>
+        <countObjectsContentUuid>f69d662e-13f7-1d24-0000-ffffffffc53c4b5e</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="f694176f-13f7-1cc4-0000-ffffffffc53c4b5e">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f69d662e-13f7-1d24-0000-ffffffffc53c4b5e/f69d662e-13f7-1d24-0000-ffffffffc53c4b5e.xml" parse="xml"/>
+            <xi:include href="tab-bars/tabs_byState/tabs_byState.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efe26-16fc-181d-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="f694327e-13f7-1cc8-0000-ffffffffc53c4b5e">
+        <profiles/>
+        <tags>
+            <tag>Zadachi</tag>
+        </tags>
+        <caption lang="ru">Задачи</caption>
+        <countObjectsContentUuid>f69e666a-13f7-1d35-0000-ffffffffc53c4b5e</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="f694327e-13f7-1cc9-0000-ffffffffc53c4b5e">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f69e666a-13f7-1d35-0000-ffffffffc53c4b5e/f69e666a-13f7-1d35-0000-ffffffffc53c4b5e.xml" parse="xml"/>
+            <xi:include href="tab-bars/tabs_byStates/tabs_byStates.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efe27-16fc-181f-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="f6943ff4-13f7-1ccb-0000-ffffffffc53c4b5e">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+            <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+            <profile>SpecialistInProblems</profile>
+        </profiles>
+        <tags>
+            <tag>Problemy</tag>
+        </tags>
+        <caption lang="ru">Проблемы</caption>
+        <countObjectsContentUuid>f69ece49-13f7-1d43-0000-ffffffffc53c4b5e</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="f6943ff5-13f7-1ccc-0000-ffffffffc53c4b5e">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f69ece49-13f7-1d43-0000-ffffffffc53c4b5e/f69ece49-13f7-1d43-0000-ffffffffc53c4b5e.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efe27-16fc-1821-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="f69459c6-13f7-1cce-0000-ffffffffc53c4b5e">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+            <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+            <profile>SpecialistInChangeRequests</profile>
+        </profiles>
+        <tags>
+            <tag>ZaprosyNaIzmenenie</tag>
+        </tags>
+        <caption lang="ru">Запросы на изменение</caption>
+        <countObjectsContentUuid>f69f5177-13f7-1d51-0000-ffffffffc53c4b5e</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="f69459c7-13f7-1ccf-0000-ffffffffc53c4b5e">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f69f5177-13f7-1d51-0000-ffffffffc53c4b5e/f69f5177-13f7-1d51-0000-ffffffffc53c4b5e.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efe28-16fc-1823-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

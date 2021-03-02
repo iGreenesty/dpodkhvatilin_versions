@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="teamList" seg-type="report-parameter">
+    <code>teamList</code>
+    <title>Или выберите конкретные команды (задачи без персональной ответственности)</title>
+    <type>boLinks</type>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="anyType">
+        <date xsi:nil="true"/>
+    </value>
+    <metaClassFqn>team</metaClassFqn>
+    <visible>true</visible>
+    <overrided>false</overrided>
+    <params>
+        <entry>
+            <key>attrGroupCode</key>
+            <value>c561db88-b310-46cd-8e6c-d72d9920fa30</value>
+        </entry>
+    </params>
+    <required>false</required>
+</parameter>

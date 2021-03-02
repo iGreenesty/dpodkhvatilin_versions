@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<toolPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="67ea3c3f-bb13-4bf8-b0c0-cab4a5f78eae" seg-type="tool-panels" uuid="67ea3c3f-bb13-4bf8-b0c0-cab4a5f78eae">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="fb4a1f78-15ee-da86-000e-000001ded46d">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <advlist-presentation-select seg-detach="false" uuid="fb4a1f78-15ee-da87-000e-000001ded46d">
+            <profiles/>
+            <tags/>
+            <appliedToType>currentObject</appliedToType>
+            <params/>
+            <presentationType>default</presentationType>
+        </advlist-presentation-select>
+        <xi:include href="tools/saveAdvlistPrs_fb4a1f78-15ee-da88-000e-000001ded46d.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="1b8380f1-42c0-ab2b-f915-4d632001ced5">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/showAdvlistSort_fb4a1f78-15ee-da8a-000e-000001ded46d.xml" parse="xml"/>
+        <xi:include href="tools/showAdvlistFilter_fb4a1f78-15ee-da8b-000e-000001ded46d.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="fb4a1f78-15ee-da89-000e-000001ded46d">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/exportAdvlist_fb4a1f78-15ee-da8c-000e-000001ded46d.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="fb4a1f78-15ee-da8d-000e-000001ded46d">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/refresh_fb4a1f78-15ee-da90-000e-000001ded46d.xml" parse="xml"/>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</toolPanel>

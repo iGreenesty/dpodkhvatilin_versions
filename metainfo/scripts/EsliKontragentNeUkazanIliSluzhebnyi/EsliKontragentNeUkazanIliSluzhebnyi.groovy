@@ -1,0 +1,1 @@
+return (subject.clientEmployee == null || subject.clientEmployee.lastName == 'Служебный')

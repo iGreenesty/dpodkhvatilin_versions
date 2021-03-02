@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="userEvent1cf55970-3aa2-428e-aeb7-6680e007706b" enabled="true" group="userEvent" seg-detach="true" seg-id="userEvent1cf55970-3aa2-428e-aeb7-6680e007706b" seg-type="marker-declarations">
+    <title lang="ru">Генерация пароля</title>
+    <attributes>userEvent$204</attributes>
+</marker-declaration>

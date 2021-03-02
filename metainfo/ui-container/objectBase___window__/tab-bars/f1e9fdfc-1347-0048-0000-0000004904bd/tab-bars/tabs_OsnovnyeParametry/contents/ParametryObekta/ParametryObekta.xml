@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ParametryObekta" seg-type="contents" uuid="ParametryObekta">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efab4-16fc-167e-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Параметры объекта</caption>
+    <showCaption>false</showCaption>
+    <attributeGroup>ParametryObekta</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/8fc67489-d85e-ceed-5922-ce1c7a519205.xml" parse="xml"/>
+</properties>

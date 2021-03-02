@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="objectNumber_objectNumber" seg-type="search-settings">
+    <simpleSearchableForLicensed>true</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>false</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>false</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>false</extendedSearchableForLicensed>
+    <searchAlias lang="ru"/>
+    <searchAnalizer>ftsNoAnalyzer</searchAnalizer>
+    <searchBoost>2.0</searchBoost>
+    <code>objectNumber</code>
+    <declaredMetaClass>problem</declaredMetaClass>
+    <title lang="ru">Номер1</title>
+    <title>Номер</title>
+    <attrCode>objectNumber</attrCode>
+</searchSetting>

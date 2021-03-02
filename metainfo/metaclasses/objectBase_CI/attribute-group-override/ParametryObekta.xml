@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ParametryObekta" seg-type="attribute-group-override">
+    <code>ParametryObekta</code>
+    <attribute>producer</attribute>
+    <attribute>model</attribute>
+    <attribute>description</attribute>
+    <attribute>Price</attribute>
+    <attribute>serialNumber</attribute>
+    <attribute>inventoryNumbe</attribute>
+    <order>producer</order>
+    <order>model</order>
+    <order>description</order>
+    <order>Price</order>
+    <order>serialNumber</order>
+    <order>inventoryNumbe</order>
+</override>

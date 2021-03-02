@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="15f1dfef-69c0-418b-bd56-acaeac310688" licensed="true" seg-detach="true" seg-id="15f1dfef-69c0-418b-bd56-acaeac310688" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>a3d5fa33-7781-49d0-b33d-b43a5e2d03f8</roles>
+    <title lang="ru">Выполнивший работу</title>
+</security-profile>

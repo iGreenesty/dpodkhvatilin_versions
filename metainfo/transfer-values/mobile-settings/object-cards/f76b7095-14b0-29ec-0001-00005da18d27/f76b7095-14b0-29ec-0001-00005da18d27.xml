@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<object-card xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f76b7095-14b0-29ec-0001-00005da18d27" seg-type="object-cards" uuid="f76b7095-14b0-29ec-0001-00005da18d27">
+    <profiles/>
+    <tags/>
+    <cases>
+        <case>
+            <id>employee</id>
+            <case>employee</case>
+        </case>
+    </cases>
+    <contents>
+        <xi:include href="contents/f76b7095-14b0-29ec-0001-00005da18d27/f76b7095-14b0-29ec-0001-00005da18d27.xml" parse="xml"/>
+    </contents>
+    <comments>
+        <enabled>false</enabled>
+    </comments>
+    <files>
+        <enabled>false</enabled>
+    </files>
+    <xi:include href="object-actions-settings/object-actions-settings.xml" parse="xml"/>
+    <objectCaption>title</objectCaption>
+    <quickStateChangeAvailable>true</quickStateChangeAvailable>
+    <workflow useAvailableStates="false"/>
+</object-card>

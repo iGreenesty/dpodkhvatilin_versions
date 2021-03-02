@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="cc65b1ba-19c5-47b4-80bd-ab7462e285da" seg-type="attribute-group">
+    <code>cc65b1ba-19c5-47b4-80bd-ab7462e285da</code>
+    <title lang="ru">Общие сведения</title>
+    <attribute>head</attribute>
+    <attribute>recipientAgreements</attribute>
+    <attribute>parent</attribute>
+    <order>head</order>
+    <order>recipientAgreements</order>
+    <order>parent</order>
+</group>

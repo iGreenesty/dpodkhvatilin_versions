@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_itOnOwn" seg-type="tab-bars" uuid="tabs_itOnOwn">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efdd7-16fc-17ed-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="itOnOwn">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+            <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        </profiles>
+        <tags>
+            <tag>ITaktivy</tag>
+        </tags>
+        <caption lang="ru">ИТ-активы во владении</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="fe718fdb-af42-7ab7-9a3c-f46c0101fc6a">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/itOnOwnList/itOnOwnList.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efdd7-16fc-17ef-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="itOnUse">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+            <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        </profiles>
+        <tags>
+            <tag>ITaktivy</tag>
+        </tags>
+        <caption lang="ru">ИТ-активы в использовании</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="8b165e61-1a5b-f4e7-649b-3958da18fcd3">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/itOnUseList/itOnUseList.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efdd8-16fc-17f1-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<access-matrix xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="access-matrix" seg-type="access-matrix">
+    <xi:include href="elements/CommentAdd_4ed7c153-8211-4e09-a317-03ba865c93a1.xml" parse="xml"/>
+    <xi:include href="elements/CommentView_4ed7c153-8211-4e09-a317-03ba865c93a1.xml" parse="xml"/>
+    <xi:include href="elements/CommentViewAuthor_4ed7c153-8211-4e09-a317-03ba865c93a1.xml" parse="xml"/>
+    <xi:include href="elements/ViewObjectCard_4ed7c153-8211-4e09-a317-03ba865c93a1.xml" parse="xml"/>
+    <xi:include href="elements/exportAdvlist_51da8cfb-cfd8-4507-95a0-5c47eae79976.xml" parse="xml"/>
+    <xi:include href="elements/ViewObjectCard_51da8cfb-cfd8-4507-95a0-5c47eae79976.xml" parse="xml"/>
+    <xi:include href="elements/viewRestAttributes_51da8cfb-cfd8-4507-95a0-5c47eae79976.xml" parse="xml"/>
+    <xi:include href="elements/CommentViewAuthor_79eaf472-97be-46e3-b835-df2058306f2f.xml" parse="xml"/>
+    <xi:include href="elements/CommentView_866028cf-6f06-4617-a76b-8a98f01effbf.xml" parse="xml"/>
+    <xi:include href="elements/exportAdvlist_866028cf-6f06-4617-a76b-8a98f01effbf.xml" parse="xml"/>
+    <xi:include href="elements/FileView_866028cf-6f06-4617-a76b-8a98f01effbf.xml" parse="xml"/>
+    <xi:include href="elements/PrivateCommentView_866028cf-6f06-4617-a76b-8a98f01effbf.xml" parse="xml"/>
+    <xi:include href="elements/ViewObjectCard_866028cf-6f06-4617-a76b-8a98f01effbf.xml" parse="xml"/>
+    <xi:include href="elements/viewRestAttributes_866028cf-6f06-4617-a76b-8a98f01effbf.xml" parse="xml"/>
+    <xi:include href="elements/exportAdvlist_9ad6df49-3d63-401b-9f62-8be204a5952d.xml" parse="xml"/>
+    <xi:include href="elements/viewRestAttributes_9ad6df49-3d63-401b-9f62-8be204a5952d.xml" parse="xml"/>
+    <xi:include href="elements/ChangeObjectType_c3878215-3a21-497d-a606-8854503ead1a.xml" parse="xml"/>
+    <xi:include href="elements/CopyObject_c3878215-3a21-497d-a606-8854503ead1a.xml" parse="xml"/>
+</access-matrix>

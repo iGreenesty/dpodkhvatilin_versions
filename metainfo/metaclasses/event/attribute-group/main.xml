@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="main" seg-type="attribute-group">
+    <code>main</code>
+    <title lang="ru">Для списков</title>
+    <attribute>eventDate</attribute>
+    <attribute>senderTitle</attribute>
+    <attribute>eventMessages</attribute>
+    <order>eventDate</order>
+    <order>senderTitle</order>
+    <order>eventMessages</order>
+</group>

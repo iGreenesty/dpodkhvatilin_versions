@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="3d84129a-0ae4-4801-be17-7fba3f2b99aa" seg-type="attribute-group">
+    <code>3d84129a-0ae4-4801-be17-7fba3f2b99aa</code>
+    <title lang="ru">Список</title>
+    <attribute>creationDate</attribute>
+    <attribute>author</attribute>
+    <attribute>description</attribute>
+    <attribute>cabEmployee</attribute>
+    <attribute>period</attribute>
+    <attribute>state</attribute>
+    <attribute>deadLine</attribute>
+    <attribute>dateEnd</attribute>
+    <order>creationDate</order>
+    <order>author</order>
+    <order>description</order>
+    <order>cabEmployee</order>
+    <order>period</order>
+    <order>state</order>
+    <order>deadLine</order>
+    <order>dateEnd</order>
+</group>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ecc00b0d-ee8b-4b0b-a2f4-48d180eb9137" seg-type="attribute-group">
+    <code>ecc00b0d-ee8b-4b0b-a2f4-48d180eb9137</code>
+    <title lang="ru">Учет времени</title>
+    <attribute>creationDate</attribute>
+    <attribute>employee</attribute>
+    <attribute>time</attribute>
+    <attribute>state</attribute>
+    <order>creationDate</order>
+    <order>employee</order>
+    <order>time</order>
+    <order>state</order>
+</group>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="6c4f0dc1-1cbb-4b70-a48a-45917d3e3c98" licensed="false" seg-detach="true" seg-id="6c4f0dc1-1cbb-4b70-a48a-45917d3e3c98" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>01c9715a-16ea-4cdf-9d0c-5d6d5d75bce8</roles>
+    <title lang="ru">Руководитель отдела-контрагента (нелиц.)</title>
+</security-profile>

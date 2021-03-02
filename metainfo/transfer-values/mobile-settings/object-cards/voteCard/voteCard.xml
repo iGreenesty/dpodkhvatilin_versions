@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<object-card xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="voteCard" seg-type="object-cards" uuid="voteCard">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>b1c02e2f-298e-48aa-94ed-056a227102bd</profile>
+        <profile>d9275a1c-fee4-47ee-9226-6e2aad82cf25</profile>
+    </profiles>
+    <tags>
+        <tag>Soglasovaniya</tag>
+    </tags>
+    <cases/>
+    <class>
+        <id>vote</id>
+    </class>
+    <contents>
+        <xi:include href="contents/mainInfo/mainInfo.xml" parse="xml"/>
+    </contents>
+    <comments>
+        <enabled>false</enabled>
+    </comments>
+    <files>
+        <enabled>false</enabled>
+    </files>
+    <xi:include href="object-actions-settings/object-actions-settings.xml" parse="xml"/>
+    <objectCaption>title</objectCaption>
+    <quickStateChangeAvailable>true</quickStateChangeAvailable>
+    <workflow useAvailableStates="false">
+        <xi:include href="transition/registered-closed.xml" parse="xml"/>
+        <xi:include href="transition/registered-accepted.xml" parse="xml"/>
+    </workflow>
+</object-card>

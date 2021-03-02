@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="KomplektuushiiSpisok" seg-type="contents" uuid="KomplektuushiiSpisok">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efd26-16fc-177c-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Комплектующий список</caption>
+    <showCaption>false</showCaption>
+    <case>
+        <id>objectBase</id>
+        <case>DVDDrive</case>
+    </case>
+    <case>
+        <id>objectBase</id>
+        <case>PowerUnit</case>
+    </case>
+    <case>
+        <id>objectBase</id>
+        <case>HDD</case>
+    </case>
+    <case>
+        <id>objectBase</id>
+        <case>Card</case>
+    </case>
+    <case>
+        <id>objectBase</id>
+        <case>Mainboard</case>
+    </case>
+    <case>
+        <id>objectBase</id>
+        <case>RAM</case>
+    </case>
+    <case>
+        <id>objectBase</id>
+        <case>CPU</case>
+    </case>
+    <case>
+        <id>objectBase</id>
+        <case>Netcard</case>
+    </case>
+    <case>
+        <id>objectBase</id>
+        <case>universalCI</case>
+    </case>
+    <attributeGroup>115ece92-26d8-4596-b3c6-00bd5ef31412</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/cddcbe16-3ec8-61fa-1b3a-f3dc38e98b36/cddcbe16-3ec8-61fa-1b3a-f3dc38e98b36.xml" parse="xml"/>
+    <xi:include href="tool-panels/1e2b7005-fb51-3fe1-8c7c-549773626c42.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f156662b-161e-6fee-0037-000001840552">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f156665d-161e-7088-0037-000001840552">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4db0-168d-1198-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>childBO</attr-link-code>
+    <attrs-chain attr-code="childBO" class-fqn="objectBase$Hardware"/>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="objectBase$CI" code="owner"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="abstractBO" code="author"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="objectBase$CI" code="users"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Объект CMDB</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="fa4d0490-5d22-4ad5-ade1-8e1398ff73c0" licensed="true" seg-detach="true" seg-id="fa4d0490-5d22-4ad5-ade1-8e1398ff73c0" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>KB_ResponsibleEmployee</roles>
+    <title lang="ru">Ответственный</title>
+</security-profile>

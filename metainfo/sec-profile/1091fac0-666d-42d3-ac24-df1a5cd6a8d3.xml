@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="1091fac0-666d-42d3-ac24-df1a5cd6a8d3" licensed="true" seg-detach="true" seg-id="1091fac0-666d-42d3-ac24-df1a5cd6a8d3" seg-type="sec-profile" versioning="false">
+    <groups>C1_specialist</groups>
+    <roles>ServiceCallAuthor</roles>
+    <title lang="ru">Специалист-автор</title>
+</security-profile>

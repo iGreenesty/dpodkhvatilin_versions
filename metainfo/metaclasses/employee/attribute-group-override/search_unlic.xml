@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="search_unlic" seg-type="attribute-group-override">
+    <code>search_unlic</code>
+    <title lang="ru">Атрибуты результатов поиска для нелицензированных пользователей</title>
+    <attribute>email</attribute>
+    <attribute>phonesIndex</attribute>
+    <order>title</order>
+    <order>email</order>
+    <order>phonesIndex</order>
+</override>

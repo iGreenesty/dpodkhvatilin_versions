@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="parent" seg-type="form-parameters">
+    <attrs-for-date-time-restriction-script/>
+    <attrs-in-cof-script/>
+    <attrs-used-in-filtration>
+        <attribute>isInternal</attribute>
+    </attrs-used-in-filtration>
+    <code>parent</code>
+    <complexRelation>false</complexRelation>
+    <computable-on-form>false</computable-on-form>
+    <default-by-script>false</default-by-script>
+    <edit-presentaion>
+        <code>boSelect</code>
+    </edit-presentaion>
+    <editable>true</editable>
+    <is-filtered-by-script>true</is-filtered-by-script>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <is-hidden-when-no-possible-values>false</is-hidden-when-no-possible-values>
+    <required>true</required>
+    <script-for-filtration>SCRIPTSD4002179</script-for-filtration>
+    <title lang="ru">В раздел</title>
+    <type>
+        <code>object</code>
+        <property code="permittedTypes">["KB$KBSectionProt","KB$KBSectionOpen","KB$KBSubsectionOp","KB$KBSubsectionPr"]</property>
+        <property code="metaClassFqn">KB</property>
+    </type>
+    <view-presentaion>
+        <code>boRreference</code>
+    </view-presentaion>
+</parameter>

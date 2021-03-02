@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<editable-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="SgenerirovatParol" seg-type="contents" uuid="SgenerirovatParol">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="28746183-49f0-dbd4-bb57-0fb53d6b4b9f">
+        <profiles/>
+        <tags/>
+        <elements seg-detach="false" uuid="55f19984-1103-63a4-e455-0d41eb7cda3c">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="0b696408-6bc9-d717-f230-012504337d3b">
+                <profiles/>
+                <tags/>
+                <properties>
+                    <entry>
+                        <key>isAttributeOfRelatedObject</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>isLinkToParent</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>attrTypeCode</key>
+                        <value>string</value>
+                    </entry>
+                    <entry>
+                        <key>conditionCode</key>
+                        <value>notNull</value>
+                    </entry>
+                    <entry>
+                        <key>attributeFqn</key>
+                        <value>employee@email</value>
+                    </entry>
+                </properties>
+            </elements>
+        </elements>
+        <elements seg-detach="false" uuid="2c4a3a3d-5d41-21b3-6bd4-9035455428e7">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="8ab2bb48-ff61-ea61-a680-e3a61cfa688a">
+                <profiles/>
+                <tags/>
+                <properties>
+                    <entry>
+                        <key>isAttributeOfRelatedObject</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>isLinkToParent</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>attrTypeCode</key>
+                        <value>string</value>
+                    </entry>
+                    <entry>
+                        <key>conditionCode</key>
+                        <value>notNull</value>
+                    </entry>
+                    <entry>
+                        <key>attributeFqn</key>
+                        <value>employee@login</value>
+                    </entry>
+                </properties>
+            </elements>
+        </elements>
+    </visibilityCondition>
+    <caption lang="ru">Сгенерировать пароль</caption>
+    <showCaption>false</showCaption>
+    <attributeGroup>21da4774-261b-4a09-853e-ad0bda09e92b</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/f1bdb08c-16ff-1a59-0006-000014127783.xml" parse="xml"/>
+    <resetValuesIfHidden>true</resetValuesIfHidden>
+</editable-properties>

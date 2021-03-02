@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<system-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="root" seg-type="metaclasses">
+    <fqn>
+        <id>root</id>
+    </fqn>
+    <parent>
+        <id>abstractBO</id>
+    </parent>
+    <title lang="en">Company</title>
+    <title lang="ru">Компания</title>
+    <description lang="en"/>
+    <description lang="ru"/>
+    <properties/>
+    <tags/>
+    <responsibilityTransferTableEnabled>true</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/head.xml" parse="xml"/>
+        <xi:include href="attribute/metaClass.xml" parse="xml"/>
+        <xi:include href="attribute/disabledEA/disabledEA.xml" parse="xml"/>
+        <xi:include href="attribute/EAuTs/EAuTs.xml" parse="xml"/>
+        <xi:include href="attribute/ECoScA/ECoScA.xml" parse="xml"/>
+        <xi:include href="attribute/ECoScCs/ECoScCs.xml" parse="xml"/>
+        <xi:include href="attribute/ECoScNc/ECoScNc.xml" parse="xml"/>
+        <xi:include href="attribute/ECoScSl/ECoScSl.xml" parse="xml"/>
+        <xi:include href="attribute/EEmScBr/EEmScBr.xml" parse="xml"/>
+        <xi:include href="attribute/EEmTBr/EEmTBr.xml" parse="xml"/>
+        <xi:include href="attribute/EEmVBr/EEmVBr.xml" parse="xml"/>
+        <xi:include href="attribute/EEmWrRj/EEmWrRj.xml" parse="xml"/>
+        <xi:include href="attribute/EHreScDl/EHreScDl.xml" parse="xml"/>
+        <xi:include href="attribute/EHreTDl/EHreTDl.xml" parse="xml"/>
+        <xi:include href="attribute/EHreVDl/EHreVDl.xml" parse="xml"/>
+        <xi:include href="attribute/emailNotify/emailNotify.xml" parse="xml"/>
+        <xi:include href="attribute/emailSignature/emailSignature.xml" parse="xml"/>
+        <xi:include href="attribute/EReCrCs/EReCrCs.xml" parse="xml"/>
+        <xi:include href="attribute/EReCrNt/EReCrNt.xml" parse="xml"/>
+        <xi:include href="attribute/EReCrNv/EReCrNv.xml" parse="xml"/>
+        <xi:include href="attribute/EReKaM/EReKaM.xml" parse="xml"/>
+        <xi:include href="attribute/EReKsNa/EReKsNa.xml" parse="xml"/>
+        <xi:include href="attribute/ERePCs/ERePCs.xml" parse="xml"/>
+        <xi:include href="attribute/ERePNc/ERePNc.xml" parse="xml"/>
+        <xi:include href="attribute/ERePNt/ERePNt.xml" parse="xml"/>
+        <xi:include href="attribute/EReScCs/EReScCs.xml" parse="xml"/>
+        <xi:include href="attribute/EReScDl30/EReScDl30.xml" parse="xml"/>
+        <xi:include href="attribute/EReScNc/EReScNc.xml" parse="xml"/>
+        <xi:include href="attribute/EReTCs/EReTCs.xml" parse="xml"/>
+        <xi:include href="attribute/EReTDl30/EReTDl30.xml" parse="xml"/>
+        <xi:include href="attribute/EReTNc/EReTNc.xml" parse="xml"/>
+        <xi:include href="attribute/EReVDl30/EReVDl30.xml" parse="xml"/>
+        <xi:include href="attribute/icon/icon.xml" parse="xml"/>
+        <xi:include href="attribute/isAutoMails/isAutoMails.xml" parse="xml"/>
+        <xi:include href="attribute/isSCFrNotReg/isSCFrNotReg.xml" parse="xml"/>
+        <xi:include href="attribute/keyInsert/keyInsert.xml" parse="xml"/>
+        <xi:include href="attribute/keyLifesDays/keyLifesDays.xml" parse="xml"/>
+        <xi:include href="attribute/keyNotLogin/keyNotLogin.xml" parse="xml"/>
+        <xi:include href="attribute/keyReusable/keyReusable.xml" parse="xml"/>
+        <xi:include href="attribute/notifUnregist/notifUnregist.xml" parse="xml"/>
+        <xi:include href="attribute/NScClDays/NScClDays.xml" parse="xml"/>
+        <xi:include href="attribute/NScWDays/NScWDays.xml" parse="xml"/>
+        <xi:include href="attribute/responsDef/responsDef.xml" parse="xml"/>
+        <xi:include href="attribute/responsDef_em/responsDef_em.xml" parse="xml"/>
+        <xi:include href="attribute/responsDef_te/responsDef_te.xml" parse="xml"/>
+        <xi:include href="attribute/SCResolveTime/SCResolveTime.xml" parse="xml"/>
+        <xi:include href="attribute/serviceTime/serviceTime.xml" parse="xml"/>
+        <xi:include href="attribute/smsNotify/smsNotify.xml" parse="xml"/>
+        <xi:include href="attribute/surveyForm/surveyForm.xml" parse="xml"/>
+        <xi:include href="attribute/textMarkFive/textMarkFive.xml" parse="xml"/>
+        <xi:include href="attribute/textMarkFour/textMarkFour.xml" parse="xml"/>
+        <xi:include href="attribute/textMarkOne/textMarkOne.xml" parse="xml"/>
+        <xi:include href="attribute/textMarkThree/textMarkThree.xml" parse="xml"/>
+        <xi:include href="attribute/textMarkTwo/textMarkTwo.xml" parse="xml"/>
+        <xi:include href="attribute/timeZone/timeZone.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/head.xml" parse="xml"/>
+        <xi:include href="attribute-override/metaClass.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo/>
+    <attribute-groups>
+        <xi:include href="attribute-group/1240dc81-ff81-40ff-a740-e0907533bd06.xml" parse="xml"/>
+        <xi:include href="attribute-group/1d6ac39a-893e-4dcf-a205-29520d119b3c.xml" parse="xml"/>
+        <xi:include href="attribute-group/279b5a17-2903-4c46-a1ef-a165068e550c.xml" parse="xml"/>
+        <xi:include href="attribute-group/41f975c7-6a0d-4b79-a05c-dfba3a16b7d6.xml" parse="xml"/>
+        <xi:include href="attribute-group/58a71e8d-195c-430a-8618-cedf1a9db338.xml" parse="xml"/>
+        <xi:include href="attribute-group/690b8b89-fbcd-45f2-8487-6b9cf14a9773.xml" parse="xml"/>
+        <xi:include href="attribute-group/80724be9-53d9-445a-84c8-f8021938a3b2.xml" parse="xml"/>
+        <xi:include href="attribute-group/84b801ec-6c8f-40f6-ad54-6db94df9b28b.xml" parse="xml"/>
+        <xi:include href="attribute-group/cfed9cd4-1d20-4470-9c7e-868b93bec79f.xml" parse="xml"/>
+        <xi:include href="attribute-group/d293cf27-899e-48e2-aa95-970ea90fe6d7.xml" parse="xml"/>
+        <xi:include href="attribute-group/df895ac7-223b-4aa7-836a-ae6b0e06a393.xml" parse="xml"/>
+        <xi:include href="attribute-group/ff97c90e-40ed-4723-843d-d819b91cc8a6.xml" parse="xml"/>
+        <xi:include href="attribute-group/IspolzovanieKluchaDostupaVOpovesheniyah.xml" parse="xml"/>
+        <xi:include href="attribute-group/NastroikiKlucheiDostupaVOpovesheniyah.xml" parse="xml"/>
+        <xi:include href="attribute-group/ObrabotkaVhodyasheiPochty.xml" parse="xml"/>
+        <xi:include href="attribute-group/Ocenka.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentText_text.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileContent_content.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileDescription_description.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileTitle_title.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>7</searchOrder>
+    <allowPlanVer>false</allowPlanVer>
+    <depthEnv>1</depthEnv>
+</system-metaclass>

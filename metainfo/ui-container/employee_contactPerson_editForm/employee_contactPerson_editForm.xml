@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="employee$contactPerson_editForm" seg-type="ui-container">
+    <fqn>
+        <id>employee</id>
+        <case>contactPerson</case>
+    </fqn>
+    <code>editForm</code>
+    <form seg-detach="false" uuid="f1e9fdfc-1340-0048-0000-0000004904bd">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Форма редактирования</caption>
+        <layout seg-detach="false" uuid="f1e9fdfc-1341-0048-0000-0000004904bd">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f4dd2933-13d4-0027-0000-00002d2daf2e/f4dd2933-13d4-0027-0000-00002d2daf2e.xml" parse="xml"/>
+            <xi:include href="contents/f9987dec-140b-02f5-0000-00003de066fb/f9987dec-140b-02f5-0000-00003de066fb.xml" parse="xml"/>
+            <xi:include href="contents/Fotografiya/Fotografiya.xml" parse="xml"/>
+            <xi:include href="contents/ParametryUchetnoiZapisi/ParametryUchetnoiZapisi.xml" parse="xml"/>
+            <xi:include href="contents/SgenerirovatParol/SgenerirovatParol.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+    </form>
+</ui>

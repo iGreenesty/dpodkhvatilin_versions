@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="47c20d46-685c-4055-94ef-66b443f10125" licensed="false" seg-detach="true" seg-id="47c20d46-685c-4055-94ef-66b443f10125" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>f83cdbd4-1af8-4c6d-9065-a9fb6b8b5e2b</roles>
+    <title lang="ru">Голосующий (нелиц.)</title>
+</security-profile>

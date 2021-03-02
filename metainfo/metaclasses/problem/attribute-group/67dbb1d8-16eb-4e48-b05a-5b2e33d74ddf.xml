@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="67dbb1d8-16eb-4e48-b05a-5b2e33d74ddf" seg-type="attribute-group">
+    <code>67dbb1d8-16eb-4e48-b05a-5b2e33d74ddf</code>
+    <title lang="ru">Для карточки задачи</title>
+    <attribute>objectNumber</attribute>
+    <attribute>creationDate</attribute>
+    <attribute>state</attribute>
+    <attribute>author</attribute>
+    <attribute>description</attribute>
+    <order>objectNumber</order>
+    <order>creationDate</order>
+    <order>state</order>
+    <order>author</order>
+    <order>description</order>
+</group>

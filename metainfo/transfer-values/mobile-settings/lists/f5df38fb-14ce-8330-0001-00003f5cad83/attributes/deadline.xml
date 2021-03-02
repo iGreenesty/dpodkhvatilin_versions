@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="deadline" seg-type="attributes">
+    <code>task@deadline</code>
+    <presentation>with-title</presentation>
+    <uuid>fccb1df3-15eb-85d0-0003-000001ded46d</uuid>
+</attribute>

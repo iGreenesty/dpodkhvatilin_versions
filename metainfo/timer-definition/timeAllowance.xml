@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<timer-definition xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="timeAllowance" seg-type="timer-definition">
+    <code>timeAllowance</code>
+    <title lang="ru">Запас нормативного времени обслуживания</title>
+    <description lang="ru">Счетчик запаса времени обслуживания согласно SLA</description>
+    <target-type>
+        <id>serviceCall</id>
+    </target-type>
+    <time-metric>FLOAT</time-metric>
+    <resolution-time-attribute>resolutionTime</resolution-time-attribute>
+    <enableRecalc>true</enableRecalc>
+    <enableRecalcOnServiceTimeChange>false</enableRecalcOnServiceTimeChange>
+    <time-zone-attribute>timeZone</time-zone-attribute>
+    <service-time-attribute>serviceTime</service-time-attribute>
+    <status-condition>
+        <selected>
+            <metaclass>
+                <id>serviceCall</id>
+            </metaclass>
+            <state>registered</state>
+        </selected>
+        <selected>
+            <metaclass>
+                <id>serviceCall</id>
+            </metaclass>
+            <state>inprogress</state>
+        </selected>
+        <selected>
+            <metaclass>
+                <id>serviceCall</id>
+            </metaclass>
+            <state>resumed</state>
+        </selected>
+        <selectedStatesAsString>[Запрос на обслуживание], [Заявка], [Инцидент] : Новая, В работе, Возобновлена&lt;br&gt;[Обращение] : Новое, В работе, Возобновлена</selectedStatesAsString>
+        <stop-states>
+            <metaclass>
+                <id>serviceCall</id>
+            </metaclass>
+            <state>closed</state>
+        </stop-states>
+        <stopStatesAsString>[Запрос на обслуживание], [Заявка], [Инцидент] : Закрыта&lt;br&gt;[Обращение] : Закрыто</stopStatesAsString>
+    </status-condition>
+    <removed>false</removed>
+    <system>true</system>
+</timer-definition>

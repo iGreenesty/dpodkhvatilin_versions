@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<editable-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="cmdb" seg-type="contents" uuid="cmdb">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+    </profiles>
+    <tags>
+        <tag>ITaktivy</tag>
+    </tags>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6f0326-16fc-2edd-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Связанные ИТ-активы</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>572c1378-8181-48b0-bf6e-0b47a6b511bb</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/f13ccabe-161e-306d-0033-000001840552.xml" parse="xml"/>
+    <resetValuesIfHidden>false</resetValuesIfHidden>
+</editable-properties>

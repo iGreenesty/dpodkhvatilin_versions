@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" code="MoveObject" enabled="true" group="default" seg-detach="true" seg-id="MoveObject" seg-type="sec-actions">
+    <title lang="en">Move object</title>
+    <title lang="ru">Перемещение объекта</title>
+    <attributes>parent</attributes>
+</action>

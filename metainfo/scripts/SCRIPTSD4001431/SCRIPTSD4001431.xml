@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="SCRIPTSD4001431" seg-type="scripts">
+    <code>SCRIPTSD4001431</code>
+    <title lang="ru">Создание задачи из пользовательского действия</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="SCRIPTSD4001431.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

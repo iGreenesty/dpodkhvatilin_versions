@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="b0e24386-5f1f-40ec-aacf-48f1c9948735" enabled="true" group="editAttrs" seg-detach="true" seg-id="b0e24386-5f1f-40ec-aacf-48f1c9948735" seg-type="marker-declarations">
+    <title lang="ru">Для контрагента (нелиц.)</title>
+    <attributes>descriptionRTF</attributes>
+    <attributes>urgency</attributes>
+    <attributes>shortDescr</attributes>
+    <attributes>impact</attributes>
+    <attributes>KEs</attributes>
+</marker-declaration>

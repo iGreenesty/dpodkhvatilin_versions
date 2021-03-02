@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="registered" color="#CC9966" enabled="true" hardcoded="false" seg-detach="true" seg-id="registered" seg-type="state">
+    <title lang="ru">На согласовании</title>
+    <description lang="ru">начальный статус объекта</description>
+    <stateSetting canEdit="false" canView="false" code="voteDate" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Дата голосования</title>
+    </stateSetting>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

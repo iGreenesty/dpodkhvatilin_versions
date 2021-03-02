@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="mobilePhoneNumber_mobilePhoneNumber" seg-type="search-settings">
+    <simpleSearchableForLicensed>true</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>true</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>true</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>true</extendedSearchableForLicensed>
+    <searchAnalizer>ftsNoAnalyzer</searchAnalizer>
+    <searchBoost>2.0</searchBoost>
+    <code>mobilePhoneNumber</code>
+    <declaredMetaClass>employee</declaredMetaClass>
+    <title lang="ru">Мобильный телефон</title>
+    <title>Мобильный телефон</title>
+    <attrCode>mobilePhoneNumber</attrCode>
+</searchSetting>

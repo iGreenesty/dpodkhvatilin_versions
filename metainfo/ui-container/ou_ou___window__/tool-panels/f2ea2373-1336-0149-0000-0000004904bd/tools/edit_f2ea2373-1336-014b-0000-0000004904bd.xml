@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" seg-detach="true" seg-id="edit_f2ea2373-1336-014b-0000-0000004904bd" seg-type="tools" uuid="f2ea2373-1336-014b-0000-0000004904bd" xsi:type="EditTool">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <iconCode>edit_icon</iconCode>
+    <params/>
+    <presentationType>default</presentationType>
+    <action>edit</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Edit</caption>
+    <caption lang="ru">Редактировать</caption>
+    <quickEditForm>quickAddAndEditForm$FormaBystrogoRedaktirovaniyaOtdela</quickEditForm>
+    <useQuickEditForm>true</useQuickEditForm>
+</action>

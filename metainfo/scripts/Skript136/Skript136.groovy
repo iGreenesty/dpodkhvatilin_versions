@@ -1,0 +1,1 @@
+return (subject.recipientAgreements != oldSubject.recipientAgreements) ? '' : "набор получаемых соглашений не изменён"

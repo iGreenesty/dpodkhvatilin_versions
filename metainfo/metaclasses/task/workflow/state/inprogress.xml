@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="inprogress" color="#FFA500" enabled="true" hardcoded="false" responsibleType="EMPLOYEE_AND_TEAM" seg-detach="true" seg-id="inprogress" seg-type="state">
+    <title lang="ru">В работе</title>
+    <description lang="ru"/>
+    <responsible bean="currentResponsibleStrategy"/>
+    <changeResponsibleButtonVisible>true</changeResponsibleButtonVisible>
+    <stateSetting canEdit="false" canView="false" code="dateDecision" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Дата решения</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="postoponeTill" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Отложить до</title>
+    </stateSetting>
+    <preAction code="f761b69f-1412-2291-0000-000001edc7b2" preAction="true" type="SCRIPT">
+        <title lang="ru">Назначает ответственным сотрудником, который сменил статус</title>
+        <property code="script">NaznachaetOtvetstvennymSotrudnikomKotoryiSmenilStatus66</property>
+    </preAction>
+    <preActionsOrder>f761b69f-1412-2291-0000-000001edc7b2</preActionsOrder>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="DlyaBystroiFormyDobavleniya" seg-type="attribute-group">
+    <code>DlyaBystroiFormyDobavleniya</code>
+    <title lang="ru">Для быстрой формы добавления</title>
+    <attribute>employee</attribute>
+    <attribute>timeStr</attribute>
+    <attribute>actualDate</attribute>
+    <attribute>description</attribute>
+    <order>employee</order>
+    <order>timeStr</order>
+    <order>actualDate</order>
+    <order>description</order>
+</group>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="descriptionSC" seg-type="attribute">
+    <code>descriptionSC</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>false</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">Описание</title>
+    <description lang="ru"/>
+    <type>
+        <code>richtext</code>
+        <property code="attrChain">["vote@parent","negotiation@sourceR"]</property>
+        <property code="code">richtext</property>
+        <property code="isSingleObjectLink">true</property>
+        <property code="relatedObjectAttribute">descriptionRTF</property>
+        <property code="relatedObjectHierarchyLevel">0</property>
+        <property code="relatedObjectMetaclass">serviceCall</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>richTextWideView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>richTextEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>attributeOfRelatedObjectAccessor</accessor>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>false</systemEditable>
+    <xi:include href="search-settings/descriptionSC_descriptionSC.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>true</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

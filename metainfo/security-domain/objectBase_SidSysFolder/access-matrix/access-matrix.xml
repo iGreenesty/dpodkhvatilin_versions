@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<access-matrix xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="access-matrix" seg-type="access-matrix">
+    <xi:include href="elements/CommentAdd_9ad6df49-3d63-401b-9f62-8be204a5952d.xml" parse="xml"/>
+    <xi:include href="elements/CommentView_9ad6df49-3d63-401b-9f62-8be204a5952d.xml" parse="xml"/>
+    <xi:include href="elements/EventView_9ad6df49-3d63-401b-9f62-8be204a5952d.xml" parse="xml"/>
+    <xi:include href="elements/exportAdvlist_9ad6df49-3d63-401b-9f62-8be204a5952d.xml" parse="xml"/>
+    <xi:include href="elements/FileAdd_9ad6df49-3d63-401b-9f62-8be204a5952d.xml" parse="xml"/>
+    <xi:include href="elements/FileView_9ad6df49-3d63-401b-9f62-8be204a5952d.xml" parse="xml"/>
+    <xi:include href="elements/PrivateCommentAdd_9ad6df49-3d63-401b-9f62-8be204a5952d.xml" parse="xml"/>
+    <xi:include href="elements/PrivateCommentView_9ad6df49-3d63-401b-9f62-8be204a5952d.xml" parse="xml"/>
+    <xi:include href="elements/ViewObjectCard_9ad6df49-3d63-401b-9f62-8be204a5952d.xml" parse="xml"/>
+    <xi:include href="elements/viewRestAttributes_9ad6df49-3d63-401b-9f62-8be204a5952d.xml" parse="xml"/>
+</access-matrix>

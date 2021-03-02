@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<editable-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="KontragentNeNaiden" seg-type="contents" uuid="KontragentNeNaiden">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+    </profiles>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="db3f0e2f-4eec-aac2-3f37-61557414f60b">
+        <profiles/>
+        <tags/>
+        <elements seg-detach="false" uuid="3b32fec2-ea71-3669-718a-a941fae7ae61">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="af647b12-260f-a6e7-931d-f834cec51cf7">
+                <profiles/>
+                <tags/>
+                <properties>
+                    <entry>
+                        <key>isAttributeOfRelatedObject</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>isLinkToParent</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>attrTypeCode</key>
+                        <value>aggregate</value>
+                    </entry>
+                    <entry>
+                        <key>conditionCode</key>
+                        <value>null</value>
+                    </entry>
+                    <entry>
+                        <key>attributeFqn</key>
+                        <value>serviceCall@client</value>
+                    </entry>
+                </properties>
+            </elements>
+        </elements>
+    </visibilityCondition>
+    <caption lang="ru">Контрагент не найден</caption>
+    <showCaption>false</showCaption>
+    <attributeGroup>KontragentNeNaiden</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/fdd25ed8-16fc-e5f5-0001-0000132f4b3f.xml" parse="xml"/>
+    <resetValuesIfHidden>false</resetValuesIfHidden>
+</editable-properties>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<child-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f4a977cc-13d4-01b9-0000-0000293ea6cd" seg-type="contents" uuid="f4a977cc-13d4-01b9-0000-0000293ea6cd">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efdd6-16fc-17eb-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Сотрудники отдела</caption>
+    <showCaption>true</showCaption>
+    <case>
+        <id>employee</id>
+        <case>employee</case>
+    </case>
+    <attributeGroup>331938b7-76a8-4024-8be7-a21f8e895855</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/f7699232-5198-0120-0001-001957185228/f7699232-5198-0120-0001-001957185228.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae6796-15a2-116e-0000-000001c8b871/f6ae6796-15a2-116e-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f6ae6796-15a2-116f-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f6ae6796-15a2-1170-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="68d1d8a9-eafb-65b7-1da8-593f19055bdc">
+                <profiles/>
+                <tags/>
+                <attrCode>abstractBO@title</attrCode>
+                <attrTitle>ФИО</attrTitle>
+                <ascending>true</ascending>
+            </elements>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4fb0-168d-1214-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <filterRestrictionSettings/>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <show-nested-in-nested>false</show-nested-in-nested>
+</child-objects>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="slmServiceSupplier" enabled="true" seg-detach="true" seg-id="slmServiceSupplier" seg-type="roles" type="SYSTEM">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="snippet">slmServiceSupplierRoleSnippet</property>
+    <title lang="en">Service provider</title>
+    <title lang="ru">Поставщик услуги</title>
+</role>

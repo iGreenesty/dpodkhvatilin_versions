@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-domain xmlns:xi="http://www.w3.org/2001/XInclude" code="slmService" seg-detach="true" seg-id="slmService" seg-type="security-domain">
+    <xi:include href="access-matrix/access-matrix.xml" parse="xml"/>
+    <xi:include href="marker-declarations/32080d4d-0430-4fd4-a199-9a63f82b3bbe.xml" parse="xml"/>
+    <xi:include href="marker-declarations/de21af8d-ff37-46c3-bbf3-707dcbbeb1c8.xml" parse="xml"/>
+    <xi:include href="marker-declarations/editState.xml" parse="xml"/>
+    <xi:include href="sec-actions/MoveObject.xml" parse="xml"/>
+    <xi:include href="roles/slmServiceRecipient.xml" parse="xml"/>
+    <xi:include href="roles/slmServiceResponsible.xml" parse="xml"/>
+    <xi:include href="roles/slmServiceSupplier.xml" parse="xml"/>
+</security-domain>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<toolPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="cddcbe16-3ec8-61fa-1b3a-f3dc38e98b36" seg-type="tool-panels" uuid="cddcbe16-3ec8-61fa-1b3a-f3dc38e98b36">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="074944c9-fe5c-d005-4c27-ad4fcbafbefe">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/add_f1672825-161e-90fa-0039-000001840552.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="f1672825-161e-90f2-0039-000001840552">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <advlist-presentation-select seg-detach="false" uuid="f1672825-161e-90f3-0039-000001840552">
+            <profiles/>
+            <tags/>
+            <appliedToType>currentObject</appliedToType>
+            <params/>
+            <presentationType>default</presentationType>
+        </advlist-presentation-select>
+        <xi:include href="tools/saveAdvlistPrs_f1672825-161e-90f4-0039-000001840552.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="f1672825-161e-90f5-0039-000001840552">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/showAdvlistSort_f1672825-161e-90f6-0039-000001840552.xml" parse="xml"/>
+        <xi:include href="tools/showAdvlistFilter_f1672825-161e-90f7-0039-000001840552.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="0f81e569-2f32-d477-e6ca-e1799efd5bc7">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/link_f1672825-161e-90fb-0039-000001840552.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="f1672825-161e-90f9-0039-000001840552">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/showRemoved_f1672825-161e-90fc-0039-000001840552.xml" parse="xml"/>
+        <xi:include href="tools/exportAdvlist_f1672825-161e-90f8-0039-000001840552.xml" parse="xml"/>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</toolPanel>

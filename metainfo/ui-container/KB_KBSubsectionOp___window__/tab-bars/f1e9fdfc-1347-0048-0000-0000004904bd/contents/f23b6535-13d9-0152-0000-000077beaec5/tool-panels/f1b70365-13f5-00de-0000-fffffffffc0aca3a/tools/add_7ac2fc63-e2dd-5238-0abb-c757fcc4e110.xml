@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<add-from-list xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="add_7ac2fc63-e2dd-5238-0abb-c757fcc4e110" seg-type="tools" uuid="7ac2fc63-e2dd-5238-0abb-c757fcc4e110">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <params/>
+    <presentationType>default</presentationType>
+    <action>add</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Add</caption>
+    <caption lang="ru">Добавить статью</caption>
+    <returnToListAfterAdd>false</returnToListAfterAdd>
+    <useQuickAddForm>false</useQuickAddForm>
+</add-from-list>

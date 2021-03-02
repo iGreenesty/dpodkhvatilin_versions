@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<child-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ffcb005e-13d3-0020-0000-0000293ea6cd" seg-type="contents" uuid="ffcb005e-13d3-0020-0000-0000293ea6cd">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fb409ae5-16fe-3f75-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Отделы верхнего уровня</caption>
+    <showCaption>true</showCaption>
+    <case>
+        <id>ou</id>
+        <case>ou</case>
+    </case>
+    <attributeGroup>c65ca50f-fe28-4e62-bafe-5c063bc76d42</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/f2644492-5197-0233-0001-001118913640/f2644492-5197-0233-0001-001118913640.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae66f1-15a2-10f3-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f6ae66f1-15a2-10f4-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f6ae66f1-15a2-10f5-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c50c1-168d-122f-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="ou" code="head"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <show-nested-in-nested>false</show-nested-in-nested>
+</child-objects>

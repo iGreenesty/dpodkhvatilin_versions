@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f5ef06ae-13f7-0155-0000-ffffffffc53c4b5e" seg-type="contents" uuid="f5ef06ae-13f7-0155-0000-ffffffffc53c4b5e">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fb409ae7-16fe-3f84-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Услуги</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>slmService</id>
+    </class>
+    <attributeGroup>31fec2c9-cefa-4201-b892-1798fe12877d</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/f432a0f2-1439-0278-0000-ffffffffa910b166/f432a0f2-1439-0278-0000-ffffffffa910b166.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae6701-15a2-1102-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f6ae6701-15a2-1103-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f6ae6701-15a2-1104-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c50c2-168d-1234-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="slmService" code="responsible"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+</objects>

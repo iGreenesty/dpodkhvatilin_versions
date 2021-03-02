@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ProverkaChtoAvtorKommentariyaKontragentIliSotrudnikOtdelaKontrag" seg-type="scripts">
+    <code>ProverkaChtoAvtorKommentariyaKontragentIliSotrudnikOtdelaKontrag</code>
+    <title lang="ru">Проверка, что автор комментария контрагент или сотрудник отдела контрагента</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="ProverkaChtoAvtorKommentariyaKontragentIliSotrudnikOtdelaKontrag.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

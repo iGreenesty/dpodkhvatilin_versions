@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="DlyaSpiska" seg-type="attribute-group">
+    <code>DlyaSpiska</code>
+    <title lang="ru">Для списка</title>
+    <attribute>title</attribute>
+    <attribute>secGroups</attribute>
+    <attribute>required</attribute>
+    <attribute>userLanguage</attribute>
+</group>

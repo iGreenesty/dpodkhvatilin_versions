@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="client" seg-type="attributes">
+    <code>serviceCall@client</code>
+    <presentation>with-title</presentation>
+    <uuid>f9514c8d-15eb-f9e5-0002-000001ded46d</uuid>
+</attribute>

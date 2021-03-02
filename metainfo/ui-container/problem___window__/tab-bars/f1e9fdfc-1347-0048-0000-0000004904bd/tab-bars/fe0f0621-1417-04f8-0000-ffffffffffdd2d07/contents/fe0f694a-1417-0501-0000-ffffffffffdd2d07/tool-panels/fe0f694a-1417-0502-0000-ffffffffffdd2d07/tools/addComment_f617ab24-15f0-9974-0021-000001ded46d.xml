@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="addComment_f617ab24-15f0-9974-0021-000001ded46d" seg-type="tools" uuid="f617ab24-15f0-9974-0021-000001ded46d">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <iconCode>add_comment_icon</iconCode>
+    <params/>
+    <presentationType>default</presentationType>
+    <action>addComment</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Add comment</caption>
+    <caption lang="ru">Добавить комментарий</caption>
+</action>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<class xmlns:xi="http://www.w3.org/2001/XInclude" id="impact" seg-detach="true" seg-id="impact" seg-type="object-group">
+    <object>
+        <attribute code="code">
+            <string>I0</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>1.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>666</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAGQAAAAYCAYAAAAMAljuAAACYUlEQVR42u2VTWsTURSGk9FYCW4KYyRWxE1p1rkuu45iRaKYTfEv6KYgdVGU+hHFSh3EII3YgHahEAISlCDEhR/UxQimYvwYhQgKUpH6C473yC3clHPVM3F1Z154CCnzvJmbN0kTiThx4sSJE+c/5eKtEgyC3lWulcQgRK3LOEjv56NQUIP01lqhoA5ue5dxkA8/6vDw0zEW6FCDBGsN0QomWaBDHdz2LuMgr78vwv3gMAt0qEE6qzXRDIos0KEObnuXcRD/21Wov9/HAh1qEH/VE42gwAId6uC2dxkHef7lNNx9O84CHWqQ5a8z4l53nAU61MFt7zIO0v58HO68ybNAhxqk3Tshlrp5FuhQB7e9yzjIg4+TsLgyxgIdapCm/AdW6+RYoEMd3PYu4yD1dwVYeLWLBTrUII1uQVQ7u1mgQx3c9i4yF24ehdsre6HycgcLdNDtu9lqSSx18qLiZ1mgg27UusicvXEEFvwcXHuRYYEOunrXbKUoqn5OeMsuC3TQjVoXmTPXi+A92wnzTzMs0EF34816T7ISl0mWPLjtXWRmvENw+fH2UKDb31UUc203FOhGrYvMqSsHodxyQ4Gu3jU9NyHk30OBbtS69CQljmTzyUsH4FzTDQW62KG6nOnyhJhtuqFAV93X7/uLQFdf8A3cKtk2dX4/DAJ2SNI4zFS5IAZh/UOCj5Z3OcZBJMOSjGREskcyKhkzMKquGVHOsD6IZJN6TEm2SIbU61AMqWtSmuto3zibuxzjT5a6eL00rd7gP5HWXiyl/2Sp3qT2/F9JaiQ2PLe1K06cOH/NL96p4LrukNBjAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>impact</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>3. Низкая</ru>
+                <en>3. Низкая</en>
+                <client>3. Низкая</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>impact$137002</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>I1</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>3.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>728</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAGQAAAAYCAYAAAAMAljuAAACn0lEQVR42u2VS2sTURiGk5hYCUUsjJFYETelWee47DoWKxLFbIp/QTcFqYui1MsoVjQUgzRiA9qFQghIUIIQF16oiwimYrxEIYKCVKT+guN5ZSKjfEc5kzNwBuaDhyFh3ic535tLJBJOOOGEE044mubCzQIfhCC47EqBDYJfLmkhvR8PPUEt0UQXFtHbaHiCKkSXS1rI++9V/uDjUSWQoZZooguL6G7UWKM7rQQyVCG6XNJCXn1b5ve6h5RAhlqiiS4sor1eYfVuXglkqEJ0uaSFtL5e5dV3+5RAhlqiiS4sorVeZLVuTglkqEJ0uaSFPPt8it95M6EEMtQSTXRhEatf5tjdzoQSyFCF6HJJC2l+OsZvv84qgQy1RBNdWESzd5ytdLJKIEMVosslLeT+h2m+vDauBDLUEk10YRF18cdaaWeUQIYqRJdLWkj1bY4vvdylBDLUEk10YRG1To6V27uVQIYqRJeLnPM3jvBba3t56cUOJZBBNgguu1xgK+0sK7XSSiCDrF8ucs5cP8yXWhm++DylBDLIBsE1X8qzcivDiquWEsgg65eLnNPX8rz4dCe/8iSlBDLIBsGFRRQfpwWWImmyEF0ucuaKB/mlR9s9gWwwXHm20LQ8gaxfLnJOXj7A7YblCWSD4JpdmGLieU8g65fLPVFBTBA/cXE/P1u3PIGscCTgwdUwV9w5Y2zWnmLzdcsTyDr7+rU3ja4/Bm90i2B45twkHwTh2CrYhqthrmFBEsXM2Dk2CP0PL66aXDFpIYIRQUowKtgjGBOMSxhz7hl1MiPuJRrm+l2IYFP/myfYLBhyzk8x5NyTcGVjrm+cDldM+pPl3NyXJp2D/Iuk68US7p8Zw1xx1+GjrjOrEHUR+evxoK5wwgnnv/MTlGJ9zKl+CrgAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>impact</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>2. Средняя</ru>
+                <en>2. Средняя</en>
+                <client>2. Средняя</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>impact$137003</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>I2</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>5.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>475</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAGQAAAAYCAYAAAAMAljuAAABoklEQVR42u2UzSuEURTGjWYaaZKpMcpY2ExjLUtrJAmxkX/BSikLUb6TmESSWLCxmI1EUmxQFqM0ku+iLJSUv+C4p256F+dy7x3L56lfb73d59fpnt63pARBEARB/ikzG71UDHD5u4wLefk68kIaFi57l3EhD585Onjud4I70rBw2buMC7n+2KTdxy4nuCMNC5e9y7iQ/Psi5e5bnOCONCxc9i7jQs7fRmnntskJ7kjDwmXvMi7k+HWAtm8anOCONCxc9i7jQvaf+mizkHGCO9KwcNm7jAvJ3TXT2lWtE9yRhoXL3iVmar2HtgqNtHJZ7QR3uAuXv0vM+Go3reXraeki6QR3uAuXv0vM2HInZc9qaOE06QR3uAuXv0vMSLaD5k6qvOAuXP4uMcPz7TR9mPCCu3D5u4IJKUoV4aHZNprYS3jBXeWIsIefcFm5wvruQ8GF8IsyRWxwspWKQTkqFJX8hMvKFdN3XyouRBFXJBUpRZ0ircgYSOszKd2JB4eFy8olLuTnl6U/x6g+VK4Lv1Guz0Z1NxLwwPW3S/xlIQgi5RsK4BrepLQWvQAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>impact</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>1. Высокая</ru>
+                <en>1. Высокая</en>
+                <client>1. Высокая</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>impact$137005</string>
+        </attribute>
+    </object>
+</class>

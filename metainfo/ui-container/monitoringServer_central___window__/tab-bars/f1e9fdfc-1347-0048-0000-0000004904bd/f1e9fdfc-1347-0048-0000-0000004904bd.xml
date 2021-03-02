@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabBar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="true" seg-detach="true" seg-id="f1e9fdfc-1347-0048-0000-0000004904bd" seg-type="tab-bars" uuid="f1e9fdfc-1347-0048-0000-0000004904bd">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="f1e884aa-1750-a98c-0066-00007b344b54">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="f1e9fdfc-1348-0048-0000-0000004904bd">
+        <profiles/>
+        <tags/>
+        <caption lang="en">Server parameters</caption>
+        <caption lang="ru">Параметры сервера</caption>
+        <considerListFilter>false</considerListFilter>
+        <xi:include href="tool-panels/fc278d64-15e3-474b-0000-0000016480c9.xml" parse="xml"/>
+        <layout seg-detach="false" uuid="f1e9fdfc-1349-0048-0000-0000004904bd">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f8f1a67e-14f8-0125-0000-000031aa812d/f8f1a67e-14f8-0125-0000-000031aa812d.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>true</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="f1e884aa-1750-a98e-0066-00007b344b54">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabBar>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="briefInformation" seg-type="attribute-group">
+    <code>briefInformation</code>
+    <title lang="ru">Краткая информация в МК</title>
+    <attribute>number</attribute>
+    <attribute>shortDescr</attribute>
+    <attribute>service</attribute>
+    <attribute>metaClass</attribute>
+    <attribute>priority</attribute>
+    <attribute>state</attribute>
+    <attribute>timeAllowanceTimer</attribute>
+    <attribute>coloOverdue</attribute>
+    <attribute>descriptionRTF</attribute>
+    <attribute>responsible</attribute>
+</group>

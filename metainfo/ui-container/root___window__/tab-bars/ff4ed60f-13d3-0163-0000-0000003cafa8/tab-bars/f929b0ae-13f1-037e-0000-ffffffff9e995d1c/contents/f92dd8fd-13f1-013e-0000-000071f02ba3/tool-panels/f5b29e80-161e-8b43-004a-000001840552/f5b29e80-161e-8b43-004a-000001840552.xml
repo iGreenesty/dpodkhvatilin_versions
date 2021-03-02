@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectActionsToolPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f5b29e80-161e-8b43-004a-000001840552" seg-type="tool-panels" uuid="f5b29e80-161e-8b43-004a-000001840552">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="ffc828d3-1742-d03d-001e-000036b4a082">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/openObjectCard_ffc828d3-1742-d03e-001e-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/openObjectCard_ffc828d3-1742-d03f-001e-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/editResponsible_ffc828d3-1742-d040-001e-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/fireUserEvent_ffc828d3-1742-d041-001e-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/fireUserEvent_ffc828d3-1742-d042-001e-000036b4a082.xml" parse="xml"/>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</objectActionsToolPanel>

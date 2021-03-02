@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="VremyaNaReshenieTimeToSolve6" seg-type="scripts">
+    <code>VremyaNaReshenieTimeToSolve6</code>
+    <title lang="ru">Время на решение в зависимости от дедлайна</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="VremyaNaReshenieTimeToSolve6.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

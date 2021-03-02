@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<escalation-scheme xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ShemaPoReakciiNaZayavki" seg-type="escalation-scheme">
+    <code>ShemaPoReakciiNaZayavki</code>
+    <title lang="ru">Схема по реакции на заявки</title>
+    <state>on</state>
+    <targetTypes>
+        <id>serviceCall</id>
+    </targetTypes>
+    <timerCode>reactTimer</timerCode>
+    <levels>
+        <level>1</level>
+        <condition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="EscalationSchemeLevelConditionTimePart">
+            <condition>timePartExceeded</condition>
+            <value>70</value>
+        </condition>
+        <actions>eventAction$EmailOtvetstvennomuZa30DoDedlainaReakciiPoZayavke</actions>
+        <actions>eventAction$EmailRukovoditeluILideruKomandyZa30DoDedlainaReakciiPoZayavke</actions>
+        <actions>eventAction$PushOtvetstvennomuZa30DoDedlainaReakciiPoZayavke</actions>
+        <actions>eventAction$PushRukovoditeluILideruKomandyZa30DoDedlainaReakciiPoZayavke</actions>
+        <actionExecuted>false</actionExecuted>
+    </levels>
+    <levels>
+        <level>2</level>
+        <condition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="EscalationSchemeLevelConditionTimePart">
+            <condition>timePartExceeded</condition>
+            <value>100</value>
+        </condition>
+        <actions>eventAction$EmailOtvetstvennomuODedlaineReakciiPoZayavke</actions>
+        <actions>eventAction$EmailRukovoditeluILideruKomandyODedlaineReakciiPoZayavke</actions>
+        <actions>eventAction$PushOtvetstvennomuODedlaineReakciiPoZayavke</actions>
+        <actions>eventAction$PushRukovoditeluILideruKomandyODedlaineReakciiPoZayavke</actions>
+        <actionExecuted>false</actionExecuted>
+    </levels>
+</escalation-scheme>

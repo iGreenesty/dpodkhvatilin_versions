@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ou$ou" seg-type="metaclasses">
+    <fqn>
+        <id>ou</id>
+        <case>ou</case>
+    </fqn>
+    <parent>
+        <id>ou</id>
+    </parent>
+    <title lang="ru">Отдел</title>
+    <description lang="ru"/>
+    <properties>
+        <item key="defaultClientAgreement">
+            <value>
+                <entity uuid="agreement$605301"/>
+            </value>
+        </item>
+        <item key="defaultClientService">
+            <value>
+                <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            </value>
+        </item>
+        <item key="defaultServiceCallClassFqn">
+            <value>
+                <class-fqn>
+                    <id>serviceCall</id>
+                    <case>call</case>
+                </class-fqn>
+            </value>
+        </item>
+    </properties>
+    <tags/>
+    <responsibilityTransferTableEnabled>true</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/test/test.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/parent/parent.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo>
+        <attribute attribute="parent">
+            <fqn>
+                <id>ou</id>
+            </fqn>
+            <fqn>
+                <id>ou</id>
+                <case>company</case>
+            </fqn>
+            <fqn>
+                <id>ou</id>
+                <case>ou</case>
+            </fqn>
+        </attribute>
+        <attribute attribute="recipientAgreements">
+            <fqn>
+                <id>agreement</id>
+            </fqn>
+            <fqn>
+                <id>agreement</id>
+                <case>agreement</case>
+            </fqn>
+        </attribute>
+    </permittedTypesInfo>
+    <attribute-groups>
+        <xi:include href="attribute-group/a4689b04-01bb-49f7-ab02-994e23ef1aad.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/f5df38fc-14ce-8334-0001-00003f5cad83.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentText_text.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileContent_content.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileDescription_description.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileTitle_title.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>1</searchOrder>
+    <allowPlanVer>false</allowPlanVer>
+    <depthEnv>1</depthEnv>
+    <status>DEFAULT</status>
+</user-metaclass>

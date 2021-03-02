@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="serviceCall" seg-type="attribute">
+    <code>serviceCall</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>false</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">В рамках заявки</title>
+    <description lang="ru"/>
+    <type>
+        <code>object</code>
+        <property code="attrChain">["vote@parent"]</property>
+        <property code="code">object</property>
+        <property code="isSingleObjectLink">true</property>
+        <property code="metaClassFqn">serviceCall</property>
+        <property code="permittedTypes">["serviceCall$serviceCall","serviceCall","serviceCall$request","serviceCall$call"]</property>
+        <property code="relatedObjectAttribute">sourceR</property>
+        <property code="relatedObjectHierarchyLevel">0</property>
+        <property code="relatedObjectMetaclass">negotiation</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>boRreference</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>boSelect</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>attributeOfRelatedObjectAccessor</accessor>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>false</systemEditable>
+    <xi:include href="search-settings/serviceCall_serviceCall.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>true</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

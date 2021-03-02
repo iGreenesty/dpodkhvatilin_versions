@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="KriteriiOpredeleniyaSLA" seg-type="contents" uuid="KriteriiOpredeleniyaSLA">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef9f6-16fc-1648-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Критерии определения SLA</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>KriteriiOpredeleniyaSLA</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/9987e271-2fd1-5955-1bdd-f52decd73e19.xml" parse="xml"/>
+</properties>

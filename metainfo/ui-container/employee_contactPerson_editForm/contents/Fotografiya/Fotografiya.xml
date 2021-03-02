@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<editable-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="Fotografiya" seg-type="contents" uuid="Fotografiya">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="50dbdb7f-35a4-9df4-904a-4fea6c33df93">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Фотография</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>953cb228-8ce1-42f9-b113-6c2f678111ee</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/f1bc1330-16ff-0416-0006-000014127783.xml" parse="xml"/>
+    <resetValuesIfHidden>false</resetValuesIfHidden>
+</editable-properties>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="saveAdvlistPrs_1f28c2ad-d2fb-202e-ad3d-6fcf5e9a9d2e" seg-type="tools" uuid="1f28c2ad-d2fb-202e-ad3d-6fcf5e9a9d2e">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <params/>
+    <presentationType>default</presentationType>
+    <action>saveAdvlistPrs</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Save view</caption>
+    <caption lang="ru">Сохранить вид</caption>
+</action>

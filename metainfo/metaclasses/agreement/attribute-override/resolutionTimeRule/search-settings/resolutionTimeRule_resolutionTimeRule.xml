@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="resolutionTimeRule_resolutionTimeRule" seg-type="search-settings">
+    <simpleSearchableForLicensed>false</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>false</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>false</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>false</extendedSearchableForLicensed>
+    <searchBoost>1.0</searchBoost>
+    <code>resolutionTimeRule</code>
+    <declaredMetaClass>agreement</declaredMetaClass>
+    <title lang="en">Standard time computation rules</title>
+    <title lang="ru">Правила вычисления нормативного времени</title>
+    <title>Правила вычисления нормативного времени</title>
+    <attrCode>resolutionTimeRule</attrCode>
+</searchSetting>

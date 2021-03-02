@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-override xmlns:xi="http://www.w3.org/2001/XInclude" code="f129182a-677f-44cc-827a-1879e5bf2fe2" enabled="true" group="userEvent" seg-detach="true" seg-id="f129182a-677f-44cc-827a-1879e5bf2fe2" seg-type="marker-overrides">
+    <title lang="ru">Пометить как Спам</title>
+    <attributes>userEvent$markServiceCallAsSPAM</attributes>
+</marker-override>

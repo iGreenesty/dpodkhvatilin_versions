@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<module xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fileUtils" seg-type="script-modules">
+    <code>fileUtils</code>
+    <moduleVersion>1</moduleVersion>
+    <description/>
+    <active>false</active>
+    <script checksum="859b6263db0cf41c20b7a626b830c6ff5dc5d620c758e2d0e4ec7ef1fb80694c">
+        <xi:include href="fileUtils.groovy" parse="text"/>
+    </script>
+    <view_by_superusers>false</view_by_superusers>
+    <edit_by_superusers>false</edit_by_superusers>
+    <author>naumen</author>
+</module>

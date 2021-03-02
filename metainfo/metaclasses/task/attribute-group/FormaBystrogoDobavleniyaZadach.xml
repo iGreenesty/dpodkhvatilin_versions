@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="FormaBystrogoDobavleniyaZadach" seg-type="attribute-group">
+    <code>FormaBystrogoDobavleniyaZadach</code>
+    <title lang="ru">Форма быстрого добавления задач</title>
+    <attribute>templateTask</attribute>
+    <attribute>responsible</attribute>
+    <attribute>planDate</attribute>
+    <attribute>deadline</attribute>
+    <attribute>description</attribute>
+    <order>templateTask</order>
+    <order>responsible</order>
+    <order>planDate</order>
+    <order>deadline</order>
+    <order>description</order>
+</group>

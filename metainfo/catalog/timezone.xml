@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="timezone" seg-detach="true" seg-id="timezone" seg-type="catalog" xsi:type="SystemCatalog">
+    <title lang="client">Часовые пояса</title>
+    <title lang="en">Time zones</title>
+    <title lang="ru">Часовые пояса</title>
+    <description lang="client">Содержит часовые пояса, в которых находятся клиенты. Временные параметры выполнения запроса отображаются для клиента в его часовом поясе.</description>
+    <description lang="en">Contains time zones of the clients. The request time parameters are displayed to the client in his time zone.</description>
+    <description lang="ru">Содержит часовые пояса, в которых находятся клиенты. Временные параметры выполнения запроса отображаются для клиента в его часовом поясе.</description>
+</catalog>

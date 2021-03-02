@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="94b7c518-21b2-4215-8bb1-e2c52f9033dd" seg-type="attribute-group-override">
+    <code>94b7c518-21b2-4215-8bb1-e2c52f9033dd</code>
+    <attribute>inventoryNumbe</attribute>
+    <attribute>model</attribute>
+    <attribute>producer</attribute>
+    <attribute>serialNumber</attribute>
+    <order>title</order>
+    <order>metaClass</order>
+    <order>inventoryNumbe</order>
+    <order>model</order>
+    <order>producer</order>
+    <order>serialNumber</order>
+</override>

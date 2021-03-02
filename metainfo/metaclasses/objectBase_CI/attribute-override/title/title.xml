@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="title" seg-type="attribute-override">
+    <code>title</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>false</editable>
+    <editableInLists>false</editableInLists>
+    <required>true</required>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="client"/>
+    <title lang="de"/>
+    <title lang="en">Title</title>
+    <title lang="ru">Название</title>
+    <description lang="client"/>
+    <description lang="de"/>
+    <description lang="en"/>
+    <description lang="ru"/>
+    <type>
+        <property code="code">string</property>
+        <property code="maxLength">4000</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>stringView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>stringEdit</code>
+    </editPresentation>
+    <generationRule/>
+    <useGenerationRule>false</useGenerationRule>
+    <template>[${inventoryNumbe}] ${metaClass} ${producer} ${model}</template>
+    <defaultByScript>false</defaultByScript>
+    <xi:include href="search-settings/title_title.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</override>

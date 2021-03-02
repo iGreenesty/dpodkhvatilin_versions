@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$Skript" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[SkriptZapisKlientaVZapisORabote]]></script>
+        </script-action>
+        <code>eventAction$Skript</code>
+        <description lang="ru"/>
+        <event>
+            <eventType>add</eventType>
+        </event>
+        <fqn>
+            <id>workRecord</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <tags>Trudozatraty</tags>
+        <title lang="ru">[Скрипт] Запись клиента в трудозатрату</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

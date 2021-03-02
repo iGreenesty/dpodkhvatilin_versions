@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="531a0ee6-9170-46eb-9879-1225dd0f9cb2" enabled="true" group="viewAttrs" seg-detach="true" seg-id="531a0ee6-9170-46eb-9879-1225dd0f9cb2" seg-type="marker-declarations">
+    <title lang="ru">Системные атрибуты</title>
+    <attributes>folders</attributes>
+    <attributes>removalDate</attributes>
+    <attributes>lastModifiedDate</attributes>
+    <attributes>author</attributes>
+    <attributes>creationDate</attributes>
+    <attributes>stateStartTime</attributes>
+</marker-declaration>

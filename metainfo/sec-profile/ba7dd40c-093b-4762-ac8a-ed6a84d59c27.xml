@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="ba7dd40c-093b-4762-ac8a-ed6a84d59c27" licensed="false" seg-detach="true" seg-id="ba7dd40c-093b-4762-ac8a-ed6a84d59c27" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>b2ec79cf-4601-4120-bbdf-434102f33fcf</roles>
+    <title lang="ru">Руководитель отдела сотрудника (нелиц.)</title>
+</security-profile>

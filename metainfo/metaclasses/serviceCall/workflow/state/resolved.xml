@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="resolved" color="#00FF00" enabled="true" hardcoded="false" responsibleType="EMPLOYEE_AND_TEAM" seg-detach="true" seg-id="resolved" seg-type="state">
+    <title lang="en">Done</title>
+    <title lang="ru">Решена</title>
+    <description lang="en">Запрос выполнен</description>
+    <description lang="ru">Запрос выполнен</description>
+    <responsible bean="currentResponsibleStrategy"/>
+    <changeResponsibleButtonVisible>true</changeResponsibleButtonVisible>
+    <stateSetting canEdit="true" canView="true" code="@comment" postFill="0" preFill="1" requredInState="false">
+        <title lang="ru">Комментарии</title>
+    </stateSetting>
+    <stateSetting canEdit="true" canView="true" code="addArtikle" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru"> Добавить статью БЗ на основе текущего отчета</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="baseCategory" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Категория</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="categories" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Дополнительные категории</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="closedBy" postFill="0" preFill="0" requredInState="false">
+        <title lang="en">Closed by</title>
+        <title lang="ru">Кем закрыта</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="closedByEmployee" postFill="0" preFill="0" requredInState="false">
+        <title lang="en">Closed by employee</title>
+        <title lang="ru">Кем закрыт (сотрудник)</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="closedByTeam" postFill="0" preFill="0" requredInState="false">
+        <title lang="en">Closed by team</title>
+        <title lang="ru">Кем закрыт (команда)</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="codeOfClosing" postFill="0" preFill="1" requredInState="false">
+        <title lang="en">Closure Code</title>
+        <title lang="ru">Код закрытия</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="commentForMark" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Комментарий к оценке</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="dateDecision" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Дата решения</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="description" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Описание (текст)</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="descriptionInRTF" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Описание</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="descriptionRTF" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Описание</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="impact" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Критичность</title>
+    </stateSetting>
+    <stateSetting canEdit="true" canView="true" code="KBtoAddArticle" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">В раздел</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="mark" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Оцените, пожалуйста, работу специалистов</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="postoponeTill" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Отложить до</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="reactAllow" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Запас времени реакции</title>
+    </stateSetting>
+    <stateSetting canEdit="true" canView="true" code="resultDescr" postFill="0" preFill="1" requredInState="false">
+        <title lang="ru">Отчет о выполнении</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="shortDescr" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Тема</title>
+    </stateSetting>
+    <stateSetting canEdit="true" canView="true" code="solvedBy" postFill="0" preFill="0" requredInState="false">
+        <title lang="en">Resolved by</title>
+        <title lang="ru">Кем решена</title>
+    </stateSetting>
+    <stateSetting canEdit="true" canView="true" code="titleKB" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Название статьи</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="urgency" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Срочность</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="wayAddressing" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Способ обращения</title>
+    </stateSetting>
+    <preAction code="f28f0e34-13e8-2912-0000-000000ea5979" preAction="true" type="SCRIPT">
+        <title lang="ru">Заполняет дату решения в заявке</title>
+        <property code="script">ZapolnyaetDatuResheniya60</property>
+    </preAction>
+    <preAction code="f9cb076f-140b-2d46-0000-000001b277ad" preAction="true" type="SCRIPT">
+        <title lang="ru">Заполняет атрибут timeClosing24 для автозакрытия</title>
+        <property code="script">ZapolnyaetAtributTimeClosingDlyaAvtozakrytiya58</property>
+    </preAction>
+    <preAction code="fb0db595-141e-9d62-0000-0000016689e8" preAction="true" type="SCRIPT">
+        <title lang="ru">Заполняет поле "Кем решен" текущим пользователем</title>
+        <property code="script">ZapolnyaetPoleKemReshenTekushimPolzovatelem59</property>
+    </preAction>
+    <preAction code="f1d6a698-1697-2e52-0057-000000ffc2f3" preAction="true" type="SCRIPT">
+        <title lang="ru">Закрываем все связанные выполненные задачи</title>
+        <property code="script">SCRIPTSD4002096</property>
+    </preAction>
+    <preAction code="f89d81e8-1760-cc29-0001-000035bdc518" preAction="true" type="SCRIPT">
+        <title lang="ru">Если нет сотрудника-ответственного , то ответственным назначается сотрудник, сменивший статус</title>
+        <property code="script">EsliNetSotrudnikaotvetstvennogoToOtvetstvennymNaznachaetsyaSotru</property>
+    </preAction>
+    <postAction code="f9ce5220-140b-2d60-0000-000001b277ad" preAction="false" type="SCRIPT">
+        <title lang="ru">Обнуляет атрибут времени следующей попытки автоматической смены статуса.</title>
+        <property code="script">ObnulyaetAtributVremeniSleduusheiPopytkiAvtomaticheskoiSmenySt57</property>
+    </postAction>
+    <preActionsOrder>f28f0e34-13e8-2912-0000-000000ea5979</preActionsOrder>
+    <preActionsOrder>f9cb076f-140b-2d46-0000-000001b277ad</preActionsOrder>
+    <preActionsOrder>fb0db595-141e-9d62-0000-0000016689e8</preActionsOrder>
+    <preActionsOrder>f1d6a698-1697-2e52-0057-000000ffc2f3</preActionsOrder>
+    <preActionsOrder>f89d81e8-1760-cc29-0001-000035bdc518</preActionsOrder>
+    <postActionsOrder>f9ce5220-140b-2d60-0000-000001b277ad</postActionsOrder>
+    <preCondition code="f9cb8138-1617-9095-0001-000000184e6e" preCondition="true" type="SCRIPT">
+        <title lang="ru">Проверка, что все согласования закрыты</title>
+        <property code="script">SCRIPTSD4000063negotiations</property>
+    </preCondition>
+    <preCondition code="fd335835-141e-a3b5-0000-0000016689e8" preCondition="true" type="SCRIPT">
+        <title lang="ru">Проверяем, что все задачи закрыты</title>
+        <property code="script">SCRIPTSD4000063tasks</property>
+    </preCondition>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

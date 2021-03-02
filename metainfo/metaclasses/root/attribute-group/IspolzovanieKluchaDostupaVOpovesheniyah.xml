@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="IspolzovanieKluchaDostupaVOpovesheniyah" seg-type="attribute-group">
+    <code>IspolzovanieKluchaDostupaVOpovesheniyah</code>
+    <title lang="ru">Использование ключа доступа в оповещениях</title>
+    <attribute>keyInsert</attribute>
+</group>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<child-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="Filialy" seg-type="contents" uuid="Filialy">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="3d7f4bdd-3fea-bdfc-ee55-d7d9a2b49ee6">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Филиалы</caption>
+    <showCaption>true</showCaption>
+    <case>
+        <id>ou</id>
+        <case>company</case>
+    </case>
+    <attributeGroup>search</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/467d5f42-fc36-0dea-6cb0-35adcfabeebe/467d5f42-fc36-0dea-6cb0-35adcfabeebe.xml" parse="xml"/>
+    <xi:include href="tool-panels/f109f8a4-bc6f-8705-2f69-5ac4fcfaa0df.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f05cd026-1739-b872-0006-000060086411">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f05cd026-1739-b873-0006-000060086411">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4f70-168d-11f5-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="ou" code="head"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <show-nested-in-nested>false</show-nested-in-nested>
+</child-objects>

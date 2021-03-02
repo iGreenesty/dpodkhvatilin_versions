@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$script_calcEscalationDateAndOverdue" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[SCRIPTSD4002259]]></script>
+        </script-action>
+        <code>eventAction$script_calcEscalationDateAndOverdue</code>
+        <description lang="ru"/>
+        <event>
+            <eventType>add</eventType>
+        </event>
+        <fqn>
+            <id>task</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <tags>Zadachi</tags>
+        <title lang="ru">[Скрипт] Определение времени эскалации и индикатора просроченности</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

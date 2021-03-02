@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="331938b7-76a8-4024-8be7-a21f8e895855" seg-type="attribute-group-override">
+    <code>331938b7-76a8-4024-8be7-a21f8e895855</code>
+    <attribute>icon</attribute>
+    <attribute>employeeSecGroups</attribute>
+    <order>icon</order>
+    <order>title</order>
+    <order>post</order>
+    <order>email</order>
+    <order>phonesIndex</order>
+    <order>login</order>
+    <order>employeeSecGroups</order>
+</override>

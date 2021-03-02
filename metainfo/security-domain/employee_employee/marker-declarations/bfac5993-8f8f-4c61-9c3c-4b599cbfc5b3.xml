@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="bfac5993-8f8f-4c61-9c3c-4b599cbfc5b3" enabled="true" group="viewAttrs" seg-detach="true" seg-id="bfac5993-8f8f-4c61-9c3c-4b599cbfc5b3" seg-type="marker-declarations">
+    <title lang="ru">Сам сотрудник (нелиц.)</title>
+    <attributes>firstName</attributes>
+    <attributes>lastName</attributes>
+    <attributes>license</attributes>
+    <attributes>mobilePhoneNumber</attributes>
+    <attributes>homePhoneNumber</attributes>
+    <attributes>serviceCalls</attributes>
+    <attributes>post</attributes>
+    <attributes>internalPhoneNumber</attributes>
+    <attributes>cityPhoneNumber</attributes>
+    <attributes>middleName</attributes>
+    <attributes>login</attributes>
+    <attributes>email</attributes>
+</marker-declaration>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<task xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" del-mail-from-server="true" mail-processor-code="ce447bbd-a6a2-4243-bbba-8dc9c596dde2" mail-server-code="5c2338ad-28b4-400f-94d0-130e0b4c246a" max-processed="10" max-received="100" save-original="true" seg-detach="true" seg-id="ReceiveMailTask$3" seg-type="scheduler-tasks" xsi:type="receive-mail-task">
+    <code>ReceiveMailTask$3</code>
+    <title lang="ru">Обработка входящей почты</title>
+    <title>Обработка входящей почты</title>
+    <description lang="ru"/>
+    <description/>
+    <type>ReceiveMailTask</type>
+    <trigger xsi:type="PeriodicTrigger">
+        <code>2d423735-6772-4139-9dc7-8ccc98aec26b</code>
+        <enabled>true</enabled>
+        <schTaskCode>ReceiveMailTask$3</schTaskCode>
+        <title>Периодическое правило. 20 секунд</title>
+        <type>PERIODIC</type>
+        <interval interval="SECOND" ms="20000"/>
+        <previoisDate>2013-08-13T03:55:03.640Z</previoisDate>
+        <secondExAfterRestart>false</secondExAfterRestart>
+        <startDate>2014-04-04T07:06:00Z</startDate>
+        <strategy>FROM_START</strategy>
+    </trigger>
+</task>

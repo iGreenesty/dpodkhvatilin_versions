@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="closed" color="#CC3333" enabled="true" hardcoded="false" seg-detach="true" seg-id="closed" seg-type="state">
+    <title lang="ru">Отклонено</title>
+    <description lang="ru">конечный статус объекта</description>
+    <stateSetting canEdit="false" canView="true" code="@comment" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Добавить комментарий</title>
+    </stateSetting>
+    <stateSetting canEdit="true" canView="true" code="remark" postFill="0" preFill="2" requredInState="false">
+        <title lang="ru">Замечания</title>
+    </stateSetting>
+    <preAction code="f00a2534-140c-2019-0000-0000000693b7" preAction="true" type="SCRIPT">
+        <title lang="ru">Изменение статуса согласования при завершении всех голосований</title>
+        <property code="script">IzmenenieStatusaSoglasovaniyaPriZaversheniiVsehGolosovanii72</property>
+    </preAction>
+    <preAction code="f00c284e-140c-201c-0000-0000000693b7" preAction="true" type="SCRIPT">
+        <title lang="ru">Заполнение атрибутов "Дата голосования" и "Голосующий"</title>
+        <property code="script">ZapolnenieAtributovDataGolosovaniyaIGolosuushii73</property>
+    </preAction>
+    <preActionsOrder>f00a2534-140c-2019-0000-0000000693b7</preActionsOrder>
+    <preActionsOrder>f00c284e-140c-201c-0000-0000000693b7</preActionsOrder>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

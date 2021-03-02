@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="801f5c98-3299-4e63-9714-808a173b16dd" seg-type="attribute-group">
+    <code>801f5c98-3299-4e63-9714-808a173b16dd</code>
+    <title lang="ru">Для сложной формы связи при добавлении задачи</title>
+    <attribute>objectNumber</attribute>
+    <attribute>creationDate</attribute>
+    <attribute>author</attribute>
+    <attribute>responsible</attribute>
+    <attribute>state</attribute>
+    <attribute>deadline</attribute>
+    <order>objectNumber</order>
+    <order>creationDate</order>
+    <order>author</order>
+    <order>responsible</order>
+    <order>state</order>
+    <order>deadline</order>
+</group>

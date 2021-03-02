@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-event-tool xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fireUserEvent_f04d05b2-70a3-b19c-3e40-bc7f04cf9689" seg-type="tools" uuid="f04d05b2-70a3-b19c-3e40-bc7f04cf9689">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <iconCode>mailIcon</iconCode>
+    <params/>
+    <presentationType>defaultIconOnly</presentationType>
+    <action>fireUserEvent</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="ru">Выслать новый пароль</caption>
+    <event-uuid>userEvent$204</event-uuid>
+    <use-quick-form>false</use-quick-form>
+</user-event-tool>

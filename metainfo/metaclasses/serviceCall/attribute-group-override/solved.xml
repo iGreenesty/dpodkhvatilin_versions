@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="solved" seg-type="attribute-group-override">
+    <code>solved</code>
+    <title lang="en">Solved by</title>
+    <title lang="ru">Кем решен</title>
+    <attribute>resultDescr</attribute>
+    <order>solvedBy</order>
+    <order>solvedByEmployee</order>
+    <order>solvedByTeam</order>
+    <order>resultDescr</order>
+</override>

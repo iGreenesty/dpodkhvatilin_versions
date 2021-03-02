@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f34d5b14-140e-014a-0000-fffffffffb8e7491" seg-type="contents" uuid="f34d5b14-140e-014a-0000-fffffffffb8e7491">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efe59-16fc-184e-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Связанные объекты</caption>
+    <showCaption>false</showCaption>
+    <case>
+        <id>negotiation</id>
+        <case>negotiation</case>
+    </case>
+    <attributeGroup>3d84129a-0ae4-4801-be17-7fba3f2b99aa</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/f8146979-5207-0775-0001-000525345889/f8146979-5207-0775-0001-000525345889.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae6654-15a2-1090-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f6ae6654-15a2-1091-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f6ae665e-15a2-1092-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4eac-168d-11cd-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>negotiations</attr-link-code>
+    <attrs-chain attr-code="negotiations" class-fqn="changeRequest"/>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="negotiation" code="cabEmployee"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="abstractBO" code="author"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="negotiation" code="state"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Согласование</caption>
+    </add-form>
+    <objectActionsMenu>
+        <menuIconCatalogCode>additionalActions</menuIconCatalogCode>
+        <objectActionsMenuPosition>NONE</objectActionsMenuPosition>
+        <xi:include href="tool-panels/fe461c0e-1694-b167-0038-000000ffc2f3/fe461c0e-1694-b167-0038-000000ffc2f3.xml" parse="xml"/>
+        <useSystemSettings>false</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

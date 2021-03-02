@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" code="massProblemManipulation" enabled="true" group="default" seg-detach="true" seg-id="massProblemManipulation" seg-type="sec-actions">
+    <title lang="en">Change mass mode</title>
+    <title lang="ru">Изменение массовости</title>
+    <attributes>masterMassProblem</attributes>
+    <attributes>wfProfile</attributes>
+    <attributes>massProblem</attributes>
+    <attributes>massProblemSlaves</attributes>
+</action>

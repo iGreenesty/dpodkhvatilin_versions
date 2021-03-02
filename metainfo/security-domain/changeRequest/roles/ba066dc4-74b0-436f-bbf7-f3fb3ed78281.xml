@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="ba066dc4-74b0-436f-bbf7-f3fb3ed78281" enabled="true" seg-detach="true" seg-id="ba066dc4-74b0-436f-bbf7-f3fb3ed78281" seg-type="roles" type="SCRIPT">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="ownersScript">AvtorSpisok</property>
+    <property code="script">AvtorPrava</property>
+    <property code="listFilterScript">AvtorPoisk</property>
+    <title lang="ru">Автор запроса на изменение</title>
+</role>

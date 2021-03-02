@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="SkriptUtochneniyaPravDostupa35" seg-type="scripts">
+    <code>SkriptUtochneniyaPravDostupa35</code>
+    <title lang="en">Script of refining the permissions № 35</title>
+    <title lang="ru">Если заявка не закрыта и не была</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="SkriptUtochneniyaPravDostupa35.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

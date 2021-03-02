@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="8f372f70-2a9a-42ec-ae34-413d842cf98f" licensed="true" seg-detach="true" seg-id="8f372f70-2a9a-42ec-ae34-413d842cf98f" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>ouMember</roles>
+    <title lang="ru">Сотрудник отдела</title>
+</security-profile>

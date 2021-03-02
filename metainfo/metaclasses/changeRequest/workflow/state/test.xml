@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="test" color="#CD00CD" enabled="true" hardcoded="false" responsibleType="EMPLOYEE_AND_TEAM" seg-detach="true" seg-id="test" seg-type="state">
+    <title lang="ru">Тестирование/проверка</title>
+    <description lang="ru"/>
+    <responsible bean="currentResponsibleStrategy"/>
+    <changeResponsibleButtonVisible>true</changeResponsibleButtonVisible>
+    <stateSetting canEdit="true" canView="true" code="@comment" postFill="2" preFill="0" requredInState="false">
+        <title lang="ru">Комментарии</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="results" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Результаты внедрения</title>
+    </stateSetting>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

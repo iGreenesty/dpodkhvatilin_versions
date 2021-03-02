@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<class xmlns:xi="http://www.w3.org/2001/XInclude" id="overDue" seg-detach="true" seg-id="overDue" seg-type="object-group">
+    <object>
+        <attribute code="code">
+            <string>notOverdue</string>
+        </attribute>
+        <attribute code="color">
+            <color>B2E8AC</color>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>overDue</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>не просрочен</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>overDue$1522601</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>overDue</string>
+        </attribute>
+        <attribute code="color">
+            <color>F29794</color>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>overDue</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>просрочен</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>overDue$1522602</string>
+        </attribute>
+    </object>
+</class>

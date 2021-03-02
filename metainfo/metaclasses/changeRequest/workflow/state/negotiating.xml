@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="negotiating" color="#2F00FF" enabled="true" hardcoded="false" responsibleType="EMPLOYEE_AND_TEAM" seg-detach="true" seg-id="negotiating" seg-type="state">
+    <title lang="ru">На согласовании</title>
+    <description lang="ru"/>
+    <responsible bean="currentResponsibleStrategy"/>
+    <changeResponsibleButtonVisible>true</changeResponsibleButtonVisible>
+    <stateSetting canEdit="true" canView="true" code="advisoryEmpl" postFill="0" preFill="2" requredInState="false">
+        <title lang="ru">Согласующие сотрудники</title>
+    </stateSetting>
+    <stateSetting canEdit="true" canView="true" code="periodNegotiat" postFill="0" preFill="1" requredInState="false">
+        <title lang="ru">Период согласования</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="results" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Результаты внедрения</title>
+    </stateSetting>
+    <preAction code="f2f0dbb9-140e-1b3c-0001-0000000693b7" preAction="true" type="SCRIPT">
+        <title lang="ru">Создание согласования</title>
+        <property code="script">SozdanieSoglasovaniya70</property>
+    </preAction>
+    <preActionsOrder>f2f0dbb9-140e-1b3c-0001-0000000693b7</preActionsOrder>
+    <showAttributesDescription>false</showAttributesDescription>
+    <tags>Soglasovaniya</tags>
+</state>

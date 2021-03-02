@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="32080d4d-0430-4fd4-a199-9a63f82b3bbe" enabled="true" group="viewAttrs" seg-detach="true" seg-id="32080d4d-0430-4fd4-a199-9a63f82b3bbe" seg-type="marker-declarations">
+    <title lang="ru">Системные атрибуты</title>
+    <attributes>inventoryNumber</attributes>
+    <attributes>folders</attributes>
+    <attributes>responsibleTeam</attributes>
+    <attributes>removalDate</attributes>
+    <attributes>lastModifiedDate</attributes>
+    <attributes>author</attributes>
+    <attributes>callCases</attributes>
+    <attributes>responsible</attributes>
+    <attributes>creationDate</attributes>
+    <attributes>stateStartTime</attributes>
+    <attributes>responsibleEmployee</attributes>
+</marker-declaration>

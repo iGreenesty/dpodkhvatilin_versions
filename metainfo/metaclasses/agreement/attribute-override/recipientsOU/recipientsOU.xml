@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="recipientsOU" seg-type="attribute-override">
+    <code>recipientsOU</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="client"/>
+    <title lang="de"/>
+    <title lang="en">Recipients (departments)</title>
+    <title lang="ru">Получатели (отделы/компании)</title>
+    <description lang="client"/>
+    <description lang="de"/>
+    <description lang="en"/>
+    <description lang="ru"/>
+    <type>
+        <property code="permittedTypes">["ou$company","ou","ou$ou"]</property>
+        <property code="metaClassFqn">ou</property>
+        <property code="complexRelation">true</property>
+        <property code="code">backBOLinks</property>
+        <property code="backLinkAttr">recipientAgreements</property>
+        <property code="complexAttrGroupCode">79d05a9f-441a-4507-81c7-9d3beac3005d</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>boLinksView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>boLinksEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <defaultByScript>false</defaultByScript>
+    <xi:include href="search-settings/recipientsOU_recipientsOU.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</override>

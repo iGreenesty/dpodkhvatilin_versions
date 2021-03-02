@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="addForm" seg-type="attribute-group-override">
+    <code>addForm</code>
+    <title lang="ru">Форма добавления</title>
+    <attribute>files</attribute>
+    <attribute>template</attribute>
+    <attribute>notificateTo</attribute>
+    <order>text</order>
+    <order>private</order>
+    <order>files</order>
+    <order>template</order>
+    <order>notificateTo</order>
+</override>

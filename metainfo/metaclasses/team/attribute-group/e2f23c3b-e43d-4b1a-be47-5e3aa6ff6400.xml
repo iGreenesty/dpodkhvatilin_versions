@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="e2f23c3b-e43d-4b1a-be47-5e3aa6ff6400" seg-type="attribute-group">
+    <code>e2f23c3b-e43d-4b1a-be47-5e3aa6ff6400</code>
+    <title lang="ru">Для сложной формы атрибута Ответственный</title>
+    <attribute>title</attribute>
+    <attribute>leader</attribute>
+    <order>title</order>
+    <order>leader</order>
+</group>

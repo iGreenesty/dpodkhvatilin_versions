@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="markBase" seg-type="metaclasses">
+    <fqn>
+        <id>markBase</id>
+    </fqn>
+    <parent>
+        <id>userEntity</id>
+    </parent>
+    <title lang="ru">Оценка</title>
+    <description lang="ru"/>
+    <properties/>
+    <tags/>
+    <responsibilityTransferTableEnabled>true</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/folders.xml" parse="xml"/>
+        <xi:include href="attribute/parent/parent.xml" parse="xml"/>
+        <xi:include href="attribute/value/value.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/author/author.xml" parse="xml"/>
+        <xi:include href="attribute-override/creationDate/creationDate.xml" parse="xml"/>
+        <xi:include href="attribute-override/folders.xml" parse="xml"/>
+        <xi:include href="attribute-override/number/number.xml" parse="xml"/>
+        <xi:include href="attribute-override/title/title.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo/>
+    <attribute-groups>
+        <xi:include href="attribute-group/64216d54-c752-43b0-9aed-98fa07728197.xml" parse="xml"/>
+        <xi:include href="attribute-group/ed96345f-bf8c-4265-9bd0-dd468fa2ac93.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/system.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentText_text.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileContent_content.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileDescription_description.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileTitle_title.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>15</searchOrder>
+    <allowPlanVer>false</allowPlanVer>
+    <depthEnv>1</depthEnv>
+    <status>DEFAULT</status>
+</user-metaclass>

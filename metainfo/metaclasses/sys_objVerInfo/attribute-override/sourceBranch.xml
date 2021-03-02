@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="sourceBranch" seg-type="attribute-override">
+    <code>sourceBranch</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <title lang="client"/>
+    <title lang="de"/>
+    <title lang="en">Source branch</title>
+    <title lang="ru">Ветка источника</title>
+    <description lang="client"/>
+    <description lang="de"/>
+    <description lang="en"/>
+    <description lang="ru"/>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</override>

@@ -1,0 +1,1 @@
+return user.UUID == subject?.clientOU?.head?.UUID

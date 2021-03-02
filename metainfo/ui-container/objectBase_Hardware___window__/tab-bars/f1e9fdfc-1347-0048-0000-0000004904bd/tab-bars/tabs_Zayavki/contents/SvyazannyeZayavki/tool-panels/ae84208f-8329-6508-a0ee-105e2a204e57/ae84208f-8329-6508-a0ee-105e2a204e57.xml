@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<toolPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ae84208f-8329-6508-a0ee-105e2a204e57" seg-type="tool-panels" uuid="ae84208f-8329-6508-a0ee-105e2a204e57">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="fc736727-161d-9d06-0024-000001840552">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <advlist-presentation-select seg-detach="false" uuid="fc736727-161d-9d07-0024-000001840552">
+            <profiles/>
+            <tags/>
+            <appliedToType>currentObject</appliedToType>
+            <params/>
+            <presentationType>default</presentationType>
+        </advlist-presentation-select>
+        <xi:include href="tools/saveAdvlistPrs_fc736727-161d-9d08-0024-000001840552.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="fc736727-161d-9d09-0024-000001840552">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/showAdvlistSort_fc736727-161d-9d0a-0024-000001840552.xml" parse="xml"/>
+        <xi:include href="tools/showAdvlistFilter_fc736727-161d-9d0b-0024-000001840552.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="dc7d5c77-4a25-3fd9-28bb-af7ae6a73590">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/link_fc736727-161d-9d0e-0024-000001840552.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="fc736727-161d-9d0d-0024-000001840552">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/showRemoved_fc736727-161d-9d0f-0024-000001840552.xml" parse="xml"/>
+        <xi:include href="tools/exportAdvlist_fc736727-161d-9d0c-0024-000001840552.xml" parse="xml"/>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</toolPanel>

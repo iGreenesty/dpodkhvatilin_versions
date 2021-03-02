@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<toolPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f6870023-d11a-462e-b3ef-85b906c43459" seg-type="tool-panels" uuid="f6870023-d11a-462e-b3ef-85b906c43459">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="f6e55f8c-15ee-2a65-000b-000001ded46d">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <advlist-presentation-select seg-detach="false" uuid="f6e55f8c-15ee-2a66-000b-000001ded46d">
+            <profiles/>
+            <tags/>
+            <appliedToType>currentObject</appliedToType>
+            <params/>
+            <presentationType>default</presentationType>
+        </advlist-presentation-select>
+        <xi:include href="tools/saveAdvlistPrs_f6e55f8c-15ee-2a67-000b-000001ded46d.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="f6e55f8c-15ee-2a68-000b-000001ded46d">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/showAdvlistSort_f6e55f8c-15ee-2a69-000b-000001ded46d.xml" parse="xml"/>
+        <xi:include href="tools/showAdvlistFilter_f6e55f8c-15ee-2a6a-000b-000001ded46d.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="5ddbb554-dc5a-8091-427b-9d8019e4809c">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/add_f6e55f8c-15ee-2a6d-000b-000001ded46d.xml" parse="xml"/>
+        <xi:include href="tools/link_f6e55f8c-15ee-2a6e-000b-000001ded46d.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="f6e55f8c-15ee-2a6c-000b-000001ded46d">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/showRemoved_f6e55f8c-15ee-2a6f-000b-000001ded46d.xml" parse="xml"/>
+        <xi:include href="tools/exportAdvlist_f6e55f8c-15ee-2a6b-000b-000001ded46d.xml" parse="xml"/>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</toolPanel>

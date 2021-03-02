@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="serviceCallSettings" seg-type="contents" uuid="serviceCallSettings">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="a93e3782-49e4-0bab-3362-23a759778847">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Работа по заявкам</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>df895ac7-223b-4aa7-836a-ae6b0e06a393</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/6abda201-132c-4841-ae84-3bae4c653bf3.xml" parse="xml"/>
+</properties>

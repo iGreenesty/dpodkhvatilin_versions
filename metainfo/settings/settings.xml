@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="settings" seg-type="settings">
+    <asynchronousCountObjectsInTab>false</asynchronousCountObjectsInTab>
+    <common-search-settings maxSearchResults="100" useAdvancedSearch="false" useRightsInLists="true">
+        <analyzer>ftsNoAnalyzer</analyzer>
+        <analyzer>ftsNoMorphNoStrictAnalyzer</analyzer>
+        <analyzer>ftsRussianAnalyzer</analyzer>
+        <indexedFormats>
+            <format>msoffice</format>
+            <format>odf</format>
+            <format>pdf</format>
+            <format>html</format>
+            <format>xml</format>
+            <format>txt</format>
+        </indexedFormats>
+    </common-search-settings>
+    <completeSetOfLicensesNotRequired>false</completeSetOfLicensesNotRequired>
+    <compressionRatio>0.75</compressionRatio>
+    <list-rights-enabled>true</list-rights-enabled>
+    <needCompressImage>false</needCompressImage>
+    <notification-log-enabled>true</notification-log-enabled>
+    <sc-paramters agreement-or-service="Both" agreement-service-edit-prs="TreeList" fields-order="AgreementService">
+        <is-client-required-editable>true</is-client-required-editable>
+        <is-filter-agreements>false</is-filter-agreements>
+        <is-filter-cases>false</is-filter-cases>
+        <is-filter-services>false</is-filter-services>
+        <is-licensed-client-auto-resolve>true</is-licensed-client-auto-resolve>
+    </sc-paramters>
+    <uiCssTransitionsEnabled>true</uiCssTransitionsEnabled>
+</settings>

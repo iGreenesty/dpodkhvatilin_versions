@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="PodpischikiNaZadachu" seg-type="contents" uuid="PodpischikiNaZadachu">
+    <profiles>
+        <profile>208d47ce-f713-4839-b89a-732682102b25</profile>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+        <profile>3f6043f1-42df-45dd-a13f-12732c327b21</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+    </profiles>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efeee-16fc-187b-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Подписчики на задачу</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>PodpischikiNaZadachu</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/2a300571-f103-a17f-f1ea-197d12f891a5.xml" parse="xml"/>
+</properties>

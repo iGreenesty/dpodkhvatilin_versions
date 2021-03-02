@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="priorityRule_priorityRule" seg-type="search-settings">
+    <simpleSearchableForLicensed>false</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>false</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>false</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>false</extendedSearchableForLicensed>
+    <searchBoost>1.0</searchBoost>
+    <code>priorityRule</code>
+    <declaredMetaClass>agreement</declaredMetaClass>
+    <title lang="en">Priority computation rules</title>
+    <title lang="ru">Правила вычисления приоритета</title>
+    <title>Правила вычисления приоритета</title>
+    <attrCode>priorityRule</attrCode>
+</searchSetting>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="text" seg-type="form-parameters">
+    <attrs-for-date-time-restriction-script/>
+    <attrs-in-cof-script/>
+    <code>text</code>
+    <complexRelation>false</complexRelation>
+    <computable-on-form>false</computable-on-form>
+    <default-by-script>true</default-by-script>
+    <edit-presentaion>
+        <code>richTextEdit</code>
+    </edit-presentaion>
+    <editable>true</editable>
+    <is-filtered-by-script>false</is-filtered-by-script>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <is-hidden-when-no-possible-values>false</is-hidden-when-no-possible-values>
+    <required>true</required>
+    <script-for-default>OtchetOVypolneniiIzZayavki</script-for-default>
+    <title lang="ru">Текст</title>
+    <type>
+        <code>richtext</code>
+        <property code="permittedTypes">[]</property>
+    </type>
+    <view-presentaion>
+        <code>richTextWideView</code>
+    </view-presentaion>
+</parameter>

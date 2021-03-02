@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$button_addNewArticle" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[SCRIPTSD4002178]]></script>
+        </script-action>
+        <code>eventAction$button_addNewArticle</code>
+        <description lang="ru"/>
+        <user-events>
+            <eventType>userEvent</eventType>
+            <event-code>userEvent$button_addNewArticle</event-code>
+            <form-code>fdeef056-16f8-15ac-005a-000001d24423</form-code>
+        </user-events>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <tags>BazaZnanii</tags>
+        <title lang="ru">Создание статьи базы знаний</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

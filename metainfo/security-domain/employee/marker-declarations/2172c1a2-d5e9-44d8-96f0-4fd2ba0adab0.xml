@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="2172c1a2-d5e9-44d8-96f0-4fd2ba0adab0" enabled="true" group="editAttrs" seg-detach="true" seg-id="2172c1a2-d5e9-44d8-96f0-4fd2ba0adab0" seg-type="marker-declarations">
+    <title lang="ru">Получаемые соглашения</title>
+    <attributes>recipientAgreements</attributes>
+</marker-declaration>

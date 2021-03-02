@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="23ea451a-5795-4591-b1d4-b3e90f2b07b5" seg-type="attribute-group">
+    <code>23ea451a-5795-4591-b1d4-b3e90f2b07b5</code>
+    <title lang="en">Brief information</title>
+    <title lang="ru">Краткая информация</title>
+    <attribute>shortDescr</attribute>
+    <attribute>service</attribute>
+    <attribute>metaClass</attribute>
+    <attribute>state</attribute>
+    <attribute>reactAllow</attribute>
+    <attribute>timeAllowanceTimer</attribute>
+    <attribute>baseCategory</attribute>
+    <attribute>postoponeTill</attribute>
+    <attribute>wayAddressing</attribute>
+    <attribute>stateNeg</attribute>
+    <attribute>mark</attribute>
+    <attribute>commentForMark</attribute>
+    <attribute>files</attribute>
+    <attribute>dateTest</attribute>
+    <attribute>lastModifiedDate</attribute>
+    <order>shortDescr</order>
+    <order>service</order>
+    <order>metaClass</order>
+    <order>state</order>
+    <order>reactAllow</order>
+    <order>timeAllowanceTimer</order>
+    <order>baseCategory</order>
+    <order>postoponeTill</order>
+    <order>wayAddressing</order>
+    <order>stateNeg</order>
+    <order>mark</order>
+    <order>commentForMark</order>
+    <order>files</order>
+    <order>dateTest</order>
+    <order>lastModifiedDate</order>
+</group>

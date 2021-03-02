@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="@fileDescription_description" seg-type="search-settings">
+    <simpleSearchableForLicensed>false</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>false</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>false</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>false</extendedSearchableForLicensed>
+    <searchAlias lang="ru"/>
+    <searchBoost>1.0</searchBoost>
+    <code>@fileDescription</code>
+    <declaredMetaClass>file</declaredMetaClass>
+    <title lang="en">File description</title>
+    <title lang="ru">Описание файла</title>
+    <attrCode>description</attrCode>
+</searchSetting>

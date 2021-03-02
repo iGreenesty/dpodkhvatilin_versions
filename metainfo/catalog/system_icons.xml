@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="system_icons" seg-detach="true" seg-id="system_icons" seg-type="catalog" xsi:type="SystemCatalog">
+    <title lang="client">Иконки</title>
+    <title lang="en">System icons</title>
+    <title lang="ru">Иконки</title>
+    <description lang="client">Содержит иконки для изображения объектов на графических контентах (Схема связей, Схема сети).</description>
+    <description lang="en">Contains icons for images of objects on the graphic contents (Relation schema, Network schema).</description>
+    <description lang="ru">Содержит иконки для изображения объектов на графических контентах (Схема связей, Схема сети).</description>
+</catalog>

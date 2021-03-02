@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="2ce01696-b208-4b76-8a05-f745692d9f18" seg-type="attribute-group-override">
+    <code>2ce01696-b208-4b76-8a05-f745692d9f18</code>
+    <attribute>teams</attribute>
+    <order>lastName</order>
+    <order>firstName</order>
+    <order>middleName</order>
+    <order>post</order>
+    <order>teams</order>
+</override>

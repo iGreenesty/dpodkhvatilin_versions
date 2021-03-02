@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="f0882bbc-8e00-4ec5-a328-4f1ce3efe478" licensed="true" seg-detach="true" seg-id="f0882bbc-8e00-4ec5-a328-4f1ce3efe478" seg-type="sec-profile" versioning="false">
+    <groups>C4_auditor C2_seniorSpecialist C1_specialist C3_admin</groups>
+    <roles>notSubscriber</roles>
+    <title lang="ru">Сотрудник, не подписанный на заявку</title>
+</security-profile>

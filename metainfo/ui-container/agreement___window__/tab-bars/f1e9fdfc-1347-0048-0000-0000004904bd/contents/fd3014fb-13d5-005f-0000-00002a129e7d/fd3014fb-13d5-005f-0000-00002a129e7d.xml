@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fd3014fb-13d5-005f-0000-00002a129e7d" seg-type="contents" uuid="fd3014fb-13d5-005f-0000-00002a129e7d">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efa5b-16fc-166f-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="en">Recipients (departments)</caption>
+    <caption lang="ru">Отделы, получающие соглашение</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>ou</id>
+    </class>
+    <attributeGroup>91bbf042-6f38-459d-aa9f-d64f7f3caa8f</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/f44a31b4-141e-00ff-0000-ffffffff9cc88d42/f44a31b4-141e-00ff-0000-ffffffff9cc88d42.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae64b1-15a2-0faf-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f6ae64b1-15a2-0fb0-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f6ae64b1-15a2-0fb1-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="aa341036-74c6-9675-575a-0d130c90365e">
+                <profiles/>
+                <tags/>
+                <attrCode>abstractBO@title</attrCode>
+                <attrTitle>Название</attrTitle>
+                <ascending>true</ascending>
+            </elements>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4f8e-168d-11fe-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attrs-chain attr-code="recipientsOU" class-fqn="agreement"/>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="ou" code="head"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <add-form>
+        <caption lang="en">Add department as a recipient of the SLA</caption>
+        <caption lang="ru">Добавление отдела в получатели соглашения</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

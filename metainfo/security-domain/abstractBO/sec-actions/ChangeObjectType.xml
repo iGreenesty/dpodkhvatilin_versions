@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" code="ChangeObjectType" enabled="true" group="default" seg-detach="true" seg-id="ChangeObjectType" seg-type="sec-actions">
+    <title lang="en">Change object type</title>
+    <title lang="ru">Изменение типа объекта</title>
+    <attributes>metaClass</attributes>
+</action>

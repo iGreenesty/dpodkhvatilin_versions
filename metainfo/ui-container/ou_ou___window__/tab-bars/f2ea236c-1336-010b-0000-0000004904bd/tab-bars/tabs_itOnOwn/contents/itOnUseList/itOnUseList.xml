@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="itOnUseList" seg-type="contents" uuid="itOnUseList">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efdd7-16fc-17f0-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+        <elements seg-detach="false" uuid="adbad47f-3868-b957-a91e-7079017e8320">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="8acab845-21d9-d354-a847-9206318d5b70">
+                <profiles/>
+                <tags/>
+                <properties>
+                    <entry>
+                        <key>metaClassFqn</key>
+                        <value>objectBase$CI</value>
+                    </entry>
+                    <entry>
+                        <key>isAttributeOfRelatedObject</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>isLinkToParent</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>backLinkAttr</key>
+                        <value>users</value>
+                    </entry>
+                    <entry>
+                        <key>attrTypeCode</key>
+                        <value>backBOLinks</value>
+                    </entry>
+                    <entry>
+                        <key>conditionCode</key>
+                        <value>notNull</value>
+                    </entry>
+                    <entry>
+                        <key>attributeFqn</key>
+                        <value>ou$ou@employees.employee$employee@KEsInUse</value>
+                    </entry>
+                </properties>
+            </elements>
+        </elements>
+    </visibilityCondition>
+    <caption lang="ru">ИТ-активы в использовании</caption>
+    <showCaption>false</showCaption>
+    <class>
+        <id>objectBase</id>
+        <case>CI</case>
+    </class>
+    <attributeGroup>listLite</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/0704e1a0-9fc0-06bc-ef72-d2c964b96c06/0704e1a0-9fc0-06bc-ef72-d2c964b96c06.xml" parse="xml"/>
+    <xi:include href="tool-panels/b8e4f5c5-c6e5-211b-8e03-a9029bee9eb3.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f944d121-1619-8201-000d-000000184e6e">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f944d139-1619-8333-000d-000000184e6e">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4fb1-168d-1217-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>KEsInUse</attr-link-code>
+    <attrs-chain attr-code="employees" class-fqn="ou$ou"/>
+    <attrs-chain attr-code="KEsInUse" class-fqn="employee"/>
+    <filterRestrictionSettings/>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Объект CMDB</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

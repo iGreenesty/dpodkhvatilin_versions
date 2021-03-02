@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="53ff6317-2198-41f0-b9b5-72e052724e8d" licensed="true" seg-detach="true" seg-id="53ff6317-2198-41f0-b9b5-72e052724e8d" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>34d16d95-76b1-4e4f-a28c-52ee12f4b515</roles>
+    <title lang="ru">Автор статьи</title>
+</security-profile>

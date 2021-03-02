@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="rowSet" seg-type="attribute-override">
+    <code>rowSet</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <title lang="client"/>
+    <title lang="de">Set of rows in correspondence table</title>
+    <title lang="en">Set of rows in correspondence table</title>
+    <title lang="ru">Набор строк таблицы соответствий</title>
+    <description lang="client"/>
+    <description lang="de"/>
+    <description lang="en"/>
+    <description lang="ru"/>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</override>

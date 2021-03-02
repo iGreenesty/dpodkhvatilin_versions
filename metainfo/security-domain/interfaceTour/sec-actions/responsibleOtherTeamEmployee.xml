@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" code="responsibleOtherTeamEmployee" enabled="true" group="responsible" seg-detach="true" seg-id="responsibleOtherTeamEmployee" seg-type="sec-actions">
+    <title lang="en">Assign other team member</title>
+    <title lang="ru">Назначение сотрудника другой команды ответственным за объект</title>
+</action>

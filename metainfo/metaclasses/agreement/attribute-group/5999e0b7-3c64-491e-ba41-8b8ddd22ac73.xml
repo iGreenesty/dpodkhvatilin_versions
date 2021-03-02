@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="5999e0b7-3c64-491e-ba41-8b8ddd22ac73" seg-type="attribute-group">
+    <code>5999e0b7-3c64-491e-ba41-8b8ddd22ac73</code>
+    <title lang="ru">Для карточки компании</title>
+    <attribute>title</attribute>
+    <attribute>supportHours</attribute>
+    <attribute>resp</attribute>
+    <attribute>manager</attribute>
+    <attribute>endDate</attribute>
+    <order>title</order>
+    <order>supportHours</order>
+    <order>resp</order>
+    <order>manager</order>
+    <order>endDate</order>
+</group>

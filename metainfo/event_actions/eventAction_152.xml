@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$152" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[RedaktirovaniePravilaSLA93]]></script>
+        </script-action>
+        <code>eventAction$152</code>
+        <description lang="ru"/>
+        <description/>
+        <event>
+            <eventType>edit</eventType>
+        </event>
+        <fqn>
+            <id>agreementRule</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Скрипт] Редактирование правила SLA</title>
+        <title>Редактирование правила SLA</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

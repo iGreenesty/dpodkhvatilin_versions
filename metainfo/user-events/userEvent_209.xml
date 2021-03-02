@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<event xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="userEvent$209" seg-type="user-events">
+    <enabled>true</enabled>
+    <fqn>
+        <id>file</id>
+    </fqn>
+    <title lang="ru">[Кнопка] Отправка выбранных файлов контрагенту</title>
+    <uuid>userEvent$209</uuid>
+</event>

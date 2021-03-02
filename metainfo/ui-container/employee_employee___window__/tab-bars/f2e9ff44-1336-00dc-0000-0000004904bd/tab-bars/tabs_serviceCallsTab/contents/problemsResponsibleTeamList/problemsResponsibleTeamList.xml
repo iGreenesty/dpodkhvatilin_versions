@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="problemsResponsibleTeamList" seg-type="contents" uuid="problemsResponsibleTeamList">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efc7d-16fc-1734-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Проблемы в ответственности команд сотрудника</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>problem</id>
+    </class>
+    <attributeGroup>dbe7eada-076f-468b-8034-fbe2766dc032</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/ca3ce80a-26fa-352d-9a5b-256c34e3e678/ca3ce80a-26fa-352d-9a5b-256c34e3e678.xml" parse="xml"/>
+    <xi:include href="tool-panels/6f0b3d54-4df8-b1ab-5474-08ec676688fb.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="fba8dfa3-1657-c0df-0003-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="fba8dfd6-1657-c341-0003-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c5195-168d-1244-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>respForPrblms</attr-link-code>
+    <attrs-chain attr-code="teams" class-fqn="employee$employee"/>
+    <attrs-chain attr-code="respForPrblms" class-fqn="team"/>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="abstractBO" code="author"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="problem" code="responsible"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Проблема</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

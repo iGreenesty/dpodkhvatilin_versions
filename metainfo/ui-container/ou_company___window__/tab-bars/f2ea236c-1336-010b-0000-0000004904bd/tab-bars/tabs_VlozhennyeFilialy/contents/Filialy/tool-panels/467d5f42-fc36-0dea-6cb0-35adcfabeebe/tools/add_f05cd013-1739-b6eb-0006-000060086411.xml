@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<add-from-list xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="add_f05cd013-1739-b6eb-0006-000060086411" seg-type="tools" uuid="f05cd013-1739-b6eb-0006-000060086411">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <iconCode>client</iconCode>
+    <params/>
+    <presentationType>default</presentationType>
+    <action>add</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Add</caption>
+    <caption lang="ru">Добавить филиал</caption>
+    <quickAddForm>quickAddAndEditForm$FormaBystrogoDobavleniyaOtdela</quickAddForm>
+    <returnToListAfterAdd>false</returnToListAfterAdd>
+    <useQuickAddForm>true</useQuickAddForm>
+</add-from-list>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="RazdelyVerhnegoUrovnya" seg-type="contents" uuid="RazdelyVerhnegoUrovnya">
+    <profiles/>
+    <tags>
+        <tag>BazaZnanii</tag>
+    </tags>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6eff11-16fc-18a0-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Разделы базы знаний</caption>
+    <showCaption>true</showCaption>
+    <case>
+        <id>KB</id>
+        <case>KBSectionOpen</case>
+    </case>
+    <attributeGroup>bbf4b590-0a88-492b-80ea-0afcf9ecd27d</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/f0a4bb59-07ff-0813-2ac5-dfaa8f2f4028.xml" parse="xml"/>
+    <xi:include href="tool-panels/16fe9e4c-a73b-2a3e-aa4e-7c67606039c2.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="ff83cbfb-1658-92b7-001c-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="ff83cc42-1658-9384-001c-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c5069-168d-1224-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <filterRestrictionSettings/>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+</objects>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f1d2521e-13f5-0220-0000-fffffffffc0aca3a" seg-type="contents" uuid="f1d2521e-13f5-0220-0000-fffffffffc0aca3a">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+        <profile>715ac749-76c9-4335-9c68-27d30274d88d</profile>
+        <profile>066759f5-fb96-4c3c-9d2d-49c628e98ef0</profile>
+        <profile>dc712f36-3947-4536-a0fe-8d55aafcae0f</profile>
+        <profile>observerNotLis</profile>
+        <profile>6c4f0dc1-1cbb-4b70-a48a-45917d3e3c98</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+    </profiles>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef9e3-16fc-1622-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Данные о пользователе</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>148f040e-7db1-410e-aa0d-a471ad8619d6</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/f1d2521f-13f5-0221-0000-fffffffffc0aca3a/f1d2521f-13f5-0221-0000-fffffffffc0aca3a.xml" parse="xml"/>
+</properties>

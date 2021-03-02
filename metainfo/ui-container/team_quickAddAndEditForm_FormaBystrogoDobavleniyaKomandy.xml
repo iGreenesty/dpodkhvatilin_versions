@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="team_quickAddAndEditForm$FormaBystrogoDobavleniyaKomandy" seg-type="ui-container">
+    <fqn>
+        <id>team</id>
+    </fqn>
+    <code>quickAddAndEditForm$FormaBystrogoDobavleniyaKomandy</code>
+    <quickform seg-detach="false" uuid="quickAddAndEditForm$FormaBystrogoDobavleniyaKomandy">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Форма быстрого добавления команды</caption>
+        <layout seg-detach="false" uuid="4e2e11bd-2997-7625-c2b9-ef4a0603e9da">
+            <profiles/>
+            <tags/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <attrGroup>c7f3b95b-74fd-4d98-a4c2-cdd9a8758ff6</attrGroup>
+        <custom-form>QuickForm</custom-form>
+        <show-attr-description>false</show-attr-description>
+        <transitioncases>
+            <id>team</id>
+            <case>team</case>
+        </transitioncases>
+        <code>FormaBystrogoDobavleniyaKomandy</code>
+    </quickform>
+</ui>

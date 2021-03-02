@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<embedded-application-content xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="employeeTasksByStates" seg-type="contents" uuid="employeeTasksByStates">
+    <profiles/>
+    <tags>
+        <tag>kanboard</tag>
+    </tags>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="1ecb6e4e-0601-ea29-ed6b-15eb807e86d6">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Интерактивная доска</caption>
+    <showCaption>false</showCaption>
+    <application>kanboard</application>
+    <parametersValues/>
+</embedded-application-content>

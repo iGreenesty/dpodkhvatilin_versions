@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="447d71c1-8817-4fc7-bd5d-bda0fc363d4b" seg-type="attribute-group">
+    <code>447d71c1-8817-4fc7-bd5d-bda0fc363d4b</code>
+    <title lang="ru">Получатели</title>
+    <attribute>recipientsOU</attribute>
+    <attribute>autoCreation</attribute>
+    <order>recipientsOU</order>
+    <order>autoCreation</order>
+</group>

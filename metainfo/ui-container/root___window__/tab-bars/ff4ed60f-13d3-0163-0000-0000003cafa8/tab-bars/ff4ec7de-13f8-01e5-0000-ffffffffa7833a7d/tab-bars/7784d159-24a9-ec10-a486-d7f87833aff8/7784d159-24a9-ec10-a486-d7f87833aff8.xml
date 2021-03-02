@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="7784d159-24a9-ec10-a486-d7f87833aff8" seg-type="tab-bars" uuid="7784d159-24a9-ec10-a486-d7f87833aff8">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fb409aea-16fe-3fc9-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="93e76a68-c320-6e50-881c-206f80b42278">
+        <profiles/>
+        <tags>
+            <tag>Zadachi</tag>
+        </tags>
+        <caption lang="ru">Шаблоны задач</caption>
+        <countObjectsContentUuid>e4c84b5f-cec9-44e2-95d1-c470b01abbc5</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="f7e201fc-405c-5e8d-8db7-fa6537f47feb">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/e4c84b5f-cec9-44e2-95d1-c470b01abbc5/e4c84b5f-cec9-44e2-95d1-c470b01abbc5.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fb409aea-16fe-3fca-0002-000014127783">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="ed9cd5e8-aa9b-bb41-0a97-76252881b998">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Шаблоны комментариев</caption>
+        <countObjectsContentUuid>5b4c2486-cc12-075f-7bb3-f613510ffb46</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="9b10dcf3-bae0-d0c6-2746-a0c63db42b1c">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/5b4c2486-cc12-075f-7bb3-f613510ffb46/5b4c2486-cc12-075f-7bb3-f613510ffb46.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fb409aea-16fe-3fcc-0002-000014127783">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

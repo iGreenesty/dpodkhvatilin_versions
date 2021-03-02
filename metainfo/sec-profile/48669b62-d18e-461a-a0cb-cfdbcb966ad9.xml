@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="48669b62-d18e-461a-a0cb-cfdbcb966ad9" licensed="true" seg-detach="true" seg-id="48669b62-d18e-461a-a0cb-cfdbcb966ad9" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>7c20a0e9-e46d-4d84-99e5-2360b2984926</roles>
+    <title lang="ru">Автор трудозатраты</title>
+</security-profile>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="2a4ee529-1375-4ee0-8a43-24ce0005c6a4" seg-type="attribute-group">
+    <code>2a4ee529-1375-4ee0-8a43-24ce0005c6a4</code>
+    <title lang="ru">Отчет о выполнении:</title>
+    <attribute>codeOfClosing</attribute>
+    <attribute>resultDescr</attribute>
+    <order>codeOfClosing</order>
+    <order>resultDescr</order>
+</group>

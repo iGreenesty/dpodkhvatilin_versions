@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f5df38f8-14ce-8327-0001-00003f5cad83" seg-type="lists" uuid="f5df38f8-14ce-8327-0001-00003f5cad83">
+    <profiles>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+    </profiles>
+    <tags/>
+    <cases/>
+    <class>
+        <id>serviceCall</id>
+    </class>
+    <attributes>
+        <xi:include href="attributes/title.xml" parse="xml"/>
+        <xi:include href="attributes/coloOverdue.xml" parse="xml"/>
+        <xi:include href="attributes/shortDescr.xml" parse="xml"/>
+        <xi:include href="attributes/client.xml" parse="xml"/>
+        <xi:include href="attributes/priority.xml" parse="xml"/>
+    </attributes>
+    <allowActionsWithObjects>true</allowActionsWithObjects>
+    <caption lang="ru">ЗАЯВКИ: новые в моей ответственности</caption>
+    <filters/>
+    <filter seg-detach="false" uuid="f608f8d3-1778-c9a6-0000-000044ccdc1e">
+        <profiles/>
+        <tags/>
+        <elements seg-detach="false" uuid="f608f8d3-1778-c9a5-0000-000044ccdc1e">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="f608f8d3-1778-c9a4-0000-000044ccdc1e">
+                <profiles/>
+                <tags/>
+                <properties>
+                    <entry>
+                        <key>attrTypeCode</key>
+                        <value>state</value>
+                    </entry>
+                    <entry>
+                        <key>attributeFqn</key>
+                        <value>serviceCall@state</value>
+                    </entry>
+                    <entry>
+                        <key>conditionCode</key>
+                        <value>contains</value>
+                    </entry>
+                </properties>
+                <value>
+                    <simpleDtObject>
+                        <metainfo>
+                            <id>serviceCall</id>
+                        </metainfo>
+                        <title>Новая (Заявка)</title>
+                        <UUID>serviceCall:registered</UUID>
+                    </simpleDtObject>
+                </value>
+            </elements>
+        </elements>
+    </filter>
+    <orders>
+        <order code="abstractBO@creationDate" order="desc"/>
+    </orders>
+    <attrs-chain attr-code="respForSCs" class-fqn="employee"/>
+</related-objects>

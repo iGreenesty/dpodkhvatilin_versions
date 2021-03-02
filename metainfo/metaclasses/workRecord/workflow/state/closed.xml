@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="closed" color="#00FF00" enabled="true" hardcoded="false" seg-detach="true" seg-id="closed" seg-type="state">
+    <title lang="ru">Утверждена</title>
+    <description lang="ru">конечный статус объекта</description>
+    <stateSetting canEdit="false" canView="true" code="actualDate" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Фактическая дата</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="changeRequest" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Запрос на изменение</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="description" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Описание</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="employee" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Выполнивший работу</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="problem" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Проблема</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="serviceCall" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Заявка</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="task" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Задача</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="time" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Затраченное время (ч)</title>
+    </stateSetting>
+    <preAction code="fd7a1285-16f1-0fb9-0059-000001d24423" preAction="true" type="SCRIPT">
+        <title lang="ru">Заполнение даты утверждения</title>
+        <property code="script">ZapolnenieDatyUtverzhdeniya</property>
+    </preAction>
+    <preActionsOrder>fd7a1285-16f1-0fb9-0059-000001d24423</preActionsOrder>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

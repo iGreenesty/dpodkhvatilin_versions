@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="115ece92-26d8-4596-b3c6-00bd5ef31412" seg-type="attribute-group-override">
+    <code>115ece92-26d8-4596-b3c6-00bd5ef31412</code>
+    <attribute>serialNumber</attribute>
+    <attribute>owner</attribute>
+    <attribute>users</attribute>
+    <order>title</order>
+    <order>serialNumber</order>
+    <order>state</order>
+    <order>creationDate</order>
+    <order>owner</order>
+    <order>users</order>
+    <order>author</order>
+</override>

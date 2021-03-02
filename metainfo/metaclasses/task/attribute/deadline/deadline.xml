@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="deadline" seg-type="attribute">
+    <code>deadline</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">Дедлайн</title>
+    <description lang="ru"/>
+    <type>
+        <code>dateTime</code>
+        <property code="code">dateTime</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>true</computableOnForm>
+    <computableOnFormScript>VychislenieDedlainaVZavisimostiOtVremeniNaReshenieVShablone</computableOnFormScript>
+    <attrsUsedInCompOnFormScript>templateTask</attrsUsedInCompOnFormScript>
+    <attrsUsedInCompOnFormScript>planDate</attrsUsedInCompOnFormScript>
+    <viewPresentation>
+        <code>dateTimeView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>dateTimeEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>flexAccessor</accessor>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>true</systemEditable>
+    <xi:include href="search-settings/deadline_deadline.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <dateTimeRestrictionType>NO_RESTRICTION</dateTimeRestrictionType>
+    <dateTimeCommonRestrictions>PAST</dateTimeCommonRestrictions>
+    <dateTimeCommonRestrictions>FUTURE</dateTimeCommonRestrictions>
+    <dateTimeRestrictionCondition>NO</dateTimeRestrictionCondition>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

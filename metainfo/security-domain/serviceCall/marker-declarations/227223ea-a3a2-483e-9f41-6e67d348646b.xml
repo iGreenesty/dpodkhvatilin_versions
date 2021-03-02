@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="227223ea-a3a2-483e-9f41-6e67d348646b" enabled="true" group="userEvent" seg-detach="true" seg-id="227223ea-a3a2-483e-9f41-6e67d348646b" seg-type="marker-declarations">
+    <title lang="ru">Создать статью базы знаний</title>
+    <attributes>userEvent$button_addNewArticle</attributes>
+</marker-declaration>

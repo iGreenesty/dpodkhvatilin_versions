@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="SCRIPTSD4002262" seg-type="scripts">
+    <code>SCRIPTSD4002262</code>
+    <title lang="ru">Распространить соглашение по всем или выбранным отделам</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="SCRIPTSD4002262.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

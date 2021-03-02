@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="27ae07e2-12fb-4052-a8f2-902b8ff7f566" enabled="true" group="viewAttrs" seg-detach="true" seg-id="27ae07e2-12fb-4052-a8f2-902b8ff7f566" seg-type="marker-declarations">
+    <title lang="ru">Для контрагента (нелиц.)</title>
+    <attributes>agreement</attributes>
+    <attributes>descriptionRTF</attributes>
+    <attributes>clientEmail</attributes>
+    <attributes>clientName</attributes>
+    <attributes>description</attributes>
+    <attributes>clientPhone</attributes>
+    <attributes>number</attributes>
+    <attributes>timeAllowanceTimer</attributes>
+    <attributes>urgency</attributes>
+    <attributes>postoponeTill</attributes>
+    <attributes>service</attributes>
+    <attributes>shortDescr</attributes>
+    <attributes>commentForMark</attributes>
+    <attributes>resultDescr</attributes>
+    <attributes>mark</attributes>
+</marker-declaration>

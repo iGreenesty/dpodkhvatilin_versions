@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fed37f7e-13f1-00e5-0000-ffffffffb0965139" seg-type="contents" uuid="fed37f7e-13f1-00e5-0000-ffffffffb0965139">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef992-16fc-1604-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Проблемы в ответственности</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>problem</id>
+    </class>
+    <attributeGroup>4c6ed93b-6189-4529-8e32-e31aaa916013</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/fed37f80-13f1-00e6-0000-ffffffffb0965139/fed37f80-13f1-00e6-0000-ffffffffb0965139.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae661b-15a2-1066-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f6ae661b-15a2-1067-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f6ae661b-15a2-1068-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c52ea-168d-125d-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attrs-chain attr-code="respForPrblms" class-fqn="employee"/>
+    <filterRestrictionSettings/>
+    <add-form>
+        <caption lang="ru">Связать с проблемой</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

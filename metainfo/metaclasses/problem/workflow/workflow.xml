@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workflow xmlns:xi="http://www.w3.org/2001/XInclude" inherit="false" originalState="registered" seg-detach="true" seg-id="workflow" seg-type="workflow">
+    <xi:include href="state/applyDecision.xml" parse="xml"/>
+    <xi:include href="state/closed.xml" parse="xml"/>
+    <xi:include href="state/deferred.xml" parse="xml"/>
+    <xi:include href="state/diagnosing.xml" parse="xml"/>
+    <xi:include href="state/registered.xml" parse="xml"/>
+    <xi:include href="state/solved.xml" parse="xml"/>
+    <statesOrder>registered</statesOrder>
+    <statesOrder>diagnosing</statesOrder>
+    <statesOrder>applyDecision</statesOrder>
+    <statesOrder>deferred</statesOrder>
+    <statesOrder>solved</statesOrder>
+    <statesOrder>closed</statesOrder>
+    <xi:include href="transition/applyDecision-deferred.xml" parse="xml"/>
+    <xi:include href="transition/applyDecision-solved.xml" parse="xml"/>
+    <xi:include href="transition/deferred-applyDecision.xml" parse="xml"/>
+    <xi:include href="transition/deferred-diagnosing.xml" parse="xml"/>
+    <xi:include href="transition/deferred-solved.xml" parse="xml"/>
+    <xi:include href="transition/diagnosing-applyDecision.xml" parse="xml"/>
+    <xi:include href="transition/diagnosing-deferred.xml" parse="xml"/>
+    <xi:include href="transition/registered-closed.xml" parse="xml"/>
+    <xi:include href="transition/registered-diagnosing.xml" parse="xml"/>
+    <xi:include href="transition/solved-applyDecision.xml" parse="xml"/>
+    <xi:include href="transition/solved-closed.xml" parse="xml"/>
+    <xi:include href="transition/solved-deferred.xml" parse="xml"/>
+    <xi:include href="transition/solved-diagnosing.xml" parse="xml"/>
+</workflow>

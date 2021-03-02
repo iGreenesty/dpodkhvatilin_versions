@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$186" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <push-action>
+            <actionType>PushEventAction</actionType>
+            <message>&lt;div style="font-size: 1rem; padding: 5px 0 5px 0"&gt;&lt;div style="padding: 0 0 7px 5px; border-bottom: 2px solid #cccccc"&gt;В Вашей заявке &lt;b&gt;&lt;a href="${api.web.open(subject)}"&gt;№${subject.number}&lt;/a&gt;&lt;/b&gt; изменился статус&lt;/div&gt;&lt;table style="margin: 10px 0 0 10px; font-size: 0.85rem"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="padding: 0px 10px 7px 0"&gt;Тема:&lt;/td&gt;&lt;td style="padding: 0px 10px 7px 0"&gt;${subject.shortDescr}&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding: 0px 10px 7px 0"&gt;Контрагент:&lt;/td&gt;&lt;td style="padding: 0px 10px 7px 0"&gt;${subject.clientOU?.title ?: '[не указан]'}&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding: 0px 10px 7px 0"&gt;Статус:&lt;/td&gt;&lt;td style="padding: 0px 10px 7px 0"&gt;&lt;span style="margin: 0 7px 0 0; background-color: #f5e1e7; text-decoration: line-through"&gt;${api.metainfo.getStateTitle(oldSubject)}&lt;/span&gt;&lt;span style="background-color: #dcf5d7"&gt;${api.metainfo.getStateTitle(subject)}&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</message>
+            <roles>serviceCall_ResponsibleEmployee</roles>
+            <script><![CDATA[IskluchenieAvtoraDeistviiIzChislaPoluchatelei]]></script>
+            <html>true</html>
+            <position>BottomRight</position>
+            <pushPresentationType>AlwaysInTheInterface</pushPresentationType>
+            <type>WEB</type>
+        </push-action>
+        <code>eventAction$186</code>
+        <description lang="ru"/>
+        <event>
+            <eventType>changeState</eventType>
+        </event>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Push] О смене статуса заявки (ответственному сотруднику)</title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="snmpProtoVersions" seg-detach="true" seg-id="snmpProtoVersions" seg-type="catalog" xsi:type="SystemCatalog">
+    <title lang="client">Версии протокола SNMP</title>
+    <title lang="en">SNMP protocol versions</title>
+    <title lang="ru">Версии протокола SNMP</title>
+    <description lang="client">Версии протокола SNMP: 1, 2 или 3.</description>
+    <description lang="en">SNMP Protocol Versions: 1, 2 or 3.</description>
+    <description lang="ru">Версии протокола SNMP: 1, 2 или 3.</description>
+</catalog>

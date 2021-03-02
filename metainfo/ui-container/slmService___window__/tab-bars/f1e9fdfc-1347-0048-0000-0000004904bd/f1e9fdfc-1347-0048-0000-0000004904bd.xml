@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabBar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="true" seg-detach="true" seg-id="f1e9fdfc-1347-0048-0000-0000004904bd" seg-type="tab-bars" uuid="f1e9fdfc-1347-0048-0000-0000004904bd">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efd6e-16fc-179e-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="f1e9fdfc-1348-0048-0000-0000004904bd">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Общие сведения</caption>
+        <considerListFilter>false</considerListFilter>
+        <xi:include href="tool-panels/f6ae6290-15a2-0eae-0000-000001c8b871.xml" parse="xml"/>
+        <layout seg-detach="false" uuid="f1e9fdfc-1349-0048-0000-0000004904bd">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/fd582d0d-13d5-00df-0000-00002a129e7d/fd582d0d-13d5-00df-0000-00002a129e7d.xml" parse="xml"/>
+            <xi:include href="contents/f2ddce32-13f4-0803-0000-00001214b574/f2ddce32-13f4-0803-0000-00001214b574.xml" parse="xml"/>
+            <xi:include href="tab-bars/fe874377-140c-0095-0000-00000025976e/fe874377-140c-0095-0000-00000025976e.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>true</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efd6f-16fc-17a8-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="OtchetySPlashkami">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+            <profile>ec280f65-2261-4248-8896-ee251c39c58e</profile>
+        </profiles>
+        <tags/>
+        <caption lang="ru">Отчеты</caption>
+        <considerListFilter>false</considerListFilter>
+        <xi:include href="tool-panels/1b57df82-4400-2cc7-2d93-0a071f8f0171.xml" parse="xml"/>
+        <layout seg-detach="false" uuid="f591b520-fe96-c4dc-e19d-f84838ed8ecc">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/TekusheeSostoyanieDel_Usluga/TekusheeSostoyanieDel_Usluga.xml" parse="xml"/>
+            <xi:include href="contents/SostoyanieDelZaPeriod_Usluga/SostoyanieDelZaPeriod_Usluga.xml" parse="xml"/>
+            <leftColumnWidth>50</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>NO</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efd70-16fc-17ab-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="f2dc61bc-13f4-0745-0000-00001214b574">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>ec280f65-2261-4248-8896-ee251c39c58e</profile>
+        </profiles>
+        <tags/>
+        <caption lang="ru">История</caption>
+        <considerListFilter>false</considerListFilter>
+        <xi:include href="tool-panels/f6ae6290-15a2-0eaf-0000-000001c8b871.xml" parse="xml"/>
+        <layout seg-detach="false" uuid="f2dc61be-13f4-0746-0000-00001214b574">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f2e1fd81-13f4-08e1-0000-00001214b574/f2e1fd81-13f4-08e1-0000-00001214b574.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efd70-16fc-17ad-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabBar>

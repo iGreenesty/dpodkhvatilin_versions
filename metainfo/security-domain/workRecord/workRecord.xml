@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-domain xmlns:xi="http://www.w3.org/2001/XInclude" code="workRecord" seg-detach="true" seg-id="workRecord" seg-type="security-domain">
+    <xi:include href="access-matrix/access-matrix.xml" parse="xml"/>
+    <xi:include href="marker-declarations/editState.xml" parse="xml"/>
+    <xi:include href="roles/1cfbfe45-22e2-4775-9dc9-24837dddbc9c.xml" parse="xml"/>
+    <xi:include href="roles/7c20a0e9-e46d-4d84-99e5-2360b2984926.xml" parse="xml"/>
+    <xi:include href="roles/a3d5fa33-7781-49d0-b33d-b43a5e2d03f8.xml" parse="xml"/>
+</security-domain>

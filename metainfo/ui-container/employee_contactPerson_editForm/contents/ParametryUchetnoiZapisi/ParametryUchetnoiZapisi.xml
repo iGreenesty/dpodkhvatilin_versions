@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<editable-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ParametryUchetnoiZapisi" seg-type="contents" uuid="ParametryUchetnoiZapisi">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="0bea51ac-1461-67f3-a739-d771d62e82ca">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Параметры учетной записи</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>11a8271d-00ad-4fa0-a887-b36c6ecf1863</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/f1bca0b7-16ff-0f30-0006-000014127783.xml" parse="xml"/>
+    <resetValuesIfHidden>false</resetValuesIfHidden>
+</editable-properties>

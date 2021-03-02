@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-event-tool xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fireUserEvent_8e8c79c3-9bfe-5615-662f-70e6a82cbeab" seg-type="tools" uuid="8e8c79c3-9bfe-5615-662f-70e6a82cbeab">
+    <profiles/>
+    <tags/>
+    <appliedToType>listObjects</appliedToType>
+    <iconCode>replace_icon</iconCode>
+    <params/>
+    <presentationType>link</presentationType>
+    <action>fireUserEvent</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="ru">переместить</caption>
+    <event-uuid>userEvent$PeremeshenieSotrudnika</event-uuid>
+    <go-to-card-after-action>false</go-to-card-after-action>
+    <use-quick-form>false</use-quick-form>
+</user-event-tool>

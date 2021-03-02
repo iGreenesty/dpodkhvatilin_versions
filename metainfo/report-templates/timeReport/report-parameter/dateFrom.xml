@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="dateFrom" seg-type="report-parameter">
+    <code>dateFrom</code>
+    <title>Фактическая дата с</title>
+    <type>dateTime</type>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="anyType">
+        <date xsi:nil="true"/>
+    </value>
+    <visible>true</visible>
+    <overrided>false</overrided>
+    <params>
+        <entry>
+            <key>dateTimeRoundingMode</key>
+            <value>startOfDay</value>
+        </entry>
+    </params>
+    <required>true</required>
+</parameter>

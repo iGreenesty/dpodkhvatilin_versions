@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<admin-lite-settings xmlns:xi="http://www.w3.org/2001/XInclude" enabled="true" seg-detach="true" seg-id="admin-lite" seg-type="transfer-values">
+    <catalogs>category</catalogs>
+    <catalogs>servicetime</catalogs>
+    <catalogs>closureCode</catalogs>
+    <catalogs>priority</catalogs>
+    <catalogs>rulesSettings$589701</catalogs>
+    <catalogs>impact</catalogs>
+    <catalogs>urgency</catalogs>
+    <catalogs>timezone</catalogs>
+    <catalogs>blackListContent</catalogs>
+    <catalogs>blackListSubject</catalogs>
+    <catalogs>blackListEmails</catalogs>
+    <catalogs>typeCI</catalogs>
+    <catalogs>icons</catalogs>
+    <catalogs>SidInterface</catalogs>
+    <catalogs>interface</catalogs>
+    <catalogs>pclnterface</catalogs>
+    <catalogs>RFCcategories</catalogs>
+    <catalogs>mark</catalogs>
+    <catalogs>reasonForDecl</catalogs>
+    <catalogs>producer</catalogs>
+    <catalogs>distribution</catalogs>
+    <catalogs>period</catalogs>
+    <catalogs>sortwareType</catalogs>
+    <catalogs>hddType</catalogs>
+    <catalogs>otebookType</catalogs>
+    <catalogs>ramType</catalogs>
+    <catalogs>printerType</catalogs>
+    <catalogs>cpuType</catalogs>
+    <groups>C3_admin</groups>
+    <process-settings>tags</process-settings>
+    <process-settings>escalation</process-settings>
+    <system-settings>eventActions</system-settings>
+    <system-settings>interface</system-settings>
+    <system-settings>mailLog</system-settings>
+    <system-settings>mail</system-settings>
+    <system-settings>scheduler</system-settings>
+</admin-lite-settings>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$215" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[SCRIPTSD4001431]]></script>
+        </script-action>
+        <code>eventAction$215</code>
+        <description lang="ru"/>
+        <user-events>
+            <eventType>userEvent</eventType>
+            <event-code>userEvent$215</event-code>
+            <form-code>f6e731da-15a2-4b5f-0002-000001c8b871</form-code>
+        </user-events>
+        <fqn>
+            <id>changeRequest</id>
+        </fqn>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <fqn>
+            <id>problem</id>
+        </fqn>
+        <on>false</on>
+        <slow>false</slow>
+        <title lang="ru">Добавление задачи</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

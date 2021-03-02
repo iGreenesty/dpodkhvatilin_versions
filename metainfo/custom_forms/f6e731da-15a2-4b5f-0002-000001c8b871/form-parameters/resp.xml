@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="resp" seg-type="form-parameters">
+    <attrs-for-date-time-restriction-script/>
+    <attrs-in-cof-script>
+        <attribute>templateTask</attribute>
+    </attrs-in-cof-script>
+    <code>resp</code>
+    <cof-script>SCRIPTSD4001407workAroundForResponsible</cof-script>
+    <complexRelation>false</complexRelation>
+    <computable-on-form>true</computable-on-form>
+    <default-by-script>false</default-by-script>
+    <edit-presentaion>
+        <code>aggregateEdit</code>
+    </edit-presentaion>
+    <editable>true</editable>
+    <is-filtered-by-script>false</is-filtered-by-script>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <required>false</required>
+    <title lang="ru">Ответственный</title>
+    <type>
+        <code>aggregate</code>
+        <property code="permittedTypes">[]</property>
+        <property code="preparedAttributes">[{"attr":"resp_te","parents":[],"referenceMetaClass":"team"},{"attr":"resp_em","parents":["teams"],"referenceMetaClass":"employee"}]</property>
+        <property code="aggregateClasses">["team","employee"]</property>
+    </type>
+    <view-presentaion>
+        <code>aggregateView</code>
+    </view-presentaion>
+</parameter>

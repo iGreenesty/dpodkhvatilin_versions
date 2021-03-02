@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="totalTimeTimer" seg-type="attribute-override">
+    <code>totalTimeTimer</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>false</editable>
+    <required>false</required>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="client"/>
+    <title lang="de"/>
+    <title lang="en">Total processing timer</title>
+    <title lang="ru">Счетчик суммарного времени обработки заявок</title>
+    <description lang="client"/>
+    <description lang="de"/>
+    <description lang="en"/>
+    <description lang="ru"/>
+    <type>
+        <property code="code">timer</property>
+        <property code="definition">totalTime</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <scriptForFiltration/>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>timerElapsedV</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>unknownEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <defaultByScript>false</defaultByScript>
+    <scriptForDefault/>
+    <xi:include href="search-settings/totalTimeTimer_totalTimeTimer.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</override>

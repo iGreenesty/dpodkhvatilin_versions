@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<escalation-scheme xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f279e0f3-1502-dd50-0000-00004bc4dfca" seg-type="escalation-scheme">
+    <code>f279e0f3-1502-dd50-0000-00004bc4dfca</code>
+    <title lang="ru">Основная схема для согласований</title>
+    <state>on</state>
+    <targetTypes>
+        <id>negotiation</id>
+    </targetTypes>
+    <timerCode>forNegotiation</timerCode>
+    <levels>
+        <level>1</level>
+        <condition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="EscalationSchemeLevelConditionTimePart">
+            <condition>timePartExceeded</condition>
+            <value>70</value>
+        </condition>
+        <actions>eventAction$94</actions>
+        <actionExecuted>false</actionExecuted>
+    </levels>
+    <levels>
+        <level>2</level>
+        <condition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="EscalationSchemeLevelConditionTimePart">
+            <condition>timePartExceeded</condition>
+            <value>100</value>
+        </condition>
+        <actions>eventAction$95</actions>
+        <actionExecuted>false</actionExecuted>
+    </levels>
+    <levels>
+        <level>3</level>
+        <condition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="EscalationSchemeLevelConditionTimePart">
+            <condition>timePartExceeded</condition>
+            <value>100</value>
+        </condition>
+        <actions>eventAction$SkriptPerevoditGolosovaniyaVProsrocheno</actions>
+        <actionExecuted>false</actionExecuted>
+    </levels>
+</escalation-scheme>

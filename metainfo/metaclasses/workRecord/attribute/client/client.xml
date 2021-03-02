@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="client" seg-type="attribute">
+    <code>client</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>false</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">Клиент</title>
+    <description lang="ru"/>
+    <type>
+        <code>aggregate</code>
+        <property code="aggregateClasses">["employee","ou"]</property>
+        <property code="attributes">[{'attr':'client_em','parents':['parent']}, {'attr':'client_ou','parents':[]}]</property>
+        <property code="code">aggregate</property>
+        <property code="complexRelation">false</property>
+        <property code="complexRelationsAttrGroups">{}</property>
+        <property code="metaClassFqn">workRecord</property>
+        <property code="preparedAttributes">[{"attr":"client_em","parents":["parent"],"referenceMetaClass":"employee"},{"attr":"client_ou","parents":[],"referenceMetaClass":"ou"}]</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>aggregateView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>aggregateEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>aggregateAccessor</accessor>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>true</systemEditable>
+    <xi:include href="search-settings/client_client.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

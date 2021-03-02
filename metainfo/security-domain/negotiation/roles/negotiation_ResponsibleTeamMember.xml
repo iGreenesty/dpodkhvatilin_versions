@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="negotiation_ResponsibleTeamMember" enabled="true" seg-detach="true" seg-id="negotiation_ResponsibleTeamMember" seg-type="roles" type="SYSTEM">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="snippet">responsibleTeamMemberRoleSnippet</property>
+    <title lang="en">Assignee team member</title>
+    <title lang="ru">Член команды, ответственной за объект</title>
+</role>

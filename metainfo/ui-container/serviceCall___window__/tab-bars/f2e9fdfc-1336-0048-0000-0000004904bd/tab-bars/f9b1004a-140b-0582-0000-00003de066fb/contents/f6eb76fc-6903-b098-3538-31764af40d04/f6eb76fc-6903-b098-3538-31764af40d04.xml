@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f6eb76fc-6903-b098-3538-31764af40d04" seg-type="contents" uuid="f6eb76fc-6903-b098-3538-31764af40d04">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef9f5-16fc-1642-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+        <elements seg-detach="false" uuid="09716d87-8879-66df-7a82-fff7d5fdf64e">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="ad3b0e04-d5c5-235a-ee07-872d8a66d363">
+                <profiles/>
+                <tags/>
+                <properties>
+                    <entry>
+                        <key>isAttributeOfRelatedObject</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>isLinkToParent</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>attrTypeCode</key>
+                        <value>object</value>
+                    </entry>
+                    <entry>
+                        <key>conditionCode</key>
+                        <value>notNull</value>
+                    </entry>
+                    <entry>
+                        <key>attributeFqn</key>
+                        <value>serviceCall@masterMassProblem</value>
+                    </entry>
+                </properties>
+            </elements>
+        </elements>
+    </visibilityCondition>
+    <caption lang="ru">Ведущая заявка</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>13eeb281-d257-4e5d-9c7c-f488f5606541</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/fb7cb28b-0be6-725a-4604-eba130fe758a.xml" parse="xml"/>
+</properties>

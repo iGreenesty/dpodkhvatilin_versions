@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="f3ac5fe9-1417-0781-0000-0000519582d1" seg-type="tab-bars" uuid="f3ac5fe9-1417-0781-0000-0000519582d1">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efb99-16fc-16c9-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="f3ac5fe9-1417-077f-0000-0000519582d1">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Комментарии</caption>
+        <countObjectsContentUuid>f3aca25d-1417-0782-0000-0000519582d1</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="f3ac5fe9-1417-0780-0000-0000519582d1">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f3aca25d-1417-0782-0000-0000519582d1/f3aca25d-1417-0782-0000-0000519582d1.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efb9c-16fc-16cb-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="f3acd833-1417-0788-0000-0000519582d1">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Файлы</caption>
+        <countObjectsContentUuid>f3ad643e-1417-0792-0000-0000519582d1</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="f3acd834-1417-0789-0000-0000519582d1">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f3ad643e-1417-0792-0000-0000519582d1/f3ad643e-1417-0792-0000-0000519582d1.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efb9d-16fc-16cd-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="f3acf789-1417-078b-0000-0000519582d1">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Общие сведения</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="f3acf789-1417-078c-0000-0000519582d1">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f3ad8f07-1417-0796-0000-0000519582d1/f3ad8f07-1417-0796-0000-0000519582d1.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efb9d-16fc-16cf-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="f8563628-5198-0171-0001-000779541476">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        </profiles>
+        <tags/>
+        <caption lang="ru">Оценки</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="f8563628-5198-0172-0001-000779541476">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f8565569-5198-0174-0001-000779541476/f8565569-5198-0174-0001-000779541476.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efb9d-16fc-16d1-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

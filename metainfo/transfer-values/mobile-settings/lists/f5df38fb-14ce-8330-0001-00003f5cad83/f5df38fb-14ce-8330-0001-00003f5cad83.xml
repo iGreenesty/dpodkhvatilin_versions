@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f5df38fb-14ce-8330-0001-00003f5cad83" seg-type="lists" uuid="f5df38fb-14ce-8330-0001-00003f5cad83">
+    <profiles>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+    </profiles>
+    <tags>
+        <tag>Zadachi</tag>
+    </tags>
+    <cases/>
+    <class>
+        <id>task</id>
+    </class>
+    <attributes>
+        <xi:include href="attributes/title.xml" parse="xml"/>
+        <xi:include href="attributes/state.xml" parse="xml"/>
+        <xi:include href="attributes/planDate.xml" parse="xml"/>
+        <xi:include href="attributes/deadline.xml" parse="xml"/>
+        <xi:include href="attributes/responsible.xml" parse="xml"/>
+        <xi:include href="attributes/description.xml" parse="xml"/>
+    </attributes>
+    <allowActionsWithObjects>true</allowActionsWithObjects>
+    <caption lang="ru">ЗАДАЧИ: открытые в ответственности моих команд</caption>
+    <filters/>
+    <filter seg-detach="false" uuid="f608f91d-1778-c9d5-0000-000044ccdc1e">
+        <profiles/>
+        <tags/>
+        <elements seg-detach="false" uuid="f608f91d-1778-c9d4-0000-000044ccdc1e">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="f608f91d-1778-c9d1-0000-000044ccdc1e">
+                <profiles/>
+                <tags/>
+                <properties>
+                    <entry>
+                        <key>attrTypeCode</key>
+                        <value>state</value>
+                    </entry>
+                    <entry>
+                        <key>attributeFqn</key>
+                        <value>task@state</value>
+                    </entry>
+                    <entry>
+                        <key>conditionCode</key>
+                        <value>contains</value>
+                    </entry>
+                </properties>
+                <value>
+                    <simpleDtObject>
+                        <metainfo>
+                            <id>task</id>
+                        </metainfo>
+                        <title>Запланирована (Задача)</title>
+                        <UUID>task:registered</UUID>
+                    </simpleDtObject>
+                </value>
+            </elements>
+            <elements seg-detach="false" uuid="f608f91d-1778-c9d2-0000-000044ccdc1e">
+                <profiles/>
+                <tags/>
+                <properties>
+                    <entry>
+                        <key>attrTypeCode</key>
+                        <value>state</value>
+                    </entry>
+                    <entry>
+                        <key>attributeFqn</key>
+                        <value>task@state</value>
+                    </entry>
+                    <entry>
+                        <key>conditionCode</key>
+                        <value>contains</value>
+                    </entry>
+                </properties>
+                <value>
+                    <simpleDtObject>
+                        <metainfo>
+                            <id>task</id>
+                        </metainfo>
+                        <title>В работе (Задача)</title>
+                        <UUID>task:inprogress</UUID>
+                    </simpleDtObject>
+                </value>
+            </elements>
+            <elements seg-detach="false" uuid="f608f91d-1778-c9d3-0000-000044ccdc1e">
+                <profiles/>
+                <tags/>
+                <properties>
+                    <entry>
+                        <key>attrTypeCode</key>
+                        <value>state</value>
+                    </entry>
+                    <entry>
+                        <key>attributeFqn</key>
+                        <value>task@state</value>
+                    </entry>
+                    <entry>
+                        <key>conditionCode</key>
+                        <value>contains</value>
+                    </entry>
+                </properties>
+                <value>
+                    <simpleDtObject>
+                        <metainfo>
+                            <id>task</id>
+                        </metainfo>
+                        <title>Возобновлена (Задача)</title>
+                        <UUID>task:resumed</UUID>
+                    </simpleDtObject>
+                </value>
+            </elements>
+        </elements>
+    </filter>
+    <orders>
+        <order code="abstractBO@creationDate" order="desc"/>
+    </orders>
+    <attrs-chain attr-code="teams" class-fqn="employee"/>
+    <attrs-chain attr-code="respForTasks" class-fqn="team"/>
+</related-objects>

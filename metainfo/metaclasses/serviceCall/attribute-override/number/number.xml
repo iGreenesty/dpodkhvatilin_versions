@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="number" seg-type="attribute-override">
+    <code>number</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <title lang="client"/>
+    <title lang="de"/>
+    <title lang="en">Number</title>
+    <title lang="ru">Номер</title>
+    <description lang="client"/>
+    <description lang="de"/>
+    <description lang="en"/>
+    <description lang="ru"/>
+    <type>
+        <property code="code">integer</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <generationRule>{N}</generationRule>
+    <useGenerationRule>true</useGenerationRule>
+    <defaultByScript>false</defaultByScript>
+    <xi:include href="search-settings/number_number.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</override>

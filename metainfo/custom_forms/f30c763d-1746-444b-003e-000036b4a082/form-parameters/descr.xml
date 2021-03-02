@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="descr" seg-type="form-parameters">
+    <attrs-for-date-time-restriction-script/>
+    <attrs-in-cof-script/>
+    <code>descr</code>
+    <complexRelation>false</complexRelation>
+    <complexRelationAggrAttrGroups>
+        <entry>
+            <key>
+                <id>employee</id>
+            </key>
+        </entry>
+        <entry>
+            <key>
+                <id>ou</id>
+            </key>
+        </entry>
+        <entry>
+            <key>
+                <id>team</id>
+            </key>
+        </entry>
+    </complexRelationAggrAttrGroups>
+    <computable-on-form>false</computable-on-form>
+    <default-by-script>false</default-by-script>
+    <default-value>
+        <string>Если не выбран ни один отдел, то соглашение будет у всех отделов из списка, вложенных в них отделов и их сотрудников.&lt;br&gt;Если в списке выбраны отделы, то соглашение распространится только на них и на&amp;nbsp;вложенные в них отделы и сотрудников.</string>
+    </default-value>
+    <description/>
+    <edit-presentaion>
+        <code>richTextEdit</code>
+    </edit-presentaion>
+    <editable>false</editable>
+    <is-filtered-by-script>false</is-filtered-by-script>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <is-hidden-when-no-possible-values>false</is-hidden-when-no-possible-values>
+    <required>false</required>
+    <title lang="ru">ℹ️</title>
+    <type>
+        <code>richtext</code>
+        <property code="permittedTypes">[]</property>
+    </type>
+    <view-presentaion>
+        <code>richTextWideView</code>
+    </view-presentaion>
+</parameter>

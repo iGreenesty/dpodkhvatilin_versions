@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<reports-list xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="aec5713f-25a2-5d23-a7b1-233d7e68f88f" seg-type="contents" uuid="aec5713f-25a2-5d23-a7b1-233d7e68f88f">
+    <profiles/>
+    <tags>
+        <tag>Trudozatraty</tag>
+    </tags>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fb409aec-16fe-3fe3-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Трудозатраты</caption>
+    <showCaption>true</showCaption>
+    <templates>timeReport</templates>
+    <templates>2152WorkTime_sf</templates>
+</reports-list>

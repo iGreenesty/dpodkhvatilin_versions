@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="customer_ou" seg-type="attribute">
+    <code>customer_ou</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>false</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">Заказчик (Отдел)</title>
+    <description lang="ru"/>
+    <type>
+        <code>object</code>
+        <property code="aggregator">customer</property>
+        <property code="code">object</property>
+        <property code="metaClassFqn">ou</property>
+        <property code="permittedTypes">["ou$company","ou","ou$ou"]</property>
+    </type>
+    <script/>
+    <filteredByScript>false</filteredByScript>
+    <scriptForFiltration/>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>boRreference</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>boSelect</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>flexAccessor</accessor>
+    <defaultByScript>false</defaultByScript>
+    <scriptForDefault/>
+    <systemEditable>false</systemEditable>
+    <xi:include href="search-settings/customer_ou_customer_ou.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

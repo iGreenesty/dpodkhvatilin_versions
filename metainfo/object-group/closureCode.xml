@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<class xmlns:xi="http://www.w3.org/2001/XInclude" id="closureCode" seg-detach="true" seg-id="closureCode" seg-type="object-group">
+    <object>
+        <attribute code="code">
+            <string>notINC</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>closureCode</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Не воспроизводится</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>closureCode$559502</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>rejected</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>closureCode</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Отклонено</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>closureCode$559501</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>resolved</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>closureCode</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Решено</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>closureCode$9301</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>spam</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>closureCode</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Спам</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>closureCode$2254401</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>take</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>closureCode</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Дубль</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>closureCode$2254402</string>
+        </attribute>
+    </object>
+</class>

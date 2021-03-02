@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="stateStartTime_stateStartTime" seg-type="search-settings">
+    <simpleSearchableForLicensed>false</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>false</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>false</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>false</extendedSearchableForLicensed>
+    <searchBoost>1.0</searchBoost>
+    <code>stateStartTime</code>
+    <declaredMetaClass>task</declaredMetaClass>
+    <title lang="en">Enter state time</title>
+    <title lang="ru">Дата входа в статус</title>
+    <title>Дата входа в статус</title>
+    <attrCode>stateStartTime</attrCode>
+</searchSetting>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="GeneraciyaOtvetstvennogoDobavlenieKuratoraUslugiKPoluchatelyam" seg-type="scripts">
+    <code>GeneraciyaOtvetstvennogoDobavlenieKuratoraUslugiKPoluchatelyam</code>
+    <title lang="ru">Генерация ответственного + добавление куратора услуги к получателям</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="GeneraciyaOtvetstvennogoDobavlenieKuratoraUslugiKPoluchatelyam.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

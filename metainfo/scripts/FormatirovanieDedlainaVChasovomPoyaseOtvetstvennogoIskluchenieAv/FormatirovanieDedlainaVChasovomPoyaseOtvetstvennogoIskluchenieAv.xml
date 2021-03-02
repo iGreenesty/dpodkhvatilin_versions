@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="FormatirovanieDedlainaVChasovomPoyaseOtvetstvennogoIskluchenieAv" seg-type="scripts">
+    <code>FormatirovanieDedlainaVChasovomPoyaseOtvetstvennogoIskluchenieAv</code>
+    <title lang="ru">Форматирование дедлайна в часовом поясе ответственного + исключение автора из получателей</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="FormatirovanieDedlainaVChasovomPoyaseOtvetstvennogoIskluchenieAv.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

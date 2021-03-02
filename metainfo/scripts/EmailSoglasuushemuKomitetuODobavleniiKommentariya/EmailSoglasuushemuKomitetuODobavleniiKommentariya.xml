@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="EmailSoglasuushemuKomitetuODobavleniiKommentariya" seg-type="scripts">
+    <code>EmailSoglasuushemuKomitetuODobavleniiKommentariya</code>
+    <title lang="ru">[E-mail] Согласующему комитету о добавлении комментария</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="EmailSoglasuushemuKomitetuODobavleniiKommentariya.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

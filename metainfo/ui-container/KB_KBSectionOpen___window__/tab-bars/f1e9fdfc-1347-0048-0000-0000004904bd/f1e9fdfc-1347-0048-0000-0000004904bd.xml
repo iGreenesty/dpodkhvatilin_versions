@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabBar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="true" seg-detach="true" seg-id="f1e9fdfc-1347-0048-0000-0000004904bd" seg-type="tab-bars" uuid="f1e9fdfc-1347-0048-0000-0000004904bd">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efbb6-16fc-16db-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="f1e9fdfc-1348-0048-0000-0000004904bd">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Общие сведения</caption>
+        <considerListFilter>false</considerListFilter>
+        <xi:include href="tool-panels/f6ae6294-15a2-0ef8-0000-000001c8b871.xml" parse="xml"/>
+        <layout seg-detach="false" uuid="f1e9fdfc-1349-0048-0000-0000004904bd">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f766e78c-13f5-0245-0000-ffffffffbe95f0ce/f766e78c-13f5-0245-0000-ffffffffbe95f0ce.xml" parse="xml"/>
+            <xi:include href="contents/f23b6535-13d9-0152-0000-000077beaec5/f23b6535-13d9-0152-0000-000077beaec5.xml" parse="xml"/>
+            <xi:include href="contents/f218a549-13d9-00b3-0000-000077beaec5/f218a549-13d9-00b3-0000-000077beaec5.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>true</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efbb8-16fc-16df-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="f30cab81-88c5-fee0-b969-ea9e85ebaa94">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        </profiles>
+        <tags/>
+        <caption lang="ru">История изменений</caption>
+        <considerListFilter>false</considerListFilter>
+        <xi:include href="tool-panels/f6ae6294-15a2-0ef9-0000-000001c8b871.xml" parse="xml"/>
+        <layout seg-detach="false" uuid="1ebdbb0d-35f4-688e-2606-2bc221514d8d">
+            <profiles/>
+            <tags/>
+            <xi:include href="tab-bars/tabs_ObshayaIstoriyaIzmeneniya/tabs_ObshayaIstoriyaIzmeneniya.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efbbb-16fc-16e7-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabBar>

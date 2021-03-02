@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" code="FileView" enabled="true" group="file" seg-detach="true" seg-id="FileView" seg-type="sec-actions">
+    <title lang="en">File view</title>
+    <title lang="ru">Просмотр файлов</title>
+</action>

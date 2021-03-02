@@ -1,0 +1,1 @@
+return (sourceObject.private) ? "Комментарий приватный" : ""

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="notificateTo" seg-type="attribute">
+    <code>notificateTo</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">Уведомить о комментарии</title>
+    <description lang="ru"/>
+    <type>
+        <code>boLinks</code>
+        <property code="code">boLinks</property>
+        <property code="complexAttrGroupCode">82e0bbd0-ce51-477d-9d81-f18e9cd0fc22</property>
+        <property code="complexRelation">true</property>
+        <property code="metaClassFqn">employee</property>
+        <property code="permittedTypes">["employee$employee","employee$contactPerson","employee"]</property>
+    </type>
+    <filteredByScript>true</filteredByScript>
+    <scriptForFiltration>FiltraciyaSotrudnikovPriUvedomleniiOKommentarii</scriptForFiltration>
+    <computableOnForm>false</computableOnForm>
+    <attrsUsedInScript>source</attrsUsedInScript>
+    <attrsUsedInScript>UUID</attrsUsedInScript>
+    <viewPresentation>
+        <code>boLinksView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>boLinksEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>flexAccessor</accessor>
+    <defaultValue list="true"/>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>true</systemEditable>
+    <xi:include href="search-settings/notificateTo_notificateTo.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>true</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>true</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

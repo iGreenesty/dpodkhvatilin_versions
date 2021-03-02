@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="userUpperOuEmployee" enabled="true" seg-detach="true" seg-id="userUpperOuEmployee" seg-type="roles" type="SYSTEM">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="snippet">userUpperOuEmployeeRoleSnippet</property>
+    <title lang="en">Upper department employee</title>
+    <title lang="ru">Сотрудник верхнего отдела</title>
+</role>

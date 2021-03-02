@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="5b40c009-1cfd-4b5b-b685-eebdcdc7b356" seg-type="attribute-group">
+    <code>5b40c009-1cfd-4b5b-b685-eebdcdc7b356</code>
+    <title lang="ru">Для карточки отдела-ответственного (через сотрудника)</title>
+    <attribute>objectNumber</attribute>
+    <attribute>creationDate</attribute>
+    <attribute>author</attribute>
+    <attribute>deadline</attribute>
+    <attribute>state</attribute>
+    <attribute>isOverdue</attribute>
+    <order>objectNumber</order>
+    <order>creationDate</order>
+    <order>author</order>
+    <order>deadline</order>
+    <order>state</order>
+    <order>isOverdue</order>
+</group>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="c65e9919-d4b5-43a1-9382-126b41b67a57" seg-type="attribute-group">
+    <code>c65e9919-d4b5-43a1-9382-126b41b67a57</code>
+    <title lang="ru">Оцените статью</title>
+    <attribute>myMarkNew</attribute>
+    <attribute>yourMark</attribute>
+    <attribute>avMark</attribute>
+    <order>myMarkNew</order>
+    <order>yourMark</order>
+    <order>avMark</order>
+</group>

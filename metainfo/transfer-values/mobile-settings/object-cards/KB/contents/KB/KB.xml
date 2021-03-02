@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mobile-property-list xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="KB" seg-type="contents" uuid="KB">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6f099d-16fc-3017-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="client">Параметры объекта</caption>
+    <caption lang="en">Object parameters</caption>
+    <caption lang="ru">Параметры объекта</caption>
+    <showCaption>true</showCaption>
+    <allowCollapse>true</allowCollapse>
+    <code>KB</code>
+    <collapsed>false</collapsed>
+    <contentType>PROPERTIES_LIST</contentType>
+    <attributeGroup>KB</attributeGroup>
+    <attributes>
+        <xi:include href="attributes/title.xml" parse="xml"/>
+        <xi:include href="attributes/text.xml" parse="xml"/>
+    </attributes>
+</mobile-property-list>

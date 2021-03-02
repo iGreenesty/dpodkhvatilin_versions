@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="SCRIPTSD4001434" seg-type="scripts">
+    <code>SCRIPTSD4001434</code>
+    <title lang="ru">Вычисление дедлайна задачи по шаблону на форме пользовательского действия</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="SCRIPTSD4001434.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="worksList" seg-type="contents" uuid="worksList">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efc8b-16fc-1744-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Поданные трудозатраты</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>workRecord</id>
+    </class>
+    <attributeGroup>0af99595-2d79-4d08-8b46-2541f2968ef0</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/2e5d51e7-aaa3-a559-20ae-88bed84088b2/2e5d51e7-aaa3-a559-20ae-88bed84088b2.xml" parse="xml"/>
+    <xi:include href="tool-panels/3d287893-6bb5-3ff7-ae5f-fd0c3e98c200/3d287893-6bb5-3ff7-ae5f-fd0c3e98c200.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="ff77a936-1657-3078-0006-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="ff77a980-1657-3307-0006-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c51a0-168d-124b-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>workReports</attr-link-code>
+    <attrs-chain attr-code="workReports" class-fqn="employee$employee"/>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="workRecord" code="problem"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="abstractBO" code="author"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="workRecord" code="task"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="workRecord" code="changeRequest"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="workRecord" code="serviceCall"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Трудозатрата</caption>
+    </add-form>
+    <objectActionsMenu>
+        <menuIconCatalogCode>additionalActions</menuIconCatalogCode>
+        <objectActionsMenuPosition>LEFT</objectActionsMenuPosition>
+        <xi:include href="tool-panels/f1e33879-161e-487f-0045-000001840552/f1e33879-161e-487f-0045-000001840552.xml" parse="xml"/>
+        <useSystemSettings>false</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

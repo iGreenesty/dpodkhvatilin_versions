@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="b5f6cbd1-4b7c-411b-83b8-982790a61556" licensed="true" seg-detach="true" seg-id="b5f6cbd1-4b7c-411b-83b8-982790a61556" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>changeRequest_RespEmpTeamMember changeRequest_ResponsibleTeamMember</roles>
+    <title lang="ru">Член команды, ответственной за объект</title>
+</security-profile>

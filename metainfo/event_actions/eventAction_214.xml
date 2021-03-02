@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$214" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[KnopkaSebeVOtvetstvennost]]></script>
+        </script-action>
+        <code>eventAction$214</code>
+        <description lang="ru"/>
+        <user-events>
+            <eventType>userEvent</eventType>
+            <event-code>userEvent$214</event-code>
+        </user-events>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Кнопка] Себе в ответственность</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

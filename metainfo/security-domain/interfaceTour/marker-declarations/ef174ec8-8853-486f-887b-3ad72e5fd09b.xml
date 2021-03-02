@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="ef174ec8-8853-486f-887b-3ad72e5fd09b" enabled="true" group="editAttrs" seg-detach="true" seg-id="ef174ec8-8853-486f-887b-3ad72e5fd09b" seg-type="marker-declarations">
+    <title lang="ru">Отключен и приостановлен</title>
+    <attributes>disabledUsers</attributes>
+    <attributes>suspendedUsers</attributes>
+</marker-declaration>

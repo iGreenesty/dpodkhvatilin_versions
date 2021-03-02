@@ -1,0 +1,1 @@
+utils.edit(subject, ['dateEnd' : new Date()])

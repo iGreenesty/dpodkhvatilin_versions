@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f6e731da-15a2-4b5f-0002-000001c8b871" seg-type="custom_forms">
+    <code>f6e731da-15a2-4b5f-0002-000001c8b871</code>
+    <parameters>
+        <xi:include href="form-parameters/deadline.xml" parse="xml"/>
+        <xi:include href="form-parameters/description.xml" parse="xml"/>
+        <xi:include href="form-parameters/planDate.xml" parse="xml"/>
+        <xi:include href="form-parameters/resp.xml" parse="xml"/>
+        <xi:include href="form-parameters/templateTask.xml" parse="xml"/>
+    </parameters>
+</form>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<system-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="monitoringEventTypes" seg-type="metaclasses">
+    <fqn>
+        <id>monitoringEventTypes</id>
+    </fqn>
+    <parent>
+        <id>catalogItem</id>
+    </parent>
+    <properties/>
+    <tags/>
+    <responsibilityTransferTableEnabled>true</responsibilityTransferTableEnabled>
+    <attributes/>
+    <attribute-overrides/>
+    <permittedTypesInfo/>
+    <attribute-groups/>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>0</searchOrder>
+</system-metaclass>

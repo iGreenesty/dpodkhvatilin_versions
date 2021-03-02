@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectAction xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="618c7069-a64b-9654-fcdc-447694509b9d" seg-type="object-actions">
+    <caption lang="ru">Себе в ответственность</caption>
+    <code>fireUserEvent</code>
+    <event-uuid>userEvent$214</event-uuid>
+    <required-fields/>
+    <type>user-action</type>
+    <uuid>618c7069-a64b-9654-fcdc-447694509b9d</uuid>
+</objectAction>

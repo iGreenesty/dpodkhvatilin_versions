@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<files xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="9cf6d83c-faa6-cbdf-4282-887164d1f95a" seg-type="contents" uuid="9cf6d83c-faa6-cbdf-4282-887164d1f95a">
+    <profiles>
+        <profile>e0482016-84c8-4f0f-b8b0-308226830834</profile>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+    </profiles>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efd82-16fc-17b6-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Файлы компании</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>file</id>
+    </class>
+    <attributeGroup>system</attributeGroup>
+    <presentation>default</presentation>
+    <xi:include href="tool-panels/c3041240-1fa5-f3c1-ec8d-94743b4aad14/c3041240-1fa5-f3c1-ec8d-94743b4aad14.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae64d6-15a2-0fd9-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f6ae64d6-15a2-0fda-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f6ae64d6-15a2-0fdb-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4f70-168d-11f6-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attributeCodes>ownObjectFiles</attributeCodes>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <relationType>objectFiles</relationType>
+</files>

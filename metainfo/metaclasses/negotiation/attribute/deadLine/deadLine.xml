@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="deadLine" seg-type="attribute">
+    <code>deadLine</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>false</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">Плановая дата завершения</title>
+    <description lang="ru"/>
+    <type>
+        <code>backTimer</code>
+        <property code="code">backTimer</property>
+        <property code="definition">forNegotiation</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>backTimerDeadLineV</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>unknownEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>flexBackTimerAccessor</accessor>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>false</systemEditable>
+    <xi:include href="search-settings/deadLine_deadLine.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>true</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

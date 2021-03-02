@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="0934beaf-9de0-46fa-8e42-051099f79108" seg-type="attribute-group">
+    <code>0934beaf-9de0-46fa-8e42-051099f79108</code>
+    <title lang="ru">Степень влияния</title>
+    <attribute>impact</attribute>
+    <attribute>velocity</attribute>
+</group>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="82e0bbd0-ce51-477d-9d81-f18e9cd0fc22" seg-type="attribute-group">
+    <code>82e0bbd0-ce51-477d-9d81-f18e9cd0fc22</code>
+    <title lang="ru">Для сложной формы при уведомлении о комментарии</title>
+    <attribute>title</attribute>
+    <attribute>parent</attribute>
+    <attribute>post</attribute>
+    <attribute>email</attribute>
+</group>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<event xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="userEvent$markServiceCallAsSPAM" seg-type="user-events">
+    <enabled>true</enabled>
+    <fqn>
+        <id>serviceCall</id>
+        <case>call</case>
+    </fqn>
+    <title lang="ru">Пометить как спам</title>
+    <uuid>userEvent$markServiceCallAsSPAM</uuid>
+</event>

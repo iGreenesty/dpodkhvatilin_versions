@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="license" seg-type="attribute-override">
+    <code>license</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <required>true</required>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="client"/>
+    <title lang="de"/>
+    <title lang="en">License</title>
+    <title lang="ru">Лицензия</title>
+    <description lang="client"/>
+    <description lang="de"/>
+    <description lang="en"/>
+    <description lang="ru"/>
+    <type>
+        <property code="code">license</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <scriptForFiltration/>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>licenseView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>licenseEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <defaultValue list="true">
+        <string>notLicensed</string>
+    </defaultValue>
+    <defaultByScript>false</defaultByScript>
+    <scriptForDefault/>
+    <xi:include href="search-settings/license_license.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</override>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="fe09ec8e-1417-0428-0000-ffffffffffdd2d07" seg-type="tab-bars" uuid="fe09ec8e-1417-0428-0000-ffffffffffdd2d07">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efe55-16fc-183e-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="fe09ec8e-1417-0426-0000-ffffffffffdd2d07">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Комментарии</caption>
+        <countObjectsContentUuid>fe0a0d4e-1417-0429-0000-ffffffffffdd2d07</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="fe09ec8e-1417-0427-0000-ffffffffffdd2d07">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/fe0a0d4e-1417-0429-0000-ffffffffffdd2d07/fe0a0d4e-1417-0429-0000-ffffffffffdd2d07.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efe56-16fc-1840-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="fe0a35bc-1417-042f-0000-ffffffffffdd2d07">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Файлы</caption>
+        <countObjectsContentUuid>fe0a9662-1417-0435-0000-ffffffffffdd2d07</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="fe0a35bc-1417-0430-0000-ffffffffffdd2d07">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/fe0a9662-1417-0435-0000-ffffffffffdd2d07/fe0a9662-1417-0435-0000-ffffffffffdd2d07.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efe57-16fc-1842-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="fe0a58ec-1417-0432-0000-ffffffffffdd2d07">
+        <profiles/>
+        <tags>
+            <tag>Trudozatraty</tag>
+        </tags>
+        <caption lang="ru">Трудозатраты</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="fe0a58ec-1417-0433-0000-ffffffffffdd2d07">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/SummaTrudozatrat/SummaTrudozatrat.xml" parse="xml"/>
+            <xi:include href="contents/fe0ada4a-1417-0439-0000-ffffffffffdd2d07/fe0ada4a-1417-0439-0000-ffffffffffdd2d07.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efe57-16fc-1845-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

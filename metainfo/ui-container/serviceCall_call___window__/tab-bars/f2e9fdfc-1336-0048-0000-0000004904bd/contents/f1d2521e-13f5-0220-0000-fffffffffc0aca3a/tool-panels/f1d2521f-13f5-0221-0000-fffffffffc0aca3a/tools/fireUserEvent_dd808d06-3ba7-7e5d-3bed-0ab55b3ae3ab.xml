@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-event-tool xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fireUserEvent_dd808d06-3ba7-7e5d-3bed-0ab55b3ae3ab" seg-type="tools" uuid="dd808d06-3ba7-7e5d-3bed-0ab55b3ae3ab">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <params/>
+    <presentationType>link</presentationType>
+    <action>fireUserEvent</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="ru">Создать контрагента</caption>
+    <event-uuid>userEvent$213</event-uuid>
+    <use-quick-form>false</use-quick-form>
+</user-event-tool>

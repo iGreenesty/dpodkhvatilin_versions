@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="showAdvlistSort_40fb7578-bf82-f9b5-bfa4-047ff2bb120f" seg-type="tools" uuid="40fb7578-bf82-f9b5-bfa4-047ff2bb120f">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <params/>
+    <presentationType>push</presentationType>
+    <action>showAdvlistSort</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Sort</caption>
+    <caption lang="ru">Сортировка...</caption>
+</action>

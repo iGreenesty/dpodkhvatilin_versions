@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$pushMP_headAndLeaderToSoonDeadline" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <push-mobile-action>
+            <actionType>PushMobileEventAction</actionType>
+            <message>&#128276; Скоро наступит дедлайн по задаче ${subject.title}&amp;nbsp;в ответственности ${pushMobile.scriptParams['resp']}</message>
+            <roles>task_RespEmpTeamLeader</roles>
+            <roles>task_RespHead</roles>
+            <roles>task_RespTeamLeader</roles>
+            <script><![CDATA[PerehodNaKartochkuVMPOtvetstvennyiIskluchenieOtvetstvennogo]]></script>
+            <html>true</html>
+            <pushHeaderFormat>Subject</pushHeaderFormat>
+            <subject>${pushMobile.scriptParams['root']}</subject>
+        </push-mobile-action>
+        <code>eventAction$pushMP_headAndLeaderToSoonDeadline</code>
+        <xi:include href="script-action-condition/actionCondition_1.xml" parse="xml"/>
+        <description lang="ru"/>
+        <planned-event>
+            <eventType>onsetTimeOfAttr</eventType>
+            <attribute>email30Date</attribute>
+            <category>IN_TIME</category>
+            <offsetTime>0</offsetTime>
+            <status>2</status>
+        </planned-event>
+        <fqn>
+            <id>task</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <tags>Zadachi</tags>
+        <title lang="ru">[Push в МП] Эскалация. Руководителю и лидеру команды за 30% до дедлайна задачи</title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="fa49efc9-13f0-014b-0000-000016b21976" seg-type="tab-bars" uuid="fa49efc9-13f0-014b-0000-000016b21976">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fb409ae8-16fe-3f8e-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="fa4a8e26-13f0-0150-0000-000016b21976">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Группы ИТ-активов</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="fa4a8e28-13f0-0151-0000-000016b21976">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/fdae348f-1416-0151-0000-000029cc0a41/fdae348f-1416-0151-0000-000029cc0a41.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fb409ae8-16fe-3f8f-0002-000014127783">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="fa49efc7-13f0-0149-0000-000016b21976">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">ИТ-активы</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="fa49efc8-13f0-014a-0000-000016b21976">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/fa4cd541-13f0-0153-0000-000016b21976/fa4cd541-13f0-0153-0000-000016b21976.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fb409ae8-16fe-3f91-0002-000014127783">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

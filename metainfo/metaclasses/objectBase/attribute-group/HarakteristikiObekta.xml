@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="HarakteristikiObekta" seg-type="attribute-group">
+    <code>HarakteristikiObekta</code>
+    <title lang="ru">Характеристики объекта</title>
+    <attribute>author</attribute>
+    <attribute>creationDate</attribute>
+    <attribute>state</attribute>
+    <order>author</order>
+    <order>creationDate</order>
+    <order>state</order>
+</group>

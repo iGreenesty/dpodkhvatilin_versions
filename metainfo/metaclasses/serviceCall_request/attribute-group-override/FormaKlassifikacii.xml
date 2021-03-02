@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="FormaKlassifikacii" seg-type="attribute-group-override">
+    <code>FormaKlassifikacii</code>
+    <attribute>postoponeTill</attribute>
+    <order>impact</order>
+    <order>baseCategory</order>
+    <order>responsible</order>
+    <order>tasks</order>
+    <order>postoponeTill</order>
+</override>

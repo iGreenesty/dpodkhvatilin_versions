@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectActionsToolPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f1e33879-161e-487f-0045-000001840552" seg-type="tool-panels" uuid="f1e33879-161e-487f-0045-000001840552">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="f3310cdb-1745-2815-0036-000036b4a082">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/openObjectCard_f3310cdb-1745-2816-0036-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/openObjectCard_f3310cdb-1745-2817-0036-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/changeAssociation_f3310cdb-1745-2818-0036-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/editResponsible_f3310cdb-1745-2819-0036-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/fireUserEvent_f3310cdb-1745-281a-0036-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/fireUserEvent_f3310cdb-1745-281b-0036-000036b4a082.xml" parse="xml"/>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</objectActionsToolPanel>

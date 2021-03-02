@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="ServiceCallSolver" enabled="true" seg-detach="true" seg-id="ServiceCallSolver" seg-type="roles" type="SYSTEM">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="snippet">serviceCallSolvedByRoleSnippet</property>
+    <title lang="en">An employee who has solved a Service Call</title>
+    <title lang="ru">Сотрудник, решивший заявку</title>
+</role>

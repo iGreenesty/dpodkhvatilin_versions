@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="objectBase$CITemplates___window__" seg-type="ui-container">
+    <fqn>
+        <id>objectBase</id>
+        <case>CITemplates</case>
+    </fqn>
+    <code>__window__</code>
+    <window seg-detach="false" uuid="f1e9fdfc-1346-0048-0000-0000004904bd">
+        <profiles/>
+        <tags/>
+        <caption lang="en">Object card</caption>
+        <caption lang="ru">Карточка объекта</caption>
+        <objectCardCaptionAttributeCode>type_name_and_title</objectCardCaptionAttributeCode>
+        <xi:include href="tab-bars/f1e9fdfc-1347-0048-0000-0000004904bd/f1e9fdfc-1347-0048-0000-0000004904bd.xml" parse="xml"/>
+        <xi:include href="tool-panels/f1e9fdfc-1353-0048-0000-0000004904bd/f1e9fdfc-1353-0048-0000-0000004904bd.xml" parse="xml"/>
+    </window>
+</ui>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="results_results" seg-type="search-settings">
+    <simpleSearchableForLicensed>false</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>false</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>false</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>false</extendedSearchableForLicensed>
+    <searchBoost>1.0</searchBoost>
+    <code>results</code>
+    <declaredMetaClass>changeRequest</declaredMetaClass>
+    <title>Результаты внедрения</title>
+    <attrCode>results</attrCode>
+</searchSetting>

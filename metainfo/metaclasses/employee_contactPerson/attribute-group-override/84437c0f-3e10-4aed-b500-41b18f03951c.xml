@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="84437c0f-3e10-4aed-b500-41b18f03951c" seg-type="attribute-group-override">
+    <code>84437c0f-3e10-4aed-b500-41b18f03951c</code>
+    <attribute>license</attribute>
+    <order>login</order>
+    <order>license</order>
+</override>

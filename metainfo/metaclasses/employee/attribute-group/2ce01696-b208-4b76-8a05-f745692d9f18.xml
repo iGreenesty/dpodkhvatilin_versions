@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="2ce01696-b208-4b76-8a05-f745692d9f18" seg-type="attribute-group">
+    <code>2ce01696-b208-4b76-8a05-f745692d9f18</code>
+    <title lang="ru">Общая информация</title>
+    <attribute>lastName</attribute>
+    <attribute>firstName</attribute>
+    <attribute>middleName</attribute>
+    <attribute>post</attribute>
+    <order>lastName</order>
+    <order>firstName</order>
+    <order>middleName</order>
+    <order>post</order>
+</group>

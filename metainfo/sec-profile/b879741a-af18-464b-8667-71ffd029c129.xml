@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="b879741a-af18-464b-8667-71ffd029c129" licensed="true" seg-detach="true" seg-id="b879741a-af18-464b-8667-71ffd029c129" seg-type="sec-profile" versioning="false">
+    <groups>C4_auditor C2_seniorSpecialist C1_specialist C3_admin</groups>
+    <roles>commentAuthor</roles>
+    <title lang="ru">Автор комментария</title>
+</security-profile>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="SkriptVPlanovuuDatuPerevoditVseGolosovaniyaVProsrocheno197" seg-type="scripts">
+    <code>SkriptVPlanovuuDatuPerevoditVseGolosovaniyaVProsrocheno197</code>
+    <title lang="ru">Скрипт: в плановую дату переводит все голосования в "Просрочено"</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="SkriptVPlanovuuDatuPerevoditVseGolosovaniyaVProsrocheno197.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

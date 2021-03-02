@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="resolutionTime_resolutionTime" seg-type="search-settings">
+    <simpleSearchableForLicensed>false</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>false</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>false</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>false</extendedSearchableForLicensed>
+    <searchBoost>1.0</searchBoost>
+    <code>resolutionTime</code>
+    <declaredMetaClass>serviceCall</declaredMetaClass>
+    <title lang="en">Standard processing time</title>
+    <title lang="ru">Время на решение</title>
+    <title>Нормативное время обработки</title>
+    <attrCode>resolutionTime</attrCode>
+</searchSetting>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_mainInfoTab" seg-type="tab-bars" uuid="tabs_mainInfoTab">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efca4-16fc-1757-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>true</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="mainInfoTab">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Общая информация</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="aa21b949-0243-a128-440b-821f6d709f9e">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/mainInfo/mainInfo.xml" parse="xml"/>
+            <xi:include href="contents/contactInfo/contactInfo.xml" parse="xml"/>
+            <xi:include href="contents/photo/photo.xml" parse="xml"/>
+            <xi:include href="contents/accountInfo/accountInfo.xml" parse="xml"/>
+            <xi:include href="contents/teamsMemberList/teamsMemberList.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efca5-16fc-175d-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

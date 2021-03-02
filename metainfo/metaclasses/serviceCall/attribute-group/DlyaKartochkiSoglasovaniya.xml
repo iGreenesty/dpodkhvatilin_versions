@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="DlyaKartochkiSoglasovaniya" seg-type="attribute-group">
+    <code>DlyaKartochkiSoglasovaniya</code>
+    <title lang="ru">Для карточки согласования</title>
+    <attribute>client</attribute>
+    <attribute>descriptionRTF</attribute>
+</group>

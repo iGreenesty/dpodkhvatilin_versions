@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-domain xmlns:xi="http://www.w3.org/2001/XInclude" code="KB" seg-detach="true" seg-id="KB" seg-type="security-domain">
+    <xi:include href="access-matrix/access-matrix.xml" parse="xml"/>
+    <xi:include href="marker-declarations/35573527-f04d-4c29-94e9-7afbe1ffccee.xml" parse="xml"/>
+    <xi:include href="marker-declarations/4dad31ca-08c8-4e68-a877-6a503d1a2c2f.xml" parse="xml"/>
+    <xi:include href="marker-declarations/f97cb228-9193-4c18-950a-aeedaff34008.xml" parse="xml"/>
+    <xi:include href="marker-declarations/editState.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleCurrentTeam.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleCurrentTeamEmployee.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleOtherTeam.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleOtherTeamEmployee.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleOwnTeam.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleOwnTeamEmployee.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleTake.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleTakeCurrentTeam.xml" parse="xml"/>
+    <xi:include href="roles/KB_LastEmpResp.xml" parse="xml"/>
+    <xi:include href="roles/KB_LastEmpTeamMember.xml" parse="xml"/>
+    <xi:include href="roles/KB_RespEmpTeamLeader.xml" parse="xml"/>
+    <xi:include href="roles/KB_RespEmpTeamMember.xml" parse="xml"/>
+    <xi:include href="roles/KB_RespHead.xml" parse="xml"/>
+    <xi:include href="roles/KB_ResponsibleEmployee.xml" parse="xml"/>
+    <xi:include href="roles/KB_ResponsibleTeamMember.xml" parse="xml"/>
+    <xi:include href="roles/KB_RespTeamLeader.xml" parse="xml"/>
+    <xi:include href="roles/34d16d95-76b1-4e4f-a28c-52ee12f4b515.xml" parse="xml"/>
+</security-domain>

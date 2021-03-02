@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-domain xmlns:xi="http://www.w3.org/2001/XInclude" code="template$templateTask" seg-detach="true" seg-id="template$templateTask" seg-type="security-domain">
+    <xi:include href="access-matrix/access-matrix.xml" parse="xml"/>
+</security-domain>

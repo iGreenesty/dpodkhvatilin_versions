@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="negotiation" seg-type="metaclasses">
+    <fqn>
+        <id>negotiation</id>
+    </fqn>
+    <parent>
+        <id>userEntity</id>
+    </parent>
+    <title lang="ru">Согласование</title>
+    <description lang="ru"/>
+    <properties/>
+    <tags>
+        <tag>Soglasovaniya</tag>
+    </tags>
+    <responsibilityTransferTableEnabled>false</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/folders.xml" parse="xml"/>
+        <xi:include href="attribute/responsible.xml" parse="xml"/>
+        <xi:include href="attribute/responsibleEmployee.xml" parse="xml"/>
+        <xi:include href="attribute/responsibleStartTime.xml" parse="xml"/>
+        <xi:include href="attribute/responsibleTeam.xml" parse="xml"/>
+        <xi:include href="attribute/state.xml" parse="xml"/>
+        <xi:include href="attribute/stateStartTime.xml" parse="xml"/>
+        <xi:include href="attribute/cabEmployee/cabEmployee.xml" parse="xml"/>
+        <xi:include href="attribute/cabOU/cabOU.xml" parse="xml"/>
+        <xi:include href="attribute/cabTeam/cabTeam.xml" parse="xml"/>
+        <xi:include href="attribute/clientChange/clientChange.xml" parse="xml"/>
+        <xi:include href="attribute/clientSC/clientSC.xml" parse="xml"/>
+        <xi:include href="attribute/dateEnd/dateEnd.xml" parse="xml"/>
+        <xi:include href="attribute/deadLine/deadLine.xml" parse="xml"/>
+        <xi:include href="attribute/description/description.xml" parse="xml"/>
+        <xi:include href="attribute/descriptionCR/descriptionCR.xml" parse="xml"/>
+        <xi:include href="attribute/descriptionSC/descriptionSC.xml" parse="xml"/>
+        <xi:include href="attribute/files/files.xml" parse="xml"/>
+        <xi:include href="attribute/icon/icon.xml" parse="xml"/>
+        <xi:include href="attribute/numero/numero.xml" parse="xml"/>
+        <xi:include href="attribute/period/period.xml" parse="xml"/>
+        <xi:include href="attribute/RFCsupposed/RFCsupposed.xml" parse="xml"/>
+        <xi:include href="attribute/serviceTime/serviceTime.xml" parse="xml"/>
+        <xi:include href="attribute/source/source.xml" parse="xml"/>
+        <xi:include href="attribute/sourceR/sourceR.xml" parse="xml"/>
+        <xi:include href="attribute/timeZone/timeZone.xml" parse="xml"/>
+        <xi:include href="attribute/votes/votes.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/folders.xml" parse="xml"/>
+        <xi:include href="attribute-override/number/number.xml" parse="xml"/>
+        <xi:include href="attribute-override/responsible/responsible.xml" parse="xml"/>
+        <xi:include href="attribute-override/responsibleEmployee/responsibleEmployee.xml" parse="xml"/>
+        <xi:include href="attribute-override/responsibleStartTime.xml" parse="xml"/>
+        <xi:include href="attribute-override/responsibleTeam/responsibleTeam.xml" parse="xml"/>
+        <xi:include href="attribute-override/state/state.xml" parse="xml"/>
+        <xi:include href="attribute-override/stateStartTime.xml" parse="xml"/>
+        <xi:include href="attribute-override/title/title.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo/>
+    <attribute-groups>
+        <xi:include href="attribute-group/2bea165e-bfa5-4f3e-a9f6-8bbf5f645b45.xml" parse="xml"/>
+        <xi:include href="attribute-group/2cf1ddf0-cb29-4a0b-aa70-2ada7fcc6470.xml" parse="xml"/>
+        <xi:include href="attribute-group/3d84129a-0ae4-4801-be17-7fba3f2b99aa.xml" parse="xml"/>
+        <xi:include href="attribute-group/4bb6598a-11b4-4cc7-b371-ebf294288410.xml" parse="xml"/>
+        <xi:include href="attribute-group/4f3b0a63-c366-4a3c-9911-ecc1c10e4423.xml" parse="xml"/>
+        <xi:include href="attribute-group/783c2547-77bd-4498-a170-16914bbe115b.xml" parse="xml"/>
+        <xi:include href="attribute-group/c98554c3-cc54-415f-aae9-b5f89656efc1.xml" parse="xml"/>
+        <xi:include href="attribute-group/e07d609e-1771-45e6-9f5f-0e99c5b3fdea.xml" parse="xml"/>
+        <xi:include href="attribute-group/ff4cadc2-1f21-42fb-b4d4-2cd0289757f2.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/search.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentText_text.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileContent_content.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileDescription_description.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileTitle_title.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>18</searchOrder>
+    <allowPlanVer>false</allowPlanVer>
+    <depthEnv>1</depthEnv>
+    <status>DEFAULT</status>
+</user-metaclass>

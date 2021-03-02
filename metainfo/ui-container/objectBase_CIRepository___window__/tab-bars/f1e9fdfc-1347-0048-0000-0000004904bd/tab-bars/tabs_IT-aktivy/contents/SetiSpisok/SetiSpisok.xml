@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="SetiSpisok" seg-type="contents" uuid="SetiSpisok">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efe0d-16fc-180f-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Сети список</caption>
+    <showCaption>false</showCaption>
+    <case>
+        <id>objectBase</id>
+        <case>netServiceF</case>
+    </case>
+    <case>
+        <id>objectBase</id>
+        <case>ethChannelF</case>
+    </case>
+    <attributeGroup>175ac1cc-dc2e-439b-b44d-11fc8e5805fb</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/86558f41-bd9d-259d-b305-253ac99b139f/86558f41-bd9d-259d-b305-253ac99b139f.xml" parse="xml"/>
+    <xi:include href="tool-panels/f002672d-fc0f-a392-b3dd-9aaa58edeac3.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f1b1423c-161e-8b69-0043-000001840552">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f1b14286-161e-8c0d-0043-000001840552">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4d51-168d-118f-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>childBO</attr-link-code>
+    <attrs-chain attr-code="childBO" class-fqn="objectBase$CIRepository"/>
+    <filterRestrictionSettings/>
+    <add-form>
+        <caption lang="ru">Добавление связи с существующими сетями</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

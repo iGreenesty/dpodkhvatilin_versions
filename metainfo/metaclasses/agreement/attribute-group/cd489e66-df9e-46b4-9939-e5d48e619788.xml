@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="cd489e66-df9e-46b4-9939-e5d48e619788" seg-type="attribute-group">
+    <code>cd489e66-df9e-46b4-9939-e5d48e619788</code>
+    <title lang="ru">Основная информация</title>
+    <attribute>title</attribute>
+    <attribute>services</attribute>
+    <attribute>supportHours</attribute>
+    <attribute>manager</attribute>
+    <order>title</order>
+    <order>services</order>
+    <order>supportHours</order>
+    <order>manager</order>
+</group>

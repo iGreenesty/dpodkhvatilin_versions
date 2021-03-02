@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workflow xmlns:xi="http://www.w3.org/2001/XInclude" inherit="false" originalState="registered" seg-detach="true" seg-id="workflow" seg-type="workflow">
+    <xi:include href="state/closed.xml" parse="xml"/>
+    <xi:include href="state/inprogress.xml" parse="xml"/>
+    <xi:include href="state/registered.xml" parse="xml"/>
+    <xi:include href="state/resolved.xml" parse="xml"/>
+    <xi:include href="state/resumed.xml" parse="xml"/>
+    <xi:include href="state/stopped.xml" parse="xml"/>
+    <statesOrder>registered</statesOrder>
+    <statesOrder>inprogress</statesOrder>
+    <statesOrder>resolved</statesOrder>
+    <statesOrder>resumed</statesOrder>
+    <statesOrder>stopped</statesOrder>
+    <statesOrder>closed</statesOrder>
+    <xi:include href="transition/closed-inprogress.xml" parse="xml"/>
+    <xi:include href="transition/inprogress-closed.xml" parse="xml"/>
+    <xi:include href="transition/inprogress-resolved.xml" parse="xml"/>
+    <xi:include href="transition/inprogress-stopped.xml" parse="xml"/>
+    <xi:include href="transition/registered-closed.xml" parse="xml"/>
+    <xi:include href="transition/registered-inprogress.xml" parse="xml"/>
+    <xi:include href="transition/registered-stopped.xml" parse="xml"/>
+    <xi:include href="transition/resolved-closed.xml" parse="xml"/>
+    <xi:include href="transition/resolved-resumed.xml" parse="xml"/>
+    <xi:include href="transition/resumed-inprogress.xml" parse="xml"/>
+    <xi:include href="transition/resumed-stopped.xml" parse="xml"/>
+    <xi:include href="transition/stopped-inprogress.xml" parse="xml"/>
+</workflow>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mobile-rel-objects-list-content xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="srvcInAgr" seg-type="contents" uuid="srvcInAgr">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+        <profile>4cbadda9-02ce-486d-9230-736030b6ca1b</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+    </profiles>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="f58cab8a-16ff-2834-0008-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Услуги в рамках соглашения</caption>
+    <showCaption>true</showCaption>
+    <allowCollapse>true</allowCollapse>
+    <code>srvcInAgr</code>
+    <collapsed>false</collapsed>
+    <contentType>REL_OBJECT_LIST</contentType>
+    <cases/>
+    <class>
+        <id>slmService</id>
+    </class>
+    <hide-if-there-are-no-objects>false</hide-if-there-are-no-objects>
+    <link-to-mobile-list>service_linkedList</link-to-mobile-list>
+    <attrs-chain attr-code="services" class-fqn="agreement"/>
+    <show-linked-objects>false</show-linked-objects>
+    <show-related-with-nested>false</show-related-with-nested>
+</mobile-rel-objects-list-content>

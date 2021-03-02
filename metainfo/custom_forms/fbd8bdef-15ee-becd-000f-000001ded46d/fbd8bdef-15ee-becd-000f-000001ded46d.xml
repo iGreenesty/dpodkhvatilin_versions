@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fbd8bdef-15ee-becd-000f-000001ded46d" seg-type="custom_forms">
+    <code>fbd8bdef-15ee-becd-000f-000001ded46d</code>
+    <parameters>
+        <xi:include href="form-parameters/blackListContent.xml" parse="xml"/>
+        <xi:include href="form-parameters/blackListEmails.xml" parse="xml"/>
+        <xi:include href="form-parameters/blackListSubject.xml" parse="xml"/>
+    </parameters>
+</form>

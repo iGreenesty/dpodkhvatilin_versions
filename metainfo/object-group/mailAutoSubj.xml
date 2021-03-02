@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<class xmlns:xi="http://www.w3.org/2001/XInclude" id="mailAutoSubj" seg-detach="true" seg-id="mailAutoSubj" seg-type="object-group">
+    <object>
+        <attribute code="code">
+            <string>auto</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>mailAutoSubj</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Auto:</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>mailAutoSubj$2290501</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>automaticReply</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>mailAutoSubj</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Automatic reply:</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>mailAutoSubj$2290502</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>autoReplyRu</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>mailAutoSubj</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Автоматический ответ:</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>mailAutoSubj$2290503</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>autoResponse</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>mailAutoSubj</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Auto Response:</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>mailAutoSubj$2290504</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>outOfOffice</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>mailAutoSubj</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Out of Office</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>mailAutoSubj$2290505</string>
+        </attribute>
+    </object>
+</class>

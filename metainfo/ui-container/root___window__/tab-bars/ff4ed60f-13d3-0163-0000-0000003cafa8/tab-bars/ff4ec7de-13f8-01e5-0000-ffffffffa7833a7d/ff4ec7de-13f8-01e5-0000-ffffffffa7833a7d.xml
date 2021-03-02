@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="ff4ec7de-13f8-01e5-0000-ffffffffa7833a7d" seg-type="tab-bars" uuid="ff4ec7de-13f8-01e5-0000-ffffffffa7833a7d">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fb409ae9-16fe-3fa6-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="ff4ec7dd-13f8-01e3-0000-ffffffffa7833a7d">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Настройки почты</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="ff4ec7de-13f8-01e4-0000-ffffffffa7833a7d">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/ObrabotkaVhodyasheiPochty/ObrabotkaVhodyasheiPochty.xml" parse="xml"/>
+            <xi:include href="contents/ff4f8a7f-13f8-01eb-0000-ffffffffa7833a7d/ff4f8a7f-13f8-01eb-0000-ffffffffa7833a7d.xml" parse="xml"/>
+            <xi:include href="contents/IspolzovanieKluchaDostupaVOpovesheniyah/IspolzovanieKluchaDostupaVOpovesheniyah.xml" parse="xml"/>
+            <xi:include href="contents/NastroikiKlucheiDostupaVOpovesheniyah/NastroikiKlucheiDostupaVOpovesheniyah.xml" parse="xml"/>
+            <xi:include href="contents/TekstSoobsheniyaPriOcenkeZayavkiPoE-mail/TekstSoobsheniyaPriOcenkeZayavkiPoE-mail.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fb409ae9-16fe-3fa7-0002-000014127783">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="domainTab">
+        <profiles/>
+        <tags>
+            <tag>VneshnyayaPodderzhka</tag>
+        </tags>
+        <caption lang="ru">Доменные имена</caption>
+        <countObjectsContentUuid>domainList</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="f5a70c4f-a738-3b98-e7ad-e67c7503c17f">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/domainList/domainList.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fb409aea-16fe-3fc6-0002-000014127783">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="600edcc3-1123-8d4d-8cfd-5bc3329d3760">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Шаблоны</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="0a4de2f2-a1f8-8096-abcc-465e3f009d6f">
+            <profiles/>
+            <tags/>
+            <xi:include href="tab-bars/7784d159-24a9-ec10-a486-d7f87833aff8/7784d159-24a9-ec10-a486-d7f87833aff8.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fb409aea-16fe-3fc8-0002-000014127783">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="ff4f3c6b-13f8-01e8-0000-ffffffffa7833a7d">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+            <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+        </profiles>
+        <tags/>
+        <caption lang="ru">История изменения настроек</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="ff4f3c6e-13f8-01e9-0000-ffffffffa7833a7d">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/ff54b00c-13f8-0209-0000-ffffffffa7833a7d/ff54b00c-13f8-0209-0000-ffffffffa7833a7d.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fb409aeb-16fe-3fce-0002-000014127783">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="clientPhone" seg-type="attribute-override">
+    <code>clientPhone</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <title lang="client"/>
+    <title lang="de"/>
+    <title lang="en">Contact phone</title>
+    <title lang="ru">Контактный телефон</title>
+    <description lang="client"/>
+    <description lang="de"/>
+    <description lang="en"/>
+    <description lang="ru"/>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</override>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="655189db-6b30-4a05-9572-88647ae06f19" seg-type="attribute-group">
+    <code>655189db-6b30-4a05-9572-88647ae06f19</code>
+    <title lang="ru">Общие параметры</title>
+    <attribute>sourceR</attribute>
+    <attribute>author</attribute>
+    <attribute>description</attribute>
+    <attribute>files</attribute>
+    <order>sourceR</order>
+    <order>author</order>
+    <order>description</order>
+    <order>files</order>
+</group>

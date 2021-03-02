@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="restore_f1e9fdfc-1359-0048-0000-0000004904bd" seg-type="tools" uuid="f1e9fdfc-1359-0048-0000-0000004904bd">
+    <profiles/>
+    <tags/>
+    <appliedToType>listObjects</appliedToType>
+    <iconCode>restore_icon</iconCode>
+    <params/>
+    <presentationType>link</presentationType>
+    <action>restore</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">restore</caption>
+    <caption lang="ru">восстановить из архива</caption>
+</action>

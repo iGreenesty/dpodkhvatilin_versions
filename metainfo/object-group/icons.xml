@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<class xmlns:xi="http://www.w3.org/2001/XInclude" id="icons" seg-detach="true" seg-id="icons" seg-type="object-group">
+    <object>
+        <attribute code="code">
+            <string>CI</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>icons</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>ИТ-активы</ru>
+                <en>Конфигурационная единица</en>
+                <client>Конфигурационная единица</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>icons$739401</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>employee</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>user.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>1166</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEVUlEQVR42u1Wa0ybVRhuYoxo9J+Z+kPDoC3t19IL++/imLsYE2NMlhiN0cSIyZKFDMaGgdHELMsujSuFQbmUQot0MKFuk7mN21a5dEA7CqwbpaQ3SgvtKsOR3cLrOef7vrYSllT8/KHZSZ5853vPOe/znMt73sPjPS/Py3+xjN31vjY+4y2wu31qx6xfjevY9q+S3pr1ky8irXW4vaCtb4KSchUUlZaRusPtw6hJ7ct5mfKGJvVtHSCSSEFESUCSKyPAdWyrN5ph2rfgxH31ej235M65YG2T+Txk8wUJYikD9j9bIISGVjOMOG/3cko+7fFn3AmEQYxmSUhlGPJ1oO24j8sXAnN7xx7OBNz2zhc0GNuQcwkhy2UhZ8D84zYKCdA1m6B/cPgiZwLuBhZU3584RZMjQplcsSFYMYfLjoLVNhrjTMDsfER17MTpJLlCAXICJfOlbayII2UVMHhzPFpdpX2FEwFzocUCo7kdJNLcBLkCkRMoaWAxuA33MaCDeK3/eoC7FQgtZSzElskBlKeQKpR5DJIi8EEM3VsGo8nUwGkkhGJxTdelbhDmiAiZEhHn5dFQMiJyRCI4//MFGJuYjNTpdDs5IfZForSAaLx85dET6L5yDe21nIAWsA3kqC5H+3/hl8uw+nQNbtpvjdNj/+E5dAcjvLlg5OX52O/Oyz19ZJbWoRFYffwEfurqAk2lFqESOi0WWFl9SNoUSNRFJDIUW3bNhpcy0AHeZOz7QuTrjcQWq+saQCDMIYev8GAR/PHwEcTvr0BRcTHCIYjeixNbcckR0gf3PX5KvRaMLUe0lZoX+34b3mz8h69W1TeCAO07G4ISqRTuo9naJyZBTFEgQZfTkG0UHjx+StroUFSASEyBWnt2bcrjm9oU+YTHv6/fNk7ud/b2owXkQkenBQymVsYmh8ZmI7R3dtFhigUwtyJfKISr1hEYGBlT/f0tCEQWP/z4k2TSSRHx6Wefg6a6hr58EE6qf4AvvvwqcRGxuQGPzd+9F5xzASjZ/82raWVI9LjA2GXpGYAslPkoKZP5ZEkReI97rYMkJIU5YuizDiGbMDFzlpxC4KMV7LzSD929A8fSnr3DE2g6cKgUxGhJKYzU9IsI8FLX6g2Qv2s3bN+xAxpbWoltPTkei318W1gEAzZ7NP2Hhz/seQ85FzMOiAhpMu9jkvf3fAD4gJ45q0P1vSCRJdtTyTHezd8Jdrd3TaM+LUpLgCu4CJnZ/ISDpAhaCEUeHwKw/NoDl9BWsY8UljiVHOPtzEyYCcehSnPmo/QEzC/B61vegK3I8XpkEfDJt7CkFIq/K/+LLWuDMVvefAtsLg80txi/TkvAqMszMx2IwHX7FNzYAFbHNMGQ8w4MOl2kfgNjg77YB/Y17HQ9qK+rK0wrCt7h8V7Q1dbs+9F8rrS1zVzxLLQYjUdbjKYDqK56dr9zFSgxHcT+DIbml9J+rHL9quX8lfy/KX8CzdiE3XMo7zoAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>icons</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Сотрудник</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>icons$584601</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>ethernet</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>wireless-router.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>1489</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAFmElEQVR42u2W+1OUVRjHaaZ/oAlTWU1cdhdYloXQKUVlpl8apyYvmZoXHEOrMa2cwWy8FE6OOZozOokgiAumJBBCqUHeKgIFL+zCLuz9fr+wCxJgKvDtOa8sIlnh6g/94Jn5znvmvOe8z+d5znme80ZFPW1P2z+0Zr31of3RTW6wjWleJADTlRZXY6vZKW8xOydeunLtmdFzlGZHlMJg56msLrnK6m5s1lumPxHjN3SW9U3tBixfnYUNmzajSaXtCL9TWZxRGrt7eK7G4a3P3rIdS5Zn4mq7HgqDbf1jhZ2U2tSmh/SlNMSJRNiQvRkUhQGdy3+z3eoqDs/V2j3FtkBX0OgO9G3auh3C+HhIUlIh15nxy+WmeRFDULgbstZtgEAUj1zZt9C6/DhwuAgvz0xHza8N0Dt9MHsCuNzcildoLP9oCZzBbshKywgiAZlZayHXGrsjjcCzJMTGxWHB4qVQO7worT6DOKEIM9JnQWNzQZqaBkmyFGqzDemzZ0NIoD/UnCOIm1iWuYrmCqEn6JKSY4sjAUivrL0IPn1kX24B1HYvlq7IRHyiGBqLE77uPvAJTkBb02Yww+7rQKI4CZmr34WnsxuHjxZzW1FzqQ5nfz6fHwnAjIqfzmOqQIhDsmOcJwveXoJZczLIQA+CvX8SgIDzWmexo6vvNl6bOxdzX38DwZ5bqKj+ESLahhMVp3CmpvZ4ZBGoucBFYH9+IQzuAN5ZuYrz0uT0kME7HICIvDTaHPB2hJAkkWB11hqEevpwtOQ4B3ChroEicO5ERGegxeTAVH4c5i9aDKu/E1VnazmP2YFzB0KIEwg4Iyq1ljsD8QkJuPhbHXrv9GNFZiYEdF48oW46AyV7IzqIlHINaz/8CKKERBzIK4CnqwdHyLOZdAhtHh8BCDmjilYV5mRkoLziewwAOFlewUVqY/YmGGyO7vy8vIUR1QGF3pakoExgaccgPt2yDa5A593AzZ6BW/2AYAjA4w9gYBD9d/oHBnZ9tZuMizkgFqWqquobj1UJqcS+32KwYM0H67Dlix104Gy9xcXFWbfJVYHwHkAwFIJMVnzgbn+/au++ffj4k40IdHahrr7BXlhYmP7Y5bjhuny+Um/qaTda+k6Wlde3qrWTb/UPDgMEgiGcqqzMoei/0BHsDLq8vr7TZ862FBQUvPpEb8XKqqoMubJ9srujU9R3dxDjx09ADI8HL21BTW3tHgJ4ruFKI6+qunqO1mDidXT3Pu8KhKJt/mC0ye2L1tm90WqLc9wjG26zOLOozkOhMUClN0NjskJntg36Ql0Idv0Bu9sDl9cPp8fL9a1ON0x2J/RUH9Q0l61RaA240a5DY6sabVY3rmlM740ZwOgJIpkuF5ZWnKj6sXRklU7EKWFYfErbL3ftBm/SJOTs3MU9t+3YyUXqs893YPKLU5CYJEGL2YG83Nw0mUz278bpSh1n9AYRSx9OorrPxNIvOSUFUoKSpqYiZYQYkDMQREwMDxaPHxNjYqCzuzFhYgyUJjumTOVz1bVO3obvysq3jiEdbdE6dwdiaSEz/ubCt2CkW3DJshX3IUaIRUGpM3Key9U6xNDzqlJNEZiE+mYl5wgD+J0ASk+W5YylHkRrXAEOQCy5B9CiNWHewkWQSFM4JY8UQbFtCm8Ze89uRQbPJ8OJ9Hx0AGeAC51YkoxEEvsg60uk0iGljNK98fCWMfDwWqZHBRgXBmCLxWEl3zfAJBnSyDFx8oOGRwLUcQDlOWPKgnb6F2C/ZQwirNghTeGzZxy3t5yGx/gPzB8pado0tFpcOFJYkD0mgOuUswxC5wndlzcEg7cTRh/J3wXzkFifjem9TKEH1wxJTRE9XXveXlRUNO0/0zDc9n+9JzUv9+DKv+ngNysPjRIbe+jcESLj06Oetv9b+wtFSqDYbtvuxAAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>icons</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Локальная сеть</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>icons$752005</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>group</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>users.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>1298</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAE2UlEQVR42u1Wa0yTVxj2x6Zx+7MfU/8IE1paWqAtOmO2/Vym4DDGmc3N28BdYrYfS2YAp2aKbs7MCQGhrYKVoJvggHEJOoHJKIJuXJQWLNDS+4VeKOAwMkl89p6vl0G2iMCWbAkneXK+nn7feZ/zvO/3vN+iRQtjYSyM/9vQDNqmzdy10fbvBr1jsHLzbb1V0j1o3d9rdii1JnsmQcTWtUb7c70W5+V+p2+yz+FFj8V1t6Pf9CH7r3PAPP/gnXrr01qj4/pNjQ5fZedi3/6DOJGTh467A9Db3Q0Glxf7P896JFvzIqKieUjetBlXmtvQrhv84R9RgE5nyVEUIprPhzg+AfESCeISJODxY1BQqEJF7VXwBQJujUFMEAhj0XizA/UtbRnzy7nRllVyuRK8GAHiaeN4iTSMBEKMQIiqq/XY+W5acP1PEqkf7EVrl2Z8XgT0Lt/wq+uTuI1DQROkUkg4yDhsSN6In260IVYknkZi89Y30anTP8jPyxXPmYDFN4ZVUVHh4KGgHGQBRPN4MDpcnBqMXIjErj3vo72nb1yef1o0ZwK24XtEIHpacKmMIRGyxAB4PD6cXj8REHD/s3tZvVy5rkbdtQZzUVHRkjkTsPpG/a9tSA7KPj14YhCvp6TgTk8vIiMjORUS6W0oraxGn9k+QfJ/Mq8aMDjdhy5X1SJGKIRUOjX4aiSuXk15F+FndQud9BqcHh9sQ15o+w04eDgLrZ3dMDi9zeQXS8kr5k7CMTzWV1hcwknMFEgMSh9LpL4vL0d1TQ1iY0UQ0Ol5JL2QrplifPr95clsDDi8bqWicHFFdc2TB9VZnNw86PAoLW4f3KP3YLQ6oDhbhAK5AudU5+EfGQUbHq8PGZmZEInFHMFQHbBiZH6QIz/76NfeAc2s/F5rsi0l+cwlZeXkATG41dUNt38MjU3N2JeeAfWNVkw8fAiz1UZBhPixoREVVdUcCY5A8G1gryOfSKi7tKhrbProiUnctbh02QXKR0xGtlHGZwfhHRvHkaNfQEZ1cOz4cTx4OImso8cC6aBaOF9yEeeKLxCJuMCrmBAgwNzz40/T0dx+2/tEwamBfH2hvIpzv7ig+4ni4uC/P4HdaWmczKl73sMkyc+uGSE2MyXqm9Tkiqnh04uDBNa+9DI0Rjtys7+RzBR8icbshGzNWnpQEiQQ2KTkUhmSN6ZwEq9PSkJlbR1nzyFDYutr162DzmTDyogIrKLG9AJ5CMPzy5ZDR52y4HTeWzMROHQyXwkhyciCihMkYRWSUzZBqSpGHK0rilTYvOWNac7ICo89wxqUfWQcFv9vGPSMot/lx8DQCH7p1f9+RiFPeywBrdmp2bJtO0S0EcNUEqzjNbS0ISIiEupb7eBTcYZ6w9QmtXXbO9DoTfdLLlw88e2l0sPflZYdkefn7aXgu4qLi595fPHZPeHgf0ci/cAhnMqT4wAZzdSgoZwzMPUMrmHk5px6ZVaGQ/I/1aW3YNmKFeHchbAqOK+k0w8ODdN1FOU4OgheGOye5fS8xuSAUi7frVKpZud69CnlZvlieZuKgSE/DO4RGL1j6LW4YKEmFYKZYPKRUXnGuHv09Pytnv4Jkjx1tgosSpYJFlOlvk0tdOdfcDpvZ8EMkAew44xCsZ3y/ezCZ/x/fvwBKKi1V7mm7hgAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>icons</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Команда</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>icons$584602</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>internet</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>web.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>1500</size>
+                    <content encoding="base64">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</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>icons</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Интернет</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>icons$752004</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>mail</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>mail.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>918</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADXUlEQVR42u1WS09TURBm77Y7FUqhpe1tb2/rjyEaFLBFIkYjEeVVKY+/QIgCYaECZSGJK5CIxPIqtKW97aUv+kAeCYmJgbhwOc6c3ktKNbHFJhrTk3zJ6ZyZOd+dmTPTqqrKqqzKqqzK+pdXILl/BaHKRyh1oAqnD1XhzKEqsn+simQRuBdRFsSzQOqiPvko+WJ/ItsWyhzFV4O78CkQyWEnAmv4e0OMgjccg61IHLalHGhPMjojHc8O2YSZHfkIpQ8TvljaUTQB6fMJ2DsewvzSR6iu1UBtvRY0BK0W6hD1Wl0OOhnybzqrq9fldBE1aDu/tAKdPU7A6MDY6Khtamrq9wRiR1/guloNjbdbYGHVCw0GI3BmnsHEWxjMFgQvQ96TXNEjm0W0ffS0B6rVtRhBCWbcc31FRYAIEPsGIwc377TA8qYfDLg3nV8oAF8AkikkSHfFG4DO7j7Q6g0sgh4kMD3rdpVEwGAyg54zQVOrHdb8ITDiXrncIlwEL+TkpLMeEKGr1wk6vJx8XJqAEY0pnOS02e4AnygBhzK6UBCsIFhl4N6C4MxmptPtHAA9psCItmUhYGJ5NYO97R4EpSiGmmcXW202BtqTTNyNg9M1JKcrVwvGshBAZ1Ro5DgSS4CIJHjMtQ0vJ/B4JkXjkNo/gAYMO+kqBUlRKAMBC0vDDl78fHAY2trbYS+dATNGhZDKZGFoZIRFiHRIt6wEDOhwKxSB/oFBrAET++L7HQ/g9OwbfD09g8GhYVYb9AruIgnSNXBceVKgx7Cv+oKssMgpz6reygqRw9/sBSAhktEZ1QsVLNmQ7R8RoGbyYdOHT6qfOaMvZO9eKHyG1vNnSDp0KT1d6h/k41IErlXXsC74+FnveSf8qRHlvX8+rxEpabvV3AoLHi/7GE+wBAJi5hjeLi6zNkqdTKmFUlqxkj5q5zRT1nFYvXr9ZqAoAjg4El39LtbDKXzKMKJBwwZO4TDS6ZhMOdPINgS1pg4cONi2o3vfX4yNNRZFwBdPO8TsMRunlDsCjVX6Ci+N4d0E+KJJ8Ef3ZCRRlgQvjuaNcJTpKnbkQzo4gXcL748mxsevFj2SaXTS9KK85WNmds4143b/GnhWqD+Nsonxl08mJydvlPSnpKi5/Rf9/T/rBxEteRJxTXBdAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>icons</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>электронная почта</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>icons$752001</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>mfu</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>printer.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>1199</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEdklEQVR42u1WSW9bVRTuig1bZ2pIYvvZsTN5Kj8AVYQuEDuW3VWtGigpqAsEqogQIgSFloqm0EIUmk6Jw6awCFAhFaqqAkLceEiceI79PGZwxpYVH+dcPzsvBpK2SVnlSp98fe8ZvnvuOee+ffv2xt7YpeEKxJ6O4XEyTHjGFZz9wB1JXnNH5KueKCN51auA1gZIRv/UTjcRToQ+OteHIx0ncPT1NwidOMY4cVLgk76L8MVScIfjV1jeE0nsnvM/ArFnp5NzqKtvQHNrm0BLm2UTjne+ifd7ejH68114I/Io6/mi8u4QuB+Ma4KZBTTo9Juctlo28NrJt9Ddexbm5hb8eOceRSM5umsR8ERkTSSXh1YvqRxb0UZoVXDk2HEM3hhBfYNW4OYPP+HXCe+FXSEwGUtp4gvL0BGBokN23ma1wmK1CTTRyb++PoxoOodAIg13IAJveBbnzp6pHhgY2BmB6Xhak8yvQidJ/3BssSmgeQvlhrGxUaC2rg73/SEMO0dO7zgCgWRGk15ah54JFJ2TU+sm2EtE2ghMwkNRGBoe6doxgWAyp8muPIDeIAkHRYc2hl0Bza0CBRJMwBeMYsjp3DmBcCpXNb/2JyqrqoiEAZLBCINxA0bVnPckkqnZXwtfKAbnyDfdT+TUHU50hjILWTo9pqIJJBeW/kpk55Gez2Muv4z8yhpW1x9g/eFDAZ7nV9cwt7SMDMkI2fwKpmeTCJGNCNnykE22vW1SuoKxjpu3buNg+0uoqa3FmNcPq91BYTWh0WSCyWSGyWyGuakJTQp4bjYX1lnGSOBq+W3CJ6JxsP0QviWbd8c9Pdue3jeblg+9/IqoeYnCGpIzqvsv3LedCNkdDjgU8Nxmd4h8sCqVwYRZt9g/XnixHa5AFB++927FlgT88hzqtVo0MwG6U65rroCN7C8kXpGEgOLcVpaIQdLV6fXCFndSesBw6eIXr/7nNdCLVsEEWJh7viAQT5URsJUqwK4QKVaDVdUXDESAdbXCloWiaMQdlw83hp3vbPX0asoJcCLp/rUHKKWoLsFSL7BSVTQKXa1+M4HrQ8Ndj0yAlaaicqkNq7uguhFZypxzx+QITJIu5wDb0j0ugSaFgI/KsKKyUkSBifB16CWDgKRCYY32SIZlq2tq4AnHS7YelUCFmoCOmso99yS98Qn4YzJm6E6DlNnhZBaRVBbRVE6A57zGWc8y/lgSPtLhV1RN4BdBYJvuOBnPwEKJxYqV1TUYn4miin6lYqcTXa9RQFKw8X9DZn/tc3CRrqaiUtiyOA7ATVXw1ZeXTm1JYMwfPsokZtILhEVMp+ZLOdFc9iXUqkC9xjLF/Lk95sZMZlHYmqKvqu++vxXv7+8/sG03PNPTbRtyjpy6fHnw7Sk5V4oIg8uqQc+/kkgwAZoX1pR91YkHB69co9Lr+rzvfAc5f/6x34XfSxFZRCDDyCOUJeSW6I4L4DmvBWmvcOJFTMmlEzt2/CJ+2vuxjU5wuITznx2+UAZe2yRDeKIT743/e/wN+Y0gOE9Tf3cAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>icons</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Оргтехника</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>icons$752006</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>phone</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>mobile.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>1044</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAD20lEQVR42u1XS29bVRDuj3BpnaY4jUAqdmogASrEEgmxYYFYIYGKEC2oL2IigaiE2gWvwoIFUSUgyq6vHWKDYIEoiKq0SVo7fsRvx/fa9/pxr6/fSZPoY2ZsB9JkkeZ6wSJH+qTRnHvOfGfOnJm5e/bsjt2xzTEby+wlOLaJvX0zPBNNv30vqeD3mQBuzM5vC/ztvZSK25HkcdsEQkoBHu+TOPTY4xvgOjQM5+AgBggHh4Y2zR/2jBAJBZcmJ0enp6d37vaIWhJjT4wc2YAXX3oZvo/OYfzDj/HKq69tmmcSN+aCuHLt+jk79+5gAoMuF95734dPPv0S5z8jfH4RF774aiNIx3P8zYkz43AND+MPInD56rXztgnsczpx0x9GMK0ivJjHgqIhpuiIqwVBTNURzWqI0FwooyJdquERWtMfArkOgVuBiBiJ53Sk8kWktRIyelnAcpJ0iVxBvsmULFnz592QPQJzRCCmGdjvHMCdYFQMZPQSskUDaslErsyoiKyQjokkiIhq1mTNX0TaFoG7iawjVajIZnPhmJxWIWNa2YJuVlGs1AR6pYq8YQkR/kazmrLm7/kFXLl6fecE/CnFwe7kzfwLCTmlRoaKVg1mtYFKvSkwaw2USMdzatFEsd7G/oEB3A7F6BXY8AAFnWOxXIWTNgvEksiTu/nEbLDWbKPRXhKwzESYBF9JubEka2bCfSCgGDXa7ACC8ZScsGzVUW200FxaxvL9FUGL5GqzhXK1Ds20YLaWxQOzkTjngZ0TCC3m/yWQSNG9WzCqndO3l+9jdXUNq2trIrPOIM/oXQJOIZCwRyCY2cIDdEqLPNBqkwdWVgQ9Dxg0pxt99MA8XUG2GwPzvRjgAKT73hADrW4MUHzkjQqMZi8G4vZiIJBSO6+ANvNHE50nSCfkYGN3s1GrQa+gzq+gLu7nV1Dq1yvwJzfnAbVLosB5gIgIKA9o3TywWKA8UO3kgVtBm3lgNpFxxCkT7mMCFFDpbiLKkTGNCOiShGois04pVZApGCjUl2TNzUDYfi1YoFpw8FEX3jr+Lk6e9eHUuA+nfRM4Qzj7QQcsnx6fwCmqmCcJx945gSGqhrZrQa8acj/gphrvPuKFpws3NRyvv3lMwPK6nkHfDlM/0Ldy3GtI3OvwYuzZo8hRzlcJzz3/AjwjXtG7/9OQ9IPAlh0RG+GW68dffhMcdnvWDT/YEV22E4SSDbM6vE+PCokH4TwwKNhqzjs6Bn86hx++/27CFoE71NkyiahmPhTC5Lmffv41OzU1NbbjprQ3vvn64lOXJr9942FBxp/Z/aP6349/AD3O3gag8UiEAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>icons</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Телефония</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>icons$752002</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>service2</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>briefcase.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>1195</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEcklEQVR42u2X3U/bVRjHpxfeeGVSfIsChbbQt9+vLRsE7P4DvdIYL+aNiRdGN6NEI8Q4kMRkw0kZL5uAGJkbA5mJyxKjNxM2FsbWUlbaH30vpbyUMhgQF0yWfX3O6a+lsPIWuNCEk3zT8zvnec7z+Z3nOaftoUMH7aD9X5rdF1nreyM5dv+EwuFLivXt3rAim+2+NId/4tBtT+DpkUD0misyjQGHCzdGxnBTFuvfcIzBGYiC2cwBT/3x1839hXAGJ6/ZznegUKVGAalQpUGhWhb1+Rj1mc2w2z+y7ykIzN7nQfRGAYdLy1D+mpV0VJYVJUfK+ByD8E0ncP5c6+udnZ37E3wsHMuJJB4gv6CAAqjhCU9iamEZ0wsrXKwfX1mFsqCQzw+PedHd01u116LLGQ1EFa5wTCFNzGhiiyvIef4FvPjSyxj1BjARv4/o3HxS1J//ezU9b/f48etvV0+F4ovPjQajCrbWjgPf9Ybfo3yj334Pg043brsk3HV74fD4Hgen4ojMzEEKRrjGQxNcrO8OhGkuAWbjlAKwS37yHcctpwcDdhecoRiGpeD72wK4J+PQCyLPd7Kw1FBRXpnUGqYiaIpSKpYlP9Nc0obsNRpesKkCLdYbCGISrc3Nlk1rg22VFEsgT1kAncHIi8ogMIkwiiIE0QTBZIJIMpnM68TG2ByzYbbMh/myNXQGgUP001G9dLmnequ8K9IAxjUAo7AhuNnMZTZb6NOSfhYJJA0hJCEyAQYI4GL35ZM7AtAbBBlAXAfA31gObrZYYCGZUxCpncgAMDAAowwwsgsA5mQwrt9+Ud7uzOAp8Z3IBEhD7A7gWWkqgVdz85IAQhYAetPSsjI0NDaira2dq8HWiPKKCjkN2QHy6aWG3H50Xfj5q+2u3Jkv675BWYUVeflKXv1FWi2lxMgX1+p0kHwB1NR+jarqaq7a2joEQhEUa3XchtkyH+bL1mBrVdXUwe4L/3OuteXdrXbgmdHwFM62/wiHN4SlR4BEt971W0O42NuH+u9s+PD4CSw/XIVKpZIL0IKi4mLMzi/gg4+Oo77Bhku9V3B9cAhSJIZlWmPEF0bLDz9h8N44urouvLFtDbySm8tzlkv05VYr3nz7HZz4tBKnz9jQ3XcFDx89pvOtShckuwui07Po/qUPpwnyY7J9i3zKrUf5DvC1lMrUKajZWRHSNrLcZZ4EVgtq2laHy4NvKe+2phauM9S/43TxOWaz7gjyY2iEcrfHUMsA5MtoI0TJkVJUfv4FPqn8jIv12djG4Ho5uHYvADr5PkhBpEE4jFztophx+2UG3yNAdognQQzC1sF3A5CzEWANYq0m9OlLSlbGeCrnmcFTAP0coOfk1t+G0VkIdLQYRDblp0Q/PtZJHt/MT7CUgB3x9rbvK7cEuEPf2QzCO7PwhHyzC/DHFxGMP0BojpRYSmpuCUF6ZnPMJpuvh3b26u9/Rjs6Okq2/anWUH/K1NrcdCyrmpqOtTSdzSo2t6kfiYIfPviD859r/wJ6gJYzGsq3qAAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>icons</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Услуга</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>icons$579502</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sla</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>documents.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>1042</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAD2UlEQVR42u2WW1MTZxjH/RjlSkmySUg22c3G3nWmncp38Mqx4whSLZ4oYjsK1Wlt6ujoUNoOLeKNnDrVab2orbZVQKSKITaEUxg5CE0iAemF42X/fZ7dTXYXgdmE9Erfmf/su2827/N7Du9hy5bX7XX7n1o0OVv6SR9OzuwZmU3hzsM4eodH0BvVZeoPxMcxPDX3MwGUlRxidP4pgiEFDpegy6VLyGt3VQ26rt8AgxKAWFKAqfQytpY74A8E4SP5dflMz+oDh3Dyswh27tpNEOnSQsxm/8EbZWVwkqdOQYCnwgcxKJEMmJraQzgdOQevz188hDnXd2MJDMbH8CAxgehY8t/bg0PovR/Fn7ER/PTLLVSQoYAKoYEcOHwUpz4/q8LkIebS+H3ggdBz9ZrNXD/JWHLN3joFN1xuEj0Fer5fexA37/RjYmYOyvbtCEgaxFtvv4P41Axqj36IfRSNvfs/wOXvr6E/Gl+0HYHxhayaa58YyIeWJ2dP2VBQknGkrh7nLjZjT1U1phfSBPEm/Sar3zBEw4lGfHr2PJrOfIH3qDAHE0lc6ezcaRNgUQNYx3hQllFX34CLLV+p43ur92E2lUHYBMH/yRUmR7GPUtnR1f2JPYC/s9imVzvnVTQZl2RWCMeOf4QLzV9CDoVoXEJVdQ2m51Pw+UX1WzMEA/THRhmgyRbABAM4DACejI0EdeNs9N0dO5BdXsGJk41oIJi6+mP49bc/cOt2n1aYkhXg7qMCACZTS9iaB5B0AC30sg4QUhRUVlYiEongm9ZWNFM6Dh4+gmfPX8DhdFki4HS5MfBozD5AkgCMFBgAUh5AgUIASjisifo85vF6kVlasQCIOYC/SgCgRiBkREDRxf0QjTFAenll8xGYXLMGZEsN5CByxvnd7fEitfRMA9hMDUyYVoF/nVWQg8iJx9weDxYWlwnAqYe/yFWw/j4gmyA0EE3au+D2YC6TRbnDuWofcNE+UBCAdScU14AIygYI93mMAaZTT3UA/YQUtQj0DieKA+AJXoYwgejiMT4rphYy2okpGHcEL21OcTrcLl1qO14QQIUKELCc/aJe3cYJaIgB6MTEUGIS90n36HbUR57zReb6jZtP2trawu3t7YUB5CFEE4RanJK+Tet9Xm7k9dBoEj0/XP2xs7unsaO7u6mjq6fpu29b69h4wadhDsAKYo2I+VbE4b5HGw4bXz2nLc8t9wEljHKacLUcG6iCcs03INu5Xq8NjT+uij2eVyu3by3FEuqy6tfFfb4Zj84vFpbrjdrXLS0KhfJjXjr2VESuN2rFerBpz1+59h/oS/sXHjcCJwAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>icons</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Соглашение</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>icons$762301</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>unit</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>site-map.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>1235</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEmklEQVR42u1WWU+bRxRFfcgvSPEGhdh4IQEbSAP/JxLPrQoJpEvyFyo1rUKgSFSCQPtGHtpGbVKo0oZgwBi8fN4X/HnfAJstcHrvYNMkamIofmSkI4/vMnNmvrlzpqHhol20UzarFLzpiCTg2kjDFUvD/RbYxj6OWXT5++tOgAc2d/eg5YoWre8A+yw912HzR/Hdt/d7xsfH60fAE8+KSa52mHG104xrb4Ft7NO26fHc5sTU9Mzndd2BQCqPVq0ObXoDdHp9BYbXoK/4DFhYdxOB6Xt1JRDJFKFSa/D0rwWsuL1YdfuwKvkFbNS3uXx4ueaEpqkJVqeXd6C+BGL5LUFgVfIhnMwgmsqeIMJIZpHe2hExNrcfj2bqTCBRLNHgajh8AcQyecSzhRPI2TxksuXLeyLG7glgeubH+hLg1alpe21OCaWDI5RfHWHnFQTKhNLBIcLxFJqaPyKSQSLwU70JlPHxjV6oNRoolEoolSqCsgKVsKk1anRTGSaL2xgZeTBQ30OYSPcXd/ZxAOCIcIg3G9vYx7vz27O5yOjo6PVz3wOBeLohGE9fiqZyX+ZLu184Pd5Zh1uKOV1ShCfl1fOpT2Wy8PoCslPybCwurwQcHt9jOVccjqWLl1yB8DlXnsr5vv9hEp98NoCBW7dxa2gIt4eH8dXduzCbzbBYLBgYHMTQnTvkGxYxnw4M4psHI1wZMg3xwbkIpDbLaGlthbmrC0aT6QSm9na0V8B9k6ld2A0GIyxd3dDq2uCJyJicmuo/N4FGhQJqqu9l+zqCGzFE5TjkRBKJVBpJQpz6bAuRL0FlyQeSy3HNG8DExMTwmSZc8gRvSqRsoXQeG7lNJAqlo73KoStR6e1Sh6pOYLu8K1D9v0cncXv/UMRyTmpzB3KhRGMV4JHTsLoD/adWPaFwWi2u6HTQkgbwljJ0bQw9evv6sLWzhz2a7UZvn7CxrxrHeQwegzXkRCXv11BJ1vQWoXqdQuU6GGYLOhmWLpgZdB4MRhN84ajYEZ6YbeaKv5MOJud0mCtKWVHJueX12ipZJcCqxklVlWPoDQwjjDS5wWiEFIyILWcCbGMfx1TjOVfbVv3VY54ITD6qoZJMQEkHaPb3edJ1B17YXVgkeV1yeo5VkNXPJdGV2wwnXbn58r64ov9csJIGsDJ6RSzncC6P8WxhBSpN0+kJKFQq/GG1Y8Ubhj0QhSMUg5tKyruRgD+WRJIqQ4gOkTlWQLWQZF8sJWLckTiclLNGuTZfRDzXeMwzE1jyhP4lEYzBGZYh0eDH0qzGMq1ULmyLvtUhHU9MMeuhDZHDk/MYZybAn+DX5y/psZkRyZKcgTeRhT+ZRzBVgM0boiu4GQv0AIlkN8UbYH5xBUEqN345+RI5keOqPFZfOLziE8wJAjXeCdUyVKjUuNyoeAMfNjYKKEj9Oui002qPvFTfXGJKWiH7Lp+A44/zePXXKN5Ouzj6cOT9KslP6nUiIdEj9F3wxHNw0wof//Ik/PTvxa+d0aSwvS+Hd2L25yeRsbGx2irJlwXXK3+v/8bMPV4JD/Z/4mu20+p4Ne6s8Rft9fYPLs72/QCwk8oAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>icons</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Отдел</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>icons$584603</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>workPlace</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>laptop.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>1129</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEMElEQVR42u1WSW9bVRTung2Lx6JsSFxnIEndiQ0I2v6D/oFKSBWB0DR2hsICgUpIkxK7TlM7FBZRJKhSAuzYILGioQkUYie2Mzmenv1sP89TBrcl1cc5N3YUBympy6YLX+nTO7pn+u655977jhypjdqojdp40YdtTX6FINncsmT3BqUFgsMXkpz+sOTyKwIsO+k77w1JNk9Qsq0FJOFDvs+deM4duLTgU/DbnBP3bU5M2114ML+EWccy/nSu4KGLsboLnmPdg4UlYcs+7LvgD+OvFV971QQ4eeuJk6jXNghoCMcYDWU07kNpXtsobDUlv+bWNriCKm6PmE9NTEw8e9mZPQd46+w59H9pQv8NI76g73XjTQwazRgyVYLnrg/fxEDZluQ33z4rYty3uXBv6sePq9l3iZ3YuUPfjVUlhjWCN5qArCYRiqehJDIIJ0sgOZRII0A6H9mw7XIwKghzJabti5j8fupalQScwrmjqxveSGIneSwFhRJGU1momTzijGweMfqq6awgwjY7JFR8PmSkGFpMU+9UTYAbiQl8SBXwqymxck6upnNIZAtI59eRKWwIsMxzrOOKMAlPJE4VMIoY3JhVEghIv88vCufLhh7IVHIue4RWLpJT0vzGFgqbRYEcyUwkkSMSqRxtT1pUgfuBm3KGTkeVBILSDJWNu5sJhKi0vOdcdl4tJ98oPkLx8RMBlvObW0gRCd4WrgL3w8CwSZyMWcdKdQTsXlnisjGBTkMvQqVm4+C8Ul41J36yvY1/CCwXtopCF6cKcaXkWJJOhUnE+IPuiMmpKgnM7CGglAlkKwlw8u2nT/GI5HVBYFNs0f8nsG8LgomdoxYrbUFuzxZw8s3iY7Et6YO2oBoCc3QKuAn55rv0fgdcngDBj1W/DG9QQUCJIBRRoURjUNSYkAPhiNCt+oNYJFvnmg/6vo+eswnd8svlY9jc0ioqoSU0NDYJNDYxmvehaVevLdmzb/kY3p2899mzlr/H4Q//9HDZi08HhsSVOkhX7Q3zLQyPjMI0aoF51IoRC2OsBCvMt61CxzZsO2gaEb4cgx4j7gOn3RPsPOwCemmGGubd9g68d7kL7Z16fHDFIK5j7oUr3b3o6umDvrcPhr6r6KYSM1g29F6FnnRs00m2fIGxL8fgWBxz1uXGt9/dvXDII+QQb8Drbcd30UJoPa4TaNOdEHjn3Hl8cq1fgOXyfNmupU0n/MoxxKPEb8LUD/0HVsElR6E7dRqv1WsqUMfQHBOo19BcXT2OHn1VgGWeK+vr9vkydKfPwBGI4Juv7+gPJPA3/TwshWJwq5ldrBE88Sz8yTzkVAGhzDqU7AbCJbDMc3K6IGy8ZOuOZSpiLIeT+PmXX0Pj4+NnDv0vuGUaPnlnzHqxAlbLxa/2YMxCsJZgqdSx7X/8CZT8jdpP7gs3/gXG9tr5w7kAEAAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>icons</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Рабочее место</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>icons$752003</string>
+        </attribute>
+    </object>
+</class>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="ouHead" enabled="true" seg-detach="true" seg-id="ouHead" seg-type="roles" type="SYSTEM">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="snippet">ouHeadRoleSnippet</property>
+    <title lang="en">OU Head</title>
+    <title lang="ru">Руководитель отдела</title>
+</role>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration xmlns:xi="http://www.w3.org/2001/XInclude" UUID="importSmartNutIssues" authorIPAddress="91.232.196.17" authorLogin="naumen" daysPeriod="90" seg-detach="true" seg-id="importSmartNutIssues" seg-type="advimports">
+    <title lang="ru">[SmartNut] Импорт заявок</title>
+    <configContainer>&lt;config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../target/classes/advimport/schema1.xsd" save-log="true" threads-number="1"&gt;
+
+  &lt;mode&gt;CREATE&lt;/mode&gt;
+
+  &lt;!-- Файл с данными для импорта --&gt; 
+  &lt;gui-parameter name="file" type="FILE" title="Выберите файл с заявками (XLS)"/&gt;
+
+  &lt;!-- ИМПОРТ СОТРУДНИКОВ --&gt;
+  &lt;class name="serviceCall" threads-number="1"&gt;
+    &lt;!-- XML файл. Данные на листе 1, 1ая строка - заголовки, данные со второй, колонка с внешним id объекта - id --&gt;
+    &lt;xls-data-source file-name="${file}" sheet-number="0" start-row="1" id-column="number"&gt;
+      &lt;column name="number" src-key="0"/&gt;
+      &lt;column name="creationDate" src-key="1"/&gt;
+      &lt;column name="state" src-key="2"/&gt;
+      &lt;column name="metaClassTitle" src-key="3"/&gt;
+      &lt;column name="priority" src-key="4"/&gt;
+      &lt;column name="deadline_unused" src-key="5"/&gt;
+      &lt;column name="resolutionDate" src-key="6"/&gt;
+      &lt;column name="planDeadLine_unused" src-key="7"/&gt;
+      &lt;column name="planDuration_unused" src-key="8"/&gt;
+      &lt;column name="factInWork_unused" src-key="9"/&gt;
+      &lt;column name="timeInSla_unused" src-key="10"/&gt;
+      &lt;column name="defferedInSla_unused" src-key="11"/&gt;
+      &lt;column name="overdueInSla_unused" src-key="12"/&gt;
+      &lt;column name="isNeedDepartue_unused" src-key="13"/&gt;
+	  &lt;column name="address_unused" src-key="14"/&gt;
+      &lt;column name="author_unused" src-key="15"/&gt;
+      &lt;column name="responsible_unused" src-key="16"/&gt;
+      &lt;column name="client" src-key="17"/&gt;
+      &lt;column name="clientName" src-key="18"/&gt;
+      &lt;column name="agreement_unused" src-key="19"/&gt;
+      &lt;column name="description" src-key="20"/&gt;
+      &lt;column name="categoriess_unused" src-key="21"/&gt;
+      &lt;column name="comments" src-key="22"/&gt;
+    &lt;/xls-data-source&gt;
+
+    &lt;!-- Определяем метакласс импортируемых объектов. По умолчанию - ${metaClass} --&gt;
+    &lt;script-metaclass-resolver&gt;
+      &lt;![CDATA[
+      def map = [
+      	'Обслуживание' : 'serviceCall$request',
+        'Не определен' : 'serviceCall$request',
+       	'Заявка на поставку' : 'serviceCall$request',
+      	'Инцидент' : 'serviceCall$serviceCall',
+        'Улучшения и изменения' : 'serviceCall$request',
+      	'Консультация' : 'serviceCall$request',
+      	'Плановые работы' : 'serviceCall$request'
+      ]
+      def defaultValue = 'serviceCall$request'
+      def mcName = item.properties.metaClassTitle
+      return map[(mcName)] ?: defaultValue
+	  ]]&gt;
+    &lt;/script-metaclass-resolver&gt;
+    
+    &lt;!--&lt;attr name="number" column="number" /&gt;
+    
+    &lt;attr name="title" column="number" /&gt;--&gt;
+
+    &lt;attr name="registrationDate" column="creationDate"&gt;
+      &lt;script-converter&gt;
+      	&lt;![CDATA[
+			if(value) {
+				logger.info("Engine ${value}")
+   				/*def p = 'dd MMM yyyy г., HH:mm'
+				def sdf = new java.text.SimpleDateFormat(p)
+				def date = sdf.parse(value)
+				return use (groovy.time.TimeCategory) {date - 3.hours}*/
+				return use (groovy.time.TimeCategory) {value - 3.hours}
+			}
+  	  	]]&gt;
+      &lt;/script-converter&gt;
+    &lt;/attr&gt;
+    
+    &lt;attr name="state" column="state"&gt;
+      &lt;script-converter&gt;
+      &lt;![CDATA[
+      def map = [
+      	'Открыта'	: 'registered',
+        'Закрыта'	: 'closed',
+       	'Отложена'	: 'deferred'
+      ]
+      def defaultValue = 'registered'
+      return map[(value)] ?: defaultValue
+	  ]]&gt;
+      &lt;/script-converter&gt;
+    &lt;/attr&gt;
+    
+    &lt;attr name="impact" default-value='I0'&gt;
+      &lt;object-converter attr="code" metaclass="impact"/&gt;
+    &lt;/attr&gt;
+    
+    &lt;attr name="urgency" column="priority"&gt;
+      &lt;script-converter&gt;
+      &lt;![CDATA[
+      def map = [
+      	'Средний'	: 'U1',
+        'Высокий'	: 'U0',
+       	'Низкий'	: 'U2'
+      ]
+      def defaultValue = 'U2'
+      def code = map[(value)] ?: defaultValue
+	  return utils.get('urgency', ['code' : code])
+	  ]]&gt;
+      &lt;/script-converter&gt;
+    &lt;/attr&gt;
+    
+    &lt;attr name="dateDecision" column="resolutionDate"&gt;
+      &lt;script-converter&gt;
+      	&lt;![CDATA[
+			if(value) {
+   				logger.info("Engine ${value}")
+   				/*def p = 'dd MMM yyyy г., HH:mm'
+				def sdf = new java.text.SimpleDateFormat(p)
+				def date = sdf.parse(value)
+				return use (groovy.time.TimeCategory) {date - 3.hours}*/
+				return use (groovy.time.TimeCategory) {value - 3.hours}
+			}
+  	  	]]&gt;
+      &lt;/script-converter&gt;
+    &lt;/attr&gt;
+    
+    &lt;attr name="agreement" default-value='agreement$605301'/&gt;
+    
+    &lt;attr name="shortDescr" column="number"/&gt;
+    
+    &lt;attr name="descriptionRTF" column="description"/&gt;
+    
+    &lt;script-customizer&gt;
+      &lt;after-process&gt;
+        &lt;![CDATA[
+      		// Ищем клиента
+			def companyName = item.properties.client
+			def company = null
+			if(companyName &amp;&amp; companyName != '' &amp;&amp; companyName != 'null') {
+				company = utils.findFirst('ou$company', ['title' : companyName, 'removed' : false])
+				if(!company) {
+					company = utils.create('ou$company', ['title' : companyName])
+				}
+			}
+			// Ищем контактное лицо
+			def contactName = item.properties.clientName
+			def contact = null
+			if(company &amp;&amp; contactName &amp;&amp; contactName != '' &amp;&amp; contactName != 'null') {
+				contact = utils.findFirst('employee$contactPerson', ['title' : contactName, 'parent' : company, 'removed' : false])
+				if(!contact) {
+					def parsedName = contactName.tokenize(' ')
+					def map = [
+						'lastName' : parsedName[0],
+						'firstName' : parsedName[1],
+     					'middleName' : parsedName[2],
+						'parent' : company
+					]
+					contact = utils.create('employee$contactPerson', map)
+				}
+			}
+
+			def attrs = [
+				'clientEmployee' : contact,
+				'clientOU' : company,
+				'clientName' : contact?.title ?: ''
+			]
+			def comments = item.properties.comments
+			if(comments &amp;&amp; comments != 'null') {
+				attrs['@comment'] = comments
+			}
+			
+			utils.edit(subject, attrs)
+	  	]]&gt;
+      &lt;/after-process&gt;
+    &lt;/script-customizer&gt;
+  &lt;/class&gt;
+&lt;/config&gt;</configContainer>
+</configuration>

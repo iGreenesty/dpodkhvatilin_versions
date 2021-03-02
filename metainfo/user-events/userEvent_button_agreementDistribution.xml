@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<event xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="userEvent$button_agreementDistribution" seg-type="user-events">
+    <enabled>true</enabled>
+    <fqn>
+        <id>ou</id>
+    </fqn>
+    <title lang="ru">Распространение соглашений по всем или выбранным отделам</title>
+    <uuid>userEvent$button_agreementDistribution</uuid>
+</event>

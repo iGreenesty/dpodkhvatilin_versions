@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="EsliIzmenilosVremyaStatusIliSvyaziSAktivnostyami" seg-type="scripts">
+    <code>EsliIzmenilosVremyaStatusIliSvyaziSAktivnostyami</code>
+    <title lang="ru">Если изменилось время, статус или связи с активностями</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="EsliIzmenilosVremyaStatusIliSvyaziSAktivnostyami.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

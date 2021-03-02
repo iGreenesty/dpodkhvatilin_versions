@@ -1,0 +1,1 @@
+return subject?.voter_em?.UUID == user.UUID

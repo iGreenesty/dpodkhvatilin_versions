@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="exportAdvlist_5facdd97-c696-6a70-13b2-af929921998b" seg-type="tools" uuid="5facdd97-c696-6a70-13b2-af929921998b">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <params/>
+    <presentationType>default</presentationType>
+    <action>exportAdvlist</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Export list</caption>
+    <caption lang="ru">Экспорт списка</caption>
+</action>

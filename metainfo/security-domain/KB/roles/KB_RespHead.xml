@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="KB_RespHead" enabled="true" seg-detach="true" seg-id="KB_RespHead" seg-type="roles" type="SYSTEM">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="snippet">responsibleHeadRoleSnippet</property>
+    <title lang="en">Object responsible head</title>
+    <title lang="ru">Непосредственный руководитель ответственного за объект</title>
+</role>

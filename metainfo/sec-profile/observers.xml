@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="observers" licensed="true" seg-detach="true" seg-id="observers" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>observers</roles>
+    <title lang="ru">Наблюдатель (лиц.)</title>
+</security-profile>

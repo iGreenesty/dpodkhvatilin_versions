@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workflow xmlns:xi="http://www.w3.org/2001/XInclude" inherit="true" seg-detach="true" seg-id="workflow" seg-type="workflow">
+    <xi:include href="state/closed.xml" parse="xml"/>
+    <xi:include href="state/defective.xml" parse="xml"/>
+    <xi:include href="state/inUse.xml" parse="xml"/>
+    <xi:include href="state/registered.xml" parse="xml"/>
+    <xi:include href="state/reserved.xml" parse="xml"/>
+    <statesOrder>registered</statesOrder>
+    <statesOrder>closed</statesOrder>
+    <statesOrder>reserved</statesOrder>
+    <statesOrder>inUse</statesOrder>
+    <statesOrder>defective</statesOrder>
+    <statesOrder>defective</statesOrder>
+    <xi:include href="transition/defective-inUse.xml" parse="xml"/>
+    <xi:include href="transition/defective-registered.xml" parse="xml"/>
+    <xi:include href="transition/inUse-defective.xml" parse="xml"/>
+    <xi:include href="transition/inUse-registered.xml" parse="xml"/>
+    <xi:include href="transition/registered-defective.xml" parse="xml"/>
+    <xi:include href="transition/registered-inUse.xml" parse="xml"/>
+    <xi:include href="transition/registered-reserved.xml" parse="xml"/>
+    <xi:include href="transition/reserved-inUse.xml" parse="xml"/>
+    <xi:include href="transition/reserved-registered.xml" parse="xml"/>
+</workflow>

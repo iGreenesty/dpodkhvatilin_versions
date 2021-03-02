@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="StatusOtlichenOtZakrytIReshena" seg-type="scripts">
+    <code>StatusOtlichenOtZakrytIReshena</code>
+    <title lang="ru">Статус отличен от "Закрыт" и от "Решена"</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="StatusOtlichenOtZakrytIReshena.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

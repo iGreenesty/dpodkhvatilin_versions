@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transition xmlns:xi="http://www.w3.org/2001/XInclude" enabled="true" from="plan" seg-detach="true" seg-id="plan-negotiating" seg-type="transition" to="negotiating">
+    <title lang="ru">Согласовать ход работы</title>
+</transition>

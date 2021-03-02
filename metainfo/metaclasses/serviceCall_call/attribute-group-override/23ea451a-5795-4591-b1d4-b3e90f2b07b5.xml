@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="23ea451a-5795-4591-b1d4-b3e90f2b07b5" seg-type="attribute-group-override">
+    <code>23ea451a-5795-4591-b1d4-b3e90f2b07b5</code>
+    <attribute>codeOfClosing</attribute>
+    <attribute>createUp</attribute>
+    <order>shortDescr</order>
+    <order>service</order>
+    <order>metaClass</order>
+    <order>state</order>
+    <order>timeAllowanceTimer</order>
+    <order>baseCategory</order>
+    <order>postoponeTill</order>
+    <order>codeOfClosing</order>
+    <order>createUp</order>
+    <order>wayAddressing</order>
+</override>

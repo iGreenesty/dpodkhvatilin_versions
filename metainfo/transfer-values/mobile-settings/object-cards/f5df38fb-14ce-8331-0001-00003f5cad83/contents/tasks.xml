@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mobile-rel-objects-list-content xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="tasks" seg-type="contents" uuid="tasks">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+    </profiles>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="f5719b2d-16ff-a115-0007-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Задачи</caption>
+    <showCaption>true</showCaption>
+    <allowCollapse>true</allowCollapse>
+    <code>tasks</code>
+    <collapsed>false</collapsed>
+    <contentType>REL_OBJECT_LIST</contentType>
+    <cases/>
+    <class>
+        <id>task</id>
+    </class>
+    <hide-if-there-are-no-objects>true</hide-if-there-are-no-objects>
+    <link-to-mobile-list>tasks_linkedList</link-to-mobile-list>
+    <attr-link-code>tasks</attr-link-code>
+    <attrs-chain attr-code="tasks" class-fqn="serviceCall"/>
+    <show-linked-objects>false</show-linked-objects>
+    <show-related-with-nested>false</show-related-with-nested>
+</mobile-rel-objects-list-content>

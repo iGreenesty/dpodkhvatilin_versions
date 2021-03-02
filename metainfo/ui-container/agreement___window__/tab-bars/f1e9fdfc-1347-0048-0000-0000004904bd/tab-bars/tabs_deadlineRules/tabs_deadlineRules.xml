@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_deadlineRules" seg-type="tab-bars" uuid="tabs_deadlineRules">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efa5c-16fc-1671-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="deadlineRules">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Правила вычисления дедлайна</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="65c7b997-4f72-0dfd-79c6-03ab616a77af">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/deadlineRulesList/deadlineRulesList.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efa61-16fc-1673-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="reactionRules">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Правила вычисления времени реакции</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="de4793df-816d-b87b-e265-f384db9f3b8d">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/reactionRulesList/reactionRulesList.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efa64-16fc-1675-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

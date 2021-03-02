@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="2cf1ddf0-cb29-4a0b-aa70-2ada7fcc6470" seg-type="attribute-group">
+    <code>2cf1ddf0-cb29-4a0b-aa70-2ada7fcc6470</code>
+    <title lang="ru">Общие сведения</title>
+    <attribute>author</attribute>
+    <attribute>description</attribute>
+    <order>author</order>
+    <order>description</order>
+</group>

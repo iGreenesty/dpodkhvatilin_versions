@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="agrmnts" seg-type="lists" uuid="agrmnts">
+    <profiles/>
+    <tags/>
+    <cases/>
+    <class>
+        <id>agreement</id>
+    </class>
+    <attributes>
+        <xi:include href="attributes/title.xml" parse="xml"/>
+        <xi:include href="attributes/manager.xml" parse="xml"/>
+        <xi:include href="attributes/supportHours.xml" parse="xml"/>
+        <xi:include href="attributes/endDate.xml" parse="xml"/>
+    </attributes>
+    <allowActionsWithObjects>true</allowActionsWithObjects>
+    <caption lang="ru">Соглашения</caption>
+    <filters/>
+    <filter seg-detach="false" uuid="f605de2e-1778-1b63-0000-000044ccdc1e">
+        <profiles/>
+        <tags/>
+    </filter>
+    <orders/>
+</objects>

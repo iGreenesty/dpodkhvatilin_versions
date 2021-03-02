@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="KriteriiOpredeleniyaSLA" seg-type="attribute-group">
+    <code>KriteriiOpredeleniyaSLA</code>
+    <title lang="ru">Критерии определения SLA</title>
+    <attribute>reactTime</attribute>
+    <attribute>resolutionTime</attribute>
+    <attribute>agreement</attribute>
+    <attribute>service</attribute>
+    <attribute>metaClass</attribute>
+    <attribute>priority</attribute>
+    <order>reactTime</order>
+    <order>resolutionTime</order>
+    <order>agreement</order>
+    <order>service</order>
+    <order>metaClass</order>
+    <order>priority</order>
+</group>

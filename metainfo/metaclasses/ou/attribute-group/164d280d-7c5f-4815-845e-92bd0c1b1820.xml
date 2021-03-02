@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="164d280d-7c5f-4815-845e-92bd0c1b1820" seg-type="attribute-group">
+    <code>164d280d-7c5f-4815-845e-92bd0c1b1820</code>
+    <title lang="ru">Для вышестоящего отдела</title>
+    <attribute>title</attribute>
+    <attribute>head</attribute>
+    <order>title</order>
+    <order>head</order>
+</group>

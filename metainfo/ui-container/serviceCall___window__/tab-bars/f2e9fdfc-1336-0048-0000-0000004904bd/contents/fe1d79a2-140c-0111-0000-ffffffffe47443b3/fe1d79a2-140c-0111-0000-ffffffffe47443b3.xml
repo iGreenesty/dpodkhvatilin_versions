@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fe1d79a2-140c-0111-0000-ffffffffe47443b3" seg-type="contents" uuid="fe1d79a2-140c-0111-0000-ffffffffe47443b3">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef9f6-16fc-1647-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Степень влияния</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>3ebdd921-6c2a-4b8c-8323-975fa527ada8</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/fe1d79a3-140c-0112-0000-ffffffffe47443b3.xml" parse="xml"/>
+</properties>

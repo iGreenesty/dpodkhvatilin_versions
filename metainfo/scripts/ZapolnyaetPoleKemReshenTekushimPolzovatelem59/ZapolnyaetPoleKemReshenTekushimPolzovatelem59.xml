@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ZapolnyaetPoleKemReshenTekushimPolzovatelem59" seg-type="scripts">
+    <code>ZapolnyaetPoleKemReshenTekushimPolzovatelem59</code>
+    <title lang="ru">Заполняет поле "Кем решен" текущим пользователем</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="ZapolnyaetPoleKemReshenTekushimPolzovatelem59.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

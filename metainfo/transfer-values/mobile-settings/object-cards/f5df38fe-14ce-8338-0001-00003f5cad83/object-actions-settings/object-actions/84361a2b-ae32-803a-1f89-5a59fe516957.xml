@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectAction xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="84361a2b-ae32-803a-1f89-5a59fe516957" seg-type="object-actions">
+    <caption lang="ru">Подписаться</caption>
+    <event-uuid>userEvent$173</event-uuid>
+    <required-fields/>
+    <type>user-action</type>
+    <uuid>84361a2b-ae32-803a-1f89-5a59fe516957</uuid>
+</objectAction>

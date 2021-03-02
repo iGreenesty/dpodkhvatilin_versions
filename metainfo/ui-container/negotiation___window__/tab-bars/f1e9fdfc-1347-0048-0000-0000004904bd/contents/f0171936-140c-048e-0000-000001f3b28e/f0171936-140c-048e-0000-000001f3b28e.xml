@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<child-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f0171936-140c-048e-0000-000001f3b28e" seg-type="contents" uuid="f0171936-140c-048e-0000-000001f3b28e">
+    <profiles>
+        <profile>d7714626-b4ed-4b59-95fe-46477f8d3f91</profile>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+    </profiles>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efe80-16fc-185b-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Голосования</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>vote</id>
+    </class>
+    <attributeGroup>55052071-a9d7-40d4-a3ee-a68ab4571793</attributeGroup>
+    <presentation>default</presentation>
+    <xi:include href="tool-panels/f7d3dd0f-142d-01bc-0000-0000308ddac3.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae6592-15a2-101e-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f2e9d2c5-1695-40f6-003d-000000ffc2f3">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f2e9d2cb-1695-4146-003d-000000ffc2f3">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4e0a-168d-11a3-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <filterRestrictionSettings/>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <show-nested-in-nested>false</show-nested-in-nested>
+</child-objects>

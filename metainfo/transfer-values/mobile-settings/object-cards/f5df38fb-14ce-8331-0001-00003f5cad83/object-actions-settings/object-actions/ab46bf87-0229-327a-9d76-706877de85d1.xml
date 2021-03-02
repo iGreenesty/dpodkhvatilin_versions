@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectAction xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ab46bf87-0229-327a-9d76-706877de85d1" seg-type="object-actions">
+    <caption lang="ru">Создать задачу</caption>
+    <code>fireUserEvent</code>
+    <event-uuid>userEvent$KnopkaPerenapravlenieNaFormuDobavleniyaZadachiIzMK</event-uuid>
+    <required-fields/>
+    <type>user-action</type>
+    <uuid>ab46bf87-0229-327a-9d76-706877de85d1</uuid>
+</objectAction>

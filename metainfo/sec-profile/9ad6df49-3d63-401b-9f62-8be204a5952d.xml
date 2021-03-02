@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="9ad6df49-3d63-401b-9f62-8be204a5952d" licensed="true" seg-detach="true" seg-id="9ad6df49-3d63-401b-9f62-8be204a5952d" seg-type="sec-profile" versioning="false">
+    <groups>C2_seniorSpecialist</groups>
+    <roles>employee</roles>
+    <title lang="ru">Специалист 2-ой линии</title>
+</security-profile>

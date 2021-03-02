@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="ec280f65-2261-4248-8896-ee251c39c58e" licensed="true" seg-detach="true" seg-id="ec280f65-2261-4248-8896-ee251c39c58e" seg-type="sec-profile" versioning="false">
+    <groups>C4_auditor C2_seniorSpecialist C1_specialist C3_admin</groups>
+    <roles>slmServiceResponsible</roles>
+    <title lang="ru">Куратор услуги</title>
+</security-profile>

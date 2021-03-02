@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<system-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="comment" seg-type="metaclasses">
+    <fqn>
+        <id>comment</id>
+    </fqn>
+    <parent>
+        <id>abstractSysObj</id>
+    </parent>
+    <properties/>
+    <tags/>
+    <responsibilityTransferTableEnabled>true</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/author.xml" parse="xml"/>
+        <xi:include href="attribute/copiedToFrom.xml" parse="xml"/>
+        <xi:include href="attribute/creationDate.xml" parse="xml"/>
+        <xi:include href="attribute/hasCopyes.xml" parse="xml"/>
+        <xi:include href="attribute/isCopy.xml" parse="xml"/>
+        <xi:include href="attribute/private.xml" parse="xml"/>
+        <xi:include href="attribute/source.xml" parse="xml"/>
+        <xi:include href="attribute/text.xml" parse="xml"/>
+        <xi:include href="attribute/files/files.xml" parse="xml"/>
+        <xi:include href="attribute/notificateTo/notificateTo.xml" parse="xml"/>
+        <xi:include href="attribute/template/template.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/author.xml" parse="xml"/>
+        <xi:include href="attribute-override/copiedToFrom.xml" parse="xml"/>
+        <xi:include href="attribute-override/creationDate.xml" parse="xml"/>
+        <xi:include href="attribute-override/hasCopyes.xml" parse="xml"/>
+        <xi:include href="attribute-override/isCopy.xml" parse="xml"/>
+        <xi:include href="attribute-override/private/private.xml" parse="xml"/>
+        <xi:include href="attribute-override/source.xml" parse="xml"/>
+        <xi:include href="attribute-override/text/text.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo>
+        <attribute attribute="template">
+            <fqn>
+                <id>template</id>
+                <case>templateCom</case>
+            </fqn>
+        </attribute>
+    </permittedTypesInfo>
+    <attribute-groups>
+        <xi:include href="attribute-group-override/addForm.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/more.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/system.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>0</searchOrder>
+    <allowPlanVer>false</allowPlanVer>
+    <depthEnv>1</depthEnv>
+</system-metaclass>

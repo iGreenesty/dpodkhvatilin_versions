@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="IspolzovanieKluchaDostupaVOpovesheniyah" seg-type="contents" uuid="IspolzovanieKluchaDostupaVOpovesheniyah">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="3eb36c37-d975-01ba-bca0-28b6c810ad5b">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Использование ключа доступа в оповещениях</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>IspolzovanieKluchaDostupaVOpovesheniyah</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/bf59cb97-c8fb-377f-ec8a-7d3687d55547.xml" parse="xml"/>
+</properties>

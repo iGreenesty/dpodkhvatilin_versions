@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="NabludateliZayavkiPrava" seg-type="scripts">
+    <code>NabludateliZayavkiPrava</code>
+    <title lang="ru">Наблюдатели заявки. Права</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="NabludateliZayavkiPrava.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

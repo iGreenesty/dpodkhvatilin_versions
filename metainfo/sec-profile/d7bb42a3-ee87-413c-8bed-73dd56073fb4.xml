@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="d7bb42a3-ee87-413c-8bed-73dd56073fb4" licensed="true" seg-detach="true" seg-id="d7bb42a3-ee87-413c-8bed-73dd56073fb4" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>ouHead</roles>
+    <title lang="ru">Руководитель отдела</title>
+</security-profile>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="dc95824b-d39b-4db6-b6e5-40b63fcab02c" seg-type="attribute-group">
+    <code>dc95824b-d39b-4db6-b6e5-40b63fcab02c</code>
+    <title lang="ru">Для карточки услуги</title>
+    <attribute>title</attribute>
+    <attribute>leader</attribute>
+    <attribute>headOU</attribute>
+</group>

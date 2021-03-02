@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<report xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="EffektivnostIZagruzhennostSotrudnikovKomandy" seg-type="contents" uuid="EffektivnostIZagruzhennostSotrudnikovKomandy">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efe29-16fc-182c-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Эффективность и загруженность сотрудников команды</caption>
+    <showCaption>true</showCaption>
+    <template>efficiencySpecialists</template>
+    <xi:include href="tool-panels/cc295f2b-16c5-c58c-e977-b8c36500e6de/cc295f2b-16c5-c58c-e977-b8c36500e6de.xml" parse="xml"/>
+</report>

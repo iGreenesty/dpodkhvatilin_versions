@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="root___window__" seg-type="ui-container">
+    <fqn>
+        <id>root</id>
+    </fqn>
+    <code>__window__</code>
+    <window seg-detach="false" uuid="ff4ed60f-13d3-0162-0000-0000003cafa8">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Карточка объекта</caption>
+        <objectCardCaptionAttributeCode>title</objectCardCaptionAttributeCode>
+        <xi:include href="tab-bars/ff4ed60f-13d3-0163-0000-0000003cafa8/ff4ed60f-13d3-0163-0000-0000003cafa8.xml" parse="xml"/>
+        <xi:include href="tool-panels/ff4ed613-13d3-01a1-0000-0000003cafa8.xml" parse="xml"/>
+    </window>
+</ui>

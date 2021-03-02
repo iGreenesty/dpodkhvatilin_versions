@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" code="testMetric" enabled="true" group="other" seg-detach="true" seg-id="testMetric" seg-type="sec-actions">
+    <title lang="en">Check metric</title>
+    <title lang="ru">Проверка метрики</title>
+</action>

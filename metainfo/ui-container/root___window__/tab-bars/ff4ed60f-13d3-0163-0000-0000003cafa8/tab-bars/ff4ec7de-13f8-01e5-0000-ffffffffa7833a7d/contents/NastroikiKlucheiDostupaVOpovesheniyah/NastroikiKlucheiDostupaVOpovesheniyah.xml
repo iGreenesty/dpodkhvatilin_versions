@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="NastroikiKlucheiDostupaVOpovesheniyah" seg-type="contents" uuid="NastroikiKlucheiDostupaVOpovesheniyah">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="421d73b9-ed85-4d69-9c21-9067c9664f71">
+        <profiles/>
+        <tags/>
+        <elements seg-detach="false" uuid="d74ac599-2c80-d1d5-b00c-129799cff00a">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="5fb158ec-b8bd-80fd-d5f3-1065533b367c">
+                <profiles/>
+                <tags/>
+                <properties>
+                    <entry>
+                        <key>isAttributeOfRelatedObject</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>isLinkToParent</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>attrTypeCode</key>
+                        <value>bool</value>
+                    </entry>
+                    <entry>
+                        <key>conditionCode</key>
+                        <value>contains</value>
+                    </entry>
+                    <entry>
+                        <key>attributeFqn</key>
+                        <value>root@keyInsert</value>
+                    </entry>
+                </properties>
+                <value>
+                    <bool>true</bool>
+                </value>
+            </elements>
+        </elements>
+    </visibilityCondition>
+    <caption lang="ru">Настройки ключей доступа в оповещениях</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>NastroikiKlucheiDostupaVOpovesheniyah</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/3470575c-611c-0139-581d-561a8ee80d6f.xml" parse="xml"/>
+</properties>

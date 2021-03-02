@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="responsible" seg-type="attribute-group-override">
+    <code>responsible</code>
+    <title lang="ru">IT-активы (не работает)</title>
+    <attribute>KEs</attribute>
+    <order>KEs</order>
+    <order>responsible</order>
+    <order>responsibleEmployee</order>
+    <order>responsibleTeam</order>
+</override>

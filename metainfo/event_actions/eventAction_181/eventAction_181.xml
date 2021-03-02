@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$181" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <push-action>
+            <actionType>PushEventAction</actionType>
+            <message>&lt;div style="font-size: 0.9rem; padding: 5px 0 5px 0"&gt;&lt;div style="padding: 0 0 7px 5px; border-bottom: 2px solid #cccccc; line-height: 1.15rem"&gt;Ваша команда "${subject.responsibleTeam.title}" назначена ответственной за заявку &lt;b&gt;&lt;a href="${api.web.open(subject)}"&gt;№${subject.number}&lt;/a&gt;&lt;/b&gt;&lt;/div&gt;&lt;table style="margin: 10px 0 0 10px; font-size: 0.85rem"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="padding: 0px 10px 7px 0"&gt;Тема:&lt;/td&gt;&lt;td style="padding: 0px 10px 7px 0"&gt;${subject.shortDescr}&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding: 0px 10px 7px 0"&gt;Контрагент:&lt;/td&gt;&lt;td style="padding: 0px 10px 7px 0"&gt;${subject.clientOU?.title ?: '[не указан]'}&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding: 0px 10px 7px 0"&gt;Решить до:&lt;/td&gt;&lt;td style="padding: 0px 10px 7px 0"&gt;${subject.deadLineTime}&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</message>
+            <roles>serviceCall_ResponsibleTeamMember</roles>
+            <script><![CDATA[IskluchenieAvtoraDeistviiIzChislaPoluchatelei]]></script>
+            <html>true</html>
+            <position>BottomRight</position>
+            <pushPresentationType>AlwaysInTheInterface</pushPresentationType>
+            <type>WEB</type>
+        </push-action>
+        <code>eventAction$181</code>
+        <xi:include href="script-action-condition/actionCondition_1.xml" parse="xml"/>
+        <description lang="ru"/>
+        <event>
+            <eventType>changeResponsible</eventType>
+        </event>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <sourceQueue>Push</sourceQueue>
+        <title lang="ru">[Push] О назначении команды ответственной за заявку</title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

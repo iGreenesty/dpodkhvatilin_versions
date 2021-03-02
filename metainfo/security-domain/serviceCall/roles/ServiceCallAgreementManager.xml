@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="ServiceCallAgreementManager" enabled="true" seg-detach="true" seg-id="ServiceCallAgreementManager" seg-type="roles" type="SCRIPT">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="ownersScript">ServiceCallAgreementManagerToNotification</property>
+    <property code="script">ServiceCallAgreementManager</property>
+    <property code="listFilterScript"/>
+    <title lang="ru">Менеджер соглашения по заявке</title>
+</role>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="IstoriyaIzmenenii" seg-type="contents" uuid="IstoriyaIzmenenii">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efe59-16fc-1851-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">История изменений</caption>
+    <showCaption>false</showCaption>
+    <class>
+        <id>event</id>
+    </class>
+    <attributeGroup>system</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/c2960b1f-0bd4-baf1-bcb5-c2df4c6ce6a2/c2960b1f-0bd4-baf1-bcb5-c2df4c6ce6a2.xml" parse="xml"/>
+    <xi:include href="tool-panels/f088f613-161d-66d5-0008-000001840552.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f088f615-161d-66d6-0008-000001840552">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f088f6a6-161d-6759-0008-000001840552">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4ead-168d-11ce-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+</events>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$button_addWorkRecords" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[SCRIPTSD4002261]]></script>
+        </script-action>
+        <code>eventAction$button_addWorkRecords</code>
+        <description lang="ru"/>
+        <user-events>
+            <eventType>userEvent</eventType>
+            <event-code>userEvent$button_addWorkRecords</event-code>
+            <form-code>f423bb0c-1745-e0f8-0036-000036b4a082</form-code>
+        </user-events>
+        <fqn>
+            <id>task</id>
+        </fqn>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <fqn>
+            <id>changeRequest</id>
+        </fqn>
+        <fqn>
+            <id>problem</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <tags>Trudozatraty</tags>
+        <title lang="ru">Добавить трудозатрату</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="link_fdbe3a3a-1416-020a-0000-000029cc0a41" seg-type="tools" uuid="fdbe3a3a-1416-020a-0000-000029cc0a41">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <iconCode>link_icon</iconCode>
+    <params/>
+    <presentationType>default</presentationType>
+    <action>link</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Add link</caption>
+    <caption lang="ru">Связать</caption>
+</action>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration xmlns:xi="http://www.w3.org/2001/XInclude" UUID="f2a77694-1488-bdd6-0000-00005dbf90bd" daysPeriod="90" seg-detach="true" seg-id="f2a77694-1488-bdd6-0000-00005dbf90bd" seg-type="advimports">
+    <title lang="ru">UPS</title>
+    <configContainer>&lt;config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../target/classes/advimport/schema1.xsd" save-log="true" threads-number="1"&gt;
+	&lt;mode&gt;CREATE&lt;/mode&gt;
+	&lt;mode&gt;UPDATE&lt;/mode&gt;
+	&lt;gui-parameter name="fileCI" type="FILE" title="Выберите файл (CSV)"/&gt;
+
+  	&lt;!--  Задает метакласс импортируемых объектов  --&gt;
+	&lt;parameter name="CIMetaClass"&gt;objectBase$UPS&lt;/parameter&gt;
+	&lt;parameter name="CIIdHolder"&gt;idHolder&lt;/parameter&gt;
+
+	&lt;!--  Импорт ИТ-активов  --&gt;
+	&lt;class name="UPS" threads-number="1"&gt;
+		&lt;parameter name="metaClass"&gt;${CIMetaClass}&lt;/parameter&gt;
+
+      	&lt;csv-data-source with-header="true" file-name="${fileCI}" delimiter=";" encoding="CP1251" id-column="id"&gt;
+			&lt;column name="id" src-key="UUID"/&gt;
+            &lt;column name="serialNumber" src-key="serialNumber"/&gt;
+            &lt;column name="inventoryNumber" src-key="inventoryNumber"/&gt;
+            &lt;column name="Price" src-key="Price"/&gt;
+            &lt;column name="producer" src-key="Producer"/&gt;
+            &lt;column name="model" src-key="Model"/&gt;
+            &lt;column name="power" src-key="Power"/&gt;
+            &lt;column name="description" src-key="Description"/&gt;
+            &lt;column name="outputPower" src-key="outputPower"/&gt;
+            &lt;column name="voltage" src-key="voltage"/&gt;
+            &lt;column name="workTime" src-key="workTime"/&gt;
+		&lt;/csv-data-source&gt;
+	
+      	&lt;constant-metaclass-resolver/&gt;
+		&lt;object-searcher attr="${CIIdHolder}"/&gt;
+
+      	&lt;attr name="${CIIdHolder}" column="id"/&gt;
+        &lt;attr name="serialNumber" column="serialNumber"/&gt;
+        &lt;attr name="inventoryNumbe" column="inventoryNumber"/&gt;
+        &lt;attr name="Price" column="Price"/&gt;
+        &lt;attr name="producer" column="producer"/&gt;
+        &lt;attr name="model" column="model"/&gt;
+        &lt;attr name="power" column="power"/&gt;
+        &lt;attr name="description" column="description"/&gt;
+        &lt;attr name="outputPower" column="outputPower"/&gt;
+        &lt;attr name="voltage" column="voltage"/&gt;
+        &lt;attr name="workTime" column="workTime"/&gt;
+	&lt;/class&gt;
+&lt;/config&gt;</configContainer>
+</configuration>

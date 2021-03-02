@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="55001843-2e3e-4ba4-8bd7-3bf204e5e7f3" seg-type="attribute-group">
+    <code>55001843-2e3e-4ba4-8bd7-3bf204e5e7f3</code>
+    <title lang="ru">Общие сведения</title>
+    <attribute>title</attribute>
+    <attribute>leader</attribute>
+    <attribute>headOU</attribute>
+    <order>title</order>
+    <order>leader</order>
+    <order>headOU</order>
+</group>

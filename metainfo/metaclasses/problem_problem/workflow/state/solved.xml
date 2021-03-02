@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="solved" enabled="true" hardcoded="false" seg-detach="true" seg-id="solved" seg-type="state">
+    <stateSetting canEdit="false" canView="false" code="postponeTill" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">отложить до</title>
+    </stateSetting>
+    <stateSetting canEdit="true" canView="true" code="rootCause" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Корневая причина</title>
+    </stateSetting>
+    <stateSetting canEdit="true" canView="true" code="solution" postFill="0" preFill="2" requredInState="false">
+        <title lang="ru">Описание решения</title>
+    </stateSetting>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

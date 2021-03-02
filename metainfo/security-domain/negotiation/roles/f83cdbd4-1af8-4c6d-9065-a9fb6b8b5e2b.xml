@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="f83cdbd4-1af8-4c6d-9065-a9fb6b8b5e2b" enabled="true" seg-detach="true" seg-id="f83cdbd4-1af8-4c6d-9065-a9fb6b8b5e2b" seg-type="roles" type="SCRIPT">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="ownersScript"/>
+    <property code="script">GolosuushiiFcdbdafcdafbbbeb14</property>
+    <property code="listFilterScript"/>
+    <title lang="ru">Участник согласующего комитета</title>
+</role>

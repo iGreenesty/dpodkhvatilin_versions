@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="domainList" seg-type="contents" uuid="domainList">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fb409aea-16fe-3fc7-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Все доменные имена</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>domain</id>
+    </class>
+    <attributeGroup>mainInfo</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/3e3dbaf7-35f2-73b5-2a91-00b78e7509dd/3e3dbaf7-35f2-73b5-2a91-00b78e7509dd.xml" parse="xml"/>
+    <xi:include href="tool-panels/624b2a01-300a-48bc-0b33-fa8308bfc5e6.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="ff906a74-1658-f4ff-001c-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="ff906aa2-1658-f6a4-001c-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c50c3-168d-123a-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <filterRestrictionSettings/>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+</objects>

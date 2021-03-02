@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="e775a4b9-8811-4284-b61d-fe3836b8f994" enabled="true" group="editAttrs" seg-detach="true" seg-id="e775a4b9-8811-4284-b61d-fe3836b8f994" seg-type="marker-declarations">
+    <title lang="ru">Для суперпользователей</title>
+    <attributes>disabledSuper</attributes>
+    <attributes>suspendedSuper</attributes>
+</marker-declaration>

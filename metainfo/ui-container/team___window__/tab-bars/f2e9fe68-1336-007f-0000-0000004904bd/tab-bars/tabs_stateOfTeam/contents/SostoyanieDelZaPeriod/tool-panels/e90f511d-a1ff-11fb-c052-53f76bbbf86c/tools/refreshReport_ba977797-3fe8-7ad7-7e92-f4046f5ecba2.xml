@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="refreshReport_ba977797-3fe8-7ad7-7e92-f4046f5ecba2" seg-type="tools" uuid="ba977797-3fe8-7ad7-7e92-f4046f5ecba2">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <params/>
+    <presentationType>default</presentationType>
+    <action>refreshReport</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Rebuild</caption>
+    <caption lang="ru">Перестроить</caption>
+</action>

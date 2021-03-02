@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" code="AddObject" enabled="true" group="default" seg-detach="true" seg-id="AddObject" seg-type="sec-actions">
+    <title lang="en">Add object</title>
+    <title lang="ru">Добавление объекта</title>
+</action>

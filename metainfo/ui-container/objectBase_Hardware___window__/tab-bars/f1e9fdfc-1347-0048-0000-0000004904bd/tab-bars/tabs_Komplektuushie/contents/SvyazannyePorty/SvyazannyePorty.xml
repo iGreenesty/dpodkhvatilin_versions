@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="SvyazannyePorty" seg-type="contents" uuid="SvyazannyePorty">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efd27-16fc-1780-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Связанные порты</caption>
+    <showCaption>false</showCaption>
+    <case>
+        <id>objectBase</id>
+        <case>port</case>
+    </case>
+    <attributeGroup>766ccb68-9ce7-4eef-a520-30628e798d42</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/775ef92d-9698-3253-36cb-443aca1b8aa1/775ef92d-9698-3253-36cb-443aca1b8aa1.xml" parse="xml"/>
+    <xi:include href="tool-panels/df45ed34-83a3-6b9e-0dc3-4b1e8d6cc5ff.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f15b1e7d-161e-0d60-0038-000001840552">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f15b1eb2-161e-0e40-0038-000001840552">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4db3-168d-119a-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>childBO</attr-link-code>
+    <attrs-chain attr-code="childBO" class-fqn="objectBase$Hardware"/>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="abstractBO" code="author"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Объект CMDB</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

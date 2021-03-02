@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="KB_quickAddAndEditForm$FormaBystrogoRedaktirovaniyaRazdelaBZ" seg-type="ui-container">
+    <fqn>
+        <id>KB</id>
+    </fqn>
+    <code>quickAddAndEditForm$FormaBystrogoRedaktirovaniyaRazdelaBZ</code>
+    <quickform seg-detach="false" uuid="quickAddAndEditForm$FormaBystrogoRedaktirovaniyaRazdelaBZ">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Форма быстрого редактирования раздела БЗ</caption>
+        <layout seg-detach="false" uuid="c6f72451-d742-e71f-38c7-6452bca992a6">
+            <profiles/>
+            <tags/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <attrGroup>1dada85f-eba0-466d-a247-b770a3ae202e</attrGroup>
+        <custom-form>QuickForm</custom-form>
+        <show-attr-description>false</show-attr-description>
+        <transitioncases>
+            <id>KB</id>
+            <case>KBSection</case>
+        </transitioncases>
+        <transitioncases>
+            <id>KB</id>
+            <case>KBSectionProt</case>
+        </transitioncases>
+        <transitioncases>
+            <id>KB</id>
+            <case>KBSubsectionPr</case>
+        </transitioncases>
+        <transitioncases>
+            <id>KB</id>
+            <case>KBSectionOpen</case>
+        </transitioncases>
+        <transitioncases>
+            <id>KB</id>
+            <case>KBSubsectionOp</case>
+        </transitioncases>
+        <code>FormaBystrogoRedaktirovaniyaRazdelaBZ</code>
+    </quickform>
+</ui>

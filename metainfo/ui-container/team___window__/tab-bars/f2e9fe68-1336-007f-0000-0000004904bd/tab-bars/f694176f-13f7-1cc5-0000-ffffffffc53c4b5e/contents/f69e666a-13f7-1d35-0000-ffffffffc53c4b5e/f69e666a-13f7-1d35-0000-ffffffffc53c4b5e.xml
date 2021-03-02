@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f69e666a-13f7-1d35-0000-ffffffffc53c4b5e" seg-type="contents" uuid="f69e666a-13f7-1d35-0000-ffffffffc53c4b5e">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efe27-16fc-181e-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Задачи в ответственности команды</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>task</id>
+    </class>
+    <attributeGroup>a5c0ed8e-efc1-401d-8f88-2da382e409f7</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/f69e666c-13f7-1d36-0000-ffffffffc53c4b5e/f69e666c-13f7-1d36-0000-ffffffffc53c4b5e.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae65ff-15a2-104b-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f49cdced-1619-5c17-000b-000000184e6e">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f49cdd06-1619-5c73-000b-000000184e6e">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4f59-168d-11ed-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>respForTasks</attr-link-code>
+    <attrs-chain attr-code="respForTasks" class-fqn="team"/>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="abstractBO" code="author"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="task" code="serviceCall"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="task" code="responsible"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <add-form>
+        <caption lang="ru">Связать с задачей</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

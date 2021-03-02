@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<toolPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f4c1ed7b-1439-00d9-0000-0000508d73fa" seg-type="tool-panels" uuid="f4c1ed7b-1439-00d9-0000-0000508d73fa">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="2f357412-ce9e-d6c0-08e0-56394918e685">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/add_3515c244-8e74-7c3e-fc72-4304cc2c02ba.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="956dc665-207c-2f84-0664-2d0e1fe8758c">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <advlist-presentation-select seg-detach="false" uuid="891e18d2-44b2-9c28-5635-9a689bac2cbe">
+            <profiles/>
+            <tags/>
+            <appliedToType>currentObject</appliedToType>
+            <params/>
+            <presentationType>default</presentationType>
+        </advlist-presentation-select>
+        <xi:include href="tools/saveAdvlistPrs_9901bef0-366d-e071-5aee-0a0e353d7e5a.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="d7036570-77ed-1435-90fd-52f69bb4724c">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/showAdvlistSort_4f4b34ea-b3d6-b46b-dfc4-4dbcefb107e2.xml" parse="xml"/>
+        <xi:include href="tools/showAdvlistFilter_e7c07a75-3210-1f28-22a2-8c7c3b62706f.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="4292a93e-1a25-6fbf-b605-65bdff435132">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/showRemoved_f7bae1df-15ee-f558-000c-000001ded46d.xml" parse="xml"/>
+        <xi:include href="tools/exportAdvlist_cc1519f5-9ee0-ecb9-bc65-3685bd1bb216.xml" parse="xml"/>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</toolPanel>

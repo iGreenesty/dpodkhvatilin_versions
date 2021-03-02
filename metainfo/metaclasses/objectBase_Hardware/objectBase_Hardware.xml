@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="objectBase$Hardware" seg-type="metaclasses">
+    <fqn>
+        <id>objectBase</id>
+        <case>Hardware</case>
+    </fqn>
+    <parent>
+        <id>objectBase</id>
+        <case>CI</case>
+    </parent>
+    <title lang="ru">Аппаратное обеспечение</title>
+    <description lang="ru"/>
+    <properties/>
+    <tags/>
+    <responsibilityTransferTableEnabled>true</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/mass/mass.xml" parse="xml"/>
+        <xi:include href="attribute/power/power.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides/>
+    <permittedTypesInfo/>
+    <attribute-groups>
+        <xi:include href="attribute-group-override/115ece92-26d8-4596-b3c6-00bd5ef31412.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/ParametryObekta.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/system.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentText_text.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileContent_content.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileDescription_description.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileTitle_title.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>14</searchOrder>
+    <allowPlanVer>false</allowPlanVer>
+    <depthEnv>1</depthEnv>
+    <status>DEFAULT</status>
+</user-metaclass>

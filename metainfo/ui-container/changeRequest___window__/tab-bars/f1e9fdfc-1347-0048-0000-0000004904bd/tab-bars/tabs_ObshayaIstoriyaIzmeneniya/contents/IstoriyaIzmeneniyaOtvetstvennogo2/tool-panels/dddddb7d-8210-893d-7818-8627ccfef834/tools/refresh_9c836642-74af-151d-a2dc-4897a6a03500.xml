@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="refresh_9c836642-74af-151d-a2dc-4897a6a03500" seg-type="tools" uuid="9c836642-74af-151d-a2dc-4897a6a03500">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <params/>
+    <presentationType>push</presentationType>
+    <action>refresh</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Refresh list</caption>
+    <caption lang="ru">Обновлять список</caption>
+</action>

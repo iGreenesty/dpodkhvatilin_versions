@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="monitoringEventTypes" seg-detach="true" seg-id="monitoringEventTypes" seg-type="catalog" xsi:type="SystemCatalog">
+    <title lang="client">Типы событий NDAP</title>
+    <title lang="en">NDAP event types</title>
+    <title lang="ru">Типы событий NDAP</title>
+    <description lang="client">Типы событий NDAP: Триггер, Аномалия и т.д.</description>
+    <description lang="en">NDAP event types: Trigger, Anomaly etc.</description>
+    <description lang="ru">Типы событий NDAP: Триггер, Аномалия и т.д.</description>
+</catalog>

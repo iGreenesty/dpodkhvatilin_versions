@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="NotSubscriber" licensed="true" seg-detach="true" seg-id="NotSubscriber" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>notTaskSubscriber</roles>
+    <title lang="ru">Не подписчик</title>
+</security-profile>

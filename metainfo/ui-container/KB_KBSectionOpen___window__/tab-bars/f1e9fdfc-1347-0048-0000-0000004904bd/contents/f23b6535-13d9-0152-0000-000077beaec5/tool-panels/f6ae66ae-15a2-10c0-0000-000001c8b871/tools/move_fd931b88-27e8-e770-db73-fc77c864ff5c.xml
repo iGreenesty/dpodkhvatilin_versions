@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="move_fd931b88-27e8-e770-db73-fc77c864ff5c" seg-type="tools" uuid="fd931b88-27e8-e770-db73-fc77c864ff5c">
+    <profiles/>
+    <tags/>
+    <appliedToType>listObjects</appliedToType>
+    <params/>
+    <presentationType>link</presentationType>
+    <action>move</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">move</caption>
+    <caption lang="ru">переместить</caption>
+</action>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="4dcabfe6-10f5-4163-8872-b789ef858003" enabled="true" group="editAttrs" seg-detach="true" seg-id="4dcabfe6-10f5-4163-8872-b789ef858003" seg-type="marker-declarations">
+    <title lang="ru">Контактная информация</title>
+    <attributes>mobilePhoneNumber</attributes>
+    <attributes>homePhoneNumber</attributes>
+    <attributes>post</attributes>
+    <attributes>internalPhoneNumber</attributes>
+    <attributes>cityPhoneNumber</attributes>
+    <attributes>email</attributes>
+</marker-declaration>

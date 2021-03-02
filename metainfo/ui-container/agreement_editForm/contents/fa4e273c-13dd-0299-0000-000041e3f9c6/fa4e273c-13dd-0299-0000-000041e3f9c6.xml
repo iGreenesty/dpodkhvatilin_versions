@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<editable-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fa4e273c-13dd-0299-0000-000041e3f9c6" seg-type="contents" uuid="fa4e273c-13dd-0299-0000-000041e3f9c6">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="f90d13cb-1744-86d1-0030-000036b4a082">
+        <profiles/>
+        <tags/>
+        <elements seg-detach="false" uuid="d04ee757-2a89-a3f6-47b7-d17a2744b494">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="393f3cb3-1e81-3c01-1639-3c63b3b33976">
+                <profiles/>
+                <tags/>
+                <properties>
+                    <entry>
+                        <key>isAttributeOfRelatedObject</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>isLinkToParent</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>attrTypeCode</key>
+                        <value>bool</value>
+                    </entry>
+                    <entry>
+                        <key>conditionCode</key>
+                        <value>contains</value>
+                    </entry>
+                    <entry>
+                        <key>attributeFqn</key>
+                        <value>agreement@allRecipients</value>
+                    </entry>
+                </properties>
+                <value>
+                    <bool>false</bool>
+                </value>
+            </elements>
+        </elements>
+    </visibilityCondition>
+    <caption lang="ru">Получатели</caption>
+    <showCaption>false</showCaption>
+    <attributeGroup>447d71c1-8817-4fc7-bd5d-bda0fc363d4b</attributeGroup>
+    <showAttrDescription>true</showAttrDescription>
+    <xi:include href="tool-panels/fa4e2f57-13dd-6023-0000-000001ec22d4.xml" parse="xml"/>
+    <resetValuesIfHidden>false</resetValuesIfHidden>
+</editable-properties>

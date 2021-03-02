@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="11a8271d-00ad-4fa0-a887-b36c6ecf1863" seg-type="attribute-group">
+    <code>11a8271d-00ad-4fa0-a887-b36c6ecf1863</code>
+    <title lang="ru">Логин</title>
+    <attribute>login</attribute>
+    <attribute>keyEmployee</attribute>
+    <order>login</order>
+    <order>keyEmployee</order>
+</group>

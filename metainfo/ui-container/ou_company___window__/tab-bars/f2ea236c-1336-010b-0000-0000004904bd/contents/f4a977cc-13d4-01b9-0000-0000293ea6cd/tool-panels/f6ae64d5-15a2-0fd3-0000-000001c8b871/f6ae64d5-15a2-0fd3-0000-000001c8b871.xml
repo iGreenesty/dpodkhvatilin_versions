@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<massOperationsPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f6ae64d5-15a2-0fd3-0000-000001c8b871" seg-type="tool-panels" uuid="f6ae64d5-15a2-0fd3-0000-000001c8b871">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="f00309c4-15f1-29dc-0032-000001ded46d">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/edit_f2e9ff45-1336-00e7-0000-0000004904bd.xml" parse="xml"/>
+        <xi:include href="tools/massEdit_fb01984d-1656-32cb-0000-000000ee8080.xml" parse="xml"/>
+        <xi:include href="tools/del_2ab8a175-6260-4e42-a877-bca55e57002d.xml" parse="xml"/>
+        <xi:include href="tools/fireUserEvent_2cd655cf-61ae-d9d5-e5d0-7f51e0ca6ec9.xml" parse="xml"/>
+        <xi:include href="tools/remove_0afa9894-626e-811f-0fb1-838d826b0a8b.xml" parse="xml"/>
+        <xi:include href="tools/restore_ab0c39f6-fd27-903f-a513-035cda97049f.xml" parse="xml"/>
+        <xi:include href="tools/fireUserEvent_14e270a4-84f6-cd08-0556-d2fcdfe91947.xml" parse="xml"/>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</massOperationsPanel>

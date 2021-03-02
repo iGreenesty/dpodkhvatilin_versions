@@ -1,0 +1,1962 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<class xmlns:xi="http://www.w3.org/2001/XInclude" id="fontIcons" seg-detach="true" seg-id="fontIcons" seg-type="object-group">
+    <object>
+        <attribute code="code">
+            <string>sysicons_e001</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Пользователь</ru>
+                <en>User</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361602</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e002</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Папка принято</ru>
+                <en>Folder accept</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361603</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e003</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Папка отклонено</ru>
+                <en>Folder decline</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361604</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e004</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Папка</ru>
+                <en>Folder</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361605</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e005</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Папка часы</ru>
+                <en>Folder time</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361606</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e006</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Комментарий</ru>
+                <en>Comment</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361607</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e007</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Список</ru>
+                <en>List</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361608</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e008</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Список с заметками</ru>
+                <en>List note</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361609</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e009</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Список принято</ru>
+                <en>List accept</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361610</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e010</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Книга</ru>
+                <en>Book</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361611</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e011</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Громкоговоритель</ru>
+                <en>Bullhorn</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361612</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e012</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Календарь 1</ru>
+                <en>Calendar 1</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361613</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e013</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Каталог</ru>
+                <en>Catalog</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361614</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e014</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Библиотека</ru>
+                <en>Library</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361615</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e015</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Секция</ru>
+                <en>Unit</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361616</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e016</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Облако</ru>
+                <en>Cloud</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361617</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e017</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Компас</ru>
+                <en>Compas</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361618</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e018</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Данные</ru>
+                <en>Data</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361619</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e019</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Документ</ru>
+                <en>Document</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361620</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e020</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Флаг</ru>
+                <en>Flag</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361621</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e021</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Молния</ru>
+                <en>Flash</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361622</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e022</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Секторная диаграмма</ru>
+                <en>Pie chart</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361623</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e023</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Гистограмма</ru>
+                <en>Нistogram</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361624</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e024</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Сердце</ru>
+                <en>Heart</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361625</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e025</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Помощь</ru>
+                <en>Help</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361626</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e026</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Редактирование списка</ru>
+                <en>List edit</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361627</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e027</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Ярлык</ru>
+                <en>Label</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361628</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e028</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Слои</ru>
+                <en>Layers</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361629</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e029</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Местоположение</ru>
+                <en>Location</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361630</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e030</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Закладка</ru>
+                <en>Mark</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361631</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e031</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Портфолио</ru>
+                <en>Portfolio</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361632</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e032</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>QR-код</ru>
+                <en>QR Code</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361633</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e033</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Переплетение</ru>
+                <en>Interlacing</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361634</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e034</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Песочные часы</ru>
+                <en>Sandglass</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361635</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e035</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Механизм</ru>
+                <en>Mechanism</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361636</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e036</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Добавление 2</ru>
+                <en>Add 2</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361637</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e037</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Календарь 2</ru>
+                <en>Calendar 2</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361638</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e038</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Письмо</ru>
+                <en>Letter</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361639</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e039</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Вопрос</ru>
+                <en>Question</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361640</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e040</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Добавление 1</ru>
+                <en>Add 1</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361641</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e041</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Меню</ru>
+                <en>Menu</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361642</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e042</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Диск</ru>
+                <en>Disk</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361643</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e043</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Доставка</ru>
+                <en>Delivery</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361644</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e044</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Избранное</ru>
+                <en>Favorites</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361645</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e045</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Глобус</ru>
+                <en>Globe</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361646</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e046</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Сервер</ru>
+                <en>Server</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361647</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e047</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Группа 1</ru>
+                <en>Group 1</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361648</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e048</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Жесты 1</ru>
+                <en>Gestures 1</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361649</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e049</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Структура</ru>
+                <en>Structure</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361650</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e050</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Компания</ru>
+                <en>Company</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361651</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e051</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Маршрут</ru>
+                <en>Route</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361652</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e052</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Замок</ru>
+                <en>Lock</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361653</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e053</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Взгляд</ru>
+                <en>Sight</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361654</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e054</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Монитор</ru>
+                <en>Monitor</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361655</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sysicons_e055</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Часы</ru>
+                <en>Clock</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361656</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>fontIcons</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>1</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Системные иконки</ru>
+                <en>System icons</en>
+                <client>Системные иконки</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>fontIcons$2361601</string>
+        </attribute>
+    </object>
+</class>

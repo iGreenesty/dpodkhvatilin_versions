@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="mark" color="#FADADD" enabled="true" hardcoded="false" responsibleType="EMPLOYEE_AND_TEAM" seg-detach="true" seg-id="mark" seg-type="state">
+    <title lang="ru">Обзор и оценка внедрения</title>
+    <description lang="ru"/>
+    <responsible bean="currentResponsibleStrategy"/>
+    <changeResponsibleButtonVisible>true</changeResponsibleButtonVisible>
+    <stateSetting canEdit="true" canView="true" code="results" postFill="2" preFill="0" requredInState="false">
+        <title lang="ru">Результаты внедрения</title>
+    </stateSetting>
+    <preCondition code="fd3c4738-141e-a3b8-0000-0000016689e8" preCondition="true" type="SCRIPT">
+        <title lang="ru">Проверяем, что связанные задачи закрыты</title>
+        <property code="script">SCRIPTSD4000063tasksChangeRequest</property>
+    </preCondition>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

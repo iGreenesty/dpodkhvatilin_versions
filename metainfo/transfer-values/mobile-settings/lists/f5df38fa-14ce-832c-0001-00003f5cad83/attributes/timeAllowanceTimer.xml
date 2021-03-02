@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="timeAllowanceTimer" seg-type="attributes">
+    <code>serviceCall@timeAllowanceTimer</code>
+    <presentation>with-title</presentation>
+    <uuid>fa607b31-161f-0cd6-00a5-000001840552</uuid>
+</attribute>

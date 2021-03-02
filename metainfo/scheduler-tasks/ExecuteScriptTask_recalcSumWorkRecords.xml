@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<task xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" seg-detach="true" seg-id="ExecuteScriptTask$recalcSumWorkRecords" seg-type="scheduler-tasks" xsi:type="ExecuteScriptTask">
+    <code>ExecuteScriptTask$recalcSumWorkRecords</code>
+    <title lang="ru">Пересчет сумм утвержденных трудозатрат</title>
+    <description lang="ru"/>
+    <type>ExecuteScriptTask</type>
+    <trigger xsi:type="PeriodicTrigger">
+        <code>bc86e01f-8809-46ae-ad5d-9324f26d3722</code>
+        <enabled>true</enabled>
+        <schTaskCode>ExecuteScriptTask$recalcSumWorkRecords</schTaskCode>
+        <title>Периодическое правило. Ежедневно.</title>
+        <type>PERIODIC</type>
+        <period>DAILY</period>
+        <secondExAfterRestart>false</secondExAfterRestart>
+        <startDate>2019-12-19T22:00:00Z</startDate>
+        <strategy>FROM_START</strategy>
+    </trigger>
+    <tags>Trudozatraty</tags>
+    <script><![CDATA[SCRIPTSD4002176]]></script>
+</task>

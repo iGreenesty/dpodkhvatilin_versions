@@ -1,0 +1,1 @@
+return (subject?.state != 'closed' || oldSubject?.state != 'closed')

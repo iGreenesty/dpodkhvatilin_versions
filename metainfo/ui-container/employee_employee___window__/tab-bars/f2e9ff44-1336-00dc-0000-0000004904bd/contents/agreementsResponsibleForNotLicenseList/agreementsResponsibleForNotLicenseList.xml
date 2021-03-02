@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="agreementsResponsibleForNotLicenseList" seg-type="contents" uuid="agreementsResponsibleForNotLicenseList">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efc9b-16fc-1755-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Назначенные согласования</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>vote</id>
+    </class>
+    <attributeGroup>cb2b5f3a-b286-44f4-bde9-d54caf113bce</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/03080116-42aa-bb6d-9927-62c491f16681/03080116-42aa-bb6d-9927-62c491f16681.xml" parse="xml"/>
+    <xi:include href="tool-panels/2d57b972-9fee-cdf5-25ea-3d0763f182b6.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="ff811bb6-1657-c886-0007-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="ff811c01-1657-cb4b-0007-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c51a5-168d-1251-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>votes</attr-link-code>
+    <attrs-chain attr-code="votes" class-fqn="employee$employee"/>
+    <filterRestrictionSettings/>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Голосование</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

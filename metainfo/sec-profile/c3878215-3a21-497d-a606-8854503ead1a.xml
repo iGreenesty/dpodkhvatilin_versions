@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="c3878215-3a21-497d-a606-8854503ead1a" licensed="true" seg-detach="true" seg-id="c3878215-3a21-497d-a606-8854503ead1a" seg-type="sec-profile" versioning="false">
+    <groups>C3_admin</groups>
+    <roles>employee</roles>
+    <title lang="ru">Администратор</title>
+</security-profile>

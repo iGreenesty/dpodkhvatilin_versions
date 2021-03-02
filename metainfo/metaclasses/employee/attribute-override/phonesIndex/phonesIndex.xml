@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="phonesIndex" seg-type="attribute-override">
+    <code>phonesIndex</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>false</editable>
+    <required>false</required>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="client"/>
+    <title lang="de"/>
+    <title lang="en">Phone numbers</title>
+    <title lang="ru">Телефоны</title>
+    <description lang="client"/>
+    <description lang="de"/>
+    <description lang="en"/>
+    <description lang="ru"/>
+    <type>
+        <property code="code">string</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <scriptForFiltration/>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>stringView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>stringEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <defaultByScript>false</defaultByScript>
+    <scriptForDefault/>
+    <xi:include href="search-settings/phonesIndex_phonesIndex.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</override>

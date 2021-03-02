@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="agreementsList" seg-type="contents" uuid="agreementsList">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+        <profile>20392c82-d8fb-42df-bf59-8bd329e0abb4</profile>
+        <profile>371483c9-f6c2-45e4-8163-3f08121f1f1f</profile>
+        <profile>dd74dc05-d145-4a4d-b663-d11cfadf5b82</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+    </profiles>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efca6-16fc-1762-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Соглашения</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>agreement</id>
+    </class>
+    <attributeGroup>SpisokNaKartochkePoluchatelya-sotrudnika</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/3605ab84-fc15-38ce-12ee-df541499c201/3605ab84-fc15-38ce-12ee-df541499c201.xml" parse="xml"/>
+    <xi:include href="tool-panels/de575a32-9d30-9e5a-d8c0-ea425c920b49.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f786f950-1695-034e-0044-000000ffc2f3">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f786f9c0-1695-0560-0044-000000ffc2f3">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c51a5-168d-1255-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>recipientAgreements</attr-link-code>
+    <attrs-chain attr-code="recipientAgreements" class-fqn="employee$employee"/>
+    <filterRestrictionSettings/>
+    <add-form>
+        <caption lang="ru">Добавить сотрудника к соглашению</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<class xmlns:xi="http://www.w3.org/2001/XInclude" id="typeOfSession" seg-detach="true" seg-id="typeOfSession" seg-type="object-group">
+    <object>
+        <attribute code="code">
+            <string>offline</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>typeOfSession</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Оффлайн</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>typeOfSession$2097101</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>online</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>typeOfSession</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Онлайн</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>typeOfSession$2097102</string>
+        </attribute>
+    </object>
+</class>

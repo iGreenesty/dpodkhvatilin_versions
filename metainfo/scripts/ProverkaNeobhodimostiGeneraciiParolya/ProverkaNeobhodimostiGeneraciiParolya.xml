@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ProverkaNeobhodimostiGeneraciiParolya" seg-type="scripts">
+    <code>ProverkaNeobhodimostiGeneraciiParolya</code>
+    <title lang="ru">Проверка необходимости генерации пароля</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="ProverkaNeobhodimostiGeneraciiParolya.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

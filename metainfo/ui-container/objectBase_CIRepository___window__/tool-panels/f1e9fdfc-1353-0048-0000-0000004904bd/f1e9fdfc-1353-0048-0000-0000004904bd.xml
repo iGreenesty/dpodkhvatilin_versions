@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<toolPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f1e9fdfc-1353-0048-0000-0000004904bd" seg-type="tool-panels" uuid="f1e9fdfc-1353-0048-0000-0000004904bd">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="923a639e-9864-0e81-99ff-9d1c314a73e2">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/edit_f1e9fdfc-1355-0048-0000-0000004904bd.xml" parse="xml"/>
+        <xi:include href="tools/del_f1e9fdfc-1357-0048-0000-0000004904bd.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="aed08d6e-8f10-62c0-d94b-9e14ef638f4a">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/remove_f1e9fdfc-1358-0048-0000-0000004904bd.xml" parse="xml"/>
+        <xi:include href="tools/restore_f1e9fdfc-1359-0048-0000-0000004904bd.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="f1e9fdfc-1354-0048-0000-0000004904bd">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/changeState_f2e9fe02-1336-007d-0000-0000004904bd.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="f2e9fe02-1360-007d-0000-0000004404bd">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>true</clearedAfterPermissionCheck>
+        <feature>fastChangeState</feature>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</toolPanel>

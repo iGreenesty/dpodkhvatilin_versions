@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="objectBase" seg-type="metaclasses">
+    <fqn>
+        <id>objectBase</id>
+    </fqn>
+    <parent>
+        <id>userEntity</id>
+    </parent>
+    <title lang="ru">ИТ-актив</title>
+    <description lang="ru"/>
+    <properties/>
+    <tags>
+        <tag>ITaktivy</tag>
+    </tags>
+    <responsibilityTransferTableEnabled>true</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/folders.xml" parse="xml"/>
+        <xi:include href="attribute/state.xml" parse="xml"/>
+        <xi:include href="attribute/stateStartTime.xml" parse="xml"/>
+        <xi:include href="attribute/changeRequest/changeRequest.xml" parse="xml"/>
+        <xi:include href="attribute/childBO/childBO.xml" parse="xml"/>
+        <xi:include href="attribute/icon/icon.xml" parse="xml"/>
+        <xi:include href="attribute/idHolder/idHolder.xml" parse="xml"/>
+        <xi:include href="attribute/parentBO/parentBO.xml" parse="xml"/>
+        <xi:include href="attribute/problems/problems.xml" parse="xml"/>
+        <xi:include href="attribute/serviceCalls/serviceCalls.xml" parse="xml"/>
+        <xi:include href="attribute/typeCI/typeCI.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/folders.xml" parse="xml"/>
+        <xi:include href="attribute-override/metaClass/metaClass.xml" parse="xml"/>
+        <xi:include href="attribute-override/state/state.xml" parse="xml"/>
+        <xi:include href="attribute-override/stateStartTime.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo/>
+    <attribute-groups>
+        <xi:include href="attribute-group/0c27be2d-e46d-4f1a-ba3a-4757246016b9.xml" parse="xml"/>
+        <xi:include href="attribute-group/115ece92-26d8-4596-b3c6-00bd5ef31412.xml" parse="xml"/>
+        <xi:include href="attribute-group/175ac1cc-dc2e-439b-b44d-11fc8e5805fb.xml" parse="xml"/>
+        <xi:include href="attribute-group/2dc788eb-5ed3-441e-9163-55fca208a83f.xml" parse="xml"/>
+        <xi:include href="attribute-group/94b7c518-21b2-4215-8bb1-e2c52f9033dd.xml" parse="xml"/>
+        <xi:include href="attribute-group/b72d6669-c4c0-4e7b-b51f-1c57437f8a57.xml" parse="xml"/>
+        <xi:include href="attribute-group/DopolnitelnyeParametry.xml" parse="xml"/>
+        <xi:include href="attribute-group/HarakteristikiObekta.xml" parse="xml"/>
+        <xi:include href="attribute-group/listLite.xml" parse="xml"/>
+        <xi:include href="attribute-group/ParametryObekta.xml" parse="xml"/>
+        <xi:include href="attribute-group/typeCI.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/search.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/system.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentText_text.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileContent_content.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileDescription_description.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileTitle_title.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>14</searchOrder>
+    <allowPlanVer>false</allowPlanVer>
+    <depthEnv>1</depthEnv>
+    <status>DEFAULT</status>
+</user-metaclass>

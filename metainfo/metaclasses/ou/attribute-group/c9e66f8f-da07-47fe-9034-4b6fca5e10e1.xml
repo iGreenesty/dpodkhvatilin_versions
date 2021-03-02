@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="c9e66f8f-da07-47fe-9034-4b6fca5e10e1" seg-type="attribute-group">
+    <code>c9e66f8f-da07-47fe-9034-4b6fca5e10e1</code>
+    <title lang="ru">Для сложной формы атрибута Контрагент</title>
+    <attribute>title</attribute>
+    <attribute>head</attribute>
+    <attribute>parent</attribute>
+    <order>title</order>
+    <order>head</order>
+    <order>parent</order>
+</group>

@@ -1,0 +1,1 @@
+return (subject.responsibleEmployee?.UUID == oldSubject.responsibleEmployee?.UUID) ? "Ответственный сотрудник не изменился" : ""

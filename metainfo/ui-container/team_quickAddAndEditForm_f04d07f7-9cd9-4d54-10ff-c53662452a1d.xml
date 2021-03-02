@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="team_quickAddAndEditForm$f04d07f7-9cd9-4d54-10ff-c53662452a1d" seg-type="ui-container">
+    <fqn>
+        <id>team</id>
+    </fqn>
+    <code>quickAddAndEditForm$f04d07f7-9cd9-4d54-10ff-c53662452a1d</code>
+    <quickform seg-detach="false" uuid="quickAddAndEditForm$f04d07f7-9cd9-4d54-10ff-c53662452a1d">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Форма быстрого добавления команды из сотрудника</caption>
+        <layout seg-detach="false" uuid="de382998-d74f-26b2-adc3-ee5ca9a79624">
+            <profiles/>
+            <tags/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <attrGroup>fastEdit</attrGroup>
+        <custom-form>QuickForm</custom-form>
+        <show-attr-description>false</show-attr-description>
+        <transitioncases>
+            <id>team</id>
+            <case>team</case>
+        </transitioncases>
+        <code>f04d07f7-9cd9-4d54-10ff-c53662452a1d</code>
+    </quickform>
+</ui>

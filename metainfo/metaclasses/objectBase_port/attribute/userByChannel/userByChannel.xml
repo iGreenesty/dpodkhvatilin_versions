@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="userByChannel" seg-type="attribute">
+    <code>userByChannel</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">Используется каналом</title>
+    <description lang="ru"/>
+    <type>
+        <code>backBOLinks</code>
+        <property code="backLinkAttr">connectToPort</property>
+        <property code="code">backBOLinks</property>
+        <property code="metaClassFqn">objectBase$port</property>
+        <property code="permittedTypes">["objectBase$port"]</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>boLinksView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>boLinksEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>backBOLinksAccessor</accessor>
+    <defaultByScript>false</defaultByScript>
+    <scriptForDefault/>
+    <systemEditable>true</systemEditable>
+    <xi:include href="search-settings/userByChannel_userByChannel.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

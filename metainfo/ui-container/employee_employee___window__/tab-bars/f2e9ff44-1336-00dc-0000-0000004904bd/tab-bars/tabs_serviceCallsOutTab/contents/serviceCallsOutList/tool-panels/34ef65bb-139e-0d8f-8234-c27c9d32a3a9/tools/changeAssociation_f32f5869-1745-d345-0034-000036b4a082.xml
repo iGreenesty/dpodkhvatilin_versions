@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="changeAssociation_f32f5869-1745-d345-0034-000036b4a082" seg-type="tools" uuid="f32f5869-1745-d345-0034-000036b4a082">
+    <profiles/>
+    <tags/>
+    <appliedToType>listObjects</appliedToType>
+    <iconCode>link_icon</iconCode>
+    <params/>
+    <presentationType>link</presentationType>
+    <action>changeAssociation</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">change association</caption>
+    <caption lang="ru">классифицировать</caption>
+</action>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="InformaciyaOZaproseNaIzmenenie" seg-type="contents" uuid="InformaciyaOZaproseNaIzmenenie">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6f14b5-16fc-72c5-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Информация о заявке</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>InformaciyaOZayavke</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/e0681b3b-861e-4e6a-1524-3ee6d645d48a.xml" parse="xml"/>
+</properties>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="employeeList" seg-type="report-parameter">
+    <code>employeeList</code>
+    <title>Или выберите конкретных сотрудников</title>
+    <type>boLinks</type>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="anyType">
+        <date xsi:nil="true"/>
+    </value>
+    <metaClassFqn>employee</metaClassFqn>
+    <visible>true</visible>
+    <overrided>false</overrided>
+    <params>
+        <entry>
+            <key>attrGroupCode</key>
+            <value>fd153a0c-33bb-433e-903c-b2968592b9a2</value>
+        </entry>
+    </params>
+    <required>false</required>
+</parameter>

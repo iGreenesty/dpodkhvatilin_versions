@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<conditions xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" seg-detach="true" seg-id="actionCondition$178" seg-type="script-action-condition" xsi:type="ScriptActionCondition">
+    <code>actionCondition$178</code>
+    <syncVerification>false</syncVerification>
+    <title>Проверка, что фактическая дата ещё не стоит</title>
+    <type>SCRIPT</type>
+    <script><![CDATA[ProverkaChtoFakticheskayaDataEsheNeStoit198]]></script>
+</conditions>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<access-matrix xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="access-matrix" seg-type="access-matrix">
+    <xi:include href="elements/ShowInSearchResults_11f7277e-d00c-4374-8335-06fe12273efb.xml" parse="xml"/>
+    <xi:include href="elements/029bec97-7aee-4093-96e7-a961f084261c_51da8cfb-cfd8-4507-95a0-5c47eae79976.xml" parse="xml"/>
+    <xi:include href="elements/AddObject_51da8cfb-cfd8-4507-95a0-5c47eae79976.xml" parse="xml"/>
+    <xi:include href="elements/editRestAttributes_51da8cfb-cfd8-4507-95a0-5c47eae79976.xml" parse="xml"/>
+    <xi:include href="elements/FileView_51da8cfb-cfd8-4507-95a0-5c47eae79976.xml" parse="xml"/>
+    <xi:include href="elements/ShowInSearchResults_51da8cfb-cfd8-4507-95a0-5c47eae79976.xml" parse="xml"/>
+    <xi:include href="elements/ShowInSearchResults_866028cf-6f06-4617-a76b-8a98f01effbf.xml" parse="xml"/>
+    <xi:include href="elements/5f5d0261-3e45-4371-a907-5fb78750c0aa_8f372f70-2a9a-42ec-ae34-413d842cf98f.xml" parse="xml"/>
+    <xi:include href="elements/viewRestAttributes_8f372f70-2a9a-42ec-ae34-413d842cf98f.xml" parse="xml"/>
+    <xi:include href="elements/029bec97-7aee-4093-96e7-a961f084261c_c3878215-3a21-497d-a606-8854503ead1a.xml" parse="xml"/>
+    <xi:include href="elements/c5efc749-129c-4b68-8c93-399468ab90b3_c3878215-3a21-497d-a606-8854503ead1a.xml" parse="xml"/>
+    <xi:include href="elements/c863ad06-15a8-40ec-9c7b-e582035f1610_c3878215-3a21-497d-a606-8854503ead1a.xml" parse="xml"/>
+    <xi:include href="elements/ChangeObjectType_c3878215-3a21-497d-a606-8854503ead1a.xml" parse="xml"/>
+    <xi:include href="elements/ShowInSearchResults_c3878215-3a21-497d-a606-8854503ead1a.xml" parse="xml"/>
+    <xi:include href="elements/ShowInSearchResults_d7bb42a3-ee87-413c-8bed-73dd56073fb4.xml" parse="xml"/>
+    <xi:include href="elements/ViewObjectCard_d7c36fc2-c0ab-40a9-a303-f4019d8ccc12.xml" parse="xml"/>
+</access-matrix>

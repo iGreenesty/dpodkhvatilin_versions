@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ed96345f-bf8c-4265-9bd0-dd468fa2ac93" seg-type="attribute-group">
+    <code>ed96345f-bf8c-4265-9bd0-dd468fa2ac93</code>
+    <title lang="ru">Поставленные оценки</title>
+    <attribute>value</attribute>
+    <attribute>author</attribute>
+    <order>value</order>
+    <order>author</order>
+</group>

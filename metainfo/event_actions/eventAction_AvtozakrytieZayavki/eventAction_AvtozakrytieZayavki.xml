@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$AvtozakrytieZayavki" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[ZakrytieZayavki]]></script>
+        </script-action>
+        <code>eventAction$AvtozakrytieZayavki</code>
+        <xi:include href="script-action-condition/actionCondition_1.xml" parse="xml"/>
+        <xi:include href="script-action-condition/actionCondition_2.xml" parse="xml"/>
+        <description lang="ru"/>
+        <event>
+            <eventType>changeState</eventType>
+        </event>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">Автозакрытие заявки</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

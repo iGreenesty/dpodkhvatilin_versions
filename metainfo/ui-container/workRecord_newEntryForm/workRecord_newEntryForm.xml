@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="workRecord_newEntryForm" seg-type="ui-container">
+    <fqn>
+        <id>workRecord</id>
+    </fqn>
+    <code>newEntryForm</code>
+    <form seg-detach="false" uuid="f1e9fdfc-1343-0048-0000-0000004904bd">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Форма добавления</caption>
+        <layout seg-detach="false" uuid="f1e9fdfc-1344-0048-0000-0000004904bd">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/fe4130c9-13d6-023c-0000-fffffffffc56e889/fe4130c9-13d6-023c-0000-fffffffffc56e889.xml" parse="xml"/>
+            <xi:include href="contents/f43bb0c7-140c-0030-0000-00004e34e5f7/f43bb0c7-140c-0030-0000-00004e34e5f7.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+    </form>
+</ui>

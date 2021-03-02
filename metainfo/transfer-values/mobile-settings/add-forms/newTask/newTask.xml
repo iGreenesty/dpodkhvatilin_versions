@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<add-form xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="newTask" seg-type="add-forms" show-in-navigation-menu="true" uuid="newTask">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+    </profiles>
+    <tags>
+        <tag>Zadachi</tag>
+    </tags>
+    <cases/>
+    <class>
+        <id>task</id>
+    </class>
+    <attributes>
+        <xi:include href="attributes/templateTask.xml" parse="xml"/>
+        <xi:include href="attributes/description.xml" parse="xml"/>
+        <xi:include href="attributes/responsible.xml" parse="xml"/>
+        <xi:include href="attributes/planDate.xml" parse="xml"/>
+        <xi:include href="attributes/deadline.xml" parse="xml"/>
+    </attributes>
+    <allow-voice-creation>false</allow-voice-creation>
+    <caption lang="ru">Новая задача</caption>
+    <is-transfer-device-geoposition>false</is-transfer-device-geoposition>
+</add-form>

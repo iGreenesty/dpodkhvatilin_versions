@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="del_fa70ce47-eb70-c3a4-6d15-4ccdc77ba565" seg-type="tools" uuid="fa70ce47-eb70-c3a4-6d15-4ccdc77ba565">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <params/>
+    <presentationType>default</presentationType>
+    <action>del</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Delete</caption>
+    <caption lang="ru">Удалить</caption>
+</action>

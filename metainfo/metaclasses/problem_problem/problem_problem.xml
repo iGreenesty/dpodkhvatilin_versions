@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="problem$problem" seg-type="metaclasses">
+    <fqn>
+        <id>problem</id>
+        <case>problem</case>
+    </fqn>
+    <parent>
+        <id>problem</id>
+    </parent>
+    <title lang="ru">Проблема</title>
+    <description lang="ru"/>
+    <properties/>
+    <tags/>
+    <responsibilityTransferTableEnabled>false</responsibilityTransferTableEnabled>
+    <attributes/>
+    <attribute-overrides/>
+    <permittedTypesInfo/>
+    <attribute-groups>
+        <xi:include href="attribute-group-override/b129fbbc-4a24-4f49-be99-a6d7bd67c72e.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentText_text.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileContent_content.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileDescription_description.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileTitle_title.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>5</maxSearchResults>
+    <searchOrder>17</searchOrder>
+    <allowPlanVer>false</allowPlanVer>
+    <depthEnv>1</depthEnv>
+    <status>DEFAULT</status>
+</user-metaclass>

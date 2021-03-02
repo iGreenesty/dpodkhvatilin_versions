@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectAction xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="3bcd21bc-91b9-e082-1548-f88249c64080" seg-type="object-actions">
+    <caption lang="en">Share</caption>
+    <caption lang="ru">Поделиться</caption>
+    <code>share</code>
+    <required-fields/>
+    <type>system</type>
+    <uuid>3bcd21bc-91b9-e082-1548-f88249c64080</uuid>
+</objectAction>

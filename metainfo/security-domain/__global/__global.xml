@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-domain xmlns:xi="http://www.w3.org/2001/XInclude" code="##global" seg-detach="true" seg-id="##global" seg-type="security-domain">
+    <xi:include href="access-matrix/access-matrix.xml" parse="xml"/>
+    <xi:include href="roles/company-head.xml" parse="xml"/>
+    <xi:include href="roles/employee.xml" parse="xml"/>
+</security-domain>

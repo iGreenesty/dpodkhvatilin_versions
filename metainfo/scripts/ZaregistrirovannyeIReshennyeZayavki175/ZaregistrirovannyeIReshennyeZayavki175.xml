@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ZaregistrirovannyeIReshennyeZayavki175" seg-type="scripts">
+    <code>ZaregistrirovannyeIReshennyeZayavki175</code>
+    <title lang="ru">Зарегистрированные и решенные заявки</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="ZaregistrirovannyeIReshennyeZayavki175.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

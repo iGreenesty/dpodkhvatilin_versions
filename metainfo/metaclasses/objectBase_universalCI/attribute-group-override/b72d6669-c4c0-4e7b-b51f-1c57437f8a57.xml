@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="b72d6669-c4c0-4e7b-b51f-1c57437f8a57" seg-type="attribute-group-override">
+    <code>b72d6669-c4c0-4e7b-b51f-1c57437f8a57</code>
+    <attribute>typeCI</attribute>
+    <order>metaClass</order>
+    <order>typeCI</order>
+    <order>producer</order>
+    <order>model</order>
+    <order>inventoryNumbe</order>
+    <order>owner</order>
+    <order>users</order>
+</override>

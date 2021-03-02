@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<report xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="3c7ea592-867d-782e-085a-884457ac67af" seg-type="contents" uuid="3c7ea592-867d-782e-085a-884457ac67af">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fb409aeb-16fe-3fda-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Отчет, печатная форма</caption>
+    <showCaption>false</showCaption>
+    <template>2157_2113</template>
+    <xi:include href="tool-panels/b63443a5-9a76-c92a-d4d4-4862959641ac/b63443a5-9a76-c92a-d4d4-4862959641ac.xml" parse="xml"/>
+</report>

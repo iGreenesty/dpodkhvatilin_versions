@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="infoAboutDecision" seg-type="contents" uuid="infoAboutDecision">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+    </profiles>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="9ddfca94-1c78-bda1-b5b5-5468741e8bbb">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Информация о решении</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>infoAboutDecision</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/04a2bd8a-5821-b651-3ec6-8ac4b56fb3a7.xml" parse="xml"/>
+</properties>

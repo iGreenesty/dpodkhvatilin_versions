@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="showAdvlistFilter_781087c0-0fe0-3577-a5a9-93b1e711c2ac" seg-type="tools" uuid="781087c0-0fe0-3577-a5a9-93b1e711c2ac">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <params/>
+    <presentationType>push</presentationType>
+    <action>showAdvlistFilter</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Filtration</caption>
+    <caption lang="ru">Фильтрация...</caption>
+</action>

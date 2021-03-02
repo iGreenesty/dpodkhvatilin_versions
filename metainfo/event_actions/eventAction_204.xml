@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$204" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[UstanovkaGeneraciiParolya]]></script>
+        </script-action>
+        <code>eventAction$204</code>
+        <description lang="ru"/>
+        <user-events>
+            <eventType>userEvent</eventType>
+            <event-code>userEvent$204</event-code>
+        </user-events>
+        <fqn>
+            <id>employee</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Кнопка] Изменение параметра генерации пароля</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

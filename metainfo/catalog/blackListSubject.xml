@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="blackListSubject" seg-detach="true" seg-id="blackListSubject" seg-type="catalog" xsi:type="SystemCatalog">
+    <title lang="client">Черный список значений темы письма</title>
+    <title lang="en">Blacklist of e-mail subject values</title>
+    <title lang="ru">Черный список значений темы письма</title>
+    <description lang="client">Содержит список значений поля 'Тема письма', выступающих в качестве ограничения для обработки почты.</description>
+    <description lang="en">Contains list of e-mail subject values to prevent mail processing.</description>
+    <description lang="ru">Содержит список значений поля 'Тема письма', выступающих в качестве ограничения для обработки почты.</description>
+</catalog>

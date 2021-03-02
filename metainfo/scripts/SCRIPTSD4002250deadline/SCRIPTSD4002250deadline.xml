@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="SCRIPTSD4002250deadline" seg-type="scripts">
+    <code>SCRIPTSD4002250deadline</code>
+    <title lang="ru">Проверка, что атрибут "Дедлайн", заполненный на форме, в будущем</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="SCRIPTSD4002250deadline.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

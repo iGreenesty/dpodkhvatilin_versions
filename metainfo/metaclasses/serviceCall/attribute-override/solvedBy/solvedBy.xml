@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="solvedBy" seg-type="attribute-override">
+    <code>solvedBy</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <required>false</required>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="client"/>
+    <title lang="de"/>
+    <title lang="en">Resolved by</title>
+    <title lang="ru">Кем решена</title>
+    <description lang="client"/>
+    <description lang="de"/>
+    <description lang="en"/>
+    <description lang="ru"/>
+    <type>
+        <property code="metaClassFqn">serviceCall</property>
+        <property code="code">aggregate</property>
+        <property code="preparedAttributes">[{"attr":"solvedByEmployee","parents":["teams"],"referenceMetaClass":"employee"},{"attr":"solvedByTeam","parents":[],"referenceMetaClass":"team"}]</property>
+        <property code="attributes">[{'attr':'solvedByEmployee','parents':['teams']},{'attr':'solvedByTeam','parents':[]}]</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <scriptForFiltration/>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>aggregateView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>aggregateEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <defaultByScript>false</defaultByScript>
+    <scriptForDefault/>
+    <xi:include href="search-settings/solvedBy_solvedBy.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</override>

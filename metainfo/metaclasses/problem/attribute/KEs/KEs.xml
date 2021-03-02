@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="KEs" seg-type="attribute">
+    <code>KEs</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">ИТ-активы</title>
+    <description lang="ru"/>
+    <type>
+        <code>boLinks</code>
+        <property code="code">boLinks</property>
+        <property code="complexAttrGroupCode">175ac1cc-dc2e-439b-b44d-11fc8e5805fb</property>
+        <property code="complexRelation">true</property>
+        <property code="metaClassFqn">objectBase</property>
+        <property code="permittedTypes">["objectBase$Monitor","objectBase$ChTemplates","objectBase$Switch","objectBase$OfficeEquip","objectBase$ethChannelF","objectBase$Computers","objectBase$MobileDevice","objectBase$netServiceF","objectBase$city","objectBase$port","objectBase$Server","objectBase$CITemplates","objectBase$Rack","objectBase$Card","objectBase$DBMS","objectBase$Shredder","objectBase$Netcard","objectBase$Router","objectBase$HDD","objectBase$location","objectBase$CPU","objectBase$Modem","objectBase$Software","objectBase$Headset","objectBase$centre","objectBase$OS","objectBase$Projector","objectBase$PowerUnit","objectBase$MFU","objectBase$SidSysFolder","objectBase$UPS","objectBase$Phone","objectBase$universalCI","objectBase$Fax","objectBase$Mainboard","objectBase$Channel","objectBase$Keyboard","objectBase$Device","objectBase$DVDDrive","objectBase$PhonesAndFaxes","objectBase$Scanner","objectBase$Printer","objectBase$CMT","objectBase$GraphicDevices","objectBase$Notebook","objectBase$CI","objectBase$EthChannel","objectBase$Hardware","objectBase$RAM","objectBase$DeviceLibrary","objectBase$CIRepository","objectBase$Workstation","objectBase"]</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>boLinksView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>boLinksEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>flexAccessor</accessor>
+    <defaultValue list="true"/>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>true</systemEditable>
+    <xi:include href="search-settings/KEs_KEs.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <tags>ITaktivy</tags>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="SpisokVsehKontaktnyhLic" seg-type="contents" uuid="SpisokVsehKontaktnyhLic">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fb409ae6-16fe-3f80-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Список всех контактных лиц</caption>
+    <showCaption>true</showCaption>
+    <case>
+        <id>employee</id>
+        <case>contactPerson</case>
+    </case>
+    <attributeGroup>DlyaKartochkiKompanii</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/6912a4de-2aa2-76eb-17e4-daa82e881a27/6912a4de-2aa2-76eb-17e4-daa82e881a27.xml" parse="xml"/>
+    <xi:include href="tool-panels/1bc9d245-b07b-bf0a-9d00-026dc93503c8.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="fbe4906a-1696-d7ea-0044-000000ffc2f3">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="fbe490b7-1696-d9a3-0044-000000ffc2f3">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fbe4906a-1696-d7eb-0044-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="employee" code="parent"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+</objects>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="serviceCall_deferredMy" seg-type="lists" uuid="serviceCall_deferredMy">
+    <profiles/>
+    <tags/>
+    <cases/>
+    <class>
+        <id>serviceCall</id>
+    </class>
+    <attributes>
+        <xi:include href="attributes/title.xml" parse="xml"/>
+        <xi:include href="attributes/shortDescr.xml" parse="xml"/>
+        <xi:include href="attributes/postoponeTill.xml" parse="xml"/>
+        <xi:include href="attributes/timeAllowanceTimer.xml" parse="xml"/>
+    </attributes>
+    <allowActionsWithObjects>true</allowActionsWithObjects>
+    <caption lang="ru">ЗАЯВКИ: мои отложенные</caption>
+    <filters/>
+    <filter seg-detach="false" uuid="f608f910-1778-c9c6-0000-000044ccdc1e">
+        <profiles/>
+        <tags/>
+        <elements seg-detach="false" uuid="f608f910-1778-c9c5-0000-000044ccdc1e">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="f608f910-1778-c9c4-0000-000044ccdc1e">
+                <profiles/>
+                <tags/>
+                <properties>
+                    <entry>
+                        <key>attrTypeCode</key>
+                        <value>state</value>
+                    </entry>
+                    <entry>
+                        <key>attributeFqn</key>
+                        <value>serviceCall@state</value>
+                    </entry>
+                    <entry>
+                        <key>conditionCode</key>
+                        <value>contains</value>
+                    </entry>
+                </properties>
+                <value>
+                    <simpleDtObject>
+                        <metainfo>
+                            <id>serviceCall</id>
+                        </metainfo>
+                        <title>Отложена (Заявка)</title>
+                        <UUID>serviceCall:deferred</UUID>
+                    </simpleDtObject>
+                </value>
+            </elements>
+        </elements>
+    </filter>
+    <orders>
+        <order code="abstractBO@creationDate" order="desc"/>
+    </orders>
+    <attrs-chain attr-code="serviceCalls" class-fqn="employee"/>
+</related-objects>

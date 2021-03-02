@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="observers" enabled="true" seg-detach="true" seg-id="observers" seg-type="roles" type="SCRIPT">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="ownersScript">NabludateliZayavkiSpisok</property>
+    <property code="script">NabludateliZayavkiPrava</property>
+    <property code="listFilterScript"/>
+    <title lang="ru">Наблюдатели</title>
+</role>

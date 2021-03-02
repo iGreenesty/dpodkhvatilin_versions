@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-domain xmlns:xi="http://www.w3.org/2001/XInclude" code="negotiation" seg-detach="true" seg-id="negotiation" seg-type="security-domain">
+    <xi:include href="access-matrix/access-matrix.xml" parse="xml"/>
+    <xi:include href="marker-declarations/2efe4fb8-480c-4c88-b27d-810a95a53318.xml" parse="xml"/>
+    <xi:include href="marker-declarations/7273eebb-b8c4-40fa-848d-0ce0bfedd2c4.xml" parse="xml"/>
+    <xi:include href="marker-declarations/4292a6b7-0d5b-4b57-8867-29c74a5be7dc.xml" parse="xml"/>
+    <xi:include href="marker-declarations/editState.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleCurrentTeam.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleCurrentTeamEmployee.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleOtherTeam.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleOtherTeamEmployee.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleOwnTeam.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleOwnTeamEmployee.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleTake.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleTakeCurrentTeam.xml" parse="xml"/>
+    <xi:include href="roles/negotiation_LastEmpResp.xml" parse="xml"/>
+    <xi:include href="roles/negotiation_LastEmpTeamMember.xml" parse="xml"/>
+    <xi:include href="roles/negotiation_RespEmpTeamLeader.xml" parse="xml"/>
+    <xi:include href="roles/negotiation_RespEmpTeamMember.xml" parse="xml"/>
+    <xi:include href="roles/negotiation_RespHead.xml" parse="xml"/>
+    <xi:include href="roles/negotiation_ResponsibleEmployee.xml" parse="xml"/>
+    <xi:include href="roles/negotiation_ResponsibleTeamMember.xml" parse="xml"/>
+    <xi:include href="roles/negotiation_RespTeamLeader.xml" parse="xml"/>
+    <xi:include href="roles/f83cdbd4-1af8-4c6d-9065-a9fb6b8b5e2b.xml" parse="xml"/>
+    <xi:include href="roles/negotiationAutor.xml" parse="xml"/>
+</security-domain>

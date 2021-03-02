@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="transportProtocols" seg-detach="true" seg-id="transportProtocols" seg-type="catalog" xsi:type="SystemCatalog">
+    <title lang="client">Протоколы транспортного уровня</title>
+    <title lang="en">Transport protocols</title>
+    <title lang="ru">Протоколы транспортного уровня</title>
+    <description lang="client">Протоколы транспортного уровня: TCP или UDP.</description>
+    <description lang="en">Transport Protocols: TCP or UDP.</description>
+    <description lang="ru">Протоколы транспортного уровня: TCP или UDP.</description>
+</catalog>

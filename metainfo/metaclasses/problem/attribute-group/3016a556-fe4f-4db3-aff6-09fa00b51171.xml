@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="3016a556-fe4f-4db3-aff6-09fa00b51171" seg-type="attribute-group">
+    <code>3016a556-fe4f-4db3-aff6-09fa00b51171</code>
+    <title lang="ru">Для карточки компании</title>
+    <attribute>objectNumber</attribute>
+    <attribute>creationDate</attribute>
+    <attribute>author</attribute>
+    <attribute>description</attribute>
+    <attribute>responsible</attribute>
+    <attribute>state</attribute>
+    <attribute>deadline</attribute>
+    <attribute>sumWorkRecords</attribute>
+    <attribute>sumApprovedWR</attribute>
+    <order>objectNumber</order>
+    <order>creationDate</order>
+    <order>author</order>
+    <order>description</order>
+    <order>responsible</order>
+    <order>state</order>
+    <order>deadline</order>
+    <order>sumWorkRecords</order>
+    <order>sumApprovedWR</order>
+</group>

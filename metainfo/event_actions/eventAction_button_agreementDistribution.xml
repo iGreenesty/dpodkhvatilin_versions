@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$button_agreementDistribution" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[SCRIPTSD4002262]]></script>
+        </script-action>
+        <code>eventAction$button_agreementDistribution</code>
+        <description lang="ru"/>
+        <user-events>
+            <eventType>userEvent</eventType>
+            <event-code>userEvent$button_agreementDistribution</event-code>
+            <form-code>f30c763d-1746-444b-003e-000036b4a082</form-code>
+        </user-events>
+        <fqn>
+            <id>ou</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">Распространение соглашений по всем или выбранным отделам</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

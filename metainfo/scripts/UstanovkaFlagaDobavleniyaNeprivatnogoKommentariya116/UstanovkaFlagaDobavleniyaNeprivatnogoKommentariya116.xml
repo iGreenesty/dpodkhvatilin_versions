@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="UstanovkaFlagaDobavleniyaNeprivatnogoKommentariya116" seg-type="scripts">
+    <code>UstanovkaFlagaDobavleniyaNeprivatnogoKommentariya116</code>
+    <title lang="ru">Установка флага добавления неприватного комментария</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="UstanovkaFlagaDobavleniyaNeprivatnogoKommentariya116.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

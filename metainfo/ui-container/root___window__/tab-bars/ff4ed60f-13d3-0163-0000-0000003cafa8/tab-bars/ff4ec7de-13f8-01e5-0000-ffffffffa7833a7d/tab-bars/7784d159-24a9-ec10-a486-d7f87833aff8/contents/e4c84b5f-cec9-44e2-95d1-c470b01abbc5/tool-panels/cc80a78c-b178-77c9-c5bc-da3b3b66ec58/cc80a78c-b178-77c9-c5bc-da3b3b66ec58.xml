@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<toolPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="cc80a78c-b178-77c9-c5bc-da3b3b66ec58" seg-type="tool-panels" uuid="cc80a78c-b178-77c9-c5bc-da3b3b66ec58">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="bdc373d1-ea73-af07-da91-fce5e34f7410">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/add_d2fd9d8e-f679-a6f6-4afc-027ec962da5f.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="fe7d50f9-da84-4fdd-d952-3dfa3c9b817d">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <advlist-presentation-select seg-detach="false" uuid="9981fb97-641a-2988-49c5-54cf41056058">
+            <profiles/>
+            <tags/>
+            <appliedToType>currentObject</appliedToType>
+            <params/>
+            <presentationType>default</presentationType>
+        </advlist-presentation-select>
+        <xi:include href="tools/saveAdvlistPrs_8b3f01c3-93d8-24c6-5821-35116367493f.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="d7858974-7c65-92c7-b4fe-2de44069a81a">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/showAdvlistSort_9d639768-8235-b2b4-624f-6f0026b49576.xml" parse="xml"/>
+        <xi:include href="tools/showAdvlistFilter_2e5a4302-6531-1131-939c-25b67dd0052a.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="33be0c61-2db9-09e1-eebc-66123febed02">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/showRemoved_4d0bff75-0927-59ad-9ca3-223976709fb1.xml" parse="xml"/>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</toolPanel>

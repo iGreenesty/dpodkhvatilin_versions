@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="KB" seg-type="attribute-group">
+    <code>KB</code>
+    <title lang="client">Карточка в мобильном приложении (KB)</title>
+    <title lang="en">Mobile Object card (KB)</title>
+    <title lang="ru">Карточка в мобильном приложении (KB)</title>
+    <attribute>title</attribute>
+    <order>title</order>
+</group>

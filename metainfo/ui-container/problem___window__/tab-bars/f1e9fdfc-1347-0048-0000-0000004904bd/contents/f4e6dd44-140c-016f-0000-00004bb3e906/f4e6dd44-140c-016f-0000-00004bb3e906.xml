@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f4e6dd44-140c-016f-0000-00004bb3e906" seg-type="contents" uuid="f4e6dd44-140c-016f-0000-00004bb3e906">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef929-16fc-15ec-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Корневая причина</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>2097b223-8063-4890-bb00-01093c18d6f4</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/f4e6dd45-140c-0170-0000-00004bb3e906.xml" parse="xml"/>
+</properties>

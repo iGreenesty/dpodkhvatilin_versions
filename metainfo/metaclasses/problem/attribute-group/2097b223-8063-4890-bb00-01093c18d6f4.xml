@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="2097b223-8063-4890-bb00-01093c18d6f4" seg-type="attribute-group">
+    <code>2097b223-8063-4890-bb00-01093c18d6f4</code>
+    <title lang="ru">Корневая причина</title>
+    <attribute>rootCI</attribute>
+    <attribute>rootCause</attribute>
+</group>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<escalation xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="escalcations" seg-type="escalcations">
+    <xi:include href="escalation-scheme/f062d330-13ec-6a52-0000-000000ea5979.xml" parse="xml"/>
+    <xi:include href="escalation-scheme/f251b44e-13eb-6239-0000-000000ea5979.xml" parse="xml"/>
+    <xi:include href="escalation-scheme/f279e0f3-1502-dd50-0000-00004bc4dfca.xml" parse="xml"/>
+    <xi:include href="escalation-scheme/ShemaPoReakciiNaZayavki.xml" parse="xml"/>
+    <value-map-item>
+        <item key="UUID">
+            <value>
+                <string>rulesSettings$32302</string>
+            </value>
+        </item>
+        <item key="code">
+            <value>
+                <string>f25c0b6b-13eb-0002-0000-00004b74a85b</string>
+            </value>
+        </item>
+        <item key="color">
+            <value>
+                <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            </value>
+        </item>
+        <item key="defaultObject">
+            <value>
+                <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            </value>
+        </item>
+        <item key="description">
+            <value>
+                <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            </value>
+        </item>
+        <item key="folder">
+            <value>
+                <bool>false</bool>
+            </value>
+        </item>
+        <item key="icon">
+            <value>
+                <list list="true"/>
+            </value>
+        </item>
+        <item key="linkedClass">
+            <value>
+                <class-fqn>
+                    <id>serviceCall</id>
+                </class-fqn>
+            </value>
+        </item>
+        <item key="linkedClasses">
+            <value>
+                <list list="true">
+                    <class-fqn>
+                        <id>serviceCall</id>
+                    </class-fqn>
+                </list>
+            </value>
+        </item>
+        <item key="metaClass">
+            <value>
+                <class-fqn>
+                    <id>rulesSettings</id>
+                </class-fqn>
+            </value>
+        </item>
+        <item key="parent">
+            <value>
+                <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            </value>
+        </item>
+        <item key="position">
+            <value>
+                <long>0</long>
+            </value>
+        </item>
+        <item key="removalDate">
+            <value>
+                <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            </value>
+        </item>
+        <item key="removed">
+            <value>
+                <bool>false</bool>
+            </value>
+        </item>
+        <item key="rowSet">
+            <value>
+                <list list="true">
+                    <string>metaClass=*; escalationTargetData=ShemaPoReakciiNaZayavki,f251b44e-13eb-6239-0000-000000ea5979</string>
+                </list>
+            </value>
+        </item>
+        <item key="sourceAttrs">
+            <value>
+                <list list="true">
+                    <string>metaClass</string>
+                </list>
+            </value>
+        </item>
+        <item key="targetAttrs">
+            <value>
+                <list list="true">
+                    <string>escalationTargetData</string>
+                </list>
+            </value>
+        </item>
+        <item key="title">
+            <value>
+                <localizedText>
+                    <ru>Для всех заявок</ru>
+                </localizedText>
+            </value>
+        </item>
+        <item key="type">
+            <value>
+                <string>esc</string>
+            </value>
+        </item>
+    </value-map-item>
+    <value-map-item>
+        <item key="UUID">
+            <value>
+                <string>rulesSettings$33801</string>
+            </value>
+        </item>
+        <item key="code">
+            <value>
+                <string>f06552b2-13ec-0001-0000-000038d0c066</string>
+            </value>
+        </item>
+        <item key="color">
+            <value>
+                <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            </value>
+        </item>
+        <item key="defaultObject">
+            <value>
+                <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            </value>
+        </item>
+        <item key="description">
+            <value>
+                <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            </value>
+        </item>
+        <item key="folder">
+            <value>
+                <bool>false</bool>
+            </value>
+        </item>
+        <item key="icon">
+            <value>
+                <list list="true"/>
+            </value>
+        </item>
+        <item key="linkedClass">
+            <value>
+                <class-fqn>
+                    <id>task</id>
+                </class-fqn>
+            </value>
+        </item>
+        <item key="linkedClasses">
+            <value>
+                <list list="true">
+                    <class-fqn>
+                        <id>task</id>
+                    </class-fqn>
+                </list>
+            </value>
+        </item>
+        <item key="metaClass">
+            <value>
+                <class-fqn>
+                    <id>rulesSettings</id>
+                </class-fqn>
+            </value>
+        </item>
+        <item key="parent">
+            <value>
+                <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            </value>
+        </item>
+        <item key="position">
+            <value>
+                <long>0</long>
+            </value>
+        </item>
+        <item key="removalDate">
+            <value>
+                <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            </value>
+        </item>
+        <item key="removed">
+            <value>
+                <bool>false</bool>
+            </value>
+        </item>
+        <item key="rowSet">
+            <value>
+                <list list="true"/>
+            </value>
+        </item>
+        <item key="sourceAttrs">
+            <value>
+                <list list="true">
+                    <string>metaClass</string>
+                </list>
+            </value>
+        </item>
+        <item key="targetAttrs">
+            <value>
+                <list list="true">
+                    <string>escalationTargetData</string>
+                </list>
+            </value>
+        </item>
+        <item key="title">
+            <value>
+                <localizedText>
+                    <ru>Для всех задач</ru>
+                </localizedText>
+            </value>
+        </item>
+        <item key="type">
+            <value>
+                <string>esc</string>
+            </value>
+        </item>
+    </value-map-item>
+    <value-map-item>
+        <item key="UUID">
+            <value>
+                <string>rulesSettings$2234001</string>
+            </value>
+        </item>
+        <item key="code">
+            <value>
+                <string>041c9c1f-a6cb-b37a-2e5b-951bfafdbd51</string>
+            </value>
+        </item>
+        <item key="color">
+            <value>
+                <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            </value>
+        </item>
+        <item key="defaultObject">
+            <value>
+                <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            </value>
+        </item>
+        <item key="description">
+            <value>
+                <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            </value>
+        </item>
+        <item key="folder">
+            <value>
+                <bool>false</bool>
+            </value>
+        </item>
+        <item key="icon">
+            <value>
+                <list list="true"/>
+            </value>
+        </item>
+        <item key="linkedClass">
+            <value>
+                <class-fqn>
+                    <id>negotiation</id>
+                </class-fqn>
+            </value>
+        </item>
+        <item key="linkedClasses">
+            <value>
+                <list list="true">
+                    <class-fqn>
+                        <id>negotiation</id>
+                    </class-fqn>
+                </list>
+            </value>
+        </item>
+        <item key="metaClass">
+            <value>
+                <class-fqn>
+                    <id>rulesSettings</id>
+                </class-fqn>
+            </value>
+        </item>
+        <item key="parent">
+            <value>
+                <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            </value>
+        </item>
+        <item key="position">
+            <value>
+                <long>0</long>
+            </value>
+        </item>
+        <item key="removalDate">
+            <value>
+                <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            </value>
+        </item>
+        <item key="removed">
+            <value>
+                <bool>false</bool>
+            </value>
+        </item>
+        <item key="rowSet">
+            <value>
+                <list list="true">
+                    <string>metaClass=*; escalationTargetData=f279e0f3-1502-dd50-0000-00004bc4dfca</string>
+                </list>
+            </value>
+        </item>
+        <item key="sourceAttrs">
+            <value>
+                <list list="true">
+                    <string>metaClass</string>
+                </list>
+            </value>
+        </item>
+        <item key="targetAttrs">
+            <value>
+                <list list="true">
+                    <string>escalationTargetData</string>
+                </list>
+            </value>
+        </item>
+        <item key="title">
+            <value>
+                <localizedText>
+                    <ru>Для всех согласований</ru>
+                </localizedText>
+            </value>
+        </item>
+        <item key="type">
+            <value>
+                <string>esc</string>
+            </value>
+        </item>
+    </value-map-item>
+</escalation>

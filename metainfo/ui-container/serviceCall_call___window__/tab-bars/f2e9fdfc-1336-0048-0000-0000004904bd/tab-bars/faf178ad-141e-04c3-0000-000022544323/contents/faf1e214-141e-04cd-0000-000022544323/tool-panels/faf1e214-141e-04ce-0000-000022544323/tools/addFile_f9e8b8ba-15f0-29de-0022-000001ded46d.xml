@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<add-file xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="addFile_f9e8b8ba-15f0-29de-0022-000001ded46d" seg-type="tools" uuid="f9e8b8ba-15f0-29de-0022-000001ded46d">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <iconCode>file</iconCode>
+    <params/>
+    <presentationType>default</presentationType>
+    <action>addFile</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Add file</caption>
+    <caption lang="ru">Добавить файл</caption>
+    <attributeGroupForAddFile>addForm</attributeGroupForAddFile>
+    <attributeToSaveFile>ownObjectFiles</attributeToSaveFile>
+</add-file>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="userOuEmployee" enabled="true" seg-detach="true" seg-id="userOuEmployee" seg-type="roles" type="SYSTEM">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="snippet">userOuEmployeeRoleSnippet</property>
+    <title lang="en">User department employee</title>
+    <title lang="ru">Сотрудник отдела сотрудника</title>
+</role>

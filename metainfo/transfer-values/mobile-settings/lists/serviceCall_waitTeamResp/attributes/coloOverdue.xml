@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="coloOverdue" seg-type="attributes">
+    <code>serviceCall@coloOverdue</code>
+    <presentation>long-value</presentation>
+    <uuid>f955e64a-15eb-fa66-0002-000001ded46d</uuid>
+</attribute>

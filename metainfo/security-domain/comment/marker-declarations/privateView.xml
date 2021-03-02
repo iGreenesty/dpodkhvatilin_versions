@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="privateView" enabled="true" group="viewAttrs" seg-detach="true" seg-id="privateView" seg-type="marker-declarations">
+    <attributes>private</attributes>
+</marker-declaration>

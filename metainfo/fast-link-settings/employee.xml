@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fast-link-setting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="employee" seg-type="fast-link-settings">
+    <alias>@</alias>
+    <code>employee</code>
+    <contextTypes>
+        <id>serviceCall</id>
+    </contextTypes>
+    <mentionAttribute>UUID</mentionAttribute>
+    <mentionTypes>
+        <id>employee</id>
+    </mentionTypes>
+    <order>0</order>
+    <title lang="ru">Сотрудник</title>
+</fast-link-setting>

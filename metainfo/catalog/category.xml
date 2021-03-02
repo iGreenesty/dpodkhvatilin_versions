@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="category" seg-detach="true" seg-id="category" seg-type="catalog" xsi:type="SystemCatalog">
+    <title lang="client">Категории</title>
+    <title lang="en">Categories</title>
+    <title lang="ru">Категории</title>
+    <description lang="client">Содержит иерархический список категорий для классификации запросов.</description>
+    <description lang="en">Contains hierarchical list of categories for requests classification.</description>
+    <description lang="ru">Содержит иерархический список категорий для классификации запросов.</description>
+</catalog>

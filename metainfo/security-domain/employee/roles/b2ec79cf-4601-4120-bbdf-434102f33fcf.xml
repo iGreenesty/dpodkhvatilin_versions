@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="b2ec79cf-4601-4120-bbdf-434102f33fcf" enabled="true" seg-detach="true" seg-id="b2ec79cf-4601-4120-bbdf-434102f33fcf" seg-type="roles" type="SCRIPT">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="script">RukovoditelOtdelaSotrudnikaBeccfbbdfffcf49</property>
+    <title lang="ru">Руководитель отдела сотрудника</title>
+</role>

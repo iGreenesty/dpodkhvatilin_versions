@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_ObshayaIstoriyaIzmeneniya" seg-type="tab-bars" uuid="tabs_ObshayaIstoriyaIzmeneniya">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef9ba-16fc-1616-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="ObshayaIstoriyaIzmeneniya">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Общая история изменения</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="0baf7470-02b8-d178-8c66-2ed1cd5abc7b">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/IstoriyaIzmenenii/IstoriyaIzmenenii.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6ef9bb-16fc-1618-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="IstoriyaIzmeneniyaStatusa">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">История изменения статуса</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="0c46aec8-7041-161b-fdfe-74cc7fb48434">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/IstoriyaIzmeneniyaOtvetstvennogoIStatusa/IstoriyaIzmeneniyaOtvetstvennogoIStatusa.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6ef9c2-16fc-161a-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

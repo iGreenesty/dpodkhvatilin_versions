@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="responsible" seg-type="attributes">
+    <code>task@responsible</code>
+    <presentation>with-title</presentation>
+    <uuid>fccb3303-15eb-85d8-0003-000001ded46d</uuid>
+</attribute>

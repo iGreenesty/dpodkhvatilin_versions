@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-override xmlns:xi="http://www.w3.org/2001/XInclude" code="faaea3cb-05cd-4588-871a-9715e9cd87c9" enabled="true" group="viewAttrs" seg-detach="true" seg-id="faaea3cb-05cd-4588-871a-9715e9cd87c9" seg-type="marker-overrides">
+    <title lang="ru">Для пользователя</title>
+    <attributes>avMark</attributes>
+    <attributes>text</attributes>
+    <removed-attributes>creationDate</removed-attributes>
+</marker-override>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f9eba012-f29d-4fcb-be2b-448f3ef0bbaa" seg-type="contents" uuid="f9eba012-f29d-4fcb-be2b-448f3ef0bbaa">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fb409ae6-16fe-3f79-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Список всех сотрудников системы</caption>
+    <showCaption>true</showCaption>
+    <case>
+        <id>employee</id>
+        <case>employee</case>
+    </case>
+    <attributeGroup>505fc13a-8d23-4ae2-9bd8-9b8811fdd407</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/47e9a36e-21b7-0580-9b64-9db1a64a40b3/47e9a36e-21b7-0580-9b64-9db1a64a40b3.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae66f3-15a2-10f9-0000-000001c8b871/f6ae66f3-15a2-10f9-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f6ae66f3-15a2-10fa-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f6ae66f3-15a2-10fb-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c50c1-168d-1231-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="employee" code="parent"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+</objects>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<editable-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="09ae9923-7074-5ef4-8041-c3c34b4fb183" seg-type="contents" uuid="09ae9923-7074-5ef4-8041-c3c34b4fb183">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="f1e88434-1750-a96f-0066-00007b344b54">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Сгенерировать пароль</caption>
+    <showCaption>false</showCaption>
+    <attributeGroup>21da4774-261b-4a09-853e-ad0bda09e92b</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/f74f2eaf-15a2-73a9-0004-000001c8b871.xml" parse="xml"/>
+    <resetValuesIfHidden>false</resetValuesIfHidden>
+</editable-properties>

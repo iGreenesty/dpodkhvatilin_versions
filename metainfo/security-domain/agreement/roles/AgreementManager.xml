@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="AgreementManager" enabled="true" seg-detach="true" seg-id="AgreementManager" seg-type="roles" type="SCRIPT">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="ownersScript">AgreementManagerToNotification</property>
+    <property code="script">AgreementManager</property>
+    <property code="listFilterScript"/>
+    <title lang="ru">Менеджер соглашения</title>
+</role>

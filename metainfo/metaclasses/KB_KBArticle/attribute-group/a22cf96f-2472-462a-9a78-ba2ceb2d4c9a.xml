@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="a22cf96f-2472-462a-9a78-ba2ceb2d4c9a" seg-type="attribute-group">
+    <code>a22cf96f-2472-462a-9a78-ba2ceb2d4c9a</code>
+    <title lang="ru">Общие сведения</title>
+    <attribute>parent</attribute>
+    <attribute>creationDate</attribute>
+    <attribute>author</attribute>
+    <attribute>responsible</attribute>
+    <attribute>services</attribute>
+    <order>parent</order>
+    <order>creationDate</order>
+    <order>author</order>
+    <order>responsible</order>
+    <order>services</order>
+</group>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-event-tool xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="edit_8422d77a-faa2-90e2-f9dd-f30e675a7ec8" seg-type="tools" uuid="8422d77a-faa2-90e2-f9dd-f30e675a7ec8">
+    <profiles/>
+    <tags/>
+    <appliedToType>listObjects</appliedToType>
+    <iconCode>edit_icon</iconCode>
+    <params/>
+    <presentationType>push</presentationType>
+    <action>edit</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="ru">Редактировать</caption>
+    <invoke-method>invokeIconClick</invoke-method>
+    <go-to-card-after-action>false</go-to-card-after-action>
+    <quick-form>quickAddAndEditForm$FormaBystrogoRedaktirovaniyaPravilaSLA</quick-form>
+    <use-quick-form>true</use-quick-form>
+</user-event-tool>

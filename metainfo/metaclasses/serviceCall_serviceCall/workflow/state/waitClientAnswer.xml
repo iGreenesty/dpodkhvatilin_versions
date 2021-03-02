@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="waitClientAnswer" enabled="true" hardcoded="false" seg-detach="true" seg-id="waitClientAnswer" seg-type="state">
+    <preActionsOrder>fc00bc11-173e-c378-003b-000060086411</preActionsOrder>
+    <postActionsOrder>fc01803c-173e-c379-003b-000060086411</postActionsOrder>
+</state>

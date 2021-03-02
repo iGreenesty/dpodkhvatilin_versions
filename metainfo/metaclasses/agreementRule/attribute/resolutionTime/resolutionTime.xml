@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="resolutionTime" seg-type="attribute">
+    <code>resolutionTime</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <editableInLists>false</editableInLists>
+    <required>true</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">Время на решение</title>
+    <description lang="ru">Укажите рабочее время, которое дается на решение заявки.&amp;nbsp;&lt;div&gt;&lt;div&gt;Обратите внимание, что 1 день = 24 рабочих часа. То есть, если время на решение 1 день и график поддержки услуг в соглашении 8х5, то на решение заявки будет отведено 3 рабочих дня (т.е. по 8 рабочих часов в день).&lt;/div&gt;&lt;/div&gt;</description>
+    <type>
+        <code>dtInterval</code>
+        <property code="code">dtInterval</property>
+        <property code="intervalAvailableUnits">["HOUR","MINUTE","WEEK","DAY"]</property>
+        <property code="needStoreUnits">false</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>dtIntervalView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>dtIntervalEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>flexAccessor</accessor>
+    <defaultValue>
+        <dateTimeInterval interval="HOUR"/>
+    </defaultValue>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>true</systemEditable>
+    <xi:include href="search-settings/resolutionTime_resolutionTime.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="DlyaKartochkiZadachi" seg-type="attribute-group">
+    <code>DlyaKartochkiZadachi</code>
+    <title lang="ru">Для карточки задачи</title>
+    <attribute>shortDescr</attribute>
+    <attribute>client</attribute>
+    <attribute>descriptionRTF</attribute>
+    <attribute>urgency</attribute>
+    <attribute>state</attribute>
+    <attribute>timeAllowanceTimer</attribute>
+</group>

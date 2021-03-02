@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="mobile_search" seg-type="attribute-group-override">
+    <code>mobile_search</code>
+    <title lang="ru">Атрибуты результатов поиска в мобильном приложении для лицензированных пользователей</title>
+    <order>title</order>
+</override>

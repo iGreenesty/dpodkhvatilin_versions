@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_Faily" seg-type="tab-bars" uuid="tabs_Faily">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efab5-16fc-1681-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="Faily">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Файлы</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="36048863-fdab-5bb7-0add-e5724a380777">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/Faily_kontent_/Faily_kontent_.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efab5-16fc-1683-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

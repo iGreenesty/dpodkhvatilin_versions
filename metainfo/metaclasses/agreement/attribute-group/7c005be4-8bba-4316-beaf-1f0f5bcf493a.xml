@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="7c005be4-8bba-4316-beaf-1f0f5bcf493a" seg-type="attribute-group">
+    <code>7c005be4-8bba-4316-beaf-1f0f5bcf493a</code>
+    <title lang="ru">Список</title>
+    <attribute>title</attribute>
+    <attribute>description</attribute>
+    <attribute>resp</attribute>
+    <attribute>supportHours</attribute>
+    <attribute>endDate</attribute>
+    <order>title</order>
+    <order>description</order>
+    <order>resp</order>
+    <order>supportHours</order>
+    <order>endDate</order>
+</group>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="deadline" seg-type="attribute">
+    <code>deadline</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>false</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">Плановая дата завершения</title>
+    <description lang="ru"/>
+    <type>
+        <code>backTimer</code>
+        <property code="attrChain">["vote@parent"]</property>
+        <property code="code">backTimer</property>
+        <property code="definition">forNegotiation</property>
+        <property code="isSingleObjectLink">true</property>
+        <property code="relatedObjectAttribute">deadLine</property>
+        <property code="relatedObjectHierarchyLevel">0</property>
+        <property code="relatedObjectMetaclass">negotiation</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>backTimerDeadLineV</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>unknownEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>attributeOfRelatedObjectAccessor</accessor>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>false</systemEditable>
+    <xi:include href="search-settings/deadline_deadline.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>true</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

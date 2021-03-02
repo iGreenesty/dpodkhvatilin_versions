@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="mailAutoSubj" flat="true" seg-detach="true" seg-id="mailAutoSubj" seg-type="catalog" withFolders="false" xsi:type="UserCatalog">
+    <title lang="ru">Темы автоматических писем</title>
+    <description lang="ru">Строки, с которых начинаются темы автоматических писем</description>
+    <itemMetaClassFqn>
+        <id>mailAutoSubj</id>
+    </itemMetaClassFqn>
+</catalog>

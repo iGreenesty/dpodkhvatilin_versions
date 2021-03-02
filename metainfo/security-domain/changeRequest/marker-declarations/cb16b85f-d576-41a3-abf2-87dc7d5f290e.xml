@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="cb16b85f-d576-41a3-abf2-87dc7d5f290e" enabled="true" group="userEvent" seg-detach="true" seg-id="cb16b85f-d576-41a3-abf2-87dc7d5f290e" seg-type="marker-declarations">
+    <title lang="ru">Списать ТЗТ</title>
+    <attributes>userEvent$button_addWorkRecords</attributes>
+</marker-declaration>

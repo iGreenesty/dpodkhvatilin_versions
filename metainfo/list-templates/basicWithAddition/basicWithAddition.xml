@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<list-template xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="basicWithAddition" seg-type="list-templates">
+    <code>basicWithAddition</code>
+    <creationDate>2018-09-07T08:05:46.508Z</creationDate>
+    <lastModifiedDate>2019-05-06T12:05:40.690Z</lastModifiedDate>
+    <xi:include href="contents/f310c98c-165b-4099-0056-000000ee8080/f310c98c-165b-4099-0056-000000ee8080.xml" parse="xml"/>
+    <title lang="ru">Добавить + виды + сохранить, сортировка, фильтрация и экспорт списка (иконки)</title>
+    <listTemplateUsagePoints/>
+</list-template>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<child-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f4a977cc-13d4-01b9-0000-0000293ea6cd" seg-type="contents" uuid="f4a977cc-13d4-01b9-0000-0000293ea6cd">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efc39-16fc-1721-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Сотрудники отдела</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>employee</id>
+    </class>
+    <attributeGroup>331938b7-76a8-4024-8be7-a21f8e895855</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/f4330948-1439-02f5-0000-ffffffffa910b166/f4330948-1439-02f5-0000-ffffffffa910b166.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae66d5-15a2-10e1-0000-000001c8b871/f6ae66d5-15a2-10e1-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f6ae66d5-15a2-10e2-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f6ae66d5-15a2-10e3-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4e1c-168d-11b2-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <filterRestrictionSettings/>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <show-nested-in-nested>false</show-nested-in-nested>
+</child-objects>

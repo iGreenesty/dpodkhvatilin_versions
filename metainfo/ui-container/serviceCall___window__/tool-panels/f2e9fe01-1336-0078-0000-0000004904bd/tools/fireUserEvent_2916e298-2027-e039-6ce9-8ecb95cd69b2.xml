@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-event-tool xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fireUserEvent_2916e298-2027-e039-6ce9-8ecb95cd69b2" seg-type="tools" uuid="2916e298-2027-e039-6ce9-8ecb95cd69b2">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <iconCode>books</iconCode>
+    <params/>
+    <presentationType>defaultIconOnly</presentationType>
+    <action>fireUserEvent</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="ru">Добавить статью БЗ на основе отчета о выполнении</caption>
+    <event-uuid>userEvent$button_addNewArticle</event-uuid>
+    <use-quick-form>false</use-quick-form>
+</user-event-tool>

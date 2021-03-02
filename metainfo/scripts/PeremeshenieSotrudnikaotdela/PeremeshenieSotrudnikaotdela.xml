@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="PeremeshenieSotrudnikaotdela" seg-type="scripts">
+    <code>PeremeshenieSotrudnikaotdela</code>
+    <title lang="ru">Перемещение сотрудника/отдела</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="PeremeshenieSotrudnikaotdela.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

@@ -1,0 +1,1 @@
+return (sourceObject && api.metainfo.getMetaClass(sourceObject).code == 'comment') ? '' : 'Не был добавлен комментарий'

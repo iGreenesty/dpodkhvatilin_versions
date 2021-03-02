@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_Kommentarii" seg-type="tab-bars" uuid="tabs_Kommentarii">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efe0c-16fc-1809-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="Kommentarii">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Комментарии</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="7bbf5e18-1eeb-09ec-27d0-6f0075e9cee2">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/Kommentarii_kontent_/Kommentarii_kontent_.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efe0c-16fc-180b-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

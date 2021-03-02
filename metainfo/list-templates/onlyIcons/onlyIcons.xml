@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<list-template xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="onlyIcons" seg-type="list-templates">
+    <code>onlyIcons</code>
+    <creationDate>2018-09-07T08:13:15.789Z</creationDate>
+    <lastModifiedDate>2018-09-07T08:13:15.789Z</lastModifiedDate>
+    <xi:include href="contents/f317a483-165b-3aab-0058-000000ee8080/f317a483-165b-3aab-0058-000000ee8080.xml" parse="xml"/>
+    <title lang="ru">Добавить, связь, архив (иконки)</title>
+    <listTemplateUsagePoints/>
+</list-template>

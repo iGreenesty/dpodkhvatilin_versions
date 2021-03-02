@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="IzmenenieAtributaPodchinennyi" seg-type="scripts">
+    <code>IzmenenieAtributaPodchinennyi</code>
+    <title lang="ru">Изменение атрибута Подчинённый</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="IzmenenieAtributaPodchinennyi.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

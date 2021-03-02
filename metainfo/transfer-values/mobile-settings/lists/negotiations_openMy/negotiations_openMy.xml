@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="negotiations_openMy" seg-type="lists" uuid="negotiations_openMy">
+    <profiles/>
+    <tags>
+        <tag>Soglasovaniya</tag>
+    </tags>
+    <cases/>
+    <class>
+        <id>vote</id>
+    </class>
+    <attributes>
+        <xi:include href="attributes/title.xml" parse="xml"/>
+        <xi:include href="attributes/state.xml" parse="xml"/>
+        <xi:include href="attributes/serviceCall.xml" parse="xml"/>
+        <xi:include href="attributes/changeRequest.xml" parse="xml"/>
+        <xi:include href="attributes/descrRtf.xml" parse="xml"/>
+        <xi:include href="attributes/files.xml" parse="xml"/>
+    </attributes>
+    <allowActionsWithObjects>true</allowActionsWithObjects>
+    <caption lang="ru">СОГЛАСОВАНИЯ: мои открытые</caption>
+    <filters/>
+    <filter seg-detach="false" uuid="f608f91e-1778-c9d8-0000-000044ccdc1e">
+        <profiles/>
+        <tags/>
+        <elements seg-detach="false" uuid="f608f91e-1778-c9d7-0000-000044ccdc1e">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="f608f91e-1778-c9d6-0000-000044ccdc1e">
+                <profiles/>
+                <tags/>
+                <properties>
+                    <entry>
+                        <key>attrTypeCode</key>
+                        <value>state</value>
+                    </entry>
+                    <entry>
+                        <key>attributeFqn</key>
+                        <value>vote@state</value>
+                    </entry>
+                    <entry>
+                        <key>conditionCode</key>
+                        <value>contains</value>
+                    </entry>
+                </properties>
+                <value>
+                    <simpleDtObject>
+                        <metainfo>
+                            <id>vote</id>
+                        </metainfo>
+                        <title>На согласовании (Голосование)</title>
+                        <UUID>vote:registered</UUID>
+                    </simpleDtObject>
+                </value>
+            </elements>
+        </elements>
+    </filter>
+    <orders>
+        <order code="abstractBO@creationDate" order="desc"/>
+    </orders>
+    <attrs-chain attr-code="votes" class-fqn="employee"/>
+</related-objects>

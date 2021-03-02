@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="PerehodNaKartochkuVMPOtvetstvennyiIskluchenieOtvetstvennogo" seg-type="scripts">
+    <code>PerehodNaKartochkuVMPOtvetstvennyiIskluchenieOtvetstvennogo</code>
+    <title lang="ru">Переход на карточку в МП + ответственный + исключение ответственного</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="PerehodNaKartochkuVMPOtvetstvennyiIskluchenieOtvetstvennogo.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

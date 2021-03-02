@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<reports-list xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="13577184-25b7-de44-43f4-a9ecf538ef2d" seg-type="contents" uuid="13577184-25b7-de44-43f4-a9ecf538ef2d">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fb409aec-16fe-3fe1-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Соблюдение SLA заявок</caption>
+    <showCaption>true</showCaption>
+    <templates>2133_2</templates>
+    <templates>SLA</templates>
+    <templates>2134</templates>
+    <templates>2151</templates>
+</reports-list>

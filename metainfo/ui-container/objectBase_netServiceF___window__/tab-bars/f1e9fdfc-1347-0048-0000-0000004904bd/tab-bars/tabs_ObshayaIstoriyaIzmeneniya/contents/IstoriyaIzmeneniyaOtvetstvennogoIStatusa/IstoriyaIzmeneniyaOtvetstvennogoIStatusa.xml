@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-history xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="IstoriyaIzmeneniyaOtvetstvennogoIStatusa" seg-type="contents" uuid="IstoriyaIzmeneniyaOtvetstvennogoIStatusa">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efa3b-16fc-1663-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">История изменения ответственного и статуса</caption>
+    <showCaption>false</showCaption>
+    <class>
+        <id>objectBase__Evt</id>
+    </class>
+    <attributeGroup>Status</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/132317cd-bca7-d487-14c0-3b1fb4fadaba/132317cd-bca7-d487-14c0-3b1fb4fadaba.xml" parse="xml"/>
+    <xi:include href="tool-panels/f0cab2a5-161d-9bbd-000b-000001840552.xml" parse="xml"/>
+    <defaultSettings>
+        <columnList>
+            <attr-code>abstractEvt@senderTitle</attr-code>
+            <presentation-code>stringView</presentation-code>
+            <widthColumn>0</widthColumn>
+        </columnList>
+        <columnList>
+            <attr-code>abstractEvt@eventDate</attr-code>
+            <presentation-code>dateTimeWithMillisView</presentation-code>
+            <widthColumn>0</widthColumn>
+        </columnList>
+        <columnList>
+            <attr-code>abstractEvt@stateCode</attr-code>
+            <presentation-code>stateTitleView</presentation-code>
+            <widthColumn>0</widthColumn>
+        </columnList>
+        <columnList>
+            <attr-code>abstractEvt@stateElapsed</attr-code>
+            <presentation-code>timerElapsedV</presentation-code>
+            <widthColumn>0</widthColumn>
+        </columnList>
+        <columnList>
+            <attr-code>abstractEvt@newStateCode</attr-code>
+            <presentation-code>stateTitleView</presentation-code>
+            <widthColumn>0</widthColumn>
+        </columnList>
+        <inherit>false</inherit>
+        <listFilter seg-detach="false" uuid="f0cab2a5-161d-9bbe-000b-000001840552">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="03688b75-9994-531a-1069-fd04bc316d83">
+                <profiles/>
+                <tags/>
+                <elements seg-detach="false" uuid="cea54d77-474b-6460-8ef0-5ca851b2781b">
+                    <profiles/>
+                    <tags/>
+                    <properties>
+                        <entry>
+                            <key>attrTypeCode</key>
+                            <value>bool</value>
+                        </entry>
+                        <entry>
+                            <key>conditionCode</key>
+                            <value>contains</value>
+                        </entry>
+                        <entry>
+                            <key>attributeFqn</key>
+                            <value>abstractEvt@stateChanged</value>
+                        </entry>
+                    </properties>
+                    <value>
+                        <bool>true</bool>
+                    </value>
+                </elements>
+            </elements>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f0cab2ab-161d-9c26-000b-000001840552">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="687a568b-6715-5e94-27f2-b69c3f76fafb">
+                <profiles/>
+                <tags/>
+                <attrCode>abstractEvt@eventDate</attrCode>
+                <attrTitle>Время события</attrTitle>
+                <ascending>false</ascending>
+            </elements>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4e01-168d-11a2-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+</user-history>

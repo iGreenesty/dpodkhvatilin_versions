@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="deadline" seg-type="form-parameters">
+    <attrs-for-date-time-restriction-script/>
+    <attrs-in-cof-script>
+        <attribute>templateTask</attribute>
+        <attribute>planDate</attribute>
+    </attrs-in-cof-script>
+    <code>deadline</code>
+    <cof-script>SCRIPTSD4001434</cof-script>
+    <complexRelation>false</complexRelation>
+    <computable-on-form>true</computable-on-form>
+    <default-by-script>false</default-by-script>
+    <edit-presentaion>
+        <code>dateTimeEdit</code>
+    </edit-presentaion>
+    <editable>true</editable>
+    <is-filtered-by-script>false</is-filtered-by-script>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <required>false</required>
+    <title lang="ru">Дедлайн</title>
+    <type>
+        <code>dateTime</code>
+        <property code="permittedTypes">[]</property>
+    </type>
+    <view-presentaion>
+        <code>dateTimeView</code>
+    </view-presentaion>
+</parameter>

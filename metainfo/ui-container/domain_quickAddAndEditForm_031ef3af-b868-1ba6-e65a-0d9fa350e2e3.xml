@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="domain_quickAddAndEditForm$031ef3af-b868-1ba6-e65a-0d9fa350e2e3" seg-type="ui-container">
+    <fqn>
+        <id>domain</id>
+    </fqn>
+    <code>quickAddAndEditForm$031ef3af-b868-1ba6-e65a-0d9fa350e2e3</code>
+    <quickform seg-detach="false" uuid="quickAddAndEditForm$031ef3af-b868-1ba6-e65a-0d9fa350e2e3">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Форма быстрого добавления домена</caption>
+        <layout seg-detach="false" uuid="5ff2b0b1-1051-d69e-ec66-2f8242ee6dc7">
+            <profiles/>
+            <tags/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <attrGroup>forQuickAddForm</attrGroup>
+        <custom-form>QuickForm</custom-form>
+        <show-attr-description>false</show-attr-description>
+        <transitioncases>
+            <id>domain</id>
+            <case>domain</case>
+        </transitioncases>
+        <code>031ef3af-b868-1ba6-e65a-0d9fa350e2e3</code>
+    </quickform>
+</ui>

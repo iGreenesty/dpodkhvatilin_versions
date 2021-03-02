@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="matchType" flat="false" seg-detach="true" seg-id="matchType" seg-type="catalog" withFolders="false" xsi:type="UserCatalog">
+    <title lang="ru">Тип сопоставления инцидентов с проблемами</title>
+    <itemMetaClassFqn>
+        <id>matchType</id>
+    </itemMetaClassFqn>
+</catalog>

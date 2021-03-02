@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="alertSeverityLevels" seg-detach="true" seg-id="alertSeverityLevels" seg-type="catalog" xsi:type="SystemCatalog">
+    <title lang="client">Уровни критичности тревог</title>
+    <title lang="en">Alert severity</title>
+    <title lang="ru">Уровни критичности тревог</title>
+    <description lang="client">Уровни критичности тревог</description>
+    <description lang="en">Alert severity</description>
+    <description lang="ru">Уровни критичности тревог</description>
+</catalog>

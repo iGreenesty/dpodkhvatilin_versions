@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="serviceCall_editForm" seg-type="ui-container">
+    <fqn>
+        <id>serviceCall</id>
+    </fqn>
+    <code>editForm</code>
+    <form seg-detach="false" uuid="f1e9fdfc-1340-0048-0000-0000004904bd">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Форма редактирования</caption>
+        <layout seg-detach="false" uuid="f1e9fdfc-1341-0048-0000-0000004904bd">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/fbbb6322-13f7-0186-0000-ffffffffaa057d5d/fbbb6322-13f7-0186-0000-ffffffffaa057d5d.xml" parse="xml"/>
+            <xi:include href="contents/fbbc4f7e-13f7-0194-0000-ffffffffaa057d5d/fbbc4f7e-13f7-0194-0000-ffffffffaa057d5d.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+    </form>
+</ui>

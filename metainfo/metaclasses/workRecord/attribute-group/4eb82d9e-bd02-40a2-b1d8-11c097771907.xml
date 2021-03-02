@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="4eb82d9e-bd02-40a2-b1d8-11c097771907" seg-type="attribute-group">
+    <code>4eb82d9e-bd02-40a2-b1d8-11c097771907</code>
+    <title lang="ru">Для формы редактирования</title>
+    <attribute>employee</attribute>
+    <attribute>actualDate</attribute>
+    <attribute>time</attribute>
+    <attribute>serviceCall</attribute>
+    <attribute>description</attribute>
+    <order>employee</order>
+    <order>actualDate</order>
+    <order>time</order>
+    <order>serviceCall</order>
+    <order>description</order>
+</group>

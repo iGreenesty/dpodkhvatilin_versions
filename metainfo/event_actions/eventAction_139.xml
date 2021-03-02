@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$139" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[SkriptizmenyaetStatusPoNastupleniuDatyOtlozhenDo150]]></script>
+        </script-action>
+        <code>eventAction$139</code>
+        <description lang="ru">При наступлении даты/времени, указанных в поле "Отложить до", скрипт изменяет статус на "В работе". Ответственный назначается в соответствии со стратегией из настроек статуса </description>
+        <description>При наступлении даты/времени, указанных в поле "Отложить до", скрипт изменяет статус на "В работе". Ответственный назначается в соответствии со стратегией из настроек статуса </description>
+        <planned-event>
+            <eventType>onsetTimeOfAttr</eventType>
+            <attribute>postoponeTill</attribute>
+            <category>IN_TIME</category>
+            <offsetTime>0</offsetTime>
+            <status>2</status>
+        </planned-event>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Скрипт] Изменяет статус по наступлению даты "Отложен до"</title>
+        <title>Скрипт:изменяет статус по наступлению даты "Отложен до"</title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

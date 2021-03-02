@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="a8aed1ab-2557-496d-aa8e-19e6fb559896" seg-type="attribute-group">
+    <code>a8aed1ab-2557-496d-aa8e-19e6fb559896</code>
+    <title lang="ru">Для формы добавления</title>
+    <attribute>resolutionTime</attribute>
+    <attribute>services</attribute>
+    <attribute>priority</attribute>
+    <attribute>typesSCs</attribute>
+    <order>resolutionTime</order>
+    <order>services</order>
+    <order>priority</order>
+    <order>typesSCs</order>
+</group>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<class xmlns:xi="http://www.w3.org/2001/XInclude" id="monitoringEventTypes" seg-detach="true" seg-id="monitoringEventTypes" seg-type="object-group">
+    <object>
+        <attribute code="code">
+            <string>anomaly</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>monitoringEventTypes</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>1</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Аномалия</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>monitoringEventTypes$2283902</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>internal</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>monitoringEventTypes</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>2</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Внутреннее событие</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>monitoringEventTypes$2283903</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>rest</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>monitoringEventTypes</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>3</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Событие REST</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>monitoringEventTypes$2283904</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>snmpTrap</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>monitoringEventTypes</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>4</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>SNMP trap</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>monitoringEventTypes$2283905</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>trigger</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>monitoringEventTypes</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Триггер</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>monitoringEventTypes$2283901</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>unknownMetric</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>monitoringEventTypes</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>5</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Неизвестная метрика</ru>
+                <en>Unknown metric</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>monitoringEventTypes$2361501</string>
+        </attribute>
+    </object>
+</class>

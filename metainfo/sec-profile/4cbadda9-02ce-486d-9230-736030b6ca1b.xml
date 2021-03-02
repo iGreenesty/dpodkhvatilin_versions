@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="4cbadda9-02ce-486d-9230-736030b6ca1b" licensed="true" seg-detach="true" seg-id="4cbadda9-02ce-486d-9230-736030b6ca1b" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>AgreementRecipient</roles>
+    <title lang="ru">Получатель соглашения</title>
+</security-profile>

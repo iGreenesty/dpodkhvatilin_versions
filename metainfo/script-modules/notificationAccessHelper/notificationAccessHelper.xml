@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<module xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="notificationAccessHelper" seg-type="script-modules">
+    <code>notificationAccessHelper</code>
+    <description/>
+    <active>false</active>
+    <script checksum="1992dde4e23bda1f3652dd292f613bfd7a10a44cbb6d9fe5e9bce66030dc2ad7">
+        <xi:include href="notificationAccessHelper.groovy" parse="text"/>
+    </script>
+    <view_by_superusers>false</view_by_superusers>
+    <edit_by_superusers>false</edit_by_superusers>
+    <author>naumen</author>
+</module>

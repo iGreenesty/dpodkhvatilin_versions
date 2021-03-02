@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="SkriptNaznachenieOtvetstvennogoZaRazdelBZ102" seg-type="scripts">
+    <code>SkriptNaznachenieOtvetstvennogoZaRazdelBZ102</code>
+    <title>Скрипт: назначение ответственного за раздел БЗ</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="SkriptNaznachenieOtvetstvennogoZaRazdelBZ102.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

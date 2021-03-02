@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="ffb7bb1e-13d3-01db-0000-ffffffffc86ab024" seg-type="tab-bars" uuid="ffb7bb1e-13d3-01db-0000-ffffffffc86ab024">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fb409ae5-16fe-3f73-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="ffb7bb1d-13d3-01d9-0000-ffffffffc86ab024">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Отделы</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="ffb7bb1e-13d3-01da-0000-ffffffffc86ab024">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/ffcb005e-13d3-0020-0000-0000293ea6cd/ffcb005e-13d3-0020-0000-0000293ea6cd.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fb409ae5-16fe-3f74-0002-000014127783">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="ffb80f68-13d3-01de-0000-ffffffffc86ab024">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+            <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        </profiles>
+        <tags/>
+        <caption lang="ru">Команды</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="ffb80f69-13d3-01df-0000-ffffffffc86ab024">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/ffd1c978-13d3-0048-0000-0000293ea6cd/ffd1c978-13d3-0048-0000-0000293ea6cd.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fb409ae5-16fe-3f76-0002-000014127783">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="460672da-3b26-29e6-06ec-d02023ea74c2">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+        </profiles>
+        <tags/>
+        <caption lang="ru">Сотрудники</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="839878f9-0e9b-effe-aa6c-936b8afe2e44">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f9eba012-f29d-4fcb-be2b-448f3ef0bbaa/f9eba012-f29d-4fcb-be2b-448f3ef0bbaa.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fb409ae6-16fe-3f78-0002-000014127783">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

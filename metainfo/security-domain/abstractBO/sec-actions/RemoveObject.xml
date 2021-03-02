@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" code="RemoveObject" enabled="true" group="default" seg-detach="true" seg-id="RemoveObject" seg-type="sec-actions">
+    <title lang="en">Move object to archive</title>
+    <title lang="ru">Помещение объекта в архив</title>
+    <attributes>removalDate</attributes>
+    <attributes>removed</attributes>
+</action>

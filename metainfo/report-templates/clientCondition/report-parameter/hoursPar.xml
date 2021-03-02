@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="hoursPar" seg-type="report-parameter">
+    <code>hoursPar</code>
+    <title>Показывать заявки, которые будут просрочены через часов:</title>
+    <type>integer</type>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="anyType">
+        <long>2</long>
+    </value>
+    <visible>true</visible>
+    <overrided>false</overrided>
+    <params/>
+    <required>true</required>
+</parameter>

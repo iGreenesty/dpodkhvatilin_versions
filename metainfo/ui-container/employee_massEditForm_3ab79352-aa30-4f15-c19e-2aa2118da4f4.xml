@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="employee_massEditForm$3ab79352-aa30-4f15-c19e-2aa2118da4f4" seg-type="ui-container">
+    <fqn>
+        <id>employee</id>
+    </fqn>
+    <code>massEditForm$3ab79352-aa30-4f15-c19e-2aa2118da4f4</code>
+    <masseditform seg-detach="false" uuid="massEditForm$3ab79352-aa30-4f15-c19e-2aa2118da4f4">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Редактирование прав и лицензий  </caption>
+        <layout seg-detach="false" uuid="938fcf9f-2ad9-7a3e-8984-2a611a2a1772">
+            <profiles/>
+            <tags/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <attrGroup>PravaILicenziya</attrGroup>
+        <custom-form>MassEditForm</custom-form>
+        <show-attr-description>false</show-attr-description>
+        <transitioncases>
+            <id>employee</id>
+            <case>employee</case>
+        </transitioncases>
+        <transitioncases>
+            <id>employee</id>
+            <case>contactPerson</case>
+        </transitioncases>
+        <comment-on-form>notFill</comment-on-form>
+        <use-as-default>false</use-as-default>
+    </masseditform>
+</ui>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_VnutrennieRazdely" seg-type="tab-bars" uuid="tabs_VnutrennieRazdely">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efca7-16fc-1768-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>true</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="VnutrennieRazdely">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+            <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        </profiles>
+        <tags>
+            <tag>BazaZnanii</tag>
+        </tags>
+        <caption lang="ru">Внутренние разделы</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="3e7d77fb-d514-0aa4-c4ad-50330f4253d4">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/RazdelyVerhnegoUrovnya/RazdelyVerhnegoUrovnya.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efca7-16fc-176a-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="VneshnieRazdely">
+        <profiles/>
+        <tags>
+            <tag>BazaZnanii</tag>
+        </tags>
+        <caption lang="ru">Внешние разделы</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="3f67dea6-bd96-ad38-e06d-dd3777b1e5de">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/sections/sections.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efca7-16fc-176c-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

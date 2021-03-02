@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="registered" color="#FF0000" enabled="true" hardcoded="false" responsibleType="EMPLOYEE_AND_TEAM" seg-detach="true" seg-id="registered" seg-type="state">
+    <title lang="en">New</title>
+    <title lang="ru">Новая</title>
+    <description lang="en">Обращение клиента зафиксировано в системе</description>
+    <description lang="ru">Обращение клиента зафиксировано в системе</description>
+    <responsible bean="currentResponsibleStrategy"/>
+    <stateSetting canEdit="false" canView="false" code="categories" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Дополнительные категории</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="closedBy" postFill="0" preFill="0" requredInState="false">
+        <title lang="en">Closed by</title>
+        <title lang="ru">Кем закрыта</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="closedByEmployee" postFill="0" preFill="0" requredInState="false">
+        <title lang="en">Closed by employee</title>
+        <title lang="ru">Кем закрыт (сотрудник)</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="closedByTeam" postFill="0" preFill="0" requredInState="false">
+        <title lang="en">Closed by team</title>
+        <title lang="ru">Кем закрыт (команда)</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="codeOfClosing" postFill="0" preFill="0" requredInState="false">
+        <title lang="en">Closure Code</title>
+        <title lang="ru">Код закрытия</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="commentForMark" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Комментарий к оценке</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="dateDecision" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Дата решения</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="mark" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Оцените, пожалуйста, работу специалистов</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="postoponeTill" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Отложить до</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="resultDescr" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Отчет о выполнении</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="solvedBy" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Кем решена</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="solvedByEmployee" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Кем решен (сотрудник)</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="solvedByTeam" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Кем решен (команда)</title>
+    </stateSetting>
+    <preAction code="f187d6ce-1410-0ae3-0000-0000018bbb84" preAction="true" type="SCRIPT">
+        <title lang="ru">Заполняет атрибут "Способ обращения"</title>
+        <property code="script">ZapolnyaetAtributSposobObrasheniya55</property>
+    </preAction>
+    <preAction code="f174717a-14b0-2270-0001-00005da18d27" preAction="true" type="SCRIPT">
+        <title lang="ru">Ответственный с формы добавления, из услуги, из соглашения или по умолчанию в компании</title>
+        <property code="script">OtvetstvennymNaznachaetKuratoraEsliOnUkazanVUslugeIliOtvetstve56</property>
+    </preAction>
+    <preAction code="f0547bdd-1765-8321-0012-000035bdc518" preAction="true" type="SCRIPT">
+        <title lang="ru">Тест</title>
+        <property code="script">test</property>
+    </preAction>
+    <preActionsOrder>f187d6ce-1410-0ae3-0000-0000018bbb84</preActionsOrder>
+    <preActionsOrder>f174717a-14b0-2270-0001-00005da18d27</preActionsOrder>
+    <preActionsOrder>f0547bdd-1765-8321-0012-000035bdc518</preActionsOrder>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

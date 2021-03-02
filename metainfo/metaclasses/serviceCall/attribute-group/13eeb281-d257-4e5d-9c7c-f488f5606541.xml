@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="13eeb281-d257-4e5d-9c7c-f488f5606541" seg-type="attribute-group">
+    <code>13eeb281-d257-4e5d-9c7c-f488f5606541</code>
+    <title lang="ru">Ведущая заявка (если текущая заявка подчинённая)</title>
+    <attribute>masterMassProblem</attribute>
+    <order>masterMassProblem</order>
+</group>

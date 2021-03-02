@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="MainInfo" seg-type="contents" uuid="MainInfo">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efeac-16fc-1866-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Основная информация</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>mainInfo</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/11cba421-1964-6c89-1eea-4a570beb3672.xml" parse="xml"/>
+</properties>

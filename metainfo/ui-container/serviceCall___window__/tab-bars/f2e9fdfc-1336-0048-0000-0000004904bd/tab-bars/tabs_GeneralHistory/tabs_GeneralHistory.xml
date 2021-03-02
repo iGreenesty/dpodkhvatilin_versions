@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_GeneralHistory" seg-type="tab-bars" uuid="tabs_GeneralHistory">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef9f7-16fc-164a-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="GeneralHistory">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Общая история изменения</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="bea505c3-9099-4255-7245-06b6059bb26f">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/IstoriyaIzmenenii/IstoriyaIzmenenii.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6ef9f9-16fc-164c-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="ResponsibleHistory">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">История изменения ответственного</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="10be8d28-9f73-0fe7-e017-d66ac10976ff">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/IstoriyaIzmeneniyaOtvetstvennogo/IstoriyaIzmeneniyaOtvetstvennogo.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6ef9fa-16fc-164e-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="StateHistory">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">История изменения статуса</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="08176c23-dde5-2c9b-b855-13c45892990b">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/IstoriyaIzmeneniyaStatusa/IstoriyaIzmeneniyaStatusa.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6ef9fd-16fc-1650-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

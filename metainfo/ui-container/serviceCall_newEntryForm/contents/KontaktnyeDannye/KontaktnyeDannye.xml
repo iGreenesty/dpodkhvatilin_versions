@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<editable-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="KontaktnyeDannye" seg-type="contents" uuid="KontaktnyeDannye">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+    </profiles>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="6cfe7189-82fe-9ba5-2362-6f9a7c77e9bb">
+        <profiles/>
+        <tags/>
+        <elements seg-detach="false" uuid="909ec0c7-2c53-6469-6f27-cda707188888">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="979e5bff-9568-fe0b-0fb0-9e1ac41a3ebd">
+                <profiles/>
+                <tags/>
+                <properties>
+                    <entry>
+                        <key>isAttributeOfRelatedObject</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>isLinkToParent</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>attrTypeCode</key>
+                        <value>bool</value>
+                    </entry>
+                    <entry>
+                        <key>conditionCode</key>
+                        <value>contains</value>
+                    </entry>
+                    <entry>
+                        <key>attributeFqn</key>
+                        <value>serviceCall@clientNotFound</value>
+                    </entry>
+                </properties>
+                <value>
+                    <bool>true</bool>
+                </value>
+            </elements>
+        </elements>
+    </visibilityCondition>
+    <caption lang="ru">Контактные данные</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>KontaktnyeDannye</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/fdd3feef-16fc-12de-0002-0000132f4b3f.xml" parse="xml"/>
+    <resetValuesIfHidden>false</resetValuesIfHidden>
+</editable-properties>

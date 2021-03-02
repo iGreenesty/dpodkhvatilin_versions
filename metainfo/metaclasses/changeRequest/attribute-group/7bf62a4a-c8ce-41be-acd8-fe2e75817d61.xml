@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="7bf62a4a-c8ce-41be-acd8-fe2e75817d61" seg-type="attribute-group">
+    <code>7bf62a4a-c8ce-41be-acd8-fe2e75817d61</code>
+    <title lang="ru">Для списка</title>
+    <attribute>number</attribute>
+    <attribute>creationDate</attribute>
+    <attribute>description</attribute>
+    <attribute>state</attribute>
+    <attribute>responsible</attribute>
+    <attribute>deadline</attribute>
+    <attribute>category</attribute>
+    <attribute>clientSC</attribute>
+    <order>number</order>
+    <order>creationDate</order>
+    <order>description</order>
+    <order>state</order>
+    <order>responsible</order>
+    <order>deadline</order>
+    <order>category</order>
+    <order>clientSC</order>
+</group>

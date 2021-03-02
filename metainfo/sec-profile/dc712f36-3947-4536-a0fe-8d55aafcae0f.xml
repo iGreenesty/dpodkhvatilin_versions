@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="dc712f36-3947-4536-a0fe-8d55aafcae0f" licensed="false" seg-detach="true" seg-id="dc712f36-3947-4536-a0fe-8d55aafcae0f" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>ServiceCallClient</roles>
+    <title lang="ru">Контрагент заявки (нелиц.)</title>
+</security-profile>

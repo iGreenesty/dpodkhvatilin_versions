@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration xmlns:xi="http://www.w3.org/2001/XInclude" UUID="fab026bd-1414-0b98-0000-0000015c43f0" daysPeriod="90" seg-detach="true" seg-id="fab026bd-1414-0b98-0000-0000015c43f0" seg-type="advimports">
+    <title lang="ru">Конфигурация импорта сотрудников из AD</title>
+    <configContainer>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../../../../target/classes/advimport/schema1.xsd"
+    save-log="true" threads-number="1"&gt;
+
+    &lt;mode&gt;CREATE&lt;/mode&gt;
+    &lt;mode&gt;UPDATE&lt;/mode&gt;
+&lt;!-- Параметры подключения AD. Необходимо заполнить перед использованием конфигурации --&gt;
+    &lt;!-- Указывается код подключения к LDAP --&gt;
+	&lt;parameter name="connectionCode"&gt;ldap&lt;/parameter&gt;
+    &lt;parameter name="ldapDomain"&gt;&lt;/parameter&gt;
+    &lt;!-- Задает код отдела являющегося корневым отделом импорта --&gt;        
+    &lt;parameter name="rootDN"&gt;&lt;/parameter&gt;
+&lt;!-- Параметры импорта --&gt;
+    &lt;!-- Указываем uuid компании, чтобы заархивировались все отделы и сотрудники с непустым idHolder, не участвовавшие в импорте --&gt;
+    &lt;parameter name="importRootUUID"&gt;root$101&lt;/parameter&gt;
+    &lt;!-- Задает метакласс импортируемых отделов --&gt;
+    &lt;parameter name="ouMetaClass"&gt;ou$ou&lt;/parameter&gt;
+    &lt;!-- Задает код атрибута отделов в котором хранится внешний идентификатор --&gt;
+    &lt;parameter name="ouIdHolder"&gt;idHolder&lt;/parameter&gt;
+    &lt;!-- Задает метакласс импортируемых сотрудников --&gt;
+    &lt;parameter name="employeeMetaClass"&gt;employee$employee&lt;/parameter&gt;
+    &lt;!-- Задает код атрибута сотрудников в котором хранится внешний идентификатор --&gt;
+    &lt;parameter name="employeeIdHolder"&gt;idHolder&lt;/parameter&gt;
+    &lt;!-- Задает DN, который будет проигнорирован (он и все вложенные объекты не будут проимпортированы). --&gt;
+    &lt;!-- &lt;parameter name="ignoredOU01"&gt;&lt;/parameter&gt; --&gt;
+&lt;!-- Импорт отделов --&gt;
+    &lt;class name="ou" threads-number="1"&gt;
+        &lt;parameter name="metaClass"&gt;${ouMetaClass}&lt;/parameter&gt;
+        &lt;parameter name="idHolder"&gt;${ouIdHolder}&lt;/parameter&gt;
+        &lt;ldap-data-source
+            domain="${ldapDomain}"
+            id-column="id" check-user-disabled="true"
+            full-domain="true" import-root="false"&gt;
+            &lt;column name="id" src-key="objectGUID" /&gt;
+            &lt;column name="parent" src-key="parent" /&gt;
+            &lt;column name="name" src-key="name" /&gt;
+            &lt;connection-code&gt;${connectionCode}&lt;/connection-code&gt;
+            &lt;root-element&gt;${rootDN}&lt;/root-element&gt;
+            &lt;import-tag&gt;ou&lt;/import-tag&gt;
+            &lt;import-tag&gt;dc&lt;/import-tag&gt;
+            &lt;!-- Пример использования ignored-postfix --&gt;
+            &lt;!-- Не будут импортированы все объекты чей distingushedName заканчивается такой строкой --&gt;
+            &lt;!-- &lt;ignored-postfix&gt;${ignoredOU01}&lt;/ignored-postfix&gt; --&gt;
+        &lt;/ldap-data-source&gt;
+        &lt;hierarchical-filter parent-column="parent"/&gt;
+        &lt;!-- &lt;column-notempty-filter column="ipPhone" /&gt;  --&gt;
+        &lt;constant-metaclass-resolver /&gt;
+        &lt;object-searcher attr="${ouIdHolder}" /&gt;
+        &lt;attr name="${ouIdHolder}" column="id" /&gt;
+        &lt;attr name="title" column="name" /&gt;
+        &lt;attr name="parent" column="parent"&gt;
+            &lt;object-converter attr="${ouIdHolder}" required="false"/&gt;
+        &lt;/attr&gt;
+        &lt;remove-customizer attr="${ouIdHolder}" hierarchy-root="${importRootUUID}" metaclass="${ouMetaClass}" /&gt; 
+    &lt;/class&gt;
+&lt;!-- Импорт сотрудников --&gt;
+    &lt;class name="employee" threads-number="1"&gt;
+        &lt;parameter name="metaClass"&gt;${employeeMetaClass}&lt;/parameter&gt;
+        &lt;parameter name="idHolder"&gt;${employeeIdHolder}&lt;/parameter&gt;
+        &lt;ldap-data-source
+            domain="${ldapDomain}"
+            id-column="id" check-user-disabled="true"
+            full-domain="true" import-root="false"&gt;
+            &lt;column name="id" src-key="objectGUID" /&gt;
+            &lt;column name="parent" src-key="parent" /&gt;
+            &lt;column name="displayName" src-key="displayName"/&gt;
+            &lt;column name="firstName" src-key="givenName" /&gt;
+            &lt;column name="lastName" src-key="sn" /&gt;
+            &lt;column name="middleName" src-key="initials" /&gt;
+            &lt;column name="post" src-key="title" /&gt; 
+            &lt;column name="email" src-key="mail" /&gt;
+            &lt;column name="userAccountControl" src-key="userAccountControl" /&gt;
+            &lt;column name="login" src-key="sAMAccountName" /&gt;
+            &lt;column name="ipPhone" src-key="ipPhone" /&gt;
+            &lt;column name="mobilePhoneNumber" src-key="mobile" /&gt;
+            &lt;column name="homePhone" src-key="homePhone" /&gt;
+			&lt;column name="cityPhoneNumber" src-key="telephoneNumber" /&gt;
+            &lt;column name="thumbnailPhoto" src-key="thumbnailPhoto" /&gt;
+            &lt;column name="agreement_column_name" src-key="ldap_agreement_attribute_name" /&gt;
+            &lt;connection-code&gt;${connectionCode}&lt;/connection-code&gt;
+            &lt;root-element&gt;${rootDN}&lt;/root-element&gt;
+            &lt;import-tag&gt;cn&lt;/import-tag&gt;
+            &lt;import-tag&gt;dn&lt;/import-tag&gt;
+            &lt;!-- Поскольку отдел OU1 и все вложенные отделы не были импортированы, не нужно импортировать и сотрудников вложенных в них --&gt;
+            &lt;!-- &lt;ignored-postfix&gt;${ignoredOU01}&lt;/ignored-postfix&gt; --&gt;
+        &lt;/ldap-data-source&gt;
+        &lt;hierarchical-filter parent-column="parent" /&gt;
+        &lt;constant-metaclass-resolver /&gt;
+        &lt;object-searcher attr="${employeeIdHolder}" /&gt;
+        &lt;attr name="${employeeIdHolder}" column="id" /&gt;
+        &lt;attr name="parent" column="parent"&gt;
+            &lt;object-converter attr="${employeeIdHolder}" metaclass="${ouMetaClass}" required="true" /&gt;
+        &lt;/attr&gt;
+&lt;!-- Скрипты-конвертеры для извлефения фамилии, имени и отчества из поля displayName --&gt;
+        &lt;!-- Извлекает из атрибута displayName (ФИО) фамилию. Она всегда должна быть первым словом. --&gt;
+        &lt;attr name="lastName" column="displayName"&gt;
+            &lt;script-converter&gt;
+                &lt;![CDATA[ 
+                    try {
+                        value.split('\\s')[0]
+                    } catch (ArrayIndexOutOfBoundsException e) {
+                        throw new Exception('Фамилия сотрудника должна быть первым словом атрибута displayName')
+                    }
+                ]]&gt;
+            &lt;/script-converter&gt;
+        &lt;/attr&gt;
+        &lt;!-- Извлекает из атрибута displayName (ФИО) имя сотрудника. Оно всегда должно быть вторым словом. --&gt;
+        &lt;attr name="firstName" column="displayName"&gt;
+            &lt;script-converter&gt;
+                &lt;![CDATA[
+                    try {
+                        value.split('\\s')[1]
+                    } catch (ArrayIndexOutOfBoundsException e) {
+                        throw new Exception('Имя сотрудника должно быть вторым словом атрибута displayName')
+                    }
+                ]]&gt;
+            &lt;/script-converter&gt;
+        &lt;/attr&gt;
+        &lt;!-- Извлекает из атрибута displayName (ФИО) отчество сотрудника. Оно всегда должно быть третьим словом, но может и не присутствовать. --&gt;
+        &lt;attr name="middleName" column="displayName"&gt;
+            &lt;script-converter&gt;
+                &lt;![CDATA[
+                    try {
+                        value.split('\\s')[2]
+                    } catch (ArrayIndexOutOfBoundsException e) {
+                        ''
+                    }
+                ]]&gt;
+            &lt;/script-converter&gt;
+        &lt;/attr&gt;
+&lt;!-- Если указанные выше скрипты-конвертеры не используются, то требуется разкомментировать следующие три строки --&gt;
+        &lt;!-- &lt;attr name="firstName" column="firstName" /&gt;
+        &lt;attr name="lastName" column="lastName" /&gt;
+        &lt;attr name="middleName" column="middleName" /&gt; --&gt;
+        &lt;attr name="image" column="thumbnailPhoto"&gt;
+			&lt;script-converter&gt;
+                &lt;![CDATA[
+                    import ru.naumen.metainfo.server.spi.store.FileDto;
+                    if(null!=value)
+                        {
+                        FileDto dto = new FileDto();
+                        dto.setTitle("thumbnailPhoto");
+                        dto.getContent().setValue(org.apache.commons.codec.binary.Hex.decodeHex(value.replace("\\", "").toCharArray()));        
+                        dto.setMimeType("image/jpg");
+                        return java.util.Collections.singleton(dto);
+                        }
+                ]]&gt;
+            &lt;/script-converter&gt;
+        &lt;/attr&gt;  
+        &lt;attr name="post" column="post" /&gt;
+        &lt;attr name="email" column="email" /&gt;
+        &lt;attr name="mobilePhoneNumber" column="mobilePhoneNumber" /&gt;
+        &lt;attr name="internalPhoneNumber" column="ipPhone" /&gt;
+        &lt;attr name="homePhoneNumber" column="homePhone" /&gt;
+        &lt;attr name="cityPhoneNumber" column="cityPhoneNumber" /&gt;
+        &lt;attr name="login" column="login" /&gt;
+        &lt;attr name="removed" default-value="false" /&gt;
+        &lt;remove-customizer attr="${employeeIdHolder}" hierarchy-root="${importRootUUID}" metaclass="${employeeMetaClass}" /&gt;
+    &lt;/class&gt;
+    &lt;!-- Назначение сотрудников руководителями отделов --&gt;
+    
+&lt;/config&gt;</configContainer>
+</configuration>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="userTeamEmployee" enabled="true" seg-detach="true" seg-id="userTeamEmployee" seg-type="roles" type="SYSTEM">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="snippet">userTeamEmployeeRoleSnippet</property>
+    <title lang="en">User team member</title>
+    <title lang="ru">Участник команды сотрудника</title>
+</role>

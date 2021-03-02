@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="4c3f8d3f-46cd-4708-91ad-9a29184186c5" seg-type="attribute-group">
+    <code>4c3f8d3f-46cd-4708-91ad-9a29184186c5</code>
+    <title lang="ru">Для карточки согласования</title>
+    <attribute>clientSC</attribute>
+    <attribute>description</attribute>
+    <attribute>deadline</attribute>
+    <order>clientSC</order>
+    <order>description</order>
+    <order>deadline</order>
+</group>

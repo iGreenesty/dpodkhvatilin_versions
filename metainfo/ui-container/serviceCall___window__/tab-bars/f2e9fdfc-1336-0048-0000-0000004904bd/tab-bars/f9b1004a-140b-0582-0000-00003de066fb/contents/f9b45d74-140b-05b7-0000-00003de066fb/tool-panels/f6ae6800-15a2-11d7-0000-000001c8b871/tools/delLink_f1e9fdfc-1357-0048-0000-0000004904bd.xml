@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="delLink_f1e9fdfc-1357-0048-0000-0000004904bd" seg-type="tools" uuid="f1e9fdfc-1357-0048-0000-0000004904bd">
+    <profiles/>
+    <tags/>
+    <appliedToType>listObjects</appliedToType>
+    <params/>
+    <presentationType>link</presentationType>
+    <action>delLink</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">delete</caption>
+    <caption lang="ru">разорвать связь</caption>
+</action>

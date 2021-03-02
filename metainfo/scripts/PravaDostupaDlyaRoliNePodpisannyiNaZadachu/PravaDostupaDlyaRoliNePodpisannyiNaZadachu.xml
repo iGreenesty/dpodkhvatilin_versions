@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="PravaDostupaDlyaRoliNePodpisannyiNaZadachu" seg-type="scripts">
+    <code>PravaDostupaDlyaRoliNePodpisannyiNaZadachu</code>
+    <title lang="ru">Не подписанный на задачу. Права</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="PravaDostupaDlyaRoliNePodpisannyiNaZadachu.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

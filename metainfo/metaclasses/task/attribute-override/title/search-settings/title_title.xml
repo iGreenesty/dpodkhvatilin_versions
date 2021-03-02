@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="title_title" seg-type="search-settings">
+    <simpleSearchableForLicensed>true</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>false</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>false</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>false</extendedSearchableForLicensed>
+    <searchAnalizer>ftsRussianAnalyzer</searchAnalizer>
+    <searchBoost>1.0</searchBoost>
+    <code>title</code>
+    <declaredMetaClass>task</declaredMetaClass>
+    <title>Название</title>
+    <attrCode>title</attrCode>
+</searchSetting>

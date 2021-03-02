@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="system" seg-type="attribute-group-override">
+    <code>system</code>
+    <attribute>KBtoAddArticle</attribute>
+    <order>title</order>
+    <order>number</order>
+    <order>metaClass</order>
+    <order>state</order>
+    <order>registrationDate</order>
+    <order>requestDate</order>
+    <order>client</order>
+    <order>description</order>
+    <order>service</order>
+    <order>author</order>
+    <order>massProblem</order>
+    <order>timeZone</order>
+    <order>impact</order>
+    <order>urgency</order>
+    <order>KBtoAddArticle</order>
+</override>

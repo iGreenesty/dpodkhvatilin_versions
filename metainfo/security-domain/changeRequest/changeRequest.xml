@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-domain xmlns:xi="http://www.w3.org/2001/XInclude" code="changeRequest" seg-detach="true" seg-id="changeRequest" seg-type="security-domain">
+    <xi:include href="access-matrix/access-matrix.xml" parse="xml"/>
+    <xi:include href="marker-declarations/6c061f39-69c4-439e-bf96-d95e8e14fc76.xml" parse="xml"/>
+    <xi:include href="marker-declarations/cb16b85f-d576-41a3-abf2-87dc7d5f290e.xml" parse="xml"/>
+    <xi:include href="marker-declarations/editState.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleCurrentTeam.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleCurrentTeamEmployee.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleOtherTeam.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleOtherTeamEmployee.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleOwnTeam.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleOwnTeamEmployee.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleTake.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleTakeCurrentTeam.xml" parse="xml"/>
+    <xi:include href="roles/changeRequest_LastEmpResp.xml" parse="xml"/>
+    <xi:include href="roles/changeRequest_LastEmpTeamMember.xml" parse="xml"/>
+    <xi:include href="roles/changeRequest_RespEmpTeamLeader.xml" parse="xml"/>
+    <xi:include href="roles/changeRequest_RespEmpTeamMember.xml" parse="xml"/>
+    <xi:include href="roles/changeRequest_RespHead.xml" parse="xml"/>
+    <xi:include href="roles/changeRequest_ResponsibleEmployee.xml" parse="xml"/>
+    <xi:include href="roles/changeRequest_ResponsibleTeamMember.xml" parse="xml"/>
+    <xi:include href="roles/changeRequest_RespTeamLeader.xml" parse="xml"/>
+    <xi:include href="roles/ba066dc4-74b0-436f-bbf7-f3fb3ed78281.xml" parse="xml"/>
+</security-domain>

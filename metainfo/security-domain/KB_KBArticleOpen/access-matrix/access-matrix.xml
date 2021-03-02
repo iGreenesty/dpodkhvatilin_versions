@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<access-matrix xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="access-matrix" seg-type="access-matrix">
+    <xi:include href="elements/d0555bc6-0d66-46dd-be00-08537490b463_51da8cfb-cfd8-4507-95a0-5c47eae79976.xml" parse="xml"/>
+    <xi:include href="elements/d0555bc6-0d66-46dd-be00-08537490b463_53ff6317-2198-41f0-b9b5-72e052724e8d.xml" parse="xml"/>
+    <xi:include href="elements/35573527-f04d-4c29-94e9-7afbe1ffccee_81a348a4-e0c7-4cb9-8d09-92aaf1800829.xml" parse="xml"/>
+    <xi:include href="elements/93c05515-1689-4624-90c8-c7f0066bd6d8_81a348a4-e0c7-4cb9-8d09-92aaf1800829.xml" parse="xml"/>
+    <xi:include href="elements/CommentAdd_81a348a4-e0c7-4cb9-8d09-92aaf1800829.xml" parse="xml"/>
+    <xi:include href="elements/CommentView_81a348a4-e0c7-4cb9-8d09-92aaf1800829.xml" parse="xml"/>
+    <xi:include href="elements/CommentViewAuthor_81a348a4-e0c7-4cb9-8d09-92aaf1800829.xml" parse="xml"/>
+    <xi:include href="elements/f97cb228-9193-4c18-950a-aeedaff34008_81a348a4-e0c7-4cb9-8d09-92aaf1800829.xml" parse="xml"/>
+    <xi:include href="elements/faaea3cb-05cd-4588-871a-9715e9cd87c9_81a348a4-e0c7-4cb9-8d09-92aaf1800829.xml" parse="xml"/>
+    <xi:include href="elements/FileView_81a348a4-e0c7-4cb9-8d09-92aaf1800829.xml" parse="xml"/>
+    <xi:include href="elements/ShowInSearchResults_81a348a4-e0c7-4cb9-8d09-92aaf1800829.xml" parse="xml"/>
+    <xi:include href="elements/ViewObjectCard_81a348a4-e0c7-4cb9-8d09-92aaf1800829.xml" parse="xml"/>
+    <xi:include href="elements/d0555bc6-0d66-46dd-be00-08537490b463_866028cf-6f06-4617-a76b-8a98f01effbf.xml" parse="xml"/>
+    <xi:include href="elements/ShowInSearchResults_9ad6df49-3d63-401b-9f62-8be204a5952d.xml" parse="xml"/>
+    <xi:include href="elements/d0555bc6-0d66-46dd-be00-08537490b463_c3878215-3a21-497d-a606-8854503ead1a.xml" parse="xml"/>
+    <xi:include href="elements/d0555bc6-0d66-46dd-be00-08537490b463_fa4d0490-5d22-4ad5-ade1-8e1398ff73c0.xml" parse="xml"/>
+    <xi:include href="elements/faaea3cb-05cd-4588-871a-9715e9cd87c9_fa4d0490-5d22-4ad5-ade1-8e1398ff73c0.xml" parse="xml"/>
+</access-matrix>

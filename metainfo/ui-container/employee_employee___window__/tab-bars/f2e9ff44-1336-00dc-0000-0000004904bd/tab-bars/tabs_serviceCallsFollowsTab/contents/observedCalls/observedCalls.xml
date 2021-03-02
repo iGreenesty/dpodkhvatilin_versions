@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="observedCalls" seg-type="contents" uuid="observedCalls">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="7629753e-15bf-ba69-c460-134ff0f21042">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Наблюдаемые заявки</caption>
+    <showCaption>false</showCaption>
+    <class>
+        <id>serviceCall</id>
+    </class>
+    <attributeGroup>DlyaSpiskaPodpisok</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/c26290ae-7049-5938-6ad8-699517b45071/c26290ae-7049-5938-6ad8-699517b45071.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae66e7-15a2-10e7-0000-000001c8b871/f6ae66e7-15a2-10e7-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f1beb9dd-173e-7d4c-001f-000060086411">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f1bebb5f-173e-7faf-001f-000060086411">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c50bf-168d-122b-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>observedCall</attr-link-code>
+    <attrs-chain attr-code="observedCall" class-fqn="employee$employee"/>
+    <filterRestrictionSettings/>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Заявка</caption>
+    </add-form>
+    <objectActionsMenu>
+        <menuIconCatalogCode>additionalActions</menuIconCatalogCode>
+        <objectActionsMenuPosition>LEFT</objectActionsMenuPosition>
+        <xi:include href="tool-panels/f1e33879-161e-487f-0045-000001840552/f1e33879-161e-487f-0045-000001840552.xml" parse="xml"/>
+        <useSystemSettings>false</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

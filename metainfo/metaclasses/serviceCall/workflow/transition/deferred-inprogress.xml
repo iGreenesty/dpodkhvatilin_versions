@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transition xmlns:xi="http://www.w3.org/2001/XInclude" enabled="true" from="deferred" seg-detach="true" seg-id="deferred-inprogress" seg-type="transition" to="inprogress">
+    <title lang="en">Take in work</title>
+    <title lang="ru">В работу</title>
+</transition>

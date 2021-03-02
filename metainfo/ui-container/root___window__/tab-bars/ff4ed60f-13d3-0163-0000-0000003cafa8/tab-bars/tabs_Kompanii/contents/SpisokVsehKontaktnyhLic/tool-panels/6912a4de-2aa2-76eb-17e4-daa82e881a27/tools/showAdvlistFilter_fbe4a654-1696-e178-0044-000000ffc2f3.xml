@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="showAdvlistFilter_fbe4a654-1696-e178-0044-000000ffc2f3" seg-type="tools" uuid="fbe4a654-1696-e178-0044-000000ffc2f3">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <iconCode>filter_button</iconCode>
+    <params/>
+    <presentationType>pushImageOnly</presentationType>
+    <action>showAdvlistFilter</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Filtration</caption>
+    <caption lang="ru">Фильтрация...</caption>
+</action>

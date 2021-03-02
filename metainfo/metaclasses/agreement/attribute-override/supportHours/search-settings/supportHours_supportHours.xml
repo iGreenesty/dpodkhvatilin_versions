@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="supportHours_supportHours" seg-type="search-settings">
+    <simpleSearchableForLicensed>false</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>false</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>false</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>false</extendedSearchableForLicensed>
+    <searchBoost>1.0</searchBoost>
+    <code>supportHours</code>
+    <declaredMetaClass>agreement</declaredMetaClass>
+    <title lang="en">Support hours</title>
+    <title lang="ru">График работы</title>
+    <title>График поддержки услуг</title>
+    <attrCode>supportHours</attrCode>
+</searchSetting>

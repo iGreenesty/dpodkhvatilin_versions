@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="copy_f2e9fe02-1336-007d-0000-0000004404bg" seg-type="tools" uuid="f2e9fe02-1336-007d-0000-0000004404bg">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <params/>
+    <presentationType>default</presentationType>
+    <action>copy</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Copy</caption>
+    <caption lang="ru">Копировать</caption>
+</action>

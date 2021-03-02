@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ReshennyeIOtkrytyeZayavkiSotrudnikovKomandy178" seg-type="scripts">
+    <code>ReshennyeIOtkrytyeZayavkiSotrudnikovKomandy178</code>
+    <title lang="ru">Решенные и открытые заявки сотрудников команды</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="ReshennyeIOtkrytyeZayavkiSotrudnikovKomandy178.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

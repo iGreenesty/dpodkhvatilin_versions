@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="resumed" color="#964B00" enabled="true" hardcoded="false" responsibleType="EMPLOYEE_AND_TEAM" seg-detach="true" seg-id="resumed" seg-type="state">
+    <title lang="ru">Возобновлена</title>
+    <description lang="ru"/>
+    <responsible bean="currentResponsibleStrategy"/>
+    <changeResponsibleButtonVisible>true</changeResponsibleButtonVisible>
+    <stateSetting canEdit="true" canView="true" code="@comment" postFill="0" preFill="1" requredInState="false">
+        <title lang="ru">Комментарии</title>
+    </stateSetting>
+    <stateSetting canEdit="true" canView="true" code="deadline" postFill="0" preFill="1" requredInState="false">
+        <title lang="ru">Дедлайн</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="postoponeTill" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Отложить до</title>
+    </stateSetting>
+    <preAction code="f45bebe8-173b-9eaf-0012-000060086411" preAction="true" type="SCRIPT">
+        <title lang="ru">Увеличивает счетчик количества возобновлений на единицу</title>
+        <property code="script">UvelichivaetSchetchikKolichestvaVozobnovleniiNaEdinicu64</property>
+    </preAction>
+    <preActionsOrder>f45bebe8-173b-9eaf-0012-000060086411</preActionsOrder>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

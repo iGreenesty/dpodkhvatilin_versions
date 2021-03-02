@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="b129fbbc-4a24-4f49-be99-a6d7bd67c72e" seg-type="attribute-group">
+    <code>b129fbbc-4a24-4f49-be99-a6d7bd67c72e</code>
+    <title lang="ru">Описание проблемы</title>
+    <attribute>state</attribute>
+    <attribute>categories</attribute>
+    <attribute>factProbDate</attribute>
+    <attribute>description</attribute>
+    <order>state</order>
+    <order>categories</order>
+    <order>factProbDate</order>
+    <order>description</order>
+</group>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<access-matrix xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="access-matrix" seg-type="access-matrix">
+    <xi:include href="elements/AddObject_51da8cfb-cfd8-4507-95a0-5c47eae79976.xml" parse="xml"/>
+    <xi:include href="elements/editRestAttributes_51da8cfb-cfd8-4507-95a0-5c47eae79976.xml" parse="xml"/>
+    <xi:include href="elements/exportAdvlist_51da8cfb-cfd8-4507-95a0-5c47eae79976.xml" parse="xml"/>
+    <xi:include href="elements/FileAdd_51da8cfb-cfd8-4507-95a0-5c47eae79976.xml" parse="xml"/>
+    <xi:include href="elements/FileView_51da8cfb-cfd8-4507-95a0-5c47eae79976.xml" parse="xml"/>
+    <xi:include href="elements/ViewObjectCard_51da8cfb-cfd8-4507-95a0-5c47eae79976.xml" parse="xml"/>
+    <xi:include href="elements/viewRestAttributes_51da8cfb-cfd8-4507-95a0-5c47eae79976.xml" parse="xml"/>
+</access-matrix>

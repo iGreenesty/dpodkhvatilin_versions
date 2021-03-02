@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="changeRequest_newEntryForm" seg-type="ui-container">
+    <fqn>
+        <id>changeRequest</id>
+    </fqn>
+    <code>newEntryForm</code>
+    <form seg-detach="false" uuid="f1e9fdfc-1343-0048-0000-0000004904bd">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Форма добавления</caption>
+        <layout seg-detach="false" uuid="f1e9fdfc-1344-0048-0000-0000004904bd">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/fb8d45a4-13da-006f-0000-000031ad6b84/fb8d45a4-13da-006f-0000-000031ad6b84.xml" parse="xml"/>
+            <xi:include href="contents/ff20be6a-140d-01ff-0000-ffffffffcdb8b569/ff20be6a-140d-01ff-0000-ffffffffcdb8b569.xml" parse="xml"/>
+            <xi:include href="contents/f2de3201-140e-020a-0000-ffffffffcdb8b569/f2de3201-140e-020a-0000-ffffffffcdb8b569.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+    </form>
+</ui>

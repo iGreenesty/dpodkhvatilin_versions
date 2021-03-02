@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f69f5177-13f7-1d51-0000-ffffffffc53c4b5e" seg-type="contents" uuid="f69f5177-13f7-1d51-0000-ffffffffc53c4b5e">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efe27-16fc-1822-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Запросы на изменение в ответственности команды</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>changeRequest</id>
+    </class>
+    <attributeGroup>02be1cc7-0f65-454f-a03f-88b51849c268</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/f3086b6f-165b-d88b-0052-000000ee8080/f3086b6f-165b-d88b-0052-000000ee8080.xml" parse="xml"/>
+    <xi:include href="tool-panels/f3086b6f-165b-d88c-0052-000000ee8080.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f6ae6600-15a2-1052-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f6ae6600-15a2-1053-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4f59-168d-11ef-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attrs-chain attr-code="respForChReqs" class-fqn="team"/>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="changeRequest" code="category"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="changeRequest" code="responsible"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <add-form>
+        <caption lang="ru">Связать с запросом на изменение</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

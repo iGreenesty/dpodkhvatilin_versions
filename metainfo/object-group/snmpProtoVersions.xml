@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<class xmlns:xi="http://www.w3.org/2001/XInclude" id="snmpProtoVersions" seg-detach="true" seg-id="snmpProtoVersions" seg-type="object-group">
+    <object>
+        <attribute code="code">
+            <string>1</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>snmpProtoVersions</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>1</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>snmpProtoVersions$2243101</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>2</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>snmpProtoVersions</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>2</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>snmpProtoVersions$2243102</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>3</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>snmpProtoVersions</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>3</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>snmpProtoVersions$2243103</string>
+        </attribute>
+    </object>
+</class>

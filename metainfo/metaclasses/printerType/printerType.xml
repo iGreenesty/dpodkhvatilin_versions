@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="printerType" seg-type="metaclasses">
+    <fqn>
+        <id>printerType</id>
+    </fqn>
+    <parent>
+        <id>catalogItem</id>
+    </parent>
+    <title lang="ru">Элемент справочника 'Типы принтера'</title>
+    <description lang="ru"/>
+    <properties/>
+    <tags/>
+    <responsibilityTransferTableEnabled>true</responsibilityTransferTableEnabled>
+    <attributes/>
+    <attribute-overrides/>
+    <permittedTypesInfo/>
+    <attribute-groups/>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>0</searchOrder>
+    <status>DEFAULT</status>
+</user-metaclass>

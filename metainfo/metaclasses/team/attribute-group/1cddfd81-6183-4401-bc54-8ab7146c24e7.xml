@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="1cddfd81-6183-4401-bc54-8ab7146c24e7" seg-type="attribute-group">
+    <code>1cddfd81-6183-4401-bc54-8ab7146c24e7</code>
+    <title lang="ru">Для формы редактирования</title>
+    <attribute>title</attribute>
+    <attribute>members</attribute>
+    <attribute>leader</attribute>
+    <order>title</order>
+    <order>members</order>
+    <order>leader</order>
+</group>

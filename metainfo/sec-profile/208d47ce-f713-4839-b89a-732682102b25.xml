@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="208d47ce-f713-4839-b89a-732682102b25" licensed="true" seg-detach="true" seg-id="208d47ce-f713-4839-b89a-732682102b25" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>c9406137-e0ce-4fdb-83cf-1116218148da</roles>
+    <title lang="ru">Автор задачи</title>
+</security-profile>

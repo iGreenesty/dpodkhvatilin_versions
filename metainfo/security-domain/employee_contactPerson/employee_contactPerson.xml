@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-domain xmlns:xi="http://www.w3.org/2001/XInclude" code="employee$contactPerson" seg-detach="true" seg-id="employee$contactPerson" seg-type="security-domain">
+    <xi:include href="access-matrix/access-matrix.xml" parse="xml"/>
+    <xi:include href="marker-declarations/937658f5-2af0-4eaf-96ff-15ef98b0d4d5.xml" parse="xml"/>
+    <xi:include href="marker-declarations/bfac5993-8f8f-4c61-9c3c-4b599cbfc5b3.xml" parse="xml"/>
+    <xi:include href="marker-declarations/05d8d503-524e-4542-a261-968110eee633.xml" parse="xml"/>
+    <xi:include href="marker-declarations/995a7560-6593-4844-91e3-8c4b62736c6f.xml" parse="xml"/>
+    <xi:include href="marker-declarations/dfaa0a83-8864-4bf1-847d-cb4acc4c6db8.xml" parse="xml"/>
+</security-domain>

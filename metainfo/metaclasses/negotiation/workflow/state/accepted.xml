@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="accepted" color="#669933" enabled="true" hardcoded="false" responsibleType="EMPLOYEE_AND_TEAM" seg-detach="true" seg-id="accepted" seg-type="state">
+    <title lang="ru">Согласовано</title>
+    <description lang="ru"/>
+    <responsible bean="currentResponsibleStrategy"/>
+    <changeResponsibleButtonVisible>true</changeResponsibleButtonVisible>
+    <stateSetting canEdit="false" canView="true" code="@comment" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Комментарии</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="cabEmployee" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Согласующий комитет (сотрудники)</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="cabOU" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Согласующий комитет (отделы)</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="cabTeam" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Согласующий комитет (команды)</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="description" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Описание</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="folders" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Папки</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="icon" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Иконка</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="period" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Период согласования</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="responsible" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Ответственный</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="RFCsupposed" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Описание предлагаемого изменения</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="serviceTime" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Класс обслуживания</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="source" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Источник</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="timeZone" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Часовой пояс</title>
+    </stateSetting>
+    <preAction code="ffda1d0e-140b-134b-0000-0000000693b7" preAction="true" type="SCRIPT">
+        <title lang="ru">Заполнение фактической даты завершения</title>
+        <property code="script">ZapolnenieFakticheskoiDatyZaversheniya76</property>
+    </preAction>
+    <preActionsOrder>ffda1d0e-140b-134b-0000-0000000693b7</preActionsOrder>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

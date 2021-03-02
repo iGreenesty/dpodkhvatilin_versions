@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="actualDate" seg-type="form-parameters">
+    <attrs-for-date-time-restriction-script/>
+    <attrs-in-cof-script/>
+    <code>actualDate</code>
+    <complexRelation>false</complexRelation>
+    <complexRelationAggrAttrGroups>
+        <entry>
+            <key>
+                <id>employee</id>
+            </key>
+        </entry>
+        <entry>
+            <key>
+                <id>ou</id>
+            </key>
+        </entry>
+        <entry>
+            <key>
+                <id>team</id>
+            </key>
+        </entry>
+    </complexRelationAggrAttrGroups>
+    <computable-on-form>false</computable-on-form>
+    <date-time-common-restrictions>PAST</date-time-common-restrictions>
+    <date-time-common-restrictions>FUTURE</date-time-common-restrictions>
+    <date-time-restriction-type>NO_RESTRICTION</date-time-restriction-type>
+    <default-by-script>true</default-by-script>
+    <edit-presentaion>
+        <code>dateEdit</code>
+    </edit-presentaion>
+    <editable>true</editable>
+    <is-filtered-by-script>false</is-filtered-by-script>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <is-hidden-when-no-possible-values>false</is-hidden-when-no-possible-values>
+    <required>true</required>
+    <script-for-default>FakticheskayaDataActualDate7</script-for-default>
+    <title lang="ru">Фактическая дата</title>
+    <type>
+        <code>date</code>
+        <property code="permittedTypes">[]</property>
+    </type>
+    <view-presentaion>
+        <code>dateView</code>
+    </view-presentaion>
+</parameter>

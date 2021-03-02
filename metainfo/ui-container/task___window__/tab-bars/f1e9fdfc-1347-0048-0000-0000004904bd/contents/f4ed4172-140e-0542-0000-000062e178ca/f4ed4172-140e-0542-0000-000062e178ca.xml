@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-object-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f4ed4172-140e-0542-0000-000062e178ca" seg-type="contents" uuid="f4ed4172-140e-0542-0000-000062e178ca">
+    <profiles/>
+    <tags>
+        <tag>ZaprosyNaIzmenenie</tag>
+    </tags>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efeee-16fc-187a-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Описание связанного запроса на изменение</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>4e9d428b-2091-4771-93c9-a29c13dbf1f4</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/f4ed4a47-140e-3c5a-0001-0000000693b7.xml" parse="xml"/>
+    <attrCode>changeRequest</attrCode>
+    <allowEdit>false</allowEdit>
+</related-object-properties>

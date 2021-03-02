@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabBar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="true" seg-detach="true" seg-id="f1e9fdfc-1347-0048-0000-0000004904bd" seg-type="tab-bars" uuid="f1e9fdfc-1347-0048-0000-0000004904bd">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efa20-16fc-1652-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="f1e9fdfc-1348-0048-0000-0000004904bd">
+        <profiles/>
+        <tags/>
+        <caption lang="en">Parameters</caption>
+        <caption lang="ru">Параметры объекта</caption>
+        <considerListFilter>false</considerListFilter>
+        <xi:include href="tool-panels/fc27893a-15e3-3c53-0000-0000016480c9.xml" parse="xml"/>
+        <layout seg-detach="false" uuid="f1e9fdfc-1349-0048-0000-0000004904bd">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/OsnovnayaInformaciya/OsnovnayaInformaciya.xml" parse="xml"/>
+            <xi:include href="contents/json/json.xml" parse="xml"/>
+            <xi:include href="tab-bars/tabs_OtkluchenU/tabs_OtkluchenU.xml" parse="xml"/>
+            <xi:include href="contents/comments/comments.xml" parse="xml"/>
+            <leftColumnWidth>51</leftColumnWidth>
+            <windowLayout>true</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efa24-16fc-165b-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabBar>

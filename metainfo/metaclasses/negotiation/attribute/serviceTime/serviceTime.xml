@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="serviceTime" seg-type="attribute">
+    <code>serviceTime</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <editableInLists>false</editableInLists>
+    <required>true</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">График работы</title>
+    <description lang="ru"/>
+    <type>
+        <code>catalogItem</code>
+        <property code="code">catalogItem</property>
+        <property code="complexRelation">false</property>
+        <property code="metaClassFqn">servicetime</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>catItemView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>catItemEdit</code>
+        <property code="selectSorting">code</property>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>flexAccessor</accessor>
+    <defaultValue>
+        <catalog-item catalog="servicetime" code="class_8x5_24.10.2013 15:44:30" uuid="servicetime$2347503"/>
+    </defaultValue>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>true</systemEditable>
+    <xi:include href="search-settings/serviceTime_serviceTime.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="domain_RespHead" enabled="true" seg-detach="true" seg-id="domain_RespHead" seg-type="roles" type="SYSTEM">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="snippet">responsibleHeadRoleSnippet</property>
+    <title lang="en">Assigned employee immediate manager</title>
+    <title lang="ru">Непосредственный руководитель ответственного за объект</title>
+</role>

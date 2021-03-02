@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<report xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="SostoyanieDelZaPeriod" seg-type="contents" uuid="SostoyanieDelZaPeriod">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efe28-16fc-182a-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Состояние дел за период</caption>
+    <showCaption>true</showCaption>
+    <template>teamOnPeriod</template>
+    <xi:include href="tool-panels/e90f511d-a1ff-11fb-c052-53f76bbbf86c/e90f511d-a1ff-11fb-c052-53f76bbbf86c.xml" parse="xml"/>
+</report>

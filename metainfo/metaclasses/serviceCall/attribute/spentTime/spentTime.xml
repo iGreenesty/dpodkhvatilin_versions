@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="spentTime" seg-type="attribute">
+    <code>spentTime</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="en">Spent time</title>
+    <title lang="ru">Затраченное время</title>
+    <description lang="en"/>
+    <description lang="ru"/>
+    <type>
+        <code>integer</code>
+        <property code="code">integer</property>
+        <property code="hasGroupSeparator">false</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>integerView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>integerEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>flexAccessor</accessor>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>true</systemEditable>
+    <xi:include href="search-settings/spentTime_spentTime.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <tags>Trudozatraty</tags>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

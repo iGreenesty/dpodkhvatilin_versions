@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="b0d59352-50b9-4d04-b835-f605581d3830" licensed="true" seg-detach="true" seg-id="b0d59352-50b9-4d04-b835-f605581d3830" seg-type="sec-profile" versioning="false">
+    <groups>C4_auditor C2_seniorSpecialist C1_specialist C3_admin</groups>
+    <roles>subscribers</roles>
+    <title lang="ru">Подписчик</title>
+</security-profile>

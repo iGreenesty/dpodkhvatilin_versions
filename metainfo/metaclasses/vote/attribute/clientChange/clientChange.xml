@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="clientChange" seg-type="attribute">
+    <code>clientChange</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>false</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">Контрагенты заявок-причин</title>
+    <description lang="ru"/>
+    <type>
+        <code>aggregate</code>
+        <property code="attrChain">["vote@parent","negotiation@source","changeRequest@reasonCall"]</property>
+        <property code="attributes">[{'attr':'clientEmployee','parents':['parent']},{'attr':'clientOU'},{'attr':'clientTeam'}]</property>
+        <property code="code">aggregate</property>
+        <property code="complexRelation">true</property>
+        <property code="complexRelationsAttrGroups">{"ou":"c9e66f8f-da07-47fe-9034-4b6fca5e10e1","team":"2df8e56c-62c6-48b6-9fe5-daf8523bfd48","employee":"74c92645-fb4e-4b59-ab77-50226c288195"}</property>
+        <property code="isSingleObjectLink">false</property>
+        <property code="metaClassFqn">serviceCall</property>
+        <property code="preparedAttributes">[{"attr":"clientEmployee","parents":["parent"],"referenceMetaClass":"employee"},{"attr":"clientOU","referenceMetaClass":"ou"},{"attr":"clientTeam","referenceMetaClass":"team"}]</property>
+        <property code="relatedObjectAttribute">client</property>
+        <property code="relatedObjectHierarchyLevel">0</property>
+        <property code="relatedObjectMetaclass">serviceCall</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>aggregateView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>aggregateEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>attributeOfRelatedObjectAccessor</accessor>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>false</systemEditable>
+    <xi:include href="search-settings/clientChange_clientChange.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>true</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

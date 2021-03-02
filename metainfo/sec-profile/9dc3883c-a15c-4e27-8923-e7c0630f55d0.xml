@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="9dc3883c-a15c-4e27-8923-e7c0630f55d0" licensed="true" seg-detach="true" seg-id="9dc3883c-a15c-4e27-8923-e7c0630f55d0" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>ServiceCallAuthor</roles>
+    <title lang="ru">Автор заявки</title>
+</security-profile>

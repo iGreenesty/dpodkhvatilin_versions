@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<timer-definition xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="reactionTime" seg-type="timer-definition">
+    <code>reactionTime</code>
+    <title lang="ru">Время реакции по заявкам</title>
+    <description lang="ru">Учитывает время реакции с момента добавления заявки до изменения ее статуса или добавления первого комментария</description>
+    <target-type>
+        <id>serviceCall</id>
+    </target-type>
+    <time-metric>SERVICE</time-metric>
+    <enableRecalc>false</enableRecalc>
+    <enableRecalcOnServiceTimeChange>false</enableRecalcOnServiceTimeChange>
+    <time-zone-attribute>timeZone</time-zone-attribute>
+    <service-time-attribute>serviceTime</service-time-attribute>
+    <script-condition>
+        <start-condition>VremyaReakciiPoZayavkamReactionTime161</start-condition>
+        <stop-condition>VremyaReakciiPoZayavkamReactionTime162</stop-condition>
+    </script-condition>
+    <removed>false</removed>
+    <system>false</system>
+</timer-definition>

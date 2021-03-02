@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$213" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[SozdanieKontaktnogoLicaSKartochkiZayavki]]></script>
+        </script-action>
+        <code>eventAction$213</code>
+        <description lang="ru"/>
+        <user-events>
+            <eventType>userEvent</eventType>
+            <event-code>userEvent$213</event-code>
+            <form-code>f6d37b57-15a2-d7cd-0001-000001c8b871</form-code>
+        </user-events>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">Создание контрагента</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

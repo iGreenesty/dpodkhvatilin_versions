@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="1e529806-df22-46a6-84ce-300d1370b6f0" seg-type="attribute-group">
+    <code>1e529806-df22-46a6-84ce-300d1370b6f0</code>
+    <title lang="ru">Для карточки команды</title>
+    <attribute>title</attribute>
+    <attribute>post</attribute>
+    <attribute>parent</attribute>
+    <order>title</order>
+    <order>post</order>
+    <order>parent</order>
+</group>

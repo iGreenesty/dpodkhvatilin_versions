@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="addTo" seg-type="form-parameters">
+    <attrs-for-date-time-restriction-script/>
+    <attrs-in-cof-script/>
+    <code>addTo</code>
+    <complexRelation>false</complexRelation>
+    <computable-on-form>false</computable-on-form>
+    <default-by-script>true</default-by-script>
+    <edit-presentaion>
+        <code>boSelect</code>
+    </edit-presentaion>
+    <editable>true</editable>
+    <is-filtered-by-script>false</is-filtered-by-script>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <required>false</required>
+    <script-for-default>PoluchenieKompaniiIzZayavki</script-for-default>
+    <title lang="ru">Добавить контактное лицо в компанию</title>
+    <type>
+        <code>object</code>
+        <property code="permittedTypes">["ou$company"]</property>
+        <property code="metaClassFqn">ou</property>
+    </type>
+    <view-presentaion>
+        <code>boRreference</code>
+    </view-presentaion>
+</parameter>

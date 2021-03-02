@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<files xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fdc24ba1-1417-02e8-0000-ffffffffffdd2d07" seg-type="contents" uuid="fdc24ba1-1417-02e8-0000-ffffffffffdd2d07">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef9e9-16fc-162e-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Файлы</caption>
+    <showCaption>false</showCaption>
+    <class>
+        <id>file</id>
+    </class>
+    <attributeGroup>system</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/fdc24ba2-1417-02e9-0000-ffffffffffdd2d07/fdc24ba2-1417-02e9-0000-ffffffffffdd2d07.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae6800-15a2-11d1-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f6ae6800-15a2-11d2-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f6ae6800-15a2-11d3-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4f0a-168d-11e1-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attributeCodes>ownObjectFiles</attributeCodes>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <relationType>objectFiles</relationType>
+</files>

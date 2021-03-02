@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-domain xmlns:xi="http://www.w3.org/2001/XInclude" code="predictiveModel" seg-detach="true" seg-id="predictiveModel" seg-type="security-domain">
+    <xi:include href="access-matrix/access-matrix.xml" parse="xml"/>
+    <xi:include href="sec-actions/ChangeObjectType.xml" parse="xml"/>
+    <xi:include href="sec-actions/CopyObject.xml" parse="xml"/>
+</security-domain>

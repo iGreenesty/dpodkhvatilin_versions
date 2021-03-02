@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" code="FileDel" enabled="true" group="file" seg-detach="true" seg-id="FileDel" seg-type="sec-actions">
+    <title lang="en">File delete</title>
+    <title lang="ru">Удаление файлов</title>
+</action>

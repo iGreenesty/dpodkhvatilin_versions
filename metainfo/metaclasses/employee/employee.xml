@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<system-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="employee" seg-type="metaclasses">
+    <fqn>
+        <id>employee</id>
+    </fqn>
+    <parent>
+        <id>abstractBO</id>
+    </parent>
+    <title lang="en">User</title>
+    <title lang="ru">Сотрудник</title>
+    <description lang="en"/>
+    <description lang="ru"/>
+    <properties>
+        <item key="defaultClientAgreement">
+            <value>
+                <entity uuid="agreement$605301"/>
+            </value>
+        </item>
+        <item key="defaultClientService">
+            <value>
+                <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            </value>
+        </item>
+        <item key="defaultServiceCallClassFqn">
+            <value>
+                <class-fqn>
+                    <id>serviceCall</id>
+                    <case>call</case>
+                </class-fqn>
+            </value>
+        </item>
+    </properties>
+    <tags/>
+    <responsibilityTransferTableEnabled>true</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/all_Group.xml" parse="xml"/>
+        <xi:include href="attribute/cityPhoneNumber.xml" parse="xml"/>
+        <xi:include href="attribute/commentAuthorAlias.xml" parse="xml"/>
+        <xi:include href="attribute/dateOfBirth.xml" parse="xml"/>
+        <xi:include href="attribute/email.xml" parse="xml"/>
+        <xi:include href="attribute/employeeForIntegration.xml" parse="xml"/>
+        <xi:include href="attribute/employeeSecGroups.xml" parse="xml"/>
+        <xi:include href="attribute/firstName.xml" parse="xml"/>
+        <xi:include href="attribute/folders.xml" parse="xml"/>
+        <xi:include href="attribute/homePhoneNumber.xml" parse="xml"/>
+        <xi:include href="attribute/image.xml" parse="xml"/>
+        <xi:include href="attribute/immediateSupervisor.xml" parse="xml"/>
+        <xi:include href="attribute/internalPhoneNumber.xml" parse="xml"/>
+        <xi:include href="attribute/isEmployeeActive.xml" parse="xml"/>
+        <xi:include href="attribute/isEmployeeLocked.xml" parse="xml"/>
+        <xi:include href="attribute/lastName.xml" parse="xml"/>
+        <xi:include href="attribute/license.xml" parse="xml"/>
+        <xi:include href="attribute/login.xml" parse="xml"/>
+        <xi:include href="attribute/metaClass.xml" parse="xml"/>
+        <xi:include href="attribute/middleName.xml" parse="xml"/>
+        <xi:include href="attribute/mobilePhoneNumber.xml" parse="xml"/>
+        <xi:include href="attribute/number.xml" parse="xml"/>
+        <xi:include href="attribute/parent.xml" parse="xml"/>
+        <xi:include href="attribute/password.xml" parse="xml"/>
+        <xi:include href="attribute/performer.xml" parse="xml"/>
+        <xi:include href="attribute/phonesIndex.xml" parse="xml"/>
+        <xi:include href="attribute/post.xml" parse="xml"/>
+        <xi:include href="attribute/privateCode.xml" parse="xml"/>
+        <xi:include href="attribute/recipientAgreements.xml" parse="xml"/>
+        <xi:include href="attribute/teams.xml" parse="xml"/>
+        <xi:include href="attribute/createdChReqs/createdChReqs.xml" parse="xml"/>
+        <xi:include href="attribute/createdPrblms/createdPrblms.xml" parse="xml"/>
+        <xi:include href="attribute/createdSCs/createdSCs.xml" parse="xml"/>
+        <xi:include href="attribute/createdTasks/createdTasks.xml" parse="xml"/>
+        <xi:include href="attribute/icon/icon.xml" parse="xml"/>
+        <xi:include href="attribute/idHolder/idHolder.xml" parse="xml"/>
+        <xi:include href="attribute/isGenPass/isGenPass.xml" parse="xml"/>
+        <xi:include href="attribute/isHKEnable/isHKEnable.xml" parse="xml"/>
+        <xi:include href="attribute/KEsInUse/KEsInUse.xml" parse="xml"/>
+        <xi:include href="attribute/observedCall/observedCall.xml" parse="xml"/>
+        <xi:include href="attribute/respForChReqs/respForChReqs.xml" parse="xml"/>
+        <xi:include href="attribute/respForPrblms/respForPrblms.xml" parse="xml"/>
+        <xi:include href="attribute/respForSCs/respForSCs.xml" parse="xml"/>
+        <xi:include href="attribute/respForTasks/respForTasks.xml" parse="xml"/>
+        <xi:include href="attribute/serviceCalls/serviceCalls.xml" parse="xml"/>
+        <xi:include href="attribute/taskForSubs/taskForSubs.xml" parse="xml"/>
+        <xi:include href="attribute/votes/votes.xml" parse="xml"/>
+        <xi:include href="attribute/workRecords/workRecords.xml" parse="xml"/>
+        <xi:include href="attribute/workReports/workReports.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/all_Group.xml" parse="xml"/>
+        <xi:include href="attribute-override/cityPhoneNumber/cityPhoneNumber.xml" parse="xml"/>
+        <xi:include href="attribute-override/commentAuthorAlias.xml" parse="xml"/>
+        <xi:include href="attribute-override/dateOfBirth.xml" parse="xml"/>
+        <xi:include href="attribute-override/email/email.xml" parse="xml"/>
+        <xi:include href="attribute-override/employeeForIntegration.xml" parse="xml"/>
+        <xi:include href="attribute-override/employeeSecGroups/employeeSecGroups.xml" parse="xml"/>
+        <xi:include href="attribute-override/firstName.xml" parse="xml"/>
+        <xi:include href="attribute-override/folders.xml" parse="xml"/>
+        <xi:include href="attribute-override/homePhoneNumber/homePhoneNumber.xml" parse="xml"/>
+        <xi:include href="attribute-override/image/image.xml" parse="xml"/>
+        <xi:include href="attribute-override/immediateSupervisor/immediateSupervisor.xml" parse="xml"/>
+        <xi:include href="attribute-override/internalPhoneNumber/internalPhoneNumber.xml" parse="xml"/>
+        <xi:include href="attribute-override/isEmployeeActive.xml" parse="xml"/>
+        <xi:include href="attribute-override/isEmployeeLocked.xml" parse="xml"/>
+        <xi:include href="attribute-override/lastName.xml" parse="xml"/>
+        <xi:include href="attribute-override/license/license.xml" parse="xml"/>
+        <xi:include href="attribute-override/login.xml" parse="xml"/>
+        <xi:include href="attribute-override/metaClass/metaClass.xml" parse="xml"/>
+        <xi:include href="attribute-override/middleName.xml" parse="xml"/>
+        <xi:include href="attribute-override/mobilePhoneNumber/mobilePhoneNumber.xml" parse="xml"/>
+        <xi:include href="attribute-override/number/number.xml" parse="xml"/>
+        <xi:include href="attribute-override/parent.xml" parse="xml"/>
+        <xi:include href="attribute-override/password.xml" parse="xml"/>
+        <xi:include href="attribute-override/performer/performer.xml" parse="xml"/>
+        <xi:include href="attribute-override/phonesIndex/phonesIndex.xml" parse="xml"/>
+        <xi:include href="attribute-override/post.xml" parse="xml"/>
+        <xi:include href="attribute-override/privateCode/privateCode.xml" parse="xml"/>
+        <xi:include href="attribute-override/recipientAgreements/recipientAgreements.xml" parse="xml"/>
+        <xi:include href="attribute-override/teams/teams.xml" parse="xml"/>
+        <xi:include href="attribute-override/title/title.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo>
+        <attribute attribute="teams">
+            <fqn>
+                <id>NO_ONE</id>
+            </fqn>
+        </attribute>
+        <attribute attribute="recipientAgreements">
+            <fqn>
+                <id>agreement</id>
+            </fqn>
+            <fqn>
+                <id>agreement</id>
+                <case>agreement</case>
+            </fqn>
+        </attribute>
+    </permittedTypesInfo>
+    <attribute-groups>
+        <xi:include href="attribute-group/0af8ee07-323d-4771-9cbc-0c6d2c1d52ec.xml" parse="xml"/>
+        <xi:include href="attribute-group/0b13760c-d858-4d41-a89d-087f98491577.xml" parse="xml"/>
+        <xi:include href="attribute-group/0f31f516-1b18-4863-829c-d36c462ab0d7.xml" parse="xml"/>
+        <xi:include href="attribute-group/1e529806-df22-46a6-84ce-300d1370b6f0.xml" parse="xml"/>
+        <xi:include href="attribute-group/21da4774-261b-4a09-853e-ad0bda09e92b.xml" parse="xml"/>
+        <xi:include href="attribute-group/2ce01696-b208-4b76-8a05-f745692d9f18.xml" parse="xml"/>
+        <xi:include href="attribute-group/331938b7-76a8-4024-8be7-a21f8e895855.xml" parse="xml"/>
+        <xi:include href="attribute-group/74c92645-fb4e-4b59-ab77-50226c288195.xml" parse="xml"/>
+        <xi:include href="attribute-group/82e0bbd0-ce51-477d-9d81-f18e9cd0fc22.xml" parse="xml"/>
+        <xi:include href="attribute-group/84437c0f-3e10-4aed-b500-41b18f03951c.xml" parse="xml"/>
+        <xi:include href="attribute-group/917e8a59-a266-4376-a6e5-b295d9434cca.xml" parse="xml"/>
+        <xi:include href="attribute-group/953cb228-8ce1-42f9-b113-6c2f678111ee.xml" parse="xml"/>
+        <xi:include href="attribute-group/befc0c98-595a-422d-b1f6-bfc736d4e09f.xml" parse="xml"/>
+        <xi:include href="attribute-group/cd01b456-e587-4505-a84b-25531d88af36.xml" parse="xml"/>
+        <xi:include href="attribute-group/f5df38fc-14ce-8333-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="attribute-group/f6154d73-bfa7-4fc3-acdb-308cadcafbce.xml" parse="xml"/>
+        <xi:include href="attribute-group/f76b7095-14b0-29ec-0001-00005da18d27.xml" parse="xml"/>
+        <xi:include href="attribute-group/fd153a0c-33bb-433e-903c-b2968592b9a2.xml" parse="xml"/>
+        <xi:include href="attribute-group/PravaILicenziya.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/search.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/search_unlic.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentText_text.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileContent_content.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileDescription_description.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileTitle_title.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>3</searchOrder>
+    <allowPlanVer>false</allowPlanVer>
+    <depthEnv>1</depthEnv>
+</system-metaclass>

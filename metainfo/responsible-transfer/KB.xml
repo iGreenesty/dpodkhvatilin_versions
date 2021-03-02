@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<responsibleTransfers xmlns:xi="http://www.w3.org/2001/XInclude" inherit="true" seg-detach="true" seg-id="KB" seg-type="responsible-transfer">
+    <fqn>KB</fqn>
+    <transition>
+        <from>986501</from>
+        <to>4509301,558101</to>
+        <enabled>true</enabled>
+    </transition>
+    <transition>
+        <from>8901</from>
+        <to>201701,558101,5701</to>
+        <enabled>true</enabled>
+    </transition>
+    <transition>
+        <from>5701</from>
+        <to>201701,8901,558101</to>
+        <enabled>true</enabled>
+    </transition>
+    <transition>
+        <from>201701</from>
+        <to>8901,5701</to>
+        <enabled>true</enabled>
+    </transition>
+    <transition>
+        <from>558101</from>
+        <to>8901,4509301,5701,986501</to>
+        <enabled>true</enabled>
+    </transition>
+    <transition>
+        <from>4509301</from>
+        <to>986501,558101</to>
+        <enabled>true</enabled>
+    </transition>
+</responsibleTransfers>

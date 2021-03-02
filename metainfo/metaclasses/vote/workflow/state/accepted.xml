@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="accepted" color="#669933" enabled="true" hardcoded="false" seg-detach="true" seg-id="accepted" seg-type="state">
+    <title lang="ru">Согласовано</title>
+    <description lang="ru"/>
+    <stateSetting canEdit="false" canView="true" code="@comment" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Добавить комментарий</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="descrRtf" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Описание</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="folders" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Папки</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="icon" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Иконка</title>
+    </stateSetting>
+    <stateSetting canEdit="true" canView="true" code="remark" postFill="0" preFill="1" requredInState="false">
+        <title lang="ru">Замечания</title>
+    </stateSetting>
+    <stateSetting canEdit="true" canView="true" code="voteDate" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Дата голосования</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="voter" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Голосующий</title>
+    </stateSetting>
+    <preAction code="f00aa8ef-140c-201a-0000-0000000693b7" preAction="true" type="SCRIPT">
+        <title lang="ru">Изменение статуса согласования при завершении всех голосований</title>
+        <property code="script">IzmenenieStatusaSoglasovaniyaPriZaversheniiVsehGolosovanii72</property>
+    </preAction>
+    <preAction code="f00bbc85-140c-201b-0000-0000000693b7" preAction="true" type="SCRIPT">
+        <title lang="ru">Заполнение атрибутов "Дата голосования" и "Голосующий"</title>
+        <property code="script">ZapolnenieAtributovDataGolosovaniyaIGolosuushii73</property>
+    </preAction>
+    <preActionsOrder>f00aa8ef-140c-201a-0000-0000000693b7</preActionsOrder>
+    <preActionsOrder>f00bbc85-140c-201b-0000-0000000693b7</preActionsOrder>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

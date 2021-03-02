@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ZapolnenieAtributaDlyaOpovesheniyaKontragenta" seg-type="scripts">
+    <code>ZapolnenieAtributaDlyaOpovesheniyaKontragenta</code>
+    <title lang="ru">Заполнение атрибута для оповещения контрагента</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="ZapolnenieAtributaDlyaOpovesheniyaKontragenta.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

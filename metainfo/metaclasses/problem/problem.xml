@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="problem" seg-type="metaclasses">
+    <fqn>
+        <id>problem</id>
+    </fqn>
+    <parent>
+        <id>userEntity</id>
+    </parent>
+    <title lang="ru">Проблема</title>
+    <description lang="ru"/>
+    <properties/>
+    <tags>
+        <tag>Problemy</tag>
+    </tags>
+    <responsibilityTransferTableEnabled>false</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/folders.xml" parse="xml"/>
+        <xi:include href="attribute/responsible.xml" parse="xml"/>
+        <xi:include href="attribute/responsibleEmployee.xml" parse="xml"/>
+        <xi:include href="attribute/responsibleStartTime.xml" parse="xml"/>
+        <xi:include href="attribute/responsibleTeam.xml" parse="xml"/>
+        <xi:include href="attribute/state.xml" parse="xml"/>
+        <xi:include href="attribute/stateStartTime.xml" parse="xml"/>
+        <xi:include href="attribute/categories/categories.xml" parse="xml"/>
+        <xi:include href="attribute/changeRequests/changeRequests.xml" parse="xml"/>
+        <xi:include href="attribute/deadline/deadline.xml" parse="xml"/>
+        <xi:include href="attribute/description/description.xml" parse="xml"/>
+        <xi:include href="attribute/factProbDate/factProbDate.xml" parse="xml"/>
+        <xi:include href="attribute/icon/icon.xml" parse="xml"/>
+        <xi:include href="attribute/KBArticles/KBArticles.xml" parse="xml"/>
+        <xi:include href="attribute/KEs/KEs.xml" parse="xml"/>
+        <xi:include href="attribute/objectNumber/objectNumber.xml" parse="xml"/>
+        <xi:include href="attribute/postponeTill/postponeTill.xml" parse="xml"/>
+        <xi:include href="attribute/probleDecision/probleDecision.xml" parse="xml"/>
+        <xi:include href="attribute/rootCause/rootCause.xml" parse="xml"/>
+        <xi:include href="attribute/rootCI/rootCI.xml" parse="xml"/>
+        <xi:include href="attribute/rootDescr/rootDescr.xml" parse="xml"/>
+        <xi:include href="attribute/serviceCalls/serviceCalls.xml" parse="xml"/>
+        <xi:include href="attribute/serviceChoise/serviceChoise.xml" parse="xml"/>
+        <xi:include href="attribute/solution/solution.xml" parse="xml"/>
+        <xi:include href="attribute/sumApprovedWR/sumApprovedWR.xml" parse="xml"/>
+        <xi:include href="attribute/sumWorkRecords/sumWorkRecords.xml" parse="xml"/>
+        <xi:include href="attribute/tasks/tasks.xml" parse="xml"/>
+        <xi:include href="attribute/touchServices/touchServices.xml" parse="xml"/>
+        <xi:include href="attribute/workAroundText/workAroundText.xml" parse="xml"/>
+        <xi:include href="attribute/workRecords/workRecords.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/folders.xml" parse="xml"/>
+        <xi:include href="attribute-override/number/number.xml" parse="xml"/>
+        <xi:include href="attribute-override/responsible/responsible.xml" parse="xml"/>
+        <xi:include href="attribute-override/responsibleEmployee/responsibleEmployee.xml" parse="xml"/>
+        <xi:include href="attribute-override/responsibleStartTime.xml" parse="xml"/>
+        <xi:include href="attribute-override/responsibleTeam/responsibleTeam.xml" parse="xml"/>
+        <xi:include href="attribute-override/state/state.xml" parse="xml"/>
+        <xi:include href="attribute-override/stateStartTime.xml" parse="xml"/>
+        <xi:include href="attribute-override/title/title.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo>
+        <attribute attribute="KEs">
+            <fqn>
+                <id>objectBase</id>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Card</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>centre</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Channel</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>ChTemplates</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>CI</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>CIRepository</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>CITemplates</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>city</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>CMT</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Computers</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>CPU</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>DBMS</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Device</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>DeviceLibrary</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>DVDDrive</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>EthChannel</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>ethChannelF</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Fax</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>GraphicDevices</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Hardware</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>HDD</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Headset</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Keyboard</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>location</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Mainboard</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>MFU</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>MobileDevice</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Modem</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Monitor</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Netcard</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>netServiceF</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Notebook</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>OfficeEquip</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>OS</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Phone</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>PhonesAndFaxes</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>port</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>PowerUnit</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Printer</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Projector</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Rack</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>RAM</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Router</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Scanner</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Server</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Shredder</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>SidSysFolder</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Software</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Switch</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>UPS</case>
+            </fqn>
+            <fqn>
+                <id>objectBase</id>
+                <case>Workstation</case>
+            </fqn>
+        </attribute>
+    </permittedTypesInfo>
+    <attribute-groups>
+        <xi:include href="attribute-group/0d0e0a68-9782-4674-9e64-684e41bbea64.xml" parse="xml"/>
+        <xi:include href="attribute-group/0e224af1-7711-4c34-b937-9784d0da88eb.xml" parse="xml"/>
+        <xi:include href="attribute-group/2097b223-8063-4890-bb00-01093c18d6f4.xml" parse="xml"/>
+        <xi:include href="attribute-group/3016a556-fe4f-4db3-aff6-09fa00b51171.xml" parse="xml"/>
+        <xi:include href="attribute-group/4c6ed93b-6189-4529-8e32-e31aaa916013.xml" parse="xml"/>
+        <xi:include href="attribute-group/524ecbea-78c5-48cf-ab18-b3ed69a8bf14.xml" parse="xml"/>
+        <xi:include href="attribute-group/5676e479-a3c8-4e2a-b3fb-019b9efef3e8.xml" parse="xml"/>
+        <xi:include href="attribute-group/57fda89c-d6f9-4be6-a231-69e82b890c16.xml" parse="xml"/>
+        <xi:include href="attribute-group/5b9fe2bd-91b1-4e85-8b32-154e75c83d09.xml" parse="xml"/>
+        <xi:include href="attribute-group/67dbb1d8-16eb-4e48-b05a-5b2e33d74ddf.xml" parse="xml"/>
+        <xi:include href="attribute-group/801f5c98-3299-4e63-9714-808a173b16dd.xml" parse="xml"/>
+        <xi:include href="attribute-group/827b17ba-879a-4a6d-9b09-c0bae0a515a9.xml" parse="xml"/>
+        <xi:include href="attribute-group/9101f7ce-def9-4755-8116-087aeaec26f1.xml" parse="xml"/>
+        <xi:include href="attribute-group/b129fbbc-4a24-4f49-be99-a6d7bd67c72e.xml" parse="xml"/>
+        <xi:include href="attribute-group/c327ed8f-12bf-4651-b5b9-90f8c660f534.xml" parse="xml"/>
+        <xi:include href="attribute-group/dbe7eada-076f-468b-8034-fbe2766dc032.xml" parse="xml"/>
+        <xi:include href="attribute-group/dc8311d3-fc45-441f-8945-66e554449cf2.xml" parse="xml"/>
+        <xi:include href="attribute-group/df05e798-a58e-4e54-a4f6-aa420192eb76.xml" parse="xml"/>
+        <xi:include href="attribute-group/e257cea9-5aac-4ee2-a9b7-47a7eb9c57a8.xml" parse="xml"/>
+        <xi:include href="attribute-group/e6a325d4-558d-4391-9fb3-502ffc101745.xml" parse="xml"/>
+        <xi:include href="attribute-group/f5b3fba9-3506-455e-96cc-26910890a6f0.xml" parse="xml"/>
+        <xi:include href="attribute-group/SummaTrudozatrat.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/search.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentText_text.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileContent_content.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileDescription_description.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileTitle_title.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>5</maxSearchResults>
+    <searchOrder>17</searchOrder>
+    <allowPlanVer>false</allowPlanVer>
+    <depthEnv>1</depthEnv>
+    <status>DEFAULT</status>
+</user-metaclass>

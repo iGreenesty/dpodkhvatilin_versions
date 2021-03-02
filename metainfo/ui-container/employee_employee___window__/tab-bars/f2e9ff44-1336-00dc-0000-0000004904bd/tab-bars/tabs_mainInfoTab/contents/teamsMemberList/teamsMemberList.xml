@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="teamsMemberList" seg-type="contents" uuid="teamsMemberList">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+        <profile>20392c82-d8fb-42df-bf59-8bd329e0abb4</profile>
+        <profile>371483c9-f6c2-45e4-8163-3f08121f1f1f</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+    </profiles>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efca5-16fc-175c-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Участник команд:</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>team</id>
+    </class>
+    <attributeGroup>83e1a663-f31f-473c-ae03-b44d132aefa5</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/4994d14a-fbb0-38ba-2ad6-b4faf47e69f5/4994d14a-fbb0-38ba-2ad6-b4faf47e69f5.xml" parse="xml"/>
+    <xi:include href="tool-panels/4ee3e67f-34c6-e227-536c-472d93e79ce0.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="ff870ccd-1657-8f76-0008-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="ff870cfa-1657-9266-0008-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c51a5-168d-1252-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>teams</attr-link-code>
+    <attrs-chain attr-code="teams" class-fqn="employee$employee"/>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="team" code="headOU"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="team" code="leader"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <add-form>
+        <caption lang="ru">Добавить сотрудника в команды</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

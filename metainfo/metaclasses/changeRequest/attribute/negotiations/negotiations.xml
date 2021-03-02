@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="negotiations" seg-type="attribute">
+    <code>negotiations</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">Согласования</title>
+    <description lang="ru"/>
+    <type>
+        <code>backBOLinks</code>
+        <property code="backLinkAttr">source</property>
+        <property code="code">backBOLinks</property>
+        <property code="complexRelation">false</property>
+        <property code="metaClassFqn">negotiation</property>
+        <property code="permittedTypes">["negotiation$approvalReq","negotiation","negotiation$negotiation"]</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>boLinksView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>boLinksEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>backBOLinksAccessor</accessor>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>true</systemEditable>
+    <xi:include href="search-settings/negotiations_negotiations.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <tags>Soglasovaniya</tags>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

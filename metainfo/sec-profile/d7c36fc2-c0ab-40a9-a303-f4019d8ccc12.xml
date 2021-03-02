@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="d7c36fc2-c0ab-40a9-a303-f4019d8ccc12" licensed="false" seg-detach="true" seg-id="d7c36fc2-c0ab-40a9-a303-f4019d8ccc12" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>52f22791-5533-4d0a-b78b-9e1320c3a42d</roles>
+    <title lang="ru">Ключевое контактное лицо (нелиц)</title>
+</security-profile>

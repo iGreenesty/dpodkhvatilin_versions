@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="KontaktnyeLicaFilialov" seg-type="contents" uuid="KontaktnyeLicaFilialov">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="0ab74cca-2629-9457-6563-869331116ee4">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Контактные лица филиалов</caption>
+    <showCaption>true</showCaption>
+    <case>
+        <id>employee</id>
+        <case>contactPerson</case>
+    </case>
+    <attributeGroup>917e8a59-a266-4376-a6e5-b295d9434cca</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/143153c8-1b55-6a95-d30f-d9b890aa6ab1/143153c8-1b55-6a95-d30f-d9b890aa6ab1.xml" parse="xml"/>
+    <xi:include href="tool-panels/07d67a88-de4b-a092-68ad-a96207732563.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f7a51320-1747-7182-0073-000036b4a082">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f7a51354-1747-7236-0073-000036b4a082">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="f7a51320-1747-7183-0073-000036b4a082">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>employees</attr-link-code>
+    <attrs-chain attr-code="childOUs" class-fqn="ou$company"/>
+    <attrs-chain attr-code="employees" class-fqn="ou"/>
+    <filterRestrictionSettings/>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Сотрудник</caption>
+    </add-form>
+    <nested-attr-link-fqn classFqn="ou" code="parent"/>
+    <nested-hierarchy-attr-fqn>ou$company@childOUs</nested-hierarchy-attr-fqn>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>true</show-related-with-nested>
+</related-objects>

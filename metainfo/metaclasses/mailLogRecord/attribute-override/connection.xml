@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="connection" seg-type="attribute-override">
+    <code>connection</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <title lang="client"/>
+    <title lang="de"/>
+    <title lang="en">Connection</title>
+    <title lang="ru">Подключение</title>
+    <description lang="client"/>
+    <description lang="de"/>
+    <description lang="en"/>
+    <description lang="ru"/>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</override>

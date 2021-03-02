@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="workRecord_editForm" seg-type="ui-container">
+    <fqn>
+        <id>workRecord</id>
+    </fqn>
+    <code>editForm</code>
+    <form seg-detach="false" uuid="f1e9fdfc-1340-0048-0000-0000004904bd">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Форма редактирования</caption>
+        <layout seg-detach="false" uuid="f1e9fdfc-1341-0048-0000-0000004904bd">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/fe48b71b-13d6-0246-0000-fffffffffc56e889/fe48b71b-13d6-0246-0000-fffffffffc56e889.xml" parse="xml"/>
+            <xi:include href="contents/f440d46a-140c-003f-0000-00004e34e5f7/f440d46a-140c-003f-0000-00004e34e5f7.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+    </form>
+</ui>

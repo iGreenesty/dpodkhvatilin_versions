@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<module xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="itsm365" seg-type="script-modules">
+    <code>itsm365</code>
+    <moduleVersion>1</moduleVersion>
+    <description>Модуль содержит функции, используемые в скриптах конфигурации ITSM365.</description>
+    <active>false</active>
+    <script checksum="3cb3f625446b2f756846af6e53fc3e4a26999f4f09655d6d09cf1b3ca9ba71ac">
+        <xi:include href="itsm365.groovy" parse="text"/>
+    </script>
+    <view_by_superusers>true</view_by_superusers>
+    <edit_by_superusers>false</edit_by_superusers>
+    <author>naumen</author>
+</module>

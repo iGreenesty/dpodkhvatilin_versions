@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="serviceCallsOutForNotLicenseList" seg-type="contents" uuid="serviceCallsOutForNotLicenseList">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efc8c-16fc-1747-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Инициированные заявки</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>serviceCall</id>
+    </class>
+    <attributeGroup>1bafde71-5f33-4c80-898b-200aa2177344</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/37c60238-ef0d-2383-c14d-a8282c8b4a34/37c60238-ef0d-2383-c14d-a8282c8b4a34.xml" parse="xml"/>
+    <xi:include href="tool-panels/3c54dd95-9db0-8ce4-4b15-65b16df8597d/3c54dd95-9db0-8ce4-4b15-65b16df8597d.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="ff79d197-1657-a718-0006-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="ff79d1c4-1657-a98e-0006-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c50bf-168d-122b-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>serviceCalls</attr-link-code>
+    <attrs-chain attr-code="serviceCalls" class-fqn="employee$employee"/>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="serviceCall" code="priority"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="serviceCall" code="metaClass"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="serviceCall" code="service"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="serviceCall" code="agreement"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Заявка</caption>
+    </add-form>
+    <objectActionsMenu>
+        <menuIconCatalogCode>additionalActions</menuIconCatalogCode>
+        <objectActionsMenuPosition>LEFT</objectActionsMenuPosition>
+        <xi:include href="tool-panels/f1e33879-161e-487f-0045-000001840552/f1e33879-161e-487f-0045-000001840552.xml" parse="xml"/>
+        <useSystemSettings>false</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

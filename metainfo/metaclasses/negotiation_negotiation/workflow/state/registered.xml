@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="registered" enabled="true" hardcoded="false" seg-detach="true" seg-id="registered" seg-type="state">
+    <preAction code="f7008e1e-1449-1797-0000-000001349d9e" preAction="true" type="SCRIPT">
+        <title lang="ru">Создание голосований</title>
+        <property code="script">SozdanieGolosovanii75</property>
+    </preAction>
+    <preActionsOrder>f7008e1e-1449-1797-0000-000001349d9e</preActionsOrder>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

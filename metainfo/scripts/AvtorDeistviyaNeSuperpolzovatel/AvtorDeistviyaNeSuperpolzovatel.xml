@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="AvtorDeistviyaNeSuperpolzovatel" seg-type="scripts">
+    <code>AvtorDeistviyaNeSuperpolzovatel</code>
+    <title lang="ru">Автор действия - не суперпользователь</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="AvtorDeistviyaNeSuperpolzovatel.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

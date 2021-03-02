@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ff4e54bb-140c-050f-0000-ffffffffc80e7f4a" seg-type="contents" uuid="ff4e54bb-140c-050f-0000-ffffffffc80e7f4a">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6eff07-16fc-188e-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Связанные объекты</caption>
+    <showCaption>false</showCaption>
+    <class>
+        <id>serviceCall</id>
+    </class>
+    <attributeGroup>1bafde71-5f33-4c80-898b-200aa2177344</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/ef07e98b-a5d0-6487-6122-af1d363a5b9a/ef07e98b-a5d0-6487-6122-af1d363a5b9a.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae6679-15a2-1096-0000-000001c8b871/f6ae6679-15a2-1096-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f6ae6679-15a2-1097-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f6ae6679-15a2-1098-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c5067-168d-1219-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>serviceCalls</attr-link-code>
+    <attrs-chain attr-code="serviceCalls" class-fqn="employee$contactPerson"/>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="serviceCall" code="priority"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="serviceCall" code="metaClass"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="serviceCall" code="service"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="serviceCall" code="agreement"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Заявка</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

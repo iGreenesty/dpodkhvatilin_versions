@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="tasks_linkedList" seg-type="lists" uuid="tasks_linkedList">
+    <profiles/>
+    <tags>
+        <tag>Zadachi</tag>
+    </tags>
+    <cases/>
+    <class>
+        <id>task</id>
+    </class>
+    <attributes>
+        <xi:include href="attributes/title.xml" parse="xml"/>
+        <xi:include href="attributes/state.xml" parse="xml"/>
+        <xi:include href="attributes/deadline.xml" parse="xml"/>
+        <xi:include href="attributes/responsible.xml" parse="xml"/>
+        <xi:include href="attributes/description.xml" parse="xml"/>
+    </attributes>
+    <allowActionsWithObjects>true</allowActionsWithObjects>
+    <caption lang="ru">ЗАДАЧИ: список связанных объектов</caption>
+    <filters/>
+    <filter seg-detach="false" uuid="f605de2d-1778-1b5e-0000-000044ccdc1e">
+        <profiles/>
+        <tags/>
+    </filter>
+    <orders>
+        <order code="task@objectNumber" order="asc"/>
+    </orders>
+</objects>

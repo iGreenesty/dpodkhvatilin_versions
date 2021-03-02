@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<child-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f8565569-5198-0174-0001-000779541476" seg-type="contents" uuid="f8565569-5198-0174-0001-000779541476">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+    </profiles>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efb9d-16fc-16d0-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Список поставленных оценок</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>markBase</id>
+    </class>
+    <attributeGroup>64216d54-c752-43b0-9aed-98fa07728197</attributeGroup>
+    <presentation>default</presentation>
+    <xi:include href="tool-panels/f1643810-5199-0107-0001-001362510008.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae6747-15a2-1120-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f72e926b-1695-b698-0040-000000ffc2f3">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f72e9270-1695-b6f6-0040-000000ffc2f3">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4d3a-168d-1186-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <filterRestrictionSettings/>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <show-nested-in-nested>false</show-nested-in-nested>
+</child-objects>

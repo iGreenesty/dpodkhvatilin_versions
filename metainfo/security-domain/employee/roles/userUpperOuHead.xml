@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="userUpperOuHead" enabled="true" seg-detach="true" seg-id="userUpperOuHead" seg-type="roles" type="SYSTEM">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="snippet">userUpperOuHeadRoleSnippet</property>
+    <title lang="en">Upper department manager</title>
+    <title lang="ru">Руководитель верхнего отдела</title>
+</role>

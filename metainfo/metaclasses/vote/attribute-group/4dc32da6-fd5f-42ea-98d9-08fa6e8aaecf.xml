@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="4dc32da6-fd5f-42ea-98d9-08fa6e8aaecf" seg-type="attribute-group">
+    <code>4dc32da6-fd5f-42ea-98d9-08fa6e8aaecf</code>
+    <title lang="ru">Список</title>
+    <attribute>creationDate</attribute>
+    <attribute>voteDate</attribute>
+    <attribute>voter</attribute>
+    <attribute>state</attribute>
+    <attribute>descrRtf</attribute>
+    <attribute>remark</attribute>
+    <order>creationDate</order>
+    <order>voteDate</order>
+    <order>voter</order>
+    <order>state</order>
+    <order>descrRtf</order>
+    <order>remark</order>
+</group>

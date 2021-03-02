@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabBar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="true" seg-detach="true" seg-id="f1e9fdfc-1347-0048-0000-0000004904bd" seg-type="tab-bars" uuid="f1e9fdfc-1347-0048-0000-0000004904bd">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="f1e88481-1750-a974-0066-00007b344b54">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="f1e9fdfc-1348-0048-0000-0000004904bd">
+        <profiles/>
+        <tags/>
+        <caption lang="en">Parameters</caption>
+        <caption lang="ru">Параметры объекта</caption>
+        <considerListFilter>false</considerListFilter>
+        <xi:include href="tool-panels/f6ae629a-15a2-0f24-0000-000001c8b871.xml" parse="xml"/>
+        <layout seg-detach="false" uuid="f1e9fdfc-1349-0048-0000-0000004904bd">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f7a1cd32-1528-0e24-0000-00007519bc99/f7a1cd32-1528-0e24-0000-00007519bc99.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>true</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="f1e88481-1750-a976-0066-00007b344b54">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="IstoriyaIzmeneniyaStatusa">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">История изменения статуса</caption>
+        <considerListFilter>false</considerListFilter>
+        <xi:include href="tool-panels/e75c8c11-7f28-533f-80e4-6431dc924e46.xml" parse="xml"/>
+        <layout seg-detach="false" uuid="b8e970b4-d0ed-3207-e877-eb0007a9607e">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/IstoriyaIzmeneniyaStatusov/IstoriyaIzmeneniyaStatusov.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="f1e88482-1750-a978-0066-00007b344b54">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabBar>

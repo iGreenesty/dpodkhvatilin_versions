@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="DlyaFormyRedaktirovaniya" seg-type="attribute-group">
+    <code>DlyaFormyRedaktirovaniya</code>
+    <title lang="ru">Для формы редактирования</title>
+    <attribute>title</attribute>
+    <attribute>company</attribute>
+</group>

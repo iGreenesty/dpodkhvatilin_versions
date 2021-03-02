@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f21e794d-13d6-02a1-0000-00003a900151" seg-type="contents" uuid="f21e794d-13d6-02a1-0000-00003a900151">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6eff11-16fc-1899-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Логин</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>11a8271d-00ad-4fa0-a887-b36c6ecf1863</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/f21e794d-13d6-02a2-0000-00003a900151/f21e794d-13d6-02a2-0000-00003a900151.xml" parse="xml"/>
+</properties>

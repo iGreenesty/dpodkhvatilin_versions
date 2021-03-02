@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="baseCategory" seg-type="attribute">
+    <code>baseCategory</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="en">Category</title>
+    <title lang="ru">Категория</title>
+    <description lang="en"/>
+    <description lang="ru"/>
+    <type>
+        <code>catalogItem</code>
+        <property code="code">catalogItem</property>
+        <property code="metaClassFqn">category</property>
+    </type>
+    <filteredByScript>true</filteredByScript>
+    <scriptForFiltration>FiltraciyaKategoriiVZavisimostiOtKategoriiVybrannyhVUsluge</scriptForFiltration>
+    <computableOnForm>false</computableOnForm>
+    <attrsUsedInScript>service</attrsUsedInScript>
+    <viewPresentation>
+        <code>catItemView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>catItemEdit</code>
+        <property code="selectSorting">title</property>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>flexAccessor</accessor>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>true</systemEditable>
+    <xi:include href="search-settings/baseCategory_baseCategory.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>true</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>true</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

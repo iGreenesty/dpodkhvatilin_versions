@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="HarakteristikiObekta" seg-type="attribute-group-override">
+    <code>HarakteristikiObekta</code>
+    <attribute>owner</attribute>
+    <attribute>users</attribute>
+    <order>author</order>
+    <order>creationDate</order>
+    <order>state</order>
+    <order>owner</order>
+    <order>users</order>
+</override>

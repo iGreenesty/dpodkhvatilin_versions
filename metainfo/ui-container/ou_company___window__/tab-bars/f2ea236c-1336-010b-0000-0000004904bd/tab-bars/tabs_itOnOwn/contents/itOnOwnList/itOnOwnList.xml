@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="itOnOwnList" seg-type="contents" uuid="itOnOwnList">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efd82-16fc-17b8-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">ИТ-активы во владении</caption>
+    <showCaption>false</showCaption>
+    <class>
+        <id>objectBase</id>
+        <case>CI</case>
+    </class>
+    <attributeGroup>listLite</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/e9d6567e-845a-a669-94ef-d2063f3fda27/e9d6567e-845a-a669-94ef-d2063f3fda27.xml" parse="xml"/>
+    <xi:include href="tool-panels/7360b610-7ccc-4f72-753e-b52f8174e70c.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f93f57ea-1619-2ac4-000d-000000184e6e">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f93f583b-1619-2b2b-000d-000000184e6e">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4f70-168d-11f7-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>KEsInUse</attr-link-code>
+    <attrs-chain attr-code="KEsInUse" class-fqn="ou$company"/>
+    <filterRestrictionSettings/>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Объект CMDB</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

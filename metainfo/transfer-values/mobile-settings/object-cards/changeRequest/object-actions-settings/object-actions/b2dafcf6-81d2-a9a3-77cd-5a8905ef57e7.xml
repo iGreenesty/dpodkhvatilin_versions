@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectAction xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="b2dafcf6-81d2-a9a3-77cd-5a8905ef57e7" seg-type="object-actions">
+    <caption lang="en">Change state</caption>
+    <caption lang="ru">Изменить статус</caption>
+    <code>changeState</code>
+    <required-fields/>
+    <type>system</type>
+    <uuid>b2dafcf6-81d2-a9a3-77cd-5a8905ef57e7</uuid>
+</objectAction>

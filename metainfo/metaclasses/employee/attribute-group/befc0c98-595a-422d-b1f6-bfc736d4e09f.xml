@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="befc0c98-595a-422d-b1f6-bfc736d4e09f" seg-type="attribute-group">
+    <code>befc0c98-595a-422d-b1f6-bfc736d4e09f</code>
+    <title lang="ru">Для сложной формы получателей Соглашения</title>
+    <attribute>title</attribute>
+    <attribute>email</attribute>
+    <attribute>parent</attribute>
+    <attribute>post</attribute>
+    <order>title</order>
+    <order>email</order>
+    <order>parent</order>
+    <order>post</order>
+</group>

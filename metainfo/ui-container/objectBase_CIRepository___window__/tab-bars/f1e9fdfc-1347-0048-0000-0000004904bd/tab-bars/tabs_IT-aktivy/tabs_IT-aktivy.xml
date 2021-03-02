@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_IT-aktivy" seg-type="tab-bars" uuid="tabs_IT-aktivy">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efe0c-16fc-180c-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="IT-aktivy">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">ИТ-активы</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="22a5df28-304f-8a9a-8ca0-eafd0e188d5e">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/KonfiguracionnyeEdinicy/KonfiguracionnyeEdinicy.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efe0c-16fc-180e-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="Seti">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Сети</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="ff32bd34-df37-05c5-bc12-db430d8b0f58">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/SetiSpisok/SetiSpisok.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efe0d-16fc-1810-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="VlozhennyeHranilishaKE">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Вложенные группы ИТ-активов</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="6061146d-5ba2-17e7-3b32-35853583f85c">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/VlozhennyeHranilishaKE_spisok_/VlozhennyeHranilishaKE_spisok_.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efe0d-16fc-1812-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

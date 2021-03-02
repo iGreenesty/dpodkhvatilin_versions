@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="2bea165e-bfa5-4f3e-a9f6-8bbf5f645b45" seg-type="attribute-group">
+    <code>2bea165e-bfa5-4f3e-a9f6-8bbf5f645b45</code>
+    <title lang="ru">Временные характеристики</title>
+    <attribute>state</attribute>
+    <attribute>deadLine</attribute>
+    <attribute>dateEnd</attribute>
+</group>

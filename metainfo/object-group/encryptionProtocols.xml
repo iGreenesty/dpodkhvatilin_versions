@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<class xmlns:xi="http://www.w3.org/2001/XInclude" id="encryptionProtocols" seg-detach="true" seg-id="encryptionProtocols" seg-type="object-group">
+    <object>
+        <attribute code="code">
+            <string>ssl</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>encryptionProtocols</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>SSL</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>encryptionProtocols$2243301</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>tls</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>encryptionProtocols</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>TLS</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>encryptionProtocols$2243302</string>
+        </attribute>
+    </object>
+</class>

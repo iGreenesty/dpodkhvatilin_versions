@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f3b4b505-1418-0063-0000-ffffffff92332d46" seg-type="contents" uuid="f3b4b505-1418-0063-0000-ffffffff92332d46">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efeef-16fc-1882-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Связанные объекты</caption>
+    <showCaption>false</showCaption>
+    <class>
+        <id>workRecord</id>
+    </class>
+    <attributeGroup>ecc00b0d-ee8b-4b0b-a2f4-48d180eb9137</attributeGroup>
+    <presentation>default</presentation>
+    <xi:include href="tool-panels/f3b4b506-1418-0064-0000-ffffffff92332d46/f3b4b506-1418-0064-0000-ffffffff92332d46.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae6512-15a2-0ff1-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f6ae6512-15a2-0ff2-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f6ae6512-15a2-0ff3-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4ea1-168d-11c0-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>workRecords</attr-link-code>
+    <attrs-chain attr-code="workRecords" class-fqn="task"/>
+    <filterRestrictionSettings/>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Трудозатрата</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

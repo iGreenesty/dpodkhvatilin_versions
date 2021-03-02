@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="KB$KBSectionOpen" seg-type="metaclasses">
+    <fqn>
+        <id>KB</id>
+        <case>KBSectionOpen</case>
+    </fqn>
+    <parent>
+        <id>KB</id>
+        <case>KBSection</case>
+    </parent>
+    <title lang="ru">Внешний раздел</title>
+    <description lang="ru">Раздел могут просматривать все пользователи</description>
+    <properties/>
+    <tags/>
+    <responsibilityTransferTableEnabled>false</responsibilityTransferTableEnabled>
+    <attributes/>
+    <attribute-overrides/>
+    <permittedTypesInfo>
+        <attribute attribute="parent">
+            <fqn>
+                <id>NO_ONE</id>
+            </fqn>
+        </attribute>
+    </permittedTypesInfo>
+    <attribute-groups>
+        <xi:include href="attribute-group-override/8a2dcbf6-bfb3-475d-bae5-7714a7382696.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentText_text.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileContent_content.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileDescription_description.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileTitle_title.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>8</searchOrder>
+    <allowPlanVer>false</allowPlanVer>
+    <depthEnv>1</depthEnv>
+    <status>DEFAULT</status>
+</user-metaclass>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-event-tool xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fireUserEvent_eca696be-1701-345c-3bc3-ad803bc7882e" seg-type="tools" uuid="eca696be-1701-345c-3bc3-ad803bc7882e">
+    <profiles/>
+    <tags/>
+    <appliedToType>listObjects</appliedToType>
+    <params/>
+    <presentationType>defaultTextOnly</presentationType>
+    <action>fireUserEvent</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="ru">Распространить</caption>
+    <event-uuid>userEvent$button_agreementDistribution</event-uuid>
+    <go-to-card-after-action>false</go-to-card-after-action>
+    <use-quick-form>false</use-quick-form>
+</user-event-tool>

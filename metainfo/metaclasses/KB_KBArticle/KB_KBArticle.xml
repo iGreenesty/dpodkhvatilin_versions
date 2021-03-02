@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="KB$KBArticle" seg-type="metaclasses">
+    <fqn>
+        <id>KB</id>
+        <case>KBArticle</case>
+    </fqn>
+    <parent>
+        <id>KB</id>
+    </parent>
+    <title lang="ru">Внутренняя статья</title>
+    <description lang="ru"/>
+    <properties/>
+    <tags/>
+    <responsibilityTransferTableEnabled>false</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/basedOnReq/basedOnReq.xml" parse="xml"/>
+        <xi:include href="attribute/problems/problems.xml" parse="xml"/>
+        <xi:include href="attribute/services/services.xml" parse="xml"/>
+        <xi:include href="attribute/text/text.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/metaClass/metaClass.xml" parse="xml"/>
+        <xi:include href="attribute-override/parent/parent.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo>
+        <attribute attribute="parent">
+            <fqn>
+                <id>KB</id>
+                <case>KBSectionProt</case>
+            </fqn>
+            <fqn>
+                <id>KB</id>
+                <case>KBSubsectionPr</case>
+            </fqn>
+        </attribute>
+    </permittedTypesInfo>
+    <attribute-groups>
+        <xi:include href="attribute-group/239fadc8-1a31-4090-ad71-19f14b10e6ea.xml" parse="xml"/>
+        <xi:include href="attribute-group/9416d1d1-fcaf-4117-b7ef-51c4bc7d2ae2.xml" parse="xml"/>
+        <xi:include href="attribute-group/a22cf96f-2472-462a-9a78-ba2ceb2d4c9a.xml" parse="xml"/>
+        <xi:include href="attribute-group/b0fdafce-c72e-4124-abec-6629caaf366a.xml" parse="xml"/>
+        <xi:include href="attribute-group/c65e9919-d4b5-43a1-9382-126b41b67a57.xml" parse="xml"/>
+        <xi:include href="attribute-group/DlyaSpiskaNaKartochkeUslugi.xml" parse="xml"/>
+        <xi:include href="attribute-group/DlyaSpiskaNaKartochkeZayavki.xml" parse="xml"/>
+        <xi:include href="attribute-group/ee4b4129-9423-4bae-955c-60df956af5c1.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/KB.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentText_text.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileContent_content.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileDescription_description.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileTitle_title.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>8</searchOrder>
+    <allowPlanVer>false</allowPlanVer>
+    <depthEnv>1</depthEnv>
+    <status>DEFAULT</status>
+</user-metaclass>

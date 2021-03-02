@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<escalation-scheme xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f062d330-13ec-6a52-0000-000000ea5979" seg-type="escalation-scheme">
+    <code>f062d330-13ec-6a52-0000-000000ea5979</code>
+    <title>Основная схема для задачи</title>
+    <state>on</state>
+    <targetTypes>
+        <id>task</id>
+    </targetTypes>
+    <timerCode>taskTimeRes</timerCode>
+    <levels>
+        <level>1</level>
+        <condition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="EscalationSchemeLevelConditionTimePart">
+            <condition>timePartExceeded</condition>
+            <value>70</value>
+        </condition>
+        <actions>eventAction$90</actions>
+        <actions>eventAction$email_task_headAndLeaderTill30ToDeadline</actions>
+        <actions>eventAction$pushMP_task_headAndLeaderTill30ToDeadline</actions>
+        <actions>eventAction$PushVMPOtvetstvennomuZa30DoDedlainaZadachi</actions>
+        <actionExecuted>false</actionExecuted>
+    </levels>
+    <levels>
+        <level>2</level>
+        <condition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="EscalationSchemeLevelConditionTimePart">
+            <condition>timePartExceeded</condition>
+            <value>100</value>
+        </condition>
+        <actions>eventAction$91</actions>
+        <actions>eventAction$email_task_respOnDeadline</actions>
+        <actions>eventAction$EmailAvtoruODedlaineZadachi</actions>
+        <actions>eventAction$pushMP_task_respOnDeadline</actions>
+        <actions>eventAction$PushVMPAvtoruODedlaineZadachi</actions>
+        <actions>eventAction$PushVMPRukovoditeluILideruKomandyODedlaineZadachi</actions>
+        <actionExecuted>false</actionExecuted>
+    </levels>
+</escalation-scheme>

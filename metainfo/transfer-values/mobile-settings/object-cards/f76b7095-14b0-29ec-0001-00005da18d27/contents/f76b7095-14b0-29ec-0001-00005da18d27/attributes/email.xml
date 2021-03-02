@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="email" seg-type="attributes">
+    <code>employee@email</code>
+    <presentation>with-title</presentation>
+    <uuid>fc28f5ff-15e3-6920-0000-0000016480c9</uuid>
+</attribute>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="OsnovnayaInformaciya" seg-type="contents" uuid="OsnovnayaInformaciya">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efa20-16fc-1653-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Основная информация</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>OsnovnayaInformaciya</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/8ec59739-214e-2e71-7991-49b095fa840f.xml" parse="xml"/>
+</properties>

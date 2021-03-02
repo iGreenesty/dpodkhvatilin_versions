@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ee4b4129-9423-4bae-955c-60df956af5c1" seg-type="attribute-group">
+    <code>ee4b4129-9423-4bae-955c-60df956af5c1</code>
+    <title lang="ru">Для вышестоящего раздела</title>
+    <attribute>title</attribute>
+    <attribute>author</attribute>
+    <attribute>creationDate</attribute>
+    <order>title</order>
+    <order>author</order>
+    <order>creationDate</order>
+</group>

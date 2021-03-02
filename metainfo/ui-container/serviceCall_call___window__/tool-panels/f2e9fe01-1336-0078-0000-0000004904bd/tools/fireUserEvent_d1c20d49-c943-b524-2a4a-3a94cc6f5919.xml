@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-event-tool xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fireUserEvent_d1c20d49-c943-b524-2a4a-3a94cc6f5919" seg-type="tools" uuid="d1c20d49-c943-b524-2a4a-3a94cc6f5919">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <params/>
+    <presentationType>defaultTextOnly</presentationType>
+    <action>fireUserEvent</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="ru">Спам</caption>
+    <event-uuid>userEvent$markServiceCallAsSPAM</event-uuid>
+    <use-quick-form>false</use-quick-form>
+</user-event-tool>

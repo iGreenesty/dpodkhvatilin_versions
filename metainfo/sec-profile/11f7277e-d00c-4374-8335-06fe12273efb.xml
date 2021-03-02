@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="11f7277e-d00c-4374-8335-06fe12273efb" licensed="false" seg-detach="true" seg-id="11f7277e-d00c-4374-8335-06fe12273efb" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>ouHead</roles>
+    <title lang="ru">Руководитель (нелиц.)</title>
+</security-profile>

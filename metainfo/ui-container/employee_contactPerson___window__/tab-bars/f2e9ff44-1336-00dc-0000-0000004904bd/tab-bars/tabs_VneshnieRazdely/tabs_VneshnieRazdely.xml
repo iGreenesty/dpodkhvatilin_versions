@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_VneshnieRazdely" seg-type="tab-bars" uuid="tabs_VneshnieRazdely">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6eff11-16fc-189f-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>true</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="VneshnieRazdely">
+        <profiles/>
+        <tags>
+            <tag>BazaZnanii</tag>
+        </tags>
+        <caption lang="ru">Внешние разделы</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="0e8de2db-d5d3-b30d-9b24-119f19cabbe1">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/RazdelyVerhnegoUrovnya/RazdelyVerhnegoUrovnya.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6eff11-16fc-18a1-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

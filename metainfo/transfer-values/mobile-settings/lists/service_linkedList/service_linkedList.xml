@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="service_linkedList" seg-type="lists" uuid="service_linkedList">
+    <profiles/>
+    <tags/>
+    <cases/>
+    <class>
+        <id>slmService</id>
+    </class>
+    <attributes>
+        <xi:include href="attributes/title.xml" parse="xml"/>
+        <xi:include href="attributes/responsible.xml" parse="xml"/>
+        <xi:include href="attributes/description.xml" parse="xml"/>
+    </attributes>
+    <allowActionsWithObjects>true</allowActionsWithObjects>
+    <caption lang="ru">УСЛУГИ: список связанных объектов</caption>
+    <filters/>
+    <filter seg-detach="false" uuid="f605de2d-1778-1b60-0000-000044ccdc1e">
+        <profiles/>
+        <tags/>
+    </filter>
+    <orders>
+        <order code="abstractBO@title" order="asc"/>
+    </orders>
+</objects>

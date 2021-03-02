@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="c52d4bf6-3c5c-4807-ae07-bc8f3c20a2fa" seg-type="attribute-group">
+    <code>c52d4bf6-3c5c-4807-ae07-bc8f3c20a2fa</code>
+    <title lang="ru">Список простой</title>
+    <attribute>objectNumber</attribute>
+    <attribute>state</attribute>
+    <attribute>deadline</attribute>
+    <attribute>description</attribute>
+    <attribute>responsible</attribute>
+    <order>objectNumber</order>
+    <order>state</order>
+    <order>deadline</order>
+    <order>description</order>
+    <order>responsible</order>
+</group>

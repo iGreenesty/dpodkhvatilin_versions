@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="negotiation_RespTeamLeader" enabled="true" seg-detach="true" seg-id="negotiation_RespTeamLeader" seg-type="roles" type="SYSTEM">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="snippet">responsibleTeamLeaderRoleSnippet</property>
+    <title lang="en">Assigned team leader</title>
+    <title lang="ru">Лидер команды, ответственной за объект</title>
+</role>

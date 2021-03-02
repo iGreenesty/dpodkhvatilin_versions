@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$182" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <push-action>
+            <actionType>PushEventAction</actionType>
+            <message>&lt;div style="font-size: 1rem; padding: 5px 0 5px 0;"&gt;&lt;div style="padding: 0 0 7px 5px; border-bottom: 2px solid #cccccc;"&gt;Вы назначены ответственным за задачу&amp;nbsp;&lt;strong fr-original-style="" style="font-weight: 700;"&gt;&lt;a fr-original-style="" href="${api.web.open(subject)}" style="user-select: auto;"&gt;№${subject.objectNumber}&lt;/a&gt;&lt;/strong&gt;&lt;/div&gt;&lt;table fr-original-style="margin: 10px 0 0 10px; font-size: 0.85rem;" style="margin: 10px 0px 0px 10px; font-size: 0.85rem; border: 0px; border-collapse: collapse; empty-cells: show; max-width: 100%;"&gt;&lt;tbody&gt;&lt;tr fr-original-style="" style="user-select: none;"&gt;&lt;td fr-original-style="padding: 0px 10px 7px 0;" style="padding: 0px 10px 7px 0px; user-select: text; border: none;"&gt;Статус:&lt;/td&gt;&lt;td fr-original-style="padding: 0px 10px 7px 0;" style="padding: 0px 10px 7px 0px; user-select: text; border: none;"&gt;${api.metainfo.getStateTitle(subject)}&lt;/td&gt;&lt;/tr&gt;&lt;tr fr-original-style="" style="user-select: none;"&gt;&lt;td fr-original-style="padding: 0px 10px 7px 0;" style="padding: 0px 10px 7px 0px; user-select: text; border: none;"&gt;Дедлайн:&lt;/td&gt;&lt;td fr-original-style="padding: 0px 10px 7px 0;" style="padding: 0px 10px 7px 0px; user-select: text; border: none;"&gt;${push.scriptParams['deadline']}&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</message>
+            <roles>task_ResponsibleEmployee</roles>
+            <script><![CDATA[FormatirovanieDedlainaVChasovomPoyaseOtvetstvennogoIskluchenieAv]]></script>
+            <html>true</html>
+            <position>BottomRight</position>
+            <pushPresentationType>AlwaysInTheInterface</pushPresentationType>
+            <type>WEB</type>
+        </push-action>
+        <code>eventAction$182</code>
+        <xi:include href="script-action-condition/actionCondition_1.xml" parse="xml"/>
+        <description lang="ru"/>
+        <event>
+            <eventType>changeResponsible</eventType>
+        </event>
+        <fqn>
+            <id>task</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <tags>Zadachi</tags>
+        <title lang="ru">[Push] О назначении ответственным за задачу (отв-ному сот-ку)</title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

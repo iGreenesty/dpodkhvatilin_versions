@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="task$task" seg-type="metaclasses">
+    <fqn>
+        <id>task</id>
+        <case>task</case>
+    </fqn>
+    <parent>
+        <id>task</id>
+    </parent>
+    <title lang="ru">Задача</title>
+    <description lang="ru"/>
+    <properties/>
+    <tags/>
+    <responsibilityTransferTableEnabled>false</responsibilityTransferTableEnabled>
+    <attributes/>
+    <attribute-overrides/>
+    <permittedTypesInfo/>
+    <attribute-groups>
+        <xi:include href="attribute-group-override/557b87bf-69e9-434e-b558-ce018711bfa3.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/f5df38fe-14ce-8338-0001-00003f5cad83.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentText_text.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileContent_content.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileDescription_description.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileTitle_title.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>5</maxSearchResults>
+    <searchOrder>12</searchOrder>
+    <allowPlanVer>false</allowPlanVer>
+    <depthEnv>1</depthEnv>
+    <status>DEFAULT</status>
+</user-metaclass>

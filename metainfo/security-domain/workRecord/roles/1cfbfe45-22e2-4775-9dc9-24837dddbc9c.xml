@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="1cfbfe45-22e2-4775-9dc9-24837dddbc9c" enabled="true" seg-detach="true" seg-id="1cfbfe45-22e2-4775-9dc9-24837dddbc9c" seg-type="roles" type="SCRIPT">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="script">RukovoditelVypolnivshegoRabotuCfbfeedcdddbcc46</property>
+    <title lang="ru">Руководитель выполнившего работу</title>
+</role>

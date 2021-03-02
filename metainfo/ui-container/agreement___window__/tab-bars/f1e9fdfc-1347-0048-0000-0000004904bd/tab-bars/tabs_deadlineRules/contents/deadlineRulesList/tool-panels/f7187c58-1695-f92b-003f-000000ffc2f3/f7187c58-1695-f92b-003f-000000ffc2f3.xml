@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectActionsToolPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f7187c58-1695-f92b-003f-000000ffc2f3" seg-type="tool-panels" uuid="f7187c58-1695-f92b-003f-000000ffc2f3">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="f7187c58-1695-f92c-003f-000000ffc2f3">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/openObjectCard_f7187c58-1695-f92d-003f-000000ffc2f3.xml" parse="xml"/>
+        <xi:include href="tools/edit_8422d77a-faa2-90e2-f9dd-f30e675a7ec8.xml" parse="xml"/>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</objectActionsToolPanel>

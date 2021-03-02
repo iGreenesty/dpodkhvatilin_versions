@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<toolPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="132317cd-bca7-d487-14c0-3b1fb4fadaba" seg-type="tool-panels" uuid="132317cd-bca7-d487-14c0-3b1fb4fadaba">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="c73aa6ce-6876-f374-a180-75fdec0f0521">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <advlist-presentation-select seg-detach="false" uuid="7b6d0563-b88b-b593-7776-2475158bd92c">
+            <profiles/>
+            <tags/>
+            <appliedToType>currentObject</appliedToType>
+            <params/>
+            <presentationType>default</presentationType>
+        </advlist-presentation-select>
+        <xi:include href="tools/saveAdvlistPrs_21d3eef9-1e60-205f-7c5e-3efb2f742c15.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="8e795310-772c-a919-fb8d-61b3d1a4bb66">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/showAdvlistSort_226ff2df-b932-8a41-ce52-106abfdb5959.xml" parse="xml"/>
+        <xi:include href="tools/showAdvlistFilter_2bef2a83-612c-a658-cd0f-114c01b937b4.xml" parse="xml"/>
+        <xi:include href="tools/exportAdvlist_a756471e-17a3-f8da-9738-5613c262607f.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="dd9c3397-4589-0e4e-0fc6-50af48f956cd">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/refresh_0cb04b66-9428-9e69-5e14-fe21c6da07f5.xml" parse="xml"/>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</toolPanel>

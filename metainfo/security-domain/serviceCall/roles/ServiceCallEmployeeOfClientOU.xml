@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="ServiceCallEmployeeOfClientOU" enabled="true" seg-detach="true" seg-id="ServiceCallEmployeeOfClientOU" seg-type="roles" type="SYSTEM">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="snippet">serviceCallEmployeeOfClientOURoleSnippet</property>
+    <title lang="en">Employee of Service Call's client-ou</title>
+    <title lang="ru">Сотрудник отдела-контрагента запроса</title>
+</role>

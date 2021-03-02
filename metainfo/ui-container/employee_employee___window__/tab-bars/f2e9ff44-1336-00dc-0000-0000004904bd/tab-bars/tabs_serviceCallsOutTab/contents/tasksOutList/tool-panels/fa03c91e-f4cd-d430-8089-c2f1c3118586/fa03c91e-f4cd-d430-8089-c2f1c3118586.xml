@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<massOperationsPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fa03c91e-f4cd-d430-8089-c2f1c3118586" seg-type="tool-panels" uuid="fa03c91e-f4cd-d430-8089-c2f1c3118586">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="f32f8a4f-1745-f371-0034-000036b4a082">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/edit_f32f8a4f-1745-f372-0034-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/massEdit_f32f8a4f-1745-f373-0034-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/editResponsible_f32f8a4f-1745-f374-0034-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/deleteActionTool_f32f8a4f-1745-f375-0034-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/fireUserEvent_f32f8a4f-1745-f376-0034-000036b4a082.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="f3c8c537-165a-7bfc-0021-000000ee8080">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <feature>fastChangeState</feature>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="f32f8a4f-1745-f377-0034-000036b4a082">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/fireUserEvent_f32f8a4f-1745-f378-0034-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/fireUserEvent_f32f8a4f-1745-f379-0034-000036b4a082.xml" parse="xml"/>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</massOperationsPanel>

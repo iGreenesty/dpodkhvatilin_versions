@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="SummaTrudozatrat" seg-type="contents" uuid="SummaTrudozatrat">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef9ea-16fc-1630-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Сумма трудозатрат</caption>
+    <showCaption>false</showCaption>
+    <attributeGroup>Trudozatraty</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/cd2c57df-8ebc-1b9f-9a37-0c5339f77e16.xml" parse="xml"/>
+</properties>

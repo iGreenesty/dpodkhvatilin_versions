@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-domain xmlns:xi="http://www.w3.org/2001/XInclude" code="agreement" seg-detach="true" seg-id="agreement" seg-type="security-domain">
+    <xi:include href="access-matrix/access-matrix.xml" parse="xml"/>
+    <xi:include href="marker-declarations/1085a9ed-20bb-406d-831b-cfc2a831d705.xml" parse="xml"/>
+    <xi:include href="marker-declarations/editState.xml" parse="xml"/>
+    <xi:include href="sec-actions/MoveObject.xml" parse="xml"/>
+    <xi:include href="roles/AgreementRecipient.xml" parse="xml"/>
+    <xi:include href="roles/AgreementServiceResponsible.xml" parse="xml"/>
+    <xi:include href="roles/AgreementSupplier.xml" parse="xml"/>
+    <xi:include href="roles/AgreementManager.xml" parse="xml"/>
+</security-domain>

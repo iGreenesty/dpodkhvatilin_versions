@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<system-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ou" seg-type="metaclasses">
+    <fqn>
+        <id>ou</id>
+    </fqn>
+    <parent>
+        <id>abstractBO</id>
+    </parent>
+    <title lang="en">Department</title>
+    <title lang="ru">Отдел</title>
+    <description lang="en"/>
+    <description lang="ru"/>
+    <properties>
+        <item key="defaultClientAgreement">
+            <value>
+                <entity uuid="agreement$605301"/>
+            </value>
+        </item>
+        <item key="defaultClientService">
+            <value>
+                <date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+            </value>
+        </item>
+        <item key="defaultServiceCallClassFqn">
+            <value>
+                <class-fqn>
+                    <id>serviceCall</id>
+                    <case>call</case>
+                </class-fqn>
+            </value>
+        </item>
+    </properties>
+    <tags/>
+    <responsibilityTransferTableEnabled>true</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/folders.xml" parse="xml"/>
+        <xi:include href="attribute/head.xml" parse="xml"/>
+        <xi:include href="attribute/metaClass.xml" parse="xml"/>
+        <xi:include href="attribute/number.xml" parse="xml"/>
+        <xi:include href="attribute/ouSecGroups.xml" parse="xml"/>
+        <xi:include href="attribute/parent.xml" parse="xml"/>
+        <xi:include href="attribute/recipientAgreements.xml" parse="xml"/>
+        <xi:include href="attribute/adress/adress.xml" parse="xml"/>
+        <xi:include href="attribute/childOUs/childOUs.xml" parse="xml"/>
+        <xi:include href="attribute/domainNames/domainNames.xml" parse="xml"/>
+        <xi:include href="attribute/employees/employees.xml" parse="xml"/>
+        <xi:include href="attribute/icon/icon.xml" parse="xml"/>
+        <xi:include href="attribute/idHolder/idHolder.xml" parse="xml"/>
+        <xi:include href="attribute/KEsInUse/KEsInUse.xml" parse="xml"/>
+        <xi:include href="attribute/serviceCalls/serviceCalls.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/folders.xml" parse="xml"/>
+        <xi:include href="attribute-override/head/head.xml" parse="xml"/>
+        <xi:include href="attribute-override/metaClass.xml" parse="xml"/>
+        <xi:include href="attribute-override/number.xml" parse="xml"/>
+        <xi:include href="attribute-override/ouSecGroups.xml" parse="xml"/>
+        <xi:include href="attribute-override/parent/parent.xml" parse="xml"/>
+        <xi:include href="attribute-override/recipientAgreements/recipientAgreements.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo>
+        <attribute attribute="recipientAgreements">
+            <fqn>
+                <id>agreement</id>
+            </fqn>
+            <fqn>
+                <id>agreement</id>
+                <case>agreement</case>
+            </fqn>
+        </attribute>
+    </permittedTypesInfo>
+    <attribute-groups>
+        <xi:include href="attribute-group/0ceaba49-383c-4585-aa43-b4d230978d06.xml" parse="xml"/>
+        <xi:include href="attribute-group/164d280d-7c5f-4815-845e-92bd0c1b1820.xml" parse="xml"/>
+        <xi:include href="attribute-group/79d05a9f-441a-4507-81c7-9d3beac3005d.xml" parse="xml"/>
+        <xi:include href="attribute-group/91bbf042-6f38-459d-aa9f-d64f7f3caa8f.xml" parse="xml"/>
+        <xi:include href="attribute-group/c65ca50f-fe28-4e62-bafe-5c063bc76d42.xml" parse="xml"/>
+        <xi:include href="attribute-group/c9e66f8f-da07-47fe-9034-4b6fca5e10e1.xml" parse="xml"/>
+        <xi:include href="attribute-group/ca2af762-c5e0-4c34-ab84-12f1c5e9be28.xml" parse="xml"/>
+        <xi:include href="attribute-group/cc65b1ba-19c5-47b4-80bd-ab7462e285da.xml" parse="xml"/>
+        <xi:include href="attribute-group/d56af710-2a94-455b-ad33-83c208c0fe37.xml" parse="xml"/>
+        <xi:include href="attribute-group/d70ecf64-ab79-42c8-8d8e-7c559f18e04b.xml" parse="xml"/>
+        <xi:include href="attribute-group/edcfcd28-3de9-4a5c-bab7-3b772a727486.xml" parse="xml"/>
+        <xi:include href="attribute-group/ee6bea42-f353-4afe-88a8-fb8d83f1b100.xml" parse="xml"/>
+        <xi:include href="attribute-group/f5df38fc-14ce-8334-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/search.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentText_text.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileContent_content.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileDescription_description.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileTitle_title.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>1</searchOrder>
+    <allowPlanVer>false</allowPlanVer>
+    <depthEnv>1</depthEnv>
+</system-metaclass>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f01c28ab-13f6-01a3-0000-ffffffffb30d58f0" seg-type="contents" uuid="f01c28ab-13f6-01a3-0000-ffffffffb30d58f0">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef90e-16fc-15da-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Описание проблемы</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>b129fbbc-4a24-4f49-be99-a6d7bd67c72e</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/f01c28ad-13f6-01a4-0000-ffffffffb30d58f0.xml" parse="xml"/>
+</properties>

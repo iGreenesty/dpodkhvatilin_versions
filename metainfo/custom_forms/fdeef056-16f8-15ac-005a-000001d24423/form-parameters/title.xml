@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="title" seg-type="form-parameters">
+    <attrs-for-date-time-restriction-script/>
+    <attrs-in-cof-script/>
+    <code>title</code>
+    <complexRelation>false</complexRelation>
+    <computable-on-form>false</computable-on-form>
+    <default-by-script>false</default-by-script>
+    <edit-presentaion>
+        <code>stringEdit</code>
+    </edit-presentaion>
+    <editable>true</editable>
+    <is-filtered-by-script>false</is-filtered-by-script>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <is-hidden-when-no-possible-values>false</is-hidden-when-no-possible-values>
+    <required>true</required>
+    <title lang="ru">Название</title>
+    <type>
+        <code>string</code>
+        <property code="permittedTypes">[]</property>
+        <property code="string">255</property>
+        <property code="inputMaskMode"/>
+        <property code="inputMask"/>
+    </type>
+    <view-presentaion>
+        <code>stringView</code>
+    </view-presentaion>
+</parameter>

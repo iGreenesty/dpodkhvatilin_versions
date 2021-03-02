@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectActions xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="object-actions-settings" seg-type="object-actions-settings" useDefaultSettings="false">
+    <xi:include href="object-actions/b7266248-bde1-22ac-9826-4cd41b4c9184.xml" parse="xml"/>
+    <xi:include href="object-actions/0661ad0d-ef1a-5004-530b-674c9365d36f.xml" parse="xml"/>
+</objectActions>

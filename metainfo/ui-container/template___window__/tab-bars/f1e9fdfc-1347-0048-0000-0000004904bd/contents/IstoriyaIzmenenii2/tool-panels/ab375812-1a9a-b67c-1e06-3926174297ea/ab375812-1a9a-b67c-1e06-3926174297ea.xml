@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<toolPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ab375812-1a9a-b67c-1e06-3926174297ea" seg-type="tool-panels" uuid="ab375812-1a9a-b67c-1e06-3926174297ea">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="31beb56e-47cd-7b52-c84f-28db1e36e8c9">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <tools xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" seg-detach="false" uuid="1d22e07e-9151-c8ed-1ee9-f2bd4981ea89" xsi:type="EventFilterTool">
+            <profiles/>
+            <tags/>
+            <appliedToType>currentObject</appliedToType>
+            <params/>
+            <presentationType>default</presentationType>
+            <caption lang="en">Show history of nested objects </caption>
+            <caption lang="ru">Показывать историю вложенных объектов</caption>
+        </tools>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="4551edee-0a98-3c11-3815-233c4ad257c6">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <advlist-presentation-select seg-detach="false" uuid="f4714bbb-8328-6c34-c91d-63751bba1c4e">
+            <profiles/>
+            <tags/>
+            <appliedToType>currentObject</appliedToType>
+            <params/>
+            <presentationType>default</presentationType>
+        </advlist-presentation-select>
+        <xi:include href="tools/saveAdvlistPrs_e5e1034f-59ce-3aa6-5f8d-d6fa7774911d.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="d969b87d-c96a-0dd4-dc3a-0a21de75976c">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/showAdvlistSort_79bfbc93-02c4-7ed5-ace6-55bd261c3469.xml" parse="xml"/>
+        <xi:include href="tools/showAdvlistFilter_0c56ba5c-f27f-15d2-edd3-8a0ce527324e.xml" parse="xml"/>
+        <xi:include href="tools/exportAdvlist_70e3930c-1a6b-4236-2eee-db04a2873d20.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="9ce899a8-f044-0019-2db9-ec93c6473357">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/refresh_aa304cdc-2f96-f88c-359e-716bebcd4bd0.xml" parse="xml"/>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</toolPanel>

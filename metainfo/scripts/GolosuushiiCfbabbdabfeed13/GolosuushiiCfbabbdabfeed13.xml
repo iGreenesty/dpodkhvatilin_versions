@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="GolosuushiiCfbabbdabfeed13" seg-type="scripts">
+    <code>GolosuushiiCfbabbdabfeed13</code>
+    <title lang="ru">Голосующий. Права</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="GolosuushiiCfbabbdabfeed13.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$174" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[SCRIPTSD4001725unsub]]></script>
+        </script-action>
+        <code>eventAction$174</code>
+        <description lang="ru">Кнопка доступна только подписчикам</description>
+        <user-events>
+            <eventType>userEvent</eventType>
+            <event-code>userEvent$174</event-code>
+        </user-events>
+        <fqn>
+            <id>task</id>
+        </fqn>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Кнопка] Отписаться</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

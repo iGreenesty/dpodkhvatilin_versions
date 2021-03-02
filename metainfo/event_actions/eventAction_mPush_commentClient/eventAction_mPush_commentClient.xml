@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$mPush_commentClient" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <push-mobile-action>
+            <actionType>PushMobileEventAction</actionType>
+            <message>&lt;font size="2"&gt;Новый комментарий в заявке с темой '"${pushMobile.scriptParams['shortDescr']}"'&lt;/font&gt;</message>
+            <roles>ServiceCallClient</roles>
+            <script><![CDATA[PerehodNaKartochkuKommentariyaTemaIskluchenieAvtora]]></script>
+            <html>true</html>
+            <pushHeaderFormat>Subject</pushHeaderFormat>
+            <subject>${pushMobile.scriptParams['root']}</subject>
+        </push-mobile-action>
+        <code>eventAction$mPush_commentClient</code>
+        <xi:include href="script-action-condition/actionCondition_1.xml" parse="xml"/>
+        <description lang="ru"/>
+        <event>
+            <eventType>addComment</eventType>
+        </event>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Push в МП] О добавлении комментария клиенту</title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

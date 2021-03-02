@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f76b7095-14b0-29ec-0001-00005da18d27" seg-type="attribute-group-override">
+    <code>f76b7095-14b0-29ec-0001-00005da18d27</code>
+    <title lang="client">Карточка в мобильном приложении (f76b7095-14b0-29ec-0001-00005da18d27)</title>
+    <title lang="en">Mobile Object card (f76b7095-14b0-29ec-0001-00005da18d27)</title>
+    <title lang="ru">Карточка в мобильном приложении (f76b7095-14b0-29ec-0001-00005da18d27)</title>
+    <attribute>title</attribute>
+    <attribute>parent</attribute>
+    <attribute>post</attribute>
+    <attribute>immediateSupervisor</attribute>
+    <attribute>teams</attribute>
+    <attribute>recipientAgreements</attribute>
+    <attribute>phonesIndex</attribute>
+    <attribute>email</attribute>
+    <order>title</order>
+    <order>parent</order>
+    <order>post</order>
+    <order>immediateSupervisor</order>
+    <order>teams</order>
+    <order>recipientAgreements</order>
+    <order>phonesIndex</order>
+    <order>email</order>
+</override>

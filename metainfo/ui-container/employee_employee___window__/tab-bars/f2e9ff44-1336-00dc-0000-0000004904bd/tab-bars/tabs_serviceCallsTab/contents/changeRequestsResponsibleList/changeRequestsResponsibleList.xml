@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="changeRequestsResponsibleList" seg-type="contents" uuid="changeRequestsResponsibleList">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efc7d-16fc-1736-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Запросы на изменение в ответственности сотрудника</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>changeRequest</id>
+    </class>
+    <attributeGroup>bf9e158c-968c-464b-bf5b-af9372f57fc4</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/d51ee63c-bd81-78ae-5acc-b720db861b75/d51ee63c-bd81-78ae-5acc-b720db861b75.xml" parse="xml"/>
+    <xi:include href="tool-panels/017f94fe-eaae-ec80-1056-2492c86b3143.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="fba9fbad-1657-cfd0-0003-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="fba9fbf4-1657-d254-0003-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c5195-168d-1245-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>respForChReqs</attr-link-code>
+    <attrs-chain attr-code="respForChReqs" class-fqn="employee$employee"/>
+    <filterRestrictionSettings/>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Запрос на изменение</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

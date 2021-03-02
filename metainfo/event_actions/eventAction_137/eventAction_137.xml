@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$137" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[SkriptZapreshaetRazryvSvyaziSSoglasheniyamiPoUmolchaniu135]]></script>
+        </script-action>
+        <code>eventAction$137</code>
+        <xi:include href="script-action-condition/actionCondition_138.xml" parse="xml"/>
+        <description lang="ru"/>
+        <description/>
+        <event>
+            <eventType>edit</eventType>
+        </event>
+        <fqn>
+            <id>ou</id>
+        </fqn>
+        <fqn>
+            <id>employee</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Скрипт] Запрещает разрыв связи с соглашениями по умолчанию</title>
+        <title>Скрипт: запрещает разрыв связи с соглашениями по умолчанию</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

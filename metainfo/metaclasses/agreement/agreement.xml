@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<system-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="agreement" seg-type="metaclasses">
+    <fqn>
+        <id>agreement</id>
+    </fqn>
+    <parent>
+        <id>abstractBO</id>
+    </parent>
+    <properties/>
+    <tags/>
+    <responsibilityTransferTableEnabled>true</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/description.xml" parse="xml"/>
+        <xi:include href="attribute/endDate.xml" parse="xml"/>
+        <xi:include href="attribute/folders.xml" parse="xml"/>
+        <xi:include href="attribute/inventoryNumber.xml" parse="xml"/>
+        <xi:include href="attribute/metaClass.xml" parse="xml"/>
+        <xi:include href="attribute/number.xml" parse="xml"/>
+        <xi:include href="attribute/priorityRule.xml" parse="xml"/>
+        <xi:include href="attribute/recipients.xml" parse="xml"/>
+        <xi:include href="attribute/recipientsOU.xml" parse="xml"/>
+        <xi:include href="attribute/recipientTeam.xml" parse="xml"/>
+        <xi:include href="attribute/resolutionTimeRule.xml" parse="xml"/>
+        <xi:include href="attribute/serviceHours.xml" parse="xml"/>
+        <xi:include href="attribute/services.xml" parse="xml"/>
+        <xi:include href="attribute/state.xml" parse="xml"/>
+        <xi:include href="attribute/stateStartTime.xml" parse="xml"/>
+        <xi:include href="attribute/supplier.xml" parse="xml"/>
+        <xi:include href="attribute/supplierEmpoyee.xml" parse="xml"/>
+        <xi:include href="attribute/supplierTeam.xml" parse="xml"/>
+        <xi:include href="attribute/supportHours.xml" parse="xml"/>
+        <xi:include href="attribute/allRecipients/allRecipients.xml" parse="xml"/>
+        <xi:include href="attribute/autoCreation/autoCreation.xml" parse="xml"/>
+        <xi:include href="attribute/autoCreationTe/autoCreationTe.xml" parse="xml"/>
+        <xi:include href="attribute/icon/icon.xml" parse="xml"/>
+        <xi:include href="attribute/manager/manager.xml" parse="xml"/>
+        <xi:include href="attribute/protected/protected.xml" parse="xml"/>
+        <xi:include href="attribute/reactionTime/reactionTime.xml" parse="xml"/>
+        <xi:include href="attribute/resp/resp.xml" parse="xml"/>
+        <xi:include href="attribute/resp_em/resp_em.xml" parse="xml"/>
+        <xi:include href="attribute/resp_te/resp_te.xml" parse="xml"/>
+        <xi:include href="attribute/serviceCalls/serviceCalls.xml" parse="xml"/>
+        <xi:include href="attribute/timeToReact/timeToReact.xml" parse="xml"/>
+        <xi:include href="attribute/timeToSolve/timeToSolve.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/description.xml" parse="xml"/>
+        <xi:include href="attribute-override/endDate.xml" parse="xml"/>
+        <xi:include href="attribute-override/folders.xml" parse="xml"/>
+        <xi:include href="attribute-override/inventoryNumber.xml" parse="xml"/>
+        <xi:include href="attribute-override/metaClass.xml" parse="xml"/>
+        <xi:include href="attribute-override/number.xml" parse="xml"/>
+        <xi:include href="attribute-override/priorityRule/priorityRule.xml" parse="xml"/>
+        <xi:include href="attribute-override/recipients/recipients.xml" parse="xml"/>
+        <xi:include href="attribute-override/recipientsOU/recipientsOU.xml" parse="xml"/>
+        <xi:include href="attribute-override/recipientTeam.xml" parse="xml"/>
+        <xi:include href="attribute-override/resolutionTimeRule/resolutionTimeRule.xml" parse="xml"/>
+        <xi:include href="attribute-override/serviceHours/serviceHours.xml" parse="xml"/>
+        <xi:include href="attribute-override/services/services.xml" parse="xml"/>
+        <xi:include href="attribute-override/state.xml" parse="xml"/>
+        <xi:include href="attribute-override/stateStartTime.xml" parse="xml"/>
+        <xi:include href="attribute-override/supplier.xml" parse="xml"/>
+        <xi:include href="attribute-override/supplierEmpoyee.xml" parse="xml"/>
+        <xi:include href="attribute-override/supplierTeam.xml" parse="xml"/>
+        <xi:include href="attribute-override/supportHours/supportHours.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo/>
+    <attribute-groups>
+        <xi:include href="attribute-group/3ad1acb4-f5b1-4f03-abf9-c7f1cc82d758.xml" parse="xml"/>
+        <xi:include href="attribute-group/447d71c1-8817-4fc7-bd5d-bda0fc363d4b.xml" parse="xml"/>
+        <xi:include href="attribute-group/5999e0b7-3c64-491e-ba41-8b8ddd22ac73.xml" parse="xml"/>
+        <xi:include href="attribute-group/667641a9-5af7-4c76-bcc1-07b3a3c28add.xml" parse="xml"/>
+        <xi:include href="attribute-group/6aab767c-3521-472d-90ac-d8209fd02e14.xml" parse="xml"/>
+        <xi:include href="attribute-group/7c005be4-8bba-4316-beaf-1f0f5bcf493a.xml" parse="xml"/>
+        <xi:include href="attribute-group/7e633ea4-06c9-480e-9ef9-dca47150eecb.xml" parse="xml"/>
+        <xi:include href="attribute-group/7f6cefe6-87af-403a-b3f3-44ad0673bb6f.xml" parse="xml"/>
+        <xi:include href="attribute-group/8791c94d-af67-43d9-b037-adff532f1b7e.xml" parse="xml"/>
+        <xi:include href="attribute-group/allRecipients.xml" parse="xml"/>
+        <xi:include href="attribute-group/cd489e66-df9e-46b4-9939-e5d48e619788.xml" parse="xml"/>
+        <xi:include href="attribute-group/f5df38fd-14ce-8336-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="attribute-group/fastCreate.xml" parse="xml"/>
+        <xi:include href="attribute-group/SLAPoUmolchaniu.xml" parse="xml"/>
+        <xi:include href="attribute-group/SpisokNaKartochkePoluchatelya-sotrudnika.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/search.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/system.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentText_text.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileContent_content.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileDescription_description.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileTitle_title.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>6</searchOrder>
+    <allowPlanVer>false</allowPlanVer>
+    <depthEnv>1</depthEnv>
+</system-metaclass>

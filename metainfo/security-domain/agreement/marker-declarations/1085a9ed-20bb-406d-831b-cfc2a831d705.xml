@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="1085a9ed-20bb-406d-831b-cfc2a831d705" enabled="true" group="viewAttrs" seg-detach="true" seg-id="1085a9ed-20bb-406d-831b-cfc2a831d705" seg-type="marker-declarations">
+    <title lang="ru">Системные атрибуты</title>
+    <attributes>supplierEmpoyee</attributes>
+    <attributes>folders</attributes>
+    <attributes>lastModifiedDate</attributes>
+    <attributes>author</attributes>
+    <attributes>creationDate</attributes>
+    <attributes>stateStartTime</attributes>
+    <attributes>supplierTeam</attributes>
+    <attributes>inventoryNumber</attributes>
+    <attributes>priorityRule</attributes>
+    <attributes>removalDate</attributes>
+    <attributes>recipientTeam</attributes>
+    <attributes>recipients</attributes>
+    <attributes>supplier</attributes>
+    <attributes>recipientsOU</attributes>
+    <attributes>resolutionTimeRule</attributes>
+</marker-declaration>

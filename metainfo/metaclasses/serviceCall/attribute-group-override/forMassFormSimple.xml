@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="forMassFormSimple" seg-type="attribute-group-override">
+    <code>forMassFormSimple</code>
+    <title lang="ru">Атрибуты для связывания (простая форма)</title>
+    <attribute>descriptionRTF</attribute>
+    <order>number</order>
+    <order>descriptionRTF</order>
+</override>

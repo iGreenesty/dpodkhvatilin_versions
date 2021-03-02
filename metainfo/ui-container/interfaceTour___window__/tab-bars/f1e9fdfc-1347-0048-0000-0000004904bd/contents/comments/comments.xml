@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<comments xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="comments" seg-type="contents" uuid="comments">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efa24-16fc-165a-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Комментарии</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>comment</id>
+    </class>
+    <attributeGroup>system</attributeGroup>
+    <presentation>default</presentation>
+    <xi:include href="tool-panels/2de4efa4-e40b-800f-1f5b-590e95ad86d1.xml" parse="xml"/>
+    <xi:include href="tool-panels/f874362e-1618-8d55-0003-000000184e6e.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f874362e-1618-8d56-0003-000000184e6e">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f8743634-1618-8da0-0003-000000184e6e">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4cea-168d-1176-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <detailedAttrGroup>more</detailedAttrGroup>
+    <subjectType>currentObject</subjectType>
+</comments>

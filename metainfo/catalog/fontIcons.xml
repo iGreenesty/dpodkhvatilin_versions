@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="fontIcons" seg-detach="true" seg-id="fontIcons" seg-type="catalog" xsi:type="SystemCatalog">
+    <title lang="client">Иконки для элементов управления (иконочный шрифт)</title>
+    <title lang="en">Font icons</title>
+    <title lang="ru">Иконки для элементов управления (иконочный шрифт)</title>
+    <description lang="client">Содержит иконки, которые могут быть использованы для элементов управления, размещенных в интерфейсе отображения.</description>
+    <description lang="en">Contains icons that can be used for controls, placed in the operator interface.</description>
+    <description lang="ru">Содержит иконки, которые могут быть использованы для элементов управления, размещенных в интерфейсе отображения.</description>
+</catalog>

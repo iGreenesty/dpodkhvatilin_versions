@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="agreementRule_quickAddAndEditForm$FormaBystrogoRedaktirovaniyaPravilaSLA" seg-type="ui-container">
+    <fqn>
+        <id>agreementRule</id>
+    </fqn>
+    <code>quickAddAndEditForm$FormaBystrogoRedaktirovaniyaPravilaSLA</code>
+    <quickform seg-detach="false" uuid="quickAddAndEditForm$FormaBystrogoRedaktirovaniyaPravilaSLA">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Форма быстрого редактирования правила SLA</caption>
+        <layout seg-detach="false" uuid="3849777b-e91e-b3c2-f775-d04cd121b99e">
+            <profiles/>
+            <tags/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <attrGroup>DlyaFormyRedaktirovaniya</attrGroup>
+        <custom-form>QuickForm</custom-form>
+        <show-attr-description>false</show-attr-description>
+        <transitioncases>
+            <id>agreementRule</id>
+            <case>agreementRule</case>
+        </transitioncases>
+        <transitioncases>
+            <id>agreementRule</id>
+            <case>reactRule</case>
+        </transitioncases>
+        <code>FormaBystrogoRedaktirovaniyaPravilaSLA</code>
+    </quickform>
+</ui>

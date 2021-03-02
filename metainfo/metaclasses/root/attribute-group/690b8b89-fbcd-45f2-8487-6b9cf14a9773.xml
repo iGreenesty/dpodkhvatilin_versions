@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="690b8b89-fbcd-45f2-8487-6b9cf14a9773" seg-type="attribute-group">
+    <code>690b8b89-fbcd-45f2-8487-6b9cf14a9773</code>
+    <title lang="ru">Оповещения по запросам на изменение</title>
+    <attribute>EReCrCs</attribute>
+    <attribute>EReCrNt</attribute>
+    <attribute>EReCrNv</attribute>
+    <attribute>EEmVBr</attribute>
+    <order>EReCrCs</order>
+    <order>EReCrNt</order>
+    <order>EReCrNv</order>
+    <order>EEmVBr</order>
+</group>

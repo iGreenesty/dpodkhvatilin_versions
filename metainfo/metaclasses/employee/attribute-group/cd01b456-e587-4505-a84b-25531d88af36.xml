@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="cd01b456-e587-4505-a84b-25531d88af36" seg-type="attribute-group">
+    <code>cd01b456-e587-4505-a84b-25531d88af36</code>
+    <title lang="ru">Для сложной формы атрибута Ответственный</title>
+    <attribute>title</attribute>
+    <attribute>parent</attribute>
+    <attribute>post</attribute>
+    <attribute>email</attribute>
+</group>

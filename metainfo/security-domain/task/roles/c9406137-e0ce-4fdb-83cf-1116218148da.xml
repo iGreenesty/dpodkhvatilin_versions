@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="c9406137-e0ce-4fdb-83cf-1116218148da" enabled="true" seg-detach="true" seg-id="c9406137-e0ce-4fdb-83cf-1116218148da" seg-type="roles" type="SCRIPT">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="ownersScript">AvtorSpisok</property>
+    <property code="script">AvtorPrava</property>
+    <property code="listFilterScript">AvtorPoisk</property>
+    <title lang="ru">Автор задачи</title>
+</role>

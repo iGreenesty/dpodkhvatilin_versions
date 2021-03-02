@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="responsibleTeam_responsibleTeam" seg-type="search-settings">
+    <simpleSearchableForLicensed>true</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>false</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>false</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>false</extendedSearchableForLicensed>
+    <searchAnalizer>ftsNoMorphNoStrictAnalyzer</searchAnalizer>
+    <searchBoost>1.0</searchBoost>
+    <code>responsibleTeam</code>
+    <declaredMetaClass>serviceCall</declaredMetaClass>
+    <title lang="en">Responsible (team)</title>
+    <title lang="ru">Ответственный (команда)</title>
+    <attrCode>responsibleTeam</attrCode>
+</searchSetting>

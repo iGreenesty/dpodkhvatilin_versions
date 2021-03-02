@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="EmailKontaktnomuLicuOResheniiEsliNetKontragenta" seg-type="scripts">
+    <code>EmailKontaktnomuLicuOResheniiEsliNetKontragenta</code>
+    <title lang="ru">[E-mail] Контактному лицу о решении (если нет контрагента)</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="EmailKontaktnomuLicuOResheniiEsliNetKontragenta.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

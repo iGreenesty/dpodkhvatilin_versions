@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="e92a5ad1-d6f4-47a9-9d71-e5869e743de9" seg-type="attribute-group">
+    <code>e92a5ad1-d6f4-47a9-9d71-e5869e743de9</code>
+    <title lang="ru">Для карточки отдела-ответственного (через сотрудников)</title>
+    <attribute>number</attribute>
+    <attribute>creationDate</attribute>
+    <attribute>service</attribute>
+    <attribute>client</attribute>
+    <attribute>shortDescr</attribute>
+    <attribute>descriptionRTF</attribute>
+    <attribute>responsible</attribute>
+    <attribute>state</attribute>
+    <attribute>priority</attribute>
+    <attribute>timeAllowanceTimer</attribute>
+    <attribute>dateDecision</attribute>
+    <attribute>mark</attribute>
+    <attribute>sumWorkRecords</attribute>
+    <attribute>sumApprovedWR</attribute>
+    <attribute>reactOverdue</attribute>
+    <attribute>coloOverdue</attribute>
+    <attribute>agreement</attribute>
+    <attribute>metaClass</attribute>
+    <attribute>resumed</attribute>
+    <attribute>resumptionSum</attribute>
+    <order>number</order>
+    <order>creationDate</order>
+    <order>service</order>
+    <order>client</order>
+    <order>shortDescr</order>
+    <order>descriptionRTF</order>
+    <order>responsible</order>
+    <order>state</order>
+    <order>priority</order>
+    <order>timeAllowanceTimer</order>
+    <order>dateDecision</order>
+    <order>mark</order>
+    <order>sumWorkRecords</order>
+    <order>sumApprovedWR</order>
+    <order>reactOverdue</order>
+    <order>coloOverdue</order>
+    <order>agreement</order>
+    <order>metaClass</order>
+    <order>resumed</order>
+    <order>resumptionSum</order>
+</group>

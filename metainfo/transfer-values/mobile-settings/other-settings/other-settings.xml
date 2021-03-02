@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<other-settings xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="other-settings" seg-type="other-settings" uuid="f520ec6a-166a-4eae-0040-0000005b8a8d">
+    <profiles/>
+    <tags/>
+    <cases/>
+    <attributes/>
+    <accessKeyLifetime>900</accessKeyLifetime>
+    <additional-authentication>false</additional-authentication>
+    <direct>true</direct>
+    <localized-system-name lang="ru">ITSM 365</localized-system-name>
+    <login-attempts-count>5</login-attempts-count>
+    <password-storage-time>2592000</password-storage-time>
+    <voice-fill-comment>true</voice-fill-comment>
+    <voice-services-availability>
+        <operation-system>IOS</operation-system>
+    </voice-services-availability>
+</other-settings>

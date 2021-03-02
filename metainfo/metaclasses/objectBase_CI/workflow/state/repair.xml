@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="repair" color="#FFFF00" enabled="true" hardcoded="false" seg-detach="true" seg-id="repair" seg-type="state">
+    <title lang="ru">В ремонте</title>
+    <description lang="ru"/>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

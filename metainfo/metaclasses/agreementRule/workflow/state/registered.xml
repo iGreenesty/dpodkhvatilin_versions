@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="registered" enabled="true" hardcoded="false" seg-detach="true" seg-id="registered" seg-type="state">
+    <title lang="ru">Добавлено</title>
+    <description lang="ru">начальный статус объекта</description>
+    <stateSetting canEdit="false" canView="true" code="folders" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Папки</title>
+    </stateSetting>
+    <stateSetting canEdit="true" canView="true" code="services" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Услуги</title>
+    </stateSetting>
+    <preAction code="fbfe9e06-13e0-85df-0000-000001763d9a" preAction="true" type="SCRIPT">
+        <title lang="ru">Копирует значения текущих настроек SLA в таблицу соответствий.</title>
+        <property code="script">KopiruetZnacheniyaTekushihNastroekSLAVTablicuSootvetstvii78</property>
+    </preAction>
+    <preActionsOrder>fbfe9e06-13e0-85df-0000-000001763d9a</preActionsOrder>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

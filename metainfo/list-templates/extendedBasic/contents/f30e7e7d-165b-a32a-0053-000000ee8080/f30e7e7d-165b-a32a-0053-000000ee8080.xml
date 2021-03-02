@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" seg-detach="true" seg-id="f30e7e7d-165b-a32a-0053-000000ee8080" seg-type="contents" uuid="f30e7e7d-165b-a32a-0053-000000ee8080" xsi:type="ObjectList">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="f8582764-174e-cc40-004c-00007b344b54">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <showCaption>false</showCaption>
+    <class>
+        <id>serviceCall</id>
+    </class>
+    <attributeGroup>system</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/f30e7e7d-165b-a32b-0053-000000ee8080/f30e7e7d-165b-a32b-0053-000000ee8080.xml" parse="xml"/>
+    <xi:include href="tool-panels/f30e7e7d-165b-a32c-0053-000000ee8080.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f30e7e7d-165b-a32d-0053-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f30e7e7d-165b-a32e-0053-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="f8582495-174e-c1d5-004c-00007b344b54">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <filterRestrictionSettings/>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+</template>

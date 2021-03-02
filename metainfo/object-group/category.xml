@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<class xmlns:xi="http://www.w3.org/2001/XInclude" id="category" seg-detach="true" seg-id="category" seg-type="object-group">
+    <object>
+        <attribute code="code">
+            <string>authError</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent">
+            <string>email</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Ошибка авторизации</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$590520</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>badConnection</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent">
+            <string>phone</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Плохая связь</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$590516</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>browser</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent">
+            <string>internet</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Настройка браузера</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$590502</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>catRFC</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate">
+            <date>2013-09-12T18:09:54.897Z</date>
+        </attribute>
+        <attribute code="removed">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Категории запросов на изменение</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$607201</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>changeRequest</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent">
+            <string>catRFC</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate">
+            <date>2013-09-12T18:09:55.075Z</date>
+        </attribute>
+        <attribute code="removed">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Запрос на доработку</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$607202</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>email</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Электронная почта</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$590517</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>internet</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Интернет</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$590501</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>mfu</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent">
+            <string>print</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>МФУ</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$590507</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>network</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent">
+            <string>internet</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Неисправность сети</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$590504</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>noCalls</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent">
+            <string>phone</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Не идут звонки</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$590515</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>notDelivered</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent">
+            <string>email</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Не доставляются письма</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$590518</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>notebook</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent">
+            <string>workPlace</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Ноутбук</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$590512</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>notSent</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent">
+            <string>email</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Не отправляются письма</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$590519</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>other</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent">
+            <string>catRFC</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate">
+            <date>2013-09-12T18:09:55.407Z</date>
+        </attribute>
+        <attribute code="removed">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Прочее</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$607204</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>other_all</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Прочее</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$878001</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>paperJam</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent">
+            <string>print</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Зажим бумаги</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$590506</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>PC</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent">
+            <string>workPlace</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Персональный компьютер</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$590511</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>phone</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Телефония</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$590514</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>print</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Корпоративная печать</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$590505</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>printer</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent">
+            <string>print</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Принтер</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$590508</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>projectStart</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent">
+            <string>catRFC</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate">
+            <date>2013-09-12T18:09:55.254Z</date>
+        </attribute>
+        <attribute code="removed">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Запрос на инициацию проекта</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$607203</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>software</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent">
+            <string>workPlace</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Программное обеспечение</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$590513</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>WiFi</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent">
+            <string>internet</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Неисправность WiFi</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$590503</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>workPlace</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>category</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Рабочая станция</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>category$590510</string>
+        </attribute>
+    </object>
+</class>

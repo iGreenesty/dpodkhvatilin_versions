@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="0d0e0a68-9782-4674-9e64-684e41bbea64" seg-type="attribute-group">
+    <code>0d0e0a68-9782-4674-9e64-684e41bbea64</code>
+    <title lang="ru">Список</title>
+    <attribute>objectNumber</attribute>
+    <attribute>description</attribute>
+    <attribute>state</attribute>
+    <attribute>creationDate</attribute>
+    <attribute>deadline</attribute>
+    <attribute>categories</attribute>
+    <attribute>responsible</attribute>
+</group>

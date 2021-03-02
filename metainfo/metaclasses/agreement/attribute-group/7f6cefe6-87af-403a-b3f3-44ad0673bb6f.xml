@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="7f6cefe6-87af-403a-b3f3-44ad0673bb6f" seg-type="attribute-group">
+    <code>7f6cefe6-87af-403a-b3f3-44ad0673bb6f</code>
+    <title lang="en">Parameters from the contract</title>
+    <title lang="ru">Договорные параметры</title>
+    <attribute>supportHours</attribute>
+    <attribute>endDate</attribute>
+    <order>supportHours</order>
+    <order>endDate</order>
+</group>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<object-card xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="KB" seg-type="object-cards" uuid="KB">
+    <profiles/>
+    <tags/>
+    <cases>
+        <case>
+            <id>KB</id>
+            <case>KBArticleOpen</case>
+        </case>
+        <case>
+            <id>KB</id>
+            <case>KBArticle</case>
+        </case>
+    </cases>
+    <contents>
+        <xi:include href="contents/a22cf96f-2472-462a-9a78-ba2ceb2d4c9a/a22cf96f-2472-462a-9a78-ba2ceb2d4c9a.xml" parse="xml"/>
+        <xi:include href="contents/KB/KB.xml" parse="xml"/>
+    </contents>
+    <comments>
+        <enabled>true</enabled>
+    </comments>
+    <files>
+        <enabled>true</enabled>
+    </files>
+    <xi:include href="object-actions-settings/object-actions-settings.xml" parse="xml"/>
+    <objectCaption>title</objectCaption>
+    <quickStateChangeAvailable>true</quickStateChangeAvailable>
+    <workflow useAvailableStates="false"/>
+</object-card>

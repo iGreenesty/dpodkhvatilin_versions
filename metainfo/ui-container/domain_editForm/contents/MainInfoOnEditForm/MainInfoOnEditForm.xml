@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<editable-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="MainInfoOnEditForm" seg-type="contents" uuid="MainInfoOnEditForm">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="f1e8840b-1750-a969-0066-00007b344b54">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Основная информация</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>mainInfo</attributeGroup>
+    <showAttrDescription>true</showAttrDescription>
+    <xi:include href="tool-panels/ff825f14-1658-8581-001c-000000ee8080.xml" parse="xml"/>
+    <resetValuesIfHidden>false</resetValuesIfHidden>
+</editable-properties>

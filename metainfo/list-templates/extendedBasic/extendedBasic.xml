@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<list-template xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="extendedBasic" seg-type="list-templates">
+    <code>extendedBasic</code>
+    <creationDate>2018-09-07T08:03:16.221Z</creationDate>
+    <lastModifiedDate>2020-10-02T08:05:25.475Z</lastModifiedDate>
+    <xi:include href="contents/f30e7e7d-165b-a32a-0053-000000ee8080/f30e7e7d-165b-a32a-0053-000000ee8080.xml" parse="xml"/>
+    <title lang="ru">Виды + сохранить, сортировка, фильтрация, архив, экспорт списка, обновить (иконки)</title>
+    <listTemplateUsagePoints>
+        <listTemplateUsagePoint>
+            <classFqn>
+                <id>ou</id>
+                <case>ou</case>
+            </classFqn>
+            <contentUuid>ed81c3e6-d485-2a9b-ab9d-1815ccbec8a6</contentUuid>
+            <formCode>__window__</formCode>
+            <settingsParts>ObjectActions</settingsParts>
+            <settingsParts>ActionPanel</settingsParts>
+            <settingsParts>MassActionPanel</settingsParts>
+        </listTemplateUsagePoint>
+        <listTemplateUsagePoint>
+            <classFqn>
+                <id>ou</id>
+                <case>ou</case>
+            </classFqn>
+            <contentUuid>b16de624-764c-a501-1844-bf3b2ec0fc47</contentUuid>
+            <formCode>__window__</formCode>
+            <settingsParts>ObjectActions</settingsParts>
+            <settingsParts>ActionPanel</settingsParts>
+            <settingsParts>MassActionPanel</settingsParts>
+        </listTemplateUsagePoint>
+        <listTemplateUsagePoint>
+            <classFqn>
+                <id>employee</id>
+                <case>employee</case>
+            </classFqn>
+            <contentUuid>serviceCallsResponsibleList</contentUuid>
+            <formCode>__window__</formCode>
+            <settingsParts>ObjectActions</settingsParts>
+            <settingsParts>ObjectFilter</settingsParts>
+            <settingsParts>ActionPanel</settingsParts>
+            <settingsParts>MassActionPanel</settingsParts>
+        </listTemplateUsagePoint>
+    </listTemplateUsagePoints>
+</list-template>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="sections" seg-type="contents" uuid="sections">
+    <profiles/>
+    <tags>
+        <tag>BazaZnanii</tag>
+    </tags>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efca7-16fc-176b-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Разделы верхнего уровня</caption>
+    <showCaption>true</showCaption>
+    <case>
+        <id>KB</id>
+        <case>KBSectionOpen</case>
+    </case>
+    <attributeGroup>bbf4b590-0a88-492b-80ea-0afcf9ecd27d</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/f41350c2-d5e4-bda0-a0ee-cb6f9e843b75.xml" parse="xml"/>
+    <xi:include href="tool-panels/12867244-4bcb-59cc-acc3-50dd12104d5e.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="ff2ef24a-165a-e334-0045-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="ff2ef2fd-165a-e687-0045-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c51a6-168d-1257-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <filterRestrictionSettings/>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+</objects>

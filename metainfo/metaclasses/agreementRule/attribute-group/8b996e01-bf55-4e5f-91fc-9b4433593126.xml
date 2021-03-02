@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="8b996e01-bf55-4e5f-91fc-9b4433593126" seg-type="attribute-group">
+    <code>8b996e01-bf55-4e5f-91fc-9b4433593126</code>
+    <title lang="ru">Общие сведения</title>
+    <attribute>services</attribute>
+    <attribute>resolutionTime</attribute>
+    <order>services</order>
+    <order>resolutionTime</order>
+</group>

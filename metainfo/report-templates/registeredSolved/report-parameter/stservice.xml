@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="stservice" seg-type="report-parameter">
+    <code>stservice</code>
+    <title>Или выберите конкретные услуги </title>
+    <type>boLinks</type>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="anyType">
+        <date xsi:nil="true"/>
+    </value>
+    <metaClassFqn>slmService</metaClassFqn>
+    <visible>true</visible>
+    <overrided>false</overrided>
+    <params>
+        <entry>
+            <key>attrGroupCode</key>
+            <value>6ee38cb6-9554-41d2-8d55-873b51adc032</value>
+        </entry>
+    </params>
+    <required>false</required>
+</parameter>

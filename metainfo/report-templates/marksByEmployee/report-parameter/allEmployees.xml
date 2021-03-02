@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="allEmployees" seg-type="report-parameter">
+    <code>allEmployees</code>
+    <title>Учитывать заявки по всем ответственным</title>
+    <type>bool</type>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="anyType">
+        <bool>false</bool>
+    </value>
+    <visible>true</visible>
+    <overrided>false</overrided>
+    <params/>
+    <required>false</required>
+</parameter>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="DlyaSlozhnoiFormyDobavleniyaVDublyah" seg-type="attribute-group">
+    <code>DlyaSlozhnoiFormyDobavleniyaVDublyah</code>
+    <title lang="ru">Для сложной формы добавления в дублях</title>
+    <attribute>number</attribute>
+    <attribute>shortDescr</attribute>
+    <attribute>descriptionRTF</attribute>
+    <attribute>client</attribute>
+    <attribute>state</attribute>
+    <attribute>responsible</attribute>
+    <attribute>service</attribute>
+</group>

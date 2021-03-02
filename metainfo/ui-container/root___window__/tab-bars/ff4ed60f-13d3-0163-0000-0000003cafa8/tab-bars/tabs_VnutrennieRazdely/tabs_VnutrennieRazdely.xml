@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_VnutrennieRazdely" seg-type="tab-bars" uuid="tabs_VnutrennieRazdely">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fb409ae8-16fe-3f95-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>true</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="VnutrennieRazdely">
+        <profiles/>
+        <tags>
+            <tag>BazaZnanii</tag>
+        </tags>
+        <caption lang="ru">Внутренние разделы</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="c361b4c0-7c26-bf0b-ca26-65cf2247f48d">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/RazdelyVerhnegoUrovnya/RazdelyVerhnegoUrovnya.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fb409ae8-16fe-3f96-0002-000014127783">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="VneshnieRazdely">
+        <profiles/>
+        <tags>
+            <tag>BazaZnanii</tag>
+        </tags>
+        <caption lang="ru">Внешние разделы</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="534d2459-d687-5e9b-5eb8-89c3b0723f36">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/sectionsLevelUp/sectionsLevelUp.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fb409ae8-16fe-3f98-0002-000014127783">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

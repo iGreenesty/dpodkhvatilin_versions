@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="faf178ad-141e-04c3-0000-000022544323" seg-type="tab-bars" uuid="faf178ad-141e-04c3-0000-000022544323">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efc06-16fc-16f4-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="faf178ac-141e-04c1-0000-000022544323">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Комментарии</caption>
+        <countObjectsContentUuid>faf1b826-141e-04c9-0000-000022544323</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="faf178ad-141e-04c2-0000-000022544323">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/faf1b826-141e-04c9-0000-000022544323/faf1b826-141e-04c9-0000-000022544323.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efc06-16fc-16f6-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="faf1a2d2-141e-04c6-0000-000022544323">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Файлы</caption>
+        <countObjectsContentUuid>faf1e214-141e-04cd-0000-000022544323</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="faf1a2d3-141e-04c7-0000-000022544323">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/faf1e214-141e-04cd-0000-000022544323/faf1e214-141e-04cd-0000-000022544323.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efc07-16fc-16f8-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

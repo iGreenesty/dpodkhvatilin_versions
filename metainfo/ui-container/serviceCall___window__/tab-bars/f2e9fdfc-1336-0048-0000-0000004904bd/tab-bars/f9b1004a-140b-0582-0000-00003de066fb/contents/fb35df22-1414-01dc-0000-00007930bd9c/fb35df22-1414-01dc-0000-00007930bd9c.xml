@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fb35df22-1414-01dc-0000-00007930bd9c" seg-type="contents" uuid="fb35df22-1414-01dc-0000-00007930bd9c">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef9f0-16fc-163a-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Запросы на изменение (причины)</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>changeRequest</id>
+    </class>
+    <attributeGroup>DlyaKartochkiZayavki</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/fbb85941-142d-008d-0000-0000101004c7/fbb85941-142d-008d-0000-0000101004c7.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae6801-15a2-11da-0000-000001c8b871/f6ae6801-15a2-11da-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f0f194fe-1697-e52f-0050-000000ffc2f3">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f0f1955e-1697-e678-0050-000000ffc2f3">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4f0b-168d-11e5-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>rfcResults</attr-link-code>
+    <attrs-chain attr-code="rfcResults" class-fqn="serviceCall"/>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="changeRequest" code="category"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="changeRequest" code="state"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="changeRequest" code="responsible"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Запрос на изменение</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

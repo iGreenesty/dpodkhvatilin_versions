@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="OpoveshenieOtvetstvennogoZaRazdelBZODobavleniiStati160" seg-type="scripts">
+    <code>OpoveshenieOtvetstvennogoZaRazdelBZODobavleniiStati160</code>
+    <title lang="ru">Оповещение ответственного за раздел БЗ о добавлении статьи</title>
+    <title>Оповещение ответственного за раздел БЗ о добавлении статьи</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="OpoveshenieOtvetstvennogoZaRazdelBZODobavleniiStati160.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

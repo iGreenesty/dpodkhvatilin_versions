@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$209" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[OtpravkaVybrannyhFailovKontragentu]]></script>
+        </script-action>
+        <code>eventAction$209</code>
+        <description lang="ru"/>
+        <user-events>
+            <eventType>userEvent</eventType>
+            <event-code>userEvent$209</event-code>
+        </user-events>
+        <fqn>
+            <id>file</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Кнопка] Отправка выбранных файлов контрагенту</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

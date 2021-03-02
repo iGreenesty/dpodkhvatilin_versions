@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="68c16bab-174c-4db1-aea3-9bedf08e80c6" seg-type="attribute-group">
+    <code>68c16bab-174c-4db1-aea3-9bedf08e80c6</code>
+    <title lang="ru">Для карточки сотрудника-ответственного</title>
+    <attribute>number</attribute>
+    <attribute>creationDate</attribute>
+    <attribute>service</attribute>
+    <attribute>client</attribute>
+    <attribute>shortDescr</attribute>
+    <attribute>descriptionRTF</attribute>
+    <attribute>state</attribute>
+    <attribute>lastComment</attribute>
+    <attribute>commentDate</attribute>
+    <attribute>priority</attribute>
+    <attribute>timeAllowanceTimer</attribute>
+    <attribute>dateDecision</attribute>
+    <attribute>mark</attribute>
+    <attribute>reactOverdue</attribute>
+    <attribute>coloOverdue</attribute>
+    <attribute>agreement</attribute>
+    <attribute>metaClass</attribute>
+    <attribute>resumed</attribute>
+    <attribute>resumptionSum</attribute>
+    <attribute>createUp</attribute>
+    <attribute>responsibleTeam</attribute>
+    <attribute>stateTask</attribute>
+    <attribute>stateNeg</attribute>
+    <attribute>sumWorkRecords</attribute>
+    <order>number</order>
+    <order>creationDate</order>
+    <order>service</order>
+    <order>client</order>
+    <order>shortDescr</order>
+    <order>descriptionRTF</order>
+    <order>state</order>
+    <order>lastComment</order>
+    <order>commentDate</order>
+    <order>priority</order>
+    <order>timeAllowanceTimer</order>
+    <order>dateDecision</order>
+    <order>mark</order>
+    <order>reactOverdue</order>
+    <order>coloOverdue</order>
+    <order>agreement</order>
+    <order>metaClass</order>
+    <order>resumed</order>
+    <order>resumptionSum</order>
+    <order>createUp</order>
+    <order>responsibleTeam</order>
+    <order>stateTask</order>
+    <order>stateNeg</order>
+    <order>sumWorkRecords</order>
+</group>

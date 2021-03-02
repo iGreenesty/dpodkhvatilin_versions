@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="dd74dc05-d145-4a4d-b663-d11cfadf5b82" licensed="false" seg-detach="true" seg-id="dd74dc05-d145-4a4d-b663-d11cfadf5b82" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>currentUser</roles>
+    <title lang="ru">Сам сотрудник (нелиц.)</title>
+</security-profile>

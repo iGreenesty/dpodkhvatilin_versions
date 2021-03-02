@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<add-form xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="newServiceCall" seg-type="add-forms" show-in-navigation-menu="true" uuid="newServiceCall">
+    <profiles/>
+    <tags/>
+    <cases/>
+    <class>
+        <id>serviceCall</id>
+    </class>
+    <attributes>
+        <xi:include href="attributes/agreementService.xml" parse="xml"/>
+        <xi:include href="attributes/metaClass.xml" parse="xml"/>
+        <xi:include href="attributes/shortDescr.xml" parse="xml"/>
+        <xi:include href="attributes/descriptionRTF.xml" parse="xml"/>
+        <xi:include href="attributes/urgency.xml" parse="xml"/>
+        <xi:include href="attributes/date1.xml" parse="xml"/>
+        <xi:include href="attributes/date2.xml" parse="xml"/>
+    </attributes>
+    <allow-voice-creation>false</allow-voice-creation>
+    <caption lang="ru">Новая заявка</caption>
+    <is-transfer-device-geoposition>false</is-transfer-device-geoposition>
+</add-form>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mobile-rel-objects-list-content xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="members" seg-type="contents" uuid="members">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>79eaf472-97be-46e3-b835-df2058306f2f</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        <profile>4ed7c153-8211-4e09-a317-03ba865c93a1</profile>
+    </profiles>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="f5885f34-16ff-1187-0008-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Участники команды</caption>
+    <showCaption>true</showCaption>
+    <allowCollapse>true</allowCollapse>
+    <code>members</code>
+    <collapsed>false</collapsed>
+    <contentType>REL_OBJECT_LIST</contentType>
+    <cases/>
+    <class>
+        <id>employee</id>
+    </class>
+    <hide-if-there-are-no-objects>false</hide-if-there-are-no-objects>
+    <link-to-mobile-list>employee_linkedList</link-to-mobile-list>
+    <attrs-chain attr-code="members" class-fqn="team"/>
+    <show-linked-objects>false</show-linked-objects>
+    <show-related-with-nested>false</show-related-with-nested>
+</mobile-rel-objects-list-content>

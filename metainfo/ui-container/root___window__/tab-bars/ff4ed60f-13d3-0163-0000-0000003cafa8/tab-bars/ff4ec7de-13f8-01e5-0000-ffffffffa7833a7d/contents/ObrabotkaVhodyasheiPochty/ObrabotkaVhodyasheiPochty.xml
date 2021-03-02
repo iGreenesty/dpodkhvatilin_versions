@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ObrabotkaVhodyasheiPochty" seg-type="contents" uuid="ObrabotkaVhodyasheiPochty">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fb409ae9-16fe-3fa8-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Обработка входящей почты</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>ObrabotkaVhodyasheiPochty</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/1b8a9c1b-c420-bf8c-eb26-ae82a5402579.xml" parse="xml"/>
+</properties>

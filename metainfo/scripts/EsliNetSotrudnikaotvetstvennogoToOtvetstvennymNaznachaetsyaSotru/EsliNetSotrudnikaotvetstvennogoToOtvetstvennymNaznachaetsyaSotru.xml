@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="EsliNetSotrudnikaotvetstvennogoToOtvetstvennymNaznachaetsyaSotru" seg-type="scripts">
+    <code>EsliNetSotrudnikaotvetstvennogoToOtvetstvennymNaznachaetsyaSotru</code>
+    <title lang="ru">Если нет сотрудника-ответственного , то ответственным назначается сотрудник, сменивший статус</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="EsliNetSotrudnikaotvetstvennogoToOtvetstvennymNaznachaetsyaSotru.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<event xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="userEvent$button_addWorkRecords" seg-type="user-events">
+    <enabled>true</enabled>
+    <fqn>
+        <id>task</id>
+    </fqn>
+    <fqn>
+        <id>serviceCall</id>
+    </fqn>
+    <fqn>
+        <id>changeRequest</id>
+    </fqn>
+    <fqn>
+        <id>problem</id>
+    </fqn>
+    <tags>Trudozatraty</tags>
+    <title lang="ru">Добавить трудозатрату</title>
+    <uuid>userEvent$button_addWorkRecords</uuid>
+</event>

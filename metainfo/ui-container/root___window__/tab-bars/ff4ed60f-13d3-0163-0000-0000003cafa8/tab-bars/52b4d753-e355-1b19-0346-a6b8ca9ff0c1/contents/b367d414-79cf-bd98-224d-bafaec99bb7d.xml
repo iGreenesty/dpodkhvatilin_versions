@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<reports-list xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="b367d414-79cf-bd98-224d-bafaec99bb7d" seg-type="contents" uuid="b367d414-79cf-bd98-224d-bafaec99bb7d">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fb409aec-16fe-3fe0-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Другие отчеты по заявкам</caption>
+    <showCaption>true</showCaption>
+    <templates>marks</templates>
+    <templates>marksByEmployee</templates>
+    <templates>wayOfTreatment</templates>
+    <templates>averageTimeTable</templates>
+</reports-list>

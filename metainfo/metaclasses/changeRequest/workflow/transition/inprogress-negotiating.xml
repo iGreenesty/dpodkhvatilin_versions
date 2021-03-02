@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transition xmlns:xi="http://www.w3.org/2001/XInclude" enabled="false" from="inprogress" seg-detach="true" seg-id="inprogress-negotiating" seg-type="transition" to="negotiating"/>

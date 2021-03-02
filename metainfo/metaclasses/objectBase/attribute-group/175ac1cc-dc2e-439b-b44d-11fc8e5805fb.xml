@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="175ac1cc-dc2e-439b-b44d-11fc8e5805fb" seg-type="attribute-group">
+    <code>175ac1cc-dc2e-439b-b44d-11fc8e5805fb</code>
+    <title lang="ru">Атрибуты для сложной формы добавления ИТ-активов</title>
+    <attribute>metaClass</attribute>
+    <attribute>title</attribute>
+    <order>metaClass</order>
+    <order>title</order>
+</group>

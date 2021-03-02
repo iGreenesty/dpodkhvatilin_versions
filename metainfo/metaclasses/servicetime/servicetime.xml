@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<system-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="servicetime" seg-type="metaclasses">
+    <fqn>
+        <id>servicetime</id>
+    </fqn>
+    <parent>
+        <id>catalogItem</id>
+    </parent>
+    <properties/>
+    <tags/>
+    <responsibilityTransferTableEnabled>true</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/activeCopy.xml" parse="xml"/>
+        <xi:include href="attribute/description.xml" parse="xml"/>
+        <xi:include href="attribute/exclusions.xml" parse="xml"/>
+        <xi:include href="attribute/periods.xml" parse="xml"/>
+        <xi:include href="attribute/status.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/activeCopy.xml" parse="xml"/>
+        <xi:include href="attribute-override/description.xml" parse="xml"/>
+        <xi:include href="attribute-override/exclusions.xml" parse="xml"/>
+        <xi:include href="attribute-override/periods.xml" parse="xml"/>
+        <xi:include href="attribute-override/status.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo/>
+    <attribute-groups/>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>0</searchOrder>
+</system-metaclass>

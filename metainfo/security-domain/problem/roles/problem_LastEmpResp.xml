@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="problem_LastEmpResp" enabled="true" seg-detach="true" seg-id="problem_LastEmpResp" seg-type="roles" type="SYSTEM">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="snippet">lastResponsibleEmployeeRoleSnippet</property>
+    <title lang="en">Object last responsible employee</title>
+    <title lang="ru">Сотрудник, предыдущий ответственный за объект</title>
+</role>

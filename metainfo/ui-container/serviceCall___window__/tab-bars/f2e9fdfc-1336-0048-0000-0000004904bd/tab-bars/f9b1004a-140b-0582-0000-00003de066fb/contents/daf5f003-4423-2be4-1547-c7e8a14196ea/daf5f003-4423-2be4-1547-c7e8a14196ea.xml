@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="daf5f003-4423-2be4-1547-c7e8a14196ea" seg-type="contents" uuid="daf5f003-4423-2be4-1547-c7e8a14196ea">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef9f4-16fc-1641-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+        <elements seg-detach="false" uuid="f89ddbd4-3d10-72e2-771d-036580371b94">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="a874d6be-8d71-f14a-f015-03aafe0de906">
+                <profiles/>
+                <tags/>
+                <properties>
+                    <entry>
+                        <key>isAttributeOfRelatedObject</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>isLinkToParent</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>attrTypeCode</key>
+                        <value>bool</value>
+                    </entry>
+                    <entry>
+                        <key>conditionCode</key>
+                        <value>contains</value>
+                    </entry>
+                    <entry>
+                        <key>attributeFqn</key>
+                        <value>serviceCall@massProblem</value>
+                    </entry>
+                </properties>
+                <value>
+                    <bool>true</bool>
+                </value>
+            </elements>
+        </elements>
+    </visibilityCondition>
+    <caption lang="ru">Подчинённые заявки</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>serviceCall</id>
+    </class>
+    <attributeGroup>e9a74460-ff81-456f-9c1c-c000868f26bc</attributeGroup>
+    <presentation>default</presentation>
+    <xi:include href="tool-panels/15c8f6be-384d-690f-4514-12573615b0f3/15c8f6be-384d-690f-4514-12573615b0f3.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae6801-15a2-11e3-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f6ae6801-15a2-11e4-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f6ae6801-15a2-11e5-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4f0c-168d-11e8-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>massProblemSlaves</attr-link-code>
+    <attrs-chain attr-code="massProblemSlaves" class-fqn="serviceCall"/>
+    <filterRestrictionSettings/>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Заявка</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

@@ -1,0 +1,3979 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<class xmlns:xi="http://www.w3.org/2001/XInclude" id="iconsForControls" seg-detach="true" seg-id="iconsForControls" seg-type="object-group">
+    <object>
+        <attribute code="code">
+            <string>add_call_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Add_call_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>242</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAuUlEQVR4XmMwNjZmoCXGEKA2xhAgEzNjEQNjDAEk/J9EXIimn+oW6AIxI5J+oi1AF4dhLSB+AlXjDxWjmgWWQPwWKp8DFcMwHIQxBJAwzAJQBGojibsC8TeoXAtUbDsW/URbMA1KHwLiaiTxmVB1IMNx+ZQoC/iBeAcSH4RXYVGHrp9oC0BsUPgegfJBlsHUgIKPKhYgW4LMx6YOBWMIIGFsGjmIVAfHGAJYNBKL0fUPvAVUwRgC1MYAHnVTrn+waVgAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Добавить запрос</ru>
+                <en>Add request</en>
+                <client>Добавить запрос</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236203</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>add_comment_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Add_comment_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>186</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAgUlEQVR4Xs2TwQmAQAwED1tKAefT1rUOwTL0Aj6OTc4NGMHHfAY3I4JFRMqXGJGNEdkYkY0RHbWxNk6CPjM7exo47gMRNIJ7GsAjDNy/CkyOw/0/A3oYSQ30IXS4p4EdDjwFNmdPA4vE/4Pq7GlgBH3rHiMChI8rRgTQT4duiBHZXB6wVwQbp/HRAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Добавить комментарий</ru>
+                <en>Add comment</en>
+                <client>Добавить комментарий</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236204</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>add_element_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Add_element_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>160</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAZ0lEQVR4Xs2NsQ2AMBADs9OvyAC0LEoLokCCs1OgGCnFNfdvu1VV+xMRaUSkEQGODpv5tYgALH6ymn9BBGApWUwmOrCbTHTggpnhAXpm5h3g7b7TvRBhCgg9M/MPEGY+DQwjIo2INCftKEk4EragZAAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Добавить элемент</ru>
+                <en>Add item</en>
+                <client>Добавить элемент</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236205</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>add_group_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Add_group_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>188</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAg0lEQVR4XrXT0QmAMAwE0IojZS03cAm/3NJfQRC0AUW5S6HY8+OBnEmPgiYzS3+iQI0CNQrUKABjtmfHZc76YK6IArDac/htCuaKKAB4eGTJhmC3uaB7PftNcVda4HD3c4EfjKQF0htEX1FUsAW7VQX4H0T8vc/hblVBMwrUKFCjQO0E+gI/cmV5tswAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Добавить папку</ru>
+                <en>Add folder</en>
+                <client>Добавить папку</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236206</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>add_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Add_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>125</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAARElEQVR4Xu3NMQ4AIAgEQf7E/9+mLbmNaAGVFNOskTN3t04I1RCqISRWoG9HCIkZgHjwRv9+MqCeDiqExAz0QKiGUG0DC58sr/Jdra8AAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Добавить</ru>
+                <en>Add</en>
+                <client>Добавить</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236207</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>additionalActions</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Show-more-button-with-three-dots.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>173</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAdElEQVR4XmNgQAKmLkanjE6ZuiCLIQNG49vG/4HwNgMjuhQYOHAYvwcreO/AgS4HBcblxr+AsBxdHAmYSphKoIuhAAcWBxZ0MSRgHGX8FAij0MWhwIEFKAly5FMcphBUQNAKECDgSILeJBBQhIOaUGRhj24ASlkztaiqUf8AAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Дополнительные действия</ru>
+                <en>Additional actions</en>
+                <client>Дополнительные действия</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2253302</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>additional_information</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Hint.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>255</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAxklEQVR4Xo2RSwoCMRBEA/4uoBu9zFxiFrOZfBYZF+ZUnkPBAQc/qFdwK4ouPIBWxwTG0IKBF0hVV+ikhQgrz/OOUmoqpVyCO7iCVVmWVZZl3Vjnl9Z6BPMAXj9ojDHjeHMfwo4pSmmstT2BNgxj2sCXTu0JbGvGOBOpDmqB7cYY80CqXyjwZAy2JfCgN2wYgw2gzQUFXGqEYi5QCefcAIfTH4E9DdfPAskJhGNS0GZbFMWwPWw/QARnMBv5+Qj6vRpo8mLdG0BT+nwdaqKjAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Дополнительная информация</ru>
+                <en>Additional Information</en>
+                <client>Дополнительная информация</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236256</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>advlist_archive_button</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Advlist_archive_button.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>159</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAZklEQVR4Xs2NwQ3AIAzE2Cn7z9Z+wRfCFVGJhz9WnGsR0f5ExGlEgMeE3acBOlLeiEhiB3bbAysviAB8NIPdXQN0pLwRkcQO7LYHVl4QAfhoBru7BuhIeSMiiR3Y2QP9iOsHRJzmBTlnXX7APZE1AAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Архив</ru>
+                <en>Archive</en>
+                <client>Архив</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236246</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>advlist_link_button</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Advlist_link_button.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>186</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAgUlEQVR4XrWSyw3AIAxD2SlzdP8VukULEq6oE4U0hcMTwhY2vyIiZSdKWI0SVqOEytlhPYUSKleH9RTjpO0a4eD3ScbJ9gKw7YqA9ciH6NM1beaZBQwCWEeQ54UKEMC79HjWcZjFa8EwMuynCqJ8Kpjds+eFChreT/G8cEEaJazmBn4OQxq6PzzjAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Добавить связь</ru>
+                <en>Add link</en>
+                <client>Добавить связь</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236247</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>archive_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Archive_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>181</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAfElEQVR4Xs2OwQnAMAwDs5P3n62FQsGcrDgtKfRxjwhLlxER40sk2I0EhmMR9h4JmJHyRgIDf+pg77Wgy1sBjznk4M5UkAsccnBHBCzcpbJcdJmJIB/nAqUO7kwFfFdDLm8FhEMO9v4lYEbKGwkM/KmDvWVBlqzmFxLs5gQ9M2hzm1CvRQAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Поместить в архив</ru>
+                <en>Move to archive</en>
+                <client>Поместить в архив</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236208</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>block_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Block_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>291</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAA6klEQVR4Xq2TvQrCUAyF698mCIK7ky+Qxc3HcxWcfCdnRzdfQXDSHJrYkNy0eK3wYXuSe05ue9sQUZMwEaYJWgd+7ZcgCNZ8JswNqtkg7zEYoOYwXDBrZs+s5F6DNMR7pAE6kZrD8My8DSdmKXX0pbsIgjTq9Jj0Qp3x1Vwfpd67iyBIIxZgug3zotYQP9QPcv+kbhfVATtqze6u5yH6VvqqA+xzz6gOwLP1ZiWq3oGeIm+Gutd6v4UgCLoLa3STGv5LAd5jMABYIxxX1OyxBen0IAgGH5CRmoMgOLxZCb/mp4C/CcLYBGFsPrZ/QlP/me7sAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Заблокировать</ru>
+                <en>Block</en>
+                <client>Заблокировать</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236209</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>books</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>books_16.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>412</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABY0lEQVR42mP4//8/AxgHSLn995ecDaQXEI39Jeogmn2lRP6HKvz4Nzfj9d9Fea+Ixf+b/HKgBohb/M80/vDj/tr/X64tJxp/vb3SF2KAv7g52IB7a/9/vrqcaIwwwE2c+3+Y4s8/bYG/f3WG/iEW/y21m86gvuJ4i8Xao0tiZy/dsLwy9ezqssTzhPDassRzVxNtpv0PkAhj+Hpz5YJPV5b+JwV/uLbyv9vGo3dArifLgC83VvzP3nOIfANALnDZAHWBzspjbQ5rDy+3XHNwrfL6jacV1m24SAjLrF9/nnP71KkMB6utwLGgvLl6Be/Bmp8plyb9Kr067TexOObShBwGhkOVojwHqn9VVlb/B6UDUrzy9fYqP6ABVSn225v/1ZeSYwAwITEcKZcT2F/zq7aMTBeAwkB+W80x8X21vxZfmPF//5mZROOZl6ZDMxMoOg7W6oocrZsldLRuDbGY70h1NADWXNkIUWvGRQAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>user_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Книги</ru>
+                <en>Книги</en>
+                <client>Книги</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2285301</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>CE</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>monitor.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>160</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAAZ0lEQVR42mNgGGzACognkYGtkA1pAeITQNxEAj4B1YdiyAQSXT9h1BA6GnIUiCtJwEfRDakF4v9k4FpkQ9iBWAUNOwNxKRL2wqKGHZs/NYDYFop3otm6G0lOA19ggWz3JQI7MQxKAACjOD645qKJJgAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>user_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Оборудование</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2254701</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>change_responsible_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Change_responsible_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>253</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAxElEQVR4XrWTwQnCUBBEI4JgDV7t4N9tQ/BkMRaWAoSAJ2uwCd2Bv7KZ2W9y+B4ehLc7OwniUEoZ/omI3ojojYgGF+NewTPPm4hIOBtvAo73UkQkjEUL4DbJriAi4VW0AI4L4Dm7qmCs4aUv8Nksz8cyjiHswHkBz2YlfIzZG1fjGcJ4hotfcApz+O+MD0YOxiMEGcyw4/tyHPBRZ2dMNfQL7GxDjn+XZgH+THysBXZjyaqCWziwBHblzR0RvRHRGxG9+QDLKUa95MyXnQAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Изменить ответственного</ru>
+                <en>Сhange responsible</en>
+                <client>Изменить ответственного</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236210</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>change_status_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Change_status_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>190</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAhUlEQVR4XrXSsQ2AMAxEUQoa5vEktFRZmgGYBGIR0OkugRRO8YT4imMhMZnZNJKEaBKiSYgmIZoEsmV7dpanv/OZTxJAsvti5h3PeePZlwRwlGHmnRc0l0goFhiswYu5dy1wPV8wQ+f53wUJhpF3PNe83EkgQ/+ix1pp3SREkxBNQjQJ0S7s1SXe7uZK4QAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Изменить статус</ru>
+                <en>Change status</en>
+                <client>Изменить статус</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236211</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>change_type_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Change_type_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>217</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAoElEQVR4XrWRMQqDQBBFhYDgeeZ4NlvYCoFUqXKwgJXgDdImsziRyfwJWnyLh+6bv/MFGxFpzgQEGxBsQLABweb70iqDMilPpVcuMbzDO3Fbwc0CnloYL6RLlGKz+kwLXhbwLDHsZv88zI4WxJlfVIKvZyh4JAtGHzTi8r3yraBT7rJ+9axcZf3xWYE/F3OR6n8KTgMEGxBsQLABwQYEmw9TGy98PzTQaAAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Изменить тип</ru>
+                <en>Change type</en>
+                <client>Изменить тип</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236212</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>client</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>client.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>353</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABKElEQVR42sXTP0iCQRjH8bcgIm1oiMZAXFyaWhqEaMmoVzGnmloadGgKIrCmEFoKXNyCiKa2dHHRIRDCqSGSCoSWUIiQKPpr9j14BDnef7h08BkO3uf33j13ZxjexhQmjD5HAKf4xQvS8HstHscBPnGJJaTwKNYxZFfswxZaqGMNG3jCFeLYwytqiGFADznEM7axgnt0eqhtFbGAY3xjXg8ZRhgVrVj3gyMEMWi1pQx25Q9ZfDiERe36Mo2SLP0ciziTuWvIJE7QRl6aVsYXcjK/sAsZxT7e5QSWZUsNafAqbuWe7GCzJ8TshsziRu5BEk3tbw9y1Kr4DhGrEDVCuHY5kap8V7ALMV0CuhLa/P9CVNPfhLr6c/2EzDi92jFZqhP1+Easiv8AKqqTRQMW8l4AAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>user_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Клиент</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2254702</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>clock</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>clock.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>290</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA6UlEQVR42qWTQQ6CMBBFwdjYtUsPwFpvQPBC3EBv4MIT6BUIiTvXnEB27jxCww7+kE9SCkNiaPIWnc7/aWemUdu2kQ9WAq6gAD9SMJZM8j1hDHLggAQaUJGGMceceGRAccmkGmTAgC0xjNXMKQeTwSDnwQNY71Z3wdtb5sgmZ6x/s6O7DerxEoKYZa6jti+OnGQzBZ0YMJ5Rc4lYYSmS+cPAUCPavk3VTNIGfMAXnEFKDjyvqFUNUl4z5B0azD4Bawee4AZO4Ej24RPUImqERVTbqIjHbVwaJEU8HqSlUQ7apo/y6s+05jt3qXF7i8Q7FfIAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>user_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Часы</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2254703</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>close_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Close_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>273</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAA2ElEQVR4XrXRMQoCMRAF0K0EQbC1Eqw8wBzAA3gA7+UVLAUrQbAVvIEHEKyshAXBSucnWXfJHzYSYvFY8xl/kt1KRKp/oqA0CkqjIGGuDqpWN7VVM2Pui4KEo3pHHtKzCQUJT/Gla7VUm7DGTeJZh4KEWnwhyrHGE2tsHM86FCTsxBfi5CjHTbB+GbMOBT1G6iz8DeBizCc3GKtF+B2X36V9XdfOHKEgaApx9ZU6SVuOwqnxHxMFQXzirHKgoAObZJ+8QUFkqPaSWQ4UGAZqYuQ/oaA0Ckr7ACrFKwINWkibAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Закрыть</ru>
+                <en>Close</en>
+                <client>Закрыть</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236213</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>copy_from_template_button</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Copy_from_template_button.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>144</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAV0lEQVR4Xu2OMQoAMAgD/ZP/f1uLQ5dDokKn0oNMMYlmT+PuS4n3Y66UKM4AP8/EbIv3BugHyivhgBKzLThAP1BeCQeUmB2hSpTXht9mYmYEyzIx82mzATlckQksdqs/AAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Скопировать настройки из шаблона</ru>
+                <en>Copy settings from template</en>
+                <client>Скопировать настройки из шаблона</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2269201</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>copy_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Copy_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>209</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAmElEQVR4XrWPMQ6AMAwDOyGx8pV+kQcwIfFRVmiLKlV2TACV4ZZzEishxhj+hERvSACHYDNmTUgA+Ri6zJpYDE+QAGoBfvD4ExJAW4BZxv2EBOAVDPEqmY2sQALwCjJTYk+MRtal4DYnIRblAS8nIRblAS8nIRblAS8nIRblAS8nYSxWMMM5dAUSAnnAy0kI2k8UuPOq4DMnHBIrZQ4wJawAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Скопировать</ru>
+                <en>Copy</en>
+                <client>Скопировать</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236214</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>copy_link_to_list_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>copy_link_to_list_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>235</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAsklEQVR4Xs2QaxHCMBCEKwUJlVAJFZCXA+KAOCgOkFYJSIBdSGfujoT2H+zMTe6Rb5veMPyNYoyPb5FSKpZRskALDiGcUd8RK3rTIQMBXwijnpFfmXcN1AACdEJ/wTmy9t6nwwb1y68+wEwTwh87aRmIZxecN1kL9C1rIC6PiLzNmjBlDSqcmNOEi+MuJKPUMkAszrm5mhX2+TIFWm0GACbka4WznXe1d2Fvrn6lF5b5rZ7KbMgi0gg8TgAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Копировать ссылку на список</ru>
+                <en>Copy link to list</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2283702</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>delete_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Delete_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>403</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABWklEQVR4XmNgoCXg5OTU5eLiMmZlZZVAl8MJmJiYeKSkpBr19PSeGxsb/4dhDQ2Nk/z8/N7o6lEACwuLqJaW1iVkjegYaHgLuj44UFdXP2xkZPRTRkamy8DA4AOyRjU1tQNAvBfEFhYWTkDXyyAgIBAIkjQ0NPzMxsYmx83NbQYzRFlZeSMjIyObtLR0O4gP9N4TIJ8ZxQBFRcWlMNt0dHTuQQ2xVFBQWATSLCYmlo/sIh4eHhsUAzQ1Nc8gK9DV1X0IC32g5hxkORAWERFJRjEAFMrICoDOXgeyGRQrIJeAvIYsjxEOcnJy02CSSkpKq2HOBrkE5B2Qk5ENAaUPFAN4eXntQRJARd/Q/QwzBCamra19A0UzDABtXgFSgC0t6OvrvwUlLmA0/+Hj43NF1wsGQP9yqqqqbkfXDMOgNAL0eyy6PgwAUgRKODCNoPQAimYODg4tdLUDDwBjt5oVTnXmkQAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Удалить</ru>
+                <en>Delete</en>
+                <client>Удалить</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236215</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>document</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>agreement.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>140</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAAU0lEQVR42mNgoDGwAOIYHFiNGAM8gXgpELPhwFnEGOAFxBl41OA1xBaIV0AN6IeKmUD5GUjewGtIBpHhRZQhaki2Z4y6ZNQlaMAfhwvQsT/DoAQAeUAd0CCwhKoAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>user_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Документ</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2254704</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>dot_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Dot_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>158</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAZUlEQVR4XrXOQQqAMAxE0d4pB3Dr1b2H4DG0gwUhP2Q1Lh6EP4t2RMT4E4IbghuCG4IbghuCG0Jjm45Fd95LCI1ruhfdeS8hNM74HtCd9xJCY4/356I77yUENwQ3BDcENwQ3BLcHLIH/2aHeU80AAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Точка</ru>
+                <en>Dot</en>
+                <client>Точка</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236216</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>download_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>downloadFileHover.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>174</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAA0AAAARCAYAAAAG/yacAAAAdUlEQVR4XmNgwAKMjY1vAPF/IN6MLocTjGqCAoKaDA0NnYGSoWj4KVTTWXQ5ExMTM5AmfSDnNVQRIXzfwMBAAWYbMRoRGpCcCdL4Boti7BpgwNTU1ACLRtwaYABNI2ENMADVeIZoDUQBoImPSMUgTeghRRADAJD3lN6GJCgbAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Скачать</ru>
+                <en>Download</en>
+                <client>Скачать</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2261901</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>drag_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Drag_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>173</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAdElEQVR4Xs2UUQrAIAxDvVNPtCvugNssWNiS+qFG2MdDiDFRkBYzKzshQQ0JjbNyD+JnMCctwIOjyAp6XknB0by+4p6kIIJQWyq47Hvjtxf1qQL0ZZAPDWHK2P4CpOeVFPz7F82MiYDGBYavlFC4Q4IaEtQ8SIOnbQQoPqUAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Перетащить</ru>
+                <en>Drag</en>
+                <client>Перетащить</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236217</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>edit_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Edit_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>247</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAvklEQVR4XrXTMQrCMBgF4K6Ck+AZnJz+1TN4G+/hDQQnQfAGQsHVydUDOHkGfc+mEPISbdI4fKS8tu8PKW3MrPknCWqTINMEjrCI3PuQIAPLL/CChyWGSDAQy1tYujU5JHxxCH/nZ5i59equRw3wy3ssP1iknCT4IlZO0Z33JEgoKicJIqZWWE4SBEaVkwSBHWzhZgXlJEGgdescnpZZThJ4+BOdYAV7KygnCTwbuFt3RGvrvkf4zE8S1CZBbW8CRifAAewWKgAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Редактировать</ru>
+                <en>Edit</en>
+                <client>Редактировать</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236218</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>erase_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Erase_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>245</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAvElEQVR4XrWQvQ3CMBSEUyNaenY4KpZgARp+hDIEc1AidkGswDrgk23k+B7JQzLFJ1vn5++cdAC6fyJBayRojQROroFXgvv6/IMEDkr5ZIkEE1hysktn9fxPBRQ8ofJNWu/GHXcB5fsERVm+LvY3456roJRnHhjKzd9DJKiw5GSBWDIqJxIUjMn7wCHN1PdcBfPAGSpfIopPcMiJBAWzwAXDlx/hfHlGAoMtopwrv2plzHxFgtZI0BoJWvMGg7coJu8lfG0AAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Стереть</ru>
+                <en>Erase</en>
+                <client>Стереть</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236219</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>exp_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Exp_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>148</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAW0lEQVR4Xu3OMQ7AIAxDUe6U+5+tnajgG0uoMlM7vMU4Ca2q2kkSpEmQJoFxbeDMf0D0XuwAO2PvyVhwuHz8sRM5QPLGgsPlK703zXKRw2UrnPnYgdckSJMg7QZTsleEFGxPkgAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Экспортировать (1)</ru>
+                <en>Export (1)</en>
+                <client>Экспортировать (1)</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236220</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>export_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Export_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>152</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAX0lEQVR4XrXNMQ7AIAwEQf7kD/LzpAHJ8sIlEkcxzWLsFhHtJgQ3BDcENwQ3hOER6qyEMNSlfw4s3xDSsNLFn+MD813NHh1YLto0+4G6Z3sgH/lqEoIbghuCG4IbgtsLhHo1J1QRTjsAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Экспортировать (2)</ru>
+                <en>Export (2)</en>
+                <client>Экспортировать (2)</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236221</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>export_report_pdf_blue</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Export_report_pdf_blue.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>215</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAA0AAAARCAYAAAAG/yacAAAAnklEQVR4XmMwNjZmIBWDiP9E4AXYNBkgC6JhDI0wQXSF2DTBNeLS5ADEAlg0gdXi0vQAqhFdHK+mD+RoOgDECljE8Wp6AMQJWMRxanIA4glQjbDAIKjpgDEk3hqMIX4D8RcAcQEuTQFAfMEYYhPIRgWo4g24NIEUgkxGdxIyRtEEMgWkIQGLQpyaHIzxpz8QBsnDNYGcBeIQi8GaSMYAs4zMwvwA2akAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Экспорт в формате PDF</ru>
+                <en>PDF</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236248</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>export_report_xls_blue</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Export_report_xls_blue.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>219</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAA0AAAARCAYAAAAG/yacAAAAoklEQVR4XpWSYRGEIBBGjWIEZ7aAES6CUYxgBCMYgQhGuAjXQPl0P8QFbuDHQ1j27bIzdiLStYLlqGDNSUMcNCQigzYxJwWxVbpyayRbIEi9fn/yvH3WGGHOq5PzTHrejMBCiYQLVLcdKGQlgA7ohkR25F1RcnLPNXp2z1djlBNp0T2A2KuE/ackxXMACCxQlHK4iET69+8R5AQpnqWGS2rmBLIz5F/YX8rMAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Экспорт в формате XLS</ru>
+                <en>XLS</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236249</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>file</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>file.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>364</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABM0lEQVR42q3Tv0uCURTGce2HlkultAq5VKDUVA2Bi7PkEC4SNNYShENDNAQRRURRECUEIji3RYNQc2NBZENkRRQG/Ql9DzzDS5TeF7rwWS4vz73n3PMGAv+8upHDGc6xiA4/AfbxNr5whDU0sIEu15AkmsijU3vjeEHRNSiNO8Q8e32YwRvmXUqL4gnLCGpvATdYwjtmXW4zrVNXVJI1+hS3WMcnsi5BU2ropvpgQSe4x46CMp7b/rpKeh0rbVchYRziEXu67WSrILvuByqeIAuJoKZDVhWYbDUvWV27imdsIa4Qm6UQDnCN/r+Cgqrb5qaMS/XpGAP6JqEDUu2abHW/anrDP3owiDpGXF5rDA8qo9ezP4cr9Lj+EqMaOiuroOe3xk74/cOHsI8L3Wq43az4Xt8VfzzBLBFCgAAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>user_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Файл</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2254705</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>filter_button</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Filter_button.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>229</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAArElEQVR4Xt3TsQ2DUAwEUFKkYB6vwCjUqUmbGSKxQTbIEkiZKfFJoC/d+RuQoEnxJHT291U0ZtacSYKjSTCb3HcnvOE71YJbcGAN3vCdagE86EAGu/x+tQCe84EMdvjd5oKLe5keXWCGHX63uQCu7m16HBlmvL+7AFr3sXIc38h4T0iQuFspwDfPQxIkBisF+OZ5SILEfxV0wTwkQWIpqP61EQkSvRuDPCXB0X5YxEQkjvz/swAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Фильтрация</ru>
+                <en>Filtration</en>
+                <client>Фильтрация</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236250</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>folder_blue</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Folder_blue.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>120</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABEAAAANCAYAAABPeYUaAAAAP0lEQVR4XmMwNjZmoBRjCJCDMQSA+D8SRpfDitEFkA0g2iB0AXQDcGGqGIJi0KghhA0h1iAUPegGkIUxBMjBAAPV1cSypgL3AAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Папка</ru>
+                <en>Folder</en>
+                <client>Папка</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236251</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>g-icon_favorite_last</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>G-icon_favorite_last.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>288</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAYAAAAGRPQsAAAA50lEQVR4XpXTwQoBURQGYMUKSWKPV7ilLOxkIwsvwZKdLJUHUDY23sYb2FsrlOys+P9xTm5n7sygvrrzn3P/JpJzzuX+0IFuII/EggwHYfNILEgxhJfg2c5/LsvD0X3LeGb2V1nDfd5i675FaiMz7qSWreEUKEjC3bUtUX24BC4lucHAlqgiTAKXkkyhZEt8FZjBM3BZcbaQ3dh3xgX/uQpnU+C7Ql33s8rKgQKrpvt+icWcHz97CD/ryW7mm+mPcIc9jAXPzDib635W2RJ2MII2FATPzDhb6b4ts5rQcoG/jmScsTjK3tVREMgLPCeCAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Добавить в избранное</ru>
+                <en>Add to favorites</en>
+                <client>Добавить в избранное</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236252</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>g-icon_help</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>G-icon_help.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>209</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAmElEQVR4Xp2T2w2AIBAELcFeaIgSLIFSKNEO9IaIwcvyiB8T4t0u91C3EMLm2I1oJCM/J8/EP1pvPIzTuATEyUszVbxBge5j5kYvGlE6wMgsqtW2q+hy6HeVqEZ/iddEgkkk/EXKnAhmkZgZIc8q94xQKquZVygz97YNvcrvtuH3e66MFteCrnhac+2gN8Lw266wgxgW/qob0L4Z7d5AKHQAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Помощь</ru>
+                <en>Help</en>
+                <client>Помощь</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236253</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>g-icon_homed_last</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>G-icon_homed_last.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>269</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABMAAAAOCAYAAADNGCeJAAAA1ElEQVR4XqWSzQrCQAyEVwQvgmdPogdRz3kwKQiiKErBn5v6PPbdNGMTGmMsRQ8f7M5MhiVtIqLUkDnzELLATx/CFxZUFSkXn/NDEStTsBf0vrNZP2hpM1szuDEezqojg2xtWW4GloEPTX1kOz4QFdkXeewLc28qePpZQtiZ9xXd5wkz3vQguJZzj+kLXdHgIfPKR8P+rmVT5srcmJFoP5dNqPy3wFC0sEyXaFFddzamqmwgmu7srcyW+vuRyg+CJd+ZgjmIBq9RWYuZiVYHMmHZXzwBPWPrrTvvztYAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Сделать домашней страницей</ru>
+                <en>Set as home page</en>
+                <client>Сделать домашней страницей</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236254</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>g-icon_ok</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>G-icon_ok.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>253</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAA8AAAALCAYAAACgR9dcAAAAxElEQVR4XmP4//8/AynYp8eYH4iXArEuhiQ+DNQgAcTngfg/EBdhKMCFgYoVgfg2VON8kBiGImwY5EQgfg7VuBeI2cCagQweIN4IxBNAbCwabYD4LVTjJSDmh8mBJJmhmkGS94DYHkmjNxB/g8q9AmI5ZINhijiB+CRUEQj3AnEaEP+E8kEGmKG7Ctl5oCgAOQtmAAz/AWI/dI0omqEGSAPxEzTNReiasGqGGqDlA/EfSOM0dHm8mqEGmAHxCiBmRpdDxgCeYZTmVuZp3AAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Принять</ru>
+                <en>Accept</en>
+                <client>Принять</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236255</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>groupCE</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>groupCE.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>424</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABb0lEQVR42pXTyyuEURjH8ZdxvxZyLRaSIiYLOzuFLCwsXLJyy20hq0mjECnlUu5yiRISxv1WtrLzL9hYW9v5nuk3eedtTDNPfZp5397znOec8xzL+osazOFSLiTwvIlmuKwQkYUjLKAKMVboKMAoHjVhUJxocKSRiQek21++WNGHB/X2Fz/oCLMMZ5iqP9Fof3kFL67RjVIkIVaJ45GHFuzhAOPOJD79JqMVSzjDLe50QtvoQ76+HXAm+UJ2FPvhUvVBST7wjE4t478wS6tTgntnElNuInr1/xzrmMYkFnGKG0xof/rRYE/yFmLGXFSiGsWOLjXVViDHPugb80iNcE+GtOm7zuU06SRW0AY3ilCIcsQhQbN7dIrHek6x1MKBMAO7MKWEq5jR/RpTO2yhDGvY0b3zZ/aqqcLFIF7VlG4l9KmH/NGOJ8zq6EqQplLN7a3VCZoY0XL2/+sDcy+GsYxDlbqhajP0XQ/e1Qb++AVa1ETUXzIV3AAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>user_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Группа</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2254706</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>groups</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>groups2.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>360</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABL0lEQVR42rXTsUuCQRjH8TdrrcG/oNYawsGpf0BHwZZAaHFrFYSmJKIloaGlEs3RoUGihloKAgucmgqsCApFEIcIAtG+B88rx+PJ65AHn+G997nf3Xv3nuf9cwsjh1PExtTEUZC6sH45izoGoo+EqklIv19Tl3HDFrFe+qqYwTxCqDhqInbIkpqlhxRq8vyBDXyp1S7qT8pbQVXHzJ/IWgEHrk1N41xmT+LFsXyzsY9Sl7Y3dwUtVXyHI9X3hF3V18SyCblxzPiDNZzgHVdYRcNRa8Z7v6rTDFrHJdrooiOfsYlrVW/GjySnZODAoS9BHdU/soqdMQG+W5zpkAwu5AjvUQwIecU+vvGAbX3U5s8sBYS8YS7oIh4HhDxPcpvNaqLYwiHKcrP35NQWvGm0P6syoEiyEvbPAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>user_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Группа</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2254707</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>human</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>user.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>229</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAArElEQVR42mNgGApACIhTgbgaiJ2AmIlUA9SB+BkQ/0fCC0g1aC+aATAcQKwBrED8A4chk4k1hBmIX+MwpIkU77RhMeArEKuQYggLEE8A4k9A/AeIbwKxM7nRzAHEAuRELwzwAbEGEBsBsRzUdUTbnAXEZ6HeQA6T90C8CojN8RmgDMSXccQKMv4LxO3YvCgMxA+IMAAZt6IbEkaiASD8Bt0QUAY7SCLeTNXsDgDiC1feJ6UcJgAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>user_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Человек</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2254708</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>imp_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Imp_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>150</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAXUlEQVR4Xs2NwQkAIRDE7Gn7r817KZLRRXQOfORhcCclIsqfiHAjwo2ICXUD3rwZyGK8OQ6Mb1ugkUX4tyNigCMcmzlBRMJq/DrAEY5bAxy2BjJ481bgChFuRLj5AGgXSJM21B5HAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Импортировать (1)</ru>
+                <en>Import (1)</en>
+                <client>Импортировать (1)</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236222</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>import_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Import_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>157</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAZElEQVR4XrWNQQ6AIBDE+BMf9Od6kpB2RUzGQw9bmJnWe29/IpFGIo1EGok0EgvOBfw7kJhgkKWRgTnMUnIg/zjA4D1CV72zqxzgEO83Pg3w3mF7oKIqqdxAIo1EGok0Emkk0lxUhDUnKQRyyAAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Импортировать (2)</ru>
+                <en>Import (2)</en>
+                <client>Импортировать (2)</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236223</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>KBSection</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>KBSection.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>303</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAA9klEQVR42mNgoCKwB+JVQLyYBHwQiCfADGAB4nVAzAzF/FDMRsDiGUAsDOMoAfFMKDsNiFcA8SQgnkPAkCXYTA0B4nogNoe6bi0Qq+DB3UDsh2wISFMEEG9EMuQsEFcRwEEwA1iB+DLUeSeB2BqIBYD4DoGAnQzE3MguyQViByDOAuLjQLwZiBcQCBMjIG5Hj2JQoGoCsRQQcwKxFQFDmNADFxQ7pkAsRCQWA+JaII6EGQBKG11A3EcCBql3Q3eaOhDPIxGDkkADsiHrgZiPxKwCcpEiskAnGfltCTYBPWh+IRY3QxMmHIAyXB00vxCL50LTFXUAAHjiRkddsnpiAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>user_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Раздел</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2254709</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>layout_mode_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Layout_mode_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>370</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABsAAAAQCAYAAADnEwSWAAABOUlEQVR4XuWUq0uDYRTGH8PU/2BFBJtVJwy7GLaogljEIBpMlmEQTHZxwRtitYugWL2FIQbBZhkKRrF6eQ7nvO54nNNvdQ/84HvPcy7vBT6gkzVEXknRxeT7gyySp+C1rQnyRu7JgIuvQ4eNkmv7nnZ+Zs1Cm9yQHhfvJVfkwdY5NAbOp6QsqkCLz2zd5bxB8kJWgncMrVl1sT+1CS06wPcTJcl1iZ8PcTnhrnlbwWuqc2hymXQHL+mQ3MWgSWrGoT2kV0ulYSX8PuyZbMSgSWrGoD0ugtdUVWjyPn4OLJgnu4+Sa9yB+tvBayl5fCk6tXV68D1SJ/229t4RtGbNxf6tOWhxDbpr0Ts5+cpQyekvobkLwcukKTQGTkKHLTlfTnhrOTMu3raGySNZhjbtc94I9Fcmf5IO1ienNkOjkyiHgQAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Режим редактирования разметки</ru>
+                <en>Edit layout mode</en>
+                <client>Режим редактирования разметки</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2253301</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>link_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Link_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>167</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAbklEQVR4XrWSQQrAIAwE/VPe0f8/p61QQXbSWGF7mMusyYrYIqL9CYQbCDcQbiDcQDwcN6fQ3SoDENMC9WNRlalPC8YCvWXFPLdV8DqY5Ok5CBn4ylbB6p2rTH1a0Kl+SpUBCDcQbiDcQLiBcHMBaHQv5meVzyIAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Связать</ru>
+                <en>Link</en>
+                <client>Связать</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236224</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>list</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>list.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>201</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAAkElEQVR42mNgoCJYBcQbkTBZ4BsQHwHiXUD8HyrmDMRJRGB2ZEMKgTgSyZAFQPyaCCyEbMh/JEwWsARiayRMFgB5pQwJkx2wz4H4MZJ3pIFYnQjMjGxIKhB7IxmyFi2ccGFhZEPeQUMbZghIUoYIzETVMKFK7FAlnYAMyQLiACRDVgLxDyKwMFXzDlVyMUUAAD4iT4d+c2Q9AAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>user_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Список</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2254710</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>mailIcon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>email-envelope-outline.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>259</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAyklEQVR42mP4//8/AyWYgWIDgOA/hRhMvATiJBJsTYLqgRugDsR3gbgViBnxaGSEqrkL1QMxACopCsTHgHgFEHNg0cwBlQOpEYWKIQxAUrQKiI8CsQiSuAhUbBWy4RgGQAV5gfg1kjNh3gOJ8aKpxXABMxBvA+J5QJwAxC+gOAEqBpJjxmfATCDeAcQsUL4DCEPZLFC5mVgNAIJKID6H7kws3gOpqUQxAIgjgfg+EEsSkQYkoWojkQ14DsSaJCQkTaie/5Qn5QHPjQADeuPqqAKINwAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>user_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Почта</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2245101</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>mass_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Mass_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>201</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAkElEQVR4XrXRwQmAMAwFUPcQXCITCi7kSfDkTj150oS2EH8o0pAeHsGfpiU4EdE0kgmimSCaCZxW9rANe3jQK1F+QOqnhwe9ujaY2c7uUuVb9+UinGkyATspX1Jd0K+5zro2SOVwJZvoizWckfr7wPANFnaUAanyjQ/gTJMJnLo28EjU8Q88hm/QZIJoJoj2Arh2JrXMmZhIAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Сделать массовым</ru>
+                <en>Make mass</en>
+                <client>Сделать массовым</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236225</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>print_report_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Print_report_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>155</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYklEQVR4Xs2SSwoAIAgFu5Pr7n+soiDQSY1WtZiF+D4IFhEpoB0weprfBFQsaSBaU2ng7GE0NPCciDDgmv8CeGtEGrC1ZJoxeH/ARt2sA+YfEDYSo6dZt3hsOwqWKOMYcEUHxb8tcMmNZM8AAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Распечатать</ru>
+                <en>Print this</en>
+                <client>Распечатать</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236244</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>question_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Question_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>203</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAkklEQVR4XrXRUQ2FMAxAUSxgAQu1gAW0YAELaMECFrCABWBZltDdwkZSSM7P7bLyHo2INH9C8IbgDcEbwov5ctyMxhlAeLCIvjwJS/OzCoKhl3jZLvHJW35eQag0SVywGTMFoUL6u8LlnTFXEArSm4clrTEHhIJV4oLwDfKZCcEbQkH6BYMxMyEU/L7gMwRvCN5O+K4QmM9FDuIAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Вопрос</ru>
+                <en>Question</en>
+                <client>Вопрос</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236227</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>refresh_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Refresh_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>323</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAABCklEQVR4XrXTwQoBURQG4MHCxkKKlFJWZKXOG1jZegxbD+AlZqWslLLyNlZKKSVKqclO8Z/unenOPUddNRZf6j/OOcPcGxFR9E8iKJoIiiYCRQ+WcIY3nCCGrvJdQQSeCSRkBvs4Hys9wQuacCczbA1Dm49gY/MHdJTeoAUrMkN2So1tbT1WahkROC5kBvSVGqvD0fJrGRFYFTLDX0rNNYCnkmdE4LiRWcKnyM0b9rMMJWgpvRkROPjF8gL+r92cX+wcqmSW+H05InDw6UhPES9JT1F6TA8wVfqCFzC+B/zE/h1wxUpf8ALGv4Rv8p7yg68wI3Mg/J6fFvgSWEBNqQkiCNBWsq9EULQPd9gsxbm4HgIAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Обновить</ru>
+                <en>Refresh</en>
+                <client>Обновить</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236245</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>replace_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Replace_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>220</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAo0lEQVR4XrWTSw7EIAxDK823qx6G+59tKjS4cm0QaQWLJyUmxBDEklJaZmLCaEwgfoKuhzCByE0fhRw/KzVdTCC46TQD5lup6WKCgPG8KL70LiZUwFtwDDPoWNO9YQNGzbiO80sGfOqa2RAD5DBrmWZuG7QasbZRfdiAeZcGOf5IHW517NdmLXgcfBudueZhA6C3sYaKCQHW9P94+Hy6fsKE0ew91i9VLNT8kgAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Переместить (1)</ru>
+                <en>Move (1)</en>
+                <client>Переместить (1)</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236228</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>reset_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Reset_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>1050</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAADAFBMVEUAAAAAAABVVVVAQEBtbW1VVVViYmJVVVVgYGBjY2NZWVlgYGBeXl5iYmJdXV1gYGBgYGBgYGBgYGBfX19fX19fX19eXl5eXl5gYGBfX19gYGBfX19fX19eXl5fX19eXl5fX19gYGBfX19fX19fX19eXl5fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX1////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACX1FS8AAAAMXRSTlMAAQMEBwkNDxASFBgmJywwRUpNTl5mb3KAgYiMl6WqrbPAw8TJ0Nbe4eTp6uvu+Pr+58HclQAAAJhJREFUeF5ljtsOgjAQRIeCl1hjVBq8PMg3+P8f44M3KgFFNARRa7clAXUedjMnM5sFfuS2zZBXqg1EOHGvXuODpYMeGrCYA2VsgeeLLOZAsc/hAMwXfeAczbqHOzSYCm4qF6kKSiOsb4zZlharrdZoQFPfwNqCbKO+Eq8TeQMk8EyR3Ayn13M8ZFDu3gaYxyKsOsfKNv/0AbIDJxlOWuzIAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Сбросить</ru>
+                <en>Reset</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2283703</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>resolve_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Resolve_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>286</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAA5UlEQVR4XrXSwQYCURgF4CHiEm0jom3Mok2rqH30GD3AvEe0atsq2vYAPUCraButIqJtRNzOaf5h/H+b29wWHzPnco65lXjvk38yQWwmiM0E5PrjUE1YQ6q7TPkPAy04gIdMd5nywIEunKR8xUx3mSBgIIWrlO+gHjLQgC0s5FmXD+Eu5UeX/wafM91lAhmoyQALzjAqlU/gIWc36JTOTJcJZIAc7KWI5jCDp7xzZFAuDx0gfjqvoBgpvGCqy38ZoDZc1ECmi6sMUM/l983y5ZfzygPE+964/A+gz8IGYjJBbCaI7Q3rPE0gNO+hTwAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Подтвердить</ru>
+                <en>Confirm</en>
+                <client>Подтвердить</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236229</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>restore_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Restore_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>179</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAeklEQVR4XrWNsQ0AIRDD2In9Z/tvDgkcglJA4cbgXOu9t5eIuI2I4gthJ4gokjj5czyQwE4QUbgh5y0iCg452HDn+gG64wE6Mv7w6NIymuOEXbNscZifGTk/3rgTH3CwE0QUHHKwE0QUSZz8OR5IYCeImHAjzm8RcZsfnQtocxcYFTUAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Восстановить из архива</ru>
+                <en>Restore from archive</en>
+                <client>Восстановить из архива</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236230</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>right_arrow_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Right_arrow_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>218</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAoUlEQVR4XrXQsQ2DQAyFYSokpAzAFDSuWIfslDIjMAMbMEC6NMxAESU+RaDTvXfnK0zxNb85W6IRkeZKELxB8AbBcCOtCILhpQbSsyAYvuqjJjKjIBjCgcOTzAGESLwsZ1Udeet2IHhL4QiESLqoZCbvzQO1RxbVk7dVB1Lp8odqyXcnCIZN/ot3dSdzAMEQfkU4MpIZBaFC9n8zELxB8PYDBukuQjFGazIAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Стрелка вправо</ru>
+                <en>Right arrow</en>
+                <client>Стрелка вправо</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236231</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>rose_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Rose_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>183</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAfklEQVR4XrXQSwrAIAxFUekGuhj3v7YWBxZ9Nx8FOziD3GICLbXW8ieE0xASj9FCCIG2vNNvLgTHuHzrCEJieXGHIHRhNgOCPNYF1qxtgiAPd+iO8MB4RJvO2iYIxoJsvo13H4SEHkghOPR/Lx9CCGwvbxASbflldBfCaQinvYGMJMgg+hyNAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Переместить (2)</ru>
+                <en>Move (2)</en>
+                <client>Переместить (2)</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236232</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>save_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Save_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>160</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAZ0lEQVR4Xt2NwQnAMAwDs5Pn6P7jtJ8UgqQEObgQ+jgwsuVrEdG+hIJqKOjcJpfopgWz3TsvJRQMRVewlFAARVeg7rYFqTsKRNEFf5wjwF3qjgJRdMEftgB3qTsKRNEFf/xcUAYF1TxC+XNQtVYNBgAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Сохранить</ru>
+                <en>Save</en>
+                <client>Сохранить</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236233</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>search-minus</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Search-minus.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>318</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAABBUlEQVR4XmMwNjZmgGJmIE4D4mNA/AmKQewUIGZCUgfHMIYQEB8B4v848AEg5seleSdU0UsgjgFiPqjiWKgYSG4rNs2+UMmPQKyOrgCINaByIDU+6Jo3QCWKsGiEYZAcSM06dM0wZ0kBcTkSrkFiy0DVPEfX/BMqwQjEZUC8DQ3PBmJ2qJof6JrvQSVAAN25MAwCIDW3kMVBRD9UYjcQs6BpAmGQ2B6omsnomsWMEf4GxbULEHNBMYh9FCqH4ToYwwiIHyMpwoWvGUMCFkUzCIMSRTUQnwPir0D8HojPAnGtMcTwu1ADQLQ8umZCWM4YEbiPgJgPXQEhDLLxvjEkyqTQJUnCANke1b69xg72AAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Отдалить</ru>
+                <en>Zoom out</en>
+                <client>Отдалить</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236257</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>search-plus</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Search-plus.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>342</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAABHUlEQVR4XpXSP0tCURgGcCGlqSAahDvYreamFyeN0FHoAzTXIn6NaGwJSnDvzwdw7gO0iINDJEalQ2sRlYE+D+e5dO5BEYUf95z7vO89555rxswysgan8AjfMIIbKHk1KcmgAE8wmeMSsrOaV+BBRV3Yh1WI4QzGypqzmo8UvsGmggOoanwIf6oph81tBSde8AXn3pw7YM112PyuIG9uy8Q5mysS694wbP5VkDO3on9QyQ54BpzzK6SanxXseUGyMh/IOd+V9/gZU81XCm69gCs2NN6AjmouwuYYPhTemdsBV+QZHMOLMuIv1Uw1+PSK5ulBFDbTDrTgFX50vYc6FM39D/iAPmyFzYvs2v8r8LoeFiyyDQNznywKw6VMASIy3IwlBbSeAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Приблизить</ru>
+                <en>Zoom in</en>
+                <client>Приблизить</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236258</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>send_mail_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>send_mail_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>424</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAQAAABtcaS7AAABb0lEQVR4Xq2SyyvEYRSGH3dyidBQJJdCrqkpO8a1RlEUEUpJEyt/gWRhIwu5bCQbaoqFmJWJQpQVUcjCXW7ZkZTLayT5zEZ5dt/ve8/3nvecH/wDYWRTQTUlpBFgXppE0cUa51xwxiUnzGLDxxR9k4yLK8aoIpNUCmjFrXObKfsiknn2KSYQK00U4k8wcYzKr8CUftLJHeVKMMK9mjlgmg16iWebAVP6QTjrTOnVPl4ZIgk7N7zRo5sxluX1ixyuadRcLtlVIxDCKi9KA4NyCjXlUMqteq/Xq+Oecww7Kk5VIjdOfA21sKkFKx0q+Oy4kieWJK9TogZD6yFds29V2bOyZJDPikqdtCj+pLcE6OMCi1gU+FFL21NDLzzokWENwCInL9hl3k+sXNopIlG7aCaXBDnMEG2KP/CjW8Fd1OrNCM0lkiztZpNDykzpF76KOscpR2xJuKspHTNBnin7SZD+oxoccnNoCyneBvon3gH/tlv3IYJ8HAAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Отправить</ru>
+                <en>Send</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2283704</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>service</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>service.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>266</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAA0UlEQVR42mNgoDFgA+ICIF4KpdnIMWQREB8C4kwovZCQhslAPA0JzwDiv0C8BMoHueY3EE9HU9ePbMgvIK4F4mIScD0Qf0Y3RBjNdUlA3ISEk9DkxYkx5AAQrwLiDih9gFxDQGGQC6UJGvIMiHWAWASI1aBiZUA8BwmXQcXVoOr0gPgxenRehCo+DcSRePBpqLqLUH1wMBuItwPxUairNuDBz6DqtkH1oRiSD8RGQJxIIE0lQtXl4zKEFIDVkD1A3EkC3oNuiB8QN5KB/RgGFQAAUZNSmWB3iQgAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>user_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Услуги</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2254711</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>service2</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>537341472.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>358</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABLUlEQVR42t3Tv0vCQRzGcXGJIghK+gOEhvgSrW79AWI059JSEESLUa7R3lZBBaVBLa01FBEFhSE4FBIG6VRDP2gJEYqu98GTfJO7cO7gBXp+7rnz+FzEGBNpxZiAkWckXHXNek9IAVPoxBr22gphDGILK9jEHCaxgBzWsYxu1cfQ3wzRgjdc4xwHOMUlTnCo708oaU3ezoVDrvD+15FVN4CGPu/YTf55iGkjZAhfvpBRlFHHLe4cymq+nNYc46K1T6IItFvgMIy4arsUmA2fxE6OYBrjSDvY+TEsKmDjV8cyerGEezVaCa94DHlBRY2X9L4dRgZH6PNcbAdWMe97O/aYD3o7NU9IEfu4wa7r75xhWxf84Qn5VK/M2g1dJ+lBVZc24wlJ6Xf7WIOf+W+RQvNy8H+0mAAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>user_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Услуги</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2254712</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sort_button</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Sort_button.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>236</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAs0lEQVR4Xu2Uuw0CMRBEL4GI7JKrg02uBgogoTs6gFoIkGjlEOyTPzrtbmRMggheMmN7HOzOICLDN3FCb5xg2Csv5RZ4R+WsbAKv4gTDLCngbvSTsmTvomyDu80B/PyZ9cI1uNscsFMm5ZG9gzIGd5sDCmh4nLFexQmGf8CPB4ySRpBHGMlJ0oh2C2B5eKDAcrFk3QJYf2qAR6gF6mHtfxwAFBmFtv55gQIkgEK0XsUJvXkDZD0zzoIrG80AAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Сортировка</ru>
+                <en>Sorting</en>
+                <client>Сортировка</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236259</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>start_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Start_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>187</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAgklEQVR4XrXUsQ2AMAxE0YiChQzjMAqjsQA980AiERT5TkdjF6/5RLEgQDGzkglCNAjRIAgzab8gCFe1ki5BEO7XXi3kOgVB6AOao9rIGgBBGAeMgyay9gNB8Jt3p4m7gSD4jf0AeicQBL9xMz6i0AGph5z2mqZ/aOm/ioYepAIh2gPajh1Q50ECrgAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Выполнить</ru>
+                <en>Execute</en>
+                <client>Выполнить</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236234</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>status_edit_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Status_edit_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>213</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAnElEQVR4Xs2PwQlCMRBEgy2l1V+EFYgXC/gHO7AAS/gX0UUMrG82P4FE8PAIzMzOkJRzTr9EhNmIAJ4dlOwxuB8eYE5GWEhYFFH8cIRh0hrgbyTLA7I34MurORFA7ZDFUeaNCCA6vhoP59H/QgTAguXzrsYGL0QE4AcOxtl5tyAviAD4g7txMU4VXxABtApafvdAC979z8AwIszmBcOeT56fwdevAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Отредактировать статус</ru>
+                <en>Edit status</en>
+                <client>Отредактировать статус</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236235</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>status_in_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Status_in_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>161</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAaElEQVR4Xs3QQQrAIBBDUe809z9bC0Jh+EltoSm4eAszmBFHVY0/SZAmQZoExvEC7+y5gPnTbJLA6CUsiyzoWMizkAD6P1NkAbGQZyGBwRffzSwJjFXJajZJYFwlK7yz14JPJEiTIO0E2C46oUXv7YUAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Вход в статус (необязательный)</ru>
+                <en>Entry to the status (optional)</en>
+                <client>Вход в статус (необязательный)</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236236</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>status_in_star_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Status_in_star_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>211</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAmklEQVR4Xs2RzQ2AIAxG2Yl1nMMzEzgOKziIZxfwYKWkGPJB+Elq4uGFtMj3ChoiMl9SNBjn3BDhOLMEblmvwBr7igLGxyhj9renJEjBp0x/SO27Amst9chuwJNzPX4DDKshYfgPtikBPktvLzElwDAVQQ4GYl2jKcjfGVER4McYiHWNrgAnzg+rC5DWXmJY0AJD/yPQpGho8wDalWfWRUKhugAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Вход в статус (обязательный)</ru>
+                <en>Entry to the status (required)</en>
+                <client>Вход в статус (обязательный)</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236237</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>status_out_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Status_out_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>153</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAYElEQVR4Xs2QQQqAMBAD+6f9/9v0pJSM0YVG6GEus0kDHVU1/gQiDUQaCOFooJ09B9R/3W4ghLdH5pvLLA20chDN4uWfiAwoNgfRLcrNZWIDFghh/luHdvYaWAYiDUSaEy/lOqEUKUbTAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Выход из статуса (необязательный)</ru>
+                <en>Exit from the status (optional)</en>
+                <client>Выход из статуса (необязательный)</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236238</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>status_out_star_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Status_out_star_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>204</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAk0lEQVR4Xs2RwQ2AIAxFuxPrOIdnJnAcVnAQzy7gQaQEDCkUUGri4cXwqf+BgrUWviQLIlrrJu51ZHKc4Xk4Zp8LChDjqwDWOxMSxOI9nH4La9MUKKVsi+QGeHJc99+AlpUIZfQfLI8E9LMgtb2ImICbGRKkcHOvBTEvISKgcHNDgnSPmxETcHQLatDSfwmkyAJpLgJ4fKzaYhFNAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Выход из статуса (обязательный)</ru>
+                <en>Exit from the status (required)</en>
+                <client>Выход из статуса (обязательный)</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236239</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>status_view_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Status_view_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>288</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAA50lEQVR4XrXSMQtBURjG8fsFLDaj0fyUzAaTTyBZFGW1GCwyGJTBZjDYfA6rTDJIFqsSkdg8p/fK7byHmxzqV7d/55733nMFAIJ/UsE3FXxTwTcVfFPhjTS1aBxqUsqxTlHBUqUd3R1utKKC477YAea3hWx0oAHkyU+hCbXpAhk0pyT0Ps4BdTrTmhphy0I2ij59jhLUp33ItNgBS6pYrQt9RD1rzYhmVnMOcMnQFa/NzbVp9jpFhYgi5JiGVKIy5LsYNcpTh6b4MEwFB3M8G8h3eb7BkRaQf5m9/usBP1HBNxV8U8G3B4rSKicPYAB1AAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Приватность</ru>
+                <en>Privacy</en>
+                <client>Приватность</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236240</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>structure</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>structure.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>291</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAA6klEQVR42mNgoDEwB2JnJGxOjiGXgfgdED+F0hfJNSQcyg6nxJApQBwLpckyZAUQnwfi/0B8FoiXkRu4IlBDOCiJIZINuQ2NBWT8HmrIeyxyF7AZ8gqIq4DYDQmHQA3xQRMHqbuPyxAPIr3jgW6IAxBnAPFnIJ4MZYNAGBCXQA3JBeJQIGaCyoPUvYGyQfoZ5gDxIyDeD8QnoJoYoenkKlT8KjSdsEHlj0LFH0H1g4luqO3KaIagp1iYIZJQ8W5kQ44BcRPUmciGrIWKr0UzpA8qfgxmSCoQL0XDINCJJtYOxCxY1KZSpcwAANB6VLJuy7laAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>user_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Структура</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2254713</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>sub_tab_content</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Sub_tab_content.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>131</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAAsAAAAHCAYAAADebrddAAAASklEQVR4XmMwNjZmIBaDCDkg3gnE//FgkLwcTJcNFgXIGCQPNhmGM7AoAmGQONwZyLgbTSGIj+JmdNwDVQiiUeTQFcIwyEPoYgwAeGBKzAnRZvsAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Треугольник (1)</ru>
+                <en>Triangle (1)</en>
+                <client>Треугольник (1)</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236241</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>switch_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Switch_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>337</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAABGElEQVR4XrWTv2oCQRCHjVaphFS2VlYBYcAqYOUb+ABCHsAHEAIBwcpKEAKpbK2sBKtrrawEIWBlYRvSCmbmdoYbdyaegbP4cPebPz/h2BIAlO6JEUVjRA4rZO34PzHCoQVhMZ3PzAOSIB2n/wIjImi5LKW7DpDz1RAjFE/IAcKSMTsd8MbnH6Qezd4UMIGwYKHciR0F0H3Gd/qN53MDNjzcVG7JSAD9c+rZO/O5Ad88XI18GbIAQn8jgxGKHQ82nJpQ456jU0sxQvHJw1OnJoy4Z+7UUoxQPPMw0XPqXcg++otTTzEi4pUXEAkyRN4hPDzxH87czQESsoVsofCF9J3+fwcQFaSNDCA8MHq9j06fwYiiMaJofgFjFzPHUOiPkAAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Включение</ru>
+                <en>Switch</en>
+                <client>Включение</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236242</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>1</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Системные иконки</ru>
+                <en>System icons</en>
+                <client>Системные иконки</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236201</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>tr1</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Tr1.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>141</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAVElEQVR4XmMwNjZ+RggzAInN6IJoeC9IkQQQX8YiCcLXgFgBpAiEzYD4IZqCx0DsCJKHKQLhFDRFOTA5ZEUgPBWqYBayOLoiDqhCbnyKsGIMAWwYAC1oUcXsMdEyAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Треугольник (2)</ru>
+                <en>Triangle (2)</en>
+                <client>Треугольник (2)</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236260</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>tr2</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Tr2.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>140</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAU0lEQVR4XmMwNjZ+BsR7gVgBiBmwYRABUgTC14DYEV0BuiIQfgzEOYQUwfAsIOYmpAiEpxJSBFLAgUvRQyBOgUliU3QZiM3QFSAr2gzEEuiSMAwARFNRxc91s+QAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Треугольник (3)</ru>
+                <en>Triangle (3)</en>
+                <client>Треугольник (3)</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236261</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>unlink</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>unlink.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>279</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA3klEQVR4Xs2SURHCMBBEKwEJSEECAtqmDsABdQIOKqESkICESii7YbdcMzADPww7c5M0dy/ZXFpVf6OmaTpoy3lKaYy5tm0PWJsQM+KMuk3MZxEm6NHrgE8Cr4hB89UBiwgrdvyu63pv2Kdqk2kFKjEyCMV1OOgNc0TNjRFrPpJgXmPG/FjmF5UOLPcCcF/mFrmItsscBfjl5ll6qpk2feev5ObEhtFRrKGDpGbH9az0+FEGzouGZdsYd52eeQVa2plX4Dsb7mOesMcnKcnyRZtMXfFUBFVHF++b+XPdAVi4j3y3tcNoAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Разорвать связь</ru>
+                <en>Unlink</en>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2283701</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>unmass_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Unmass_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>206</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAlUlEQVR4Xr3RwQmAMAwFUPcQXCITCi7kSfDkTp48aT5WSPOlUokeHqG/NiHYiEjzJQqiURCNAtWrXQ03d9UoUKucA1D9XTUK5IcNSjDYnls1qi1VnLM3vgGUNkBuh8wmg8W/8Q1gTR+j+saW/faCTR4HfL5BiW0OnZpSjopz9sY3gNIG1SiQ+3/wGgXywwahKIhGQbQD1dkmtdRJHPEAAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Сделать не массовым</ru>
+                <en>Make not mass</en>
+                <client>Сделать не массовым</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236226</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>user_icons</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Пользовательские иконки</ru>
+                <en>User icons</en>
+                <client>Пользовательские иконки</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236202</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>wait_icon</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="correctColor">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>Wait_icon.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>255</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAYAAADHeGwwAAAAxklEQVR4XrWTQQrCUAxEC57BVcGVN8gZhN5PEATBU3mAgiAIguDKlWbo//BNBhshLh6fP+3MpJB2ItL9Eydk44RsnEBYKTtlVF7l3Ctr8q7DCYaN8pAp2AIdz60nXIDJ7/IZCr2935Ql8YYKtuKntgXgQLyhgnMJmCu4EG+o4FkCbEGl1RfEP1vAvoBxJd5QAVbThjGOxBsqwHZgOhvYgi3qiTdUALDndlUr0Afi+akAYEL8uSeZgnHi/nXyihOycUI2TsjmDYklS9htYzHZAAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>iconsForControls</string>
+        </attribute>
+        <attribute code="parent">
+            <string>system_icons</string>
+        </attribute>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="system">
+            <bool>true</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Ожидание</ru>
+                <en>Wait</en>
+                <client>Ожидание</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>iconsForControls$2236243</string>
+        </attribute>
+    </object>
+</class>

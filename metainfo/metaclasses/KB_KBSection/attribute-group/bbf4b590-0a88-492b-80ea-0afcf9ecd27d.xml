@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="bbf4b590-0a88-492b-80ea-0afcf9ecd27d" seg-type="attribute-group">
+    <code>bbf4b590-0a88-492b-80ea-0afcf9ecd27d</code>
+    <title lang="ru">Для карточки пользователя</title>
+    <attribute>title</attribute>
+    <attribute>description</attribute>
+    <order>title</order>
+    <order>description</order>
+</group>

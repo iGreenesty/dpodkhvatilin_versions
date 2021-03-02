@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<module xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="kanboard" seg-type="script-modules">
+    <code>kanboard</code>
+    <description/>
+    <active>false</active>
+    <script checksum="10633ff5d5adfc29fec2ec8e7dff7d937d3350615d15a21f67116a7fa131d87e">
+        <xi:include href="kanboard.groovy" parse="text"/>
+    </script>
+    <view_by_superusers>false</view_by_superusers>
+    <edit_by_superusers>false</edit_by_superusers>
+    <author>naumen</author>
+</module>

@@ -1,0 +1,1 @@
+utils.edit(subject, ['closedDate' : new Date()])

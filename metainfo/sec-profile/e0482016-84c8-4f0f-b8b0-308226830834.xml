@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="e0482016-84c8-4f0f-b8b0-308226830834" licensed="true" seg-detach="true" seg-id="e0482016-84c8-4f0f-b8b0-308226830834" seg-type="sec-profile" versioning="false">
+    <groups>C4_auditor C2_seniorSpecialist C1_specialist C3_admin</groups>
+    <roles>fileAuthor</roles>
+    <title lang="ru">Автор файла</title>
+</security-profile>

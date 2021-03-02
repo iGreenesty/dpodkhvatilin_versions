@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="search" seg-type="attribute-group-override">
+    <code>search</code>
+    <title lang="ru">Атрибуты результатов поиска для лицензированных пользователей</title>
+    <attribute>head</attribute>
+    <order>title</order>
+    <order>head</order>
+</override>

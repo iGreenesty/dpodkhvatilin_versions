@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="4ed7c153-8211-4e09-a317-03ba865c93a1" licensed="true" seg-detach="true" seg-id="4ed7c153-8211-4e09-a317-03ba865c93a1" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>teamParticipant</roles>
+    <title lang="ru">Участник команды</title>
+</security-profile>

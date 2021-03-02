@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<child-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="deadlineRulesList" seg-type="contents" uuid="deadlineRulesList">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efa5c-16fc-1672-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Правила вычисления дедлайна</caption>
+    <showCaption>false</showCaption>
+    <case>
+        <id>agreementRule</id>
+        <case>agreementRule</case>
+    </case>
+    <attributeGroup>a8aed1ab-2557-496d-aa8e-19e6fb559896</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/26ebe8f7-789a-4e8f-2fa3-7041b2647dcf/26ebe8f7-789a-4e8f-2fa3-7041b2647dcf.xml" parse="xml"/>
+    <xi:include href="tool-panels/594ca015-70dd-fc8f-4a7b-c56388a71569.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f5f4a7e8-161d-c6cc-0011-000001840552">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f5f4a812-161d-c733-0011-000001840552">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4f8e-168d-11ff-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <filterRestrictionSettings/>
+    <objectActionsMenu>
+        <menuIconCatalogCode>additionalActions</menuIconCatalogCode>
+        <objectActionsMenuPosition>LEFT</objectActionsMenuPosition>
+        <xi:include href="tool-panels/f7187c58-1695-f92b-003f-000000ffc2f3/f7187c58-1695-f92b-003f-000000ffc2f3.xml" parse="xml"/>
+        <useSystemSettings>false</useSystemSettings>
+    </objectActionsMenu>
+    <show-nested-in-nested>false</show-nested-in-nested>
+</child-objects>

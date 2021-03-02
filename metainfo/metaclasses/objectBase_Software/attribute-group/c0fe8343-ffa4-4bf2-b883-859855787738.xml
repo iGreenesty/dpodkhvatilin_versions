@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="c0fe8343-ffa4-4bf2-b883-859855787738" seg-type="attribute-group">
+    <code>c0fe8343-ffa4-4bf2-b883-859855787738</code>
+    <title lang="ru">Параметры объекта</title>
+    <attribute>serialNumber</attribute>
+    <attribute>producer</attribute>
+    <attribute>description</attribute>
+    <attribute>state</attribute>
+    <attribute>creationDate</attribute>
+    <attribute>lastModifiedDate</attribute>
+    <attribute>Price</attribute>
+    <order>serialNumber</order>
+    <order>producer</order>
+    <order>description</order>
+    <order>state</order>
+    <order>creationDate</order>
+    <order>lastModifiedDate</order>
+    <order>Price</order>
+</group>

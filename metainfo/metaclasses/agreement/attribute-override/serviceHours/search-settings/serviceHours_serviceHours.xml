@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="serviceHours_serviceHours" seg-type="search-settings">
+    <simpleSearchableForLicensed>false</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>false</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>false</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>false</extendedSearchableForLicensed>
+    <searchBoost>1.0</searchBoost>
+    <code>serviceHours</code>
+    <declaredMetaClass>agreement</declaredMetaClass>
+    <title lang="en">Service hours</title>
+    <title lang="ru">График предоставления услуг</title>
+    <title>График предоставления услуг</title>
+    <attrCode>serviceHours</attrCode>
+</searchSetting>

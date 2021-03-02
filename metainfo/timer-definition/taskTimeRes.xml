@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<timer-definition xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="taskTimeRes" seg-type="timer-definition">
+    <code>taskTimeRes</code>
+    <title lang="ru">Запас времени решения задачи</title>
+    <description lang="ru"/>
+    <target-type>
+        <id>task</id>
+    </target-type>
+    <time-metric>FLOAT</time-metric>
+    <resolution-time-attribute>timeToSolve</resolution-time-attribute>
+    <enableRecalc>true</enableRecalc>
+    <enableRecalcOnServiceTimeChange>false</enableRecalcOnServiceTimeChange>
+    <time-zone-attribute>timeZone</time-zone-attribute>
+    <service-time-attribute>serviceTime</service-time-attribute>
+    <status-condition>
+        <selected>
+            <metaclass>
+                <id>task</id>
+            </metaclass>
+            <state>inprogress</state>
+        </selected>
+        <selected>
+            <metaclass>
+                <id>task</id>
+            </metaclass>
+            <state>registered</state>
+        </selected>
+        <selectedStatesAsString>[Задача], [Задача] : Запланирована, В работе</selectedStatesAsString>
+        <stopStatesAsString/>
+    </status-condition>
+    <removed>false</removed>
+    <system>false</system>
+</timer-definition>

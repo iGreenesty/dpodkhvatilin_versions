@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="SummaTrudozatrat" seg-type="attribute-group">
+    <code>SummaTrudozatrat</code>
+    <title lang="ru">Сумма трудозатрат</title>
+    <attribute>sumWorkRecords</attribute>
+    <attribute>sumApprovedWR</attribute>
+</group>

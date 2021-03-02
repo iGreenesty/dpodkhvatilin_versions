@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<wfProfileFolders xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="serviceCall" seg-type="wf-profile-folder">
+    <folderId>serviceCall</folderId>
+    <profiles>
+        <xi:include href="wf-profile/systemWfProfile1.xml" parse="xml"/>
+    </profiles>
+</wfProfileFolders>

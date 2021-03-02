@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="HarakteristikiObekta" seg-type="contents" uuid="HarakteristikiObekta">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efd25-16fc-1773-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Характеристики объекта</caption>
+    <showCaption>false</showCaption>
+    <attributeGroup>HarakteristikiObekta</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/c52b3aed-2293-96b3-26f2-efdc2e8881cb.xml" parse="xml"/>
+</properties>

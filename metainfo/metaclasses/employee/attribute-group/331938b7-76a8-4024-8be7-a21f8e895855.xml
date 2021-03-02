@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="331938b7-76a8-4024-8be7-a21f8e895855" seg-type="attribute-group">
+    <code>331938b7-76a8-4024-8be7-a21f8e895855</code>
+    <title lang="ru">Для карточки отдела</title>
+    <attribute>icon</attribute>
+    <attribute>title</attribute>
+    <attribute>post</attribute>
+    <attribute>email</attribute>
+    <attribute>phonesIndex</attribute>
+    <attribute>login</attribute>
+    <order>icon</order>
+    <order>title</order>
+    <order>post</order>
+    <order>email</order>
+    <order>phonesIndex</order>
+    <order>login</order>
+</group>

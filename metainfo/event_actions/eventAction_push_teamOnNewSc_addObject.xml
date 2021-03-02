@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$push_teamOnNewSc_addObject" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <push-action>
+            <actionType>PushEventAction</actionType>
+            <message>&lt;div style="font-size: 0.9rem; padding: 5px 0 5px 0;"&gt;
+&lt;div style="padding: 0 0 7px 5px; border-bottom: 2px solid #cccccc; line-height: 1.15rem;"&gt;Ваша команда "${subject.responsibleTeam.title}" назначена ответственной за заявку &lt;strong fr-original-style="" style="font-weight: 700;"&gt;&lt;a fr-original-style="" href="${api.web.open(subject)}" style="user-select: auto;"&gt;№${subject.number}&lt;/a&gt;&lt;/strong&gt;&lt;/div&gt;
+
+&lt;table fr-original-style="margin: 10px 0 0 10px; font-size: 0.85rem;" style="margin: 10px 0px 0px 10px; font-size: 0.85rem; border: 0px; border-collapse: collapse; empty-cells: show; max-width: 100%;"&gt;&lt;tbody&gt;&lt;tr fr-original-style="" style="user-select: none;"&gt;&lt;td fr-original-style="padding: 0px 10px 7px 0;" style="padding: 0px 10px 7px 0px; user-select: text; border: none;"&gt;Тема:&lt;/td&gt;
+&lt;td fr-original-style="padding: 0px 10px 7px 0;" style="padding: 0px 10px 7px 0px; user-select: text; border: none;"&gt;${subject.shortDescr}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr fr-original-style="" style="user-select: none;"&gt;&lt;td fr-original-style="padding: 0px 10px 7px 0;" style="padding: 0px 10px 7px 0px; user-select: text; border: none;"&gt;Контрагент:&lt;/td&gt;
+&lt;td fr-original-style="padding: 0px 10px 7px 0;" style="padding: 0px 10px 7px 0px; user-select: text; border: none;"&gt;${subject.clientOU?.title ?: '[не указан]'}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr fr-original-style="" style="user-select: none;"&gt;&lt;td fr-original-style="padding: 0px 10px 7px 0;" style="padding: 0px 10px 7px 0px; user-select: text; border: none;"&gt;Решить до:&lt;/td&gt;
+&lt;td fr-original-style="padding: 0px 10px 7px 0;" style="padding: 0px 10px 7px 0px; user-select: text; border: none;"&gt;${subject.deadLineTime}&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;</message>
+            <roles>serviceCall_ResponsibleTeamMember</roles>
+            <script><![CDATA[IskluchenieAvtoraDeistviiIzChislaPoluchatelei]]></script>
+            <html>true</html>
+            <position>BottomRight</position>
+            <pushPresentationType>AlwaysInTheInterface</pushPresentationType>
+            <type>WEB</type>
+        </push-action>
+        <code>eventAction$push_teamOnNewSc_addObject</code>
+        <description lang="ru"/>
+        <event>
+            <eventType>add</eventType>
+        </event>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Push] О назначении команды ответственной за заявку (доб. объекта)</title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

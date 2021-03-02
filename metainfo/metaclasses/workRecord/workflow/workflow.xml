@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workflow xmlns:xi="http://www.w3.org/2001/XInclude" inherit="false" originalState="registered" seg-detach="true" seg-id="workflow" seg-type="workflow">
+    <xi:include href="state/closed.xml" parse="xml"/>
+    <xi:include href="state/registered.xml" parse="xml"/>
+    <xi:include href="state/rejected.xml" parse="xml"/>
+    <statesOrder>registered</statesOrder>
+    <statesOrder>rejected</statesOrder>
+    <statesOrder>closed</statesOrder>
+    <xi:include href="transition/registered-closed.xml" parse="xml"/>
+    <xi:include href="transition/registered-rejected.xml" parse="xml"/>
+    <xi:include href="transition/rejected-closed.xml" parse="xml"/>
+    <xi:include href="transition/rejected-registered.xml" parse="xml"/>
+</workflow>

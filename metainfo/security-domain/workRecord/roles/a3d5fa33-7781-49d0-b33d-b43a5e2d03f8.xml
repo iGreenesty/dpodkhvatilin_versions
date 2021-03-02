@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="a3d5fa33-7781-49d0-b33d-b43a5e2d03f8" enabled="true" seg-detach="true" seg-id="a3d5fa33-7781-49d0-b33d-b43a5e2d03f8" seg-type="roles" type="SCRIPT">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="script">VypolnivshiiRabotuAdfadbdbaedf48</property>
+    <title lang="ru">Выполнивший работу</title>
+</role>

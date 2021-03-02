@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="02be1cc7-0f65-454f-a03f-88b51849c268" seg-type="attribute-group">
+    <code>02be1cc7-0f65-454f-a03f-88b51849c268</code>
+    <title lang="ru">Для карточки команды-ответственной</title>
+    <attribute>number</attribute>
+    <attribute>creationDate</attribute>
+    <attribute>description</attribute>
+    <attribute>state</attribute>
+    <attribute>responsible</attribute>
+    <attribute>deadline</attribute>
+    <attribute>category</attribute>
+    <attribute>clientSC</attribute>
+    <order>number</order>
+    <order>creationDate</order>
+    <order>description</order>
+    <order>state</order>
+    <order>responsible</order>
+    <order>deadline</order>
+    <order>category</order>
+    <order>clientSC</order>
+</group>

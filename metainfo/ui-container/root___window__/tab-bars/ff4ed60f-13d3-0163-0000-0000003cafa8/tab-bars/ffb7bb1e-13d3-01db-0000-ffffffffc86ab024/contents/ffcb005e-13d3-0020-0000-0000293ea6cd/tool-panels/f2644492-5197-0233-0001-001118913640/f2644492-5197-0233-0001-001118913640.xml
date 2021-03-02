@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<toolPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f2644492-5197-0233-0001-001118913640" seg-type="tool-panels" uuid="f2644492-5197-0233-0001-001118913640">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="7bbcac66-cb65-496b-2570-ae23ee1545c5">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/add_b4815463-f8bc-6faf-7a70-6e61808e14c9.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="dce4d99c-658a-1851-9a11-03faf53d4f42">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/showRemoved_0ca3f5c3-407d-b38e-e730-0fe0885de82a.xml" parse="xml"/>
+        <xi:include href="tools/exportAdvlist_42b523b4-3858-e9ff-582a-7dba6d8cb549.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="61b594fb-e239-8eff-c979-0e6cdb9cabf3">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</toolPanel>

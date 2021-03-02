@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f7c4e4f7-5a83-44d1-84e5-936f5c6a21af" seg-type="attribute-group">
+    <code>f7c4e4f7-5a83-44d1-84e5-936f5c6a21af</code>
+    <title lang="ru">Для сложной формы связи при добавлении задачи</title>
+    <attribute>title</attribute>
+    <attribute>shortDescr</attribute>
+    <attribute>state</attribute>
+    <attribute>client</attribute>
+    <attribute>responsible</attribute>
+</group>

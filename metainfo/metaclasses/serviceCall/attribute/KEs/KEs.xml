@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="KEs" seg-type="attribute">
+    <code>KEs</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="en">Connected IT assets</title>
+    <title lang="ru">Связанные ИТ-активы</title>
+    <description lang="en"/>
+    <description lang="ru"/>
+    <type>
+        <code>backBOLinks</code>
+        <property code="backLinkAttr">serviceCalls</property>
+        <property code="code">backBOLinks</property>
+        <property code="complexAttrGroupCode">b72d6669-c4c0-4e7b-b51f-1c57437f8a57</property>
+        <property code="complexRelation">true</property>
+        <property code="metaClassFqn">objectBase</property>
+        <property code="permittedTypes">["objectBase$Monitor","objectBase$ChTemplates","objectBase$Switch","objectBase$OfficeEquip","objectBase$ethChannelF","objectBase$Computers","objectBase$MobileDevice","objectBase$netServiceF","objectBase$Server","objectBase$city","objectBase$port","objectBase$CITemplates","objectBase$Rack","objectBase$Card","objectBase$DBMS","objectBase$Shredder","objectBase$Netcard","objectBase$Router","objectBase$HDD","objectBase$location","objectBase$CPU","objectBase$Modem","objectBase$Software","objectBase$Headset","objectBase$centre","objectBase$OS","objectBase$Projector","objectBase$PowerUnit","objectBase$MFU","objectBase$SidSysFolder","objectBase$UPS","objectBase$Phone","objectBase$universalCI","objectBase$Fax","objectBase$Mainboard","objectBase$Channel","objectBase$Keyboard","objectBase$Device","objectBase$DVDDrive","objectBase$PhonesAndFaxes","objectBase$Scanner","objectBase$Printer","objectBase$GraphicDevices","objectBase$CMT","objectBase$Notebook","objectBase$CI","objectBase$EthChannel","objectBase$Hardware","objectBase$RAM","objectBase$DeviceLibrary","objectBase$CIRepository","objectBase$Workstation","objectBase"]</property>
+    </type>
+    <filteredByScript>true</filteredByScript>
+    <scriptForFiltration>SvyazannyeITaktivyKEs199</scriptForFiltration>
+    <computableOnForm>false</computableOnForm>
+    <attrsUsedInScript>client</attrsUsedInScript>
+    <attrsUsedInScript>clientOU</attrsUsedInScript>
+    <attrsUsedInScript>clientEmployee</attrsUsedInScript>
+    <viewPresentation>
+        <code>boLinksView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>boLinksEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>backBOLinksAccessor</accessor>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>true</systemEditable>
+    <xi:include href="search-settings/KEs_KEs.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <tags>ITaktivy</tags>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

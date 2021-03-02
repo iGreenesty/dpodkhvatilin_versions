@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<add-delete-from-list xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="addDeleteObjs_f08c8caf-1697-6c5d-0047-000000ffc2f3" seg-type="tools" uuid="f08c8caf-1697-6c5d-0047-000000ffc2f3">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <iconCode>link_icon</iconCode>
+    <params/>
+    <presentationType>default</presentationType>
+    <action>addDeleteObjs</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Add/Remove links</caption>
+    <caption lang="ru">Изменить</caption>
+</add-delete-from-list>

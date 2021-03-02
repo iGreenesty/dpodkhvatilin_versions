@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="2f644a83-d3a1-45ca-860d-b5e21f7160a0" seg-type="attribute-group">
+    <code>2f644a83-d3a1-45ca-860d-b5e21f7160a0</code>
+    <title lang="ru">Для сложной формы добавления Конфигурационных единиц</title>
+    <attribute>metaClass</attribute>
+    <attribute>producer</attribute>
+    <attribute>model</attribute>
+    <attribute>inventoryNumbe</attribute>
+    <attribute>owner</attribute>
+    <order>metaClass</order>
+    <order>producer</order>
+    <order>model</order>
+    <order>inventoryNumbe</order>
+    <order>owner</order>
+</group>

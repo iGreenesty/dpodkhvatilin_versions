@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="866028cf-6f06-4617-a76b-8a98f01effbf" licensed="true" seg-detach="true" seg-id="866028cf-6f06-4617-a76b-8a98f01effbf" seg-type="sec-profile" versioning="false">
+    <groups>C4_auditor</groups>
+    <roles>employee</roles>
+    <title lang="ru">Аудитор</title>
+</security-profile>

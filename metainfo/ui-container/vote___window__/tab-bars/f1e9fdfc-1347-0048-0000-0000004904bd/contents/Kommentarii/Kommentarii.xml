@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<comments xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="Kommentarii" seg-type="contents" uuid="Kommentarii">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6f140c-16fc-72bb-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Комментарии</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>comment</id>
+    </class>
+    <attributeGroup>system</attributeGroup>
+    <presentation>default</presentation>
+    <xi:include href="tool-panels/03163ffd-3b78-f7d8-8b48-c7668a437474.xml" parse="xml"/>
+    <xi:include href="tool-panels/f12fb26f-1697-3f49-0051-000000ffc2f3.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f12fb26f-1697-3f4a-0051-000000ffc2f3">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f12fb27a-1697-3f97-0051-000000ffc2f3">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="f12fb270-1697-3f4b-0051-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <detailedAttrGroup>more</detailedAttrGroup>
+    <relationAttrCode>parent</relationAttrCode>
+    <subjectType>relatedObject</subjectType>
+</comments>

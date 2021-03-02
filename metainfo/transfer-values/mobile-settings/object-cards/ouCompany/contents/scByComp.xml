@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mobile-rel-objects-list-content xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="scByComp" seg-type="contents" uuid="scByComp">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>d7c36fc2-c0ab-40a9-a303-f4019d8ccc12</profile>
+        <profile>11f7277e-d00c-4374-8335-06fe12273efb</profile>
+        <profile>d7bb42a3-ee87-413c-8bed-73dd56073fb4</profile>
+        <profile>8f372f70-2a9a-42ec-ae34-413d842cf98f</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+    </profiles>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="f5851b11-16ff-f7db-0007-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Заявки компании</caption>
+    <showCaption>true</showCaption>
+    <allowCollapse>true</allowCollapse>
+    <code>scByComp</code>
+    <collapsed>false</collapsed>
+    <contentType>REL_OBJECT_LIST</contentType>
+    <cases/>
+    <class>
+        <id>serviceCall</id>
+    </class>
+    <hide-if-there-are-no-objects>false</hide-if-there-are-no-objects>
+    <link-to-mobile-list>f5df38f7-14ce-8326-0001-00003f5cad83</link-to-mobile-list>
+    <attrs-chain attr-code="serviceCalls" class-fqn="ou$company"/>
+    <show-linked-objects>false</show-linked-objects>
+    <show-related-with-nested>false</show-related-with-nested>
+</mobile-rel-objects-list-content>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="KBtoAddArticle" seg-type="attribute">
+    <code>KBtoAddArticle</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">В раздел</title>
+    <description lang="ru"/>
+    <type>
+        <code>object</code>
+        <property code="code">object</property>
+        <property code="complexAttrGroupCode">fc36b815-66bf-4919-92c5-96137d95b3d0</property>
+        <property code="complexRelation">true</property>
+        <property code="metaClassFqn">KB</property>
+        <property code="permittedTypes">["KB$KBSectionProt","KB$KBSectionOpen","KB$KBSubsectionOp","KB$KBSubsectionPr"]</property>
+    </type>
+    <filteredByScript>true</filteredByScript>
+    <scriptForFiltration>TolkoRazdelyIPodrazdely</scriptForFiltration>
+    <computableOnForm>false</computableOnForm>
+    <attrsUsedInScript>KB$9756508</attrsUsedInScript>
+    <attrsUsedInScript>KB$9756504</attrsUsedInScript>
+    <attrsUsedInScript>KB$1400201</attrsUsedInScript>
+    <attrsUsedInScript>KB$9756501</attrsUsedInScript>
+    <attrsUsedInScript>KB$9756505</attrsUsedInScript>
+    <attrsUsedInScript>KB$9756503</attrsUsedInScript>
+    <attrsUsedInScript>KB$5968102</attrsUsedInScript>
+    <attrsUsedInScript>KB$9756507</attrsUsedInScript>
+    <attrsUsedInScript>KB$3136301</attrsUsedInScript>
+    <viewPresentation>
+        <code>boRreference</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>boSelect</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>flexAccessor</accessor>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>true</systemEditable>
+    <xi:include href="search-settings/KBtoAddArticle_KBtoAddArticle.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <tags>BazaZnanii</tags>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

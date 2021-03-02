@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="b0fdafce-c72e-4124-abec-6629caaf366a" seg-type="attribute-group">
+    <code>b0fdafce-c72e-4124-abec-6629caaf366a</code>
+    <title lang="ru">Для формы добавления</title>
+    <attribute>title</attribute>
+    <attribute>services</attribute>
+    <attribute>text</attribute>
+    <order>title</order>
+    <order>services</order>
+    <order>text</order>
+</group>

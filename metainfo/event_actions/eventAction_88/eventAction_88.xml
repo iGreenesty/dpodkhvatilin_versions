@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$88" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[ObnovlenieVremeniNaReshenieUZadach]]></script>
+        </script-action>
+        <code>eventAction$88</code>
+        <xi:include href="script-action-condition/actionCondition_89.xml" parse="xml"/>
+        <description lang="ru">При изменении даты решения задачи пересчитывает время решения</description>
+        <description>При изменении даты решения задачи пересчитывает время решения</description>
+        <event>
+            <eventType>edit</eventType>
+        </event>
+        <fqn>
+            <id>task</id>
+        </fqn>
+        <on>false</on>
+        <slow>false</slow>
+        <tags>Zadachi</tags>
+        <title lang="ru">[Скрипт] Обновление времени решения задачи</title>
+        <title>Скрипт: обновление времени решения задачи</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

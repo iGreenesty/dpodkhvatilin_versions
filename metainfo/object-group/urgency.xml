@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<class xmlns:xi="http://www.w3.org/2001/XInclude" id="urgency" seg-detach="true" seg-id="urgency" seg-type="object-group">
+    <object>
+        <attribute code="code">
+            <string>U0</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>5.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>889</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAGwAAAAYCAYAAAAf1RgaAAADQElEQVR42u2ZT0gUYRjGxdydGRUJ+0PqjmuWqB0M+kOGCF0KOkhBdDDJsFLUzVpz1xVK2kMSpBEiYXRIjDA1kTTboKA8FBVJFEFp9MegDut2qi4F8vY9u0KOO7vrzM7IIPPCA99+3/v85vl43UWYhASzlmdxNnceb2/2QVibTOMxQ7XGmyrY3e0ZRd4/F7snCMIaezgzmQZghsqbyGc3H05Z7/EfcY7Sw6c/qN83ExTW2MMZetBrBGbV6bsh5r0ZGvAFDJtTO+ZcCTnNxWziz3aWXaPrtz/TwP0AtXZO08m2T0FhPcj2cIYe9MKjhDkYgdkz9EUVs3d4OpjzrMY59bi7FsxgpW5wrRXsrhv2bRdmz3S8pJujfjrXNU3VrR9k5WVn6EEvPPCCEYvpjcLE8/rGZiTMZLszYz4Tn+cz0b/YnOKWtkXn1OPu8TKlfwl2169yh4+u9n9j4K9U6ZmiCvdkVFW2TAV74YEXjKjMlkUwPQqZeuQ0KHPBwNx0ufc7lTdN0v4T7xQJHnjBMJn6McMGhq/snmNvVQleudAmUztm2MAazn+k0oo3qgSvXGiTqR0zbGCHXO9p64FXqgSvXGiTqR1zwcCaaHfVa8rf+0KV4AXDZOrHlA4su5E273tO4q4nqgQvGCZTP+aCgTkps2ScVu94pErwgmEy9WNKByaeouSiB3EJDJOpH1NSvNhA1k2+uASGydSPKR2YzfGT23CJrAV3yFo4pkzMAy8vOn6HMXM7tGWyz3HnZLmW5O4aMyWVklO/TrDV9/Fi46x1YzdZCkeYRmNohNALjyA6boEhz3Rqy2T7qnOyPJFz6nF37ZgR/vmoLeFttRNctoeseT1kKRiWFc7Qg15erCtdaibOlTKRYzncXf79ja3uOJ9V6+dyvGTJ72PQoZDYGnvsLIAeRe+E9GMGojD9BsqpIfN/wbCCKSkh7WC6YKvp4m31f6257QRhLWRVX8FZsCfUm6iImVnTycJpy2T+sJzsOXEx9bi7NkwJnMNrJ7zSYUpjWmlZVbady6p6DGGNvbmz1LleLspDYjCPjlvSy4o1YTIOePrkNAwz9gMiKK7QJlM1M8pXOCRLBCWp+lkwmaqZ/wCkiFZM1dxDygAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>urgency</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>1. Высокая</ru>
+                <en>1. Высокая</en>
+                <client>1. Высокая</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>urgency$37501</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>U1</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>3.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>1333</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAGwAAAAYCAYAAAAf1RgaAAAE/ElEQVR42u2af2gbZRjHb10vd0m7Idt0Nj8u2drZVFjLcsom26D+YUFGsSD7Yx22dHa1TdbYLWkb0WAojoKLSBl2ouA6cd0Wx+a6LFKFOZhixVW0gtskags6aONf6j8K4/X9XrKtaS5p7nJXmukLX3jyPs/3kzfPc1xKrgzz/7o/F2ft3cTb+2IQ4v8Sk6nq5jhroApCvGyZ0nowVG609x6pqA39/fqxawRCjD3k7msmEyoxWvqs5tqQKzw8KUKIsYfc8mGmwLzQ91zZhv7Z1p4x8ukXv5PTsTlJiLGHHGryfyN9mW2HLiaZl+bImViiACbDrLK8tJb66lq9UXH8akKMRJNCjD3kUKOko3owpWV09G2jV+aXTzS+Q9778Gdy5uMECQ5NE+/hnyQhjtA95FCDWniUMCNZmMfP/qKKeeLctHTOVwo8J7PeX2Zw+Jxbd70rjkRmxMh4QgwOzYjewbgkxNgbicRF1KAWniVnYpVX+h8y2v3v2x8bvP1y+GvywdgsefXoNNkf/FFWIZpDDWrhgReMxZihHEy832h0Lo1psvdUzGfi9Xwm6vM9p811WPacjNjB8o6AQ3ANisHwpHgymmxqezAuqwGak2poLTzwMvWhUt2ZaVes3f/nHk+MvH36V9qAGdLSf5Ps7b2RUy2Bm1ItPPCCkZMZyIPZr5CpwTlN9kNbmrui4nDkltTU1sB1sdmXW6hBLTzwgqE3c8HAesmbJ34je3w3SNOBHxQJHnjBKEamSfCJQyO3pKY1eZUJHnjB0JuZMTDcWhqe/16V4JVrbjEw0Rhc2Q3tU6oEr9zAtGZmDKz7tTjZufc7VYJXrrnFwERjvANxcUfzlCrBKzcwrZkZA2v2Xyfis9+oErxyzS0GJhqD25Br96QqwSs3MK2ZCwbmI0+1fUuqn/5KleAFoxiZaExD65To3DWhSvDKDUxrZvrAhIOk7pkJYqv/XJXgBaMYmWjM5qYJUXjyqirBKzcwrZkLBtZDzNuvkHVbL6sSvGAUI9MkeMWKHZdFmlcleMHQm5k+MNuLxFT7SUECoxiZaIxp83hhkhmY1sy0xdu6ieHRWEECoxiZaAzrjBYkuYFpzUwfmNXzB1f5BjE4PyKGmqgyUQ+8vM3zVwZzY1hbJn1d8DnpudJ/lejewlaGaZPOq2gs9VAvGHoz01aZw/2w0eoe5W0HbxuqjhG25gLV2CK6QFALj9HmOQWGPLNHWybdV31Oep6FTOl3P/uBDfiSZyuH82zyeakWHnjB0J0p/8dH53be2nmNE/qJYdNxwjrPyQo51KCWt3XtXGom8kqZOEfu52rucoPdXcMKAdq4kVSTZYQcrUEtPEvOlH3OZO1q5y2ds5wjRNjqUfrhzyZFY+zRXAI1ip5d6cdM5GDOKmMyzCpzxzrW8kIdKwzQZp6kiqREY+zRHGoUPQ/TgXln4YOtpCplVu9eY7R2HOWt7n8MG48QCLHRsv8t5KSaZG2JIqa5Y4g2UVsm9Weck76PQibWiqTqS6lfMJk9Lum7CN8pNDaa3Tbk7tXltfRg3m0C/sfAhMdZVKupHmDXNj7OWdo+gxBjL5UrT9VyOZqxCHPfFXZN4zZNmJQDnspz3mlsybyLYSWzvqGMM++r5iwtjyC+u3+vbkUew9KambsRWVRQc5chU7652aV+YIUzs9xqkmKzqFTV7Wt5M+fdvvIWs1TMfwGBM4jgmbEONwAAAABJRU5ErkJggg==</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>urgency</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>2. Средняя</ru>
+                <en>2. Средняя</en>
+                <client>2. Средняя</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>urgency$37502</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>U2</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>1.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>1196</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAGwAAAAYCAYAAAAf1RgaAAAEc0lEQVR42u2aYWgbZRjHU9fL3SV1iJvO5ZK7bO3WVFjr+ipTtkH9YEHGsCD7sA5bNtvaJkvcTNpGJBiKUnAVKcNOHGgVN2eU1ZVQqUIV5ljFVbSC2yTKCjqo9ZP6RWG8vv9L1u2ulzS5pDB6eeEPD+/z/H95eJ+7K9zVZiuv1bl4d+8WQembgBCXBFoT5Hl3tAZCXGaWYt0XrxKV3mMb6+P/vnbiEoUQYw85c9D4XaLU53bVxxuHRmYIhBh7yBXNPLkCzJE7mZkBC3LfM85N/fPtR8bpFxf+pGcm/lCFGHvIoaaQH7pbenEd8zW0h5Jk8vwCSSTTQow95FBTSKeLzHCSTE2XmLkSfZaQqS7R2/cou4MuPrb3bfrOx7/Sjz5boLHhazT06i+qECfYHnKoQS08OaEbIk67N+zbseckGU2kSGJygcSG50hoMKUKMfaQQw1q4cmbOTZXembiDmZiVVVH7heVyPvKw4M3Xhr6ln4wPk9fPn6NdsZ+NlSc5VCDWnjgBUMDbYpXCt6oV24cJLGhGXKKXVEDrMGOWMpQyKEGtfDAC4aGSbo4PTNmFabmzlIif+8PTNC3zvzGBjVH2/qv0gO9V3KqLXpVrYUHXjBuZzqUF7a39iTJSOK62mx79DJpDecWalALD7xglJmGA+ulb7z3O90fvkJbDv9UkOCBFwxN03KYDI9eV5tpCRUmeOAFo8zMMjA8Apuf/dGU4DUaGK6Y5o5ZU4LX6CCsylwysOArKbr7wA+mBK/RwEIDKbKrddaU4DU6CKsylwysNXKZkqe/MyV4jQaG27tx34wpwWt0EFZl6gYWpk8c/J7WPvmNKcELhr7p5vZZ4tszbUrwGh2EVZnagclHacNT09TT9LUpwQuGvultLdNEfvy8KcFrdBBWZeoGdoS6dn5F1++YMiV4wdA2HSIbd00RljcleMEoM40G5nmeOuo/L0pg6Jt2bJssTgYHYVWmZgmeILU/OFGUwNA3zfmSRcnoIKzK1A7MHfiLr36d2n2fUntdsjAxD7yCJ/DP7Uyn5H+Iqx5iPz5momHmYV6HEtS9QQhuL5aJvkrNXIk+9UzNcnr9D4hu/2nBc/SGveYE5erOMY0vo3MUtfCInsCHYCx5n6Yc3oQ/nlz1SJ7Nj6m18MALRpmZ62293L1TcHdf4uV+at/yLuV8Zw2FHGpQK3h6duf+ruavsiv+Ok6OsoZGM80bCDlWg1p4ysxCvoe5ezoEqXue98YpV3uaDemTtFiMPZZbQE1B38NcXes56bkGTh5gTZ5iSmTEYuyxHGoK+s5kYebNhQGsYaq0rd13r+juOi64/f/ZNx+jEGJR6nwTObUmXZvP0CrSaqoUXV2ywxVoVJ/xeFazGHvI3arLay3D9HtWMXNxWPgfAwc+kTGtZbqHW7f3EV46+CWEGHuZXFWmll9maBWZ/M2LYY1tQ7OTlzq3QogX92/VVeRxCEuZrkO1vNS22pm5B5ZFxQ0su8wfhHWYWR6JaXFZVGnukZi3bGWmdv0PPde7qc1GHf0AAAAASUVORK5CYII=</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>urgency</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>3. Низкая</ru>
+                <en>3. Низкая</en>
+                <client>3. Низкая</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>urgency$37503</string>
+        </attribute>
+    </object>
+</class>

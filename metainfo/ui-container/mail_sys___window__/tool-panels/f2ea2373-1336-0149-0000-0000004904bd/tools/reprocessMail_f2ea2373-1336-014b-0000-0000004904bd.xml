@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="reprocessMail_f2ea2373-1336-014b-0000-0000004904bd" seg-type="tools" uuid="f2ea2373-1336-014b-0000-0000004904bd">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <params/>
+    <presentationType>default</presentationType>
+    <action>reprocessMail</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Reprocess</caption>
+    <caption lang="ru">Повторить обработку</caption>
+</action>

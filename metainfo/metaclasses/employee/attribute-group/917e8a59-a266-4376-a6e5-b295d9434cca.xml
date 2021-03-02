@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="917e8a59-a266-4376-a6e5-b295d9434cca" seg-type="attribute-group">
+    <code>917e8a59-a266-4376-a6e5-b295d9434cca</code>
+    <title lang="ru">Для списка вложенных отделов</title>
+    <attribute>title</attribute>
+    <attribute>post</attribute>
+    <attribute>parent</attribute>
+    <attribute>email</attribute>
+    <attribute>phonesIndex</attribute>
+    <attribute>login</attribute>
+</group>

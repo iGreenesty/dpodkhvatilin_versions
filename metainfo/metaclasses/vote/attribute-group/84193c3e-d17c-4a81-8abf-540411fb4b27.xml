@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="84193c3e-d17c-4a81-8abf-540411fb4b27" seg-type="attribute-group">
+    <code>84193c3e-d17c-4a81-8abf-540411fb4b27</code>
+    <title lang="ru">Общие сведения</title>
+    <attribute>state</attribute>
+    <attribute>voter</attribute>
+    <attribute>voteDate</attribute>
+    <attribute>remark</attribute>
+    <order>state</order>
+    <order>voter</order>
+    <order>voteDate</order>
+    <order>remark</order>
+</group>

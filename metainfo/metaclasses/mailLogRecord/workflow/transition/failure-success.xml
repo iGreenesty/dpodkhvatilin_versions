@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transition xmlns:xi="http://www.w3.org/2001/XInclude" enabled="true" from="failure" seg-detach="true" seg-id="failure-success" seg-type="transition" to="success"/>

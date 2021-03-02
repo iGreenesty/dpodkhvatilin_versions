@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$markServiceCallAsSPAM" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[SCRIPTSD4001695]]></script>
+        </script-action>
+        <code>eventAction$markServiceCallAsSPAM</code>
+        <description lang="ru"/>
+        <user-events>
+            <eventType>userEvent</eventType>
+            <event-code>userEvent$markServiceCallAsSPAM</event-code>
+            <form-code>fbd8bdef-15ee-becd-000f-000001ded46d</form-code>
+        </user-events>
+        <fqn>
+            <id>serviceCall</id>
+            <case>call</case>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">Пометить как спам</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

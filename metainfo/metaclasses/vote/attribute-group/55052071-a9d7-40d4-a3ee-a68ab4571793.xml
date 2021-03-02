@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="55052071-a9d7-40d4-a3ee-a68ab4571793" seg-type="attribute-group">
+    <code>55052071-a9d7-40d4-a3ee-a68ab4571793</code>
+    <title lang="ru">Для списка в согласовании</title>
+    <attribute>creationDate</attribute>
+    <attribute>voter</attribute>
+    <attribute>state</attribute>
+    <attribute>voteDate</attribute>
+    <attribute>remark</attribute>
+    <order>creationDate</order>
+    <order>voter</order>
+    <order>state</order>
+    <order>voteDate</order>
+    <order>remark</order>
+</group>

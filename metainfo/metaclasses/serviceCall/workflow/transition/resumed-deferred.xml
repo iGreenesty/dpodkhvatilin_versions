@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transition xmlns:xi="http://www.w3.org/2001/XInclude" enabled="true" from="resumed" seg-detach="true" seg-id="resumed-deferred" seg-type="transition" to="deferred">
+    <title lang="en">Отложить</title>
+    <title lang="ru">Отложить</title>
+</transition>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$PeremeshenieSotrudnika" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[PeremeshenieSotrudnikaotdela]]></script>
+        </script-action>
+        <code>eventAction$PeremeshenieSotrudnika</code>
+        <description lang="ru"/>
+        <user-events>
+            <eventType>userEvent</eventType>
+            <event-code>userEvent$PeremeshenieSotrudnika</event-code>
+            <form-code>f3ddb61f-173b-2467-000c-000060086411</form-code>
+        </user-events>
+        <fqn>
+            <id>employee</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">Перемещение</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

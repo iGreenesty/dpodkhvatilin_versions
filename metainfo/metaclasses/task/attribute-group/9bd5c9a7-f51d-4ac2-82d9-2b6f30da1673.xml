@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="9bd5c9a7-f51d-4ac2-82d9-2b6f30da1673" seg-type="attribute-group">
+    <code>9bd5c9a7-f51d-4ac2-82d9-2b6f30da1673</code>
+    <title lang="ru">Для формы редактирования (основная)</title>
+    <attribute>description</attribute>
+    <attribute>planDate</attribute>
+    <attribute>deadline</attribute>
+    <attribute>responsible</attribute>
+    <order>description</order>
+    <order>planDate</order>
+    <order>deadline</order>
+    <order>responsible</order>
+</group>

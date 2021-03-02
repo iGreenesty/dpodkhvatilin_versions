@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$Test" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[testetstetses]]></script>
+        </script-action>
+        <code>eventAction$Test</code>
+        <description lang="ru"/>
+        <event>
+            <eventType>addComment</eventType>
+        </event>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">Тест</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

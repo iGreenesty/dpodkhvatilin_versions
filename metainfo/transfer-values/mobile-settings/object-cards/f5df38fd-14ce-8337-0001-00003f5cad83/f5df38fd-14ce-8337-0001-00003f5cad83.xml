@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<object-card xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f5df38fd-14ce-8337-0001-00003f5cad83" seg-type="object-cards" uuid="f5df38fd-14ce-8337-0001-00003f5cad83">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+        <profile>ec280f65-2261-4248-8896-ee251c39c58e</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+    </profiles>
+    <tags/>
+    <cases/>
+    <class>
+        <id>slmService</id>
+    </class>
+    <contents>
+        <xi:include href="contents/f5df38fd-14ce-8337-0001-00003f5cad83/f5df38fd-14ce-8337-0001-00003f5cad83.xml" parse="xml"/>
+    </contents>
+    <comments>
+        <enabled>false</enabled>
+    </comments>
+    <files>
+        <enabled>true</enabled>
+    </files>
+    <xi:include href="object-actions-settings/object-actions-settings.xml" parse="xml"/>
+    <objectCaption>title</objectCaption>
+    <quickStateChangeAvailable>true</quickStateChangeAvailable>
+    <workflow useAvailableStates="false"/>
+</object-card>

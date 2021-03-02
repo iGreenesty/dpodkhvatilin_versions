@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="DlyaSpiskaPodpisok" seg-type="attribute-group">
+    <code>DlyaSpiskaPodpisok</code>
+    <title lang="ru">Для списка подписок</title>
+    <attribute>number</attribute>
+    <attribute>creationDate</attribute>
+    <attribute>service</attribute>
+    <attribute>client</attribute>
+    <attribute>shortDescr</attribute>
+    <attribute>descriptionRTF</attribute>
+    <attribute>state</attribute>
+    <attribute>metaClass</attribute>
+    <attribute>agreement</attribute>
+    <attribute>coloOverdue</attribute>
+    <order>number</order>
+    <order>creationDate</order>
+    <order>service</order>
+    <order>client</order>
+    <order>shortDescr</order>
+    <order>descriptionRTF</order>
+    <order>state</order>
+    <order>metaClass</order>
+    <order>agreement</order>
+    <order>coloOverdue</order>
+</group>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f2e6ef13-1336-0082-0000-0000004904bd" seg-type="contents" uuid="f2e6ef13-1336-0082-0000-0000004904bd">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="f1e884aa-1750-a990-0066-00007b344b54">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="en">System attributes</caption>
+    <caption lang="ru">Системные атрибуты</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>system</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/f2e6ef13-1336-0083-0000-0000004904bd.xml" parse="xml"/>
+</properties>

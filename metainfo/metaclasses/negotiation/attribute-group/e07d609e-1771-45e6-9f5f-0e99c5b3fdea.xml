@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="e07d609e-1771-45e6-9f5f-0e99c5b3fdea" seg-type="attribute-group">
+    <code>e07d609e-1771-45e6-9f5f-0e99c5b3fdea</code>
+    <title lang="ru">Для карточки голосования по заявке</title>
+    <attribute>sourceR</attribute>
+    <attribute>deadLine</attribute>
+    <attribute>description</attribute>
+    <order>sourceR</order>
+    <order>deadLine</order>
+    <order>description</order>
+</group>

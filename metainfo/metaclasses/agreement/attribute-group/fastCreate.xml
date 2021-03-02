@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fastCreate" seg-type="attribute-group">
+    <code>fastCreate</code>
+    <title lang="ru">Для быстрого добавления/редактирования</title>
+    <attribute>metaClass</attribute>
+    <attribute>title</attribute>
+    <attribute>services</attribute>
+    <attribute>supportHours</attribute>
+    <attribute>resp</attribute>
+    <attribute>manager</attribute>
+    <attribute>recipientsOU</attribute>
+    <attribute>autoCreation</attribute>
+    <order>metaClass</order>
+    <order>title</order>
+    <order>services</order>
+    <order>supportHours</order>
+    <order>resp</order>
+    <order>manager</order>
+    <order>recipientsOU</order>
+    <order>autoCreation</order>
+</group>

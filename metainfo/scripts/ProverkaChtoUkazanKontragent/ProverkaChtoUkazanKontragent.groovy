@@ -1,0 +1,1 @@
+return (subject.clientEmployee != null) ? "" : "Контрагент (сотрудник) не указан"

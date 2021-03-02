@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="21c0afd2-61b1-4b86-8e83-c5e06fba2658" enabled="true" group="editAttrs" seg-detach="true" seg-id="21c0afd2-61b1-4b86-8e83-c5e06fba2658" seg-type="marker-declarations">
+    <title lang="ru">Описание</title>
+    <attributes>descriptionInRTF</attributes>
+    <attributes>descriptionRTF</attributes>
+    <attributes>shortDescr</attributes>
+    <attributes>description</attributes>
+</marker-declaration>

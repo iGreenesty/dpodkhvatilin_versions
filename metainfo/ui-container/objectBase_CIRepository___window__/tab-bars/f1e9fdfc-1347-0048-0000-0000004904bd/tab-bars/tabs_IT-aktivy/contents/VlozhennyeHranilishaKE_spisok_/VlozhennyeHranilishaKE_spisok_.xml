@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="VlozhennyeHranilishaKE(spisok)" seg-type="contents" uuid="VlozhennyeHranilishaKE(spisok)">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efe0d-16fc-1811-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Вложенные группы ИТ-активов (список)</caption>
+    <showCaption>false</showCaption>
+    <case>
+        <id>objectBase</id>
+        <case>CIRepository</case>
+    </case>
+    <attributeGroup>115ece92-26d8-4596-b3c6-00bd5ef31412</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/993674f0-e840-6b7f-1580-c4ac65329bac/993674f0-e840-6b7f-1580-c4ac65329bac.xml" parse="xml"/>
+    <xi:include href="tool-panels/894cae7e-ad25-68c9-2232-77ccff8aead8.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f1b440be-161e-a16e-0043-000001840552">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f1b441a7-161e-a246-0043-000001840552">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4d52-168d-1190-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>childBO</attr-link-code>
+    <attrs-chain attr-code="childBO" class-fqn="objectBase$CIRepository"/>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="abstractBO" code="author"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Объект CMDB</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

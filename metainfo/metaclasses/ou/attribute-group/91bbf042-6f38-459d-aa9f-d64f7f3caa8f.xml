@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="91bbf042-6f38-459d-aa9f-d64f7f3caa8f" seg-type="attribute-group">
+    <code>91bbf042-6f38-459d-aa9f-d64f7f3caa8f</code>
+    <title lang="ru">Для карточки соглашения</title>
+    <attribute>icon</attribute>
+    <attribute>title</attribute>
+    <attribute>head</attribute>
+    <order>icon</order>
+    <order>title</order>
+    <order>head</order>
+</group>

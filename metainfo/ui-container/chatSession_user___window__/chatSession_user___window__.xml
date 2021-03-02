@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="chatSession$user___window__" seg-type="ui-container">
+    <fqn>
+        <id>chatSession</id>
+        <case>user</case>
+    </fqn>
+    <code>__window__</code>
+    <window seg-detach="false" uuid="fc8a6a45-14c2-026e-0000-00001a23063e">
+        <profiles/>
+        <tags/>
+        <xi:include href="tab-bars/fc8a6a45-14c2-026f-0000-00001a23063e/fc8a6a45-14c2-026f-0000-00001a23063e.xml" parse="xml"/>
+        <xi:include href="tool-panels/f1e9fdfc-1353-0048-0000-0000004904bd.xml" parse="xml"/>
+    </window>
+</ui>

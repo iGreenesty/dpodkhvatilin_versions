@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectAction xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f117382d-49e2-eea4-5254-d3d512f66412" seg-type="object-actions">
+    <caption lang="en">Refresh</caption>
+    <caption lang="ru">Обновить</caption>
+    <code>refresh</code>
+    <required-fields/>
+    <type>system</type>
+    <uuid>f117382d-49e2-eea4-5254-d3d512f66412</uuid>
+</objectAction>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="84437c0f-3e10-4aed-b500-41b18f03951c" seg-type="attribute-group">
+    <code>84437c0f-3e10-4aed-b500-41b18f03951c</code>
+    <title lang="ru">Параметры учетной записи</title>
+    <attribute>login</attribute>
+    <attribute>license</attribute>
+    <attribute>employeeSecGroups</attribute>
+    <order>login</order>
+    <order>license</order>
+    <order>employeeSecGroups</order>
+</group>

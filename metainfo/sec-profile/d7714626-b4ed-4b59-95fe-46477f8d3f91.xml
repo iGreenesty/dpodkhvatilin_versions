@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="d7714626-b4ed-4b59-95fe-46477f8d3f91" licensed="true" seg-detach="true" seg-id="d7714626-b4ed-4b59-95fe-46477f8d3f91" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>negotiationAutor</roles>
+    <title lang="ru">Автор</title>
+</security-profile>

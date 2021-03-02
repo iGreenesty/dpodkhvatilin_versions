@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_VlozhennyeFilialy" seg-type="tab-bars" uuid="tabs_VlozhennyeFilialy">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="e6cf6dd7-e975-4bee-7ce1-0ce6b920515c">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="Zayavki">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Заявки</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="fd8d1288-7a3a-11cd-87ce-d800fa82180e">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/ZayavkiTab/ZayavkiTab.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="a2e5afbf-372e-fade-e286-12ee01909ba8">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="VlozhennyeFilialy">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Филиалы</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="2b3c2b27-0f82-ce76-f5b6-31a2f89cec05">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/Filialy/Filialy.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="f059f2d2-1739-a238-0006-000060086411">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="KontaktnyeLica">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Контактные лица</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="a43976b7-da84-f7a0-1f27-1ec3fbaa6e7c">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/KontaktnyeLicaFilialov/KontaktnyeLicaFilialov.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="33b07bae-bc87-16e9-cf16-aa80f9e71314">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

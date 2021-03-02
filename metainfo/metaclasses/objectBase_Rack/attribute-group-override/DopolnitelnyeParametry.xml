@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="DopolnitelnyeParametry" seg-type="attribute-group-override">
+    <code>DopolnitelnyeParametry</code>
+    <attribute>title</attribute>
+    <order>title</order>
+</override>

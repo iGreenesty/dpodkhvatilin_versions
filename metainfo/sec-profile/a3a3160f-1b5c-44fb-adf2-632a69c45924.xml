@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="a3a3160f-1b5c-44fb-adf2-632a69c45924" licensed="true" seg-detach="true" seg-id="a3a3160f-1b5c-44fb-adf2-632a69c45924" seg-type="sec-profile" versioning="false">
+    <groups>C1_specialist C3_admin</groups>
+    <roles>serviceCall_ResponsibleEmployee serviceCall_ResponsibleTeamMember</roles>
+    <title lang="ru">Ответственный специалист</title>
+</security-profile>

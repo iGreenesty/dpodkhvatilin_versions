@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<toolPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f669dedc-13f7-095b-0000-ffffffffc53c4b5e" seg-type="tool-panels" uuid="f669dedc-13f7-095b-0000-ffffffffc53c4b5e">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="f669dee1-13f7-095f-0000-ffffffffc53c4b5e">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/showAdvlistSort_f669dee1-13f7-0960-0000-ffffffffc53c4b5e.xml" parse="xml"/>
+        <xi:include href="tools/showAdvlistFilter_f669dee1-13f7-0961-0000-ffffffffc53c4b5e.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="f669dee2-13f7-0963-0000-ffffffffc53c4b5e">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/add_f669dee2-13f7-0964-0000-ffffffffc53c4b5e.xml" parse="xml"/>
+        <xi:include href="tools/link_f669dee2-13f7-0965-0000-ffffffffc53c4b5e.xml" parse="xml"/>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</toolPanel>

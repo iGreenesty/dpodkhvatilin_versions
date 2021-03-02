@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<profile xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="systemWfProfile1" seg-type="wf-profile">
+    <title lang="ru">Заявка, связанная с массовой</title>
+    <description lang="ru">Профиль связанных жизненных циклов, предназначенный для связи между массовой заявкой и подчиненными</description>
+    <code>systemWfProfile1</code>
+    <disconnectingStates>
+        <state>resolved</state>
+    </disconnectingStates>
+    <master>
+        <id>serviceCall</id>
+    </master>
+    <slave>
+        <id>serviceCall</id>
+    </slave>
+    <enabled>true</enabled>
+    <editable>false</editable>
+    <inheritableAttributes>
+        <attribute>priority</attribute>
+        <attribute>urgency</attribute>
+        <attribute>solvedBy</attribute>
+    </inheritableAttributes>
+</profile>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<toolPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fecba30b-13f1-009f-0000-ffffffffb0965139" seg-type="tool-panels" uuid="fecba30b-13f1-009f-0000-ffffffffb0965139">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="fecba311-13f1-00a3-0000-ffffffffb0965139">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/showAdvlistSort_fecba311-13f1-00a4-0000-ffffffffb0965139.xml" parse="xml"/>
+        <xi:include href="tools/showAdvlistFilter_fecba312-13f1-00a5-0000-ffffffffb0965139.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="fecba312-13f1-00a7-0000-ffffffffb0965139">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>true</clearedAfterPermissionCheck>
+        <xi:include href="tools/link_fecba312-13f1-00a8-0000-ffffffffb0965139.xml" parse="xml"/>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</toolPanel>

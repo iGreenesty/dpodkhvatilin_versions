@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="editState5a97990f-4b67-49bd-bae9-e78451ad531a" enabled="true" group="editStateGrp" seg-detach="true" seg-id="editState5a97990f-4b67-49bd-bae9-e78451ad531a" seg-type="marker-declarations">
+    <title lang="ru">Возобновление и закрытие</title>
+    <attributes>resolved.closed</attributes>
+    <attributes>resolved.resumed</attributes>
+</marker-declaration>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<comments xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f3b43ab4-1418-005b-0000-ffffffff92332d46" seg-type="contents" uuid="f3b43ab4-1418-005b-0000-ffffffff92332d46">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efeee-16fc-187d-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Комментарии</caption>
+    <showCaption>false</showCaption>
+    <class>
+        <id>comment</id>
+    </class>
+    <attributeGroup>system</attributeGroup>
+    <presentation>default</presentation>
+    <xi:include href="tool-panels/f3b43ab6-1418-005c-0000-ffffffff92332d46/f3b43ab6-1418-005c-0000-ffffffff92332d46.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae6511-15a2-0feb-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f6ae6511-15a2-0fec-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f6ae6511-15a2-0fed-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4ea0-168d-11be-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <detailedAttrGroup>more</detailedAttrGroup>
+    <subjectType>currentObject</subjectType>
+</comments>

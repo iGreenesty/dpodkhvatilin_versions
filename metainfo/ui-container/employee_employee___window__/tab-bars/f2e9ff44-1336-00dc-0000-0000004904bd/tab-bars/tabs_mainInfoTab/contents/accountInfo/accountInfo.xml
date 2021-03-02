@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="accountInfo" seg-type="contents" uuid="accountInfo">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efca4-16fc-175b-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Учетная запись</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>84437c0f-3e10-4aed-b500-41b18f03951c</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/20c6c96f-e446-0091-5325-44dcd4d4bf44.xml" parse="xml"/>
+</properties>

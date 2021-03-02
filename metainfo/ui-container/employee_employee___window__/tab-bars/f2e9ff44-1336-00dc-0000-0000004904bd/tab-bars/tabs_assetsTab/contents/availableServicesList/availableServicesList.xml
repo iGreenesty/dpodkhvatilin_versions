@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="availableServicesList" seg-type="contents" uuid="availableServicesList">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efca6-16fc-1761-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Доступные услуги</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>slmService</id>
+    </class>
+    <attributeGroup>125da1c6-6361-42c4-85a3-de1ba021a804</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/acd88492-80e4-9a97-02cf-759b1bf560c0/acd88492-80e4-9a97-02cf-759b1bf560c0.xml" parse="xml"/>
+    <xi:include href="tool-panels/5708888d-2a01-f7db-62e9-c559b952e900.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="ff8d4721-1657-9730-0009-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="ff8d474f-1657-9a42-0009-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c51a5-168d-1254-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>services</attr-link-code>
+    <attrs-chain attr-code="recipientAgreements" class-fqn="employee$employee"/>
+    <attrs-chain attr-code="services" class-fqn="agreement"/>
+    <filterRestrictionSettings/>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Услуга</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

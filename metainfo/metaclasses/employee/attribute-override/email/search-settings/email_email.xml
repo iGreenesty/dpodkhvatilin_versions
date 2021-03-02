@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="email_email" seg-type="search-settings">
+    <simpleSearchableForLicensed>true</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>false</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>false</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>false</extendedSearchableForLicensed>
+    <searchAnalizer>ftsNoMorphNoStrictAnalyzer</searchAnalizer>
+    <searchBoost>1.0</searchBoost>
+    <code>email</code>
+    <declaredMetaClass>employee</declaredMetaClass>
+    <title lang="ru">Адрес электронной почты</title>
+    <attrCode>email</attrCode>
+</searchSetting>

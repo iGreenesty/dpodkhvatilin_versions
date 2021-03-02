@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="task_RespEmpTeamMember" enabled="true" seg-detach="true" seg-id="task_RespEmpTeamMember" seg-type="roles" type="SYSTEM">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="snippet">responsibleEmployeeTeamMemberRoleSnippet</property>
+    <title lang="en">Object responsible employee team member</title>
+    <title lang="ru">Член команды, в которую входит ответственный за объект</title>
+</role>

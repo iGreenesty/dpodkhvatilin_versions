@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-domain xmlns:xi="http://www.w3.org/2001/XInclude" code="ou" seg-detach="true" seg-id="ou" seg-type="security-domain">
+    <xi:include href="access-matrix/access-matrix.xml" parse="xml"/>
+    <xi:include href="marker-declarations/5f5d0261-3e45-4371-a907-5fb78750c0aa.xml" parse="xml"/>
+    <xi:include href="marker-declarations/2ace2565-c06c-496e-a4c1-58595111d0bb.xml" parse="xml"/>
+    <xi:include href="roles/ouHead.xml" parse="xml"/>
+    <xi:include href="roles/ouMember.xml" parse="xml"/>
+    <xi:include href="roles/upperOUHead.xml" parse="xml"/>
+    <xi:include href="roles/upperOUMember.xml" parse="xml"/>
+    <xi:include href="roles/52f22791-5533-4d0a-b78b-9e1320c3a42d.xml" parse="xml"/>
+</security-domain>

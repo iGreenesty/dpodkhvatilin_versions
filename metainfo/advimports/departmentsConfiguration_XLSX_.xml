@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration xmlns:xi="http://www.w3.org/2001/XInclude" UUID="departmentsConfiguration(XLSX)" authorIPAddress="91.232.196.253" authorLogin="naumen" daysPeriod="90" seg-detach="true" seg-id="departmentsConfiguration(XLSX)" seg-type="advimports">
+    <title lang="ru">Стандартная конфигурация импорта отделов (XLSX)</title>
+    <configContainer>&lt;config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../target/classes/advimport/schema1.xsd" save-log="true" threads-number="1"&gt;
+  	&lt;!-- Если объекта с таким ouIdHolder нет, он создастся --&gt;
+	&lt;mode&gt;CREATE&lt;/mode&gt;
+  	&lt;!-- Если объект с таким ouIdHolder есть, обновятся атрибуты --&gt;
+	&lt;mode&gt;UPDATE&lt;/mode&gt;
+  
+  	&lt;!-- Файл с данными для импорта --&gt; 
+	&lt;gui-parameter name="fileOU" type="FILE" title="Выберите файл отделов (XLSX)"/&gt;
+
+	&lt;!-- ПАРАМЕТРЫ ИМПОРТА --&gt;
+	&lt;!-- UUID корневого отдела --&gt;
+	&lt;parameter name="importRootUUID"&gt;root$101&lt;/parameter&gt;
+	&lt;!-- Метакласс импортируемых отделов --&gt;
+	&lt;parameter name="ouMetaClass"&gt;ou$ou&lt;/parameter&gt;
+	&lt;!-- Код атрибута отдела, в котором хранится внешний идентификатор --&gt;
+	&lt;parameter name="ouIdHolder"&gt;idHolder&lt;/parameter&gt;
+	
+	&lt;!-- ИМПОРТ ОТДЕЛОВ --&gt;
+	&lt;class name="ou" threads-number="1"&gt;
+		&lt;parameter name="metaClass"&gt;${ouMetaClass}&lt;/parameter&gt;
+      	&lt;!-- XLSX файл. Данные на листе 1, 1ая строка заголовки, данные с второй строки, колонка с внешним id объекта - id --&gt;
+		&lt;xlsx-data-source file-name="${fileOU}" sheet-number="0" start-row="1" id-column="id"&gt;
+          	&lt;!-- Определяем колонки. 3 колонки: идентификатор, вышестоящий отдел, название --&gt;
+			&lt;column name="id" src-key="0"/&gt;
+			&lt;column name="parent" src-key="1"/&gt;
+			&lt;column name="title" src-key="2"/&gt;
+		&lt;/xlsx-data-source&gt;
+      
+      	&lt;!-- Определяем необходимость иерархической сортировки импортируемых строк --&gt;
+		&lt;hierarchical-filter parent-column="parent"/&gt;
+      
+      	&lt;!-- Определяем метакласс импортируемых объектов. По умолчанию - ${metaClass} --&gt;
+		&lt;constant-metaclass-resolver/&gt;
+      
+      	&lt;!-- Поиск объектов по атрибуту ${ouIdHolder} --&gt;
+		&lt;object-searcher attr="${ouIdHolder}"/&gt;
+      	
+		&lt;attr name="${ouIdHolder}" column="id"/&gt;
+		&lt;attr name="title" column="title"/&gt;
+		&lt;attr name="parent" column="parent"&gt;
+			&lt;object-converter attr="${ouIdHolder}" required="false"/&gt;
+		&lt;/attr&gt;
+		&lt;attr name="removed" default-value="false"/&gt;
+      	&lt;!-- ATTENTION. Если включён режим Update следующая строка заархивирует все объекты метакласса ${ouMetaClass}, находящиеся в ${importRootUUID}, которые не участвовали в импорте. Если Вы проводите импорт новых отделов или организаций и не хотите, чтобы были затронуты отделы, уже существующие в системе, закомментируйте эту строку --&gt;
+		&lt;!--remove-customizer hierarchy-root="${importRootUUID}" metaclass="${ouMetaClass}" attr="${ouIdHolder}"/--&gt;
+	&lt;/class&gt;
+&lt;/config&gt;</configContainer>
+</configuration>

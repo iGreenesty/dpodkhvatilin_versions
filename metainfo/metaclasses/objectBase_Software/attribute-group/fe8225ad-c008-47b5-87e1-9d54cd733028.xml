@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fe8225ad-c008-47b5-87e1-9d54cd733028" seg-type="attribute-group">
+    <code>fe8225ad-c008-47b5-87e1-9d54cd733028</code>
+    <title lang="ru">Для формы добавления/редактирования</title>
+    <attribute>title</attribute>
+    <attribute>producer</attribute>
+    <attribute>owner</attribute>
+    <attribute>users</attribute>
+    <attribute>license</attribute>
+    <attribute>requirements</attribute>
+    <order>title</order>
+    <order>producer</order>
+    <order>owner</order>
+    <order>users</order>
+    <order>license</order>
+    <order>requirements</order>
+</group>

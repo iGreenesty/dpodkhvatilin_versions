@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="urgency" seg-type="attributes">
+    <code>serviceCall@urgency</code>
+    <presentation>with-title</presentation>
+    <uuid>ffdc1211-15f0-8d02-0031-000001ded46d</uuid>
+</attribute>

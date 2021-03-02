@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="changeRequest" seg-type="attributes">
+    <code>vote@changeRequest</code>
+    <presentation>with-title</presentation>
+    <uuid>fe6f80f8-16f8-0a82-005b-000001d24423</uuid>
+</attribute>

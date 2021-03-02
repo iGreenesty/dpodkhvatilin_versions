@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="rulesSettings" seg-detach="true" seg-id="rulesSettings" seg-type="catalog" xsi:type="SystemCatalog">
+    <title lang="client">Таблицы соответствий</title>
+    <title lang="en">Correspondence tables</title>
+    <title lang="ru">Таблицы соответствий</title>
+    <description lang="client">Содержит таблицы, в которых значения одних атрибутов определяются значениями других атрибутов.</description>
+    <description lang="en">Contains tables in which values of some attributes are defined by the values of other attributes.</description>
+    <description lang="ru">Содержит таблицы, в которых значения одних атрибутов определяются значениями других атрибутов.</description>
+</catalog>

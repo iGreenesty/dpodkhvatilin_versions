@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="remove_666645c4-ff37-d36a-b62f-e7c79180443e" seg-type="tools" uuid="666645c4-ff37-d36a-b62f-e7c79180443e">
+    <profiles/>
+    <tags/>
+    <appliedToType>listObjects</appliedToType>
+    <iconCode>archive_icon</iconCode>
+    <params/>
+    <presentationType>link</presentationType>
+    <action>remove</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">archive</caption>
+    <caption lang="ru">поместить в архив</caption>
+</action>

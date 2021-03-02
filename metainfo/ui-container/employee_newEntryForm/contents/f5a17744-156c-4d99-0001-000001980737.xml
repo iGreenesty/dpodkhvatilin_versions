@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<select-case xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f5a17744-156c-4d99-0001-000001980737" seg-type="contents" uuid="f5a17744-156c-4d99-0001-000001980737">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="f1bef335-16ff-25ae-0006-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Выбор типа объекта</caption>
+    <showCaption>false</showCaption>
+    <show-attributes-description>false</show-attributes-description>
+</select-case>

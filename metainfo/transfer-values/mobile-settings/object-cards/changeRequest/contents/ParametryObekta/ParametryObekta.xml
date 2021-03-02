@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mobile-property-list xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ParametryObekta" seg-type="contents" uuid="ParametryObekta">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="f2564d2e-1704-f89c-004d-000043cd8fbf">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Параметры объекта</caption>
+    <showCaption>true</showCaption>
+    <allowCollapse>false</allowCollapse>
+    <code>ParametryObekta</code>
+    <collapsed>false</collapsed>
+    <contentType>PROPERTIES_LIST</contentType>
+    <attributeGroup>mopbileApp_card</attributeGroup>
+    <attributes>
+        <xi:include href="attributes/state.xml" parse="xml"/>
+        <xi:include href="attributes/responsible.xml" parse="xml"/>
+        <xi:include href="attributes/creationDate.xml" parse="xml"/>
+        <xi:include href="attributes/deadline.xml" parse="xml"/>
+        <xi:include href="attributes/description.xml" parse="xml"/>
+        <xi:include href="attributes/services.xml" parse="xml"/>
+        <xi:include href="attributes/results.xml" parse="xml"/>
+    </attributes>
+</mobile-property-list>

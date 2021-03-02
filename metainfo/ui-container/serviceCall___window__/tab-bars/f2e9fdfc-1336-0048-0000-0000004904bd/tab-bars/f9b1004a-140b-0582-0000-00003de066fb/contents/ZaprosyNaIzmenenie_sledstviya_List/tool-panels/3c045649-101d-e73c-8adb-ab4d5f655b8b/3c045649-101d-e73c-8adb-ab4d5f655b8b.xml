@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<massOperationsPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="3c045649-101d-e73c-8adb-ab4d5f655b8b" seg-type="tool-panels" uuid="3c045649-101d-e73c-8adb-ab4d5f655b8b">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="f16bd8a5-1698-11fc-007d-000000ffc2f3">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/delLink_f1e9fdfc-1357-0048-0000-0000004904bd.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="f16bd8a5-1698-11fd-007d-000000ffc2f3">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <feature>fastChangeState</feature>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</massOperationsPanel>

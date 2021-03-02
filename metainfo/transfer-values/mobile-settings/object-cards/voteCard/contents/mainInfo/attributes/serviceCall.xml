@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="serviceCall" seg-type="attributes">
+    <code>vote@serviceCall</code>
+    <presentation>with-title</presentation>
+    <uuid>f1542b96-16fd-6b10-0001-000014127783</uuid>
+</attribute>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="backTaskToWork" seg-type="scripts">
+    <code>backTaskToWork</code>
+    <title lang="ru">[Скрипт] Возвращает задачу при наступлении времени атрибута "Отложена до"</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="backTaskToWork.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

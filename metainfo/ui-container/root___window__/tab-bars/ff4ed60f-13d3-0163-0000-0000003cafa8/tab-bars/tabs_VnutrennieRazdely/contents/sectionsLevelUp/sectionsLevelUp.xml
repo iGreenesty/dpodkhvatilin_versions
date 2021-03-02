@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<child-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="sectionsLevelUp" seg-type="contents" uuid="sectionsLevelUp">
+    <profiles/>
+    <tags>
+        <tag>BazaZnanii</tag>
+    </tags>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fb409ae8-16fe-3f99-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Разделы верхнего уровня</caption>
+    <showCaption>true</showCaption>
+    <case>
+        <id>KB</id>
+        <case>KBSectionOpen</case>
+    </case>
+    <attributeGroup>8a2dcbf6-bfb3-475d-bae5-7714a7382696</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/5a5582d2-2225-1ebb-eef9-3830c03a4854/5a5582d2-2225-1ebb-eef9-3830c03a4854.xml" parse="xml"/>
+    <xi:include href="tool-panels/acb7c650-7de6-ad2b-3d79-8f1828cd3913.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f71f73ca-1695-1c39-0040-000000ffc2f3">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f71f7446-1695-1def-0040-000000ffc2f3">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c50c3-168d-1239-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="abstractBO" code="author"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <show-nested-in-nested>false</show-nested-in-nested>
+</child-objects>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<massOperationsPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f6ae66d5-15a2-10e1-0000-000001c8b871" seg-type="tool-panels" uuid="f6ae66d5-15a2-10e1-0000-000001c8b871">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="f2ba22be-173e-b01d-0020-000060086411">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/edit_753338f4-de40-d6c6-f09f-80f3de030b8e.xml" parse="xml"/>
+        <xi:include href="tools/del_57a7091e-b63c-edb0-334f-87a79e400648.xml" parse="xml"/>
+        <xi:include href="tools/changePasswd_f2e9ff46-1336-00ed-0000-0000004904bd.xml" parse="xml"/>
+        <xi:include href="tools/fireUserEvent_efb6d4fb-7d76-3d16-1639-9f092d2d0c0e.xml" parse="xml"/>
+        <xi:include href="tools/remove_a275fe4b-b67c-68de-c50e-5bde4e6d1880.xml" parse="xml"/>
+        <xi:include href="tools/restore_1a94d73c-8b78-30b2-21da-c8ac3a66d94b.xml" parse="xml"/>
+        <xi:include href="tools/fireUserEvent_718ce8ad-249d-4306-d6ef-fe3a88af5baa.xml" parse="xml"/>
+        <xi:include href="tools/massEdit_f2ba22b4-173e-af62-0020-000060086411.xml" parse="xml"/>
+        <xi:include href="tools/addSC_e04c142b-cd06-fab6-5dfa-af069bb0e5d3.xml" parse="xml"/>
+        <xi:include href="tools/changeCase_e13fe1b5-785a-ebe8-5489-ce721bd02e79.xml" parse="xml"/>
+        <xi:include href="tools/copy_48942c42-34c9-65f4-981e-b9907fcde63c.xml" parse="xml"/>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</massOperationsPanel>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f5b3fba9-3506-455e-96cc-26910890a6f0" seg-type="attribute-group">
+    <code>f5b3fba9-3506-455e-96cc-26910890a6f0</code>
+    <title lang="ru">Параметры</title>
+    <attribute>deadline</attribute>
+    <attribute>responsible</attribute>
+    <attribute>categories</attribute>
+</group>

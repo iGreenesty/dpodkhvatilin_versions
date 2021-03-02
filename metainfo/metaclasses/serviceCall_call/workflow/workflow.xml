@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workflow xmlns:xi="http://www.w3.org/2001/XInclude" inherit="true" seg-detach="true" seg-id="workflow" seg-type="workflow">
+    <xi:include href="state/closed.xml" parse="xml"/>
+    <xi:include href="state/deferred.xml" parse="xml"/>
+    <xi:include href="state/inprogress.xml" parse="xml"/>
+    <xi:include href="state/registered.xml" parse="xml"/>
+    <xi:include href="state/resolved.xml" parse="xml"/>
+    <xi:include href="state/resumed.xml" parse="xml"/>
+    <xi:include href="state/waitClientAnswer.xml" parse="xml"/>
+    <xi:include href="transition/deferred-inprogress.xml" parse="xml"/>
+    <xi:include href="transition/inprogress-deferred.xml" parse="xml"/>
+    <xi:include href="transition/inprogress-resolved.xml" parse="xml"/>
+    <xi:include href="transition/inprogress-waitClientAnswer.xml" parse="xml"/>
+    <xi:include href="transition/registered-closed.xml" parse="xml"/>
+    <xi:include href="transition/registered-inprogress.xml" parse="xml"/>
+    <xi:include href="transition/resolved-closed.xml" parse="xml"/>
+    <xi:include href="transition/resolved-resumed.xml" parse="xml"/>
+    <xi:include href="transition/resumed-deferred.xml" parse="xml"/>
+    <xi:include href="transition/resumed-inprogress.xml" parse="xml"/>
+    <xi:include href="transition/waitClientAnswer-inprogress.xml" parse="xml"/>
+</workflow>

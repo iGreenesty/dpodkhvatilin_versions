@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="infoAboutDecision" seg-type="attribute-group">
+    <code>infoAboutDecision</code>
+    <title lang="ru">Информация о решении</title>
+    <attribute>codeOfClosing</attribute>
+    <attribute>solvedBy</attribute>
+    <attribute>closedBy</attribute>
+    <attribute>resultDescr</attribute>
+    <order>codeOfClosing</order>
+    <order>solvedBy</order>
+    <order>closedBy</order>
+    <order>resultDescr</order>
+</group>

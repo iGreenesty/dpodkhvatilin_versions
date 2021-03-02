@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transition xmlns:xi="http://www.w3.org/2001/XInclude" enabled="true" from="inprogress" seg-detach="true" seg-id="inprogress-waitClientAnswer" seg-type="transition" to="waitClientAnswer">
+    <title lang="ru">В ожидание ответа</title>
+</transition>

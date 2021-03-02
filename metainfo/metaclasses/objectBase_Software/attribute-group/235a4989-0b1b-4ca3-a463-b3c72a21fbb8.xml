@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="235a4989-0b1b-4ca3-a463-b3c72a21fbb8" seg-type="attribute-group">
+    <code>235a4989-0b1b-4ca3-a463-b3c72a21fbb8</code>
+    <title lang="ru">Атрибуты для списка ПО</title>
+    <attribute>title</attribute>
+    <attribute>sortwareType</attribute>
+    <order>title</order>
+    <order>sortwareType</order>
+</group>

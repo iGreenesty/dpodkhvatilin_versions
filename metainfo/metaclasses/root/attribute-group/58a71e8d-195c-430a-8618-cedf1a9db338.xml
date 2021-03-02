@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="58a71e8d-195c-430a-8618-cedf1a9db338" seg-type="attribute-group">
+    <code>58a71e8d-195c-430a-8618-cedf1a9db338</code>
+    <title lang="ru">Временные параметры</title>
+    <attribute>timeZone</attribute>
+    <attribute>SCResolveTime</attribute>
+    <order>timeZone</order>
+    <order>SCResolveTime</order>
+</group>

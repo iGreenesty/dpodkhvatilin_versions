@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$200" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[IzmenenieAtributaPodchinennyi]]></script>
+        </script-action>
+        <code>eventAction$200</code>
+        <xi:include href="script-action-condition/actionCondition_201.xml" parse="xml"/>
+        <description lang="ru"/>
+        <event>
+            <eventType>edit</eventType>
+        </event>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Скрипт] Изменение атрибута Подчинённый</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

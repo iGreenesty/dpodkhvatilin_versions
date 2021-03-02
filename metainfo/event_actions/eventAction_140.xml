@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$140" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[SkriptAvtomaticheskoeZakrytieZayavokCherezDnei152]]></script>
+        </script-action>
+        <code>eventAction$140</code>
+        <description lang="ru">Скрипт автоматически изменяет статус заявки с "Выполнено" на "Закрыт" по истечению N дней с момента перехода в статус "Выполнено", где N - значение атрибута "Автоматическое закрытие заявок через (дней)" класса Компания</description>
+        <description>Скрипт автоматически изменяет статус заявки с "Выполнено" на "Закрыт" по истечению 5 дней с момента перехода в статус "Выполнено"</description>
+        <planned-event>
+            <eventType>onsetTimeOfAttr</eventType>
+            <attribute>timeClosing24</attribute>
+            <category>IN_TIME</category>
+            <offsetTime>0</offsetTime>
+            <status>2</status>
+        </planned-event>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Скрипт] Автоматическое закрытие заявок через N дней</title>
+        <title>Скрипт: автоматическое закрытие заявок через 5 дней</title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

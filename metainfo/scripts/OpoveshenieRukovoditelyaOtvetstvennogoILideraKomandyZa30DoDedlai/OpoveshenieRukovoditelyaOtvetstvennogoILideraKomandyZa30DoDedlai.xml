@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="OpoveshenieRukovoditelyaOtvetstvennogoILideraKomandyZa30DoDedlai" seg-type="scripts">
+    <code>OpoveshenieRukovoditelyaOtvetstvennogoILideraKomandyZa30DoDedlai</code>
+    <title lang="ru">Оповещение руководителя ответственного и лидера команды за 30% до дедлайна реакции по заявке</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="OpoveshenieRukovoditelyaOtvetstvennogoILideraKomandyZa30DoDedlai.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

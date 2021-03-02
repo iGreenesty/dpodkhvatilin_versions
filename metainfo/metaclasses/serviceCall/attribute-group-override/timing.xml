@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="timing" seg-type="attribute-group-override">
+    <code>timing</code>
+    <title lang="ru">Временные характеристики</title>
+    <attribute>timeAllowanceTimer</attribute>
+    <attribute>timeZone</attribute>
+    <attribute>reactionTime</attribute>
+    <attribute>processingTimeTimer</attribute>
+    <order>priority</order>
+    <order>resolutionTime</order>
+    <order>serviceTime</order>
+    <order>registrationDate</order>
+    <order>timeAllowanceTimer</order>
+    <order>timeZone</order>
+    <order>reactionTime</order>
+    <order>processingTimeTimer</order>
+</override>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ddf46f6d-5f5b-4fcb-b0bd-cb2343adb357" seg-type="attribute-group-override">
+    <code>ddf46f6d-5f5b-4fcb-b0bd-cb2343adb357</code>
+    <attribute>title</attribute>
+    <attribute>responsible</attribute>
+    <attribute>timeToSolve</attribute>
+    <attribute>description</attribute>
+    <order>title</order>
+    <order>responsible</order>
+    <order>timeToSolve</order>
+    <order>description</order>
+</override>

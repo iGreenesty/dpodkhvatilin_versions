@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mass-edit-from-list xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="massEdit_f3cb540d-165a-a62e-0021-000000ee8080" seg-type="tools" uuid="f3cb540d-165a-a62e-0021-000000ee8080">
+    <profiles/>
+    <tags/>
+    <appliedToType>listObjects</appliedToType>
+    <iconCode>edit_icon</iconCode>
+    <params/>
+    <presentationType>link</presentationType>
+    <action>massEdit</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">mass edit</caption>
+    <caption lang="ru">массовое редактирование</caption>
+    <massEditForm>massEditForm$47dda686-b183-5020-a344-19f971af670b</massEditForm>
+</mass-edit-from-list>

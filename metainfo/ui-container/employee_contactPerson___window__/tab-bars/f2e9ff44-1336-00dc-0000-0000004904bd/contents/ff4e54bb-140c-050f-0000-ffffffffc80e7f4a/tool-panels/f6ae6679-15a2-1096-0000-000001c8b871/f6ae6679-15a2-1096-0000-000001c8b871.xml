@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<massOperationsPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f6ae6679-15a2-1096-0000-000001c8b871" seg-type="tool-panels" uuid="f6ae6679-15a2-1096-0000-000001c8b871">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="f3cb5414-165a-a73a-0021-000000ee8080">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/edit_d2a2e989-3266-877f-f847-50adeeb945d0.xml" parse="xml"/>
+        <xi:include href="tools/massEdit_f3cb540d-165a-a62e-0021-000000ee8080.xml" parse="xml"/>
+        <xi:include href="tools/editResponsible_e7e41c59-ea2a-f857-1d4a-ef63978decc2.xml" parse="xml"/>
+        <xi:include href="tools/changeAssociation_d11b7236-ef4a-d8ab-6669-1e7252376db9.xml" parse="xml"/>
+        <xi:include href="tools/delLink_f3fd3236-1be8-632a-7eb0-acc8ac75f56e.xml" parse="xml"/>
+        <xi:include href="tools/fireUserEvent_d1c20d49-c943-b524-2a4a-3a94cc6f5919.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="f3cb5414-165a-a73b-0021-000000ee8080">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <feature>fastChangeState</feature>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="f3cb5414-165a-a742-0021-000000ee8080">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/openMassServiceCallFormForMassCall_442cf918-12f6-75d4-b138-8dc8bdc2b6be.xml" parse="xml"/>
+        <xi:include href="tools/openMassServiceCallFormForRegularCall_f924eb67-5d91-81c2-5904-3e23468512e0.xml" parse="xml"/>
+        <xi:include href="tools/fireUserEvent_e149239f-0e30-9e34-4cfe-afb0b579159c.xml" parse="xml"/>
+        <xi:include href="tools/fireUserEvent_84494523-9f54-ec2a-2ca8-0e4912d54d24.xml" parse="xml"/>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</massOperationsPanel>

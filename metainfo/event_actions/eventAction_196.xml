@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$196" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <push-mobile-action>
+            <actionType>PushMobileEventAction</actionType>
+            <message>&#128276; Ваша заявка №${subject.number} просрочена</message>
+            <roles>serviceCall_ResponsibleEmployee</roles>
+            <script><![CDATA[PerehodNaKartochkuVMP]]></script>
+            <html>false</html>
+            <pushHeaderFormat>Subject</pushHeaderFormat>
+            <subject>${pushMobile.scriptParams['root']}</subject>
+        </push-mobile-action>
+        <code>eventAction$196</code>
+        <description lang="ru"/>
+        <event>
+            <eventType>escalation</eventType>
+        </event>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Push в МП] Ответственному о наступлении дедлайна заявки</title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

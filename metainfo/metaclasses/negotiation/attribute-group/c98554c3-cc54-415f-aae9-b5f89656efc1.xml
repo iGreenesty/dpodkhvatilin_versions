@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="c98554c3-cc54-415f-aae9-b5f89656efc1" seg-type="attribute-group">
+    <code>c98554c3-cc54-415f-aae9-b5f89656efc1</code>
+    <title lang="ru">Для формы добавления</title>
+    <attribute>description</attribute>
+    <attribute>cabEmployee</attribute>
+    <attribute>period</attribute>
+    <attribute>files</attribute>
+    <order>description</order>
+    <order>cabEmployee</order>
+    <order>period</order>
+    <order>files</order>
+</group>

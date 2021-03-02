@@ -1,0 +1,1 @@
+return (subject.clientEmail) ? "" : "Не указан контактный e-mail"

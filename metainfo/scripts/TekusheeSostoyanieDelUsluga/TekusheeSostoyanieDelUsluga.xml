@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="TekusheeSostoyanieDelUsluga" seg-type="scripts">
+    <code>TekusheeSostoyanieDelUsluga</code>
+    <title lang="ru">Текущее состояние дел. Услуга</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="TekusheeSostoyanieDelUsluga.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

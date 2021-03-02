@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<conditions xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" seg-detach="true" seg-id="actionCondition$60" seg-type="script-action-condition" xsi:type="ScriptActionCondition">
+    <code>actionCondition$60</code>
+    <syncVerification>false</syncVerification>
+    <title>Проверка, что текст изменился</title>
+    <type>SCRIPT</type>
+    <script><![CDATA[Skript159]]></script>
+</conditions>

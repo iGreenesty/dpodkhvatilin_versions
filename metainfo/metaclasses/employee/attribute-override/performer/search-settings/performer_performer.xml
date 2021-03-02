@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="performer_performer" seg-type="search-settings">
+    <simpleSearchableForLicensed>false</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>false</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>false</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>false</extendedSearchableForLicensed>
+    <searchAlias lang="ru"/>
+    <searchAnalizer>ftsNoAnalyzer</searchAnalizer>
+    <searchBoost>1.0</searchBoost>
+    <code>performer</code>
+    <declaredMetaClass>employee</declaredMetaClass>
+    <title lang="en">Performer</title>
+    <title lang="ru">Исполнитель</title>
+    <attrCode>performer</attrCode>
+</searchSetting>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-event-tool xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="changeAssociation_59bb726e-95ca-4d89-6627-e286fedafde0" seg-type="tools" uuid="59bb726e-95ca-4d89-6627-e286fedafde0">
+    <profiles/>
+    <tags/>
+    <appliedToType>listObjects</appliedToType>
+    <params/>
+    <presentationType>link</presentationType>
+    <action>changeAssociation</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="ru">Классифицировать</caption>
+    <invoke-method>invokeActionList</invoke-method>
+    <use-quick-form>false</use-quick-form>
+</user-event-tool>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="bfcdb784-2ef0-43d4-b73e-27f3cc9cfcbe" seg-type="attribute-group">
+    <code>bfcdb784-2ef0-43d4-b73e-27f3cc9cfcbe</code>
+    <title lang="ru">Информация по задаче</title>
+    <attribute>serviceCall</attribute>
+    <attribute>problem</attribute>
+    <attribute>changeRequest</attribute>
+    <attribute>author</attribute>
+    <attribute>state</attribute>
+    <attribute>postoponeTill</attribute>
+    <attribute>creationDate</attribute>
+    <attribute>planDate</attribute>
+    <attribute>deadline</attribute>
+    <attribute>dateDecision</attribute>
+    <attribute>description</attribute>
+    <order>serviceCall</order>
+    <order>problem</order>
+    <order>changeRequest</order>
+    <order>author</order>
+    <order>state</order>
+    <order>postoponeTill</order>
+    <order>creationDate</order>
+    <order>planDate</order>
+    <order>deadline</order>
+    <order>dateDecision</order>
+    <order>description</order>
+</group>

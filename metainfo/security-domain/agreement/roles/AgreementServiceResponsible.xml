@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="AgreementServiceResponsible" enabled="true" seg-detach="true" seg-id="AgreementServiceResponsible" seg-type="roles" type="SYSTEM">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="snippet">agreementServiceResponsibleRoleSnippet</property>
+    <title lang="en">ServiceResponsible</title>
+    <title lang="ru">Куратор услуги, связанной с соглашением</title>
+</role>

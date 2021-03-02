@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="MassovoeRedaktirovanieZayavki" seg-type="attribute-group">
+    <code>MassovoeRedaktirovanieZayavki</code>
+    <title lang="ru">Массовое редактирование заявки</title>
+    <attribute>impact</attribute>
+    <attribute>urgency</attribute>
+</group>

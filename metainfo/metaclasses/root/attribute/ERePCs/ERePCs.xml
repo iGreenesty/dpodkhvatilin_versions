@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ERePCs" seg-type="attribute">
+    <code>ERePCs</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">Смена статуса проблемы</title>
+    <description lang="ru"/>
+    <type>
+        <code>bool</code>
+        <property code="code">bool</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>yesNo</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>checkbox</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>flexAccessor</accessor>
+    <defaultValue>
+        <bool>false</bool>
+    </defaultValue>
+    <defaultByScript>false</defaultByScript>
+    <scriptForDefault/>
+    <systemEditable>true</systemEditable>
+    <xi:include href="search-settings/ERePCs_ERePCs.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

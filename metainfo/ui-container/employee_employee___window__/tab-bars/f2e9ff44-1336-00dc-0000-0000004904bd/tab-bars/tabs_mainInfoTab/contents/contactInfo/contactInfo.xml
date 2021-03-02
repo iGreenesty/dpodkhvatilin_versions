@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="contactInfo" seg-type="contents" uuid="contactInfo">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efca4-16fc-1759-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Контактная информация</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>f6154d73-bfa7-4fc3-acdb-308cadcafbce</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/7f918174-2ae3-8ca3-fa6d-829ea824c651.xml" parse="xml"/>
+</properties>

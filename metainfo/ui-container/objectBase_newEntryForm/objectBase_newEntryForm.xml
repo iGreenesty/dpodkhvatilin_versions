@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="objectBase_newEntryForm" seg-type="ui-container">
+    <fqn>
+        <id>objectBase</id>
+    </fqn>
+    <code>newEntryForm</code>
+    <form seg-detach="false" uuid="f1e9fdfc-1343-0048-0000-0000004904bd">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Форма добавления</caption>
+        <layout seg-detach="false" uuid="f1e9fdfc-1344-0048-0000-0000004904bd">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/fd7e93b0-1503-783b-0000-000073696207.xml" parse="xml"/>
+            <xi:include href="contents/DopolnitelnyeParametry/DopolnitelnyeParametry.xml" parse="xml"/>
+            <xi:include href="contents/ParametryNaForme/ParametryNaForme.xml" parse="xml"/>
+            <xi:include href="contents/HarakteristikiNaForme/HarakteristikiNaForme.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+    </form>
+</ui>

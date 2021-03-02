@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="20392c82-d8fb-42df-bf59-8bd329e0abb4" licensed="true" seg-detach="true" seg-id="20392c82-d8fb-42df-bf59-8bd329e0abb4" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>userHead</roles>
+    <title lang="ru">Руководитель сотрудника</title>
+</security-profile>

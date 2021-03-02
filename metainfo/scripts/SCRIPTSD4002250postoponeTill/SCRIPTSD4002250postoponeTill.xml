@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="SCRIPTSD4002250postoponeTill" seg-type="scripts">
+    <code>SCRIPTSD4002250postoponeTill</code>
+    <title lang="ru">Проверка, что атрибут "Отложить до", заполненный на форме, в будущем</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="SCRIPTSD4002250postoponeTill.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

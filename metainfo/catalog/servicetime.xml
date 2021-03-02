@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="servicetime" seg-detach="true" seg-id="servicetime" seg-type="catalog" xsi:type="SystemCatalog">
+    <title lang="client">Классы обслуживания</title>
+    <title lang="en">Service classes</title>
+    <title lang="ru">Графики работ</title>
+    <description lang="client">Содержит графики (классы) обслуживания клиентов. В соответствии с классом обслуживания, указанном в соглашении с клиентом, рассчитываются временные параметры выполнения его запросов.</description>
+    <description lang="en">Contains service classes (schedules) of the clients.In accordance with service class specified in SLA, the request time parameters are calculated.</description>
+    <description lang="ru">Содержит графики (классы) обслуживания клиентов. В соответствии с классом обслуживания, указанном в соглашении с клиентом, рассчитываются временные параметры выполнения его запросов.</description>
+</catalog>

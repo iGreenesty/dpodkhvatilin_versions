@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="SkriptZapisKlientaVZapisORabote" seg-type="scripts">
+    <code>SkriptZapisKlientaVZapisORabote</code>
+    <title lang="ru">[Скрипт] Запись клиента в трудозатрату</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="SkriptZapisKlientaVZapisORabote.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

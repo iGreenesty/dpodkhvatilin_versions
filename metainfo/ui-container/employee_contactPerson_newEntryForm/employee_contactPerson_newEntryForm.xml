@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="employee$contactPerson_newEntryForm" seg-type="ui-container">
+    <fqn>
+        <id>employee</id>
+        <case>contactPerson</case>
+    </fqn>
+    <code>newEntryForm</code>
+    <form seg-detach="false" uuid="f1e9fdfc-1343-0048-0000-0000004904bd">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Форма добавления</caption>
+        <layout seg-detach="false" uuid="f1e9fdfc-1344-0048-0000-0000004904bd">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f40d378c-1446-0c2a-0000-000001349d9e.xml" parse="xml"/>
+            <xi:include href="contents/f4db10fe-13d4-0020-0000-00002d2daf2e/f4db10fe-13d4-0020-0000-00002d2daf2e.xml" parse="xml"/>
+            <xi:include href="contents/f991e750-140b-026e-0000-00003de066fb/f991e750-140b-026e-0000-00003de066fb.xml" parse="xml"/>
+            <xi:include href="contents/f99178f9-140b-026d-0000-00003de066fb/f99178f9-140b-026d-0000-00003de066fb.xml" parse="xml"/>
+            <xi:include href="contents/f992c0db-140b-026f-0000-00003de066fb/f992c0db-140b-026f-0000-00003de066fb.xml" parse="xml"/>
+            <xi:include href="contents/09ae9923-7074-5ef4-8041-c3c34b4fb183/09ae9923-7074-5ef4-8041-c3c34b4fb183.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+    </form>
+</ui>

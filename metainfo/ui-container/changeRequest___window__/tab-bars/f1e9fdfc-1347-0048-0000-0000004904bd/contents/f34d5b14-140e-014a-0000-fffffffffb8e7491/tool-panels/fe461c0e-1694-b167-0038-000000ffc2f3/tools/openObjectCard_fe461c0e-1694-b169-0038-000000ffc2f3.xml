@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-event-tool xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="openObjectCard_fe461c0e-1694-b169-0038-000000ffc2f3" seg-type="tools" uuid="fe461c0e-1694-b169-0038-000000ffc2f3">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <params/>
+    <presentationType>default</presentationType>
+    <action>openObjectCard</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="ru">Открыть карточку объекта</caption>
+    <invoke-method>invokeRowClick</invoke-method>
+    <use-quick-form>false</use-quick-form>
+</user-event-tool>

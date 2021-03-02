@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="Sotrudniki,PriostanovivshieTur" seg-type="contents" uuid="Sotrudniki,PriostanovivshieTur">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efa22-16fc-1658-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Сотрудники, приостановившие тур</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>employee</id>
+    </class>
+    <attributeGroup>1e529806-df22-46a6-84ce-300d1370b6f0</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/1212ac9e-fe2b-932f-3ea6-e55f1e2a1b40/1212ac9e-fe2b-932f-3ea6-e55f1e2a1b40.xml" parse="xml"/>
+    <xi:include href="tool-panels/52452696-40a3-d19f-06f8-6fcd7ef66664.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f46fdafa-1619-2156-000a-000000184e6e">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f46fdb01-1619-2190-000a-000000184e6e">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4cea-168d-1175-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>suspendedUsers</attr-link-code>
+    <attrs-chain attr-code="suspendedUsers" class-fqn="interfaceTour"/>
+    <filterRestrictionSettings/>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Сотрудник</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

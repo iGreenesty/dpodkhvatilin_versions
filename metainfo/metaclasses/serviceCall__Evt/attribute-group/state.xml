@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="state" seg-type="attribute-group">
+    <code>state</code>
+    <title lang="ru">Статус</title>
+    <attribute>senderTitle</attribute>
+    <attribute>eventDate</attribute>
+    <attribute>stateCode</attribute>
+    <attribute>stateElapsed</attribute>
+    <attribute>newStateCode</attribute>
+    <attribute>stateChanged</attribute>
+</group>

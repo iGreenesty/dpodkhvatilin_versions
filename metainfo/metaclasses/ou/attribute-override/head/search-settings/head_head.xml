@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="head_head" seg-type="search-settings">
+    <simpleSearchableForLicensed>true</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>false</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>false</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>false</extendedSearchableForLicensed>
+    <searchAlias lang="ru"/>
+    <searchAnalizer>ftsNoAnalyzer</searchAnalizer>
+    <searchBoost>1.0</searchBoost>
+    <code>head</code>
+    <declaredMetaClass>ou</declaredMetaClass>
+    <title lang="en">Head of department</title>
+    <title lang="ru">Руководитель</title>
+    <title>Руководитель</title>
+    <attrCode>head</attrCode>
+</searchSetting>

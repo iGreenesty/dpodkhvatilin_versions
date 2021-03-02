@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="serviceCall_massEditForm$47dda686-b183-5020-a344-19f971af670b" seg-type="ui-container">
+    <fqn>
+        <id>serviceCall</id>
+    </fqn>
+    <code>massEditForm$47dda686-b183-5020-a344-19f971af670b</code>
+    <masseditform seg-detach="false" uuid="massEditForm$47dda686-b183-5020-a344-19f971af670b">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Форма массового редактирования заявок</caption>
+        <layout seg-detach="false" uuid="7ce06586-29af-3efb-f7dd-b8aa8589b0b5">
+            <profiles/>
+            <tags/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <attrGroup>MassovoeRedaktirovanieZayavki</attrGroup>
+        <custom-form>MassEditForm</custom-form>
+        <show-attr-description>false</show-attr-description>
+        <transitioncases>
+            <id>serviceCall</id>
+            <case>serviceCall</case>
+        </transitioncases>
+        <transitioncases>
+            <id>serviceCall</id>
+            <case>request</case>
+        </transitioncases>
+        <transitioncases>
+            <id>serviceCall</id>
+            <case>call</case>
+        </transitioncases>
+        <comment-on-form>notFill</comment-on-form>
+        <use-as-default>false</use-as-default>
+    </masseditform>
+</ui>

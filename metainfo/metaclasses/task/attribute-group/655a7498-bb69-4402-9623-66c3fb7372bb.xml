@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="655a7498-bb69-4402-9623-66c3fb7372bb" seg-type="attribute-group">
+    <code>655a7498-bb69-4402-9623-66c3fb7372bb</code>
+    <title lang="ru">Связи</title>
+    <attribute>serviceCall</attribute>
+    <attribute>problem</attribute>
+    <attribute>changeRequest</attribute>
+    <order>serviceCall</order>
+    <order>problem</order>
+    <order>changeRequest</order>
+</group>

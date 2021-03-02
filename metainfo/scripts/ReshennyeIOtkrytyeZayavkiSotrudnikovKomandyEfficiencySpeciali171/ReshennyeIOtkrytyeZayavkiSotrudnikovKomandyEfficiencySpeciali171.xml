@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ReshennyeIOtkrytyeZayavkiSotrudnikovKomandyEfficiencySpeciali171" seg-type="scripts">
+    <code>ReshennyeIOtkrytyeZayavkiSotrudnikovKomandyEfficiencySpeciali171</code>
+    <title lang="ru">Решенные и открытые заявки сотрудников команды</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="ReshennyeIOtkrytyeZayavkiSotrudnikovKomandyEfficiencySpeciali171.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

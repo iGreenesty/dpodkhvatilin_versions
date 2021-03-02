@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="teamHeadOuHead" enabled="true" seg-detach="true" seg-id="teamHeadOuHead" seg-type="roles" type="SYSTEM">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="snippet">teamHeadOuHeadRoleSnippet</property>
+    <title lang="en">Head of curator department</title>
+    <title lang="ru">Руководитель курирующего отдела</title>
+</role>

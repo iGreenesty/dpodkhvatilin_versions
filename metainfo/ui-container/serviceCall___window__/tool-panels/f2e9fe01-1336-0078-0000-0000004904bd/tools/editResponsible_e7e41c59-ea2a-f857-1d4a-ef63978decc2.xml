@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="editResponsible_e7e41c59-ea2a-f857-1d4a-ef63978decc2" seg-type="tools" uuid="e7e41c59-ea2a-f857-1d4a-ef63978decc2">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <params/>
+    <presentationType>default</presentationType>
+    <action>editResponsible</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Change responsible</caption>
+    <caption lang="ru">Изменить ответственного</caption>
+</action>

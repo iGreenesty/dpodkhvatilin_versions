@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_OsnovnyeParametry" seg-type="tab-bars" uuid="tabs_OsnovnyeParametry">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efd24-16fc-1771-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="OsnovnyeParametry">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Основные параметры</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="5715ff4c-cd56-9ffb-5227-23bf5cb617f3">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/ParametryObekta/ParametryObekta.xml" parse="xml"/>
+            <xi:include href="contents/HarakteristikiObekta/HarakteristikiObekta.xml" parse="xml"/>
+            <leftColumnWidth>51</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efd25-16fc-1774-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

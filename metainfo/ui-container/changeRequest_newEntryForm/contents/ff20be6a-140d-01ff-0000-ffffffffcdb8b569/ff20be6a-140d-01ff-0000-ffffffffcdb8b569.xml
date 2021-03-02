@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<editable-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ff20be6a-140d-01ff-0000-ffffffffcdb8b569" seg-type="contents" uuid="ff20be6a-140d-01ff-0000-ffffffffcdb8b569">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="f1e8840a-1750-a956-0066-00007b344b54">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Степень влияния</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>0934beaf-9de0-46fa-8e42-051099f79108</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/f2de3982-140e-1b37-0001-0000000693b7.xml" parse="xml"/>
+    <resetValuesIfHidden>false</resetValuesIfHidden>
+</editable-properties>

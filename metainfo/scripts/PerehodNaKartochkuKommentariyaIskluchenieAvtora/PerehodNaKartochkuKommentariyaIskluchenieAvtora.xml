@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="PerehodNaKartochkuKommentariyaIskluchenieAvtora" seg-type="scripts">
+    <code>PerehodNaKartochkuKommentariyaIskluchenieAvtora</code>
+    <title lang="ru">Переход на карточку комментария + исключение автора</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="PerehodNaKartochkuKommentariyaIskluchenieAvtora.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

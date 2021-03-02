@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="workRecord" seg-type="metaclasses">
+    <fqn>
+        <id>workRecord</id>
+    </fqn>
+    <parent>
+        <id>userEntity</id>
+    </parent>
+    <title lang="ru">Трудозатрата</title>
+    <description lang="ru">Запись о времени, затраченном на работу</description>
+    <properties/>
+    <tags>
+        <tag>Trudozatraty</tag>
+    </tags>
+    <responsibilityTransferTableEnabled>true</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/folders.xml" parse="xml"/>
+        <xi:include href="attribute/state.xml" parse="xml"/>
+        <xi:include href="attribute/stateStartTime.xml" parse="xml"/>
+        <xi:include href="attribute/actualDate/actualDate.xml" parse="xml"/>
+        <xi:include href="attribute/changeRequest/changeRequest.xml" parse="xml"/>
+        <xi:include href="attribute/client/client.xml" parse="xml"/>
+        <xi:include href="attribute/client_em/client_em.xml" parse="xml"/>
+        <xi:include href="attribute/client_ou/client_ou.xml" parse="xml"/>
+        <xi:include href="attribute/closedDate/closedDate.xml" parse="xml"/>
+        <xi:include href="attribute/description/description.xml" parse="xml"/>
+        <xi:include href="attribute/employee/employee.xml" parse="xml"/>
+        <xi:include href="attribute/icon/icon.xml" parse="xml"/>
+        <xi:include href="attribute/problem/problem.xml" parse="xml"/>
+        <xi:include href="attribute/serviceCall/serviceCall.xml" parse="xml"/>
+        <xi:include href="attribute/task/task.xml" parse="xml"/>
+        <xi:include href="attribute/time/time.xml" parse="xml"/>
+        <xi:include href="attribute/timeStr/timeStr.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/folders.xml" parse="xml"/>
+        <xi:include href="attribute-override/number/number.xml" parse="xml"/>
+        <xi:include href="attribute-override/state/state.xml" parse="xml"/>
+        <xi:include href="attribute-override/stateStartTime.xml" parse="xml"/>
+        <xi:include href="attribute-override/title/title.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo/>
+    <attribute-groups>
+        <xi:include href="attribute-group/0af99595-2d79-4d08-8b46-2541f2968ef0.xml" parse="xml"/>
+        <xi:include href="attribute-group/4eb82d9e-bd02-40a2-b1d8-11c097771907.xml" parse="xml"/>
+        <xi:include href="attribute-group/6a9050f1-e7ac-4d9c-bb58-ccbc7dc337b0.xml" parse="xml"/>
+        <xi:include href="attribute-group/75d9197e-2311-44da-9572-879559bcfd90.xml" parse="xml"/>
+        <xi:include href="attribute-group/ae8f6939-d481-4518-9994-136c4682bce7.xml" parse="xml"/>
+        <xi:include href="attribute-group/DlyaBystroiFormyDobavleniya.xml" parse="xml"/>
+        <xi:include href="attribute-group/e8df2565-eacf-4ade-83b5-495f760d39f2.xml" parse="xml"/>
+        <xi:include href="attribute-group/ecc00b0d-ee8b-4b0b-a2f4-48d180eb9137.xml" parse="xml"/>
+        <xi:include href="attribute-group/forOu.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentText_text.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileContent_content.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileDescription_description.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileTitle_title.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>19</searchOrder>
+    <allowPlanVer>false</allowPlanVer>
+    <depthEnv>1</depthEnv>
+    <status>DEFAULT</status>
+</user-metaclass>

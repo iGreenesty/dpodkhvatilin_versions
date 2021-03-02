@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="2efe4fb8-480c-4c88-b27d-810a95a53318" enabled="true" group="viewAttrs" seg-detach="true" seg-id="2efe4fb8-480c-4c88-b27d-810a95a53318" seg-type="marker-declarations">
+    <title lang="ru">Описание</title>
+    <attributes>period</attributes>
+    <attributes>cabEmployee</attributes>
+    <attributes>RFCsupposed</attributes>
+    <attributes>description</attributes>
+    <attributes>files</attributes>
+    <attributes>deadLine</attributes>
+</marker-declaration>

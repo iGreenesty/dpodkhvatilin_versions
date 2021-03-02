@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="cb2b5f3a-b286-44f4-bde9-d54caf113bce" seg-type="attribute-group-override">
+    <code>cb2b5f3a-b286-44f4-bde9-d54caf113bce</code>
+    <attribute>deadline</attribute>
+    <order>creationDate</order>
+    <order>descrRtf</order>
+    <order>state</order>
+    <order>deadline</order>
+    <order>voteDate</order>
+    <order>remark</order>
+</override>

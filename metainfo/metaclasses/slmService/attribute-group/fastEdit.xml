@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fastEdit" seg-type="attribute-group">
+    <code>fastEdit</code>
+    <title lang="ru">Для быстрого добавления/редактирования</title>
+    <attribute>metaClass</attribute>
+    <attribute>title</attribute>
+    <attribute>description</attribute>
+    <attribute>responsible</attribute>
+    <attribute>callCases</attribute>
+    <attribute>category</attribute>
+</group>

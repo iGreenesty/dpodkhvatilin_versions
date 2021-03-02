@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="524ecbea-78c5-48cf-ab18-b3ed69a8bf14" seg-type="attribute-group">
+    <code>524ecbea-78c5-48cf-ab18-b3ed69a8bf14</code>
+    <title lang="ru">Для формы добавления</title>
+    <attribute>description</attribute>
+    <attribute>responsible</attribute>
+    <attribute>deadline</attribute>
+    <attribute>categories</attribute>
+    <order>description</order>
+    <order>responsible</order>
+    <order>deadline</order>
+    <order>categories</order>
+</group>

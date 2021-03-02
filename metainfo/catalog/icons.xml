@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="icons" flat="false" seg-detach="true" seg-id="icons" seg-type="catalog" withFolders="false" xsi:type="UserCatalog">
+    <title lang="ru">Иконки</title>
+    <itemMetaClassFqn>
+        <id>icons</id>
+    </itemMetaClassFqn>
+</catalog>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="agreementRule_quickAddAndEditForm$c5fc0856-67ef-a189-b85d-347b8c6c9bf6" seg-type="ui-container">
+    <fqn>
+        <id>agreementRule</id>
+    </fqn>
+    <code>quickAddAndEditForm$c5fc0856-67ef-a189-b85d-347b8c6c9bf6</code>
+    <quickform seg-detach="false" uuid="quickAddAndEditForm$c5fc0856-67ef-a189-b85d-347b8c6c9bf6">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Форма быстрого добавления правила SLA</caption>
+        <layout seg-detach="false" uuid="172c36d4-ea5e-a465-af26-adb71cc1d291">
+            <profiles/>
+            <tags/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <attrGroup>a8aed1ab-2557-496d-aa8e-19e6fb559896</attrGroup>
+        <custom-form>QuickForm</custom-form>
+        <show-attr-description>false</show-attr-description>
+        <transitioncases>
+            <id>agreementRule</id>
+            <case>agreementRule</case>
+        </transitioncases>
+        <transitioncases>
+            <id>agreementRule</id>
+            <case>reactRule</case>
+        </transitioncases>
+        <code>c5fc0856-67ef-a189-b85d-347b8c6c9bf6</code>
+    </quickform>
+</ui>

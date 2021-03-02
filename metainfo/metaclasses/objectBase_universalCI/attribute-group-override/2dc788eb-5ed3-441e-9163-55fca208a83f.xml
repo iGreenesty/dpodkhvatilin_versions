@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="2dc788eb-5ed3-441e-9163-55fca208a83f" seg-type="attribute-group-override">
+    <code>2dc788eb-5ed3-441e-9163-55fca208a83f</code>
+    <attribute>typeCI</attribute>
+    <order>metaClass</order>
+    <order>typeCI</order>
+    <order>title</order>
+    <order>state</order>
+    <order>model</order>
+    <order>inventoryNumbe</order>
+    <order>owner</order>
+    <order>users</order>
+    <order>author</order>
+</override>

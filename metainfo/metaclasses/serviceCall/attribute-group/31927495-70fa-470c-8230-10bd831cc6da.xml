@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="31927495-70fa-470c-8230-10bd831cc6da" seg-type="attribute-group">
+    <code>31927495-70fa-470c-8230-10bd831cc6da</code>
+    <title lang="ru">Для карточки услуги</title>
+    <attribute>number</attribute>
+    <attribute>creationDate</attribute>
+    <attribute>agreement</attribute>
+    <attribute>metaClass</attribute>
+    <attribute>client</attribute>
+    <attribute>shortDescr</attribute>
+    <attribute>descriptionRTF</attribute>
+    <attribute>responsible</attribute>
+    <attribute>state</attribute>
+    <attribute>timeAllowanceTimer</attribute>
+    <attribute>dateDecision</attribute>
+    <attribute>sumWorkRecords</attribute>
+    <attribute>sumApprovedWR</attribute>
+    <attribute>mark</attribute>
+    <attribute>priority</attribute>
+    <attribute>coloOverdue</attribute>
+    <attribute>reactOverdue</attribute>
+    <attribute>overdue</attribute>
+    <order>number</order>
+    <order>creationDate</order>
+    <order>agreement</order>
+    <order>metaClass</order>
+    <order>client</order>
+    <order>shortDescr</order>
+    <order>descriptionRTF</order>
+    <order>responsible</order>
+    <order>state</order>
+    <order>timeAllowanceTimer</order>
+    <order>dateDecision</order>
+    <order>sumWorkRecords</order>
+    <order>sumApprovedWR</order>
+    <order>mark</order>
+    <order>priority</order>
+    <order>coloOverdue</order>
+    <order>reactOverdue</order>
+    <order>overdue</order>
+</group>

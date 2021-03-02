@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-object-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="InformaciyaOZaproseNaIzmenenie" seg-type="contents" uuid="InformaciyaOZaproseNaIzmenenie">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efe80-16fc-185a-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Информация о запросе на изменение</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>4c3f8d3f-46cd-4708-91ad-9a29184186c5</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/b805041d-49a8-ba68-e117-7821409e97d0.xml" parse="xml"/>
+    <attrCode>source</attrCode>
+    <allowEdit>false</allowEdit>
+</related-object-properties>

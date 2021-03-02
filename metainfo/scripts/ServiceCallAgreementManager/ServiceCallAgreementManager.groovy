@@ -1,0 +1,1 @@
+return user.UUID == subject?.agreement?.manager?.UUID

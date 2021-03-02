@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fac72db9-7e47-4945-a1b7-0c20f7eeb292" seg-type="attribute-group">
+    <code>fac72db9-7e47-4945-a1b7-0c20f7eeb292</code>
+    <title lang="ru">Привязка</title>
+    <attribute>agreement</attribute>
+    <attribute>service</attribute>
+    <attribute>client</attribute>
+    <attribute>clientName</attribute>
+    <attribute>clientEmail</attribute>
+    <attribute>clientPhone</attribute>
+</group>

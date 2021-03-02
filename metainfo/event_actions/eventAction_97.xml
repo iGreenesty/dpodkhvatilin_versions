@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$97" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[SkriptNaznachenieOtvetstvennogoZaRazdelBZ102]]></script>
+        </script-action>
+        <code>eventAction$97</code>
+        <description lang="ru"/>
+        <description/>
+        <event>
+            <eventType>add</eventType>
+        </event>
+        <fqn>
+            <id>KB</id>
+            <case>KBSection</case>
+        </fqn>
+        <fqn>
+            <id>KB</id>
+            <case>KBSectionOpen</case>
+        </fqn>
+        <fqn>
+            <id>KB</id>
+            <case>KBSectionProt</case>
+        </fqn>
+        <fqn>
+            <id>KB</id>
+            <case>KBSubsectionOp</case>
+        </fqn>
+        <fqn>
+            <id>KB</id>
+            <case>KBSubsectionPr</case>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <tags>BazaZnanii</tags>
+        <title lang="ru">[Скрипт] Назначение ответственного за раздел БЗ</title>
+        <title>Скрипт: назначение ответственного за раздел БЗ</title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

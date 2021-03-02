@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="d3f8e053-70ab-485a-9053-396c07ebe343" seg-type="attribute-group">
+    <code>d3f8e053-70ab-485a-9053-396c07ebe343</code>
+    <title lang="en">Description</title>
+    <title lang="ru">Описание</title>
+    <attribute>shortDescr</attribute>
+    <attribute>descriptionRTF</attribute>
+    <attribute>urgency</attribute>
+    <attribute>date1</attribute>
+    <attribute>date2</attribute>
+    <order>shortDescr</order>
+    <order>descriptionRTF</order>
+    <order>urgency</order>
+    <order>date1</order>
+    <order>date2</order>
+</group>

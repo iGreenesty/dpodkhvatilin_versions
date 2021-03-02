@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="keyContactPerson" enabled="true" seg-detach="true" seg-id="keyContactPerson" seg-type="roles" type="SCRIPT">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="ownersScript"/>
+    <property code="script">KluchevoeKontaktnoeLico</property>
+    <property code="listFilterScript">PoiskPoZayavkamSvoegoOtdela</property>
+    <title lang="ru">Ключевое контактное лицо</title>
+</role>

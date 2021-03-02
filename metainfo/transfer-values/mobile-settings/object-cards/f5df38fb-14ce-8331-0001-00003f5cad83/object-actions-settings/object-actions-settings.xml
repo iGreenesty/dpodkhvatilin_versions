@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectActions xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="object-actions-settings" seg-type="object-actions-settings" useDefaultSettings="false">
+    <xi:include href="object-actions/1cf40650-0104-0d13-c56b-27b1c6776604.xml" parse="xml"/>
+    <xi:include href="object-actions/647ce2ce-971e-b06a-d6c1-764b5ebe8e3e.xml" parse="xml"/>
+    <xi:include href="object-actions/249ccf59-b378-a192-c722-9aa1e5ad7be4.xml" parse="xml"/>
+    <xi:include href="object-actions/12a723af-0ad1-adfb-e15d-31f22072cf97.xml" parse="xml"/>
+    <xi:include href="object-actions/f5fcec69-68c6-417a-b8da-f44bedb6587b.xml" parse="xml"/>
+    <xi:include href="object-actions/618c7069-a64b-9654-fcdc-447694509b9d.xml" parse="xml"/>
+    <xi:include href="object-actions/ab46bf87-0229-327a-9d76-706877de85d1.xml" parse="xml"/>
+    <xi:include href="object-actions/6b9d0d02-6d78-58e2-0d63-ec17eafd2315.xml" parse="xml"/>
+    <xi:include href="object-actions/f117382d-49e2-eea4-5254-d3d512f66412.xml" parse="xml"/>
+</objectActions>

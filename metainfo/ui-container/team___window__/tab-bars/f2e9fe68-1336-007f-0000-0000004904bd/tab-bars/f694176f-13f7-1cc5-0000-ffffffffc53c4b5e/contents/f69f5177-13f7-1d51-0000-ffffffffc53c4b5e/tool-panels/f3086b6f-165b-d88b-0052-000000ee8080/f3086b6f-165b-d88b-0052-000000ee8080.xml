@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<toolPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f3086b6f-165b-d88b-0052-000000ee8080" seg-type="tool-panels" uuid="f3086b6f-165b-d88b-0052-000000ee8080">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="f8450162-174e-7c26-004b-00007b344b54">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <advlist-presentation-select seg-detach="false" uuid="f8450162-174e-7c27-004b-00007b344b54">
+            <profiles/>
+            <tags/>
+            <appliedToType>currentObject</appliedToType>
+            <params/>
+            <presentationType>default</presentationType>
+        </advlist-presentation-select>
+        <xi:include href="tools/saveAdvlistPrs_f8450162-174e-7c28-004b-00007b344b54.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="f8450162-174e-7c29-004b-00007b344b54">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/showAdvlistSort_f8450162-174e-7c2a-004b-00007b344b54.xml" parse="xml"/>
+        <xi:include href="tools/showAdvlistFilter_f8450162-174e-7c2b-004b-00007b344b54.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="f8450162-174e-7c2c-004b-00007b344b54">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/exportAdvlist_f8450162-174e-7c2d-004b-00007b344b54.xml" parse="xml"/>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</toolPanel>

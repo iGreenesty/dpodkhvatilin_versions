@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-event-tool xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fireUserEvent_718ce8ad-249d-4306-d6ef-fe3a88af5baa" seg-type="tools" uuid="718ce8ad-249d-4306-d6ef-fe3a88af5baa">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <iconCode>mailIcon</iconCode>
+    <params/>
+    <presentationType>defaultIconOnly</presentationType>
+    <action>fireUserEvent</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="ru">Сгенерировать пароль и отправить сотруднику</caption>
+    <event-uuid>userEvent$204</event-uuid>
+    <use-quick-form>false</use-quick-form>
+</user-event-tool>

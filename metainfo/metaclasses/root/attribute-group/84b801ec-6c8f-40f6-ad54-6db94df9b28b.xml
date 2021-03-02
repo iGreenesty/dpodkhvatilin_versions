@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="84b801ec-6c8f-40f6-ad54-6db94df9b28b" seg-type="attribute-group">
+    <code>84b801ec-6c8f-40f6-ad54-6db94df9b28b</code>
+    <title lang="ru">Оповещения по проблемам</title>
+    <attribute>ERePCs</attribute>
+    <attribute>ERePNc</attribute>
+    <attribute>ERePNt</attribute>
+</group>

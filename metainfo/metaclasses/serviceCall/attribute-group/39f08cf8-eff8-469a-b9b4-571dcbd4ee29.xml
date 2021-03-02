@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="39f08cf8-eff8-469a-b9b4-571dcbd4ee29" seg-type="attribute-group">
+    <code>39f08cf8-eff8-469a-b9b4-571dcbd4ee29</code>
+    <title lang="ru">Для карточки проблемы и запроса на изменение</title>
+    <attribute>number</attribute>
+    <attribute>registrationDate</attribute>
+    <attribute>state</attribute>
+    <attribute>client</attribute>
+    <attribute>service</attribute>
+    <attribute>metaClass</attribute>
+    <attribute>shortDescr</attribute>
+    <attribute>descriptionRTF</attribute>
+    <attribute>responsible</attribute>
+    <order>number</order>
+    <order>registrationDate</order>
+    <order>state</order>
+    <order>client</order>
+    <order>service</order>
+    <order>metaClass</order>
+    <order>shortDescr</order>
+    <order>descriptionRTF</order>
+    <order>responsible</order>
+</group>

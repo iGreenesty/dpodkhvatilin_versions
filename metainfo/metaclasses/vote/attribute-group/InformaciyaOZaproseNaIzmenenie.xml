@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="InformaciyaOZaproseNaIzmenenie" seg-type="attribute-group">
+    <code>InformaciyaOZaproseNaIzmenenie</code>
+    <title lang="ru">Информация о запросе на изменение</title>
+    <attribute>clientChange</attribute>
+    <attribute>descriptionCR</attribute>
+</group>

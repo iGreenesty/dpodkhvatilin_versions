@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="editStatebf836093-d29f-4a4e-8c13-cddf17e6cc08" enabled="true" group="editStateGrp" seg-detach="true" seg-id="editStatebf836093-d29f-4a4e-8c13-cddf17e6cc08" seg-type="marker-declarations">
+    <title lang="ru">Выполнена - Возобновлена</title>
+    <attributes>resolved.resumed</attributes>
+</marker-declaration>

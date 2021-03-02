@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="783c2547-77bd-4498-a170-16914bbe115b" seg-type="attribute-group">
+    <code>783c2547-77bd-4498-a170-16914bbe115b</code>
+    <title lang="ru">Для формы редактирования</title>
+    <attribute>description</attribute>
+    <attribute>period</attribute>
+    <attribute>files</attribute>
+    <order>description</order>
+    <order>period</order>
+    <order>files</order>
+</group>

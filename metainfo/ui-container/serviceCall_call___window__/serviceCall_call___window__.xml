@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="serviceCall$call___window__" seg-type="ui-container">
+    <fqn>
+        <id>serviceCall</id>
+        <case>call</case>
+    </fqn>
+    <code>__window__</code>
+    <window seg-detach="false" uuid="f2e9fdfc-1336-0047-0000-0000004904bd">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Карточка объекта</caption>
+        <objectCardCaptionAttributeCode>type_name_and_title</objectCardCaptionAttributeCode>
+        <xi:include href="tab-bars/f2e9fdfc-1336-0048-0000-0000004904bd/f2e9fdfc-1336-0048-0000-0000004904bd.xml" parse="xml"/>
+        <xi:include href="tool-panels/f2e9fe01-1336-0078-0000-0000004904bd/f2e9fe01-1336-0078-0000-0000004904bd.xml" parse="xml"/>
+    </window>
+</ui>

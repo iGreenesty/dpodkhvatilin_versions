@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="deferred" color="#6600FF" enabled="true" hardcoded="false" responsibleType="EMPLOYEE_AND_TEAM" seg-detach="true" seg-id="deferred" seg-type="state">
+    <title lang="ru">Отложена</title>
+    <description lang="ru"/>
+    <responsible bean="currentResponsibleStrategy"/>
+    <changeResponsibleButtonVisible>true</changeResponsibleButtonVisible>
+    <stateSetting canEdit="true" canView="true" code="@comment" postFill="0" preFill="2" requredInState="false">
+        <title lang="ru">Добавить комментарий</title>
+    </stateSetting>
+    <stateSetting canEdit="true" canView="true" code="postponeTill" postFill="0" preFill="1" requredInState="false">
+        <title lang="ru">отложить до</title>
+    </stateSetting>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

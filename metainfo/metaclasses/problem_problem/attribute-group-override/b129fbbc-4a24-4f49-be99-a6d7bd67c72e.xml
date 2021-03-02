@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="b129fbbc-4a24-4f49-be99-a6d7bd67c72e" seg-type="attribute-group-override">
+    <code>b129fbbc-4a24-4f49-be99-a6d7bd67c72e</code>
+    <attribute>postponeTill</attribute>
+    <order>state</order>
+    <order>categories</order>
+    <order>factProbDate</order>
+    <order>description</order>
+    <order>postponeTill</order>
+</override>

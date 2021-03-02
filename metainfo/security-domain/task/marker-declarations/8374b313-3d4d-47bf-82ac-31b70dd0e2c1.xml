@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="8374b313-3d4d-47bf-82ac-31b70dd0e2c1" enabled="true" group="viewCommentAttrs" seg-detach="true" seg-id="8374b313-3d4d-47bf-82ac-31b70dd0e2c1" seg-type="marker-declarations">
+    <title lang="ru">Уведомить о комментарии</title>
+    <attributes>notificateTo</attributes>
+</marker-declaration>

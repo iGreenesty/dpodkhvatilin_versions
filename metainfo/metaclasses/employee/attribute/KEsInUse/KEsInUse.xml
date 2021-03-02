@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="KEsInUse" seg-type="attribute">
+    <code>KEsInUse</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">ИТ-активы в использовании</title>
+    <description lang="ru"/>
+    <type>
+        <code>backBOLinks</code>
+        <property code="backLinkAttr">users</property>
+        <property code="code">backBOLinks</property>
+        <property code="complexAttrGroupCode">2f644a83-d3a1-45ca-860d-b5e21f7160a0</property>
+        <property code="complexRelation">true</property>
+        <property code="metaClassFqn">objectBase$CI</property>
+        <property code="permittedTypes">["objectBase$Phone","objectBase$Monitor","objectBase$universalCI","objectBase$Switch","objectBase$Fax","objectBase$OfficeEquip","objectBase$Mainboard","objectBase$Computers","objectBase$Keyboard","objectBase$MobileDevice","objectBase$Device","objectBase$DVDDrive","objectBase$Server","objectBase$PhonesAndFaxes","objectBase$Scanner","objectBase$Rack","objectBase$Card","objectBase$DBMS","objectBase$Shredder","objectBase$Netcard","objectBase$Printer","objectBase$Router","objectBase$HDD","objectBase$GraphicDevices","objectBase$CMT","objectBase$CPU","objectBase$Modem","objectBase$Software","objectBase$Headset","objectBase$Notebook","objectBase$OS","objectBase$CI","objectBase$Projector","objectBase$Hardware","objectBase$PowerUnit","objectBase$RAM","objectBase$MFU","objectBase$UPS","objectBase$Workstation"]</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>boLinksView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>boLinksEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>backBOLinksAccessor</accessor>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>true</systemEditable>
+    <xi:include href="search-settings/KEsInUse_KEsInUse.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <tags>ITaktivy</tags>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

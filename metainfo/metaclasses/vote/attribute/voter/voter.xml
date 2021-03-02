@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="voter" seg-type="attribute">
+    <code>voter</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>false</editable>
+    <editableInLists>false</editableInLists>
+    <required>true</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">Голосующий</title>
+    <description lang="ru"/>
+    <type>
+        <code>aggregate</code>
+        <property code="aggregateClasses">["employee","ou","team"]</property>
+        <property code="attributes">[{'attr':'voter_em','parents':['parent', 'teams']}, {'attr':'voter_ou','parents':[]}, {'attr':'voter_te','parents':[]}]</property>
+        <property code="code">aggregate</property>
+        <property code="complexRelation">false</property>
+        <property code="complexRelationsAttrGroups">{}</property>
+        <property code="metaClassFqn">vote</property>
+        <property code="preparedAttributes">[{"attr":"voter_em","parents":["parent","teams"],"referenceMetaClass":"employee"},{"attr":"voter_ou","parents":[],"referenceMetaClass":"ou"},{"attr":"voter_te","parents":[],"referenceMetaClass":"team"}]</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>aggregateView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>aggregateEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>aggregateAccessor</accessor>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>true</systemEditable>
+    <xi:include href="search-settings/voter_voter.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

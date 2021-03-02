@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="d338dad2-685d-4b56-a857-96115aa2ce81" seg-type="attribute-group">
+    <code>d338dad2-685d-4b56-a857-96115aa2ce81</code>
+    <title lang="en">Time parameters</title>
+    <title lang="ru">Временные параметры</title>
+    <attribute>registrationDate</attribute>
+    <attribute>startTime</attribute>
+    <attribute>reactDeadline</attribute>
+    <attribute>timeAllowanceTimer</attribute>
+    <attribute>dateDecision</attribute>
+    <attribute>timeZone</attribute>
+    <attribute>serviceTime</attribute>
+    <attribute>reactionTime</attribute>
+    <attribute>processingTimeTimer</attribute>
+    <order>registrationDate</order>
+    <order>startTime</order>
+    <order>reactDeadline</order>
+    <order>timeAllowanceTimer</order>
+    <order>dateDecision</order>
+    <order>timeZone</order>
+    <order>serviceTime</order>
+    <order>reactionTime</order>
+    <order>processingTimeTimer</order>
+</group>

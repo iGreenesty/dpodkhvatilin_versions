@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" code="copyCommentToSlaves" enabled="true" group="comment" seg-detach="true" seg-id="copyCommentToSlaves" seg-type="sec-actions">
+    <title lang="en">Copy comments from master to slave objects</title>
+    <title lang="ru">Копирование комментариев из ведущего в ведомые объекты</title>
+</action>

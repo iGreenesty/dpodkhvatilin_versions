@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="printReport_0a607ca0-e98f-5709-784c-08feb8e9c147" seg-type="tools" uuid="0a607ca0-e98f-5709-784c-08feb8e9c147">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <params/>
+    <presentationType>default</presentationType>
+    <action>printReport</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Print</caption>
+    <caption lang="ru">Печать</caption>
+</action>

@@ -1,0 +1,1 @@
+return (subject.timeAllowanceTimer?.status?.code == 'e') ? 'overDue' : 'notOverdue'

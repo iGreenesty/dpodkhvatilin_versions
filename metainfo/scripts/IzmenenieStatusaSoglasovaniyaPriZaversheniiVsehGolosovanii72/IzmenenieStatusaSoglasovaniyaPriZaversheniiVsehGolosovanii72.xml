@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="IzmenenieStatusaSoglasovaniyaPriZaversheniiVsehGolosovanii72" seg-type="scripts">
+    <code>IzmenenieStatusaSoglasovaniyaPriZaversheniiVsehGolosovanii72</code>
+    <title lang="ru">Изменение статуса согласования при завершении всех голосований</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="IzmenenieStatusaSoglasovaniyaPriZaversheniiVsehGolosovanii72.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

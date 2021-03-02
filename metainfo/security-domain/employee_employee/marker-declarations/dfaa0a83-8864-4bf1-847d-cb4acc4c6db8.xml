@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="dfaa0a83-8864-4bf1-847d-cb4acc4c6db8" enabled="true" group="editAttrs" seg-detach="true" seg-id="dfaa0a83-8864-4bf1-847d-cb4acc4c6db8" seg-type="marker-declarations">
+    <title lang="ru">Сам сотрудник (нелиц.)</title>
+    <attributes>firstName</attributes>
+    <attributes>image</attributes>
+    <attributes>lastName</attributes>
+    <attributes>mobilePhoneNumber</attributes>
+    <attributes>homePhoneNumber</attributes>
+    <attributes>internalPhoneNumber</attributes>
+    <attributes>cityPhoneNumber</attributes>
+    <attributes>email</attributes>
+</marker-declaration>

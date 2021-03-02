@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="resolved" enabled="true" hardcoded="false" seg-detach="true" seg-id="resolved" seg-type="state">
+    <stateSetting canEdit="false" canView="false" code="mark" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru"/>
+    </stateSetting>
+    <preActionsOrder>f28f0e34-13e8-2912-0000-000000ea5979</preActionsOrder>
+    <preActionsOrder>f9cb076f-140b-2d46-0000-000001b277ad</preActionsOrder>
+    <preActionsOrder>fb0db595-141e-9d62-0000-0000016689e8</preActionsOrder>
+    <preActionsOrder>f1d6a698-1697-2e52-0057-000000ffc2f3</preActionsOrder>
+    <preActionsOrder>f89d81e8-1760-cc29-0001-000035bdc518</preActionsOrder>
+    <postActionsOrder>f9ce5220-140b-2d60-0000-000001b277ad</postActionsOrder>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

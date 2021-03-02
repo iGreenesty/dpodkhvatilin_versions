@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<class xmlns:xi="http://www.w3.org/2001/XInclude" id="retentionPolicies" seg-detach="true" seg-id="retentionPolicies" seg-type="object-group">
+    <object>
+        <attribute code="code">
+            <string>DAY</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>retentionPolicies</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>1</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>День</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>retentionPolicies$2243202</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>HALF_MONTH</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>retentionPolicies</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>3</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Полмесяца</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>retentionPolicies$2243204</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>HALF_YEAR</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>retentionPolicies</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>5</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Полгода</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>retentionPolicies$2243206</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>HOUR</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>retentionPolicies</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Час</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>retentionPolicies$2243201</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>INFINITE</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>retentionPolicies</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>7</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Не ограничен</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>retentionPolicies$2243208</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>MONTH</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>retentionPolicies</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>4</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Месяц</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>retentionPolicies$2243205</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>WEEK</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>retentionPolicies</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>2</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Неделя</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>retentionPolicies$2243203</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>YEAR</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>retentionPolicies</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>6</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Год</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>retentionPolicies$2243207</string>
+        </attribute>
+    </object>
+</class>

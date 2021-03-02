@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-object-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="2071161e-14df-f3b7-fabf-f288fdcf8342" seg-type="contents" uuid="2071161e-14df-f3b7-fabf-f288fdcf8342">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef9f5-16fc-1643-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Ведущая заявка</caption>
+    <showCaption>false</showCaption>
+    <attributeGroup>DlyaKartochkiSvyazannoiZayavki(vedushaya)</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/f15625a6-152b-498d-0005-0000098c53c9.xml" parse="xml"/>
+    <attrCode>masterMassProblem</attrCode>
+    <allowEdit>false</allowEdit>
+</related-object-properties>

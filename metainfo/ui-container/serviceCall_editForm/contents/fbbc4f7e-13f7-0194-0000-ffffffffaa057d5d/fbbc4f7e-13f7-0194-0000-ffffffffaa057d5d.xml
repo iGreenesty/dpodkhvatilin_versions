@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<editable-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fbbc4f7e-13f7-0194-0000-ffffffffaa057d5d" seg-type="contents" uuid="fbbc4f7e-13f7-0194-0000-ffffffffaa057d5d">
+    <profiles/>
+    <tags>
+        <tag>ITaktivy</tag>
+    </tags>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="f1e8856f-1750-a9a7-0066-00007b344b54">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Для формы редактирования (ИТ-активы)</caption>
+    <showCaption>false</showCaption>
+    <attributeGroup>572c1378-8181-48b0-bf6e-0b47a6b511bb</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/fbbccb53-13f7-1a05-0000-00000134d96d.xml" parse="xml"/>
+    <resetValuesIfHidden>false</resetValuesIfHidden>
+</editable-properties>

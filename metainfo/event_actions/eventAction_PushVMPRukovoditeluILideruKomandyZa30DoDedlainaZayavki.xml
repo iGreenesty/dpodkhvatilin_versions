@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$PushVMPRukovoditeluILideruKomandyZa30DoDedlainaZayavki" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <push-mobile-action>
+            <actionType>PushMobileEventAction</actionType>
+            <message>&#128276; Истекло 70% времени решения заявки №${subject.number}</message>
+            <roles>serviceCall_RespEmpTeamLeader</roles>
+            <roles>serviceCall_RespHead</roles>
+            <roles>serviceCall_RespTeamLeader</roles>
+            <script><![CDATA[PerehodNaKartochkuVMPIskluchenieOtvetstvennogo]]></script>
+            <html>true</html>
+            <pushHeaderFormat>Subject</pushHeaderFormat>
+            <subject>${pushMobile.scriptParams['root']}</subject>
+        </push-mobile-action>
+        <code>eventAction$PushVMPRukovoditeluILideruKomandyZa30DoDedlainaZayavki</code>
+        <description lang="ru"/>
+        <event>
+            <eventType>escalation</eventType>
+        </event>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Push в МП] Руководителю и лидеру команды за 30% до дедлайна заявки</title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

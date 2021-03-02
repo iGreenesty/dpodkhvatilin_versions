@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$170" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[UstanovkaFlagaDobavleniyaNeprivatnogoKommentariya116]]></script>
+        </script-action>
+        <code>eventAction$170</code>
+        <description lang="ru">Данное действие позволяет отследить добавление неприватного комментария к заявке и остановить счетчик времени реакции.</description>
+        <event>
+            <eventType>addComment</eventType>
+        </event>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Скрипт] Установка флага добавления неприватного комментария</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

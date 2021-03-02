@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="SpecialistInChangeRequests" licensed="true" seg-detach="true" seg-id="SpecialistInChangeRequests" seg-type="sec-profile" versioning="false">
+    <groups>specialistInChangeRequests</groups>
+    <roles>employee</roles>
+    <title lang="ru">Специалист по работе с запросами на изменение</title>
+</security-profile>

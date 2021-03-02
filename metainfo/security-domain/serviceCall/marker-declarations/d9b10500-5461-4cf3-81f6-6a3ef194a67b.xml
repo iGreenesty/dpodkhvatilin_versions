@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="d9b10500-5461-4cf3-81f6-6a3ef194a67b" enabled="true" group="editAttrs" seg-detach="true" seg-id="d9b10500-5461-4cf3-81f6-6a3ef194a67b" seg-type="marker-declarations">
+    <title lang="ru">Оценка</title>
+    <attributes>commentForMark</attributes>
+    <attributes>mark</attributes>
+</marker-declaration>

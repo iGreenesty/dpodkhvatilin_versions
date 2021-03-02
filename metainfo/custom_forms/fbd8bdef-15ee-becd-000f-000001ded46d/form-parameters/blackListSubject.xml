@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="blackListSubject" seg-type="form-parameters">
+    <attrs-for-date-time-restriction-script/>
+    <attrs-in-cof-script/>
+    <code>blackListSubject</code>
+    <complexRelation>false</complexRelation>
+    <computable-on-form>false</computable-on-form>
+    <default-by-script>false</default-by-script>
+    <default-value>
+        <bool>false</bool>
+    </default-value>
+    <edit-presentaion>
+        <code>checkbox</code>
+    </edit-presentaion>
+    <editable>true</editable>
+    <is-filtered-by-script>false</is-filtered-by-script>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <required>false</required>
+    <title lang="ru">Добавить в черный список значений темы письма</title>
+    <type>
+        <code>bool</code>
+        <property code="permittedTypes">[]</property>
+    </type>
+    <view-presentaion>
+        <code>yesNo</code>
+    </view-presentaion>
+</parameter>

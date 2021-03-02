@@ -1,0 +1,1 @@
+return api.filters.attrValueEq('author', user)

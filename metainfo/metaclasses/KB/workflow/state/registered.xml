@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="registered" color="#FF0101" enabled="true" hardcoded="false" responsibleType="EMPLOYEE_AND_TEAM" seg-detach="true" seg-id="registered" seg-type="state">
+    <title lang="ru">Создан</title>
+    <description lang="ru">начальный статус объекта</description>
+    <responsible bean="currentResponsibleStrategy"/>
+    <changeResponsibleButtonVisible>true</changeResponsibleButtonVisible>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

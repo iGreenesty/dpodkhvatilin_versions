@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="DlyaKartochkiKompanii" seg-type="attribute-group">
+    <code>DlyaKartochkiKompanii</code>
+    <title lang="ru">Для карточки компании</title>
+    <attribute>title</attribute>
+    <attribute>parent</attribute>
+    <attribute>post</attribute>
+    <attribute>email</attribute>
+    <attribute>login</attribute>
+    <attribute>keyEmployee</attribute>
+    <order>title</order>
+    <order>parent</order>
+    <order>post</order>
+    <order>email</order>
+    <order>login</order>
+    <order>keyEmployee</order>
+</group>

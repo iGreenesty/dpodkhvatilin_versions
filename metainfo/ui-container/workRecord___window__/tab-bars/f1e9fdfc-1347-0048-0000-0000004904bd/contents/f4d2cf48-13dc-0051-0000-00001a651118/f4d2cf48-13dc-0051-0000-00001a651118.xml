@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f4d2cf48-13dc-0051-0000-00001a651118" seg-type="contents" uuid="f4d2cf48-13dc-0051-0000-00001a651118">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef9b5-16fc-1614-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">В рамках</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>e8df2565-eacf-4ade-83b5-495f760d39f2</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/f4d2cf4a-13dc-0052-0000-00001a651118.xml" parse="xml"/>
+</properties>

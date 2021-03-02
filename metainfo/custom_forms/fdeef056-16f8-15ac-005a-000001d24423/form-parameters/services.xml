@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="services" seg-type="form-parameters">
+    <attrs-for-date-time-restriction-script/>
+    <attrs-in-cof-script/>
+    <code>services</code>
+    <complexRelation>false</complexRelation>
+    <computable-on-form>false</computable-on-form>
+    <default-by-script>true</default-by-script>
+    <default-value list="true"/>
+    <edit-presentaion>
+        <code>boLinksEdit</code>
+    </edit-presentaion>
+    <editable>true</editable>
+    <is-filtered-by-script>false</is-filtered-by-script>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <is-hidden-when-no-possible-values>false</is-hidden-when-no-possible-values>
+    <required>false</required>
+    <script-for-default>UslugaIzZayavki</script-for-default>
+    <title lang="ru">Связанные услуги</title>
+    <type>
+        <code>boLinks</code>
+        <property code="permittedTypes">["slmService"]</property>
+        <property code="metaClassFqn">slmService</property>
+    </type>
+    <view-presentaion>
+        <code>boLinksView</code>
+    </view-presentaion>
+</parameter>

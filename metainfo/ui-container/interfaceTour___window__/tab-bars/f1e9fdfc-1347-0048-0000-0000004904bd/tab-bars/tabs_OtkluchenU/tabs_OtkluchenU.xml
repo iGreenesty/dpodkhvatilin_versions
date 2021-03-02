@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_OtkluchenU" seg-type="tab-bars" uuid="tabs_OtkluchenU">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efa21-16fc-1655-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="OtkluchenU">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Отключен у</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="fb221c25-0d87-a2f1-ba6c-be4ee9059e7a">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/Sotrudniki_OtkluchivshieTur/Sotrudniki_OtkluchivshieTur.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efa22-16fc-1657-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="PriostanovlenU">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Приостановлен у</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="a91bca1d-05a3-180a-984c-4da80aa28af4">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/Sotrudniki_PriostanovivshieTur/Sotrudniki_PriostanovivshieTur.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efa24-16fc-1659-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="115ece92-26d8-4596-b3c6-00bd5ef31412" seg-type="attribute-group">
+    <code>115ece92-26d8-4596-b3c6-00bd5ef31412</code>
+    <title lang="ru">Атрибуты для списка</title>
+    <attribute>title</attribute>
+    <attribute>state</attribute>
+    <attribute>creationDate</attribute>
+    <attribute>author</attribute>
+    <order>title</order>
+    <order>state</order>
+    <order>creationDate</order>
+    <order>author</order>
+</group>

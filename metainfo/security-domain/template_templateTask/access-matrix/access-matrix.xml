@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<access-matrix xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="access-matrix" seg-type="access-matrix">
+    <xi:include href="elements/responsibleCurrentTeam_c3878215-3a21-497d-a606-8854503ead1a.xml" parse="xml"/>
+    <xi:include href="elements/responsibleCurrentTeamEmployee_c3878215-3a21-497d-a606-8854503ead1a.xml" parse="xml"/>
+    <xi:include href="elements/responsibleOtherTeam_c3878215-3a21-497d-a606-8854503ead1a.xml" parse="xml"/>
+    <xi:include href="elements/responsibleOtherTeamEmployee_c3878215-3a21-497d-a606-8854503ead1a.xml" parse="xml"/>
+    <xi:include href="elements/responsibleOwnTeam_c3878215-3a21-497d-a606-8854503ead1a.xml" parse="xml"/>
+    <xi:include href="elements/responsibleOwnTeamEmployee_c3878215-3a21-497d-a606-8854503ead1a.xml" parse="xml"/>
+    <xi:include href="elements/responsibleTake_c3878215-3a21-497d-a606-8854503ead1a.xml" parse="xml"/>
+    <xi:include href="elements/responsibleTakeCurrentTeam_c3878215-3a21-497d-a606-8854503ead1a.xml" parse="xml"/>
+</access-matrix>

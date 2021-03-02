@@ -1,0 +1,2 @@
+def MARK_ARTICLE = "myMarkNew" // Код атрибута "Оцените статью" класса "База знаний"
+return (oldSubject[MARK_ARTICLE] == subject[MARK_ARTICLE] || subject[MARK_ARTICLE] == null) ? "Атрибут myMarkNew не изменился" : ""

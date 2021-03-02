@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-object-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fea40871-140c-0577-0000-00000025976e" seg-type="contents" uuid="fea40871-140c-0577-0000-00000025976e">
+    <profiles/>
+    <tags>
+        <tag>Problemy</tag>
+    </tags>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efeee-16fc-1879-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Описание связанной проблемы</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>b129fbbc-4a24-4f49-be99-a6d7bd67c72e</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/fea411ef-140c-d7db-0000-0000000693b7.xml" parse="xml"/>
+    <attrCode>problem</attrCode>
+    <allowEdit>false</allowEdit>
+</related-object-properties>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_byState" seg-type="tab-bars" uuid="tabs_byState">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="ed14c621-973a-2e79-bd43-c78e21cd04e6">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="byState">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">По статусам</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="1a8a5070-c2dc-1067-bb6e-88c646a71e7e">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/teamServiceCallsByStates.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="f8b808a3-1745-632f-003c-000036b4a082">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="byEmployees">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">По ответственным</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="7d4740ce-5936-c754-be39-7734ac4b5296">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/teamServiceCallsByEmployees.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="8fbb993b-32ab-1022-22a7-6d3f587b6c90">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

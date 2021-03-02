@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="registered" color="#FF0000" enabled="true" hardcoded="false" responsibleType="EMPLOYEE_AND_TEAM" seg-detach="true" seg-id="registered" seg-type="state">
+    <title lang="ru">Запланирована</title>
+    <description lang="ru">начальный статус объекта</description>
+    <responsible bean="currentResponsibleStrategy"/>
+    <changeResponsibleButtonVisible>true</changeResponsibleButtonVisible>
+    <stateSetting canEdit="false" canView="false" code="dateDecision" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Дата решения</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="postoponeTill" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Отложить до</title>
+    </stateSetting>
+    <preCondition code="f4a607f2-1703-9cad-001f-000043cd8fbf" preCondition="true" type="SCRIPT">
+        <title lang="ru">Проверка, что "Дедлайн" на форме в будущем</title>
+        <property code="script">SCRIPTSD4002250deadline</property>
+    </preCondition>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

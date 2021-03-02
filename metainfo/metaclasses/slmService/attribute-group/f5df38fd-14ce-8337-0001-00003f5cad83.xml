@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f5df38fd-14ce-8337-0001-00003f5cad83" seg-type="attribute-group">
+    <code>f5df38fd-14ce-8337-0001-00003f5cad83</code>
+    <title lang="client">Карточка в мобильном приложении (f5df38fd-14ce-8337-0001-00003f5cad83)</title>
+    <title lang="en">Mobile Object card (f5df38fd-14ce-8337-0001-00003f5cad83)</title>
+    <title lang="ru">Карточка в мобильном приложении (f5df38fd-14ce-8337-0001-00003f5cad83)</title>
+    <attribute>title</attribute>
+    <attribute>inventoryNumber</attribute>
+    <attribute>description</attribute>
+    <attribute>customer</attribute>
+    <attribute>responsible</attribute>
+    <attribute>callCases</attribute>
+    <attribute>category</attribute>
+    <attribute>agreements</attribute>
+    <order>title</order>
+    <order>inventoryNumber</order>
+    <order>description</order>
+    <order>customer</order>
+    <order>responsible</order>
+    <order>callCases</order>
+    <order>category</order>
+    <order>agreements</order>
+</group>

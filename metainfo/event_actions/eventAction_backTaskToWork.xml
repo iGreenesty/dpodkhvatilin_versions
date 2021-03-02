@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$backTaskToWork" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[backTaskToWork]]></script>
+        </script-action>
+        <code>eventAction$backTaskToWork</code>
+        <description lang="ru"/>
+        <planned-event>
+            <eventType>onsetTimeOfAttr</eventType>
+            <attribute>postoponeTill</attribute>
+            <category>IN_TIME</category>
+            <offsetTime>0</offsetTime>
+            <status>2</status>
+        </planned-event>
+        <fqn>
+            <id>task</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <tags>Zadachi</tags>
+        <title lang="ru">[Скрипт] Возвращает задачу при наступлении времени атрибута "Отложена до"</title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

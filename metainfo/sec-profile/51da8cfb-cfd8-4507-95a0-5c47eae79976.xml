@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="51da8cfb-cfd8-4507-95a0-5c47eae79976" licensed="true" seg-detach="true" seg-id="51da8cfb-cfd8-4507-95a0-5c47eae79976" seg-type="sec-profile" versioning="false">
+    <groups>C1_specialist C3_admin</groups>
+    <roles>employee</roles>
+    <title lang="ru">Специалист</title>
+</security-profile>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="148f040e-7db1-410e-aa0d-a471ad8619d6" seg-type="attribute-group">
+    <code>148f040e-7db1-410e-aa0d-a471ad8619d6</code>
+    <title lang="en">User's information</title>
+    <title lang="ru">Данные о пользователе</title>
+    <attribute>client</attribute>
+    <attribute>clientName</attribute>
+    <attribute>clientEmail</attribute>
+    <attribute>clientPhone</attribute>
+    <order>client</order>
+    <order>clientName</order>
+    <order>clientEmail</order>
+    <order>clientPhone</order>
+</group>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="closed" color="#202020" enabled="true" hardcoded="false" responsibleType="EMPLOYEE_AND_TEAM" seg-detach="true" seg-id="closed" seg-type="state">
+    <title lang="ru">Закрыта</title>
+    <description lang="ru">конечный статус объекта</description>
+    <responsible bean="currentResponsibleStrategy"/>
+    <changeResponsibleButtonVisible>true</changeResponsibleButtonVisible>
+    <stateSetting canEdit="false" canView="true" code="categories" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Категории</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="changeRequests" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Запросы на изменение</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="deadline" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Дедлайн</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="description" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Описание</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="factProbDate" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Фактическая дата возникновения проблемы</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="folders" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Папки</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="icon" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Иконка</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="KBArticles" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Статьи базы знаний</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="KEs" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Конфигурационные единицы</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="postponeTill" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Отложить до</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="probleDecision" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Решение проблемы</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="responsible" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Ответственный</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="rootCause" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Корневая причина</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="rootCI" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Корневая причина- КЕ</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="rootDescr" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Описание корневой причины</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="serviceCalls" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Заявки</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="serviceChoise" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Выбор услуги</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="solution" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Описание решения</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="tasks" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Задачи</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="touchServices" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Затронутые услуги</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="workAroundText" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Текст обходного решения</title>
+    </stateSetting>
+    <stateSetting canEdit="true" canView="true" code="workRecords" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Записи о работе</title>
+    </stateSetting>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

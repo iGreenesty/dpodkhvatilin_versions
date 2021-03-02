@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eb403049-0d4a-5f54-d0a2-74b1ff16a25f" seg-type="contents" uuid="eb403049-0d4a-5f54-d0a2-74b1ff16a25f">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efdd5-16fc-17e2-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">В ответственности сотрудников вложенных отделов</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>problem</id>
+    </class>
+    <attributeGroup>dc8311d3-fc45-441f-8945-66e554449cf2</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/9e88d565-ffad-bf92-07c0-2b42770a4a23/9e88d565-ffad-bf92-07c0-2b42770a4a23.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae6795-15a2-1162-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f6ae6795-15a2-1163-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f6ae6795-15a2-1164-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4faf-168d-1210-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>respForPrblms</attr-link-code>
+    <attrs-chain attr-code="childOUs" class-fqn="ou$ou"/>
+    <attrs-chain attr-code="employees" class-fqn="ou"/>
+    <attrs-chain attr-code="respForPrblms" class-fqn="employee"/>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="abstractBO" code="author"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="problem" code="responsible"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Проблема</caption>
+    </add-form>
+    <nested-attr-link-code>parent</nested-attr-link-code>
+    <nested-attr-link-fqn classFqn="ou" code="parent"/>
+    <nested-hierarchy-attr-fqn>ou$ou@childOUs</nested-hierarchy-attr-fqn>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>true</show-related-with-nested>
+</related-objects>

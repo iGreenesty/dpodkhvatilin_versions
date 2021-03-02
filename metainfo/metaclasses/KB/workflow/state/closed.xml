@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="closed" color="#010101" enabled="true" hardcoded="false" responsibleType="EMPLOYEE_AND_TEAM" seg-detach="true" seg-id="closed" seg-type="state">
+    <title lang="ru">Закрыт</title>
+    <description lang="ru">конечный статус объекта</description>
+    <responsible bean="currentResponsibleStrategy"/>
+    <changeResponsibleButtonVisible>true</changeResponsibleButtonVisible>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

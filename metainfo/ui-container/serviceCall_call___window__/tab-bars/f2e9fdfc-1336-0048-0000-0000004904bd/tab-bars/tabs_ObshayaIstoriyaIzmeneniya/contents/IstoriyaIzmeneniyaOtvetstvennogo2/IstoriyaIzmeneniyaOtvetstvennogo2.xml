@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-history xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="IstoriyaIzmeneniyaOtvetstvennogo2" seg-type="contents" uuid="IstoriyaIzmeneniyaOtvetstvennogo2">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efc08-16fc-16fd-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">История изменения ответственного и статуса</caption>
+    <showCaption>false</showCaption>
+    <class>
+        <id>serviceCall__Evt</id>
+    </class>
+    <attributeGroup>responsible</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/edb34b6c-92d4-6fed-59a7-fa67a57807ca/edb34b6c-92d4-6fed-59a7-fa67a57807ca.xml" parse="xml"/>
+    <xi:include href="tool-panels/f08cc6d1-161d-8810-0008-000001840552.xml" parse="xml"/>
+    <defaultSettings>
+        <columnList>
+            <attr-code>abstractEvt@senderTitle</attr-code>
+            <presentation-code>stringView</presentation-code>
+            <widthColumn>0</widthColumn>
+        </columnList>
+        <columnList>
+            <attr-code>abstractEvt@eventDate</attr-code>
+            <presentation-code>dateTimeWithMillisView</presentation-code>
+            <widthColumn>0</widthColumn>
+        </columnList>
+        <columnList>
+            <attr-code>abstractEvt@responsibleEmployee</attr-code>
+            <presentation-code>boRreference</presentation-code>
+            <widthColumn>0</widthColumn>
+        </columnList>
+        <columnList>
+            <attr-code>abstractEvt@responsibleTeam</attr-code>
+            <presentation-code>boRreference</presentation-code>
+            <widthColumn>0</widthColumn>
+        </columnList>
+        <columnList>
+            <attr-code>abstractEvt@responsibleElapsed</attr-code>
+            <presentation-code>timerElapsedV</presentation-code>
+            <widthColumn>0</widthColumn>
+        </columnList>
+        <columnList>
+            <attr-code>abstractEvt@newResponsibleEmployee</attr-code>
+            <presentation-code>boRreference</presentation-code>
+            <widthColumn>0</widthColumn>
+        </columnList>
+        <columnList>
+            <attr-code>abstractEvt@newResponsibleTeam</attr-code>
+            <presentation-code>boRreference</presentation-code>
+            <widthColumn>0</widthColumn>
+        </columnList>
+        <inherit>false</inherit>
+        <listFilter seg-detach="false" uuid="f08cc6d2-161d-8811-0008-000001840552">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="a7c5a921-8422-6df0-c2f4-f83fbb5a5afc">
+                <profiles/>
+                <tags/>
+                <elements seg-detach="false" uuid="6968111b-6c89-446c-478f-8514193b1a89">
+                    <profiles/>
+                    <tags/>
+                    <properties>
+                        <entry>
+                            <key>attrTypeCode</key>
+                            <value>bool</value>
+                        </entry>
+                        <entry>
+                            <key>conditionCode</key>
+                            <value>contains</value>
+                        </entry>
+                        <entry>
+                            <key>attributeFqn</key>
+                            <value>abstractEvt@responsibleChanged</value>
+                        </entry>
+                    </properties>
+                    <value>
+                        <bool>true</bool>
+                    </value>
+                </elements>
+            </elements>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f08cc724-161d-8871-0008-000001840552">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="48a16eb7-3f0a-734b-7878-b0f848d84dd8">
+                <profiles/>
+                <tags/>
+                <attrCode>abstractEvt@eventDate</attrCode>
+                <attrTitle>Время события</attrTitle>
+                <ascending>false</ascending>
+            </elements>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4cf5-168d-117b-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+</user-history>

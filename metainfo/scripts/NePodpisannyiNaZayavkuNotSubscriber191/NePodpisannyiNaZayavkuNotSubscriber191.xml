@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="NePodpisannyiNaZayavkuNotSubscriber191" seg-type="scripts">
+    <code>NePodpisannyiNaZayavkuNotSubscriber191</code>
+    <title lang="ru">Не подписанный на заявку. Права</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="NePodpisannyiNaZayavkuNotSubscriber191.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

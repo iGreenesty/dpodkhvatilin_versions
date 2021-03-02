@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ae8f6939-d481-4518-9994-136c4682bce7" seg-type="attribute-group">
+    <code>ae8f6939-d481-4518-9994-136c4682bce7</code>
+    <title lang="ru">Общие сведения</title>
+    <attribute>state</attribute>
+    <attribute>author</attribute>
+    <attribute>client</attribute>
+    <attribute>time</attribute>
+    <attribute>employee</attribute>
+    <attribute>creationDate</attribute>
+    <attribute>actualDate</attribute>
+    <attribute>description</attribute>
+    <order>state</order>
+    <order>author</order>
+    <order>client</order>
+    <order>time</order>
+    <order>employee</order>
+    <order>creationDate</order>
+    <order>actualDate</order>
+    <order>description</order>
+</group>

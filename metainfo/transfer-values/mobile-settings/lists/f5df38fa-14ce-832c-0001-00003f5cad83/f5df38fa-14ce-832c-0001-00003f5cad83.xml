@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f5df38fa-14ce-832c-0001-00003f5cad83" seg-type="lists" uuid="f5df38fa-14ce-832c-0001-00003f5cad83">
+    <profiles/>
+    <tags/>
+    <cases/>
+    <class>
+        <id>serviceCall</id>
+    </class>
+    <attributes>
+        <xi:include href="attributes/title.xml" parse="xml"/>
+        <xi:include href="attributes/shortDescr.xml" parse="xml"/>
+        <xi:include href="attributes/state.xml" parse="xml"/>
+        <xi:include href="attributes/timeAllowanceTimer.xml" parse="xml"/>
+    </attributes>
+    <allowActionsWithObjects>true</allowActionsWithObjects>
+    <caption lang="ru">ЗАЯВКИ: мои</caption>
+    <filters/>
+    <filter seg-detach="false" uuid="f605de23-1778-1b57-0000-000044ccdc1e">
+        <profiles/>
+        <tags/>
+    </filter>
+    <orders>
+        <order code="abstractBO@creationDate" order="desc"/>
+    </orders>
+    <attrs-chain attr-code="serviceCalls" class-fqn="employee"/>
+</related-objects>

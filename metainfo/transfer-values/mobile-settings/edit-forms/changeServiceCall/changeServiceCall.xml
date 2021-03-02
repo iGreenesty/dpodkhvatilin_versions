@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<edit-form xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="changeServiceCall" seg-type="edit-forms" uuid="changeServiceCall">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>d9c1ca35-3f93-4c02-b8b1-2c058bc24c36</profile>
+        <profile>a3a3160f-1b5c-44fb-adf2-632a69c45924</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        <profile>1091fac0-666d-42d3-ac24-df1a5cd6a8d3</profile>
+        <profile>b17ab471-83e6-4dd6-bcd6-04d902996910</profile>
+    </profiles>
+    <tags/>
+    <cases/>
+    <class>
+        <id>serviceCall</id>
+    </class>
+    <attributes>
+        <xi:include href="attributes/responsible.xml" parse="xml"/>
+        <xi:include href="attributes/urgency.xml" parse="xml"/>
+        <xi:include href="attributes/impact.xml" parse="xml"/>
+    </attributes>
+</edit-form>

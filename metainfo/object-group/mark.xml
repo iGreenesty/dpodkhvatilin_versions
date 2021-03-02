@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<class xmlns:xi="http://www.w3.org/2001/XInclude" id="mark" seg-detach="true" seg-id="mark" seg-type="object-group">
+    <object>
+        <attribute code="code">
+            <string>1</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>1.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>1715</size>
+                    <content encoding="base64">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</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>mark</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>1 - Крайне низко</ru>
+                <en>1 - Крайне низкая</en>
+                <client>1 - Крайне низкая</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>mark$559705</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>2</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>2.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>1881</size>
+                    <content encoding="base64">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</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>mark</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>2 - Низко</ru>
+                <en>2 - Низкая</en>
+                <client>2 - Низкая</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>mark$559704</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>3</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>3.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>1830</size>
+                    <content encoding="base64">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</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>mark</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>3- Удовлетворительно</ru>
+                <en>3- Удовлетворительная</en>
+                <client>3- Удовлетворительная</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>mark$559703</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>4</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>4.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>1900</size>
+                    <content encoding="base64">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</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>mark</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>4 - Хорошо</ru>
+                <en>4 - Хорошая</en>
+                <client>4 - Хорошая</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>mark$559702</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>5</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true">
+            <list>
+                <file>
+                    <title>5.png</title>
+                    <mimeType>image/png</mimeType>
+                    <size>1293</size>
+                    <content encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAHAAAAAYCAYAAAAiR3l8AAAE1ElEQVR42u3Ye0xTdxQHcNDNbYkScDgMIxu6Lcvilj0yTaRVtrAYcVvEuMyBlkLLpmMCMiF0CqEIyFMBad3YoOKggO0SBKE8JlEwEWbmUB6DgaxYmI+MOSAS41/f3XN3aWF0QG0LbdJfcnLv7/zO73Pb03vbgJOTCaOuQMqncLLwcLjWdfWj5sShSxQO175cdpzLi+M3KY6i6VQ66NziriLN4VrB1Y+q7AOXBtoaMHDlPM5mf9lsUfenRtatyo7W2LpL793Qh+gLtu6yozIjYkOd7BAe3OrFg9v9qJMfBuXMddXpkT725FqrD9ZyDQ1J2afRXq7BxOB1TNzshLZVA8pZzL3Z8a/bRu7eGvtyrdUHM92y1DCPM0fEvIokcVRdfhwejugw2l6PsWuNePjXMOrzv0JFkiiCaqj2kd0/p7u1ubE26ooijLnm98ECrlIqWqtMECQrE4QqZbzwqjI+eLwyLRwXC5PQca4Io9pO3B/4GSPNJRhpKcWE9hrGdb3o0pxGiyIVlWlfgPawe8kgi0wmShOEScxaxXzdMV0POmuLZ7qMwVqL5F6vLrQ5V/8BSqXSJSWSwGJVohC6RgXutTdg/NdmjHWcx+gvGty7UoU79TLcqc1lIg936+X4+2oNu0519/vaMNp9EUMXyqBKDAFZZFKUSoK+N+q21810G05OcVsWxf3fPhhzp/Vh4d1pTyElTsV8VFx9RIjhqizoSmIxWBQB3ekYDCklGCqPx/CZRAyrpOyR5pRn18sP45ZGhpoUEciYijtc67ozPsSi6O156rgd6MvdgwGZEL+fFENbsA+D34VjsHA/e1H2yMwpr/3mU/TLRfhBshNFBwJyjOGsGxUgN9XtW0zXnD4wexfSnTG+3e+fVRbtj67UD9GXuQP9xz/GjZxA3MgLMgQzp3x3egCU0e+D9szpRmw7Vm5PLlNjilu2yO608XX4ljxVpB96Et9BT5IfepO3oDdlK35L9WePNKe8Kuo9UK1JbpSduZH24+qHPOzdYPXnG9F58HV0xb6Frri30SVZj27JBvbIzpm8OpwHqnW4tuHqhyxsc06V6BVcFnuhNex5tH62Bm171+qD5pQ/K14Hqp2/63tifu6rNuJaqw/WcQ0XEPk2qXY9i+qdrvpQfeLFxrQcU0O1Zru7ZrryMN8fbdFVM67aCn2whGu4gNj3D8UHK6HY5gJFwGoUCN4Ek+umoHPKsWtMDdWa8MLvzu562JY7Zx9sy2XHidBNq+ShPORtdYc88DW6A7Q5IZtCvL2dnqQ4LuSHUo7W2JpQPmiP+S5PbHCfZt20IL7bYru5tEfv8kXG3FzONaUPlnadmaC/MR7L2L3RTybajHyR7+1sAf+gl5fLSibvygS9aTp38/Rc4Z65hxdDNVRLe5j8MtrPWY/kvuCx/Bl7cufow5IFcPX4Um7xiaxgftCxYH7ieu9Vq5k5/SPVi4k1TLzIxEvckeZe6zzdnssU8JKOBvkImPlTtJ9zlnIX0rsZAh/BfN03vF29M3f7JC+mS33IZt4b72V3Txt1nY1+gFzhCu6OmPUC3LobVz/rC3e4FnedjX6Fco/q5IWWM+Hy30ecm7tw65Pw1Efc2eEuiDvr7+HkXfM4F8umxGRu6l3mPM/fWYdrHdcx7G38Ax5VkJ9S3UC1AAAAAElFTkSuQmCC</content>
+                </file>
+            </list>
+        </attribute>
+        <attribute code="metaClass">
+            <string>mark</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>5 - Отлично</ru>
+                <en>5 - Отличная</en>
+                <client>5 - Отличная</client>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>mark$559701</string>
+        </attribute>
+    </object>
+</class>

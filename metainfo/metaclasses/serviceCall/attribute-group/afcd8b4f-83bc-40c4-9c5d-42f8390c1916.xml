@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="afcd8b4f-83bc-40c4-9c5d-42f8390c1916" seg-type="attribute-group">
+    <code>afcd8b4f-83bc-40c4-9c5d-42f8390c1916</code>
+    <title lang="ru">Для карточки ИТ-актива</title>
+    <attribute>number</attribute>
+    <attribute>registrationDate</attribute>
+    <attribute>shortDescr</attribute>
+    <attribute>client</attribute>
+    <attribute>metaClass</attribute>
+    <attribute>responsible</attribute>
+    <attribute>state</attribute>
+    <attribute>priority</attribute>
+    <attribute>descriptionRTF</attribute>
+    <order>number</order>
+    <order>registrationDate</order>
+    <order>shortDescr</order>
+    <order>client</order>
+    <order>metaClass</order>
+    <order>responsible</order>
+    <order>state</order>
+    <order>priority</order>
+    <order>descriptionRTF</order>
+</group>

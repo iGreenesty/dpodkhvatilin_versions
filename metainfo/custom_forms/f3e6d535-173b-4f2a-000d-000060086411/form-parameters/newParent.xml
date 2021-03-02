@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="newParent" seg-type="form-parameters">
+    <attrs-for-date-time-restriction-script/>
+    <attrs-in-cof-script/>
+    <attrs-used-in-filtration/>
+    <code>newParent</code>
+    <complexRelation>false</complexRelation>
+    <complexRelationAggrAttrGroups>
+        <entry>
+            <key>
+                <id>employee</id>
+            </key>
+        </entry>
+        <entry>
+            <key>
+                <id>ou</id>
+            </key>
+        </entry>
+        <entry>
+            <key>
+                <id>team</id>
+            </key>
+        </entry>
+    </complexRelationAggrAttrGroups>
+    <computable-on-form>false</computable-on-form>
+    <default-by-script>false</default-by-script>
+    <description>Значение [не указано] переместит отдел на верхний уровень</description>
+    <edit-presentaion>
+        <code>boSelect</code>
+    </edit-presentaion>
+    <editable>true</editable>
+    <is-filtered-by-script>true</is-filtered-by-script>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <is-hidden-when-no-possible-values>false</is-hidden-when-no-possible-values>
+    <required>false</required>
+    <script-for-filtration>FiltraciyaOtdelovPoTipuOtdela</script-for-filtration>
+    <title lang="ru">Отдел - назначение</title>
+    <type>
+        <code>object</code>
+        <property code="permittedTypes">["ou"]</property>
+        <property code="metaClassFqn">ou</property>
+        <property code="complexRelation">false</property>
+    </type>
+    <view-presentaion>
+        <code>boRreference</code>
+    </view-presentaion>
+</parameter>

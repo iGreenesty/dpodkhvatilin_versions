@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<show-removed xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="showRemoved_ffc87b9c-1742-535d-001f-000036b4a082" seg-type="tools" uuid="ffc87b9c-1742-535d-001f-000036b4a082">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <iconCode>restore_icon</iconCode>
+    <params/>
+    <presentationType>defaultIconOnly</presentationType>
+    <action>showRemoved</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <action>showRemoved</action>
+</show-removed>

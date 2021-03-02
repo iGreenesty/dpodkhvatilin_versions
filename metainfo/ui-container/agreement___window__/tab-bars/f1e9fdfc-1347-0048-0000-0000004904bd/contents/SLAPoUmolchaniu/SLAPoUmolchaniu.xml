@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="SLAPoUmolchaniu" seg-type="contents" uuid="SLAPoUmolchaniu">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="07edd5bb-217a-93bf-c88a-73dc62ba368d">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">SLA по умолчанию</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>SLAPoUmolchaniu</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/dac555b9-e97f-78a2-4acd-f8f24f6943d9.xml" parse="xml"/>
+</properties>

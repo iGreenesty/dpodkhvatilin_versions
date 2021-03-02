@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="stopped" color="#0000FF" enabled="true" hardcoded="false" responsibleType="EMPLOYEE_AND_TEAM" seg-detach="true" seg-id="stopped" seg-type="state">
+    <title lang="ru">Отложена</title>
+    <description lang="ru"/>
+    <responsible bean="currentResponsibleStrategy"/>
+    <changeResponsibleButtonVisible>true</changeResponsibleButtonVisible>
+    <stateSetting canEdit="false" canView="false" code="dateDecision" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Дата решения</title>
+    </stateSetting>
+    <stateSetting canEdit="true" canView="true" code="postoponeTill" postFill="0" preFill="1" requredInState="false">
+        <title lang="ru">Отложить до</title>
+    </stateSetting>
+    <stateSetting canEdit="true" canView="true" code="responsible" postFill="1" preFill="0" requredInState="false">
+        <title lang="ru">Ответственный</title>
+    </stateSetting>
+    <postAction code="f0ce746a-16ff-c5f8-0005-000014127783" preAction="false" type="SCRIPT">
+        <title lang="ru">Затирает время "Отложена до"</title>
+        <property code="script">clearPostoponeTill</property>
+    </postAction>
+    <postActionsOrder>f0ce746a-16ff-c5f8-0005-000014127783</postActionsOrder>
+    <preCondition code="feeb4722-1702-2e9e-000c-000043cd8fbf" preCondition="true" type="SCRIPT">
+        <title lang="ru">Проверка, что "Отложить до" на форме в будущем</title>
+        <property code="script">SCRIPTSD4002250postoponeTill</property>
+    </preCondition>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

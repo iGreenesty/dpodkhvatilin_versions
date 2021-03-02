@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="descriptionInRTF_descriptionInRTF" seg-type="search-settings">
+    <simpleSearchableForLicensed>false</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>false</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>false</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>false</extendedSearchableForLicensed>
+    <searchAlias lang="ru"/>
+    <searchAnalizer>ftsRussianAnalyzer</searchAnalizer>
+    <searchBoost>1.5</searchBoost>
+    <code>descriptionInRTF</code>
+    <declaredMetaClass>serviceCall</declaredMetaClass>
+    <title lang="en">Description</title>
+    <title lang="ru">Описание (сист.)</title>
+    <attrCode>descriptionInRTF</attrCode>
+</searchSetting>

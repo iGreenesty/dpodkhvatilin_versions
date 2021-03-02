@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="serviceTime" seg-type="attribute-override">
+    <code>serviceTime</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <title lang="client"/>
+    <title lang="de"/>
+    <title lang="en"/>
+    <title lang="ru">График работы</title>
+    <description lang="client"/>
+    <description lang="de"/>
+    <description lang="en"/>
+    <description lang="ru"/>
+    <type>
+        <property code="complexRelation">false</property>
+        <property code="metaClassFqn">servicetime</property>
+        <property code="code">catalogItem</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <editPresentation>
+        <code>catItemEdit</code>
+        <property code="selectSorting">code</property>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <defaultValue>
+        <catalog-item catalog="servicetime" code="class_8x5_24.10.2013 15:44:30" uuid="servicetime$2347503"/>
+    </defaultValue>
+    <defaultByScript>false</defaultByScript>
+    <xi:include href="search-settings/serviceTime_serviceTime.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</override>

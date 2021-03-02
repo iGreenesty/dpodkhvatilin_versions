@@ -1,0 +1,1 @@
+return (subject.isGenPass) ? '' : 'Генерация пароля отключена'

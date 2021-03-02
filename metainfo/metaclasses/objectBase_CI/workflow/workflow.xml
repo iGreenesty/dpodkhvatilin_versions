@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workflow xmlns:xi="http://www.w3.org/2001/XInclude" inherit="true" seg-detach="true" seg-id="workflow" seg-type="workflow">
+    <xi:include href="state/broken.xml" parse="xml"/>
+    <xi:include href="state/closed.xml" parse="xml"/>
+    <xi:include href="state/registered.xml" parse="xml"/>
+    <xi:include href="state/repair.xml" parse="xml"/>
+    <statesOrder>registered</statesOrder>
+    <statesOrder>closed</statesOrder>
+    <statesOrder>broken</statesOrder>
+    <statesOrder>repair</statesOrder>
+    <statesOrder>repair</statesOrder>
+    <xi:include href="transition/broken-registered.xml" parse="xml"/>
+    <xi:include href="transition/broken-repair.xml" parse="xml"/>
+    <xi:include href="transition/registered-broken.xml" parse="xml"/>
+    <xi:include href="transition/repair-broken.xml" parse="xml"/>
+    <xi:include href="transition/repair-registered.xml" parse="xml"/>
+</workflow>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="slmService_quickAddAndEditForm$aaa4f318-9c96-9521-8300-f95ca8d8647c" seg-type="ui-container">
+    <fqn>
+        <id>slmService</id>
+    </fqn>
+    <code>quickAddAndEditForm$aaa4f318-9c96-9521-8300-f95ca8d8647c</code>
+    <quickform seg-detach="false" uuid="quickAddAndEditForm$aaa4f318-9c96-9521-8300-f95ca8d8647c">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Для быстрого добавления услуги из соглашения</caption>
+        <layout seg-detach="false" uuid="eccde2fd-c41b-13a9-ac31-dd6da4f9a275">
+            <profiles/>
+            <tags/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <attrGroup>fastEdit</attrGroup>
+        <custom-form>QuickForm</custom-form>
+        <show-attr-description>false</show-attr-description>
+        <transitioncases>
+            <id>slmService</id>
+            <case>slmService</case>
+        </transitioncases>
+        <code>aaa4f318-9c96-9521-8300-f95ca8d8647c</code>
+    </quickform>
+</ui>

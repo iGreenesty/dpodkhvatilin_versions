@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="667641a9-5af7-4c76-bcc1-07b3a3c28add" seg-type="attribute-group">
+    <code>667641a9-5af7-4c76-bcc1-07b3a3c28add</code>
+    <title lang="ru">Для сложной формы в Получаемых соглашениях Сотрудника</title>
+    <attribute>title</attribute>
+    <attribute>supportHours</attribute>
+    <attribute>endDate</attribute>
+    <order>title</order>
+    <order>supportHours</order>
+    <order>endDate</order>
+</group>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="recipientAgreements" seg-type="attribute-override">
+    <code>recipientAgreements</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="client"/>
+    <title lang="de"/>
+    <title lang="en">SLA's</title>
+    <title lang="ru">Получаемые соглашения</title>
+    <description lang="client"/>
+    <description lang="de"/>
+    <description lang="en"/>
+    <description lang="ru"/>
+    <type>
+        <property code="permittedTypes">["agreement","agreement$agreement"]</property>
+        <property code="metaClassFqn">agreement</property>
+        <property code="complexRelation">true</property>
+        <property code="code">boLinks</property>
+        <property code="complexAttrGroupCode">667641a9-5af7-4c76-bcc1-07b3a3c28add</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>boLinksView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>boLinksEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <defaultValue list="true">
+        <entity uuid="agreement$605301"/>
+    </defaultValue>
+    <defaultByScript>false</defaultByScript>
+    <xi:include href="search-settings/recipientAgreements_recipientAgreements.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</override>

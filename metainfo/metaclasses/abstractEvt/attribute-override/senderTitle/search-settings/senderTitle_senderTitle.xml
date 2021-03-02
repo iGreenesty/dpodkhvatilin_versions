@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="senderTitle_senderTitle" seg-type="search-settings">
+    <simpleSearchableForLicensed>false</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>false</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>false</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>false</extendedSearchableForLicensed>
+    <searchBoost>1.0</searchBoost>
+    <code>senderTitle</code>
+    <declaredMetaClass>abstractEvt</declaredMetaClass>
+    <title lang="en">Title of event author</title>
+    <title lang="ru">Название автора производимого события</title>
+    <attrCode>senderTitle</attrCode>
+</searchSetting>

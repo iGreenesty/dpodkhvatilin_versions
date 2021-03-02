@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="EmailPodpischikamOSmeneStatusaZadachi" seg-type="scripts">
+    <code>EmailPodpischikamOSmeneStatusaZadachi</code>
+    <title lang="ru">[E-mail] Подписчикам о смене статуса задачи</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="EmailPodpischikamOSmeneStatusaZadachi.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

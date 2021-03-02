@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-event-tool xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fireUserEvent_e149239f-0e30-9e34-4cfe-afb0b579159c" seg-type="tools" uuid="e149239f-0e30-9e34-4cfe-afb0b579159c">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <params/>
+    <presentationType>defaultTextOnly</presentationType>
+    <action>fireUserEvent</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="ru">Подписаться</caption>
+    <event-uuid>userEvent$173</event-uuid>
+    <use-quick-form>false</use-quick-form>
+</user-event-tool>

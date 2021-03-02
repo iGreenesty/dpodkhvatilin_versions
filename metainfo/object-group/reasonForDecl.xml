@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<class xmlns:xi="http://www.w3.org/2001/XInclude" id="reasonForDecl" seg-detach="true" seg-id="reasonForDecl" seg-type="object-group">
+    <object>
+        <attribute code="code">
+            <string>cannnotbechanged</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>reasonForDecl</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Невыполнимое изменение</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>reasonForDecl$606301</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>notFull</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>reasonForDecl</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Неполное/неправильное описание</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>reasonForDecl$606303</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>repeatedRequest</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>reasonForDecl</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Повторный запрос</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>reasonForDecl$606302</string>
+        </attribute>
+    </object>
+</class>

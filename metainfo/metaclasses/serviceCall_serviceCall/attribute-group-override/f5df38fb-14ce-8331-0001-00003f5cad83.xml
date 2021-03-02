@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f5df38fb-14ce-8331-0001-00003f5cad83" seg-type="attribute-group-override">
+    <code>f5df38fb-14ce-8331-0001-00003f5cad83</code>
+    <title lang="client">Карточка в мобильном приложении (f5df38fb-14ce-8331-0001-00003f5cad83)</title>
+    <title lang="en">Mobile Object card (f5df38fb-14ce-8331-0001-00003f5cad83)</title>
+    <title lang="ru">Карточка в мобильном приложении (f5df38fb-14ce-8331-0001-00003f5cad83)</title>
+    <attribute>number</attribute>
+    <attribute>shortDescr</attribute>
+    <attribute>service</attribute>
+    <attribute>metaClass</attribute>
+    <attribute>priority</attribute>
+    <attribute>state</attribute>
+    <attribute>timeAllowanceTimer</attribute>
+    <attribute>coloOverdue</attribute>
+    <attribute>descriptionRTF</attribute>
+    <attribute>client</attribute>
+    <attribute>clientName</attribute>
+    <attribute>clientEmail</attribute>
+    <attribute>clientPhone</attribute>
+    <attribute>responsible</attribute>
+    <attribute>tasks</attribute>
+    <order>number</order>
+    <order>shortDescr</order>
+    <order>service</order>
+    <order>metaClass</order>
+    <order>priority</order>
+    <order>state</order>
+    <order>timeAllowanceTimer</order>
+    <order>coloOverdue</order>
+    <order>descriptionRTF</order>
+    <order>client</order>
+    <order>clientName</order>
+    <order>clientEmail</order>
+    <order>clientPhone</order>
+    <order>responsible</order>
+    <order>tasks</order>
+</override>

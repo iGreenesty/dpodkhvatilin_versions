@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="db9d05bd-e596-4e3c-80ed-87d44c04ea3b" enabled="true" group="viewAttrs" seg-detach="true" seg-id="db9d05bd-e596-4e3c-80ed-87d44c04ea3b" seg-type="marker-declarations">
+    <title lang="ru">Системные атрибуты</title>
+    <attributes>license</attributes>
+    <attributes>folders</attributes>
+    <attributes>performer</attributes>
+    <attributes>removalDate</attributes>
+    <attributes>teams</attributes>
+    <attributes>lastModifiedDate</attributes>
+    <attributes>author</attributes>
+    <attributes>employeeSecGroups</attributes>
+    <attributes>creationDate</attributes>
+</marker-declaration>

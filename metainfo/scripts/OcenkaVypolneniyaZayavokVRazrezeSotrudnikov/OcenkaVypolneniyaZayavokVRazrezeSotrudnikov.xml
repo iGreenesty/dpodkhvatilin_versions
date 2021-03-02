@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="OcenkaVypolneniyaZayavokVRazrezeSotrudnikov" seg-type="scripts">
+    <code>OcenkaVypolneniyaZayavokVRazrezeSotrudnikov</code>
+    <title lang="ru">Оценка выполнения заявок в разрезе сотрудников</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="OcenkaVypolneniyaZayavokVRazrezeSotrudnikov.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

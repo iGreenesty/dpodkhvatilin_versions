@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="5127ef24-a704-c7d2-f20b-9c0830acf000" seg-type="tab-bars" uuid="5127ef24-a704-c7d2-f20b-9c0830acf000">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fb409aeb-16fe-3fd4-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="9c47a4c4-d036-0137-6632-cc81cec47198">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Открытые</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="8c558ab4-c368-63e8-8d4b-c8666dfcca31">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/c625f813-68c6-7edd-5f97-e49579b5d8ad/c625f813-68c6-7edd-5f97-e49579b5d8ad.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fb409aeb-16fe-3fd5-0002-000014127783">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="c3235b09-8016-7380-4323-92da8e471c91">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Просроченные открытые</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="9efa9a50-d290-5aed-059c-f2414af61ff3">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f9328eb3-e81d-a4e2-ef04-11310b93fa1c/f9328eb3-e81d-a4e2-ef04-11310b93fa1c.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fb409aeb-16fe-3fd7-0002-000014127783">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="351f82fc-5c44-d8af-4bd5-99aaece820f5">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Зарегистрированные и решенные (за текущий день)</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="508cab2c-2555-07a3-5eaf-326a937751c9">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/3c7ea592-867d-782e-085a-884457ac67af/3c7ea592-867d-782e-085a-884457ac67af.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fb409aeb-16fe-3fd9-0002-000014127783">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

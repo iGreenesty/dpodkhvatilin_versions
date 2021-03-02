@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<editable-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="allRecipients" seg-type="contents" uuid="allRecipients">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="10f16004-f13f-45c6-9c19-aefbe3ccb31d">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Получатели</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>allRecipients</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/f2feb968-1746-ed56-003d-000036b4a082.xml" parse="xml"/>
+    <resetValuesIfHidden>false</resetValuesIfHidden>
+</editable-properties>

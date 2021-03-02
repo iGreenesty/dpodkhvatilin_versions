@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<conditions xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" seg-detach="true" seg-id="actionCondition$89" seg-type="script-action-condition" xsi:type="ScriptActionCondition">
+    <code>actionCondition$89</code>
+    <syncVerification>false</syncVerification>
+    <title>Скрипт</title>
+    <type>SCRIPT</type>
+    <script><![CDATA[Skript82]]></script>
+</conditions>

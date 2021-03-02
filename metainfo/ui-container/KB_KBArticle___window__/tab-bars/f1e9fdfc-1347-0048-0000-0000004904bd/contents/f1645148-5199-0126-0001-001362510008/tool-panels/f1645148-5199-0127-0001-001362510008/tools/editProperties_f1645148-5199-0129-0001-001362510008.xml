@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" seg-detach="true" seg-id="editProperties_f1645148-5199-0129-0001-001362510008" seg-type="tools" uuid="f1645148-5199-0129-0001-001362510008" xsi:type="EditTool">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <params/>
+    <presentationType>default</presentationType>
+    <action>editProperties</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="ru">Оценить</caption>
+    <useQuickEditForm>false</useQuickEditForm>
+</action>

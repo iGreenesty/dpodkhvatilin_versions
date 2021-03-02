@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="e8df2565-eacf-4ade-83b5-495f760d39f2" seg-type="attribute-group">
+    <code>e8df2565-eacf-4ade-83b5-495f760d39f2</code>
+    <title lang="ru">В рамках</title>
+    <attribute>serviceCall</attribute>
+    <attribute>changeRequest</attribute>
+    <attribute>task</attribute>
+    <attribute>problem</attribute>
+    <order>serviceCall</order>
+    <order>changeRequest</order>
+    <order>task</order>
+    <order>problem</order>
+</group>

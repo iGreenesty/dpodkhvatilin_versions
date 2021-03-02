@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectAction xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="249ccf59-b378-a192-c722-9aa1e5ad7be4" seg-type="object-actions">
+    <caption lang="en">Change type</caption>
+    <caption lang="ru">Изменить тип</caption>
+    <code>changeCase</code>
+    <required-fields/>
+    <type>system</type>
+    <uuid>249ccf59-b378-a192-c722-9aa1e5ad7be4</uuid>
+</objectAction>

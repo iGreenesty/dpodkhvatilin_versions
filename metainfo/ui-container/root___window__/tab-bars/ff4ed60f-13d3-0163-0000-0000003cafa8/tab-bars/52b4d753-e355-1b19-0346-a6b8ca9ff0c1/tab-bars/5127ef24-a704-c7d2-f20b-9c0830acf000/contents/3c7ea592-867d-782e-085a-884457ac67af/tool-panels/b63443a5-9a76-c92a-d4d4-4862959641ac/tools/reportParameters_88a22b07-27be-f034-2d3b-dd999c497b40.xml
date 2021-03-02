@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="reportParameters_88a22b07-27be-f034-2d3b-dd999c497b40" seg-type="tools" uuid="88a22b07-27be-f034-2d3b-dd999c497b40">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <params/>
+    <presentationType>push</presentationType>
+    <action>reportParameters</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Parameters...</caption>
+    <caption lang="ru">Параметры..</caption>
+</action>

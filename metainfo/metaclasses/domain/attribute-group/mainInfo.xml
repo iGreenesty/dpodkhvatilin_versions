@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="mainInfo" seg-type="attribute-group">
+    <code>mainInfo</code>
+    <title lang="ru">Основная информация</title>
+    <attribute>title</attribute>
+    <attribute>company</attribute>
+</group>

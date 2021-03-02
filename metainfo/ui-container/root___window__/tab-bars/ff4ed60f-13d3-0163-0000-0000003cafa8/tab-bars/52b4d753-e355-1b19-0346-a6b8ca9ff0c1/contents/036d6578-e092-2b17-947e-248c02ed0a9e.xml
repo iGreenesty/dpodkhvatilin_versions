@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<reports-list xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="036d6578-e092-2b17-947e-248c02ed0a9e" seg-type="contents" uuid="036d6578-e092-2b17-947e-248c02ed0a9e">
+    <profiles/>
+    <tags>
+        <tag>Zadachi</tag>
+    </tags>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fb409aec-16fe-3fe2-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Задачи</caption>
+    <showCaption>true</showCaption>
+    <templates>4546</templates>
+    <templates>4562</templates>
+</reports-list>

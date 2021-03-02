@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="3b94c05d-3828-4fca-aed7-98347e062b0e" seg-type="attribute-group">
+    <code>3b94c05d-3828-4fca-aed7-98347e062b0e</code>
+    <title lang="ru">Для карточки заявки</title>
+    <attribute>objectNumber</attribute>
+    <attribute>creationDate</attribute>
+    <attribute>deadline</attribute>
+    <attribute>state</attribute>
+    <attribute>author</attribute>
+    <attribute>responsible</attribute>
+    <order>objectNumber</order>
+    <order>creationDate</order>
+    <order>deadline</order>
+    <order>state</order>
+    <order>author</order>
+    <order>responsible</order>
+</group>

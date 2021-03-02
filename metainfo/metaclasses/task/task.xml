@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="task" seg-type="metaclasses">
+    <fqn>
+        <id>task</id>
+    </fqn>
+    <parent>
+        <id>userEntity</id>
+    </parent>
+    <title lang="ru">Задача</title>
+    <description lang="ru"/>
+    <properties/>
+    <tags>
+        <tag>Zadachi</tag>
+    </tags>
+    <responsibilityTransferTableEnabled>false</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/folders.xml" parse="xml"/>
+        <xi:include href="attribute/responsible.xml" parse="xml"/>
+        <xi:include href="attribute/responsibleEmployee.xml" parse="xml"/>
+        <xi:include href="attribute/responsibleStartTime.xml" parse="xml"/>
+        <xi:include href="attribute/responsibleTeam.xml" parse="xml"/>
+        <xi:include href="attribute/state.xml" parse="xml"/>
+        <xi:include href="attribute/stateStartTime.xml" parse="xml"/>
+        <xi:include href="attribute/changeRequest/changeRequest.xml" parse="xml"/>
+        <xi:include href="attribute/clientSC/clientSC.xml" parse="xml"/>
+        <xi:include href="attribute/coloOverdue/coloOverdue.xml" parse="xml"/>
+        <xi:include href="attribute/dateDecision/dateDecision.xml" parse="xml"/>
+        <xi:include href="attribute/deadline/deadline.xml" parse="xml"/>
+        <xi:include href="attribute/description/description.xml" parse="xml"/>
+        <xi:include href="attribute/descriptionSC/descriptionSC.xml" parse="xml"/>
+        <xi:include href="attribute/email30Date/email30Date.xml" parse="xml"/>
+        <xi:include href="attribute/icon/icon.xml" parse="xml"/>
+        <xi:include href="attribute/isOverdue/isOverdue.xml" parse="xml"/>
+        <xi:include href="attribute/objectNumber/objectNumber.xml" parse="xml"/>
+        <xi:include href="attribute/overdue/overdue.xml" parse="xml"/>
+        <xi:include href="attribute/planDate/planDate.xml" parse="xml"/>
+        <xi:include href="attribute/postoponeTill/postoponeTill.xml" parse="xml"/>
+        <xi:include href="attribute/problem/problem.xml" parse="xml"/>
+        <xi:include href="attribute/resumptionSum/resumptionSum.xml" parse="xml"/>
+        <xi:include href="attribute/serviceCall/serviceCall.xml" parse="xml"/>
+        <xi:include href="attribute/serviceTime/serviceTime.xml" parse="xml"/>
+        <xi:include href="attribute/solveTimeRes/solveTimeRes.xml" parse="xml"/>
+        <xi:include href="attribute/stateSC/stateSC.xml" parse="xml"/>
+        <xi:include href="attribute/subscribers/subscribers.xml" parse="xml"/>
+        <xi:include href="attribute/sumApprovedWR/sumApprovedWR.xml" parse="xml"/>
+        <xi:include href="attribute/sumWorkRecords/sumWorkRecords.xml" parse="xml"/>
+        <xi:include href="attribute/templateTask/templateTask.xml" parse="xml"/>
+        <xi:include href="attribute/timeToSolve/timeToSolve.xml" parse="xml"/>
+        <xi:include href="attribute/timeZone/timeZone.xml" parse="xml"/>
+        <xi:include href="attribute/workRecords/workRecords.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/folders.xml" parse="xml"/>
+        <xi:include href="attribute-override/number/number.xml" parse="xml"/>
+        <xi:include href="attribute-override/responsible/responsible.xml" parse="xml"/>
+        <xi:include href="attribute-override/responsibleEmployee/responsibleEmployee.xml" parse="xml"/>
+        <xi:include href="attribute-override/responsibleStartTime.xml" parse="xml"/>
+        <xi:include href="attribute-override/responsibleTeam/responsibleTeam.xml" parse="xml"/>
+        <xi:include href="attribute-override/state/state.xml" parse="xml"/>
+        <xi:include href="attribute-override/stateStartTime/stateStartTime.xml" parse="xml"/>
+        <xi:include href="attribute-override/title/title.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo>
+        <attribute attribute="templateTask">
+            <fqn>
+                <id>template</id>
+                <case>templateTask</case>
+            </fqn>
+        </attribute>
+    </permittedTypesInfo>
+    <attribute-groups>
+        <xi:include href="attribute-group/0e7f9597-98fd-4423-b146-ac0fefab5568.xml" parse="xml"/>
+        <xi:include href="attribute-group/1ea8431b-f2d5-4c37-87cd-ecd83b7bf557.xml" parse="xml"/>
+        <xi:include href="attribute-group/21c2b425-184b-4bee-bd28-911c38ad39c2.xml" parse="xml"/>
+        <xi:include href="attribute-group/3b94c05d-3828-4fca-aed7-98347e062b0e.xml" parse="xml"/>
+        <xi:include href="attribute-group/557b87bf-69e9-434e-b558-ce018711bfa3.xml" parse="xml"/>
+        <xi:include href="attribute-group/5b40c009-1cfd-4b5b-b685-eebdcdc7b356.xml" parse="xml"/>
+        <xi:include href="attribute-group/655a7498-bb69-4402-9623-66c3fb7372bb.xml" parse="xml"/>
+        <xi:include href="attribute-group/8419ed32-6167-4ade-b1d9-e589e296ace7.xml" parse="xml"/>
+        <xi:include href="attribute-group/898abd98-6562-4c1a-adc6-21c3f39bb3aa.xml" parse="xml"/>
+        <xi:include href="attribute-group/9431f318-1442-4f4b-ae04-8b1383ef6aa2.xml" parse="xml"/>
+        <xi:include href="attribute-group/9b74b010-daf8-40d6-b7aa-906a955c6a59.xml" parse="xml"/>
+        <xi:include href="attribute-group/9bd5c9a7-f51d-4ac2-82d9-2b6f30da1673.xml" parse="xml"/>
+        <xi:include href="attribute-group/a5c0ed8e-efc1-401d-8f88-2da382e409f7.xml" parse="xml"/>
+        <xi:include href="attribute-group/aa1e190c-5d8a-4051-97e0-bf526478c1de.xml" parse="xml"/>
+        <xi:include href="attribute-group/b7ac9acb-0e70-452d-8772-a660fbd17458.xml" parse="xml"/>
+        <xi:include href="attribute-group/ba8b2b3a-4a75-448b-94f7-dd3b3660d57a.xml" parse="xml"/>
+        <xi:include href="attribute-group/bfcdb784-2ef0-43d4-b73e-27f3cc9cfcbe.xml" parse="xml"/>
+        <xi:include href="attribute-group/c52d4bf6-3c5c-4807-ae07-bc8f3c20a2fa.xml" parse="xml"/>
+        <xi:include href="attribute-group/ddcd5470-a8c8-4618-936e-651d7b10d9c7.xml" parse="xml"/>
+        <xi:include href="attribute-group/e2c3ab34-2a50-4811-ad62-22ceff481d2d.xml" parse="xml"/>
+        <xi:include href="attribute-group/f5df38fe-14ce-8338-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="attribute-group/fc749306-6da4-4987-987f-89bd788577cb.xml" parse="xml"/>
+        <xi:include href="attribute-group/FormaBystrogoDobavleniyaZadach.xml" parse="xml"/>
+        <xi:include href="attribute-group/PodpischikiNaZadachu.xml" parse="xml"/>
+        <xi:include href="attribute-group/SummaTrudozatrat.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/mobile_search.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/mobile_search_unlic.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/search.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentText_text.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileContent_content.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileDescription_description.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileTitle_title.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>5</maxSearchResults>
+    <searchOrder>12</searchOrder>
+    <allowPlanVer>false</allowPlanVer>
+    <depthEnv>1</depthEnv>
+    <status>DEFAULT</status>
+</user-metaclass>

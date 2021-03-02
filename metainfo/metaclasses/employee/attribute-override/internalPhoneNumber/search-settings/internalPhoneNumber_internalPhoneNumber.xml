@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="internalPhoneNumber_internalPhoneNumber" seg-type="search-settings">
+    <simpleSearchableForLicensed>true</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>true</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>true</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>true</extendedSearchableForLicensed>
+    <searchAlias lang="ru"/>
+    <searchAnalizer>ftsNoAnalyzer</searchAnalizer>
+    <searchBoost>2.0</searchBoost>
+    <code>internalPhoneNumber</code>
+    <declaredMetaClass>employee</declaredMetaClass>
+    <title lang="ru">Внутренний телефон</title>
+    <title>Внутренний телефон</title>
+    <attrCode>internalPhoneNumber</attrCode>
+</searchSetting>

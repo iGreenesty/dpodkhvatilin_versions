@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<system-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="catalogItem" seg-type="metaclasses">
+    <fqn>
+        <id>catalogItem</id>
+    </fqn>
+    <parent>
+        <id>abstractSysObj</id>
+    </parent>
+    <properties/>
+    <tags/>
+    <responsibilityTransferTableEnabled>true</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/code.xml" parse="xml"/>
+        <xi:include href="attribute/color.xml" parse="xml"/>
+        <xi:include href="attribute/folder.xml" parse="xml"/>
+        <xi:include href="attribute/icon.xml" parse="xml"/>
+        <xi:include href="attribute/parent.xml" parse="xml"/>
+        <xi:include href="attribute/position.xml" parse="xml"/>
+        <xi:include href="attribute/removalDate.xml" parse="xml"/>
+        <xi:include href="attribute/removed.xml" parse="xml"/>
+        <xi:include href="attribute/title.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/code.xml" parse="xml"/>
+        <xi:include href="attribute-override/color.xml" parse="xml"/>
+        <xi:include href="attribute-override/folder.xml" parse="xml"/>
+        <xi:include href="attribute-override/icon.xml" parse="xml"/>
+        <xi:include href="attribute-override/parent.xml" parse="xml"/>
+        <xi:include href="attribute-override/position.xml" parse="xml"/>
+        <xi:include href="attribute-override/removalDate.xml" parse="xml"/>
+        <xi:include href="attribute-override/removed.xml" parse="xml"/>
+        <xi:include href="attribute-override/title.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo/>
+    <attribute-groups/>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>0</searchOrder>
+</system-metaclass>

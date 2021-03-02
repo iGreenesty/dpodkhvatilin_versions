@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fd4ca4e8-1417-09d5-0000-fffffffffb28a6a7" seg-type="contents" uuid="fd4ca4e8-1417-09d5-0000-fffffffffb28a6a7">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efa57-16fc-1669-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Договорные параметры</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>7f6cefe6-87af-403a-b3f3-44ad0673bb6f</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/fd4ca4e9-1417-09d6-0000-fffffffffb28a6a7.xml" parse="xml"/>
+</properties>

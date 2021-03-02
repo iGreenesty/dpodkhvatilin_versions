@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="saveReport_df88e173-b00a-dbf6-a39e-17987c5600f4" seg-type="tools" uuid="df88e173-b00a-dbf6-a39e-17987c5600f4">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <params/>
+    <presentationType>default</presentationType>
+    <action>saveReport</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Save...</caption>
+    <caption lang="ru">Экспорт</caption>
+</action>

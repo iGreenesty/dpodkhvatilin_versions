@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-domain xmlns:xi="http://www.w3.org/2001/XInclude" code="abstractSysObj" seg-detach="true" seg-id="abstractSysObj" seg-type="security-domain">
+    <xi:include href="access-matrix/access-matrix.xml" parse="xml"/>
+    <xi:include href="marker-declarations/viewRestAttributes.xml" parse="xml"/>
+    <xi:include href="marker-declarations/editRestAttributes.xml" parse="xml"/>
+    <xi:include href="sec-actions/DeleteObject.xml" parse="xml"/>
+    <xi:include href="sec-actions/MoveObject.xml" parse="xml"/>
+    <xi:include href="sec-actions/RemoveObject.xml" parse="xml"/>
+    <xi:include href="sec-actions/UnRemoveObject.xml" parse="xml"/>
+</security-domain>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_assetsTab" seg-type="tab-bars" uuid="tabs_assetsTab">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efca5-16fc-175e-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>true</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="assetsTab">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+            <profile>371483c9-f6c2-45e4-8163-3f08121f1f1f</profile>
+            <profile>dd74dc05-d145-4a4d-b663-d11cfadf5b82</profile>
+            <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        </profiles>
+        <tags>
+            <tag>ITaktivy</tag>
+        </tags>
+        <caption lang="ru">ИТ-активы</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="fd5a23cd-3cbd-11df-3f03-5000493e1a78">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/availableAssets/availableAssets.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efca5-16fc-1760-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="servicesTab">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+            <profile>371483c9-f6c2-45e4-8163-3f08121f1f1f</profile>
+            <profile>dd74dc05-d145-4a4d-b663-d11cfadf5b82</profile>
+            <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        </profiles>
+        <tags/>
+        <caption lang="ru">Соглашения/Услуги</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="a32e4b4a-da00-cb22-5320-09ea121af3cb">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/availableServicesList/availableServicesList.xml" parse="xml"/>
+            <xi:include href="contents/agreementsList/agreementsList.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efca6-16fc-1763-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

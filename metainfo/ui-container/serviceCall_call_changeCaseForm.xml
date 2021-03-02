@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="serviceCall$call_changeCaseForm" seg-type="ui-container">
+    <fqn>
+        <id>serviceCall</id>
+        <case>call</case>
+    </fqn>
+    <code>changeCaseForm</code>
+    <changecaseform seg-detach="false" uuid="changeCaseForm">
+        <profiles/>
+        <tags/>
+        <layout seg-detach="false" uuid="ac270004-8e23-53dc-c5d1-07a6a184e51d">
+            <profiles/>
+            <tags/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <attrGroup>FormaKlassifikacii</attrGroup>
+        <custom-form>ChangeCaseForm</custom-form>
+        <show-attr-description>false</show-attr-description>
+        <transitioncases>
+            <id>serviceCall</id>
+            <case>request</case>
+        </transitioncases>
+        <transitioncases>
+            <id>serviceCall</id>
+            <case>serviceCall</case>
+        </transitioncases>
+        <transitioncases>
+            <id>serviceCall</id>
+            <case>call</case>
+        </transitioncases>
+        <comment-on-form>notFill</comment-on-form>
+    </changecaseform>
+</ui>

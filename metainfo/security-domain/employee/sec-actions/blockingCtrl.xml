@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" code="blockingCtrl" enabled="true" group="default" seg-detach="true" seg-id="blockingCtrl" seg-type="sec-actions">
+    <title lang="en">Locking and unlocking of the user's account</title>
+    <title lang="ru">Блокировка и снятие блокировки учетной записи</title>
+    <attributes>isEmployeeLocked</attributes>
+</action>

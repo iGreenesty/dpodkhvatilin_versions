@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<system-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="mail_sys" seg-type="metaclasses">
+    <fqn>
+        <id>mail_sys</id>
+    </fqn>
+    <parent>
+        <id>abstractSysObj</id>
+    </parent>
+    <properties/>
+    <tags/>
+    <responsibilityTransferTableEnabled>true</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/addedComments.xml" parse="xml"/>
+        <xi:include href="attribute/attachments.xml" parse="xml"/>
+        <xi:include href="attribute/cc.xml" parse="xml"/>
+        <xi:include href="attribute/connection.xml" parse="xml"/>
+        <xi:include href="attribute/createdObjects.xml" parse="xml"/>
+        <xi:include href="attribute/date.xml" parse="xml"/>
+        <xi:include href="attribute/editedObjects.xml" parse="xml"/>
+        <xi:include href="attribute/from.xml" parse="xml"/>
+        <xi:include href="attribute/headers.xml" parse="xml"/>
+        <xi:include href="attribute/mailLogRecords.xml" parse="xml"/>
+        <xi:include href="attribute/mailState.xml" parse="xml"/>
+        <xi:include href="attribute/messageDataFile.xml" parse="xml"/>
+        <xi:include href="attribute/number.xml" parse="xml"/>
+        <xi:include href="attribute/numberOfProcessings.xml" parse="xml"/>
+        <xi:include href="attribute/processDate.xml" parse="xml"/>
+        <xi:include href="attribute/processingRule.xml" parse="xml"/>
+        <xi:include href="attribute/schedulerTask.xml" parse="xml"/>
+        <xi:include href="attribute/subject.xml" parse="xml"/>
+        <xi:include href="attribute/text.xml" parse="xml"/>
+        <xi:include href="attribute/title.xml" parse="xml"/>
+        <xi:include href="attribute/to.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/addedComments.xml" parse="xml"/>
+        <xi:include href="attribute-override/attachments.xml" parse="xml"/>
+        <xi:include href="attribute-override/cc.xml" parse="xml"/>
+        <xi:include href="attribute-override/connection.xml" parse="xml"/>
+        <xi:include href="attribute-override/createdObjects.xml" parse="xml"/>
+        <xi:include href="attribute-override/date.xml" parse="xml"/>
+        <xi:include href="attribute-override/editedObjects.xml" parse="xml"/>
+        <xi:include href="attribute-override/from.xml" parse="xml"/>
+        <xi:include href="attribute-override/headers.xml" parse="xml"/>
+        <xi:include href="attribute-override/mailLogRecords.xml" parse="xml"/>
+        <xi:include href="attribute-override/mailState.xml" parse="xml"/>
+        <xi:include href="attribute-override/messageDataFile.xml" parse="xml"/>
+        <xi:include href="attribute-override/number.xml" parse="xml"/>
+        <xi:include href="attribute-override/numberOfProcessings.xml" parse="xml"/>
+        <xi:include href="attribute-override/processDate.xml" parse="xml"/>
+        <xi:include href="attribute-override/processingRule.xml" parse="xml"/>
+        <xi:include href="attribute-override/schedulerTask.xml" parse="xml"/>
+        <xi:include href="attribute-override/subject.xml" parse="xml"/>
+        <xi:include href="attribute-override/text.xml" parse="xml"/>
+        <xi:include href="attribute-override/title.xml" parse="xml"/>
+        <xi:include href="attribute-override/to.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo/>
+    <attribute-groups/>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>0</searchOrder>
+</system-metaclass>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mobile-settings xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="mobile-settings" seg-type="transfer-values">
+    <lists>
+        <xi:include href="lists/f5df38f4-14ce-8325-0001-00003f5cad83/f5df38f4-14ce-8325-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="lists/serviceCall_waitAll/serviceCall_waitAll.xml" parse="xml"/>
+        <xi:include href="lists/f5df38f7-14ce-8326-0001-00003f5cad83/f5df38f7-14ce-8326-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="lists/f5df38f8-14ce-8327-0001-00003f5cad83/f5df38f8-14ce-8327-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="lists/f5df38f8-14ce-8328-0001-00003f5cad83/f5df38f8-14ce-8328-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="lists/serviceCall_waitMyResp/serviceCall_waitMyResp.xml" parse="xml"/>
+        <xi:include href="lists/f6c3804a-14d4-da30-0000-0000358871ee/f6c3804a-14d4-da30-0000-0000358871ee.xml" parse="xml"/>
+        <xi:include href="lists/f5df38f8-14ce-8329-0001-00003f5cad83/f5df38f8-14ce-8329-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="lists/f5df38f9-14ce-832a-0001-00003f5cad83/f5df38f9-14ce-832a-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="lists/serviceCall_allTeam/serviceCall_allTeam.xml" parse="xml"/>
+        <xi:include href="lists/serviceCall_waitTeamResp/serviceCall_waitTeamResp.xml" parse="xml"/>
+        <xi:include href="lists/f5df38f9-14ce-832b-0001-00003f5cad83/f5df38f9-14ce-832b-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="lists/serviceCall_waitMy/serviceCall_waitMy.xml" parse="xml"/>
+        <xi:include href="lists/serviceCall_deferredMy/serviceCall_deferredMy.xml" parse="xml"/>
+        <xi:include href="lists/f5df38fa-14ce-832c-0001-00003f5cad83/f5df38fa-14ce-832c-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="lists/f5df38fa-14ce-832d-0001-00003f5cad83/f5df38fa-14ce-832d-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="lists/f5df38fa-14ce-832e-0001-00003f5cad83/f5df38fa-14ce-832e-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="lists/task_AllResponsibleTeam/task_AllResponsibleTeam.xml" parse="xml"/>
+        <xi:include href="lists/f5df38fa-14ce-832f-0001-00003f5cad83/f5df38fa-14ce-832f-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="lists/task_AllResponsibleEmployee/task_AllResponsibleEmployee.xml" parse="xml"/>
+        <xi:include href="lists/f5df38fb-14ce-8330-0001-00003f5cad83/f5df38fb-14ce-8330-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="lists/tasks_linkedList/tasks_linkedList.xml" parse="xml"/>
+        <xi:include href="lists/employee_linkedList/employee_linkedList.xml" parse="xml"/>
+        <xi:include href="lists/service_linkedList/service_linkedList.xml" parse="xml"/>
+        <xi:include href="lists/negotiations_openMy/negotiations_openMy.xml" parse="xml"/>
+        <xi:include href="lists/negotiations_allMy/negotiations_allMy.xml" parse="xml"/>
+        <xi:include href="lists/agrmnts/agrmnts.xml" parse="xml"/>
+    </lists>
+    <object-cards>
+        <xi:include href="object-cards/f5df38fb-14ce-8331-0001-00003f5cad83/f5df38fb-14ce-8331-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="object-cards/f5df38fe-14ce-8338-0001-00003f5cad83/f5df38fe-14ce-8338-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="object-cards/f76b7095-14b0-29ec-0001-00005da18d27/f76b7095-14b0-29ec-0001-00005da18d27.xml" parse="xml"/>
+        <xi:include href="object-cards/f5df38fc-14ce-8333-0001-00003f5cad83/f5df38fc-14ce-8333-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="object-cards/f5df38fc-14ce-8334-0001-00003f5cad83/f5df38fc-14ce-8334-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="object-cards/f5df38fd-14ce-8335-0001-00003f5cad83/f5df38fd-14ce-8335-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="object-cards/f5df38fd-14ce-8336-0001-00003f5cad83/f5df38fd-14ce-8336-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="object-cards/f5df38fd-14ce-8337-0001-00003f5cad83/f5df38fd-14ce-8337-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="object-cards/KB/KB.xml" parse="xml"/>
+        <xi:include href="object-cards/voteCard/voteCard.xml" parse="xml"/>
+        <xi:include href="object-cards/ouCompany/ouCompany.xml" parse="xml"/>
+        <xi:include href="object-cards/changeRequest/changeRequest.xml" parse="xml"/>
+    </object-cards>
+    <add-forms>
+        <xi:include href="add-forms/newServiceCall/newServiceCall.xml" parse="xml"/>
+        <xi:include href="add-forms/newTask/newTask.xml" parse="xml"/>
+    </add-forms>
+    <edit-forms>
+        <xi:include href="edit-forms/changeServiceCall/changeServiceCall.xml" parse="xml"/>
+        <xi:include href="edit-forms/changeTask/changeTask.xml" parse="xml"/>
+    </edit-forms>
+    <navigationSettings>
+        <item code="fb018ff8-1656-11a6-0000-000000ee8080" type="chapter">
+            <children>
+                <item code="fb0190b1-1656-11a7-0000-000000ee8080" type="addFormLink">
+                    <children/>
+                    <title lang="ru">  Новая заявка</title>
+                    <mobileAddFormLink addFormCode="newServiceCall"/>
+                </item>
+                <item code="fb0190be-1656-11a8-0000-000000ee8080" type="addFormLink">
+                    <children/>
+                    <title lang="ru">  Новая задача</title>
+                    <mobileAddFormLink addFormCode="newTask"/>
+                </item>
+            </children>
+            <title lang="en">Add</title>
+            <title lang="ru">Добавить</title>
+        </item>
+        <item code="fb0190be-1656-11a9-0000-000000ee8080" type="chapter">
+            <children>
+                <item code="f7cdb195-edaa-170e-cb67-feab2e760ca3" type="chapter">
+                    <children>
+                        <item code="fb0190bf-1656-11ac-0000-000000ee8080" type="listLink">
+                            <children/>
+                            <title lang="ru">    Новые</title>
+                            <mobileListLink listCardCode="f5df38f8-14ce-8327-0001-00003f5cad83"/>
+                        </item>
+                        <item code="fb0190bf-1656-11ad-0000-000000ee8080" type="listLink">
+                            <children/>
+                            <title lang="ru">    Открытые</title>
+                            <mobileListLink listCardCode="f5df38f8-14ce-8328-0001-00003f5cad83"/>
+                        </item>
+                        <item code="5d76cd68-80ce-f940-a5ff-f0f06a44649e" type="listLink">
+                            <children/>
+                            <title lang="ru">    Отложенные</title>
+                            <mobileListLink listCardCode="serviceCall_waitMyResp"/>
+                        </item>
+                        <item code="fb0190bf-1656-11ae-0000-000000ee8080" type="listLink">
+                            <children/>
+                            <title lang="ru">    Все</title>
+                            <mobileListLink listCardCode="f6c3804a-14d4-da30-0000-0000358871ee"/>
+                        </item>
+                    </children>
+                    <title lang="ru">  Мои</title>
+                </item>
+                <item code="cdccc6f0-a553-3c27-214e-8ca61b068949" type="chapter">
+                    <children>
+                        <item code="fb0190bf-1656-11af-0000-000000ee8080" type="listLink">
+                            <children/>
+                            <title lang="ru">    Новые</title>
+                            <mobileListLink listCardCode="f5df38f8-14ce-8329-0001-00003f5cad83"/>
+                        </item>
+                        <item code="fb0190bf-1656-11b0-0000-000000ee8080" type="listLink">
+                            <children/>
+                            <title lang="ru">    Открытые</title>
+                            <mobileListLink listCardCode="f5df38f9-14ce-832a-0001-00003f5cad83"/>
+                        </item>
+                        <item code="ae97c0c2-6302-754f-d1c1-8a384e1f75f9" type="listLink">
+                            <children/>
+                            <title lang="ru">    Отложенные</title>
+                            <mobileListLink listCardCode="serviceCall_waitTeamResp"/>
+                        </item>
+                        <item code="041d1ce6-e63b-4737-e159-9603ee158826" type="listLink">
+                            <children/>
+                            <title lang="ru">    Все</title>
+                            <mobileListLink listCardCode="serviceCall_allTeam"/>
+                        </item>
+                    </children>
+                    <title lang="ru">  Моих команд</title>
+                </item>
+                <item code="5c00ecaf-4e61-ffdf-7e6f-81a260cacda3" type="chapter">
+                    <children>
+                        <item code="394d5b4d-676a-4220-8cdf-1ba59373eaf1" type="listLink">
+                            <children/>
+                            <title lang="ru">    Ожидают моего ответа</title>
+                            <mobileListLink listCardCode="serviceCall_waitMy"/>
+                        </item>
+                        <item code="fb0190bf-1656-11b1-0000-000000ee8080" type="listLink">
+                            <children/>
+                            <title lang="ru">    Открытые</title>
+                            <mobileListLink listCardCode="f5df38f9-14ce-832b-0001-00003f5cad83"/>
+                        </item>
+                        <item code="7b16cc4c-61a1-e1c6-242a-d47da7a533c4" type="listLink">
+                            <children/>
+                            <title lang="ru">    Отложенные</title>
+                            <mobileListLink listCardCode="serviceCall_deferredMy"/>
+                        </item>
+                        <item code="fb0190bf-1656-11b2-0000-000000ee8080" type="listLink">
+                            <children/>
+                            <title lang="ru">    Все</title>
+                            <mobileListLink listCardCode="f5df38fa-14ce-832c-0001-00003f5cad83"/>
+                        </item>
+                    </children>
+                    <title lang="ru">  От меня</title>
+                </item>
+                <item code="a2232c84-7636-4496-3260-fb7a1a75a4c3" type="chapter">
+                    <children>
+                        <item code="fb0190bf-1656-11aa-0000-000000ee8080" type="listLink">
+                            <children/>
+                            <title lang="ru">    Открытые</title>
+                            <mobileListLink listCardCode="f5df38f4-14ce-8325-0001-00003f5cad83"/>
+                        </item>
+                        <item code="9fb1c100-bb68-416f-3458-c221122cd283" type="listLink">
+                            <children/>
+                            <title lang="ru">    Отложенные</title>
+                            <mobileListLink listCardCode="serviceCall_waitAll"/>
+                        </item>
+                        <item code="fb0190bf-1656-11ab-0000-000000ee8080" type="listLink">
+                            <children/>
+                            <title lang="ru">    Все</title>
+                            <mobileListLink listCardCode="f5df38f7-14ce-8326-0001-00003f5cad83"/>
+                        </item>
+                    </children>
+                    <title lang="ru">  Общие</title>
+                </item>
+            </children>
+            <title lang="en">Available lists</title>
+            <title lang="ru">Заявки</title>
+        </item>
+        <item code="7d059eaa-4c1c-6886-60bb-d459fe4133b0" type="chapter">
+            <children>
+                <item code="401d5755-2e0e-c933-ae90-0782f1b30b0b" type="chapter">
+                    <children>
+                        <item code="fb0190bf-1656-11b5-0000-000000ee8080" type="listLink">
+                            <children/>
+                            <title lang="ru">    Открытые</title>
+                            <mobileListLink listCardCode="f5df38fa-14ce-832f-0001-00003f5cad83"/>
+                        </item>
+                        <item code="fb0190bf-1656-11b7-0000-000000ee8080" type="listLink">
+                            <children/>
+                            <title lang="ru">    Все</title>
+                            <mobileListLink listCardCode="task_AllResponsibleEmployee"/>
+                        </item>
+                    </children>
+                    <title lang="ru">  Мои</title>
+                </item>
+                <item code="f93562ab-918c-acda-d199-a07e727ab36f" type="chapter">
+                    <children>
+                        <item code="fb0190bf-1656-11b6-0000-000000ee8080" type="listLink">
+                            <children/>
+                            <title lang="ru">    Открытые</title>
+                            <mobileListLink listCardCode="f5df38fb-14ce-8330-0001-00003f5cad83"/>
+                        </item>
+                        <item code="fb0190bf-1656-11b8-0000-000000ee8080" type="listLink">
+                            <children/>
+                            <title lang="ru">    Все</title>
+                            <mobileListLink listCardCode="task_AllResponsibleTeam"/>
+                        </item>
+                    </children>
+                    <title lang="ru">  Моих команд</title>
+                </item>
+                <item code="5ef9907d-21b2-e693-265f-a9b27e1f2aed" type="chapter">
+                    <children>
+                        <item code="fb0190bf-1656-11b3-0000-000000ee8080" type="listLink">
+                            <children/>
+                            <title lang="ru">    Открытые</title>
+                            <mobileListLink listCardCode="f5df38fa-14ce-832d-0001-00003f5cad83"/>
+                        </item>
+                        <item code="fb0190bf-1656-11b4-0000-000000ee8080" type="listLink">
+                            <children/>
+                            <title lang="ru">    Все</title>
+                            <mobileListLink listCardCode="f5df38fa-14ce-832e-0001-00003f5cad83"/>
+                        </item>
+                    </children>
+                    <title lang="ru">  Общие</title>
+                </item>
+            </children>
+            <title lang="ru">Задачи</title>
+        </item>
+        <item code="ea06ef9b-ccab-37ad-a81a-f71d133a44ef" type="chapter">
+            <children>
+                <item code="2f733528-303a-de18-fa31-b3caf0e96275" type="listLink">
+                    <children/>
+                    <title lang="ru">  Открытые</title>
+                    <mobileListLink listCardCode="negotiations_openMy"/>
+                </item>
+                <item code="51f7feb6-14e1-656b-77d7-426513f50ee1" type="listLink">
+                    <children/>
+                    <title lang="ru">  Все</title>
+                    <mobileListLink listCardCode="negotiations_allMy"/>
+                </item>
+            </children>
+            <title lang="ru">Согласования</title>
+        </item>
+    </navigationSettings>
+    <xi:include href="other-settings/other-settings.xml" parse="xml"/>
+    <xi:include href="geo-settings/geo-settings.xml" parse="xml"/>
+    <xi:include href="bar-code-scanner-settings/bar-code-scanner-settings.xml" parse="xml"/>
+</mobile-settings>

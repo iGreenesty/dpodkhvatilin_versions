@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="79eaf472-97be-46e3-b835-df2058306f2f" licensed="true" seg-detach="true" seg-id="79eaf472-97be-46e3-b835-df2058306f2f" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>teamLeader</roles>
+    <title lang="ru">Лидер команды</title>
+</security-profile>

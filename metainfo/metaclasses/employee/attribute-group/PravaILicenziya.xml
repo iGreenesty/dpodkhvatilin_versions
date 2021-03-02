@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="PravaILicenziya" seg-type="attribute-group">
+    <code>PravaILicenziya</code>
+    <title lang="ru">Права и лицензии</title>
+    <attribute>employeeSecGroups</attribute>
+    <attribute>license</attribute>
+</group>

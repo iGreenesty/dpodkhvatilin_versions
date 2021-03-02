@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="listPeriods" seg-type="report-parameter">
+    <code>listPeriods</code>
+    <title>Период для расчета</title>
+    <type>catalogItem</type>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="anyType">
+        <date xsi:nil="true"/>
+    </value>
+    <metaClassFqn>calcScopeType</metaClassFqn>
+    <visible>true</visible>
+    <overrided>false</overrided>
+    <params/>
+    <required>false</required>
+</parameter>

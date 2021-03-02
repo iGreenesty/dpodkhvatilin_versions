@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="OpoveshenieKontragentaONDneiZayavkiVOzhidanii" seg-type="scripts">
+    <code>OpoveshenieKontragentaONDneiZayavkiVOzhidanii</code>
+    <title lang="ru">Оповещение контрагента о N дней заявки в ожидании </title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="OpoveshenieKontragentaONDneiZayavkiVOzhidanii.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

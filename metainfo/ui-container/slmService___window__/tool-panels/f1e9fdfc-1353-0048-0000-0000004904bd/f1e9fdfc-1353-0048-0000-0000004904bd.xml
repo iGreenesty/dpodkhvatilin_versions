@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<toolPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f1e9fdfc-1353-0048-0000-0000004904bd" seg-type="tool-panels" uuid="f1e9fdfc-1353-0048-0000-0000004904bd">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="ced3a113-c77e-cd76-650a-00425d2eaef9">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/edit_ccfe6e1e-a529-60c4-6603-2e82d4ba69e8.xml" parse="xml"/>
+        <xi:include href="tools/del_cbcea9cc-28d9-e859-1b50-bc49a79dcd02.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="7dd97429-5963-2f8a-db56-7c0a11bf6461">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/remove_e2dc9f97-a37f-8057-38fb-edb54ad597a2.xml" parse="xml"/>
+        <xi:include href="tools/restore_48ea3d29-7931-4561-8d1d-2749b1cd5414.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="6dcb422e-bd2f-87a0-3a65-abd5d64b6ea2">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <feature>fastChangeState</feature>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</toolPanel>

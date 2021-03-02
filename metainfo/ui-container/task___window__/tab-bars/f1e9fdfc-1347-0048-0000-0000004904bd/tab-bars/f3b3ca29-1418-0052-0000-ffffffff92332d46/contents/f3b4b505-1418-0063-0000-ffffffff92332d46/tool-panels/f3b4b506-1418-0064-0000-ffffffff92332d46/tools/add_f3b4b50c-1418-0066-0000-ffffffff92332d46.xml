@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<add-from-list xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="add_f3b4b50c-1418-0066-0000-ffffffff92332d46" seg-type="tools" uuid="f3b4b50c-1418-0066-0000-ffffffff92332d46">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <iconCode>clock</iconCode>
+    <params/>
+    <presentationType>default</presentationType>
+    <action>add</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Add</caption>
+    <caption lang="ru">Добавить</caption>
+    <quickAddForm>quickAddAndEditForm$624365bd-dc3c-cd02-9034-37e5167ec934</quickAddForm>
+    <returnToListAfterAdd>true</returnToListAfterAdd>
+    <useQuickAddForm>true</useQuickAddForm>
+</add-from-list>

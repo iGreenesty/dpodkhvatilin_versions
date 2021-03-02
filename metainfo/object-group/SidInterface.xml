@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<class xmlns:xi="http://www.w3.org/2001/XInclude" id="SidInterface" seg-detach="true" seg-id="SidInterface" seg-type="object-group">
+    <object>
+        <attribute code="code">
+            <string>ethernet</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>SidInterface</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Ethernet</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>SidInterface$12001</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>ps/2</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>SidInterface</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>PS/2</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>SidInterface$12004</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>rs232</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>SidInterface</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>RS-232</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>SidInterface$12003</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>usb</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>SidInterface</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>USB</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>SidInterface$12002</string>
+        </attribute>
+    </object>
+</class>

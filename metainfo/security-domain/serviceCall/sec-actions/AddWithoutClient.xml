@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" code="AddWithoutClient" enabled="true" group="add" seg-detach="true" seg-id="AddWithoutClient" seg-type="sec-actions">
+    <title lang="en">Add issue without client</title>
+    <title lang="ru">Добавление запроса без контрагента</title>
+</action>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$191" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <push-mobile-action>
+            <actionType>PushMobileEventAction</actionType>
+            <message>&lt;span style="font-family: Arial; font-size: small;"&gt;В Вашей заявке №${subject.number} добавлен комментарий&lt;/span&gt;</message>
+            <roles>serviceCall_ResponsibleEmployee</roles>
+            <script><![CDATA[PerehodNaKartochkuKommentariyaIskluchenieAvtora]]></script>
+            <html>false</html>
+            <pushHeaderFormat>Subject</pushHeaderFormat>
+            <subject>${pushMobile.scriptParams['root']}</subject>
+        </push-mobile-action>
+        <code>eventAction$191</code>
+        <description lang="ru"/>
+        <event>
+            <eventType>addComment</eventType>
+        </event>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Push в МП] О добавлении комментария к заявке в ответственности</title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

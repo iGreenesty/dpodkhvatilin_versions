@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="SkriptAvtomaticheskoeZakrytieZayavokCherezDnei152" seg-type="scripts">
+    <code>SkriptAvtomaticheskoeZakrytieZayavokCherezDnei152</code>
+    <title lang="ru">Скрипт: автоматическое закрытие заявок через 5 дней</title>
+    <title>Скрипт: автоматическое закрытие заявок через 5 дней</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="SkriptAvtomaticheskoeZakrytieZayavokCherezDnei152.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

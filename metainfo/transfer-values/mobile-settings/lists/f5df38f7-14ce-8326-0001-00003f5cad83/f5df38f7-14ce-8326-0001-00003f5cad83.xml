@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f5df38f7-14ce-8326-0001-00003f5cad83" seg-type="lists" uuid="f5df38f7-14ce-8326-0001-00003f5cad83">
+    <profiles>
+        <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+    </profiles>
+    <tags/>
+    <cases/>
+    <class>
+        <id>serviceCall</id>
+    </class>
+    <attributes>
+        <xi:include href="attributes/title.xml" parse="xml"/>
+        <xi:include href="attributes/coloOverdue.xml" parse="xml"/>
+        <xi:include href="attributes/shortDescr.xml" parse="xml"/>
+        <xi:include href="attributes/state.xml" parse="xml"/>
+        <xi:include href="attributes/client.xml" parse="xml"/>
+        <xi:include href="attributes/priority.xml" parse="xml"/>
+        <xi:include href="attributes/responsible.xml" parse="xml"/>
+    </attributes>
+    <allowActionsWithObjects>true</allowActionsWithObjects>
+    <caption lang="ru">ЗАЯВКИ: все</caption>
+    <filters/>
+    <filter seg-detach="false" uuid="f605de10-1778-1b4b-0000-000044ccdc1e">
+        <profiles/>
+        <tags/>
+    </filter>
+    <orders>
+        <order code="abstractBO@creationDate" order="desc"/>
+    </orders>
+</objects>

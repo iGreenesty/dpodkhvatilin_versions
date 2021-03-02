@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" seg-detach="true" seg-id="f317a483-165b-3aab-0058-000000ee8080" seg-type="contents" uuid="f317a483-165b-3aab-0058-000000ee8080" xsi:type="RelObjectList">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+        <profile>20392c82-d8fb-42df-bf59-8bd329e0abb4</profile>
+        <profile>371483c9-f6c2-45e4-8163-3f08121f1f1f</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+        <profile>SpecialistInChangeRequests</profile>
+        <profile>SpecialistInProblems</profile>
+    </profiles>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="f1e885c9-1750-a9ba-0066-00007b344b54">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <showCaption>true</showCaption>
+    <class>
+        <id>objectBase</id>
+    </class>
+    <attributeGroup>listLite</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/2d71eebd-b9f6-e082-bb80-5ed06335bb41/2d71eebd-b9f6-e082-bb80-5ed06335bb41.xml" parse="xml"/>
+    <xi:include href="tool-panels/a1cab811-4db7-47a6-b405-be5bd8e19d18.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="ff8adb2a-1657-5923-0009-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="ff8adb67-1657-5c2b-0009-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="f1e885c9-1750-a9bb-0066-00007b344b54">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <filterRestrictionSettings/>
+    <add-form>
+        <caption lang="ru">Добавить доступный актив</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</template>

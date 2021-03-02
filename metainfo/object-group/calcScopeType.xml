@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<class xmlns:xi="http://www.w3.org/2001/XInclude" id="calcScopeType" seg-detach="true" seg-id="calcScopeType" seg-type="object-group">
+    <object>
+        <attribute code="code">
+            <string>d</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>calcScopeType</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>День</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>calcScopeType$1098902</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>m</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>calcScopeType</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Месяц</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>calcScopeType$1098903</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>w</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="metaClass">
+            <string>calcScopeType</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Неделя</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="UUID">
+            <string>calcScopeType$1098901</string>
+        </attribute>
+    </object>
+</class>

@@ -1,0 +1,1 @@
+return (subject.text != oldSubject.text) ? "" : "текст статьи не изменился"                   

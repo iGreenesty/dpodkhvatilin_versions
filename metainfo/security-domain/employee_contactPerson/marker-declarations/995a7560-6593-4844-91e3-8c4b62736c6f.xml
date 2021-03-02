@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="995a7560-6593-4844-91e3-8c4b62736c6f" enabled="true" group="editAttrs" seg-detach="true" seg-id="995a7560-6593-4844-91e3-8c4b62736c6f" seg-type="marker-declarations">
+    <title lang="ru">ИТ-активы в использовании</title>
+    <attributes>KEsInUse</attributes>
+</marker-declaration>

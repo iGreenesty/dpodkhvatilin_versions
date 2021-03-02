@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="encryptionProtocols" seg-detach="true" seg-id="encryptionProtocols" seg-type="catalog" xsi:type="SystemCatalog">
+    <title lang="client">Протоколы шифрования</title>
+    <title lang="en">Encryption protocols</title>
+    <title lang="ru">Протоколы шифрования</title>
+    <description lang="client">Протоколы шифрования: SSL, TLS.</description>
+    <description lang="en">Encryption Protocols: SSL, TLS.</description>
+    <description lang="ru">Протоколы шифрования: SSL, TLS.</description>
+</catalog>

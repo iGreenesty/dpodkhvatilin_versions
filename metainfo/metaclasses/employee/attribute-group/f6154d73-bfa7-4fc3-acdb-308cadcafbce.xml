@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f6154d73-bfa7-4fc3-acdb-308cadcafbce" seg-type="attribute-group">
+    <code>f6154d73-bfa7-4fc3-acdb-308cadcafbce</code>
+    <title lang="ru">Контактная информация</title>
+    <attribute>email</attribute>
+    <attribute>mobilePhoneNumber</attribute>
+    <attribute>cityPhoneNumber</attribute>
+    <attribute>internalPhoneNumber</attribute>
+    <attribute>homePhoneNumber</attribute>
+</group>

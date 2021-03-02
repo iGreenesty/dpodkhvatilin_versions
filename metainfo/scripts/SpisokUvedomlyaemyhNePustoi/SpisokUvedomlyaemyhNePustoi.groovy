@@ -1,0 +1,1 @@
+return (sourceObject && sourceObject.notificateTo.size() > 0) ? '' : 'Не определены сотрудники для уведомления о комментарии'

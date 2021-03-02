@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fd2d9661-13d5-0051-0000-00002a129e7d" seg-type="contents" uuid="fd2d9661-13d5-0051-0000-00002a129e7d">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efa5a-16fc-166e-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="en">Recipients (employees)</caption>
+    <caption lang="ru">Сотрудники, получающие соглашение</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>employee</id>
+    </class>
+    <attributeGroup>0b13760c-d858-4d41-a89d-087f98491577</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/f44a209d-141e-00f2-0000-ffffffff9cc88d42/f44a209d-141e-00f2-0000-ffffffff9cc88d42.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae64b0-15a2-0fac-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f6ae64b0-15a2-0fad-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f6ae64b0-15a2-0fae-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4f8e-168d-11fd-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attrs-chain attr-code="recipients" class-fqn="agreement"/>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="employee" code="parent"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <add-form>
+        <caption lang="en">Add user as a recipient of the SLA</caption>
+        <caption lang="ru">Добавление сотрудника в получатели соглашения</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

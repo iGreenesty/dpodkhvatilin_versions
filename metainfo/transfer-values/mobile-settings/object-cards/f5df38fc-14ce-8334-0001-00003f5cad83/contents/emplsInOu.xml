@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mobile-child-objects-list-content xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="emplsInOu" seg-type="contents" uuid="emplsInOu">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>11f7277e-d00c-4374-8335-06fe12273efb</profile>
+        <profile>d7bb42a3-ee87-413c-8bed-73dd56073fb4</profile>
+        <profile>8f372f70-2a9a-42ec-ae34-413d842cf98f</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+    </profiles>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="f57d694b-16ff-c9b4-0007-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Сотрудники отдела</caption>
+    <showCaption>true</showCaption>
+    <allowCollapse>true</allowCollapse>
+    <code>emplsInOu</code>
+    <collapsed>false</collapsed>
+    <contentType>CHILD_OBJECT_LIST</contentType>
+    <cases>
+        <case>
+            <id>employee</id>
+            <case>employee</case>
+        </case>
+    </cases>
+    <hide-if-there-are-no-objects>false</hide-if-there-are-no-objects>
+    <link-to-mobile-list>employee_linkedList</link-to-mobile-list>
+    <show-nested-in-nested>false</show-nested-in-nested>
+</mobile-child-objects-list-content>

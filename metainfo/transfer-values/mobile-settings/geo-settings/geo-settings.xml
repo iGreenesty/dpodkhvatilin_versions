@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<geo-history-settings xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="geo-settings" seg-type="geo-settings" uuid="fd6eed5b-16fc-0251-0000-0000132f4b3f">
+    <profiles/>
+    <tags/>
+    <cases/>
+    <attributes/>
+    <frequency>15</frequency>
+    <maxVolume>100000</maxVolume>
+</geo-history-settings>

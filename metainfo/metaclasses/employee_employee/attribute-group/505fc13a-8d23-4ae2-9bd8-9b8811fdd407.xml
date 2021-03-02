@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="505fc13a-8d23-4ae2-9bd8-9b8811fdd407" seg-type="attribute-group">
+    <code>505fc13a-8d23-4ae2-9bd8-9b8811fdd407</code>
+    <title lang="ru">Для списка</title>
+    <attribute>title</attribute>
+    <attribute>parent</attribute>
+    <attribute>post</attribute>
+    <attribute>employeeSecGroups</attribute>
+    <attribute>login</attribute>
+    <attribute>email</attribute>
+    <attribute>license</attribute>
+    <order>title</order>
+    <order>parent</order>
+    <order>post</order>
+    <order>employeeSecGroups</order>
+    <order>login</order>
+    <order>email</order>
+    <order>license</order>
+</group>

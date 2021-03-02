@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="domain_RespEmpTeamLeader" enabled="true" seg-detach="true" seg-id="domain_RespEmpTeamLeader" seg-type="roles" type="SYSTEM">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="snippet">responsibleEmployeeTeamLeaderRoleSnippet</property>
+    <title lang="en">Assigned employee team leader</title>
+    <title lang="ru">Лидер команды, в которую входит ответственный за объект</title>
+</role>

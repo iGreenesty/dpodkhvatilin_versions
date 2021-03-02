@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="openMassServiceCallFormForRegularCall_f924eb67-5d91-81c2-5904-3e23468512e0" seg-type="tools" uuid="f924eb67-5d91-81c2-5904-3e23468512e0">
+    <profiles/>
+    <tags/>
+    <appliedToType>listObjects</appliedToType>
+    <iconCode>unmass_icon</iconCode>
+    <params/>
+    <presentationType>link</presentationType>
+    <action>openMassServiceCallFormForRegularCall</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">mass operations</caption>
+    <caption lang="ru">работа с массовостью</caption>
+</action>

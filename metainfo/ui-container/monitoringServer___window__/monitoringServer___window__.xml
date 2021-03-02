@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="monitoringServer___window__" seg-type="ui-container">
+    <fqn>
+        <id>monitoringServer</id>
+    </fqn>
+    <code>__window__</code>
+    <window seg-detach="false" uuid="f2e7ef13-1336-007e-0000-0000004904bd">
+        <profiles/>
+        <tags/>
+        <caption lang="en">Object card</caption>
+        <caption lang="ru">Карточка объекта</caption>
+        <xi:include href="tab-bars/f2e7ef13-1336-007f-0000-0000004904bd/f2e7ef13-1336-007f-0000-0000004904bd.xml" parse="xml"/>
+        <xi:include href="tool-panels/f2e7ef13-1336-0086-0000-0000004904bd.xml" parse="xml"/>
+    </window>
+</ui>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-domain xmlns:xi="http://www.w3.org/2001/XInclude" code="vote" seg-detach="true" seg-id="vote" seg-type="security-domain">
+    <xi:include href="access-matrix/access-matrix.xml" parse="xml"/>
+    <xi:include href="marker-declarations/531a0ee6-9170-46eb-9879-1225dd0f9cb2.xml" parse="xml"/>
+    <xi:include href="marker-declarations/1efb8888-2832-40d1-b0f4-432e1de42f0d.xml" parse="xml"/>
+    <xi:include href="marker-declarations/editState.xml" parse="xml"/>
+    <xi:include href="roles/2cfba396-1bb4-4da2-b7f1-e00515e2775d.xml" parse="xml"/>
+</security-domain>

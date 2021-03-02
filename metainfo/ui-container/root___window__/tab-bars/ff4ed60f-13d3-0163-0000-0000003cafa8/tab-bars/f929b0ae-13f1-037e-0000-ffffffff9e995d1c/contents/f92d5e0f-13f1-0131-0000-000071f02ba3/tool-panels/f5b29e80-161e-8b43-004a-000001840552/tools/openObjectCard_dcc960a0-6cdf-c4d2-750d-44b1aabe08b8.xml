@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-event-tool xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="openObjectCard_dcc960a0-6cdf-c4d2-750d-44b1aabe08b8" seg-type="tools" uuid="dcc960a0-6cdf-c4d2-750d-44b1aabe08b8">
+    <profiles/>
+    <tags/>
+    <appliedToType>listObjects</appliedToType>
+    <params/>
+    <presentationType>link</presentationType>
+    <action>openObjectCard</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="ru">Открыть</caption>
+    <invoke-method>invokeActionList</invoke-method>
+    <use-quick-form>false</use-quick-form>
+</user-event-tool>

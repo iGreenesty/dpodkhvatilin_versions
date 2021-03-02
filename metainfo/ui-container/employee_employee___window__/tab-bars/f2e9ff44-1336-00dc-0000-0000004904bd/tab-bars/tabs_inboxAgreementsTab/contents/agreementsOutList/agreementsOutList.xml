@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="agreementsOutList" seg-type="contents" uuid="agreementsOutList">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efc9a-16fc-1752-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Созданные согласования</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>negotiation</id>
+    </class>
+    <attributeGroup>3d84129a-0ae4-4801-be17-7fba3f2b99aa</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/1b206516-7374-9d13-ab31-8f1c6733ec69/1b206516-7374-9d13-ab31-8f1c6733ec69.xml" parse="xml"/>
+    <xi:include href="tool-panels/4f9380ad-7023-053b-13af-e2178a554dcb.xml" parse="xml"/>
+    <defaultSettings>
+        <columnList>
+            <attr-code>abstractBO@creationDate</attr-code>
+            <presentation-code>dateTimeView</presentation-code>
+            <widthColumn>0</widthColumn>
+        </columnList>
+        <columnList>
+            <attr-code>negotiation@description</attr-code>
+            <presentation-code>richTextWideView</presentation-code>
+            <widthColumn>0</widthColumn>
+        </columnList>
+        <columnList>
+            <attr-code>negotiation@cabEmployee</attr-code>
+            <presentation-code>boLinksView</presentation-code>
+            <widthColumn>0</widthColumn>
+        </columnList>
+        <columnList>
+            <attr-code>negotiation@period</attr-code>
+            <presentation-code>dtIntervalView</presentation-code>
+            <widthColumn>0</widthColumn>
+        </columnList>
+        <columnList>
+            <attr-code>negotiation@state</attr-code>
+            <presentation-code>stateColWithTitleView</presentation-code>
+            <widthColumn>0</widthColumn>
+        </columnList>
+        <columnList>
+            <attr-code>negotiation@deadLine</attr-code>
+            <presentation-code>backTimerDeadLineV</presentation-code>
+            <widthColumn>0</widthColumn>
+        </columnList>
+        <columnList>
+            <attr-code>negotiation@dateEnd</attr-code>
+            <presentation-code>dateTimeView</presentation-code>
+            <widthColumn>0</widthColumn>
+        </columnList>
+        <inherit>false</inherit>
+        <listFilter seg-detach="false" uuid="ff7f6e2c-1657-8f22-0007-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="ff7f6e6f-1657-91eb-0007-000000ee8080">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c51a4-168d-1250-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>negotiation</attr-link-code>
+    <attrs-chain attr-code="negotiation" class-fqn="employee$employee"/>
+    <filterRestrictionSettings>
+        <entry>
+            <key classFqn="negotiation" code="cabEmployee"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+        <entry>
+            <key classFqn="abstractBO" code="author"/>
+            <value>
+                <strategy>LIST</strategy>
+            </value>
+        </entry>
+    </filterRestrictionSettings>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Согласование</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

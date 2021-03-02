@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="9869c81e-3f08-4676-a022-0583ee582de8" licensed="true" seg-detach="true" seg-id="9869c81e-3f08-4676-a022-0583ee582de8" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>slmServiceRecipient</roles>
+    <title lang="ru">Получатель услуги</title>
+</security-profile>

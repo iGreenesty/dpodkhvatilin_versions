@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="e9a74460-ff81-456f-9c1c-c000868f26bc" seg-type="attribute-group">
+    <code>e9a74460-ff81-456f-9c1c-c000868f26bc</code>
+    <title lang="ru">Для карточки связанной заявки</title>
+    <attribute>number</attribute>
+    <attribute>shortDescr</attribute>
+    <attribute>client</attribute>
+    <attribute>responsible</attribute>
+    <attribute>registrationDate</attribute>
+    <attribute>timeAllowanceTimer</attribute>
+    <order>number</order>
+    <order>shortDescr</order>
+    <order>client</order>
+    <order>responsible</order>
+    <order>registrationDate</order>
+    <order>timeAllowanceTimer</order>
+</group>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-history xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="IstoriyaIzmeneniiStatusa" seg-type="contents" uuid="IstoriyaIzmeneniiStatusa">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efba1-16fc-16d8-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">История изменения статуса</caption>
+    <showCaption>false</showCaption>
+    <class>
+        <id>KB__Evt</id>
+    </class>
+    <attributeGroup>Status</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/64394317-0c46-71f4-1194-14f3c69773b6/64394317-0c46-71f4-1194-14f3c69773b6.xml" parse="xml"/>
+    <xi:include href="tool-panels/f095dad9-1697-e156-0047-000000ffc2f3.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f095dad9-1697-e157-0047-000000ffc2f3">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="6108d855-33bf-95dd-40a1-e224398caa95">
+                <profiles/>
+                <tags/>
+                <elements seg-detach="false" uuid="fab80907-7eda-d77b-aae2-7a5d583c7f18">
+                    <profiles/>
+                    <tags/>
+                    <properties>
+                        <entry>
+                            <key>isAttributeOfRelatedObject</key>
+                            <value>false</value>
+                        </entry>
+                        <entry>
+                            <key>isLinkToParent</key>
+                            <value>false</value>
+                        </entry>
+                        <entry>
+                            <key>attrTypeCode</key>
+                            <value>bool</value>
+                        </entry>
+                        <entry>
+                            <key>conditionCode</key>
+                            <value>contains</value>
+                        </entry>
+                        <entry>
+                            <key>attributeFqn</key>
+                            <value>abstractEvt@stateChanged</value>
+                        </entry>
+                    </properties>
+                    <value>
+                        <bool>true</bool>
+                    </value>
+                </elements>
+            </elements>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f095dae1-1697-e1b7-0047-000000ffc2f3">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="d6acf978-444e-add7-f483-3ccc07642f6f">
+                <profiles/>
+                <tags/>
+                <attrCode>abstractEvt@eventDate</attrCode>
+                <attrTitle>Время события</attrTitle>
+                <ascending>false</ascending>
+            </elements>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="f095dad9-1697-e158-0047-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+</user-history>

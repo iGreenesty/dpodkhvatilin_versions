@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transition xmlns:xi="http://www.w3.org/2001/XInclude" enabled="true" from="resolved" seg-detach="true" seg-id="resolved-closed" seg-type="transition" to="closed">
+    <title lang="en">Close</title>
+    <title lang="ru">Закрыть</title>
+</transition>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="service_service" seg-type="search-settings">
+    <simpleSearchableForLicensed>true</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>true</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>true</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>true</extendedSearchableForLicensed>
+    <searchAlias lang="ru"/>
+    <searchAnalizer>ftsNoAnalyzer</searchAnalizer>
+    <searchBoost>1.0</searchBoost>
+    <code>service</code>
+    <declaredMetaClass>serviceCall</declaredMetaClass>
+    <title lang="en">Service</title>
+    <title lang="ru">Услуга</title>
+    <title>Услуга</title>
+    <attrCode>service</attrCode>
+</searchSetting>

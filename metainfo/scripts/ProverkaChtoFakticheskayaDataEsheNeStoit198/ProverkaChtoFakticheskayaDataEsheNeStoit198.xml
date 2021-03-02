@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ProverkaChtoFakticheskayaDataEsheNeStoit198" seg-type="scripts">
+    <code>ProverkaChtoFakticheskayaDataEsheNeStoit198</code>
+    <title lang="ru">Проверка, что фактическая дата ещё не стоит</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="ProverkaChtoFakticheskayaDataEsheNeStoit198.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

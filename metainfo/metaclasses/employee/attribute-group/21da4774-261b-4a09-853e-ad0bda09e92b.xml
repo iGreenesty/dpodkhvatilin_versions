@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="21da4774-261b-4a09-853e-ad0bda09e92b" seg-type="attribute-group">
+    <code>21da4774-261b-4a09-853e-ad0bda09e92b</code>
+    <title lang="ru">Сгенерировать пароль</title>
+    <attribute>isGenPass</attribute>
+</group>

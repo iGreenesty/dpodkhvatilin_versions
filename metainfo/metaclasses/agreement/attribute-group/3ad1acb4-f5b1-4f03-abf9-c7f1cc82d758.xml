@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="3ad1acb4-f5b1-4f03-abf9-c7f1cc82d758" seg-type="attribute-group">
+    <code>3ad1acb4-f5b1-4f03-abf9-c7f1cc82d758</code>
+    <title lang="ru">Для формы редактирования (основная)</title>
+    <attribute>title</attribute>
+    <attribute>services</attribute>
+    <attribute>supportHours</attribute>
+    <order>title</order>
+    <order>services</order>
+    <order>supportHours</order>
+</group>

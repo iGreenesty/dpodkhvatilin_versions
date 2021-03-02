@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="pOu" seg-type="report-parameter">
+    <code>pOu</code>
+    <title>Или выберите конкретных контрагентов</title>
+    <type>boLinks</type>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="anyType">
+        <date xsi:nil="true"/>
+    </value>
+    <metaClassFqn>ou</metaClassFqn>
+    <visible>true</visible>
+    <overrided>false</overrided>
+    <params>
+        <entry>
+            <key>attrGroupCode</key>
+            <value>edcfcd28-3de9-4a5c-bab7-3b772a727486</value>
+        </entry>
+    </params>
+    <required>false</required>
+</parameter>

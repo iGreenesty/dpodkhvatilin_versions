@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="557b87bf-69e9-434e-b558-ce018711bfa3" seg-type="attribute-group-override">
+    <code>557b87bf-69e9-434e-b558-ce018711bfa3</code>
+    <attribute>responsible</attribute>
+    <attribute>planDate</attribute>
+    <order>objectNumber</order>
+    <order>creationDate</order>
+    <order>author</order>
+    <order>description</order>
+    <order>responsible</order>
+    <order>planDate</order>
+    <order>deadline</order>
+    <order>state</order>
+    <order>clientSC</order>
+    <order>descriptionSC</order>
+    <order>stateSC</order>
+</override>

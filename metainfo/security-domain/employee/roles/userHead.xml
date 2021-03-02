@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="userHead" enabled="true" seg-detach="true" seg-id="userHead" seg-type="roles" type="SYSTEM">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="snippet">userHeadRoleSnippet</property>
+    <title lang="en">Immediate manager</title>
+    <title lang="ru">Непосредственный руководитель сотрудника</title>
+</role>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="6ee38cb6-9554-41d2-8d55-873b51adc032" seg-type="attribute-group">
+    <code>6ee38cb6-9554-41d2-8d55-873b51adc032</code>
+    <title lang="ru">Для сложной формы добавления связи в отчётах</title>
+    <attribute>title</attribute>
+    <attribute>agreements</attribute>
+    <order>title</order>
+    <order>agreements</order>
+</group>

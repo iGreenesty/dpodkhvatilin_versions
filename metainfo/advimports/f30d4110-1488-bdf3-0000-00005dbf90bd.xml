@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration xmlns:xi="http://www.w3.org/2001/XInclude" UUID="f30d4110-1488-bdf3-0000-00005dbf90bd" daysPeriod="90" seg-detach="true" seg-id="f30d4110-1488-bdf3-0000-00005dbf90bd" seg-type="advimports">
+    <title lang="ru">Порт</title>
+    <configContainer>&lt;config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../target/classes/advimport/schema1.xsd" save-log="true" threads-number="1"&gt;
+	&lt;mode&gt;CREATE&lt;/mode&gt;
+	&lt;mode&gt;UPDATE&lt;/mode&gt;
+	&lt;gui-parameter name="fileCI" type="FILE" title="Выберите файл (CSV)"/&gt;
+	
+  	&lt;!--  Задает метакласс импортируемых объектов  --&gt;
+	&lt;parameter name="CIMetaClass"&gt;objectBase$port&lt;/parameter&gt;
+	&lt;parameter name="CIIdHolder"&gt;idHolder&lt;/parameter&gt;
+
+	&lt;!--  Импорт ИТ-активов  --&gt;
+	&lt;class name="Port" threads-number="1"&gt;
+		&lt;parameter name="metaClass"&gt;${CIMetaClass}&lt;/parameter&gt;
+		
+      	&lt;csv-data-source with-header="true" file-name="${fileCI}" delimiter=";" encoding="CP1251" id-column="id"&gt;
+			&lt;column name="id" src-key="UUID"/&gt;
+			&lt;column name="title" src-key="Title"/&gt;
+		&lt;/csv-data-source&gt;
+	
+      	&lt;constant-metaclass-resolver/&gt;
+		&lt;object-searcher attr="${CIIdHolder}"/&gt;
+
+      	&lt;attr name="${CIIdHolder}" column="id"/&gt;
+		&lt;attr name="title" column="title"/&gt;
+	&lt;/class&gt;
+&lt;/config&gt;</configContainer>
+</configuration>

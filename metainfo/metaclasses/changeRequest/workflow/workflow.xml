@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workflow xmlns:xi="http://www.w3.org/2001/XInclude" inherit="false" originalState="registered" seg-detach="true" seg-id="workflow" seg-type="workflow">
+    <xi:include href="state/closed.xml" parse="xml"/>
+    <xi:include href="state/declined.xml" parse="xml"/>
+    <xi:include href="state/deferred.xml" parse="xml"/>
+    <xi:include href="state/implementation.xml" parse="xml"/>
+    <xi:include href="state/inprogress.xml" parse="xml"/>
+    <xi:include href="state/mark.xml" parse="xml"/>
+    <xi:include href="state/negotiating.xml" parse="xml"/>
+    <xi:include href="state/plan.xml" parse="xml"/>
+    <xi:include href="state/registered.xml" parse="xml"/>
+    <xi:include href="state/test.xml" parse="xml"/>
+    <xi:include href="state/undertow.xml" parse="xml"/>
+    <statesOrder>registered</statesOrder>
+    <statesOrder>negotiating</statesOrder>
+    <statesOrder>inprogress</statesOrder>
+    <statesOrder>deferred</statesOrder>
+    <statesOrder>test</statesOrder>
+    <statesOrder>closed</statesOrder>
+    <statesOrder>declined</statesOrder>
+    <statesOrder>plan</statesOrder>
+    <statesOrder>implementation</statesOrder>
+    <statesOrder>undertow</statesOrder>
+    <statesOrder>mark</statesOrder>
+    <statesOrder>mark</statesOrder>
+    <xi:include href="transition/declined-negotiating.xml" parse="xml"/>
+    <xi:include href="transition/declined-registered.xml" parse="xml"/>
+    <xi:include href="transition/deferred-inprogress.xml" parse="xml"/>
+    <xi:include href="transition/implementation-mark.xml" parse="xml"/>
+    <xi:include href="transition/implementation-undertow.xml" parse="xml"/>
+    <xi:include href="transition/inprogress-deferred.xml" parse="xml"/>
+    <xi:include href="transition/inprogress-negotiating.xml" parse="xml"/>
+    <xi:include href="transition/inprogress-test.xml" parse="xml"/>
+    <xi:include href="transition/inprogress-undertow.xml" parse="xml"/>
+    <xi:include href="transition/mark-closed.xml" parse="xml"/>
+    <xi:include href="transition/mark-registered.xml" parse="xml"/>
+    <xi:include href="transition/negotiating-declined.xml" parse="xml"/>
+    <xi:include href="transition/negotiating-inprogress.xml" parse="xml"/>
+    <xi:include href="transition/negotiating-plan.xml" parse="xml"/>
+    <xi:include href="transition/plan-inprogress.xml" parse="xml"/>
+    <xi:include href="transition/plan-negotiating.xml" parse="xml"/>
+    <xi:include href="transition/registered-closed.xml" parse="xml"/>
+    <xi:include href="transition/registered-declined.xml" parse="xml"/>
+    <xi:include href="transition/registered-negotiating.xml" parse="xml"/>
+    <xi:include href="transition/registered-plan.xml" parse="xml"/>
+    <xi:include href="transition/test-closed.xml" parse="xml"/>
+    <xi:include href="transition/test-implementation.xml" parse="xml"/>
+    <xi:include href="transition/test-inprogress.xml" parse="xml"/>
+    <xi:include href="transition/test-undertow.xml" parse="xml"/>
+    <xi:include href="transition/undertow-closed.xml" parse="xml"/>
+    <xi:include href="transition/undertow-negotiating.xml" parse="xml"/>
+</workflow>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f77988c3-142d-0199-0000-0000308ddac3" seg-type="contents" uuid="f77988c3-142d-0199-0000-0000308ddac3">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+        <profile>715ac749-76c9-4335-9c68-27d30274d88d</profile>
+        <profile>066759f5-fb96-4c3c-9d2d-49c628e98ef0</profile>
+        <profile>dc712f36-3947-4536-a0fe-8d55aafcae0f</profile>
+        <profile>d9c1ca35-3f93-4c02-b8b1-2c058bc24c36</profile>
+        <profile>a3a3160f-1b5c-44fb-adf2-632a69c45924</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+    </profiles>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef9e0-16fc-161f-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Отчет о выполнении:</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>2a4ee529-1375-4ee0-8a43-24ce0005c6a4</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/f77988c3-142d-019a-0000-0000308ddac3.xml" parse="xml"/>
+</properties>

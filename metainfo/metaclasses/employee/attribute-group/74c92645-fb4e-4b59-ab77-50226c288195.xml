@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="74c92645-fb4e-4b59-ab77-50226c288195" seg-type="attribute-group">
+    <code>74c92645-fb4e-4b59-ab77-50226c288195</code>
+    <title lang="ru">Для сложной формы атрибута Контрагент</title>
+    <attribute>title</attribute>
+    <attribute>post</attribute>
+    <attribute>email</attribute>
+    <attribute>phonesIndex</attribute>
+</group>

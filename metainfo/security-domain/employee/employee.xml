@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-domain xmlns:xi="http://www.w3.org/2001/XInclude" code="employee" seg-detach="true" seg-id="employee" seg-type="security-domain">
+    <xi:include href="access-matrix/access-matrix.xml" parse="xml"/>
+    <xi:include href="marker-declarations/db9d05bd-e596-4e3c-80ed-87d44c04ea3b.xml" parse="xml"/>
+    <xi:include href="marker-declarations/2172c1a2-d5e9-44d8-96f0-4fd2ba0adab0.xml" parse="xml"/>
+    <xi:include href="marker-declarations/4dcabfe6-10f5-4163-8872-b789ef858003.xml" parse="xml"/>
+    <xi:include href="marker-declarations/ce5b3901-4bd8-4e04-91f5-c2a446bf31e8.xml" parse="xml"/>
+    <xi:include href="marker-declarations/userEvent1cf55970-3aa2-428e-aeb7-6680e007706b.xml" parse="xml"/>
+    <xi:include href="marker-overrides/editRestAttributes.xml" parse="xml"/>
+    <xi:include href="sec-actions/blockingCtrl.xml" parse="xml"/>
+    <xi:include href="sec-actions/ChangePasswd.xml" parse="xml"/>
+    <xi:include href="sec-actions/forIntegrationCtrl.xml" parse="xml"/>
+    <xi:include href="roles/currentUser.xml" parse="xml"/>
+    <xi:include href="roles/userHead.xml" parse="xml"/>
+    <xi:include href="roles/userOuEmployee.xml" parse="xml"/>
+    <xi:include href="roles/userTeamEmployee.xml" parse="xml"/>
+    <xi:include href="roles/userTeamHead.xml" parse="xml"/>
+    <xi:include href="roles/userUpperOuEmployee.xml" parse="xml"/>
+    <xi:include href="roles/userUpperOuHead.xml" parse="xml"/>
+    <xi:include href="roles/b2ec79cf-4601-4120-bbdf-434102f33fcf.xml" parse="xml"/>
+</security-domain>

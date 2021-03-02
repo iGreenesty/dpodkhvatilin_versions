@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" code="CommentDel" enabled="true" group="comment" seg-detach="true" seg-id="CommentDel" seg-type="sec-actions">
+    <title lang="en">Delete comment</title>
+    <title lang="ru">Удаление комментариев</title>
+</action>

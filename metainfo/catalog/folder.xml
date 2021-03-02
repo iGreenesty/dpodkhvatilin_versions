@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="folder" seg-detach="true" seg-id="folder" seg-type="catalog" xsi:type="SystemCatalog">
+    <title lang="client">Каталоги</title>
+    <title lang="en">Directories</title>
+    <title lang="ru">Каталоги</title>
+    <description lang="client">Содержит каталоги бизнес объектов.</description>
+    <description lang="en">Contains directories of business objects.</description>
+    <description lang="ru">Содержит каталоги бизнес объектов.</description>
+</catalog>

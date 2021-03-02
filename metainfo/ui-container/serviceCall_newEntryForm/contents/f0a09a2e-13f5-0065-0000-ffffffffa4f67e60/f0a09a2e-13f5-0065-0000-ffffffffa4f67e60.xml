@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sc-client-info xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f0a09a2e-13f5-0065-0000-ffffffffa4f67e60" seg-type="contents" uuid="f0a09a2e-13f5-0065-0000-ffffffffa4f67e60">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+    </profiles>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6f0326-16fc-2ede-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="en">User's information</caption>
+    <caption lang="ru">Информация о контрагенте</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>0f31f516-1b18-4863-829c-d36c462ab0d7</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/f0a0b59f-13f5-4ac8-0000-000001bcf716.xml" parse="xml"/>
+    <ouAttributeGroup>d56af710-2a94-455b-ad33-83c208c0fe37</ouAttributeGroup>
+    <emplAttributeGroup>0f31f516-1b18-4863-829c-d36c462ab0d7</emplAttributeGroup>
+    <teamAttributeGroup>4b3a92b0-f635-4716-bde2-dd86e9b6c349</teamAttributeGroup>
+</sc-client-info>

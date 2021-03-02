@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="edcfcd28-3de9-4a5c-bab7-3b772a727486" seg-type="attribute-group">
+    <code>edcfcd28-3de9-4a5c-bab7-3b772a727486</code>
+    <title lang="ru">Для сложной формы добавления контрагента в отчётах</title>
+    <attribute>title</attribute>
+    <attribute>recipientAgreements</attribute>
+    <order>title</order>
+    <order>recipientAgreements</order>
+</group>

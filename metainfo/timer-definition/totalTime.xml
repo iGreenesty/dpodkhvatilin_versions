@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<timer-definition xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="totalTime" seg-type="timer-definition">
+    <code>totalTime</code>
+    <title lang="ru">Суммарное время обработки</title>
+    <description lang="ru">Счетчик суммарного времени обработки, считает время, проведенное заякой во всех статусах,
+		кроме Закрыт, с учетом класса обслуживания.</description>
+    <target-type>
+        <id>serviceCall</id>
+    </target-type>
+    <time-metric>SERVICE</time-metric>
+    <enableRecalc>false</enableRecalc>
+    <enableRecalcOnServiceTimeChange>false</enableRecalcOnServiceTimeChange>
+    <time-zone-attribute>timeZone</time-zone-attribute>
+    <service-time-attribute>serviceTime</service-time-attribute>
+    <status-condition>
+        <selected>
+            <metaclass>
+                <id>serviceCall</id>
+            </metaclass>
+            <state>registered</state>
+        </selected>
+        <selected>
+            <metaclass>
+                <id>serviceCall</id>
+            </metaclass>
+            <state>resumed</state>
+        </selected>
+        <selected>
+            <metaclass>
+                <id>serviceCall</id>
+            </metaclass>
+            <state>inprogress</state>
+        </selected>
+        <selected>
+            <metaclass>
+                <id>serviceCall</id>
+            </metaclass>
+            <state>waitClientAnswer</state>
+        </selected>
+        <selected>
+            <metaclass>
+                <id>serviceCall</id>
+            </metaclass>
+            <state>deferred</state>
+        </selected>
+        <selectedStatesAsString>[Запрос на обслуживание], [Заявка], [Инцидент] : Новая, Выполнена, Возобновлена&lt;br&gt;[Обращение] : Новое, Выполнена, Возобновлена</selectedStatesAsString>
+        <stop-states>
+            <metaclass>
+                <id>serviceCall</id>
+            </metaclass>
+            <state>closed</state>
+        </stop-states>
+        <stopStatesAsString>[Запрос на обслуживание], [Заявка], [Инцидент] : Закрыта&lt;br&gt;[Обращение] : Закрыто</stopStatesAsString>
+    </status-condition>
+    <removed>false</removed>
+    <system>true</system>
+</timer-definition>

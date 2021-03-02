@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<module xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="restFileTransfer" seg-type="script-modules">
+    <code>restFileTransfer</code>
+    <description/>
+    <active>false</active>
+    <script checksum="e9fb12b9a623d51d4724a33a2e5933c17e34abf7e4e6e68c4def6960209f352c">
+        <xi:include href="restFileTransfer.groovy" parse="text"/>
+    </script>
+    <view_by_superusers>false</view_by_superusers>
+    <edit_by_superusers>false</edit_by_superusers>
+    <author>naumen</author>
+</module>

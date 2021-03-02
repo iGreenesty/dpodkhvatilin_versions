@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="closed" color="#161414" enabled="true" hardcoded="false" responsibleType="EMPLOYEE_AND_TEAM" seg-detach="true" seg-id="closed" seg-type="state">
+    <title lang="ru">Закрыт</title>
+    <description lang="ru">конечный статус объекта</description>
+    <responsible bean="currentResponsibleStrategy"/>
+    <changeResponsibleButtonVisible>true</changeResponsibleButtonVisible>
+    <stateSetting canEdit="true" canView="true" code="@comment" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Комментарии</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="advisoryEmpl" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Согласующие сотрудники</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="category" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Категория</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="circumstance" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Заявки-следствия</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="connectedCI" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Связанные ИТ-активы</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="deadline" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Планируемая дата внедрения изменения</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="description" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Описание предлагаемого изменения</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="folders" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Папки</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="impact" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Степень влияния</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="KEs" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Конфигурационные единицы</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="negotiations" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Согласования</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="periodNegotiat" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Период согласования</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="planImplemn" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">План внедрения</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="problems" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Проблемы</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="reasonCall" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Заявки - причины</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="reasonDecline" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Причина отказа</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="responsible" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Ответственный</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="results" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Результаты внедрения</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="rollbackPlan" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">План отката</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="services" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Затрагиваемые услуги</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="tasks" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Задачи</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="velocity" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Срочность</title>
+    </stateSetting>
+    <stateSetting canEdit="true" canView="true" code="workRecords" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Записи о работе</title>
+    </stateSetting>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$190" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <push-mobile-action>
+            <actionType>PushMobileEventAction</actionType>
+            <message>&lt;span style="font-family: Arial; font-size: small;"&gt;В Вашей задаче №${subject.objectNumber} добавлен комментарий&lt;/span&gt;</message>
+            <roles>task_ResponsibleEmployee</roles>
+            <roles>c9406137-e0ce-4fdb-83cf-1116218148da</roles>
+            <script><![CDATA[PerehodNaKartochkuKommentariyaIskluchenieAvtora]]></script>
+            <html>false</html>
+            <pushHeaderFormat>Subject</pushHeaderFormat>
+            <subject>${pushMobile.scriptParams['root']}</subject>
+        </push-mobile-action>
+        <code>eventAction$190</code>
+        <description lang="ru"/>
+        <event>
+            <eventType>addComment</eventType>
+        </event>
+        <fqn>
+            <id>task</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <tags>Zadachi</tags>
+        <title lang="ru">[Push в МП] О добавлении комментария к задаче (отв. и автору)</title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

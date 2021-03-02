@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="OpoveshenieKontaktnogoLicaOSmeneStatusaZayavki124" seg-type="scripts">
+    <code>OpoveshenieKontaktnogoLicaOSmeneStatusaZayavki124</code>
+    <title lang="ru">Оповещение контактного лица о смене статуса заявки</title>
+    <title>Оповещение контактного лица о смене статуса заявки</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="OpoveshenieKontaktnogoLicaOSmeneStatusaZayavki124.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

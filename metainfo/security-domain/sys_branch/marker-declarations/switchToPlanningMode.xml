@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="switchToPlanningMode" enabled="true" group="workWithPV" seg-detach="true" seg-id="switchToPlanningMode" seg-type="marker-declarations">
+    <title lang="en">Switch to planning mode</title>
+    <title lang="ru">Переход в режим планирования</title>
+</marker-declaration>

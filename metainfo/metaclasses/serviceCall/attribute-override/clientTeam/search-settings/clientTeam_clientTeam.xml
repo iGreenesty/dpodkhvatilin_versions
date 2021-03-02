@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="clientTeam_clientTeam" seg-type="search-settings">
+    <simpleSearchableForLicensed>false</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>false</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>false</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>false</extendedSearchableForLicensed>
+    <searchBoost>1.0</searchBoost>
+    <code>clientTeam</code>
+    <declaredMetaClass>serviceCall</declaredMetaClass>
+    <title lang="en">Client (team)</title>
+    <title lang="ru">Контрагент (команда)</title>
+    <title>Контрагент (команда)</title>
+    <attrCode>clientTeam</attrCode>
+</searchSetting>

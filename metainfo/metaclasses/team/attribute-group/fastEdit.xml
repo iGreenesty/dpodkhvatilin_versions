@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fastEdit" seg-type="attribute-group">
+    <code>fastEdit</code>
+    <title lang="ru">Для быстрого добавления команды из сотрудника</title>
+    <attribute>title</attribute>
+    <order>title</order>
+</group>

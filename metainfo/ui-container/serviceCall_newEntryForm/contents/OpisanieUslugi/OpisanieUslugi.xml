@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-object-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="OpisanieUslugi" seg-type="contents" uuid="OpisanieUslugi">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="0837b62c-6d26-01fc-a357-4d8c01b3759f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Описание услуги</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>Opisanie</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/c3c3a050-e7a4-4770-8562-5f429b7e19f3.xml" parse="xml"/>
+    <attrCode>service</attrCode>
+    <allowEdit>false</allowEdit>
+</related-object-properties>

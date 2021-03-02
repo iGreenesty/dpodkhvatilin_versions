@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="domain_LastEmpTeamMember" enabled="true" seg-detach="true" seg-id="domain_LastEmpTeamMember" seg-type="roles" type="SYSTEM">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="snippet">lastResponsibleTeamMemberRoleSnippet</property>
+    <title lang="en">Previos assigned team member</title>
+    <title lang="ru">Член команды, предыдущей ответственной за объект</title>
+</role>

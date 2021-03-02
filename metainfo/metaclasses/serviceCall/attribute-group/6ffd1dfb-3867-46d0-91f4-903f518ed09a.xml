@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="6ffd1dfb-3867-46d0-91f4-903f518ed09a" seg-type="attribute-group">
+    <code>6ffd1dfb-3867-46d0-91f4-903f518ed09a</code>
+    <title lang="ru">Основные данные</title>
+    <attribute>state</attribute>
+    <attribute>timeAllowanceTimer</attribute>
+    <attribute>creationDate</attribute>
+    <attribute>author</attribute>
+    <attribute>responsible</attribute>
+    <attribute>dateDecision</attribute>
+    <attribute>serviceTime</attribute>
+    <attribute>baseCategory</attribute>
+    <attribute>mark</attribute>
+    <order>state</order>
+    <order>timeAllowanceTimer</order>
+    <order>creationDate</order>
+    <order>author</order>
+    <order>responsible</order>
+    <order>dateDecision</order>
+    <order>serviceTime</order>
+    <order>baseCategory</order>
+    <order>mark</order>
+</group>

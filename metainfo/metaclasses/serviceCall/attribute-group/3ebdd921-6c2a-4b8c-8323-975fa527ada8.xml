@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="3ebdd921-6c2a-4b8c-8323-975fa527ada8" seg-type="attribute-group">
+    <code>3ebdd921-6c2a-4b8c-8323-975fa527ada8</code>
+    <title lang="ru">Степень влияния</title>
+    <attribute>urgency</attribute>
+    <attribute>impact</attribute>
+    <order>urgency</order>
+    <order>impact</order>
+</group>

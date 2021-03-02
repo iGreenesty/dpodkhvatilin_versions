@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$SkriptPereschetTZTPriDobavleniiZapisiORabote" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[PereschetTZTPriDobavleniiRedaktirovaniiIUdaleniiZapisiORabote]]></script>
+        </script-action>
+        <code>eventAction$SkriptPereschetTZTPriDobavleniiZapisiORabote</code>
+        <description lang="ru"/>
+        <event>
+            <eventType>add</eventType>
+        </event>
+        <fqn>
+            <id>workRecord</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <tags>Trudozatraty</tags>
+        <title lang="ru">[Скрипт] Пересчет ТЗТ при добавлении трудозатраты</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

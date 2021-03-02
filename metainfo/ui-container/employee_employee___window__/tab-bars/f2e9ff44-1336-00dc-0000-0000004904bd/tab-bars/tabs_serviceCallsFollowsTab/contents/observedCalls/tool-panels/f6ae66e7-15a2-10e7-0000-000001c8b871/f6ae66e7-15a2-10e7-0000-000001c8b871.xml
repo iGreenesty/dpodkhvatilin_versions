@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<massOperationsPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f6ae66e7-15a2-10e7-0000-000001c8b871" seg-type="tool-panels" uuid="f6ae66e7-15a2-10e7-0000-000001c8b871">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="f3310cdd-1745-29fd-0036-000036b4a082">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/edit_f3310cdd-1745-29fe-0036-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/massEdit_f3310cdd-1745-29ff-0036-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/editResponsible_f3310cdd-1745-2a00-0036-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/changeAssociation_f3310cdd-1745-2a01-0036-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/deleteActionTool_f3310cdd-1745-2a02-0036-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/fireUserEvent_f3310cdd-1745-2a03-0036-000036b4a082.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="f3c8c537-165a-7bfc-0021-000000ee8080">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <feature>fastChangeState</feature>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="f3310cdd-1745-2a04-0036-000036b4a082">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/openMassServiceCallFormForMassCall_f3310cdd-1745-2a05-0036-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/openMassServiceCallFormForRegularCall_f3310cdd-1745-2a06-0036-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/fireUserEvent_f3310cdd-1745-2a07-0036-000036b4a082.xml" parse="xml"/>
+        <xi:include href="tools/fireUserEvent_f3310cdd-1745-2a08-0036-000036b4a082.xml" parse="xml"/>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</massOperationsPanel>

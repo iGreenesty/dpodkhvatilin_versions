@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<object-card xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="changeRequest" seg-type="object-cards" uuid="changeRequest">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+        <profile>4a913028-f460-476c-981e-57fb8da4978f</profile>
+        <profile>6139570f-f4bd-4913-b9c6-683955428e7c</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+        <profile>SpecialistInChangeRequests</profile>
+    </profiles>
+    <tags>
+        <tag>ZaprosyNaIzmenenie</tag>
+    </tags>
+    <cases/>
+    <class>
+        <id>changeRequest</id>
+    </class>
+    <contents>
+        <xi:include href="contents/ParametryObekta/ParametryObekta.xml" parse="xml"/>
+    </contents>
+    <comments>
+        <enabled>true</enabled>
+    </comments>
+    <files>
+        <enabled>true</enabled>
+    </files>
+    <xi:include href="object-actions-settings/object-actions-settings.xml" parse="xml"/>
+    <objectCaption>title</objectCaption>
+    <quickStateChangeAvailable>true</quickStateChangeAvailable>
+    <workflow useAvailableStates="true"/>
+</object-card>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="domain_quickAddAndEditForm$FormaBystrogoRedaktirovaniyaDomena" seg-type="ui-container">
+    <fqn>
+        <id>domain</id>
+    </fqn>
+    <code>quickAddAndEditForm$FormaBystrogoRedaktirovaniyaDomena</code>
+    <quickform seg-detach="false" uuid="quickAddAndEditForm$FormaBystrogoRedaktirovaniyaDomena">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Форма быстрого редактирования домена</caption>
+        <layout seg-detach="false" uuid="445e0ae2-c1e4-fe7a-7465-33e3fa818e9e">
+            <profiles/>
+            <tags/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <attrGroup>DlyaFormyRedaktirovaniya</attrGroup>
+        <custom-form>QuickForm</custom-form>
+        <show-attr-description>false</show-attr-description>
+        <transitioncases>
+            <id>domain</id>
+            <case>domain</case>
+        </transitioncases>
+        <code>FormaBystrogoRedaktirovaniyaDomena</code>
+    </quickform>
+</ui>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$SkriptPerevodVRabotuPriDobavleniiKommentariya" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[SmenaStatusaNaVRabote]]></script>
+        </script-action>
+        <code>eventAction$SkriptPerevodVRabotuPriDobavleniiKommentariya</code>
+        <xi:include href="script-action-condition/actionCondition_1.xml" parse="xml"/>
+        <xi:include href="script-action-condition/actionCondition_2.xml" parse="xml"/>
+        <xi:include href="script-action-condition/actionCondition_3.xml" parse="xml"/>
+        <xi:include href="script-action-condition/actionCondition_4.xml" parse="xml"/>
+        <description lang="ru"/>
+        <event>
+            <eventType>addComment</eventType>
+        </event>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Скрипт] Перевод в работу при добавлении комментария</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

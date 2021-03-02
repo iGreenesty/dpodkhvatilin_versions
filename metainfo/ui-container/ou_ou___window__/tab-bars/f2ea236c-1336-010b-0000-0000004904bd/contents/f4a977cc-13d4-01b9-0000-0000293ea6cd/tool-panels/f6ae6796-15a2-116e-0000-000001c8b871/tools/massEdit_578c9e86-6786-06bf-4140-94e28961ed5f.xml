@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mass-edit-from-list xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="massEdit_578c9e86-6786-06bf-4140-94e28961ed5f" seg-type="tools" uuid="578c9e86-6786-06bf-4140-94e28961ed5f">
+    <profiles/>
+    <tags/>
+    <appliedToType>listObjects</appliedToType>
+    <iconCode>edit_icon</iconCode>
+    <params/>
+    <presentationType>link</presentationType>
+    <action>massEdit</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="ru">Редактировать права и лицензии</caption>
+    <massEditForm>massEditForm$3ab79352-aa30-4f15-c19e-2aa2118da4f4</massEditForm>
+</mass-edit-from-list>

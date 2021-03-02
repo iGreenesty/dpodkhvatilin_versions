@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<object-card xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ouCompany" seg-type="object-cards" uuid="ouCompany">
+    <profiles/>
+    <tags/>
+    <cases>
+        <case>
+            <id>ou</id>
+            <case>company</case>
+        </case>
+    </cases>
+    <contents>
+        <xi:include href="contents/f5df38fc-14ce-8334-0001-00003f5cad83/f5df38fc-14ce-8334-0001-00003f5cad83.xml" parse="xml"/>
+        <xi:include href="contents/contactPerson.xml" parse="xml"/>
+        <xi:include href="contents/scByComp.xml" parse="xml"/>
+        <xi:include href="contents/PoluchaemyeSoglasheniya.xml" parse="xml"/>
+    </contents>
+    <comments>
+        <enabled>false</enabled>
+    </comments>
+    <files>
+        <enabled>false</enabled>
+    </files>
+    <xi:include href="object-actions-settings/object-actions-settings.xml" parse="xml"/>
+    <objectCaption>title</objectCaption>
+    <quickStateChangeAvailable>true</quickStateChangeAvailable>
+    <workflow useAvailableStates="false"/>
+</object-card>

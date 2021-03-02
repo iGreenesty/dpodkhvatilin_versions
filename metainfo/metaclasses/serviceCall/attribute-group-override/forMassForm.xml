@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="forMassForm" seg-type="attribute-group-override">
+    <code>forMassForm</code>
+    <title lang="ru">Атрибуты для связывания</title>
+    <attribute>creationDate</attribute>
+    <attribute>metaClass</attribute>
+    <attribute>descriptionRTF</attribute>
+    <attribute>state</attribute>
+    <order>number</order>
+    <order>creationDate</order>
+    <order>metaClass</order>
+    <order>descriptionRTF</order>
+    <order>state</order>
+</override>

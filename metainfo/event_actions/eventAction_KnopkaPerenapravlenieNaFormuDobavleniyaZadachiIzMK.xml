@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$KnopkaPerenapravlenieNaFormuDobavleniyaZadachiIzMK" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[KnopkaPerenapravlenieNaFormuDobavleniyaZadachiIzMK]]></script>
+        </script-action>
+        <code>eventAction$KnopkaPerenapravlenieNaFormuDobavleniyaZadachiIzMK</code>
+        <description lang="ru"/>
+        <user-events>
+            <eventType>userEvent</eventType>
+            <event-code>userEvent$KnopkaPerenapravlenieNaFormuDobavleniyaZadachiIzMK</event-code>
+        </user-events>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Кнопка] Перенаправление на форму добавления задачи из МК</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

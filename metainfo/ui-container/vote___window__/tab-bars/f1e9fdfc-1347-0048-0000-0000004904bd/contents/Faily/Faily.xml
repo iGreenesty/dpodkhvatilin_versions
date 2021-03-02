@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<files xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="Faily" seg-type="contents" uuid="Faily">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="50b0f471-473b-c9d1-c91f-c7bd7ffe11e3">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Файлы</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>file</id>
+    </class>
+    <attributeGroup>system</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/66c6172b-1d2b-02f9-9701-7fd9ff72e8ea/66c6172b-1d2b-02f9-9701-7fd9ff72e8ea.xml" parse="xml"/>
+    <xi:include href="tool-panels/f4e5ec83-16ff-6a0a-0006-000014127783.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f4e5ec84-16ff-6a0b-0006-000014127783">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f4e5ec9a-16ff-6a7b-0006-000014127783">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="f4e5ec84-16ff-6a0c-0006-000014127783">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attrChain attr-code="parent" class-fqn="vote"/>
+    <attributeCodes>files</attributeCodes>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <relationType>relatedObjectFiles</relationType>
+</files>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="templateTask" seg-type="form-parameters">
+    <attrs-for-date-time-restriction-script/>
+    <attrs-in-cof-script/>
+    <code>templateTask</code>
+    <complexRelation>false</complexRelation>
+    <computable-on-form>false</computable-on-form>
+    <default-by-script>false</default-by-script>
+    <edit-presentaion>
+        <code>boSelect</code>
+    </edit-presentaion>
+    <editable>true</editable>
+    <is-filtered-by-script>false</is-filtered-by-script>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <required>false</required>
+    <title lang="ru">Шаблон</title>
+    <type>
+        <code>object</code>
+        <property code="permittedTypes">["template$templateTask"]</property>
+        <property code="metaClassFqn">template</property>
+    </type>
+    <view-presentaion>
+        <code>boRreference</code>
+    </view-presentaion>
+</parameter>

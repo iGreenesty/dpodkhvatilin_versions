@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-domain xmlns:xi="http://www.w3.org/2001/XInclude" code="team" seg-detach="true" seg-id="team" seg-type="security-domain">
+    <xi:include href="access-matrix/access-matrix.xml" parse="xml"/>
+    <xi:include href="sec-actions/MoveObject.xml" parse="xml"/>
+    <xi:include href="roles/teamHeadOuEmployee.xml" parse="xml"/>
+    <xi:include href="roles/teamHeadOuHead.xml" parse="xml"/>
+    <xi:include href="roles/teamLeader.xml" parse="xml"/>
+    <xi:include href="roles/teamParticipant.xml" parse="xml"/>
+</security-domain>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="df895ac7-223b-4aa7-836a-ae6b0e06a393" seg-type="attribute-group">
+    <code>df895ac7-223b-4aa7-836a-ae6b0e06a393</code>
+    <title lang="ru">Работа по заявкам</title>
+    <attribute>NScClDays</attribute>
+    <attribute>NScWDays</attribute>
+    <order>NScClDays</order>
+    <order>NScWDays</order>
+</group>

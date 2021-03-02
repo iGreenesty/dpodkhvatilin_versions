@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<edit-from-list xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="edit_f1e9fdfc-1355-0048-0000-0000004904bd" seg-type="tools" uuid="f1e9fdfc-1355-0048-0000-0000004904bd">
+    <profiles/>
+    <tags/>
+    <appliedToType>listObjects</appliedToType>
+    <iconCode>edit_icon</iconCode>
+    <params/>
+    <presentationType>link</presentationType>
+    <action>edit</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">edit</caption>
+    <caption lang="ru">редактировать</caption>
+    <useQuickEditForm>false</useQuickEditForm>
+</edit-from-list>

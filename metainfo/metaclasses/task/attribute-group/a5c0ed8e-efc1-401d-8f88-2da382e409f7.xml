@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="a5c0ed8e-efc1-401d-8f88-2da382e409f7" seg-type="attribute-group">
+    <code>a5c0ed8e-efc1-401d-8f88-2da382e409f7</code>
+    <title lang="ru">Для карточки компании</title>
+    <attribute>objectNumber</attribute>
+    <attribute>creationDate</attribute>
+    <attribute>author</attribute>
+    <attribute>description</attribute>
+    <attribute>responsible</attribute>
+    <attribute>planDate</attribute>
+    <attribute>deadline</attribute>
+    <attribute>state</attribute>
+    <attribute>isOverdue</attribute>
+    <attribute>dateDecision</attribute>
+    <attribute>resumptionSum</attribute>
+    <attribute>serviceCall</attribute>
+    <attribute>clientSC</attribute>
+    <attribute>descriptionSC</attribute>
+    <attribute>stateSC</attribute>
+    <attribute>sumWorkRecords</attribute>
+    <order>objectNumber</order>
+    <order>creationDate</order>
+    <order>author</order>
+    <order>description</order>
+    <order>responsible</order>
+    <order>planDate</order>
+    <order>deadline</order>
+    <order>state</order>
+    <order>isOverdue</order>
+    <order>dateDecision</order>
+    <order>resumptionSum</order>
+    <order>serviceCall</order>
+    <order>clientSC</order>
+    <order>descriptionSC</order>
+    <order>stateSC</order>
+    <order>sumWorkRecords</order>
+</group>

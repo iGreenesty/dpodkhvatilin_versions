@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="scCases" seg-type="report-parameter">
+    <code>scCases</code>
+    <title>Ограничить по типам заявок</title>
+    <type>caseList</type>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" list="true" xsi:type="anyType"/>
+    <metaClassFqn>serviceCall</metaClassFqn>
+    <visible>true</visible>
+    <overrided>false</overrided>
+    <params/>
+    <required>false</required>
+</parameter>

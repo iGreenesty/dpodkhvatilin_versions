@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="fe874377-140c-0095-0000-00000025976e" seg-type="tab-bars" uuid="fe874377-140c-0095-0000-00000025976e">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efd6e-16fc-17a1-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="fe874376-140c-0093-0000-00000025976e">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+            <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        </profiles>
+        <tags/>
+        <caption lang="ru">Связанные соглашения</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="fe874377-140c-0094-0000-00000025976e">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/fe877e22-140c-0096-0000-00000025976e/fe877e22-140c-0096-0000-00000025976e.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efd6f-16fc-17a3-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="fe885744-140c-00b3-0000-00000025976e">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+            <profile>ec280f65-2261-4248-8896-ee251c39c58e</profile>
+            <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        </profiles>
+        <tags/>
+        <caption lang="ru">Связанные заявки</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="fe885744-140c-00b4-0000-00000025976e">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/fe89e5cd-140c-00ba-0000-00000025976e/fe89e5cd-140c-00ba-0000-00000025976e.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efd6f-16fc-17a5-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="f1191643-5184-0173-0001-000436222597">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+            <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        </profiles>
+        <tags>
+            <tag>BazaZnanii</tag>
+        </tags>
+        <caption lang="ru">Статьи БЗ</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="f1191643-5184-0174-0001-000436222597">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f1192018-5184-0176-0001-000436222597/f1192018-5184-0176-0001-000436222597.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efd6f-16fc-17a7-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

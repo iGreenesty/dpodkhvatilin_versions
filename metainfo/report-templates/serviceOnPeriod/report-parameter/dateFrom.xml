@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="dateFrom" seg-type="report-parameter">
+    <code>dateFrom</code>
+    <title>Дата с</title>
+    <type>date</type>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="anyType">
+        <date>2020-09-24T13:31:29.053Z</date>
+    </value>
+    <visible>true</visible>
+    <overrided>false</overrided>
+    <params/>
+    <required>true</required>
+</parameter>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" code="responsibleCurrentTeam" enabled="true" group="responsible" seg-detach="true" seg-id="responsibleCurrentTeam" seg-type="sec-actions">
+    <title lang="en">Assign current assignee employee team as an assignee</title>
+    <title lang="ru">Назначение команды текущего ответственного ответственной за объект</title>
+</action>

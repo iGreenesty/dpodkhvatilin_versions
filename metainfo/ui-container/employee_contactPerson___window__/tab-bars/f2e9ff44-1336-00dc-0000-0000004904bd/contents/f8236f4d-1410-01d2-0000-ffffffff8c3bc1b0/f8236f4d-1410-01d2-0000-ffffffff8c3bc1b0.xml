@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f8236f4d-1410-01d2-0000-ffffffff8c3bc1b0" seg-type="contents" uuid="f8236f4d-1410-01d2-0000-ffffffff8c3bc1b0">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+    </profiles>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6eff11-16fc-189d-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Предоставляемые соглашения</caption>
+    <showCaption>true</showCaption>
+    <class>
+        <id>agreement</id>
+    </class>
+    <attributeGroup>SpisokNaKartochkePoluchatelya-sotrudnika</attributeGroup>
+    <presentation>default</presentation>
+    <xi:include href="tool-panels/fe98de3f-15d5-b7ff-e591-64f5504fa048.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae6686-15a2-10b1-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f78731ce-1695-0f22-0044-000000ffc2f3">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f78731fd-1695-0fd2-0044-000000ffc2f3">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c5069-168d-1223-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>recipientAgreements</attr-link-code>
+    <attrs-chain attr-code="recipientAgreements" class-fqn="employee$contactPerson"/>
+    <filterRestrictionSettings/>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Соглашение</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

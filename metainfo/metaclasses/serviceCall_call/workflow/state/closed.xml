@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="closed" color="#00000F" enabled="true" hardcoded="false" seg-detach="true" seg-id="closed" seg-type="state">
+    <stateSetting canEdit="false" canView="false" code="commentForMark" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru"/>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="createUp" postFill="0" preFill="1" requredInState="false">
+        <title lang="ru">Уже создана (дубль)</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="mark" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru"/>
+    </stateSetting>
+    <preAction code="fc0de157-15ee-ccff-0010-000001ded46d" preAction="true" type="SCRIPT">
+        <title lang="ru">Помечает заявку как Дубль и добавляет комментарий в основную</title>
+        <property code="script">SCRIPTSD4001727</property>
+    </preAction>
+    <preActionsOrder>fb0fcfe5-141e-9d63-0000-0000016689e8</preActionsOrder>
+    <preActionsOrder>fc0de157-15ee-ccff-0010-000001ded46d</preActionsOrder>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

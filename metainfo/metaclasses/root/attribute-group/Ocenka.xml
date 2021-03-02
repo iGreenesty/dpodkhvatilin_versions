@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="Ocenka" seg-type="attribute-group">
+    <code>Ocenka</code>
+    <title lang="ru">Оценка</title>
+    <attribute>textMarkFive</attribute>
+    <attribute>textMarkFour</attribute>
+    <attribute>textMarkThree</attribute>
+    <attribute>textMarkTwo</attribute>
+    <attribute>textMarkOne</attribute>
+    <order>textMarkFive</order>
+    <order>textMarkFour</order>
+    <order>textMarkThree</order>
+    <order>textMarkTwo</order>
+    <order>textMarkOne</order>
+</group>

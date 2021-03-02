@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="fa262262-140c-0098-0000-ffffffffb7514f2b" seg-type="tab-bars" uuid="fa262262-140c-0098-0000-ffffffffb7514f2b">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6eff09-16fc-1892-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>true</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="ff103a55-140c-0453-0000-00005f98b9cb">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Заявки</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="ff103a55-140c-0454-0000-00005f98b9cb">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/ff10a92d-140c-0456-0000-00005f98b9cb/ff10a92d-140c-0456-0000-00005f98b9cb.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6eff10-16fc-1894-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

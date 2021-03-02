@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="OtvetstvennymNaznachaetsyaSotrudnikSmenivshiiStatus54" seg-type="scripts">
+    <code>OtvetstvennymNaznachaetsyaSotrudnikSmenivshiiStatus54</code>
+    <title lang="ru">Ответственным назначается сотрудник, сменивший статус</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="OtvetstvennymNaznachaetsyaSotrudnikSmenivshiiStatus54.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$15" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[SkriptDobavlenieNovomuSotrudnikuSoglasheniiEgoOtdela92]]></script>
+        </script-action>
+        <code>eventAction$15</code>
+        <description lang="ru">При создании сотрудника назначает его получателем соглашений его отдела</description>
+        <description>При создании сотрудника назначает его получателем соглашений его отдела</description>
+        <event>
+            <eventType>add</eventType>
+        </event>
+        <fqn>
+            <id>employee</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Скрипт] Добавление новому сотруднику соглашений его отдела</title>
+        <title>Скрипт: добавление новому сотруднику соглашений его отдела</title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

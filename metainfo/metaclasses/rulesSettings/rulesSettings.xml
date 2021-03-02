@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<system-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="rulesSettings" seg-type="metaclasses">
+    <fqn>
+        <id>rulesSettings</id>
+    </fqn>
+    <parent>
+        <id>catalogItem</id>
+    </parent>
+    <properties/>
+    <tags/>
+    <responsibilityTransferTableEnabled>true</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/defaultObject.xml" parse="xml"/>
+        <xi:include href="attribute/description.xml" parse="xml"/>
+        <xi:include href="attribute/linkedClass.xml" parse="xml"/>
+        <xi:include href="attribute/linkedClasses.xml" parse="xml"/>
+        <xi:include href="attribute/rowSet.xml" parse="xml"/>
+        <xi:include href="attribute/sourceAttrs.xml" parse="xml"/>
+        <xi:include href="attribute/targetAttrs.xml" parse="xml"/>
+        <xi:include href="attribute/type.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/defaultObject.xml" parse="xml"/>
+        <xi:include href="attribute-override/description.xml" parse="xml"/>
+        <xi:include href="attribute-override/linkedClass.xml" parse="xml"/>
+        <xi:include href="attribute-override/linkedClasses.xml" parse="xml"/>
+        <xi:include href="attribute-override/rowSet.xml" parse="xml"/>
+        <xi:include href="attribute-override/sourceAttrs.xml" parse="xml"/>
+        <xi:include href="attribute-override/targetAttrs.xml" parse="xml"/>
+        <xi:include href="attribute-override/type.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo/>
+    <attribute-groups/>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>0</searchOrder>
+</system-metaclass>

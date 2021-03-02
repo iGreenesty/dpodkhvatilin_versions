@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="4b3a92b0-f635-4716-bde2-dd86e9b6c349" seg-type="attribute-group">
+    <code>4b3a92b0-f635-4716-bde2-dd86e9b6c349</code>
+    <title lang="ru">Для формы добавления заявки</title>
+    <attribute>title</attribute>
+    <attribute>leader</attribute>
+    <attribute>email</attribute>
+</group>

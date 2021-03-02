@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectAction xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="1cf40650-0104-0d13-c56b-27b1c6776604" seg-type="object-actions">
+    <caption lang="en">Edit</caption>
+    <caption lang="ru">Редактировать</caption>
+    <code>edit</code>
+    <required-fields/>
+    <type>system</type>
+    <uuid>1cf40650-0104-0d13-c56b-27b1c6776604</uuid>
+</objectAction>

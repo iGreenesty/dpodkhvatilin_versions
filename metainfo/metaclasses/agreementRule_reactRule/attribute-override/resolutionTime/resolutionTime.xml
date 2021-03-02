@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="resolutionTime" seg-type="attribute-override">
+    <code>resolutionTime</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <editableInLists>false</editableInLists>
+    <required>true</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="client"/>
+    <title lang="de"/>
+    <title lang="en"/>
+    <title lang="ru">Время на реакцию</title>
+    <description lang="client"/>
+    <description lang="de"/>
+    <description lang="en"/>
+    <description lang="ru">Укажите рабочее время, которое дается на реакцию по заявке.&lt;div&gt;&lt;div&gt;Обратите внимание, что 1 день = 24 рабочих часа. То есть, если время на реакцию 1 день и график поддержки услуг в соглашении 8х5, то на реакцию по заявке будет отведено 3 рабочих дня (т.е. по 8 рабочих часов в день).&lt;/div&gt;&lt;/div&gt;</description>
+    <type>
+        <property code="code">dtInterval</property>
+        <property code="needStoreUnits">true</property>
+        <property code="intervalAvailableUnits">["HOUR","MINUTE","WEEK","DAY"]</property>
+    </type>
+    <filteredByScript>false</filteredByScript>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>dtIntervalView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>dtIntervalEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <defaultValue>
+        <dateTimeInterval interval="HOUR"/>
+    </defaultValue>
+    <defaultByScript>false</defaultByScript>
+    <xi:include href="search-settings/resolutionTime_resolutionTime.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</override>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<report xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="TekusheeSostoyanieDel" seg-type="contents" uuid="TekusheeSostoyanieDel">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fb409aeb-16fe-3fdc-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Текущее состояние дел</caption>
+    <showCaption>true</showCaption>
+    <template>companyCondition</template>
+    <xi:include href="tool-panels/5e377bcf-7abe-4e1e-cd86-02a3525043fe/5e377bcf-7abe-4e1e-cd86-02a3525043fe.xml" parse="xml"/>
+</report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="OtvetstvennymNaznachaetKuratoraEsliOnUkazanVUslugeIliOtvetstve56" seg-type="scripts">
+    <code>OtvetstvennymNaznachaetKuratoraEsliOnUkazanVUslugeIliOtvetstve56</code>
+    <title lang="ru">Ответственный с формы добавления, из услуги, из соглашения или по умолчанию в компании</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="OtvetstvennymNaznachaetKuratoraEsliOnUkazanVUslugeIliOtvetstve56.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

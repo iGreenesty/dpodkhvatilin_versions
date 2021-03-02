@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="shortDescr_shortDescr" seg-type="search-settings">
+    <simpleSearchableForLicensed>true</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>false</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>true</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>true</extendedSearchableForLicensed>
+    <searchAlias lang="ru"/>
+    <searchAnalizer>ftsNoMorphNoStrictAnalyzer</searchAnalizer>
+    <searchBoost>1.0</searchBoost>
+    <code>shortDescr</code>
+    <declaredMetaClass>serviceCall</declaredMetaClass>
+    <title lang="en">Theme</title>
+    <title lang="ru">Тема</title>
+    <title>Тема</title>
+    <attrCode>shortDescr</attrCode>
+</searchSetting>

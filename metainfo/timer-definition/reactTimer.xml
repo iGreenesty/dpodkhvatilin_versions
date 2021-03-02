@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<timer-definition xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="reactTimer" seg-type="timer-definition">
+    <code>reactTimer</code>
+    <title lang="ru">Запас времени реакции</title>
+    <description lang="ru">Счетчик запаса времени реакции на заявку согласно SLA</description>
+    <target-type>
+        <id>serviceCall</id>
+    </target-type>
+    <time-metric>FLOAT</time-metric>
+    <resolution-time-attribute>reactTime</resolution-time-attribute>
+    <enableRecalc>true</enableRecalc>
+    <enableRecalcOnServiceTimeChange>false</enableRecalcOnServiceTimeChange>
+    <time-zone-attribute>timeZone</time-zone-attribute>
+    <service-time-attribute>serviceTime</service-time-attribute>
+    <script-condition>
+        <start-condition>VremyaReakciiPoZayavkamReactionTime161</start-condition>
+        <stop-condition>VremyaReakciiPoZayavkamReactionTime162</stop-condition>
+    </script-condition>
+    <removed>false</removed>
+    <system>false</system>
+</timer-definition>

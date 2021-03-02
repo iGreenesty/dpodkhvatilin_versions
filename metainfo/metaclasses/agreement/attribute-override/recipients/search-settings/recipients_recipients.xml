@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="recipients_recipients" seg-type="search-settings">
+    <simpleSearchableForLicensed>false</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>false</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>false</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>false</extendedSearchableForLicensed>
+    <searchBoost>1.0</searchBoost>
+    <code>recipients</code>
+    <declaredMetaClass>agreement</declaredMetaClass>
+    <title lang="ru">Получатели (сотрудники/контактные лица)</title>
+    <title>Получатели (сотрудники)</title>
+    <attrCode>recipients</attrCode>
+</searchSetting>

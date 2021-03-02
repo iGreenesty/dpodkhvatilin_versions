@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="fdc196a4-1417-02db-0000-ffffffffffdd2d07" seg-type="tab-bars" uuid="fdc196a4-1417-02db-0000-ffffffffffdd2d07">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef9e8-16fc-162b-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="fdc196a3-1417-02d9-0000-ffffffffffdd2d07">
+        <profiles/>
+        <tags/>
+        <caption lang="en">Comments</caption>
+        <caption lang="ru">Комментарии</caption>
+        <countObjectsContentUuid>fdc20bca-1417-02e4-0000-ffffffffffdd2d07</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="fdc196a4-1417-02da-0000-ffffffffffdd2d07">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/fdc20bca-1417-02e4-0000-ffffffffffdd2d07/fdc20bca-1417-02e4-0000-ffffffffffdd2d07.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6ef9e9-16fc-162d-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="fdc1bed2-1417-02de-0000-ffffffffffdd2d07">
+        <profiles/>
+        <tags/>
+        <caption lang="en">Files</caption>
+        <caption lang="ru">Файлы</caption>
+        <countObjectsContentUuid>fdc24ba1-1417-02e8-0000-ffffffffffdd2d07</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="fdc1bed2-1417-02df-0000-ffffffffffdd2d07">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/fdc24ba1-1417-02e8-0000-ffffffffffdd2d07/fdc24ba1-1417-02e8-0000-ffffffffffdd2d07.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6ef9ea-16fc-162f-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="fdc1f1b8-1417-02e1-0000-ffffffffffdd2d07">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+            <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+            <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+        </profiles>
+        <tags>
+            <tag>Trudozatraty</tag>
+        </tags>
+        <caption lang="en">Time reports</caption>
+        <caption lang="ru">Трудозатраты</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="fdc1f1b8-1417-02e2-0000-ffffffffffdd2d07">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/SummaTrudozatrat/SummaTrudozatrat.xml" parse="xml"/>
+            <xi:include href="contents/fdc28df2-1417-02ec-0000-ffffffffffdd2d07/fdc28df2-1417-02ec-0000-ffffffffffdd2d07.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6ef9eb-16fc-1632-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

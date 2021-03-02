@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="vote" seg-type="metaclasses">
+    <fqn>
+        <id>vote</id>
+    </fqn>
+    <parent>
+        <id>userEntity</id>
+    </parent>
+    <title lang="ru">Голосование</title>
+    <description lang="ru"/>
+    <properties/>
+    <tags>
+        <tag>Soglasovaniya</tag>
+    </tags>
+    <responsibilityTransferTableEnabled>true</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/folders.xml" parse="xml"/>
+        <xi:include href="attribute/state.xml" parse="xml"/>
+        <xi:include href="attribute/stateStartTime.xml" parse="xml"/>
+        <xi:include href="attribute/changeRequest/changeRequest.xml" parse="xml"/>
+        <xi:include href="attribute/clientChange/clientChange.xml" parse="xml"/>
+        <xi:include href="attribute/clientSC/clientSC.xml" parse="xml"/>
+        <xi:include href="attribute/deadline/deadline.xml" parse="xml"/>
+        <xi:include href="attribute/descriptionCR/descriptionCR.xml" parse="xml"/>
+        <xi:include href="attribute/descriptionSC/descriptionSC.xml" parse="xml"/>
+        <xi:include href="attribute/descrRtf/descrRtf.xml" parse="xml"/>
+        <xi:include href="attribute/files/files.xml" parse="xml"/>
+        <xi:include href="attribute/icon/icon.xml" parse="xml"/>
+        <xi:include href="attribute/parent/parent.xml" parse="xml"/>
+        <xi:include href="attribute/remark/remark.xml" parse="xml"/>
+        <xi:include href="attribute/serviceCall/serviceCall.xml" parse="xml"/>
+        <xi:include href="attribute/voteDate/voteDate.xml" parse="xml"/>
+        <xi:include href="attribute/voter/voter.xml" parse="xml"/>
+        <xi:include href="attribute/voter_em/voter_em.xml" parse="xml"/>
+        <xi:include href="attribute/voter_ou/voter_ou.xml" parse="xml"/>
+        <xi:include href="attribute/voter_te/voter_te.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/folders.xml" parse="xml"/>
+        <xi:include href="attribute-override/number/number.xml" parse="xml"/>
+        <xi:include href="attribute-override/state/state.xml" parse="xml"/>
+        <xi:include href="attribute-override/stateStartTime.xml" parse="xml"/>
+        <xi:include href="attribute-override/title/title.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo/>
+    <attribute-groups>
+        <xi:include href="attribute-group/4dc32da6-fd5f-42ea-98d9-08fa6e8aaecf.xml" parse="xml"/>
+        <xi:include href="attribute-group/55052071-a9d7-40d4-a3ee-a68ab4571793.xml" parse="xml"/>
+        <xi:include href="attribute-group/84193c3e-d17c-4a81-8abf-540411fb4b27.xml" parse="xml"/>
+        <xi:include href="attribute-group/b4deab31-e6d9-42cc-a839-2ab45d0732c2.xml" parse="xml"/>
+        <xi:include href="attribute-group/cb2b5f3a-b286-44f4-bde9-d54caf113bce.xml" parse="xml"/>
+        <xi:include href="attribute-group/InformaciyaOZaproseNaIzmenenie.xml" parse="xml"/>
+        <xi:include href="attribute-group/InformaciyaOZayavke.xml" parse="xml"/>
+        <xi:include href="attribute-group/mobApp_card.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentText_text.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileContent_content.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileDescription_description.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileTitle_title.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>10</searchOrder>
+    <allowPlanVer>false</allowPlanVer>
+    <depthEnv>1</depthEnv>
+    <status>DEFAULT</status>
+</user-metaclass>

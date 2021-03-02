@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" code="CommentAdd" enabled="true" group="comment" seg-detach="true" seg-id="CommentAdd" seg-type="sec-actions">
+    <title lang="en">Add comment</title>
+    <title lang="ru">Добавление комментариев</title>
+</action>

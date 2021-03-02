@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration xmlns:xi="http://www.w3.org/2001/XInclude" UUID="staffConfiguration(XLSX)" authorIPAddress="91.232.196.253" authorLogin="naumen" daysPeriod="90" seg-detach="true" seg-id="staffConfiguration(XLSX)" seg-type="advimports">
+    <title lang="ru">Стандартная конфигурация импорта сотрудников (XLSX)</title>
+    <configContainer>&lt;config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../target/classes/advimport/schema1.xsd" save-log="true" threads-number="1"&gt;
+
+  	&lt;!-- Если объекта с таким employeeIdHolder нет, он создастся --&gt;
+	&lt;mode&gt;CREATE&lt;/mode&gt;
+  	&lt;!-- Если объект с таким employeeIdHolder есть, обновятся атрибуты --&gt;
+	&lt;mode&gt;UPDATE&lt;/mode&gt;
+	
+  	&lt;!-- Файл с данными для импорта --&gt; 
+	&lt;gui-parameter name="fileEmp" type="FILE" title="Выберите файл сотрудников (XLSX)"/&gt;
+
+	&lt;!-- ПАРАМЕТРЫ ИМПОРТА --&gt;
+  	&lt;!-- UUID корневого отдела --&gt;
+	&lt;parameter name="importRootUUID"&gt;root$101&lt;/parameter&gt;
+	&lt;!-- Метакласс отделов, в которые будут импортироваться сотрудники --&gt;
+	&lt;parameter name="ouMetaClass"&gt;ou$ou&lt;/parameter&gt;
+	&lt;!-- Метакласс импортируемых сотрудников --&gt;
+	&lt;parameter name="employeeMetaClass"&gt;employee$employee&lt;/parameter&gt;
+	&lt;!-- Код атрибута отдела, в котором хранится внешний идентификатор --&gt;
+	&lt;parameter name="ouIdHolder"&gt;idHolder&lt;/parameter&gt;
+	&lt;!-- Код атрибута сотрудника, в котором хранится внешний идентификатор --&gt;
+	&lt;parameter name="employeeIdHolder"&gt;idHolder&lt;/parameter&gt;
+
+	&lt;!-- ИМПОРТ СОТРУДНИКОВ --&gt;
+	&lt;class name="employee" threads-number="1"&gt;
+		&lt;parameter name="metaClass"&gt;${employeeMetaClass}&lt;/parameter&gt;
+      	&lt;!-- XML файл. Данные на листе 1, 1ая строка - заголовки, данные со второй, колонка с внешним id объекта - id --&gt;
+		&lt;xlsx-data-source file-name="${fileEmp}" sheet-number="0" start-row="1" id-column="id"&gt;
+			&lt;column name="id" src-key="0"/&gt;
+			&lt;column name="lastName" src-key="1"/&gt;
+			&lt;column name="firstName" src-key="2"/&gt;
+			&lt;column name="middleName" src-key="3"/&gt;
+			&lt;column name="parent" src-key="4"/&gt;
+			&lt;column name="post" src-key="5"/&gt;
+			&lt;column name="email" src-key="6"/&gt;
+			&lt;column name="mobilePhoneNumber" src-key="7"/&gt;
+			&lt;column name="cityPhoneNumber" src-key="8"/&gt;
+			&lt;column name="internalPhoneNumber" src-key="9"/&gt;
+			&lt;column name="homePhoneNumber" src-key="10"/&gt;
+			&lt;column name="login" src-key="11"/&gt;
+			&lt;column name="password" src-key="12"/&gt;
+		&lt;/xlsx-data-source&gt;
+      	
+      	&lt;!-- Определяем необходимость иерархической сортировки импортируемых строк --&gt;
+		&lt;hierarchical-filter parent-column="parent"/&gt;
+      	
+      	&lt;!-- Определяем метакласс импортируемых объектов. По умолчанию - ${metaClass} --&gt;
+		&lt;constant-metaclass-resolver/&gt;
+      
+      	&lt;!-- Поиск объектов по атрибуту ${employeeIdHolder} --&gt;
+		&lt;object-searcher attr="${employeeIdHolder}"/&gt;
+      	
+		&lt;attr name="${employeeIdHolder}" column="id"/&gt;
+		&lt;attr name="lastName" column="lastName"/&gt;
+		&lt;attr name="firstName" column="firstName"/&gt;
+		&lt;attr name="middleName" column="middleName"/&gt;
+		&lt;attr name="parent" column="parent"&gt;
+			&lt;object-converter attr="${ouIdHolder}" metaclass="${ouMetaClass}" required="true"/&gt;
+		&lt;/attr&gt;
+		&lt;attr name="post" column="post"/&gt;
+		&lt;attr name="email" column="email"/&gt;
+		&lt;attr name="mobilePhoneNumber" column="mobilePhoneNumber"/&gt;
+		&lt;attr name="internalPhoneNumber" column="internalPhoneNumber"/&gt;
+		&lt;attr name="homePhoneNumber" column="homePhoneNumber"/&gt;
+		&lt;attr name="cityPhoneNumber" column="cityPhoneNumber"/&gt;
+		&lt;attr name="login" column="login"/&gt;
+		&lt;attr name="password" column="password"&gt;
+          	&lt;!-- В режиме обновления пароль обновляться не будет --&gt;
+          	&lt;exclude-mode&gt;UPDATE&lt;/exclude-mode&gt;
+      	&lt;/attr&gt;
+		&lt;attr name="removed" default-value="false"/&gt;
+      &lt;!-- Данный блок позволяет устанавить пароль сотруднику, если он не указан в файле. Чтобы это сделать нужно раскоментировать сам блок и либо 1 вариант формирования пароля, либо 2.
+      	&lt;script-customizer&gt;
+          	&lt;after-process&gt;&lt;![CDATA[
+            	//Если в колонке пароль не указан, можно установить один из двух вариантов пароля для сотрудника. Нужный необходимо раскомментировать.
+          		//def password = subject.login ?: ''; //1. пароль совпадает с логином, если логин указан, иначе пусто.
+     			//def password = 'qwerty123'; //2. явный пароль qwerty123
+     			def props = [:];
+     			if(api.string.isEmpty(subject.password)) {
+      				props.password = password ?: '';
+          		}
+     			if(!props.isEmpty()) {
+      				utils.edit(subject, props);
+     			}
+    		]]&gt;&lt;/after-process&gt;
+      	&lt;/script-customizer&gt; --&gt;
+      	&lt;!-- ATTENTION. Если включён режим Update следующая строка заархивирует все объекты метакласса ${employeeMetaClass}, находящиеся в ${importRootUUID}, которые не участвовали в импорте. Если Вы проводите импорт новых сотрудников или контактных лиц и не хотите, чтобы были затронуты сотрудники, уже существующие в системе, закомментируйте эту строку. --&gt;
+		&lt;!--remove-customizer hierarchy-root="${importRootUUID}" metaclass="${employeeMetaClass}" attr="${employeeIdHolder}"/--&gt;
+	&lt;/class&gt;
+&lt;/config&gt;</configContainer>
+</configuration>

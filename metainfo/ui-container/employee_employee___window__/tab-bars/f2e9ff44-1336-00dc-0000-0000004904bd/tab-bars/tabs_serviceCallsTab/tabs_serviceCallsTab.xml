@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_serviceCallsTab" seg-type="tab-bars" uuid="tabs_serviceCallsTab">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efc65-16fc-1729-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="serviceCallsTab">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Заявки</caption>
+        <countObjectsContentUuid>serviceCallsResponsibleList</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="0f644951-46a8-1836-67e4-b760920270e9">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/serviceCallsResponsibleList/serviceCallsResponsibleList.xml" parse="xml"/>
+            <xi:include href="contents/employeeServiceCallsByStates.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efc70-16fc-172b-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="serviceCallsTeamsTab">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Заявки на командах</caption>
+        <countObjectsContentUuid>serviceCallsResponsibleTeamList</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="051f0018-e50b-923d-b972-6d7452111301">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/serviceCallsResponsibleTeamList/serviceCallsResponsibleTeamList.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efc72-16fc-172d-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="tasksTab">
+        <profiles/>
+        <tags>
+            <tag>Zadachi</tag>
+        </tags>
+        <caption lang="ru">Задачи</caption>
+        <countObjectsContentUuid>tasksResponsibleList</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="4b69fb0e-e501-2577-0c49-599a6be51569">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/tasksResponsibleList/tasksResponsibleList.xml" parse="xml"/>
+            <xi:include href="contents/employeeTasksByStates.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efc73-16fc-172f-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="tasksTeamTab">
+        <profiles/>
+        <tags>
+            <tag>Zadachi</tag>
+        </tags>
+        <caption lang="ru">Задачи на командах</caption>
+        <countObjectsContentUuid>tasksResponsibleTeamList</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="54749ab7-15a5-bdd8-671a-17390f2e6d8b">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/tasksResponsibleTeamList/tasksResponsibleTeamList.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efc7c-16fc-1731-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="problemsTab">
+        <profiles>
+            <profile>SpecialistInProblems</profile>
+        </profiles>
+        <tags>
+            <tag>Problemy</tag>
+        </tags>
+        <caption lang="ru">Проблемы</caption>
+        <countObjectsContentUuid>problemsResponsibleList</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="1cd14ae7-5501-4232-f609-2b7ba48e5e03">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/problemsResponsibleList/problemsResponsibleList.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efc7d-16fc-1733-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="problemsTeamTab">
+        <profiles>
+            <profile>SpecialistInProblems</profile>
+        </profiles>
+        <tags>
+            <tag>Problemy</tag>
+        </tags>
+        <caption lang="ru">Проблемы на командах</caption>
+        <countObjectsContentUuid>problemsResponsibleTeamList</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="85df7fc5-10d8-1444-9234-29f1d87b4b91">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/problemsResponsibleTeamList/problemsResponsibleTeamList.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efc7d-16fc-1735-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="changeRequestsTab">
+        <profiles>
+            <profile>SpecialistInChangeRequests</profile>
+        </profiles>
+        <tags>
+            <tag>ZaprosyNaIzmenenie</tag>
+        </tags>
+        <caption lang="ru">Запросы на изменение</caption>
+        <countObjectsContentUuid>changeRequestsResponsibleList</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="67424179-e634-78ae-9dba-cbc04c952f54">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/changeRequestsResponsibleList/changeRequestsResponsibleList.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efc7e-16fc-1737-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="changeRequestsTeamTab">
+        <profiles>
+            <profile>SpecialistInChangeRequests</profile>
+        </profiles>
+        <tags>
+            <tag>ZaprosyNaIzmenenie</tag>
+        </tags>
+        <caption lang="ru">Запросы на изменение на командах</caption>
+        <countObjectsContentUuid>changeRequestsResponsibleTeamList</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="981fb347-5c96-2bd8-bfd9-8396685b83ec">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/changeRequestsResponsibleTeamList/changeRequestsResponsibleTeamList.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efc7f-16fc-1739-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

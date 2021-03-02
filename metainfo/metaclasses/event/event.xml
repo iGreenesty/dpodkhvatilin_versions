@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<system-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="event" seg-type="metaclasses">
+    <fqn>
+        <id>event</id>
+    </fqn>
+    <parent>
+        <id>abstractSysObj</id>
+    </parent>
+    <properties/>
+    <tags/>
+    <responsibilityTransferTableEnabled>true</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/eventCategory.xml" parse="xml"/>
+        <xi:include href="attribute/eventCategoryName.xml" parse="xml"/>
+        <xi:include href="attribute/eventDate.xml" parse="xml"/>
+        <xi:include href="attribute/eventIP.xml" parse="xml"/>
+        <xi:include href="attribute/eventMessages.xml" parse="xml"/>
+        <xi:include href="attribute/script.xml" parse="xml"/>
+        <xi:include href="attribute/senderTitle.xml" parse="xml"/>
+        <xi:include href="attribute/senderUuid.xml" parse="xml"/>
+        <xi:include href="attribute/subjectClass.xml" parse="xml"/>
+        <xi:include href="attribute/subjectParentClass.xml" parse="xml"/>
+        <xi:include href="attribute/subjectParentUUID.xml" parse="xml"/>
+        <xi:include href="attribute/subjectUUID.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/eventCategory/eventCategory.xml" parse="xml"/>
+        <xi:include href="attribute-override/eventCategoryName.xml" parse="xml"/>
+        <xi:include href="attribute-override/eventDate/eventDate.xml" parse="xml"/>
+        <xi:include href="attribute-override/eventIP.xml" parse="xml"/>
+        <xi:include href="attribute-override/eventMessages/eventMessages.xml" parse="xml"/>
+        <xi:include href="attribute-override/script.xml" parse="xml"/>
+        <xi:include href="attribute-override/senderTitle/senderTitle.xml" parse="xml"/>
+        <xi:include href="attribute-override/senderUuid.xml" parse="xml"/>
+        <xi:include href="attribute-override/subjectClass/subjectClass.xml" parse="xml"/>
+        <xi:include href="attribute-override/subjectParentClass.xml" parse="xml"/>
+        <xi:include href="attribute-override/subjectParentUUID.xml" parse="xml"/>
+        <xi:include href="attribute-override/subjectUUID/subjectUUID.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo/>
+    <attribute-groups>
+        <xi:include href="attribute-group/main.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/system.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>0</searchOrder>
+</system-metaclass>

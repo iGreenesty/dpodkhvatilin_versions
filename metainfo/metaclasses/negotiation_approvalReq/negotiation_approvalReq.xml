@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="negotiation$approvalReq" seg-type="metaclasses">
+    <fqn>
+        <id>negotiation</id>
+        <case>approvalReq</case>
+    </fqn>
+    <parent>
+        <id>negotiation</id>
+    </parent>
+    <title lang="ru">Согласование заявки</title>
+    <description lang="ru">Используется вместе с классом Заявка</description>
+    <properties/>
+    <tags/>
+    <responsibilityTransferTableEnabled>false</responsibilityTransferTableEnabled>
+    <attributes/>
+    <attribute-overrides>
+        <xi:include href="attribute-override/description/description.xml" parse="xml"/>
+        <xi:include href="attribute-override/RFCsupposed/RFCsupposed.xml" parse="xml"/>
+        <xi:include href="attribute-override/serviceTime/serviceTime.xml" parse="xml"/>
+        <xi:include href="attribute-override/source/source.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo>
+        <attribute attribute="sourceR">
+            <fqn>
+                <id>serviceCall</id>
+            </fqn>
+            <fqn>
+                <id>serviceCall</id>
+                <case>call</case>
+            </fqn>
+            <fqn>
+                <id>serviceCall</id>
+                <case>request</case>
+            </fqn>
+            <fqn>
+                <id>serviceCall</id>
+                <case>serviceCall</case>
+            </fqn>
+        </attribute>
+    </permittedTypesInfo>
+    <attribute-groups>
+        <xi:include href="attribute-group/655189db-6b30-4a05-9572-88647ae06f19.xml" parse="xml"/>
+        <xi:include href="attribute-group/f6f77ff3-1050-4488-817f-fc56a2c680c4.xml" parse="xml"/>
+        <xi:include href="attribute-group-override/2cf1ddf0-cb29-4a0b-aa70-2ada7fcc6470.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentText_text.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileContent_content.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileDescription_description.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileTitle_title.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>18</searchOrder>
+    <allowPlanVer>false</allowPlanVer>
+    <depthEnv>1</depthEnv>
+    <status>DEFAULT</status>
+</user-metaclass>

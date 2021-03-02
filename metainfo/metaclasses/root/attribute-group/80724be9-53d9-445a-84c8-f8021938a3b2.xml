@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="80724be9-53d9-445a-84c8-f8021938a3b2" seg-type="attribute-group">
+    <code>80724be9-53d9-445a-84c8-f8021938a3b2</code>
+    <title lang="ru">Глобальные настройки оповещений</title>
+    <attribute>notifUnregist</attribute>
+    <attribute>emailSignature</attribute>
+    <order>notifUnregist</order>
+    <order>emailSignature</order>
+</group>

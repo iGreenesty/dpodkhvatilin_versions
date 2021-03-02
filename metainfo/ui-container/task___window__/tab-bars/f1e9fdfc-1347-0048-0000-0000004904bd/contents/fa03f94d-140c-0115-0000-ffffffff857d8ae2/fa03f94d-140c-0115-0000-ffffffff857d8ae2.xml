@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-object-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fa03f94d-140c-0115-0000-ffffffff857d8ae2" seg-type="contents" uuid="fa03f94d-140c-0115-0000-ffffffff857d8ae2">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efeee-16fc-1878-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Описание связанной заявки</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>DlyaKartochkiZadachi</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/fa0401f3-140c-c0e3-0000-0000000693b7.xml" parse="xml"/>
+    <attrCode>serviceCall</attrCode>
+    <allowEdit>false</allowEdit>
+</related-object-properties>

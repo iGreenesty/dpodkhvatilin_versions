@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="27010f18-f78f-48fe-aabb-94a0e5c1d754" seg-type="attribute-group-override">
+    <code>27010f18-f78f-48fe-aabb-94a0e5c1d754</code>
+    <attribute>description</attribute>
+    <order>title</order>
+    <order>creationDate</order>
+    <order>author</order>
+    <order>responsible</order>
+    <order>description</order>
+</override>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="VremyaReakciiPoZayavkamReactionTime162" seg-type="scripts">
+    <code>VremyaReakciiPoZayavkamReactionTime162</code>
+    <title lang="ru">Время реакции по заявкам. Остановка</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="VremyaReakciiPoZayavkamReactionTime162.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

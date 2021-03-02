@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="b17ab471-83e6-4dd6-bcd6-04d902996910" licensed="true" seg-detach="true" seg-id="b17ab471-83e6-4dd6-bcd6-04d902996910" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>serviceCall_RespEmpTeamMember serviceCall_ResponsibleTeamMember</roles>
+    <title lang="ru">Член команды, ответственной за заявку</title>
+</security-profile>

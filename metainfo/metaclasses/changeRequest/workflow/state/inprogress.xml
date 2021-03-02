@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="inprogress" color="#FFD800" enabled="true" hardcoded="false" responsibleType="EMPLOYEE_AND_TEAM" seg-detach="true" seg-id="inprogress" seg-type="state">
+    <title lang="ru">Выполнение</title>
+    <description lang="ru"/>
+    <responsible bean="currentResponsibleStrategy"/>
+    <changeResponsibleButtonVisible>true</changeResponsibleButtonVisible>
+    <stateSetting canEdit="false" canView="false" code="results" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Результаты внедрения</title>
+    </stateSetting>
+    <preCondition code="fa712c6d-147a-3866-0000-00005dbf90bd" preCondition="true" type="SCRIPT">
+        <title lang="ru">Проверяем, что все согласования завершены</title>
+        <property code="script">SCRIPTSD4000063negotiationsChangeRequest</property>
+    </preCondition>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

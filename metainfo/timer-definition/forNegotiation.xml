@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<timer-definition xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="forNegotiation" seg-type="timer-definition">
+    <code>forNegotiation</code>
+    <title lang="ru">Запас времени для согласований</title>
+    <description lang="ru"/>
+    <target-type>
+        <id>negotiation</id>
+    </target-type>
+    <time-metric>FLOAT</time-metric>
+    <resolution-time-attribute>period</resolution-time-attribute>
+    <enableRecalc>false</enableRecalc>
+    <enableRecalcOnServiceTimeChange>false</enableRecalcOnServiceTimeChange>
+    <time-zone-attribute>timeZone</time-zone-attribute>
+    <service-time-attribute>serviceTime</service-time-attribute>
+    <status-condition>
+        <selected>
+            <metaclass>
+                <id>negotiation</id>
+            </metaclass>
+            <state>registered</state>
+        </selected>
+        <stop-states>
+            <metaclass>
+                <id>negotiation</id>
+            </metaclass>
+            <state>closed</state>
+        </stop-states>
+        <stop-states>
+            <metaclass>
+                <id>negotiation</id>
+                <case>negotiation</case>
+            </metaclass>
+            <state>closed</state>
+        </stop-states>
+        <stop-states>
+            <metaclass>
+                <id>negotiation</id>
+                <case>approvalReq</case>
+            </metaclass>
+            <state>closed</state>
+        </stop-states>
+    </status-condition>
+    <removed>false</removed>
+    <system>false</system>
+</timer-definition>

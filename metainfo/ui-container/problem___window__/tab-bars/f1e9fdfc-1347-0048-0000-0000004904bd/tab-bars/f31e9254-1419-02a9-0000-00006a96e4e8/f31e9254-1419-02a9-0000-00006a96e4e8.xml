@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="f31e9254-1419-02a9-0000-00006a96e4e8" seg-type="tab-bars" uuid="f31e9254-1419-02a9-0000-00006a96e4e8">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef915-16fc-15de-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="f31e9253-1419-02a7-0000-00006a96e4e8">
+        <profiles/>
+        <tags>
+            <tag>ITaktivy</tag>
+        </tags>
+        <caption lang="ru">ИТ-активы связанных заявок</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="f31e9253-1419-02a8-0000-00006a96e4e8">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f86a4336-1419-0080-0000-ffffffffa211aaaf/f86a4336-1419-0080-0000-ffffffffa211aaaf.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6ef916-16fc-15e0-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="f31ebb70-1419-02ac-0000-00006a96e4e8">
+        <profiles/>
+        <tags>
+            <tag>ITaktivy</tag>
+        </tags>
+        <caption lang="ru">Связанные ИТ-активы</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="f31ebb70-1419-02ad-0000-00006a96e4e8">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f86acf4c-1419-008b-0000-ffffffffa211aaaf/f86acf4c-1419-008b-0000-ffffffffa211aaaf.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6ef921-16fc-15e2-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

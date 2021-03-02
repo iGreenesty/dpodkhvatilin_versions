@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$PushRukovoditeluILideruKomandyZa30DoDedlainaReakciiPoZayavke" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <push-action>
+            <actionType>PushEventAction</actionType>
+            <message>&lt;div style="font-size: 16px; padding: 0px 0px 7px 5px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(237, 28, 36);"&gt;Истекло 70% времени реакции по заявке &lt;a fr-original-style="font-weight: bold;" href="${api.web.open(subject)}" style="font-weight: bold; user-select: auto;"&gt;№${subject.number}&lt;/a&gt;&lt;/div&gt; &lt;table fr-original-style="margin: 10px 0px 0px 10px; font-size: 0.85rem;" style="margin: 10px 0px 0px 10px; font-size: 0.85rem; border: 0px; border-collapse: collapse; empty-cells: show; max-width: 100%;"&gt;&lt;tbody&gt;&lt;tr fr-original-style="" style="user-select: none;"&gt;&lt;td fr-original-style="padding: 0px 10px 7px 0px;" style="padding: 0px 10px 7px 0px; user-select: text; border: none;"&gt;Ответственный:&lt;/td&gt; &lt;td fr-original-style="padding: 0px 10px 7px 0px;" style="padding: 0px 10px 7px 0px; user-select: text; border: none;"&gt;${push.scriptParams['resp']}&lt;/td&gt;&lt;/tr&gt; &lt;tr fr-original-style="" style="user-select: none;"&gt;&lt;td fr-original-style="padding: 0px 10px 7px 0px;" style="padding: 0px 10px 7px 0px; user-select: text; border: none;"&gt;Тема:&lt;/td&gt; &lt;td fr-original-style="padding: 0px 10px 7px 0px;" style="padding: 0px 10px 7px 0px; user-select: text; border: none;"&gt;${subject.shortDescr}&lt;/td&gt;&lt;/tr&gt; &lt;tr fr-original-style="" style="user-select: none;"&gt;&lt;td fr-original-style="padding: 0px 10px 7px 0px;" style="padding: 0px 10px 7px 0px; user-select: text; border: none;"&gt;Контрагент:&lt;/td&gt; &lt;td fr-original-style="padding: 0px 10px 7px 0px;" style="padding: 0px 10px 7px 0px; user-select: text; border: none;"&gt;${push.scriptParams['client']}&lt;/td&gt;&lt;/tr&gt; &lt;tr fr-original-style="" style="user-select: none;"&gt;&lt;td fr-original-style="padding: 0px 10px 7px 0px;" style="padding: 0px 10px 7px 0px; user-select: text; border: none;"&gt;Статус:&lt;/td&gt; &lt;td fr-original-style="padding: 0px 10px 7px 0px;" style="padding: 0px 10px 7px 0px; user-select: text; border: none;"&gt;${api.metainfo.getStateTitle(subject)}&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</message>
+            <roles>serviceCall_RespEmpTeamLeader</roles>
+            <roles>serviceCall_RespHead</roles>
+            <roles>serviceCall_RespTeamLeader</roles>
+            <script><![CDATA[GeneraciyaOtvetstvennogo]]></script>
+            <html>true</html>
+            <position>BottomRight</position>
+            <pushPresentationType>AlwaysInTheInterface</pushPresentationType>
+            <type>WEB</type>
+        </push-action>
+        <code>eventAction$PushRukovoditeluILideruKomandyZa30DoDedlainaReakciiPoZayavke</code>
+        <description lang="ru">Уведомление в интерфейсе руководителю ответственного сотрудника и лидеру ответственной команды за 30% до наступления регламентного времени реакции заявки</description>
+        <event>
+            <eventType>escalation</eventType>
+        </event>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Push] Руководителю и лидеру команды за 30% до дедлайна реакции по заявке</title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

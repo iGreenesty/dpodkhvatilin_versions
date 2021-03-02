@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mobile-property-list xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="2a4ee529-1375-4ee0-8a43-24ce0005c6a4" seg-type="contents" uuid="2a4ee529-1375-4ee0-8a43-24ce0005c6a4">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="f570f9b8-16ff-9f15-0007-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="client">Параметры объекта</caption>
+    <caption lang="de">Objektparameter</caption>
+    <caption lang="en">Object parameters</caption>
+    <caption lang="ru">Параметры объекта</caption>
+    <showCaption>true</showCaption>
+    <allowCollapse>true</allowCollapse>
+    <code>2a4ee529-1375-4ee0-8a43-24ce0005c6a4</code>
+    <collapsed>false</collapsed>
+    <contentType>PROPERTIES_LIST</contentType>
+    <attributeGroup>2a4ee529-1375-4ee0-8a43-24ce0005c6a4</attributeGroup>
+    <attributes>
+        <xi:include href="attributes/codeOfClosing.xml" parse="xml"/>
+        <xi:include href="attributes/resultDescr.xml" parse="xml"/>
+    </attributes>
+</mobile-property-list>

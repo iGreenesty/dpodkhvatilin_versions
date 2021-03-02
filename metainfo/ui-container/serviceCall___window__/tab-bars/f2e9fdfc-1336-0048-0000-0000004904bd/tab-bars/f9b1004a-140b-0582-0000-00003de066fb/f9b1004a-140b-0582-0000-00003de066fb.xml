@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="f9b1004a-140b-0582-0000-00003de066fb" seg-type="tab-bars" uuid="f9b1004a-140b-0582-0000-00003de066fb">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef9ec-16fc-1635-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="f9b10049-140b-0580-0000-00003de066fb">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+            <profile>d9c1ca35-3f93-4c02-b8b1-2c058bc24c36</profile>
+            <profile>a3a3160f-1b5c-44fb-adf2-632a69c45924</profile>
+            <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        </profiles>
+        <tags/>
+        <caption lang="en">Connected calls</caption>
+        <caption lang="ru">Дубли заявки</caption>
+        <countObjectsContentUuid>takenSC</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="f9b1004a-140b-0581-0000-00003de066fb">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/takenSC/takenSC.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6ef9ee-16fc-1637-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="cf047005-21f3-27f7-2ce7-6d843bafea6d">
+                <profiles/>
+                <tags/>
+                <elements seg-detach="false" uuid="22304a6a-9f83-f50c-c8ca-e6ea5234260a">
+                    <profiles/>
+                    <tags/>
+                    <properties>
+                        <entry>
+                            <key>metaClassFqn</key>
+                            <value>serviceCall</value>
+                        </entry>
+                        <entry>
+                            <key>isAttributeOfRelatedObject</key>
+                            <value>false</value>
+                        </entry>
+                        <entry>
+                            <key>isLinkToParent</key>
+                            <value>false</value>
+                        </entry>
+                        <entry>
+                            <key>backLinkAttr</key>
+                            <value>createUp</value>
+                        </entry>
+                        <entry>
+                            <key>attrTypeCode</key>
+                            <value>backBOLinks</value>
+                        </entry>
+                        <entry>
+                            <key>conditionCode</key>
+                            <value>notNull</value>
+                        </entry>
+                        <entry>
+                            <key>attributeFqn</key>
+                            <value>serviceCall@createBelow</value>
+                        </entry>
+                    </properties>
+                </elements>
+            </elements>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="f9b16ddb-140b-0590-0000-00003de066fb">
+        <profiles/>
+        <tags>
+            <tag>Problemy</tag>
+        </tags>
+        <caption lang="en">Problems</caption>
+        <caption lang="ru">Проблемы</caption>
+        <countObjectsContentUuid>f9b45d74-140b-05b7-0000-00003de066fb</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="f9b16ddb-140b-0591-0000-00003de066fb">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f9b45d74-140b-05b7-0000-00003de066fb/f9b45d74-140b-05b7-0000-00003de066fb.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6ef9ef-16fc-1639-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="f9b1a064-140b-0596-0000-00003de066fb">
+        <profiles/>
+        <tags>
+            <tag>ZaprosyNaIzmenenie</tag>
+        </tags>
+        <caption lang="en">Change request</caption>
+        <caption lang="ru">Запросы на изменение (причины)</caption>
+        <countObjectsContentUuid>fb35df22-1414-01dc-0000-00007930bd9c</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="f9b1a064-140b-0597-0000-00003de066fb">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/fb35df22-1414-01dc-0000-00007930bd9c/fb35df22-1414-01dc-0000-00007930bd9c.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6ef9f1-16fc-163b-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="ZaprosyNaIzmenenie(sledstviya)">
+        <profiles/>
+        <tags>
+            <tag>ZaprosyNaIzmenenie</tag>
+        </tags>
+        <caption lang="ru">Запросы на изменение (следствия)</caption>
+        <countObjectsContentUuid>ZaprosyNaIzmenenie(sledstviya)List</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="1447718d-c492-6845-cf36-963fa4300935">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/ZaprosyNaIzmenenie_sledstviya_List/ZaprosyNaIzmenenie_sledstviya_List.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6ef9f3-16fc-163d-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="f1119279-5184-0302-0001-002114033371">
+        <profiles/>
+        <tags>
+            <tag>Soglasovaniya</tag>
+        </tags>
+        <caption lang="ru">Согласования</caption>
+        <countObjectsContentUuid>f1166779-5193-0468-0001-000914382379</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="f1119279-5184-0303-0001-002114033371">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/f1166779-5193-0468-0001-000914382379/f1166779-5193-0468-0001-000914382379.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6ef9f4-16fc-163f-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="5772927c-c103-0a04-d958-ae46a8e9e05c">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+            <profile>d9c1ca35-3f93-4c02-b8b1-2c058bc24c36</profile>
+            <profile>a3a3160f-1b5c-44fb-adf2-632a69c45924</profile>
+            <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        </profiles>
+        <tags/>
+        <caption lang="ru">Работа с массовостью</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="85e9280a-6e96-8aaa-ad4b-965016a6f508">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/daf5f003-4423-2be4-1547-c7e8a14196ea/daf5f003-4423-2be4-1547-c7e8a14196ea.xml" parse="xml"/>
+            <xi:include href="contents/f6eb76fc-6903-b098-3538-31764af40d04/f6eb76fc-6903-b098-3538-31764af40d04.xml" parse="xml"/>
+            <xi:include href="contents/2071161e-14df-f3b7-fabf-f288fdcf8342/2071161e-14df-f3b7-fabf-f288fdcf8342.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6ef9f6-16fc-1644-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="97932271-9699-25f5-551d-eca8a35250c1">
+                <profiles/>
+                <tags/>
+                <elements seg-detach="false" uuid="7c06c714-8aa2-80ab-3e3c-e7917b61c22d">
+                    <profiles/>
+                    <tags/>
+                    <properties>
+                        <entry>
+                            <key>isAttributeOfRelatedObject</key>
+                            <value>false</value>
+                        </entry>
+                        <entry>
+                            <key>isLinkToParent</key>
+                            <value>false</value>
+                        </entry>
+                        <entry>
+                            <key>attrTypeCode</key>
+                            <value>bool</value>
+                        </entry>
+                        <entry>
+                            <key>conditionCode</key>
+                            <value>contains</value>
+                        </entry>
+                        <entry>
+                            <key>attributeFqn</key>
+                            <value>serviceCall@massProblem</value>
+                        </entry>
+                    </properties>
+                    <value>
+                        <bool>true</bool>
+                    </value>
+                </elements>
+                <elements seg-detach="false" uuid="7ce793c1-f993-13df-0269-8f0e17499dd9">
+                    <profiles/>
+                    <tags/>
+                    <properties>
+                        <entry>
+                            <key>isAttributeOfRelatedObject</key>
+                            <value>false</value>
+                        </entry>
+                        <entry>
+                            <key>isLinkToParent</key>
+                            <value>false</value>
+                        </entry>
+                        <entry>
+                            <key>attrTypeCode</key>
+                            <value>object</value>
+                        </entry>
+                        <entry>
+                            <key>conditionCode</key>
+                            <value>notNull</value>
+                        </entry>
+                        <entry>
+                            <key>attributeFqn</key>
+                            <value>serviceCall@masterMassProblem</value>
+                        </entry>
+                    </properties>
+                </elements>
+            </elements>
+        </visibilityCondition>
+    </tab>
+</tabbar>

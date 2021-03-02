@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ou_quickAddAndEditForm$FormaBystrogoRedaktirovaniyaOtdela" seg-type="ui-container">
+    <fqn>
+        <id>ou</id>
+    </fqn>
+    <code>quickAddAndEditForm$FormaBystrogoRedaktirovaniyaOtdela</code>
+    <quickform seg-detach="false" uuid="quickAddAndEditForm$FormaBystrogoRedaktirovaniyaOtdela">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Форма быстрого редактирования отдела</caption>
+        <layout seg-detach="false" uuid="39b1e1bc-5f68-77f7-c084-394ca408e477">
+            <profiles/>
+            <tags/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <attrGroup>d70ecf64-ab79-42c8-8d8e-7c559f18e04b</attrGroup>
+        <custom-form>QuickForm</custom-form>
+        <show-attr-description>false</show-attr-description>
+        <transitioncases>
+            <id>ou</id>
+            <case>company</case>
+        </transitioncases>
+        <transitioncases>
+            <id>ou</id>
+            <case>ou</case>
+        </transitioncases>
+        <code>FormaBystrogoRedaktirovaniyaOtdela</code>
+    </quickform>
+</ui>

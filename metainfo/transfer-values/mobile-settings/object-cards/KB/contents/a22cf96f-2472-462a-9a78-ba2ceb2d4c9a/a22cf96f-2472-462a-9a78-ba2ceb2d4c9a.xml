@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mobile-property-list xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="a22cf96f-2472-462a-9a78-ba2ceb2d4c9a" seg-type="contents" uuid="a22cf96f-2472-462a-9a78-ba2ceb2d4c9a">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="f58e3571-16ff-2cba-0008-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="client">Параметры объекта</caption>
+    <caption lang="de">Objektparameter</caption>
+    <caption lang="en">Object parameters</caption>
+    <caption lang="ru">Параметры объекта</caption>
+    <showCaption>true</showCaption>
+    <allowCollapse>true</allowCollapse>
+    <code>a22cf96f-2472-462a-9a78-ba2ceb2d4c9a</code>
+    <collapsed>true</collapsed>
+    <contentType>PROPERTIES_LIST</contentType>
+    <attributeGroup>a22cf96f-2472-462a-9a78-ba2ceb2d4c9a</attributeGroup>
+    <attributes>
+        <xi:include href="attributes/parent.xml" parse="xml"/>
+        <xi:include href="attributes/creationDate.xml" parse="xml"/>
+        <xi:include href="attributes/author.xml" parse="xml"/>
+        <xi:include href="attributes/responsible.xml" parse="xml"/>
+        <xi:include href="attributes/services.xml" parse="xml"/>
+    </attributes>
+</mobile-property-list>

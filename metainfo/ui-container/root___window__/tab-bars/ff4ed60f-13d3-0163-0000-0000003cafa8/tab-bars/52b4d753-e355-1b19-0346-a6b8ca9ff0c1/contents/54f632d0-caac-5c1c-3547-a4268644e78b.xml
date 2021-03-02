@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<reports-list xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="54f632d0-caac-5c1c-3547-a4268644e78b" seg-type="contents" uuid="54f632d0-caac-5c1c-3547-a4268644e78b">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fb409aec-16fe-3fdf-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Статистика по разным видам заявок</caption>
+    <showCaption>true</showCaption>
+    <templates>2136</templates>
+    <templates>tmp</templates>
+    <templates>2174</templates>
+    <templates>advantum_2174_2</templates>
+    <templates>registeredSolved</templates>
+</reports-list>

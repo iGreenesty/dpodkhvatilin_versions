@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<escalation-scheme xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f251b44e-13eb-6239-0000-000000ea5979" seg-type="escalation-scheme">
+    <code>f251b44e-13eb-6239-0000-000000ea5979</code>
+    <title>Основная схема для заявки</title>
+    <state>on</state>
+    <targetTypes>
+        <id>serviceCall</id>
+    </targetTypes>
+    <timerCode>timeAllowance</timerCode>
+    <levels>
+        <level>1</level>
+        <condition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="EscalationSchemeLevelConditionTimePart">
+            <condition>timePartExceeded</condition>
+            <value>70</value>
+        </condition>
+        <actions>eventAction$171</actions>
+        <actions>eventAction$86</actions>
+        <actions>eventAction$PushVMPOtvetstvennomuZa30DoDedlainaZayavki</actions>
+        <actions>eventAction$PushVMPRukovoditeluILideruKomandyZa30DoDedlainaZayavki</actions>
+        <actionExecuted>false</actionExecuted>
+    </levels>
+    <levels>
+        <level>2</level>
+        <condition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="EscalationSchemeLevelConditionTimePart">
+            <condition>timePartExceeded</condition>
+            <value>100</value>
+        </condition>
+        <actions>eventAction$187</actions>
+        <actions>eventAction$188</actions>
+        <actions>eventAction$189</actions>
+        <actions>eventAction$196</actions>
+        <actions>eventAction$87</actions>
+        <actions>eventAction$email_serviceCall_respOnDeadline</actions>
+        <actions>eventAction$PushVMPRukovoditeluILideruKomandyODedlaineZayavki</actions>
+        <actionExecuted>false</actionExecuted>
+    </levels>
+</escalation-scheme>

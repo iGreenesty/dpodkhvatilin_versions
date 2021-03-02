@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="DlyaSpiskaNaKartochkeUslugi" seg-type="attribute-group">
+    <code>DlyaSpiskaNaKartochkeUslugi</code>
+    <title lang="ru">Для списка на карточке услуги</title>
+    <attribute>title</attribute>
+    <attribute>text</attribute>
+    <attribute>author</attribute>
+    <attribute>parent</attribute>
+    <attribute>creationDate</attribute>
+</group>

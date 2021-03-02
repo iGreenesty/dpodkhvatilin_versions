@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$193" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <push-mobile-action>
+            <actionType>PushMobileEventAction</actionType>
+            <message>&lt;span style="font-family: Arial; font-size: small;"&gt;Вы назначены ответственным за заявку №${subject.number}&lt;/span&gt;</message>
+            <roles>serviceCall_ResponsibleEmployee</roles>
+            <script><![CDATA[PerehodNaKartochkuVMP]]></script>
+            <html>false</html>
+            <pushHeaderFormat>Subject</pushHeaderFormat>
+            <subject>${pushMobile.scriptParams['root']}</subject>
+        </push-mobile-action>
+        <code>eventAction$193</code>
+        <xi:include href="script-action-condition/actionCondition_1.xml" parse="xml"/>
+        <description lang="ru"/>
+        <event>
+            <eventType>changeResponsible</eventType>
+        </event>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <sourceQueue>Push</sourceQueue>
+        <title lang="ru">[Push в МП] О назначении ответственным за заявку (смена отв-го)</title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

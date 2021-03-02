@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="resolved" color="#00FF00" enabled="true" hardcoded="false" responsibleType="EMPLOYEE_AND_TEAM" seg-detach="true" seg-id="resolved" seg-type="state">
+    <title lang="ru">Решена</title>
+    <description lang="ru"/>
+    <responsible bean="currentResponsibleStrategy"/>
+    <changeResponsibleButtonVisible>true</changeResponsibleButtonVisible>
+    <stateSetting canEdit="false" canView="true" code="deadline" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Дедлайн</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="true" code="planDate" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Плановая дата начала</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="postoponeTill" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Отложить до</title>
+    </stateSetting>
+    <preAction code="fc65f6ef-1696-84ae-0045-000000ffc2f3" preAction="true" type="SCRIPT">
+        <title lang="ru">Заполняет дату решения в задаче</title>
+        <property code="script">ZapolnenieAtributaDataResheniya65</property>
+    </preAction>
+    <preActionsOrder>fc65f6ef-1696-84ae-0045-000000ffc2f3</preActionsOrder>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

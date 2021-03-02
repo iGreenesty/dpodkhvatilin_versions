@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<toolPanel xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f5bead83-140c-016f-0000-00001471d9d3" seg-type="tool-panels" uuid="f5bead83-140c-016f-0000-00001471d9d3">
+    <profiles/>
+    <tags/>
+    <ignoreInImport>false</ignoreInImport>
+    <showToolCaptions>true</showToolCaptions>
+    <toolBars seg-detach="false" uuid="f5bead83-140c-0170-0000-00001471d9d3">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <advlist-presentation-select seg-detach="false" uuid="f5bead84-140c-0171-0000-00001471d9d3">
+            <profiles/>
+            <tags/>
+            <appliedToType>currentObject</appliedToType>
+            <params/>
+            <presentationType>default</presentationType>
+        </advlist-presentation-select>
+        <xi:include href="tools/saveAdvlistPrs_f5bead84-140c-0172-0000-00001471d9d3.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="c76a43b2-3c7e-ee18-fda0-6710180c475f">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/showAdvlistSort_f5bead84-140c-0174-0000-00001471d9d3.xml" parse="xml"/>
+        <xi:include href="tools/showAdvlistFilter_f5bead84-140c-0175-0000-00001471d9d3.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="f5bead84-140c-0173-0000-00001471d9d3">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/exportAdvlist_f5bead84-140c-0176-0000-00001471d9d3.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="a6b8f3cc-35e5-40a3-f4a8-3653c28b6812">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>false</clearedAfterPermissionCheck>
+        <xi:include href="tools/refresh_f5bead85-140c-017a-0000-00001471d9d3.xml" parse="xml"/>
+    </toolBars>
+    <toolBars seg-detach="false" uuid="f5bead84-140c-0177-0000-00001471d9d3">
+        <profiles/>
+        <tags/>
+        <clearedAfterPermissionCheck>true</clearedAfterPermissionCheck>
+        <xi:include href="tools/link_f5bead84-140c-0178-0000-00001471d9d3.xml" parse="xml"/>
+    </toolBars>
+    <useSystemSettings>false</useSystemSettings>
+</toolPanel>

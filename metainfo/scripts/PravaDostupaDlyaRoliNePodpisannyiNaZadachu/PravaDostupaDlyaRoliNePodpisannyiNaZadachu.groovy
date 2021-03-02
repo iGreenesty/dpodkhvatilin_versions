@@ -1,0 +1,1 @@
+return !subject.subscribers.contains(user)

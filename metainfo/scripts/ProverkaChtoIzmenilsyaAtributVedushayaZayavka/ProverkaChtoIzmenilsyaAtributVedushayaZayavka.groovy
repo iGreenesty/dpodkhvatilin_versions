@@ -1,0 +1,1 @@
+return (oldSubject.masterMassProblem?.UUID == subject.masterMassProblem?.UUID) ? "Ведущая заявка не изменилась" : ""

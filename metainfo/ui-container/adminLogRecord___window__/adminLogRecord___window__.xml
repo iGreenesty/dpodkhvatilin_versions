@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="adminLogRecord___window__" seg-type="ui-container">
+    <fqn>
+        <id>adminLogRecord</id>
+    </fqn>
+    <code>__window__</code>
+    <window seg-detach="false" uuid="f2ea236c-1336-010a-0100-0000004904bd">
+        <profiles/>
+        <tags/>
+        <caption lang="en">Object card</caption>
+        <caption lang="ru">Карточка объекта</caption>
+        <xi:include href="tab-bars/f2ea236c-1336-010b-0100-0000004904bd/f2ea236c-1336-010b-0100-0000004904bd.xml" parse="xml"/>
+        <xi:include href="tool-panels/f2ea2373-1336-0149-00f0-0000004904bd.xml" parse="xml"/>
+    </window>
+</ui>

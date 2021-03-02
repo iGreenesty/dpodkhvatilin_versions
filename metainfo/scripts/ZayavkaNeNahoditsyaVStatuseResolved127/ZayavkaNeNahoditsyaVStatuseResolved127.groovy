@@ -1,0 +1,1 @@
+return (subject.state == 'resolved') ? "Заявка перешла в статус 'Решена'" : ""

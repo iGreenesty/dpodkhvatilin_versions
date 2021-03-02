@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f86a4336-1419-0080-0000-ffffffffa211aaaf" seg-type="contents" uuid="f86a4336-1419-0080-0000-ffffffffa211aaaf">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef915-16fc-15df-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+        <elements seg-detach="false" uuid="7eb44009-2872-28de-89ca-11be27d09d0c">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="26c94311-63c6-fcc5-353b-aae06c484875">
+                <profiles/>
+                <tags/>
+                <properties>
+                    <entry>
+                        <key>metaClassFqn</key>
+                        <value>objectBase</value>
+                    </entry>
+                    <entry>
+                        <key>isAttributeOfRelatedObject</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>isLinkToParent</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>backLinkAttr</key>
+                        <value>serviceCalls</value>
+                    </entry>
+                    <entry>
+                        <key>attrTypeCode</key>
+                        <value>backBOLinks</value>
+                    </entry>
+                    <entry>
+                        <key>conditionCode</key>
+                        <value>notNull</value>
+                    </entry>
+                    <entry>
+                        <key>attributeFqn</key>
+                        <value>problem@serviceCalls.serviceCall@KEs</value>
+                    </entry>
+                </properties>
+            </elements>
+        </elements>
+    </visibilityCondition>
+    <caption lang="ru">Связанные объекты</caption>
+    <showCaption>false</showCaption>
+    <class>
+        <id>objectBase</id>
+    </class>
+    <attributeGroup>0c27be2d-e46d-4f1a-ba3a-4757246016b9</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/f86a7df8-1419-0086-0000-ffffffffa211aaaf/f86a7df8-1419-0086-0000-ffffffffa211aaaf.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae65ac-15a2-102a-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f6ae65ac-15a2-102b-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f6ae65ac-15a2-102c-0000-000001c8b871">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4ede-168d-11d3-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>KEs</attr-link-code>
+    <attrs-chain attr-code="serviceCalls" class-fqn="problem"/>
+    <attrs-chain attr-code="KEs" class-fqn="serviceCall"/>
+    <filterRestrictionSettings/>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Объект CMDB</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

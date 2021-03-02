@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<state xmlns:xi="http://www.w3.org/2001/XInclude" code="plan" color="#0FFD70" enabled="true" hardcoded="false" responsibleType="EMPLOYEE_AND_TEAM" seg-detach="true" seg-id="plan" seg-type="state">
+    <title lang="ru">Планирование</title>
+    <description lang="ru"/>
+    <responsible bean="currentResponsibleStrategy"/>
+    <changeResponsibleButtonVisible>true</changeResponsibleButtonVisible>
+    <stateSetting canEdit="true" canView="true" code="deadline" postFill="1" preFill="0" requredInState="false">
+        <title lang="ru">Планируемая дата внедрения изменения</title>
+    </stateSetting>
+    <stateSetting canEdit="true" canView="true" code="planImplemn" postFill="1" preFill="0" requredInState="false">
+        <title lang="ru">План внедрения</title>
+    </stateSetting>
+    <stateSetting canEdit="false" canView="false" code="results" postFill="0" preFill="0" requredInState="false">
+        <title lang="ru">Результаты внедрения</title>
+    </stateSetting>
+    <stateSetting canEdit="true" canView="true" code="rollbackPlan" postFill="1" preFill="0" requredInState="false">
+        <title lang="ru">План отката</title>
+    </stateSetting>
+    <showAttributesDescription>false</showAttributesDescription>
+</state>

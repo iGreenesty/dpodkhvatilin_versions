@@ -1,0 +1,1616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metainfoContainer xmlns:xi="http://www.w3.org/2001/XInclude">
+    <head>
+        <exportMode>full</exportMode>
+        <version>4.12.0.7</version>
+    </head>
+    <xi:include href="settings/settings.xml" parse="xml"/>
+    <tags>
+        <xi:include href="tags/BazaZnanii.xml" parse="xml"/>
+        <xi:include href="tags/ITaktivy.xml" parse="xml"/>
+        <xi:include href="tags/kanboard.xml" parse="xml"/>
+        <xi:include href="tags/Problemy.xml" parse="xml"/>
+        <xi:include href="tags/Soglasovaniya.xml" parse="xml"/>
+        <xi:include href="tags/Trudozatraty.xml" parse="xml"/>
+        <xi:include href="tags/VneshnyayaPodderzhka.xml" parse="xml"/>
+        <xi:include href="tags/Zadachi.xml" parse="xml"/>
+        <xi:include href="tags/ZaprosyNaIzmenenie.xml" parse="xml"/>
+    </tags>
+    <xi:include href="metaclasses/alertSeverityLevels/alertSeverityLevels.xml" parse="xml"/>
+    <xi:include href="metaclasses/blackListContent/blackListContent.xml" parse="xml"/>
+    <xi:include href="metaclasses/blackListEmails/blackListEmails.xml" parse="xml"/>
+    <xi:include href="metaclasses/blackListSubject/blackListSubject.xml" parse="xml"/>
+    <xi:include href="metaclasses/category/category.xml" parse="xml"/>
+    <xi:include href="metaclasses/closureCode/closureCode.xml" parse="xml"/>
+    <xi:include href="metaclasses/encryptionProtocols/encryptionProtocols.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder/folder.xml" parse="xml"/>
+    <xi:include href="metaclasses/fontIcons/fontIcons.xml" parse="xml"/>
+    <xi:include href="metaclasses/fromQuestion/fromQuestion.xml" parse="xml"/>
+    <xi:include href="metaclasses/iconsForControls/iconsForControls.xml" parse="xml"/>
+    <xi:include href="metaclasses/impact/impact.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringEventTypes/monitoringEventTypes.xml" parse="xml"/>
+    <xi:include href="metaclasses/priority/priority.xml" parse="xml"/>
+    <xi:include href="metaclasses/retentionPolicies/retentionPolicies.xml" parse="xml"/>
+    <xi:include href="metaclasses/rrdConsolFunctions/rrdConsolFunctions.xml" parse="xml"/>
+    <xi:include href="metaclasses/rrdValuesDataTypes/rrdValuesDataTypes.xml" parse="xml"/>
+    <xi:include href="metaclasses/rulesSettings/rulesSettings.xml" parse="xml"/>
+    <xi:include href="metaclasses/servicetime/servicetime.xml" parse="xml"/>
+    <xi:include href="metaclasses/snmpProtoVersions/snmpProtoVersions.xml" parse="xml"/>
+    <xi:include href="metaclasses/system_icons/system_icons.xml" parse="xml"/>
+    <xi:include href="metaclasses/timezone/timezone.xml" parse="xml"/>
+    <xi:include href="metaclasses/transportProtocols/transportProtocols.xml" parse="xml"/>
+    <xi:include href="metaclasses/typeOfSession/typeOfSession.xml" parse="xml"/>
+    <xi:include href="metaclasses/urgency/urgency.xml" parse="xml"/>
+    <xi:include href="metaclasses/abstractBO/abstractBO.xml" parse="xml"/>
+    <xi:include href="metaclasses/abstractEvt/abstractEvt.xml" parse="xml"/>
+    <xi:include href="metaclasses/abstractSysObj/abstractSysObj.xml" parse="xml"/>
+    <xi:include href="metaclasses/adminLogRecord/adminLogRecord.xml" parse="xml"/>
+    <xi:include href="metaclasses/agreement/agreement.xml" parse="xml"/>
+    <xi:include href="metaclasses/agreement__Evt/agreement__Evt.xml" parse="xml"/>
+    <xi:include href="metaclasses/agreementRule__Evt/agreementRule__Evt.xml" parse="xml"/>
+    <xi:include href="metaclasses/catalogItem/catalogItem.xml" parse="xml"/>
+    <xi:include href="metaclasses/changeRequest__Evt/changeRequest__Evt.xml" parse="xml"/>
+    <xi:include href="metaclasses/chatSession/chatSession.xml" parse="xml"/>
+    <xi:include href="metaclasses/chatSession_site/chatSession_site.xml" parse="xml"/>
+    <xi:include href="metaclasses/chatSession_user/chatSession_user.xml" parse="xml"/>
+    <xi:include href="metaclasses/chatSession__Evt/chatSession__Evt.xml" parse="xml"/>
+    <xi:include href="metaclasses/comment/comment.xml" parse="xml"/>
+    <xi:include href="metaclasses/domain__Evt/domain__Evt.xml" parse="xml"/>
+    <xi:include href="metaclasses/employee/employee.xml" parse="xml"/>
+    <xi:include href="metaclasses/event/event.xml" parse="xml"/>
+    <xi:include href="metaclasses/eventsProcessor/eventsProcessor.xml" parse="xml"/>
+    <xi:include href="metaclasses/eventsProcessor_general/eventsProcessor_general.xml" parse="xml"/>
+    <xi:include href="metaclasses/file/file.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_agreement/folder_agreement.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_agreementRule/folder_agreementRule.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_changeRequest/folder_changeRequest.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_chatSession/folder_chatSession.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_domain/folder_domain.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_employee/folder_employee.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_eventsProcessor/folder_eventsProcessor.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_interfaceTour/folder_interfaceTour.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_KB/folder_KB.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_markBase/folder_markBase.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_monitoringConnection/folder_monitoringConnection.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_monitoringMetric/folder_monitoringMetric.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_monitoringParameter/folder_monitoringParameter.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_monitoringServer/folder_monitoringServer.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_monitoringTrigger/folder_monitoringTrigger.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_negotiation/folder_negotiation.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_objectBase/folder_objectBase.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_ou/folder_ou.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_predictiveModel/folder_predictiveModel.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_problem/folder_problem.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_serviceCall/folder_serviceCall.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_slmService/folder_slmService.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_sys_branch/folder_sys_branch.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_task/folder_task.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_team/folder_team.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_template/folder_template.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_vote/folder_vote.xml" parse="xml"/>
+    <xi:include href="metaclasses/folder_workRecord/folder_workRecord.xml" parse="xml"/>
+    <xi:include href="metaclasses/geo_history_sys/geo_history_sys.xml" parse="xml"/>
+    <xi:include href="metaclasses/interfaceTour__Evt/interfaceTour__Evt.xml" parse="xml"/>
+    <xi:include href="metaclasses/KB__Evt/KB__Evt.xml" parse="xml"/>
+    <xi:include href="metaclasses/mail_sys/mail_sys.xml" parse="xml"/>
+    <xi:include href="metaclasses/mailLogRecord/mailLogRecord.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringConnection/monitoringConnection.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringConnection_cli/monitoringConnection_cli.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringConnection_http/monitoringConnection_http.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringConnection_icmp/monitoringConnection_icmp.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringConnection_imap4/monitoringConnection_imap4.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringConnection_jdbc/monitoringConnection_jdbc.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringConnection_jmx/monitoringConnection_jmx.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringConnection_pop3/monitoringConnection_pop3.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringConnection_self/monitoringConnection_self.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringConnection_smtp/monitoringConnection_smtp.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringConnection_snmp/monitoringConnection_snmp.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringConnection_ssh/monitoringConnection_ssh.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringConnection_vsphere/monitoringConnection_vsphere.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringConnection_wmi/monitoringConnection_wmi.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringConnection_zabbix/monitoringConnection_zabbix.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringMetric/monitoringMetric.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringMetric_active/monitoringMetric_active.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringMetric_passive/monitoringMetric_passive.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringParameter/monitoringParameter.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringParameter_general/monitoringParameter_general.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringServer/monitoringServer.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringServer_central/monitoringServer_central.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringServer_local/monitoringServer_local.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringTrigger/monitoringTrigger.xml" parse="xml"/>
+    <xi:include href="metaclasses/monitoringTrigger_general/monitoringTrigger_general.xml" parse="xml"/>
+    <xi:include href="metaclasses/negotiation__Evt/negotiation__Evt.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase__Evt/objectBase__Evt.xml" parse="xml"/>
+    <xi:include href="metaclasses/ou/ou.xml" parse="xml"/>
+    <xi:include href="metaclasses/predictiveModel/predictiveModel.xml" parse="xml"/>
+    <xi:include href="metaclasses/predictiveModel_anomalyDetect/predictiveModel_anomalyDetect.xml" parse="xml"/>
+    <xi:include href="metaclasses/predictiveModel_exponDetect/predictiveModel_exponDetect.xml" parse="xml"/>
+    <xi:include href="metaclasses/predictiveModel_exponPredict/predictiveModel_exponPredict.xml" parse="xml"/>
+    <xi:include href="metaclasses/predictiveModel_statDetect/predictiveModel_statDetect.xml" parse="xml"/>
+    <xi:include href="metaclasses/predictiveModel_trendPredict/predictiveModel_trendPredict.xml" parse="xml"/>
+    <xi:include href="metaclasses/problem__Evt/problem__Evt.xml" parse="xml"/>
+    <xi:include href="metaclasses/push_mobile_sys/push_mobile_sys.xml" parse="xml"/>
+    <xi:include href="metaclasses/push_sys/push_sys.xml" parse="xml"/>
+    <xi:include href="metaclasses/reportInstance/reportInstance.xml" parse="xml"/>
+    <xi:include href="metaclasses/root/root.xml" parse="xml"/>
+    <xi:include href="metaclasses/serviceCall/serviceCall.xml" parse="xml"/>
+    <xi:include href="metaclasses/serviceCall__Evt/serviceCall__Evt.xml" parse="xml"/>
+    <xi:include href="metaclasses/slmService/slmService.xml" parse="xml"/>
+    <xi:include href="metaclasses/slmService__Evt/slmService__Evt.xml" parse="xml"/>
+    <xi:include href="metaclasses/smiaModel/smiaModel.xml" parse="xml"/>
+    <xi:include href="metaclasses/smiaModel_file/smiaModel_file.xml" parse="xml"/>
+    <xi:include href="metaclasses/smiaModel_remote/smiaModel_remote.xml" parse="xml"/>
+    <xi:include href="metaclasses/superUser/superUser.xml" parse="xml"/>
+    <xi:include href="metaclasses/sys_branch/sys_branch.xml" parse="xml"/>
+    <xi:include href="metaclasses/sys_branch__Evt/sys_branch__Evt.xml" parse="xml"/>
+    <xi:include href="metaclasses/sys_objVerInfo/sys_objVerInfo.xml" parse="xml"/>
+    <xi:include href="metaclasses/task__Evt/task__Evt.xml" parse="xml"/>
+    <xi:include href="metaclasses/team/team.xml" parse="xml"/>
+    <xi:include href="metaclasses/template__Evt/template__Evt.xml" parse="xml"/>
+    <xi:include href="metaclasses/vote__Evt/vote__Evt.xml" parse="xml"/>
+    <xi:include href="metaclasses/workRecord__Evt/workRecord__Evt.xml" parse="xml"/>
+    <xi:include href="metaclasses/calcScopeType/calcScopeType.xml" parse="xml"/>
+    <xi:include href="metaclasses/cardType/cardType.xml" parse="xml"/>
+    <xi:include href="metaclasses/cpuType/cpuType.xml" parse="xml"/>
+    <xi:include href="metaclasses/distribution/distribution.xml" parse="xml"/>
+    <xi:include href="metaclasses/hddType/hddType.xml" parse="xml"/>
+    <xi:include href="metaclasses/icons/icons.xml" parse="xml"/>
+    <xi:include href="metaclasses/interface/interface.xml" parse="xml"/>
+    <xi:include href="metaclasses/mailAutoSubj/mailAutoSubj.xml" parse="xml"/>
+    <xi:include href="metaclasses/mark/mark.xml" parse="xml"/>
+    <xi:include href="metaclasses/matchType/matchType.xml" parse="xml"/>
+    <xi:include href="metaclasses/otebookType/otebookType.xml" parse="xml"/>
+    <xi:include href="metaclasses/overDue/overDue.xml" parse="xml"/>
+    <xi:include href="metaclasses/pclnterface/pclnterface.xml" parse="xml"/>
+    <xi:include href="metaclasses/period/period.xml" parse="xml"/>
+    <xi:include href="metaclasses/printerType/printerType.xml" parse="xml"/>
+    <xi:include href="metaclasses/producer/producer.xml" parse="xml"/>
+    <xi:include href="metaclasses/ramType/ramType.xml" parse="xml"/>
+    <xi:include href="metaclasses/reasonForDecl/reasonForDecl.xml" parse="xml"/>
+    <xi:include href="metaclasses/RFCcategories/RFCcategories.xml" parse="xml"/>
+    <xi:include href="metaclasses/SidInterface/SidInterface.xml" parse="xml"/>
+    <xi:include href="metaclasses/sortwareType/sortwareType.xml" parse="xml"/>
+    <xi:include href="metaclasses/typeCI/typeCI.xml" parse="xml"/>
+    <xi:include href="metaclasses/userLanguage/userLanguage.xml" parse="xml"/>
+    <xi:include href="metaclasses/wayAdressing/wayAdressing.xml" parse="xml"/>
+    <xi:include href="metaclasses/agreement_agreement/agreement_agreement.xml" parse="xml"/>
+    <xi:include href="metaclasses/agreementRule/agreementRule.xml" parse="xml"/>
+    <xi:include href="metaclasses/agreementRule_agreementRule/agreementRule_agreementRule.xml" parse="xml"/>
+    <xi:include href="metaclasses/agreementRule_reactRule/agreementRule_reactRule.xml" parse="xml"/>
+    <xi:include href="metaclasses/changeRequest/changeRequest.xml" parse="xml"/>
+    <xi:include href="metaclasses/changeRequest_changeRequest/changeRequest_changeRequest.xml" parse="xml"/>
+    <xi:include href="metaclasses/domain/domain.xml" parse="xml"/>
+    <xi:include href="metaclasses/domain_domain/domain_domain.xml" parse="xml"/>
+    <xi:include href="metaclasses/employee_contactPerson/employee_contactPerson.xml" parse="xml"/>
+    <xi:include href="metaclasses/employee_employee/employee_employee.xml" parse="xml"/>
+    <xi:include href="metaclasses/interfaceTour/interfaceTour.xml" parse="xml"/>
+    <xi:include href="metaclasses/interfaceTour_agreement/interfaceTour_agreement.xml" parse="xml"/>
+    <xi:include href="metaclasses/interfaceTour_employee/interfaceTour_employee.xml" parse="xml"/>
+    <xi:include href="metaclasses/interfaceTour_ou/interfaceTour_ou.xml" parse="xml"/>
+    <xi:include href="metaclasses/interfaceTour_root/interfaceTour_root.xml" parse="xml"/>
+    <xi:include href="metaclasses/interfaceTour_serviceCall/interfaceTour_serviceCall.xml" parse="xml"/>
+    <xi:include href="metaclasses/interfaceTour_slmService/interfaceTour_slmService.xml" parse="xml"/>
+    <xi:include href="metaclasses/KB/KB.xml" parse="xml"/>
+    <xi:include href="metaclasses/KB_KBArticle/KB_KBArticle.xml" parse="xml"/>
+    <xi:include href="metaclasses/KB_KBArticleOpen/KB_KBArticleOpen.xml" parse="xml"/>
+    <xi:include href="metaclasses/KB_KBSection/KB_KBSection.xml" parse="xml"/>
+    <xi:include href="metaclasses/KB_KBSectionOpen/KB_KBSectionOpen.xml" parse="xml"/>
+    <xi:include href="metaclasses/KB_KBSectionProt/KB_KBSectionProt.xml" parse="xml"/>
+    <xi:include href="metaclasses/KB_KBSubsectionOp/KB_KBSubsectionOp.xml" parse="xml"/>
+    <xi:include href="metaclasses/KB_KBSubsectionPr/KB_KBSubsectionPr.xml" parse="xml"/>
+    <xi:include href="metaclasses/markBase/markBase.xml" parse="xml"/>
+    <xi:include href="metaclasses/markBase_markBase/markBase_markBase.xml" parse="xml"/>
+    <xi:include href="metaclasses/negotiation/negotiation.xml" parse="xml"/>
+    <xi:include href="metaclasses/negotiation_approvalReq/negotiation_approvalReq.xml" parse="xml"/>
+    <xi:include href="metaclasses/negotiation_negotiation/negotiation_negotiation.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase/objectBase.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Card/objectBase_Card.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_centre/objectBase_centre.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Channel/objectBase_Channel.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_ChTemplates/objectBase_ChTemplates.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_CI/objectBase_CI.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_CIRepository/objectBase_CIRepository.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_CITemplates/objectBase_CITemplates.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_city/objectBase_city.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_CMT/objectBase_CMT.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Computers/objectBase_Computers.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_CPU/objectBase_CPU.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_DBMS/objectBase_DBMS.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Device/objectBase_Device.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_DeviceLibrary/objectBase_DeviceLibrary.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_DVDDrive/objectBase_DVDDrive.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_EthChannel/objectBase_EthChannel.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_ethChannelF/objectBase_ethChannelF.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Fax/objectBase_Fax.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_GraphicDevices/objectBase_GraphicDevices.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Hardware/objectBase_Hardware.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_HDD/objectBase_HDD.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Headset/objectBase_Headset.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Keyboard/objectBase_Keyboard.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_location/objectBase_location.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Mainboard/objectBase_Mainboard.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_MFU/objectBase_MFU.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_MobileDevice/objectBase_MobileDevice.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Modem/objectBase_Modem.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Monitor/objectBase_Monitor.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Netcard/objectBase_Netcard.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_netServiceF/objectBase_netServiceF.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Notebook/objectBase_Notebook.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_OfficeEquip/objectBase_OfficeEquip.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_OS/objectBase_OS.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Phone/objectBase_Phone.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_PhonesAndFaxes/objectBase_PhonesAndFaxes.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_port/objectBase_port.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_PowerUnit/objectBase_PowerUnit.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Printer/objectBase_Printer.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Projector/objectBase_Projector.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Rack/objectBase_Rack.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_RAM/objectBase_RAM.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Router/objectBase_Router.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Scanner/objectBase_Scanner.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Server/objectBase_Server.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Shredder/objectBase_Shredder.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_SidSysFolder/objectBase_SidSysFolder.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Software/objectBase_Software.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Switch/objectBase_Switch.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_universalCI/objectBase_universalCI.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_UPS/objectBase_UPS.xml" parse="xml"/>
+    <xi:include href="metaclasses/objectBase_Workstation/objectBase_Workstation.xml" parse="xml"/>
+    <xi:include href="metaclasses/ou_company/ou_company.xml" parse="xml"/>
+    <xi:include href="metaclasses/ou_ou/ou_ou.xml" parse="xml"/>
+    <xi:include href="metaclasses/problem/problem.xml" parse="xml"/>
+    <xi:include href="metaclasses/problem_problem/problem_problem.xml" parse="xml"/>
+    <xi:include href="metaclasses/serviceCall_call/serviceCall_call.xml" parse="xml"/>
+    <xi:include href="metaclasses/serviceCall_request/serviceCall_request.xml" parse="xml"/>
+    <xi:include href="metaclasses/serviceCall_serviceCall/serviceCall_serviceCall.xml" parse="xml"/>
+    <xi:include href="metaclasses/slmService_slmService/slmService_slmService.xml" parse="xml"/>
+    <xi:include href="metaclasses/task/task.xml" parse="xml"/>
+    <xi:include href="metaclasses/task_task/task_task.xml" parse="xml"/>
+    <xi:include href="metaclasses/team_team/team_team.xml" parse="xml"/>
+    <xi:include href="metaclasses/template/template.xml" parse="xml"/>
+    <xi:include href="metaclasses/template_templateCom/template_templateCom.xml" parse="xml"/>
+    <xi:include href="metaclasses/template_templateTask/template_templateTask.xml" parse="xml"/>
+    <xi:include href="metaclasses/vote/vote.xml" parse="xml"/>
+    <xi:include href="metaclasses/vote_vote/vote_vote.xml" parse="xml"/>
+    <xi:include href="metaclasses/vote_voteR/vote_voteR.xml" parse="xml"/>
+    <xi:include href="metaclasses/workRecord/workRecord.xml" parse="xml"/>
+    <xi:include href="metaclasses/workRecord_workRecord/workRecord_workRecord.xml" parse="xml"/>
+    <xi:include href="responsible-transfer/changeRequest.xml" parse="xml"/>
+    <xi:include href="responsible-transfer/problem.xml" parse="xml"/>
+    <xi:include href="responsible-transfer/KB.xml" parse="xml"/>
+    <xi:include href="responsible-transfer/task.xml" parse="xml"/>
+    <xi:include href="responsible-transfer/serviceCall.xml" parse="xml"/>
+    <xi:include href="catalog/alertSeverityLevels.xml" parse="xml"/>
+    <xi:include href="catalog/blackListContent.xml" parse="xml"/>
+    <xi:include href="catalog/blackListEmails.xml" parse="xml"/>
+    <xi:include href="catalog/blackListSubject.xml" parse="xml"/>
+    <xi:include href="catalog/category.xml" parse="xml"/>
+    <xi:include href="catalog/closureCode.xml" parse="xml"/>
+    <xi:include href="catalog/encryptionProtocols.xml" parse="xml"/>
+    <xi:include href="catalog/folder.xml" parse="xml"/>
+    <xi:include href="catalog/fontIcons.xml" parse="xml"/>
+    <xi:include href="catalog/fromQuestion.xml" parse="xml"/>
+    <xi:include href="catalog/iconsForControls.xml" parse="xml"/>
+    <xi:include href="catalog/impact.xml" parse="xml"/>
+    <xi:include href="catalog/monitoringEventTypes.xml" parse="xml"/>
+    <xi:include href="catalog/priority.xml" parse="xml"/>
+    <xi:include href="catalog/retentionPolicies.xml" parse="xml"/>
+    <xi:include href="catalog/rrdConsolFunctions.xml" parse="xml"/>
+    <xi:include href="catalog/rrdValuesDataTypes.xml" parse="xml"/>
+    <xi:include href="catalog/rulesSettings.xml" parse="xml"/>
+    <xi:include href="catalog/servicetime.xml" parse="xml"/>
+    <xi:include href="catalog/snmpProtoVersions.xml" parse="xml"/>
+    <xi:include href="catalog/system_icons.xml" parse="xml"/>
+    <xi:include href="catalog/timezone.xml" parse="xml"/>
+    <xi:include href="catalog/transportProtocols.xml" parse="xml"/>
+    <xi:include href="catalog/typeOfSession.xml" parse="xml"/>
+    <xi:include href="catalog/urgency.xml" parse="xml"/>
+    <xi:include href="catalog/calcScopeType.xml" parse="xml"/>
+    <xi:include href="catalog/cardType.xml" parse="xml"/>
+    <xi:include href="catalog/cpuType.xml" parse="xml"/>
+    <xi:include href="catalog/distribution.xml" parse="xml"/>
+    <xi:include href="catalog/hddType.xml" parse="xml"/>
+    <xi:include href="catalog/icons.xml" parse="xml"/>
+    <xi:include href="catalog/interface.xml" parse="xml"/>
+    <xi:include href="catalog/mailAutoSubj.xml" parse="xml"/>
+    <xi:include href="catalog/mark.xml" parse="xml"/>
+    <xi:include href="catalog/matchType.xml" parse="xml"/>
+    <xi:include href="catalog/otebookType.xml" parse="xml"/>
+    <xi:include href="catalog/overDue.xml" parse="xml"/>
+    <xi:include href="catalog/pclnterface.xml" parse="xml"/>
+    <xi:include href="catalog/period.xml" parse="xml"/>
+    <xi:include href="catalog/printerType.xml" parse="xml"/>
+    <xi:include href="catalog/producer.xml" parse="xml"/>
+    <xi:include href="catalog/ramType.xml" parse="xml"/>
+    <xi:include href="catalog/reasonForDecl.xml" parse="xml"/>
+    <xi:include href="catalog/RFCcategories.xml" parse="xml"/>
+    <xi:include href="catalog/SidInterface.xml" parse="xml"/>
+    <xi:include href="catalog/sortwareType.xml" parse="xml"/>
+    <xi:include href="catalog/typeCI.xml" parse="xml"/>
+    <xi:include href="catalog/userLanguage.xml" parse="xml"/>
+    <xi:include href="catalog/wayAdressing.xml" parse="xml"/>
+    <xi:include href="ui-container/abstractBO___window__/abstractBO___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/abstractBO_newEntryForm/abstractBO_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/abstractBO_editForm/abstractBO_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/adminLogRecord___window__/adminLogRecord___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/agreement___window__/agreement___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/agreement_newEntryForm/agreement_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/agreement_editForm/agreement_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/agreement_quickAddAndEditForm_4b303f11-b932-7780-77aa-f7d49d193840.xml" parse="xml"/>
+    <xi:include href="ui-container/agreementRule___window__/agreementRule___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/agreementRule_newEntryForm/agreementRule_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/agreementRule_editForm/agreementRule_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/agreementRule_quickAddAndEditForm_c5fc0856-67ef-a189-b85d-347b8c6c9bf6.xml" parse="xml"/>
+    <xi:include href="ui-container/agreementRule_quickAddAndEditForm_FormaBystrogoRedaktirovaniyaPravilaSLA.xml" parse="xml"/>
+    <xi:include href="ui-container/changeRequest___window__/changeRequest___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/changeRequest_newEntryForm/changeRequest_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/changeRequest_editForm/changeRequest_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/chatSession_site___window__/chatSession_site___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/chatSession_user___window__/chatSession_user___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/comment___window__/comment___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/domain___window__/domain___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/domain_newEntryForm/domain_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/domain_editForm/domain_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/domain_quickAddAndEditForm_031ef3af-b868-1ba6-e65a-0d9fa350e2e3.xml" parse="xml"/>
+    <xi:include href="ui-container/domain_quickAddAndEditForm_FormaBystrogoRedaktirovaniyaDomena.xml" parse="xml"/>
+    <xi:include href="ui-container/employee___window__/employee___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/employee_newEntryForm/employee_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/employee_editForm/employee_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/employee_massEditForm_3ab79352-aa30-4f15-c19e-2aa2118da4f4.xml" parse="xml"/>
+    <xi:include href="ui-container/employee_contactPerson___window__/employee_contactPerson___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/employee_contactPerson_newEntryForm/employee_contactPerson_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/employee_contactPerson_editForm/employee_contactPerson_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/employee_employee___window__/employee_employee___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/interfaceTour___window__/interfaceTour___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/interfaceTour_newEntryForm/interfaceTour_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/interfaceTour_editForm/interfaceTour_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/KB___window__/KB___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/KB_quickAddAndEditForm_FormaBystrogoDobavleniyaRazdelaBZ.xml" parse="xml"/>
+    <xi:include href="ui-container/KB_quickAddAndEditForm_FormaBystrogoRedaktirovaniyaRazdelaBZ.xml" parse="xml"/>
+    <xi:include href="ui-container/KB_KBArticle___window__/KB_KBArticle___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/KB_KBArticle_newEntryForm/KB_KBArticle_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/KB_KBArticle_editForm/KB_KBArticle_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/KB_KBSection___window__/KB_KBSection___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/KB_KBSection_newEntryForm/KB_KBSection_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/KB_KBSection_editForm/KB_KBSection_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/KB_KBSectionOpen___window__/KB_KBSectionOpen___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/KB_KBSectionProt___window__/KB_KBSectionProt___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/KB_KBSubsectionOp___window__/KB_KBSubsectionOp___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/KB_KBSubsectionPr___window__/KB_KBSubsectionPr___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/mail_sys___window__/mail_sys___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/mailLogRecord___window__/mailLogRecord___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/markBase___window__/markBase___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/monitoringConnection___window__/monitoringConnection___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/monitoringMetric___window__/monitoringMetric___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/monitoringParameter___window__/monitoringParameter___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/monitoringServer___window__/monitoringServer___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/monitoringServer_central___window__/monitoringServer_central___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/monitoringTrigger___window__/monitoringTrigger___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/negotiation___window__/negotiation___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/negotiation_newEntryForm/negotiation_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/negotiation_editForm/negotiation_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/negotiation_quickAddAndEditForm_FormaBystrogoDobavleniyaSoglasovanii.xml" parse="xml"/>
+    <xi:include href="ui-container/negotiation_approvalReq___window__/negotiation_approvalReq___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/objectBase___window__/objectBase___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/objectBase_newEntryForm/objectBase_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/objectBase_editForm/objectBase_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/objectBase_massEditForm_364f69fb-6362-1b7d-ae87-a0f86012201d.xml" parse="xml"/>
+    <xi:include href="ui-container/objectBase_ChTemplates___window__/objectBase_ChTemplates___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/objectBase_CIRepository___window__/objectBase_CIRepository___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/objectBase_CITemplates___window__/objectBase_CITemplates___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/objectBase_DeviceLibrary___window__/objectBase_DeviceLibrary___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/objectBase_Hardware___window__/objectBase_Hardware___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/objectBase_netServiceF___window__/objectBase_netServiceF___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/objectBase_Software_newEntryForm/objectBase_Software_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/objectBase_Software_editForm/objectBase_Software_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/objectBase_universalCI_changeCaseForm.xml" parse="xml"/>
+    <xi:include href="ui-container/ou___window__/ou___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/ou_newEntryForm/ou_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/ou_editForm/ou_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/ou_quickAddAndEditForm_FormaBystrogoDobavleniyaOtdela.xml" parse="xml"/>
+    <xi:include href="ui-container/ou_quickAddAndEditForm_FormaBystrogoRedaktirovaniyaOtdela.xml" parse="xml"/>
+    <xi:include href="ui-container/ou_company___window__/ou_company___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/ou_ou___window__/ou_ou___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/problem___window__/problem___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/problem_newEntryForm/problem_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/problem_editForm/problem_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/root___window__/root___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/root_editForm/root_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/serviceCall___window__/serviceCall___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/serviceCall_newEntryForm/serviceCall_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/serviceCall_editForm/serviceCall_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/serviceCall_massEditForm_47dda686-b183-5020-a344-19f971af670b.xml" parse="xml"/>
+    <xi:include href="ui-container/serviceCall_call___window__/serviceCall_call___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/serviceCall_call_changeCaseForm.xml" parse="xml"/>
+    <xi:include href="ui-container/serviceCall_request_changeCaseForm.xml" parse="xml"/>
+    <xi:include href="ui-container/serviceCall_serviceCall_changeCaseForm.xml" parse="xml"/>
+    <xi:include href="ui-container/slmService___window__/slmService___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/slmService_newEntryForm/slmService_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/slmService_editForm/slmService_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/slmService_quickAddAndEditForm_aaa4f318-9c96-9521-8300-f95ca8d8647c.xml" parse="xml"/>
+    <xi:include href="ui-container/task___window__/task___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/task_newEntryForm/task_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/task_editForm/task_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/task_quickAddAndEditForm_67310bb0-21f5-a396-076d-90839803057d.xml" parse="xml"/>
+    <xi:include href="ui-container/team___window__/team___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/team_newEntryForm/team_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/team_editForm/team_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/team_quickAddAndEditForm_f04d07f7-9cd9-4d54-10ff-c53662452a1d.xml" parse="xml"/>
+    <xi:include href="ui-container/team_quickAddAndEditForm_FormaBystrogoDobavleniyaKomandy.xml" parse="xml"/>
+    <xi:include href="ui-container/team_quickAddAndEditForm_FormaBystrogoRedaktirovaniyaKomandy.xml" parse="xml"/>
+    <xi:include href="ui-container/template___window__/template___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/template_templateCom___window__/template_templateCom___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/template_templateCom_newEntryForm/template_templateCom_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/template_templateCom_editForm/template_templateCom_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/template_templateTask___window__/template_templateTask___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/template_templateTask_newEntryForm/template_templateTask_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/template_templateTask_editForm/template_templateTask_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/vote___window__/vote___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/vote_newEntryForm/vote_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/vote_voteR___window__/vote_voteR___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/workRecord___window__/workRecord___window__.xml" parse="xml"/>
+    <xi:include href="ui-container/workRecord_newEntryForm/workRecord_newEntryForm.xml" parse="xml"/>
+    <xi:include href="ui-container/workRecord_editForm/workRecord_editForm.xml" parse="xml"/>
+    <xi:include href="ui-container/workRecord_quickAddAndEditForm_624365bd-dc3c-cd02-9034-37e5167ec934.xml" parse="xml"/>
+    <xi:include href="security-domain/__global/__global.xml" parse="xml"/>
+    <xi:include href="security-domain/abstractBO/abstractBO.xml" parse="xml"/>
+    <xi:include href="security-domain/abstractSysObj/abstractSysObj.xml" parse="xml"/>
+    <xi:include href="security-domain/agreement/agreement.xml" parse="xml"/>
+    <xi:include href="security-domain/agreementRule/agreementRule.xml" parse="xml"/>
+    <xi:include href="security-domain/changeRequest/changeRequest.xml" parse="xml"/>
+    <xi:include href="security-domain/changeRequest_changeRequest/changeRequest_changeRequest.xml" parse="xml"/>
+    <xi:include href="security-domain/chatSession/chatSession.xml" parse="xml"/>
+    <xi:include href="security-domain/chatSession_user/chatSession_user.xml" parse="xml"/>
+    <xi:include href="security-domain/comment/comment.xml" parse="xml"/>
+    <xi:include href="security-domain/domain/domain.xml" parse="xml"/>
+    <xi:include href="security-domain/employee/employee.xml" parse="xml"/>
+    <xi:include href="security-domain/employee_contactPerson/employee_contactPerson.xml" parse="xml"/>
+    <xi:include href="security-domain/employee_employee/employee_employee.xml" parse="xml"/>
+    <xi:include href="security-domain/eventsProcessor/eventsProcessor.xml" parse="xml"/>
+    <xi:include href="security-domain/interfaceTour/interfaceTour.xml" parse="xml"/>
+    <xi:include href="security-domain/KB/KB.xml" parse="xml"/>
+    <xi:include href="security-domain/KB_KBArticle/KB_KBArticle.xml" parse="xml"/>
+    <xi:include href="security-domain/KB_KBArticleOpen/KB_KBArticleOpen.xml" parse="xml"/>
+    <xi:include href="security-domain/KB_KBSection/KB_KBSection.xml" parse="xml"/>
+    <xi:include href="security-domain/KB_KBSectionOpen/KB_KBSectionOpen.xml" parse="xml"/>
+    <xi:include href="security-domain/KB_KBSectionProt/KB_KBSectionProt.xml" parse="xml"/>
+    <xi:include href="security-domain/KB_KBSubsectionOp/KB_KBSubsectionOp.xml" parse="xml"/>
+    <xi:include href="security-domain/KB_KBSubsectionPr/KB_KBSubsectionPr.xml" parse="xml"/>
+    <xi:include href="security-domain/markBase/markBase.xml" parse="xml"/>
+    <xi:include href="security-domain/monitoringConnection/monitoringConnection.xml" parse="xml"/>
+    <xi:include href="security-domain/monitoringMetric/monitoringMetric.xml" parse="xml"/>
+    <xi:include href="security-domain/monitoringParameter/monitoringParameter.xml" parse="xml"/>
+    <xi:include href="security-domain/monitoringServer/monitoringServer.xml" parse="xml"/>
+    <xi:include href="security-domain/monitoringServer_central/monitoringServer_central.xml" parse="xml"/>
+    <xi:include href="security-domain/monitoringTrigger/monitoringTrigger.xml" parse="xml"/>
+    <xi:include href="security-domain/negotiation/negotiation.xml" parse="xml"/>
+    <xi:include href="security-domain/negotiation_approvalReq/negotiation_approvalReq.xml" parse="xml"/>
+    <xi:include href="security-domain/negotiation_negotiation/negotiation_negotiation.xml" parse="xml"/>
+    <xi:include href="security-domain/objectBase/objectBase.xml" parse="xml"/>
+    <xi:include href="security-domain/objectBase_CI/objectBase_CI.xml" parse="xml"/>
+    <xi:include href="security-domain/objectBase_SidSysFolder/objectBase_SidSysFolder.xml" parse="xml"/>
+    <xi:include href="security-domain/ou/ou.xml" parse="xml"/>
+    <xi:include href="security-domain/ou_company/ou_company.xml" parse="xml"/>
+    <xi:include href="security-domain/ou_ou/ou_ou.xml" parse="xml"/>
+    <xi:include href="security-domain/predictiveModel/predictiveModel.xml" parse="xml"/>
+    <xi:include href="security-domain/problem/problem.xml" parse="xml"/>
+    <xi:include href="security-domain/problem_problem/problem_problem.xml" parse="xml"/>
+    <xi:include href="security-domain/root/root.xml" parse="xml"/>
+    <xi:include href="security-domain/serviceCall/serviceCall.xml" parse="xml"/>
+    <xi:include href="security-domain/serviceCall_call/serviceCall_call.xml" parse="xml"/>
+    <xi:include href="security-domain/serviceCall_request/serviceCall_request.xml" parse="xml"/>
+    <xi:include href="security-domain/serviceCall_serviceCall/serviceCall_serviceCall.xml" parse="xml"/>
+    <xi:include href="security-domain/slmService/slmService.xml" parse="xml"/>
+    <xi:include href="security-domain/sys_branch/sys_branch.xml" parse="xml"/>
+    <xi:include href="security-domain/task/task.xml" parse="xml"/>
+    <xi:include href="security-domain/task_task/task_task.xml" parse="xml"/>
+    <xi:include href="security-domain/team/team.xml" parse="xml"/>
+    <xi:include href="security-domain/template/template.xml" parse="xml"/>
+    <xi:include href="security-domain/template_templateCom/template_templateCom.xml" parse="xml"/>
+    <xi:include href="security-domain/template_templateTask/template_templateTask.xml" parse="xml"/>
+    <xi:include href="security-domain/vote/vote.xml" parse="xml"/>
+    <xi:include href="security-domain/vote_vote/vote_vote.xml" parse="xml"/>
+    <xi:include href="security-domain/vote_voteR/vote_voteR.xml" parse="xml"/>
+    <xi:include href="security-domain/workRecord/workRecord.xml" parse="xml"/>
+    <xi:include href="security-domain/workRecord_workRecord/workRecord_workRecord.xml" parse="xml"/>
+    <xi:include href="sec-group/C1_specialist.xml" parse="xml"/>
+    <xi:include href="sec-group/C2_seniorSpecialist.xml" parse="xml"/>
+    <xi:include href="sec-group/C3_admin.xml" parse="xml"/>
+    <xi:include href="sec-group/C4_auditor.xml" parse="xml"/>
+    <xi:include href="sec-group/specialistInChangeRequests.xml" parse="xml"/>
+    <xi:include href="sec-group/specialistInProblems.xml" parse="xml"/>
+    <xi:include href="sec-profile/066759f5-fb96-4c3c-9d2d-49c628e98ef0.xml" parse="xml"/>
+    <xi:include href="sec-profile/1091fac0-666d-42d3-ac24-df1a5cd6a8d3.xml" parse="xml"/>
+    <xi:include href="sec-profile/11f7277e-d00c-4374-8335-06fe12273efb.xml" parse="xml"/>
+    <xi:include href="sec-profile/15f1dfef-69c0-418b-bd56-acaeac310688.xml" parse="xml"/>
+    <xi:include href="sec-profile/20392c82-d8fb-42df-bf59-8bd329e0abb4.xml" parse="xml"/>
+    <xi:include href="sec-profile/208d47ce-f713-4839-b89a-732682102b25.xml" parse="xml"/>
+    <xi:include href="sec-profile/371483c9-f6c2-45e4-8163-3f08121f1f1f.xml" parse="xml"/>
+    <xi:include href="sec-profile/3f6043f1-42df-45dd-a13f-12732c327b21.xml" parse="xml"/>
+    <xi:include href="sec-profile/47c20d46-685c-4055-94ef-66b443f10125.xml" parse="xml"/>
+    <xi:include href="sec-profile/48669b62-d18e-461a-a0cb-cfdbcb966ad9.xml" parse="xml"/>
+    <xi:include href="sec-profile/4a913028-f460-476c-981e-57fb8da4978f.xml" parse="xml"/>
+    <xi:include href="sec-profile/4cbadda9-02ce-486d-9230-736030b6ca1b.xml" parse="xml"/>
+    <xi:include href="sec-profile/4ed7c153-8211-4e09-a317-03ba865c93a1.xml" parse="xml"/>
+    <xi:include href="sec-profile/4fb53e53-0618-4cd2-95fa-29059de47734.xml" parse="xml"/>
+    <xi:include href="sec-profile/51da8cfb-cfd8-4507-95a0-5c47eae79976.xml" parse="xml"/>
+    <xi:include href="sec-profile/53ff6317-2198-41f0-b9b5-72e052724e8d.xml" parse="xml"/>
+    <xi:include href="sec-profile/6139570f-f4bd-4913-b9c6-683955428e7c.xml" parse="xml"/>
+    <xi:include href="sec-profile/6c4f0dc1-1cbb-4b70-a48a-45917d3e3c98.xml" parse="xml"/>
+    <xi:include href="sec-profile/715ac749-76c9-4335-9c68-27d30274d88d.xml" parse="xml"/>
+    <xi:include href="sec-profile/766bdb56-a3be-4118-8622-2ca4ced1ea01.xml" parse="xml"/>
+    <xi:include href="sec-profile/79eaf472-97be-46e3-b835-df2058306f2f.xml" parse="xml"/>
+    <xi:include href="sec-profile/7cd03cc5-387b-4f3d-b56c-7012599e8a6f.xml" parse="xml"/>
+    <xi:include href="sec-profile/81a348a4-e0c7-4cb9-8d09-92aaf1800829.xml" parse="xml"/>
+    <xi:include href="sec-profile/862e093f-ff10-4dab-b6f2-036fcb8cc02d.xml" parse="xml"/>
+    <xi:include href="sec-profile/866028cf-6f06-4617-a76b-8a98f01effbf.xml" parse="xml"/>
+    <xi:include href="sec-profile/8f372f70-2a9a-42ec-ae34-413d842cf98f.xml" parse="xml"/>
+    <xi:include href="sec-profile/9757f558-a0b2-4d77-be00-4363ff2a0fd1.xml" parse="xml"/>
+    <xi:include href="sec-profile/9869c81e-3f08-4676-a022-0583ee582de8.xml" parse="xml"/>
+    <xi:include href="sec-profile/9ad6df49-3d63-401b-9f62-8be204a5952d.xml" parse="xml"/>
+    <xi:include href="sec-profile/9dc3883c-a15c-4e27-8923-e7c0630f55d0.xml" parse="xml"/>
+    <xi:include href="sec-profile/9f769a23-1adf-4372-acea-581af9317a99.xml" parse="xml"/>
+    <xi:include href="sec-profile/a3a3160f-1b5c-44fb-adf2-632a69c45924.xml" parse="xml"/>
+    <xi:include href="sec-profile/b0d59352-50b9-4d04-b835-f605581d3830.xml" parse="xml"/>
+    <xi:include href="sec-profile/b17ab471-83e6-4dd6-bcd6-04d902996910.xml" parse="xml"/>
+    <xi:include href="sec-profile/b1c02e2f-298e-48aa-94ed-056a227102bd.xml" parse="xml"/>
+    <xi:include href="sec-profile/b5f6cbd1-4b7c-411b-83b8-982790a61556.xml" parse="xml"/>
+    <xi:include href="sec-profile/b879741a-af18-464b-8667-71ffd029c129.xml" parse="xml"/>
+    <xi:include href="sec-profile/ba7dd40c-093b-4762-ac8a-ed6a84d59c27.xml" parse="xml"/>
+    <xi:include href="sec-profile/c3878215-3a21-497d-a606-8854503ead1a.xml" parse="xml"/>
+    <xi:include href="sec-profile/d7714626-b4ed-4b59-95fe-46477f8d3f91.xml" parse="xml"/>
+    <xi:include href="sec-profile/d7bb42a3-ee87-413c-8bed-73dd56073fb4.xml" parse="xml"/>
+    <xi:include href="sec-profile/d7c36fc2-c0ab-40a9-a303-f4019d8ccc12.xml" parse="xml"/>
+    <xi:include href="sec-profile/d9275a1c-fee4-47ee-9226-6e2aad82cf25.xml" parse="xml"/>
+    <xi:include href="sec-profile/d9c1ca35-3f93-4c02-b8b1-2c058bc24c36.xml" parse="xml"/>
+    <xi:include href="sec-profile/dc712f36-3947-4536-a0fe-8d55aafcae0f.xml" parse="xml"/>
+    <xi:include href="sec-profile/dd74dc05-d145-4a4d-b663-d11cfadf5b82.xml" parse="xml"/>
+    <xi:include href="sec-profile/e0482016-84c8-4f0f-b8b0-308226830834.xml" parse="xml"/>
+    <xi:include href="sec-profile/ec280f65-2261-4248-8896-ee251c39c58e.xml" parse="xml"/>
+    <xi:include href="sec-profile/f0882bbc-8e00-4ec5-a328-4f1ce3efe478.xml" parse="xml"/>
+    <xi:include href="sec-profile/f7877860-37f9-4860-9a67-70555c4c76b8.xml" parse="xml"/>
+    <xi:include href="sec-profile/fa4d0490-5d22-4ad5-ade1-8e1398ff73c0.xml" parse="xml"/>
+    <xi:include href="sec-profile/NotSubscriber.xml" parse="xml"/>
+    <xi:include href="sec-profile/observerNotLis.xml" parse="xml"/>
+    <xi:include href="sec-profile/observers.xml" parse="xml"/>
+    <xi:include href="sec-profile/OtvetstvennyiAuditor.xml" parse="xml"/>
+    <xi:include href="sec-profile/PoluchatelSoglasheniya_nelic_.xml" parse="xml"/>
+    <xi:include href="sec-profile/Specialist2oiLiniiIzKomandyOtvetstvennogo.xml" parse="xml"/>
+    <xi:include href="sec-profile/SpecialistInChangeRequests.xml" parse="xml"/>
+    <xi:include href="sec-profile/SpecialistInProblems.xml" parse="xml"/>
+    <xi:include href="sec-profile/Subscriber.xml" parse="xml"/>
+    <xi:include href="scheduler-tasks/ExecuteScriptTask_recalcSumWorkRecords.xml" parse="xml"/>
+    <xi:include href="scheduler-tasks/ReceiveMailTask_3.xml" parse="xml"/>
+    <mail-processor-rules>
+        <xi:include href="mail_processors/80395b8d-240f-48bf-8fd7-f8e7e5034bce.xml" parse="xml"/>
+        <xi:include href="mail_processors/ce447bbd-a6a2-4243-bbba-8dc9c596dde2.xml" parse="xml"/>
+    </mail-processor-rules>
+    <xi:include href="timer-definition/forNegotiation.xml" parse="xml"/>
+    <xi:include href="timer-definition/processingTime.xml" parse="xml"/>
+    <xi:include href="timer-definition/reactionTime.xml" parse="xml"/>
+    <xi:include href="timer-definition/reactTimer.xml" parse="xml"/>
+    <xi:include href="timer-definition/taskTimeRes.xml" parse="xml"/>
+    <xi:include href="timer-definition/timeAllowance.xml" parse="xml"/>
+    <xi:include href="timer-definition/totalTime.xml" parse="xml"/>
+    <style-templates/>
+    <list-templates>
+        <xi:include href="list-templates/basic/basic.xml" parse="xml"/>
+        <xi:include href="list-templates/basicWithAddition/basicWithAddition.xml" parse="xml"/>
+        <xi:include href="list-templates/extendedBasic/extendedBasic.xml" parse="xml"/>
+        <xi:include href="list-templates/onlyIcons/onlyIcons.xml" parse="xml"/>
+    </list-templates>
+    <user-events>
+        <xi:include href="user-events/userEvent_173.xml" parse="xml"/>
+        <xi:include href="user-events/userEvent_174.xml" parse="xml"/>
+        <xi:include href="user-events/userEvent_204.xml" parse="xml"/>
+        <xi:include href="user-events/userEvent_209.xml" parse="xml"/>
+        <xi:include href="user-events/userEvent_213.xml" parse="xml"/>
+        <xi:include href="user-events/userEvent_214.xml" parse="xml"/>
+        <xi:include href="user-events/userEvent_215.xml" parse="xml"/>
+        <xi:include href="user-events/userEvent_button_addNewArticle.xml" parse="xml"/>
+        <xi:include href="user-events/userEvent_button_addWorkRecords.xml" parse="xml"/>
+        <xi:include href="user-events/userEvent_button_agreementDistribution.xml" parse="xml"/>
+        <xi:include href="user-events/userEvent_KnopkaPerenapravlenieNaFormuDobavleniyaZadachiIzMK.xml" parse="xml"/>
+        <xi:include href="user-events/userEvent_markServiceCallAsSPAM.xml" parse="xml"/>
+        <xi:include href="user-events/userEvent_PeremeshenieOtdela.xml" parse="xml"/>
+        <xi:include href="user-events/userEvent_PeremeshenieSotrudnika.xml" parse="xml"/>
+    </user-events>
+    <event-actions>
+        <xi:include href="event_actions/eventAction_11/eventAction_11.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_13/eventAction_13.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_137/eventAction_137.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_139.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_140.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_141.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_146.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_149/eventAction_149.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_15.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_152.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_158/eventAction_158.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_159.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_16.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_160/eventAction_160.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_166/eventAction_166.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_168.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_169.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_170.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_171.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_173.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_174.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_175.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_176.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_177/eventAction_177.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_179.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_180.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_181/eventAction_181.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_182/eventAction_182.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_183/eventAction_183.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_184.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_185.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_186.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_187.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_188.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_189.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_190.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_191.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_192/eventAction_192.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_193/eventAction_193.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_194.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_195.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_196.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_197/eventAction_197.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_200/eventAction_200.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_202/eventAction_202.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_204.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_205/eventAction_205.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_207/eventAction_207.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_209.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_210/eventAction_210.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_213.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_214.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_215.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_216/eventAction_216.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_218/eventAction_218.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_220/eventAction_220.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_23/eventAction_23.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_25/eventAction_25.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_28/eventAction_28.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_31/eventAction_31.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_34/eventAction_34.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_36.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_37/eventAction_37.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_39.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_40.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_41.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_44.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_45/eventAction_45.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_46.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_47/eventAction_47.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_49.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_50.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_51/eventAction_51.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_53.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_54/eventAction_54.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_56/eventAction_56.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_58.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_59/eventAction_59.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_86.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_87.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_88/eventAction_88.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_90.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_91.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_94.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_95.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_97.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_AvtozakrytieZayavki/eventAction_AvtozakrytieZayavki.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_backProblemToWork.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_backTaskToWork.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_button_addNewArticle.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_button_addWorkRecords.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_button_agreementDistribution.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_email_authorOnDeadline/eventAction_email_authorOnDeadline.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_email_contactPersonOnCloseServiceCall/eventAction_email_contactPersonOnCloseServiceCall.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_email_contactPersonOnSolveServiceCall/eventAction_email_contactPersonOnSolveServiceCall.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_email_headAndLeaderOnDeadline/eventAction_email_headAndLeaderOnDeadline.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_email_headAndLeaderOnSoonDeadline/eventAction_email_headAndLeaderOnSoonDeadline.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_email_respEmplOnScAdd.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_email_respOnDeadline/eventAction_email_respOnDeadline.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_email_respOnSoonDeadline/eventAction_email_respOnSoonDeadline.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_email_serviceCall_respOnDeadline.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_email_task_headAndLeaderTill30ToDeadline.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_email_task_respOnDeadline.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailAvtoruODedlaineZadachi.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailAvtoruOKommentariiKProbleme.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailAvtoruOKommentariiVSoglasovanii.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailAvtoruOSmeneStatusaProblemy/eventAction_EmailAvtoruOSmeneStatusaProblemy.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailAvtoruOSmeneStatusaZaprosaNaIzmenenie/eventAction_EmailAvtoruOSmeneStatusaZaprosaNaIzmenenie.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailAvtoruOZakrytiiProblemy/eventAction_EmailAvtoruOZakrytiiProblemy.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailAvtoruOZakrytiiZaprosaNaIzmenenie/eventAction_EmailAvtoruOZakrytiiZaprosaNaIzmenenie.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailKomandeONaznachOtvetstvZaProblemuDobObekta.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailKomandeONaznachOtvetstvZaProblemuSmenaOtvgo.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailKomandeONaznachOtvetstvZaZaprosNaIzmenenieDobObekta.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailKomandeONaznachOtvetstvZaZaprosNaIzmenenieSmenaOtvgo.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_emailObserversCallState.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_emailObserversComments/eventAction_emailObserversComments.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailOpoveshenieKontragentaONDneiZayavkiVOzhidanii.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailOtvetstvennomuODedlaineReakciiPoZayavke.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailOtvetstvennomuOZakrytiiZayavki/eventAction_EmailOtvetstvennomuOZakrytiiZayavki.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailOtvetstvennomuZa30DoDedlainaReakciiPoZayavke.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailOtvetstvennymSotrudnikamIAvtoruOKommentariiKZaprosuNaIzmenenie.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailPodpischikamOKommentariiKZadache.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailPodpischikamOSmeneStatusaZadachi.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailRukovoditeluILideruKomandyODedlaineReakciiPoZayavke.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailRukovoditeluILideruKomandyZa30DoDedlainaReakciiPoZayavke.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailSotrudnikuONaznacheniiOtvetstvennymZaZaprosNaIzmenenieDobObekta.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_EmailSotrudnikuONaznacheniiOtvetstvennymZaZaprosNaIzmenenieSmenaOtvgo.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_KnopkaPerenapravlenieNaFormuDobavleniyaZadachiIzMK.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_KopirovaniePoslednegoKommentariyaVAtribut.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_markServiceCallAsSPAM.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_mobPush_newTaskInResonse.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_mPush_commentClient/eventAction_mPush_commentClient.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_mPush_stateClient.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_PeremeshenieOtdela.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_PeremeshenieSotrudnika.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_push_emplOnNewSc_addObject.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_push_newTaskInResponse.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_push_teamOnNewSc_addObject.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_pushMP_authorToDeadline/eventAction_pushMP_authorToDeadline.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_pushMP_headAndLeaderToDeadline/eventAction_pushMP_headAndLeaderToDeadline.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_pushMP_headAndLeaderToSoonDeadline/eventAction_pushMP_headAndLeaderToSoonDeadline.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_pushMP_respToDeadline/eventAction_pushMP_respToDeadline.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_pushMP_respToSoonDeadline/eventAction_pushMP_respToSoonDeadline.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_pushMP_task_headAndLeaderTill30ToDeadline.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_pushMP_task_respOnDeadline.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_PushOtvetstvennomuODedlaineReakciiPoZayavke.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_PushOtvetstvennomuZa30DoDedlainaReakciiPoZayavke.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_PushRukovoditeluILideruKomandyODedlaineReakciiPoZayavke.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_PushRukovoditeluILideruKomandyZa30DoDedlainaReakciiPoZayavke.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_PushVMPAvtoruODedlaineZadachi.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_PushVMPONaznacheniiGolosovaniyaNaPolzovatelya.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_PushVMPONaznacheniiOtvetstvennymZaZayavkuDobObekta.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_PushVMPOtvetstvennomuZa30DoDedlainaZadachi.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_PushVMPOtvetstvennomuZa30DoDedlainaZayavki.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_PushVMPRukovoditeluILideruKomandyODedlaineZadachi.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_PushVMPRukovoditeluILideruKomandyODedlaineZayavki.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_PushVMPRukovoditeluILideruKomandyZa30DoDedlainaZayavki.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_script_calcEscalationDateAndOverdue.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_script_copyFilesFromCommentToObject.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_script_recalcEscalationDateAndOverdue/eventAction_script_recalcEscalationDateAndOverdue.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_script_recalcOverdueOnDeadline.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_Skript.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_SkriptPereschetTZTPriDobavleniiZapisiORabote.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_SkriptPereschetTZTPriRedaktirovaniiZapisiORabote/eventAction_SkriptPereschetTZTPriRedaktirovaniiZapisiORabote.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_SkriptPereschetTZTPriUdaleniiZapisiORabote.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_SkriptPerevoditGolosovaniyaVProsrocheno.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_SkriptPerevodVRabotuPriDobavleniiKommentariya/eventAction_SkriptPerevodVRabotuPriDobavleniiKommentariya.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_SkriptZapisKlientaVZapisORabote.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_Test.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_testetse.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_UpominaemymSotrudnikamObUpominaniiIhVKommentarii/eventAction_UpominaemymSotrudnikamObUpominaniiIhVKommentarii.xml" parse="xml"/>
+    </event-actions>
+    <embedded-applications>
+        <xi:include href="embedded_applications/kanboard.xml" parse="xml"/>
+    </embedded-applications>
+    <custom-forms>
+        <xi:include href="custom_forms/fbd8bdef-15ee-becd-000f-000001ded46d/fbd8bdef-15ee-becd-000f-000001ded46d.xml" parse="xml"/>
+        <xi:include href="custom_forms/f6d37b57-15a2-d7cd-0001-000001c8b871/f6d37b57-15a2-d7cd-0001-000001c8b871.xml" parse="xml"/>
+        <xi:include href="custom_forms/fdeef056-16f8-15ac-005a-000001d24423/fdeef056-16f8-15ac-005a-000001d24423.xml" parse="xml"/>
+        <xi:include href="custom_forms/f6e731da-15a2-4b5f-0002-000001c8b871/f6e731da-15a2-4b5f-0002-000001c8b871.xml" parse="xml"/>
+        <xi:include href="custom_forms/f3ddb61f-173b-2467-000c-000060086411/f3ddb61f-173b-2467-000c-000060086411.xml" parse="xml"/>
+        <xi:include href="custom_forms/f3e6d535-173b-4f2a-000d-000060086411/f3e6d535-173b-4f2a-000d-000060086411.xml" parse="xml"/>
+        <xi:include href="custom_forms/f423bb0c-1745-e0f8-0036-000036b4a082/f423bb0c-1745-e0f8-0036-000036b4a082.xml" parse="xml"/>
+        <xi:include href="custom_forms/f30c763d-1746-444b-003e-000036b4a082/f30c763d-1746-444b-003e-000036b4a082.xml" parse="xml"/>
+    </custom-forms>
+    <advimport>
+        <xi:include href="advimports/companiesConfiguration_XLSX_.xml" parse="xml"/>
+        <xi:include href="advimports/contactPersonConfiguration_XLSX_.xml" parse="xml"/>
+        <xi:include href="advimports/departmentsConfiguration_CSV_.xml" parse="xml"/>
+        <xi:include href="advimports/departmentsConfiguration_XLS_.xml" parse="xml"/>
+        <xi:include href="advimports/departmentsConfiguration_XLSX_.xml" parse="xml"/>
+        <xi:include href="advimports/f258d8f0-1488-bd9b-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f25c55a5-1488-bd9f-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f25e2db5-1488-bda1-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f2602426-1488-bda3-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f2619155-1488-bda5-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f2711311-1488-bda7-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f2734360-1488-bdaa-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f274b504-1488-bdad-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f2783671-1488-bdaf-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f27ae379-1488-bdb1-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f27fd4c7-1488-bdb3-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f28318dc-1488-bdb5-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f28cefdf-1488-bdba-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f29a00c6-1488-bdd2-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f2a2f74a-1488-bdd4-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f2a77694-1488-bdd6-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f2ad2303-1488-bdda-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f2b02e30-1488-bddc-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f2b24fa6-1488-bddf-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f2b41962-1488-bde2-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f2be8980-1488-bde5-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f2c11b9b-1488-bde7-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f2c2d05b-1488-bde9-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f3026b32-1488-bded-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f30d4110-1488-bdf3-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f312980f-1488-bdf5-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f7b41907-1528-abd1-0000-00007519bc99.xml" parse="xml"/>
+        <xi:include href="advimports/f7b7e2b6-1528-abd2-0000-00007519bc99.xml" parse="xml"/>
+        <xi:include href="advimports/f7b82980-1528-abd3-0000-00007519bc99.xml" parse="xml"/>
+        <xi:include href="advimports/f7b8606d-1528-abd4-0000-00007519bc99.xml" parse="xml"/>
+        <xi:include href="advimports/f7b896fc-1528-abd5-0000-00007519bc99.xml" parse="xml"/>
+        <xi:include href="advimports/f8474b2f-1487-bd5e-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f872f888-1487-bd64-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/f876ab28-1487-bd66-0000-00005dbf90bd.xml" parse="xml"/>
+        <xi:include href="advimports/fab026bd-1414-0b98-0000-0000015c43f0.xml" parse="xml"/>
+        <xi:include href="advimports/importSmartNutIssues.xml" parse="xml"/>
+        <xi:include href="advimports/staffConfiguration_CSV_.xml" parse="xml"/>
+        <xi:include href="advimports/staffConfiguration_XLS_.xml" parse="xml"/>
+        <xi:include href="advimports/staffConfiguration_XLSX_.xml" parse="xml"/>
+    </advimport>
+    <script-modules>
+        <xi:include href="script-modules/elkModule/elkModule.xml" parse="xml"/>
+        <xi:include href="script-modules/fileUtils/fileUtils.xml" parse="xml"/>
+        <xi:include href="script-modules/itsm365/itsm365.xml" parse="xml"/>
+        <xi:include href="script-modules/kanboard/kanboard.xml" parse="xml"/>
+        <xi:include href="script-modules/notificationAccessHelper/notificationAccessHelper.xml" parse="xml"/>
+        <xi:include href="script-modules/restFileTransfer/restFileTransfer.xml" parse="xml"/>
+        <xi:include href="script-modules/restModule/restModule.xml" parse="xml"/>
+        <xi:include href="script-modules/tours/tours.xml" parse="xml"/>
+    </script-modules>
+    <scripts>
+        <xi:include href="scripts/advantum21742/advantum21742.xml" parse="xml"/>
+        <xi:include href="scripts/AgreementManager/AgreementManager.xml" parse="xml"/>
+        <xi:include href="scripts/AgreementManagerToNotification/AgreementManagerToNotification.xml" parse="xml"/>
+        <xi:include href="scripts/AvtorDeistviyaNeSuperpolzovatel/AvtorDeistviyaNeSuperpolzovatel.xml" parse="xml"/>
+        <xi:include href="scripts/AvtorPoisk/AvtorPoisk.xml" parse="xml"/>
+        <xi:include href="scripts/AvtorPrava/AvtorPrava.xml" parse="xml"/>
+        <xi:include href="scripts/AvtorSpisok/AvtorSpisok.xml" parse="xml"/>
+        <xi:include href="scripts/AvtoruOZakrytiiProblemy/AvtoruOZakrytiiProblemy.xml" parse="xml"/>
+        <xi:include href="scripts/AvtoruOZakrytiiZaprosaNaIzmenenie/AvtoruOZakrytiiZaprosaNaIzmenenie.xml" parse="xml"/>
+        <xi:include href="scripts/AvtoruSoglasovaniyaOKommentariiVSoglasovanii/AvtoruSoglasovaniyaOKommentariiVSoglasovanii.xml" parse="xml"/>
+        <xi:include href="scripts/backProblemToWork/backProblemToWork.xml" parse="xml"/>
+        <xi:include href="scripts/backTaskToWork/backTaskToWork.xml" parse="xml"/>
+        <xi:include href="scripts/ChasovoiPoyasTimeZone11/ChasovoiPoyasTimeZone11.xml" parse="xml"/>
+        <xi:include href="scripts/clearPostoponeTill/clearPostoponeTill.xml" parse="xml"/>
+        <xi:include href="scripts/DobavlenieVPoluchateliOpovesheniyaUpominaemogoSotrudnika/DobavlenieVPoluchateliOpovesheniyaUpominaemogoSotrudnika.xml" parse="xml"/>
+        <xi:include href="scripts/EmailKontaktnomuLicuOResheniiEsliNetKontragenta/EmailKontaktnomuLicuOResheniiEsliNetKontragenta.xml" parse="xml"/>
+        <xi:include href="scripts/EmailOtvetstvennomuODedlaineZadachi/EmailOtvetstvennomuODedlaineZadachi.xml" parse="xml"/>
+        <xi:include href="scripts/EmailPodpischikamOKommentariiKZadache/EmailPodpischikamOKommentariiKZadache.xml" parse="xml"/>
+        <xi:include href="scripts/EmailPodpischikamOSmeneStatusaZadachi/EmailPodpischikamOSmeneStatusaZadachi.xml" parse="xml"/>
+        <xi:include href="scripts/EmailSoglasuushemuKomitetuODobavleniiKommentariya/EmailSoglasuushemuKomitetuODobavleniiKommentariya.xml" parse="xml"/>
+        <xi:include href="scripts/EsliDobavlenKommentarii/EsliDobavlenKommentarii.xml" parse="xml"/>
+        <xi:include href="scripts/EsliIzmenilosVremyaStatusIliSvyaziSAktivnostyami/EsliIzmenilosVremyaStatusIliSvyaziSAktivnostyami.xml" parse="xml"/>
+        <xi:include href="scripts/EsliIzmenilsyaStatusDedlainIliPlanovayaDataNachala/EsliIzmenilsyaStatusDedlainIliPlanovayaDataNachala.xml" parse="xml"/>
+        <xi:include href="scripts/EsliKontragentNeUkazanIliSluzhebnyi/EsliKontragentNeUkazanIliSluzhebnyi.xml" parse="xml"/>
+        <xi:include href="scripts/EsliNetSotrudnikaotvetstvennogoToOtvetstvennymNaznachaetsyaSotru/EsliNetSotrudnikaotvetstvennogoToOtvetstvennymNaznachaetsyaSotru.xml" parse="xml"/>
+        <xi:include href="scripts/etste/etste.xml" parse="xml"/>
+        <xi:include href="scripts/FakticheskayaDataActualDate7/FakticheskayaDataActualDate7.xml" parse="xml"/>
+        <xi:include href="scripts/FiltraciyaKategoriiVZavisimostiOtKategoriiVybrannyhVUsluge/FiltraciyaKategoriiVZavisimostiOtKategoriiVybrannyhVUsluge.xml" parse="xml"/>
+        <xi:include href="scripts/FiltraciyaLicenzirovannyhSotrudnikov/FiltraciyaLicenzirovannyhSotrudnikov.xml" parse="xml"/>
+        <xi:include href="scripts/FiltraciyaOtdelovPoTipuOtdela/FiltraciyaOtdelovPoTipuOtdela.xml" parse="xml"/>
+        <xi:include href="scripts/FiltraciyaOtdelovPoTipuSotrudnika/FiltraciyaOtdelovPoTipuSotrudnika.xml" parse="xml"/>
+        <xi:include href="scripts/FiltraciyaSotrudnikovPriUvedomleniiOKommentarii/FiltraciyaSotrudnikovPriUvedomleniiOKommentarii.xml" parse="xml"/>
+        <xi:include href="scripts/FormatirovanieDedlainaVChasovomPoyaseOtvetstvennogoIskluchenieAv/FormatirovanieDedlainaVChasovomPoyaseOtvetstvennogoIskluchenieAv.xml" parse="xml"/>
+        <xi:include href="scripts/GeneraciyaOtvetstvennogo/GeneraciyaOtvetstvennogo.xml" parse="xml"/>
+        <xi:include href="scripts/GeneraciyaOtvetstvennogoDobavlenieKuratoraUslugiKPoluchatelyam/GeneraciyaOtvetstvennogoDobavlenieKuratoraUslugiKPoluchatelyam.xml" parse="xml"/>
+        <xi:include href="scripts/GolosovaniyaDlyaPoiskaTolkoGdePolzovatelGolosuushii/GolosovaniyaDlyaPoiskaTolkoGdePolzovatelGolosuushii.xml" parse="xml"/>
+        <xi:include href="scripts/Golosuushii/Golosuushii.xml" parse="xml"/>
+        <xi:include href="scripts/GolosuushiiCfbabbdabfeed13/GolosuushiiCfbabbdabfeed13.xml" parse="xml"/>
+        <xi:include href="scripts/GolosuushiiFcdbdafcdafbbbeb14/GolosuushiiFcdbdafcdafbbbeb14.xml" parse="xml"/>
+        <xi:include href="scripts/IskluchenieAvtoraDeistviiIzChislaPoluchatelei/IskluchenieAvtoraDeistviiIzChislaPoluchatelei.xml" parse="xml"/>
+        <xi:include href="scripts/IzmenenieAtributaPodchinennyi/IzmenenieAtributaPodchinennyi.xml" parse="xml"/>
+        <xi:include href="scripts/IzmenenieStatusaSoglasovaniyaPriZaversheniiVsehGolosovanii72/IzmenenieStatusaSoglasovaniyaPriZaversheniiVsehGolosovanii72.xml" parse="xml"/>
+        <xi:include href="scripts/KastomizaciyaOpovesheniyaODobavleniiSoglasovaniyaKZayavke/KastomizaciyaOpovesheniyaODobavleniiSoglasovaniyaKZayavke.xml" parse="xml"/>
+        <xi:include href="scripts/KastomizaciyaOpovesheniyaOPredostavleniiDostupaKLK/KastomizaciyaOpovesheniyaOPredostavleniiDostupaKLK.xml" parse="xml"/>
+        <xi:include href="scripts/KastomizaciyaPushaOKommentarii/KastomizaciyaPushaOKommentarii.xml" parse="xml"/>
+        <xi:include href="scripts/KluchevoeKontaktnoeLico/KluchevoeKontaktnoeLico.xml" parse="xml"/>
+        <xi:include href="scripts/KluchevoeKontaktnoeLicoFdabbecad32/KluchevoeKontaktnoeLicoFdabbecad32.xml" parse="xml"/>
+        <xi:include href="scripts/KnopkaPerenapravlenieNaFormuDobavleniyaZadachiIzMK/KnopkaPerenapravlenieNaFormuDobavleniyaZadachiIzMK.xml" parse="xml"/>
+        <xi:include href="scripts/KnopkaSebeVOtvetstvennost/KnopkaSebeVOtvetstvennost.xml" parse="xml"/>
+        <xi:include href="scripts/KommentariiNeYavlyaetsyaPrivatnym/KommentariiNeYavlyaetsyaPrivatnym.xml" parse="xml"/>
+        <xi:include href="scripts/KontaktnomuLicuOZakrytiiZayavki/KontaktnomuLicuOZakrytiiZayavki.xml" parse="xml"/>
+        <xi:include href="scripts/KontaktnyiEmailZadan110/KontaktnyiEmailZadan110.xml" parse="xml"/>
+        <xi:include href="scripts/KopirovaniePoslednegoKommentariyaVAtribut/KopirovaniePoslednegoKommentariyaVAtribut.xml" parse="xml"/>
+        <xi:include href="scripts/KopiruetZnacheniyaTekushihNastroekSLAVTablicuSootvetstvii78/KopiruetZnacheniyaTekushihNastroekSLAVTablicuSootvetstvii78.xml" parse="xml"/>
+        <xi:include href="scripts/NabludateliZayavkiPrava/NabludateliZayavkiPrava.xml" parse="xml"/>
+        <xi:include href="scripts/NabludateliZayavkiSpisok/NabludateliZayavkiSpisok.xml" parse="xml"/>
+        <xi:include href="scripts/NaFormeDobavleniya/NaFormeDobavleniya.xml" parse="xml"/>
+        <xi:include href="scripts/NaznachaetOtvetstvennymSotrudnikomKotoryiSmenilStatus66/NaznachaetOtvetstvennymSotrudnikomKotoryiSmenilStatus66.xml" parse="xml"/>
+        <xi:include href="scripts/NeOtpravlyaemEsliNeIzmenilsyaOtvetstvennyiSotrudnik/NeOtpravlyaemEsliNeIzmenilsyaOtvetstvennyiSotrudnik.xml" parse="xml"/>
+        <xi:include href="scripts/NePodpisannyiNaZayavkuNotSubscriber191/NePodpisannyiNaZayavkuNotSubscriber191.xml" parse="xml"/>
+        <xi:include href="scripts/NovyiStatusNeZakryto/NovyiStatusNeZakryto.xml" parse="xml"/>
+        <xi:include href="scripts/NuzhnayaUsluga/NuzhnayaUsluga.xml" parse="xml"/>
+        <xi:include href="scripts/ObnovlenieIndikatoraProsrochennosti/ObnovlenieIndikatoraProsrochennosti.xml" parse="xml"/>
+        <xi:include href="scripts/ObnovlenieVremeniNaReshenieUZadach/ObnovlenieVremeniNaReshenieUZadach.xml" parse="xml"/>
+        <xi:include href="scripts/ObnulyaetAtributVremeniSleduusheiPopytkiAvtomaticheskoiSmenySt57/ObnulyaetAtributVremeniSleduusheiPopytkiAvtomaticheskoiSmenySt57.xml" parse="xml"/>
+        <xi:include href="scripts/OcenkaVypolneniyaZayavokMarks169/OcenkaVypolneniyaZayavokMarks169.xml" parse="xml"/>
+        <xi:include href="scripts/OcenkaVypolneniyaZayavokVRazrezeSotrudnikov/OcenkaVypolneniyaZayavokVRazrezeSotrudnikov.xml" parse="xml"/>
+        <xi:include href="scripts/ONaznacheniiOtvetstvennymZaZadachuOtvnomuSotkuDob/ONaznacheniiOtvetstvennymZaZadachuOtvnomuSotkuDob.xml" parse="xml"/>
+        <xi:include href="scripts/OpisanieDescrRtf9/OpisanieDescrRtf9.xml" parse="xml"/>
+        <xi:include href="scripts/OpisanieIstochnikaRFCsupposed1/OpisanieIstochnikaRFCsupposed1.xml" parse="xml"/>
+        <xi:include href="scripts/OpisanieIstochnikaRFCsupposed10/OpisanieIstochnikaRFCsupposed10.xml" parse="xml"/>
+        <xi:include href="scripts/OpisanieIzShablona/OpisanieIzShablona.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieAvtoraIOtvetstvennogoVPlanovuuDatu/OpoveshenieAvtoraIOtvetstvennogoVPlanovuuDatu.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieAvtoraONastupleniiDedlainaZadachi/OpoveshenieAvtoraONastupleniiDedlainaZadachi.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieAvtoraOSmeneStatusaProblemy/OpoveshenieAvtoraOSmeneStatusaProblemy.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieAvtoraOSmeneStatusaZadachi96/OpoveshenieAvtoraOSmeneStatusaZadachi96.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieAvtoraOSmeneStatusaZaprosaNaIzmenenie/OpoveshenieAvtoraOSmeneStatusaZaprosaNaIzmenenie.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieAvtoraOStatuseSoglasovaniya148/OpoveshenieAvtoraOStatuseSoglasovaniya148.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieKomandyNaznachOtvetstvZaZayavkuSmenaOtvet137/OpoveshenieKomandyNaznachOtvetstvZaZayavkuSmenaOtvet137.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieKomandyONaznacheniiProblemyVOtvetstvennost/OpoveshenieKomandyONaznacheniiProblemyVOtvetstvennost.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieKomandyONaznachOtvetstvZaZaprosNaIzmenenieDobObekta/OpoveshenieKomandyONaznachOtvetstvZaZaprosNaIzmenenieDobObekta.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieKomandyONaznachOtvetstvZaZayavkuDobObekta113/OpoveshenieKomandyONaznachOtvetstvZaZayavkuDobObekta113.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieKontaktnogoLicaODobavleniiKommentariyaKZayavke109/OpoveshenieKontaktnogoLicaODobavleniiKommentariyaKZayavke109.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieKontaktnogoLicaORegistraciiZayavki117/OpoveshenieKontaktnogoLicaORegistraciiZayavki117.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieKontaktnogoLicaOResheniiZayavki105/OpoveshenieKontaktnogoLicaOResheniiZayavki105.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieKontaktnogoLicaOSmeneStatusaZayavki124/OpoveshenieKontaktnogoLicaOSmeneStatusaZayavki124.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieKontragentaONDneiZayavkiVOzhidanii/OpoveshenieKontragentaONDneiZayavkiVOzhidanii.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvetstvennogoSotrudnikaODobavleniiKommentariyaKPr149/OpoveshenieOtvetstvennogoSotrudnikaODobavleniiKommentariyaKPr149.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvetstvennogoSotrudnikaODobavleniiKommentariyaKZa120/OpoveshenieOtvetstvennogoSotrudnikaODobavleniiKommentariyaKZa120.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvetstvennogoSotrudnikaODobavleniiSoglasovaniyaKZ141/OpoveshenieOtvetstvennogoSotrudnikaODobavleniiSoglasovaniyaKZ141.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvetstvennogoSotrudnikaODobavleniiZadachiKProblem144/OpoveshenieOtvetstvennogoSotrudnikaODobavleniiZadachiKProblem144.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvetstvennogoSotrudnikaODobavleniiZadachiKZapro153/OpoveshenieOtvetstvennogoSotrudnikaODobavleniiZadachiKZapro153.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvetstvennogoSotrudnikaODobavleniiZadachiKZaprosu138/OpoveshenieOtvetstvennogoSotrudnikaODobavleniiZadachiKZaprosu138.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvetstvennogoSotrudnikaONastupleniiDedlainaReakciiPo/OpoveshenieOtvetstvennogoSotrudnikaONastupleniiDedlainaReakciiPo.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvetstvennogoSotrudnikaOSmeneStatusaProblemy147/OpoveshenieOtvetstvennogoSotrudnikaOSmeneStatusaProblemy147.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvetstvennogoSotrudnikaOSmeneStatusaZadachi155/OpoveshenieOtvetstvennogoSotrudnikaOSmeneStatusaZadachi155.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvetstvennogoSotrudnikaOSmeneStatusaZaprosaNaIzme146/OpoveshenieOtvetstvennogoSotrudnikaOSmeneStatusaZaprosaNaIzme146.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvetstvennogoSotrudnikaOSmeneStatusaZayavki129/OpoveshenieOtvetstvennogoSotrudnikaOSmeneStatusaZayavki129.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvetstvennogoSotrudnikaOZakrytiiZayavki/OpoveshenieOtvetstvennogoSotrudnikaOZakrytiiZayavki.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvetstvennogoSotrudnikaZa30DoDedlainaReakciiPoZayavk/OpoveshenieOtvetstvennogoSotrudnikaZa30DoDedlainaReakciiPoZayavk.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvetstvennogoSotrudnikaZaDoDedlainaZadachi94/OpoveshenieOtvetstvennogoSotrudnikaZaDoDedlainaZadachi94.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvetstvennogoSotrudnikaZaDoDedlainaZayavki90/OpoveshenieOtvetstvennogoSotrudnikaZaDoDedlainaZayavki90.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvetstvennogoZaRazdelBZODobavleniiStati160/OpoveshenieOtvetstvennogoZaRazdelBZODobavleniiStati160.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvetstvennoiKomandyOKommentariiKZayavke151/OpoveshenieOtvetstvennoiKomandyOKommentariiKZayavke151.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvetstvennyhSotrudnikovObIzmeneniiStatiBZ158/OpoveshenieOtvetstvennyhSotrudnikovObIzmeneniiStatiBZ158.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvsotrudnikaIAvtoraOKommentariiKProbleme/OpoveshenieOtvsotrudnikaIAvtoraOKommentariiKProbleme.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvsotrudnikaIAvtorODobavleniiKommentaKZadache130/OpoveshenieOtvsotrudnikaIAvtorODobavleniiKommentaKZadache130.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieOtvsotrudnikaIAvtorODobavleniiKommentariyaKZaprosuNaI/OpoveshenieOtvsotrudnikaIAvtorODobavleniiKommentariyaKZaprosuNaI.xml" parse="xml"/>
+        <xi:include href="scripts/OpovesheniePodpischikovOKommentariiKZayavke192/OpovesheniePodpischikovOKommentariiKZayavke192.xml" parse="xml"/>
+        <xi:include href="scripts/OpovesheniePodpischikovOSmeneStatusaZayavki193/OpovesheniePodpischikovOSmeneStatusaZayavki193.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieRukovoditelyaOtvetstvennogoILideraKomandyZa30DoDedlai/OpoveshenieRukovoditelyaOtvetstvennogoILideraKomandyZa30DoDedlai.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieRukovoditelyaOtvetstvennogoSotrudnikaILideraKomandyON/OpoveshenieRukovoditelyaOtvetstvennogoSotrudnikaILideraKomandyON.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieRukovoditelyaOtvetstvennogoSotrudnikaONastupleniiD100/OpoveshenieRukovoditelyaOtvetstvennogoSotrudnikaONastupleniiD100.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieRukovoditelyaOtvetstvennogoSotrudnikaONastupleniiDe79/OpoveshenieRukovoditelyaOtvetstvennogoSotrudnikaONastupleniiDe79.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieRukovoditelyaOtvetstvennogoZaDoDedlainaZayavki185/OpoveshenieRukovoditelyaOtvetstvennogoZaDoDedlainaZayavki185.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieRukovoditelyaSotrudnikaONastupleniiDedlainaSoglasov87/OpoveshenieRukovoditelyaSotrudnikaONastupleniiDedlainaSoglasov87.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieSotrudnikaObOtkloneniiZapisiORabote156/OpoveshenieSotrudnikaObOtkloneniiZapisiORabote156.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieSotrudnikaONaznacheniiOtvetstvennymZaProblemu140/OpoveshenieSotrudnikaONaznacheniiOtvetstvennymZaProblemu140.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieSotrudnikaONaznacheniiOtvetstvennymZaProblemu143/OpoveshenieSotrudnikaONaznacheniiOtvetstvennymZaProblemu143.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieSotrudnikaONaznacheniiOtvetstvennymZaZadachu121/OpoveshenieSotrudnikaONaznacheniiOtvetstvennymZaZadachu121.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieSotrudnikaONaznacheniiOtvetstvennymZaZadachu122/OpoveshenieSotrudnikaONaznacheniiOtvetstvennymZaZadachu122.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieSotrudnikaONaznacheniiOtvetstvennymZaZaprosNaIzmeneni/OpoveshenieSotrudnikaONaznacheniiOtvetstvennymZaZaprosNaIzmeneni.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieSotrudnikaONaznacheniiOtvetstvennymZaZayavku103/OpoveshenieSotrudnikaONaznacheniiOtvetstvennymZaZayavku103.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieSotrudnikaONaznacheniiSoglasovaniya133/OpoveshenieSotrudnikaONaznacheniiSoglasovaniya133.xml" parse="xml"/>
+        <xi:include href="scripts/OpoveshenieSotrudnikaZaDoDedlainaSoglasovaniya98/OpoveshenieSotrudnikaZaDoDedlainaSoglasovaniya98.xml" parse="xml"/>
+        <xi:include href="scripts/OpredelyaetChtoBylIzmenenAtributOceniteStatu132/OpredelyaetChtoBylIzmenenAtributOceniteStatu132.xml" parse="xml"/>
+        <xi:include href="scripts/OtchetOVypolneniiIzZayavki/OtchetOVypolneniiIzZayavki.xml" parse="xml"/>
+        <xi:include href="scripts/OtchetZaregistrirovannyeIReshennyeZadachi/OtchetZaregistrirovannyeIReshennyeZadachi.xml" parse="xml"/>
+        <xi:include href="scripts/OtkrytyeZadachiVOtvetstvennostiSotrudnikov/OtkrytyeZadachiVOtvetstvennostiSotrudnikov.xml" parse="xml"/>
+        <xi:include href="scripts/OtkrytyeZayavki181/OtkrytyeZayavki181.xml" parse="xml"/>
+        <xi:include href="scripts/OtkrytyeZayavki182/OtkrytyeZayavki182.xml" parse="xml"/>
+        <xi:include href="scripts/OtpravkaVybrannyhFailovKontragentu/OtpravkaVybrannyhFailovKontragentu.xml" parse="xml"/>
+        <xi:include href="scripts/OtvetstvennyiIzShablona/OtvetstvennyiIzShablona.xml" parse="xml"/>
+        <xi:include href="scripts/OtvetstvennymNaznachaetKuratoraEsliOnUkazanVUslugeIliOtvetstve56/OtvetstvennymNaznachaetKuratoraEsliOnUkazanVUslugeIliOtvetstve56.xml" parse="xml"/>
+        <xi:include href="scripts/OtvetstvennymNaznachaetsyaSotrudnikSmenivshiiStatus54/OtvetstvennymNaznachaetsyaSotrudnikSmenivshiiStatus54.xml" parse="xml"/>
+        <xi:include href="scripts/OtvetstvennymNaznachenNovyiSotrudnik104/OtvetstvennymNaznachenNovyiSotrudnik104.xml" parse="xml"/>
+        <xi:include href="scripts/PerehodNaKartochkuKommentariyaIskluchenieAvtora/PerehodNaKartochkuKommentariyaIskluchenieAvtora.xml" parse="xml"/>
+        <xi:include href="scripts/PerehodNaKartochkuKommentariyaTemaIskluchenieAvtora/PerehodNaKartochkuKommentariyaTemaIskluchenieAvtora.xml" parse="xml"/>
+        <xi:include href="scripts/PerehodNaKartochkuVMP/PerehodNaKartochkuVMP.xml" parse="xml"/>
+        <xi:include href="scripts/PerehodNaKartochkuVMPIskluchenieOtvetstvennogo/PerehodNaKartochkuVMPIskluchenieOtvetstvennogo.xml" parse="xml"/>
+        <xi:include href="scripts/PerehodNaKartochkuVMPOtvetstvennyiIskluchenieOtvetstvennogo/PerehodNaKartochkuVMPOtvetstvennyiIskluchenieOtvetstvennogo.xml" parse="xml"/>
+        <xi:include href="scripts/PerehodNaKartochkuZayavkiTemaIsklucheniePolzovatelya/PerehodNaKartochkuZayavkiTemaIsklucheniePolzovatelya.xml" parse="xml"/>
+        <xi:include href="scripts/PeremeshenieSotrudnikaotdela/PeremeshenieSotrudnikaotdela.xml" parse="xml"/>
+        <xi:include href="scripts/PereschetTZTPriDobavleniiRedaktirovaniiIUdaleniiZapisiORabote/PereschetTZTPriDobavleniiRedaktirovaniiIUdaleniiZapisiORabote.xml" parse="xml"/>
+        <xi:include href="scripts/PodpischikiNaZayavkuSubscribers187/PodpischikiNaZayavkuSubscribers187.xml" parse="xml"/>
+        <xi:include href="scripts/PodpischikiNaZayavkuSubscribers188/PodpischikiNaZayavkuSubscribers188.xml" parse="xml"/>
+        <xi:include href="scripts/PoiskPoZayavkamSvoegoOtdela/PoiskPoZayavkamSvoegoOtdela.xml" parse="xml"/>
+        <xi:include href="scripts/PoluchenieEmailAdresaIzKontaktnogoEmail/PoluchenieEmailAdresaIzKontaktnogoEmail.xml" parse="xml"/>
+        <xi:include href="scripts/PoluchenieFamiliiIzKontaktnogoLica/PoluchenieFamiliiIzKontaktnogoLica.xml" parse="xml"/>
+        <xi:include href="scripts/PoluchenieImeniIzKontaktnogoLica/PoluchenieImeniIzKontaktnogoLica.xml" parse="xml"/>
+        <xi:include href="scripts/PoluchenieKlientaDlyaTekstaPushi/PoluchenieKlientaDlyaTekstaPushi.xml" parse="xml"/>
+        <xi:include href="scripts/PoluchenieKompaniiIzZayavki/PoluchenieKompaniiIzZayavki.xml" parse="xml"/>
+        <xi:include href="scripts/PoluchenieMobilnogoTelefonaIzKontaktnogoTelefona/PoluchenieMobilnogoTelefonaIzKontaktnogoTelefona.xml" parse="xml"/>
+        <xi:include href="scripts/PoluchenieOtchestvaIzKontaktnogoLica/PoluchenieOtchestvaIzKontaktnogoLica.xml" parse="xml"/>
+        <xi:include href="scripts/PravaDostupaDlyaRoliNePodpisannyiNaZadachu/PravaDostupaDlyaRoliNePodpisannyiNaZadachu.xml" parse="xml"/>
+        <xi:include href="scripts/PravaDostupaKObektuDlyaRoliPodpischikNaZadachu/PravaDostupaKObektuDlyaRoliPodpischikNaZadachu.xml" parse="xml"/>
+        <xi:include href="scripts/PraviloObrabotkiPochty165/PraviloObrabotkiPochty165.xml" parse="xml"/>
+        <xi:include href="scripts/ProblemaVStatuseZakryta/ProblemaVStatuseZakryta.xml" parse="xml"/>
+        <xi:include href="scripts/ProsrochenaVZadachah/ProsrochenaVZadachah.xml" parse="xml"/>
+        <xi:include href="scripts/ProsrochenColoOverdue2/ProsrochenColoOverdue2.xml" parse="xml"/>
+        <xi:include href="scripts/ProsrochennyeOtkrytyeZayavki179/ProsrochennyeOtkrytyeZayavki179.xml" parse="xml"/>
+        <xi:include href="scripts/ProsrochennyeOtkrytyeZayavki180/ProsrochennyeOtkrytyeZayavki180.xml" parse="xml"/>
+        <xi:include href="scripts/ProverkaAtributaOpoveshatNezaregistrirovannyhPolzovatelei112/ProverkaAtributaOpoveshatNezaregistrirovannyhPolzovatelei112.xml" parse="xml"/>
+        <xi:include href="scripts/ProverkaChtoAvtorKommentariyaKontragentIliSotrudnikOtdelaKontrag/ProverkaChtoAvtorKommentariyaKontragentIliSotrudnikOtdelaKontrag.xml" parse="xml"/>
+        <xi:include href="scripts/ProverkaChtoAvtorKommentariyaNeOtvetstvennyiSotrudnik/ProverkaChtoAvtorKommentariyaNeOtvetstvennyiSotrudnik.xml" parse="xml"/>
+        <xi:include href="scripts/ProverkaChtoDlyaGeneraciiParolyaEstLoginIEmail/ProverkaChtoDlyaGeneraciiParolyaEstLoginIEmail.xml" parse="xml"/>
+        <xi:include href="scripts/ProverkaChtoFakticheskayaDataEsheNeStoit198/ProverkaChtoFakticheskayaDataEsheNeStoit198.xml" parse="xml"/>
+        <xi:include href="scripts/ProverkaChtoIzmenilsyaAtributVedushayaZayavka/ProverkaChtoIzmenilsyaAtributVedushayaZayavka.xml" parse="xml"/>
+        <xi:include href="scripts/ProverkaChtoKommentariiNePrivatnyi/ProverkaChtoKommentariiNePrivatnyi.xml" parse="xml"/>
+        <xi:include href="scripts/ProverkaChtoKontragentNeUkazanIliUkazanSluzhebnyi/ProverkaChtoKontragentNeUkazanIliUkazanSluzhebnyi.xml" parse="xml"/>
+        <xi:include href="scripts/ProverkaChtoSSoglasovaniemSvyazanaZayavka/ProverkaChtoSSoglasovaniemSvyazanaZayavka.xml" parse="xml"/>
+        <xi:include href="scripts/ProverkaChtoTekushiiPolzovatelNeOtvetstvennyi/ProverkaChtoTekushiiPolzovatelNeOtvetstvennyi.xml" parse="xml"/>
+        <xi:include href="scripts/ProverkaChtoUkazanKontragent/ProverkaChtoUkazanKontragent.xml" parse="xml"/>
+        <xi:include href="scripts/ProverkaChtoZadachaNeZakrytaINeOstanovlena/ProverkaChtoZadachaNeZakrytaINeOstanovlena.xml" parse="xml"/>
+        <xi:include href="scripts/ProverkaKolichestvaPredydushihSmenOtvetstvennogo/ProverkaKolichestvaPredydushihSmenOtvetstvennogo.xml" parse="xml"/>
+        <xi:include href="scripts/ProverkaNeobhodimostiGeneraciiParolya/ProverkaNeobhodimostiGeneraciiParolya.xml" parse="xml"/>
+        <xi:include href="scripts/ProverkaNeobhodimostiGeneraciiParolyaIzm/ProverkaNeobhodimostiGeneraciiParolyaIzm.xml" parse="xml"/>
+        <xi:include href="scripts/RedaktirovaniePravilaSLA93/RedaktirovaniePravilaSLA93.xml" parse="xml"/>
+        <xi:include href="scripts/ReshennyeIOtkrytyeZayavkiSotrudnikovKomandy178/ReshennyeIOtkrytyeZayavkiSotrudnikovKomandy178.xml" parse="xml"/>
+        <xi:include href="scripts/ReshennyeIOtkrytyeZayavkiSotrudnikovKomandyEfficiencySpeciali171/ReshennyeIOtkrytyeZayavkiSotrudnikovKomandyEfficiencySpeciali171.xml" parse="xml"/>
+        <xi:include href="scripts/RukovoditelOtdelakontragentaCaeacdfdcdddbce38/RukovoditelOtdelakontragentaCaeacdfdcdddbce38.xml" parse="xml"/>
+        <xi:include href="scripts/RukovoditelOtdelaSotrudnikaBeccfbbdfffcf49/RukovoditelOtdelaSotrudnikaBeccfbbdfffcf49.xml" parse="xml"/>
+        <xi:include href="scripts/RukovoditelVypolnivshegoRabotuCfbfeedcdddbcc46/RukovoditelVypolnivshegoRabotuCfbfeedcdddbcc46.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4000063negotiations/SCRIPTSD4000063negotiations.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4000063negotiationsChangeRequest/SCRIPTSD4000063negotiationsChangeRequest.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4000063tasks/SCRIPTSD4000063tasks.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4000063tasksChangeRequest/SCRIPTSD4000063tasksChangeRequest.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4000063tasksInProblem/SCRIPTSD4000063tasksInProblem.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4001407templateTask/SCRIPTSD4001407templateTask.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4001407workAroundForResponsible/SCRIPTSD4001407workAroundForResponsible.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4001431/SCRIPTSD4001431.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4001434/SCRIPTSD4001434.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4001695/SCRIPTSD4001695.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4001725/SCRIPTSD4001725.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4001725unsub/SCRIPTSD4001725unsub.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4001727/SCRIPTSD4001727.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4001753/SCRIPTSD4001753.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4002096/SCRIPTSD4002096.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4002101/SCRIPTSD4002101.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4002176/SCRIPTSD4002176.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4002178/SCRIPTSD4002178.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4002179/SCRIPTSD4002179.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4002250deadline/SCRIPTSD4002250deadline.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4002250postoponeTill/SCRIPTSD4002250postoponeTill.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4002258/SCRIPTSD4002258.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4002259/SCRIPTSD4002259.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4002260/SCRIPTSD4002260.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4002261/SCRIPTSD4002261.xml" parse="xml"/>
+        <xi:include href="scripts/SCRIPTSD4002262/SCRIPTSD4002262.xml" parse="xml"/>
+        <xi:include href="scripts/ServiceCallAgreementManager/ServiceCallAgreementManager.xml" parse="xml"/>
+        <xi:include href="scripts/ServiceCallAgreementManagerToNotification/ServiceCallAgreementManagerToNotification.xml" parse="xml"/>
+        <xi:include href="scripts/serviceTimeFromRoot/serviceTimeFromRoot.xml" parse="xml"/>
+        <xi:include href="scripts/Skript136/Skript136.xml" parse="xml"/>
+        <xi:include href="scripts/Skript142/Skript142.xml" parse="xml"/>
+        <xi:include href="scripts/Skript157/Skript157.xml" parse="xml"/>
+        <xi:include href="scripts/Skript159/Skript159.xml" parse="xml"/>
+        <xi:include href="scripts/Skript82/Skript82.xml" parse="xml"/>
+        <xi:include href="scripts/Skript84/Skript84.xml" parse="xml"/>
+        <xi:include href="scripts/SkriptAvtomaticheskoeRasprostraneniePoluchateleiSoglasheniyaPo83/SkriptAvtomaticheskoeRasprostraneniePoluchateleiSoglasheniyaPo83.xml" parse="xml"/>
+        <xi:include href="scripts/SkriptAvtomaticheskoeZakrytieZayavokCherezDnei152/SkriptAvtomaticheskoeZakrytieZayavokCherezDnei152.xml" parse="xml"/>
+        <xi:include href="scripts/SkriptDobavlenieNovomuOtdeluSoglasheniiVyshestoyashegoOtdela89/SkriptDobavlenieNovomuOtdeluSoglasheniiVyshestoyashegoOtdela89.xml" parse="xml"/>
+        <xi:include href="scripts/SkriptDobavlenieNovomuSotrudnikuSoglasheniiEgoOtdela92/SkriptDobavlenieNovomuSotrudnikuSoglasheniiEgoOtdela92.xml" parse="xml"/>
+        <xi:include href="scripts/SkriptizmenyaetStatusPoNastupleniuDatyOtlozhenDo150/SkriptizmenyaetStatusPoNastupleniuDatyOtlozhenDo150.xml" parse="xml"/>
+        <xi:include href="scripts/SkriptNaznachenieOtvetstvennogoZaRazdelBZ102/SkriptNaznachenieOtvetstvennogoZaRazdelBZ102.xml" parse="xml"/>
+        <xi:include href="scripts/SkriptOcenkaBazyZnanii131/SkriptOcenkaBazyZnanii131.xml" parse="xml"/>
+        <xi:include href="scripts/SkriptPerevoditGolosovaniyaVProsrocheno/SkriptPerevoditGolosovaniyaVProsrocheno.xml" parse="xml"/>
+        <xi:include href="scripts/SkriptUtochneniyaPravDostupa18/SkriptUtochneniyaPravDostupa18.xml" parse="xml"/>
+        <xi:include href="scripts/SkriptUtochneniyaPravDostupa35/SkriptUtochneniyaPravDostupa35.xml" parse="xml"/>
+        <xi:include href="scripts/SkriptVPlanovuuDatuPerevoditVseGolosovaniyaVProsrocheno197/SkriptVPlanovuuDatuPerevoditVseGolosovaniyaVProsrocheno197.xml" parse="xml"/>
+        <xi:include href="scripts/SkriptZapisKlientaVZapisORabote/SkriptZapisKlientaVZapisORabote.xml" parse="xml"/>
+        <xi:include href="scripts/SkriptZapreshaetRazryvSvyaziSSoglasheniyamiPoUmolchaniu135/SkriptZapreshaetRazryvSvyaziSSoglasheniyamiPoUmolchaniu135.xml" parse="xml"/>
+        <xi:include href="scripts/SmenaStatusaNaVRabote/SmenaStatusaNaVRabote.xml" parse="xml"/>
+        <xi:include href="scripts/SostoyanieDelZaPeriodKlient/SostoyanieDelZaPeriodKlient.xml" parse="xml"/>
+        <xi:include href="scripts/SostoyanieDelZaPeriodKomanda/SostoyanieDelZaPeriodKomanda.xml" parse="xml"/>
+        <xi:include href="scripts/SostoyanieDelZaPeriodKompaniya/SostoyanieDelZaPeriodKompaniya.xml" parse="xml"/>
+        <xi:include href="scripts/SostoyanieDelZaPeriodSoglashenie/SostoyanieDelZaPeriodSoglashenie.xml" parse="xml"/>
+        <xi:include href="scripts/SostoyanieDelZaPeriodSotrudnik/SostoyanieDelZaPeriodSotrudnik.xml" parse="xml"/>
+        <xi:include href="scripts/SostoyanieDelZaPeriodUsluga/SostoyanieDelZaPeriodUsluga.xml" parse="xml"/>
+        <xi:include href="scripts/SotrudnikuONaznacheniiOtvetstvennymZaZayavkuDobObekta/SotrudnikuONaznacheniiOtvetstvennymZaZayavkuDobObekta.xml" parse="xml"/>
+        <xi:include href="scripts/sozdanieGolosovanii52/sozdanieGolosovanii52.xml" parse="xml"/>
+        <xi:include href="scripts/SozdanieGolosovanii75/SozdanieGolosovanii75.xml" parse="xml"/>
+        <xi:include href="scripts/SozdanieKontaktnogoLicaSKartochkiZayavki/SozdanieKontaktnogoLicaSKartochkiZayavki.xml" parse="xml"/>
+        <xi:include href="scripts/SozdanieSoglasovaniya70/SozdanieSoglasovaniya70.xml" parse="xml"/>
+        <xi:include href="scripts/SpisokPolzovateleiObladaushihRoluPodpischikNaZadachu/SpisokPolzovateleiObladaushihRoluPodpischikNaZadachu.xml" parse="xml"/>
+        <xi:include href="scripts/SpisokUvedomlyaemyhNePustoi/SpisokUvedomlyaemyhNePustoi.xml" parse="xml"/>
+        <xi:include href="scripts/SposobyRegistraciiZayavokWayOfTreatment168/SposobyRegistraciiZayavokWayOfTreatment168.xml" parse="xml"/>
+        <xi:include href="scripts/SredneeVremyaMezhduIncidentamiAverageTimeTable174/SredneeVremyaMezhduIncidentamiAverageTimeTable174.xml" parse="xml"/>
+        <xi:include href="scripts/SredneeVremyaMezhduIncidentamiDiagrammAverageTime187/SredneeVremyaMezhduIncidentamiDiagrammAverageTime187.xml" parse="xml"/>
+        <xi:include href="scripts/SrednyayaOcenkaAvMark4/SrednyayaOcenkaAvMark4.xml" parse="xml"/>
+        <xi:include href="scripts/StatusOtlichenOtZakrytIReshena/StatusOtlichenOtZakrytIReshena.xml" parse="xml"/>
+        <xi:include href="scripts/SvyazannyeITaktivyKEs199/SvyazannyeITaktivyKEs199.xml" parse="xml"/>
+        <xi:include href="scripts/SZadacheiSvyazanaProblema145/SZadacheiSvyazanaProblema145.xml" parse="xml"/>
+        <xi:include href="scripts/SZadacheiSvyazanaZayavka154/SZadacheiSvyazanaZayavka154.xml" parse="xml"/>
+        <xi:include href="scripts/SZadacheiSvyazanZaprosNaIzmenenie139/SZadacheiSvyazanZaprosNaIzmenenie139.xml" parse="xml"/>
+        <xi:include href="scripts/TekusheeRaspolozhenieSotrudnikaotdela/TekusheeRaspolozhenieSotrudnikaotdela.xml" parse="xml"/>
+        <xi:include href="scripts/TekusheeSostoyanieDelKlient/TekusheeSostoyanieDelKlient.xml" parse="xml"/>
+        <xi:include href="scripts/TekusheeSostoyanieDelKomanda/TekusheeSostoyanieDelKomanda.xml" parse="xml"/>
+        <xi:include href="scripts/TekusheeSostoyanieDelKompaniya/TekusheeSostoyanieDelKompaniya.xml" parse="xml"/>
+        <xi:include href="scripts/TekusheeSostoyanieDelSoglashenie/TekusheeSostoyanieDelSoglashenie.xml" parse="xml"/>
+        <xi:include href="scripts/TekusheeSostoyanieDelSotrudnik/TekusheeSostoyanieDelSotrudnik.xml" parse="xml"/>
+        <xi:include href="scripts/TekusheeSostoyanieDelUsluga/TekusheeSostoyanieDelUsluga.xml" parse="xml"/>
+        <xi:include href="scripts/test/test.xml" parse="xml"/>
+        <xi:include href="scripts/testetstetses/testetstetses.xml" parse="xml"/>
+        <xi:include href="scripts/TestOgranicheniyaDaty/TestOgranicheniyaDaty.xml" parse="xml"/>
+        <xi:include href="scripts/TolkoRazdelyIPodrazdely/TolkoRazdelyIPodrazdely.xml" parse="xml"/>
+        <xi:include href="scripts/TrudozatratyPoZayavkamzadachamKontragentaTimeReport173/TrudozatratyPoZayavkamzadachamKontragentaTimeReport173.xml" parse="xml"/>
+        <xi:include href="scripts/TrudozatratySotrudnikovWorkTimesf177/TrudozatratySotrudnikovWorkTimesf177.xml" parse="xml"/>
+        <xi:include href="scripts/UdaleniePravila115/UdaleniePravila115.xml" parse="xml"/>
+        <xi:include href="scripts/UslugaIzZayavki/UslugaIzZayavki.xml" parse="xml"/>
+        <xi:include href="scripts/UslugiServices12/UslugiServices12.xml" parse="xml"/>
+        <xi:include href="scripts/UstanovkaFlagaDobavleniyaNeprivatnogoKommentariya116/UstanovkaFlagaDobavleniyaNeprivatnogoKommentariya116.xml" parse="xml"/>
+        <xi:include href="scripts/UstanovkaGeneraciiParolya/UstanovkaGeneraciiParolya.xml" parse="xml"/>
+        <xi:include href="scripts/UvedomlenieOKommentariiKZadache/UvedomlenieOKommentariiKZadache.xml" parse="xml"/>
+        <xi:include href="scripts/UvedomlenieOKommentariiKZayavke/UvedomlenieOKommentariiKZayavke.xml" parse="xml"/>
+        <xi:include href="scripts/UvelichivaetSchetchikKolichestvaVozobnovleniiNaEdinicu64/UvelichivaetSchetchikKolichestvaVozobnovleniiNaEdinicu64.xml" parse="xml"/>
+        <xi:include href="scripts/VashaOcenkaYourMark5/VashaOcenkaYourMark5.xml" parse="xml"/>
+        <xi:include href="scripts/VozobnovlennyeZayavkiTmp176/VozobnovlennyeZayavkiTmp176.xml" parse="xml"/>
+        <xi:include href="scripts/VremyaNaReakciuPoUmolchaniuIzSoglasheniya/VremyaNaReakciuPoUmolchaniuIzSoglasheniya.xml" parse="xml"/>
+        <xi:include href="scripts/VremyaNaResheniePoUmolchaniuIzSoglasheniya/VremyaNaResheniePoUmolchaniuIzSoglasheniya.xml" parse="xml"/>
+        <xi:include href="scripts/VremyaNaReshenieTimeToSolve6/VremyaNaReshenieTimeToSolve6.xml" parse="xml"/>
+        <xi:include href="scripts/VremyaReakciiNaZayavki183/VremyaReakciiNaZayavki183.xml" parse="xml"/>
+        <xi:include href="scripts/VremyaReakciiPoZayavkamReactionTime161/VremyaReakciiPoZayavkamReactionTime161.xml" parse="xml"/>
+        <xi:include href="scripts/VremyaReakciiPoZayavkamReactionTime162/VremyaReakciiPoZayavkamReactionTime162.xml" parse="xml"/>
+        <xi:include href="scripts/VremyaResheniyaZayavokKontragentovSLA170/VremyaResheniyaZayavokKontragentovSLA170.xml" parse="xml"/>
+        <xi:include href="scripts/VremyaResheniyaZayavokOtvetstvennymi184/VremyaResheniyaZayavokOtvetstvennymi184.xml" parse="xml"/>
+        <xi:include href="scripts/VychislenieDedlainaVZavisimostiOtVremeniNaReshenieVShablone/VychislenieDedlainaVZavisimostiOtVremeniNaReshenieVShablone.xml" parse="xml"/>
+        <xi:include href="scripts/VychislenieTekstaPoShablonu/VychislenieTekstaPoShablonu.xml" parse="xml"/>
+        <xi:include href="scripts/VychislenieVremeniOtpravkiPusha/VychislenieVremeniOtpravkiPusha.xml" parse="xml"/>
+        <xi:include href="scripts/VypolnivshiiRabotuAdfadbdbaedf48/VypolnivshiiRabotuAdfadbdbaedf48.xml" parse="xml"/>
+        <xi:include href="scripts/VypolnivshiiRabotuEmployee8/VypolnivshiiRabotuEmployee8.xml" parse="xml"/>
+        <xi:include href="scripts/VyvestiParametrySoobsheniyaVKonsol/VyvestiParametrySoobsheniyaVKonsol.xml" parse="xml"/>
+        <xi:include href="scripts/ZadachaNeVypolnenaINeZakryta/ZadachaNeVypolnenaINeZakryta.xml" parse="xml"/>
+        <xi:include href="scripts/ZakrytieZayavki/ZakrytieZayavki.xml" parse="xml"/>
+        <xi:include href="scripts/ZapolnenieAtributaDataResheniya65/ZapolnenieAtributaDataResheniya65.xml" parse="xml"/>
+        <xi:include href="scripts/ZapolnenieAtributaDlyaOpovesheniyaKontragenta/ZapolnenieAtributaDlyaOpovesheniyaKontragenta.xml" parse="xml"/>
+        <xi:include href="scripts/ZapolnenieAtributovDataGolosovaniyaIGolosuushii73/ZapolnenieAtributovDataGolosovaniyaIGolosuushii73.xml" parse="xml"/>
+        <xi:include href="scripts/ZapolnenieDatyUtverzhdeniya/ZapolnenieDatyUtverzhdeniya.xml" parse="xml"/>
+        <xi:include href="scripts/ZapolnenieFakticheskoiDatyZaversheniya76/ZapolnenieFakticheskoiDatyZaversheniya76.xml" parse="xml"/>
+        <xi:include href="scripts/ZapolnyaemDatuVozobnovleniya/ZapolnyaemDatuVozobnovleniya.xml" parse="xml"/>
+        <xi:include href="scripts/ZapolnyaetAtributSposobObrasheniya55/ZapolnyaetAtributSposobObrasheniya55.xml" parse="xml"/>
+        <xi:include href="scripts/ZapolnyaetAtributTimeClosingDlyaAvtozakrytiya58/ZapolnyaetAtributTimeClosingDlyaAvtozakrytiya58.xml" parse="xml"/>
+        <xi:include href="scripts/ZapolnyaetDatuResheniya60/ZapolnyaetDatuResheniya60.xml" parse="xml"/>
+        <xi:include href="scripts/ZapolnyaetPoleKemReshenTekushimPolzovatelem59/ZapolnyaetPoleKemReshenTekushimPolzovatelem59.xml" parse="xml"/>
+        <xi:include href="scripts/ZapolnyaetPoleKemZakrytTekushimPolzovatelem53/ZapolnyaetPoleKemZakrytTekushimPolzovatelem53.xml" parse="xml"/>
+        <xi:include href="scripts/ZapolnyaetPoleVozobnovlyalasZnacheniemTrue63/ZapolnyaetPoleVozobnovlyalasZnacheniemTrue63.xml" parse="xml"/>
+        <xi:include href="scripts/ZaregistrirovannyeIReshennyeZayavki175/ZaregistrirovannyeIReshennyeZayavki175.xml" parse="xml"/>
+        <xi:include href="scripts/ZaregistrirovannyeIReshennyeZayavkiRegisteredSolved172/ZaregistrirovannyeIReshennyeZayavkiRegisteredSolved172.xml" parse="xml"/>
+        <xi:include href="scripts/ZatiraemAtributOtlozhitDo/ZatiraemAtributOtlozhitDo.xml" parse="xml"/>
+        <xi:include href="scripts/ZatiranieAtributaDlyaOpovesheniyaKontragenta/ZatiranieAtributaDlyaOpovesheniyaKontragenta.xml" parse="xml"/>
+        <xi:include href="scripts/ZayavkaNeNahoditsyaVStatuseResolved127/ZayavkaNeNahoditsyaVStatuseResolved127.xml" parse="xml"/>
+        <xi:include href="scripts/ZayavkaPereshlaVStatusReshena107/ZayavkaPereshlaVStatusReshena107.xml" parse="xml"/>
+        <xi:include href="scripts/ZayavkaVStatuseOzhidaetOtveta/ZayavkaVStatuseOzhidaetOtveta.xml" parse="xml"/>
+        <xi:include href="scripts/ZayavkaVStatuseZakryto/ZayavkaVStatuseZakryto.xml" parse="xml"/>
+        <xi:include href="scripts/ZayavkaVypolnenaIliZakryta/ZayavkaVypolnenaIliZakryta.xml" parse="xml"/>
+    </scripts>
+    <customJSElements>
+        <xi:include href="custom-js/browser_stats.xml" parse="xml"/>
+    </customJSElements>
+    <fast-link-settings>
+        <xi:include href="fast-link-settings/employee.xml" parse="xml"/>
+        <xi:include href="fast-link-settings/KB.xml" parse="xml"/>
+    </fast-link-settings>
+    <xi:include href="escalcations/escalcations.xml" parse="xml"/>
+    <reportTemplatesContainer>
+        <xi:include href="report-templates/2157_2136.xml" parse="xml"/>
+        <xi:include href="report-templates/2157_2151.xml" parse="xml"/>
+        <xi:include href="report-templates/clientCondition/clientCondition.xml" parse="xml"/>
+        <xi:include href="report-templates/teamCondition/teamCondition.xml" parse="xml"/>
+        <xi:include href="report-templates/companyCondition/companyCondition.xml" parse="xml"/>
+        <xi:include href="report-templates/agreementCondition/agreementCondition.xml" parse="xml"/>
+        <xi:include href="report-templates/employeeCondition/employeeCondition.xml" parse="xml"/>
+        <xi:include href="report-templates/serviceCondition/serviceCondition.xml" parse="xml"/>
+        <xi:include href="report-templates/averageTime/averageTime.xml" parse="xml"/>
+        <xi:include href="report-templates/tmp/tmp.xml" parse="xml"/>
+        <xi:include href="report-templates/2133/2133.xml" parse="xml"/>
+        <xi:include href="report-templates/2133_2/2133_2.xml" parse="xml"/>
+        <xi:include href="report-templates/2134/2134.xml" parse="xml"/>
+        <xi:include href="report-templates/SLA/SLA.xml" parse="xml"/>
+        <xi:include href="report-templates/4546/4546.xml" parse="xml"/>
+        <xi:include href="report-templates/registeredSolved/registeredSolved.xml" parse="xml"/>
+        <xi:include href="report-templates/2157_2113/2157_2113.xml" parse="xml"/>
+        <xi:include href="report-templates/4562/4562.xml" parse="xml"/>
+        <xi:include href="report-templates/2136/2136.xml" parse="xml"/>
+        <xi:include href="report-templates/marks/marks.xml" parse="xml"/>
+        <xi:include href="report-templates/2151/2151.xml" parse="xml"/>
+        <xi:include href="report-templates/2174/2174.xml" parse="xml"/>
+        <xi:include href="report-templates/efficiencySpecialists/efficiencySpecialists.xml" parse="xml"/>
+        <xi:include href="report-templates/timeReport/timeReport.xml" parse="xml"/>
+        <xi:include href="report-templates/2152WorkTime_sf/2152WorkTime_sf.xml" parse="xml"/>
+        <xi:include href="report-templates/clientOnPeriod/clientOnPeriod.xml" parse="xml"/>
+        <xi:include href="report-templates/marksByEmployee/marksByEmployee.xml" parse="xml"/>
+        <xi:include href="report-templates/averageTimeTable/averageTimeTable.xml" parse="xml"/>
+        <xi:include href="report-templates/wayOfTreatment/wayOfTreatment.xml" parse="xml"/>
+        <xi:include href="report-templates/teamOnPeriod/teamOnPeriod.xml" parse="xml"/>
+        <xi:include href="report-templates/companyOnPeriod/companyOnPeriod.xml" parse="xml"/>
+        <xi:include href="report-templates/agreementOnPeriod/agreementOnPeriod.xml" parse="xml"/>
+        <xi:include href="report-templates/employeeOnPeriod/employeeOnPeriod.xml" parse="xml"/>
+        <xi:include href="report-templates/serviceOnPeriod/serviceOnPeriod.xml" parse="xml"/>
+        <xi:include href="report-templates/advantum_2174_2/advantum_2174_2.xml" parse="xml"/>
+    </reportTemplatesContainer>
+    <objects>
+        <xi:include href="object-group/alertSeverityLevels.xml" parse="xml"/>
+        <xi:include href="object-group/blackListContent.xml" parse="xml"/>
+        <xi:include href="object-group/blackListSubject.xml" parse="xml"/>
+        <xi:include href="object-group/calcScopeType.xml" parse="xml"/>
+        <xi:include href="object-group/cardType.xml" parse="xml"/>
+        <xi:include href="object-group/category.xml" parse="xml"/>
+        <xi:include href="object-group/closureCode.xml" parse="xml"/>
+        <xi:include href="object-group/encryptionProtocols.xml" parse="xml"/>
+        <xi:include href="object-group/fontIcons.xml" parse="xml"/>
+        <xi:include href="object-group/fromQuestion.xml" parse="xml"/>
+        <xi:include href="object-group/icons.xml" parse="xml"/>
+        <xi:include href="object-group/iconsForControls.xml" parse="xml"/>
+        <xi:include href="object-group/impact.xml" parse="xml"/>
+        <xi:include href="object-group/mailAutoSubj.xml" parse="xml"/>
+        <xi:include href="object-group/mark.xml" parse="xml"/>
+        <xi:include href="object-group/matchType.xml" parse="xml"/>
+        <xi:include href="object-group/monitoringEventTypes.xml" parse="xml"/>
+        <xi:include href="object-group/overDue.xml" parse="xml"/>
+        <xi:include href="object-group/period.xml" parse="xml"/>
+        <xi:include href="object-group/priority.xml" parse="xml"/>
+        <xi:include href="object-group/reasonForDecl.xml" parse="xml"/>
+        <xi:include href="object-group/retentionPolicies.xml" parse="xml"/>
+        <xi:include href="object-group/RFCcategories.xml" parse="xml"/>
+        <xi:include href="object-group/rrdConsolFunctions.xml" parse="xml"/>
+        <xi:include href="object-group/rrdValuesDataTypes.xml" parse="xml"/>
+        <xi:include href="object-group/rulesSettings.xml" parse="xml"/>
+        <xi:include href="object-group/SidInterface.xml" parse="xml"/>
+        <xi:include href="object-group/snmpProtoVersions.xml" parse="xml"/>
+        <xi:include href="object-group/timezone.xml" parse="xml"/>
+        <xi:include href="object-group/transportProtocols.xml" parse="xml"/>
+        <xi:include href="object-group/typeOfSession.xml" parse="xml"/>
+        <xi:include href="object-group/urgency.xml" parse="xml"/>
+        <xi:include href="object-group/userLanguage.xml" parse="xml"/>
+        <xi:include href="object-group/wayAdressing.xml" parse="xml"/>
+    </objects>
+    <xi:include href="wf-profile-folder/serviceCall/serviceCall.xml" parse="xml"/>
+    <advListProperties>
+        <shareView>any</shareView>
+        <richTextViewMode>ShowAsIs</richTextViewMode>
+    </advListProperties>
+    <security-policy>
+        <check-password>false</check-password>
+        <enabled>false</enabled>
+        <mandatory-symbol-groups/>
+        <max-password-lifespan>0</max-password-lifespan>
+        <max-password-length>1</max-password-length>
+        <min-password-lifespan>0</min-password-lifespan>
+        <restict-login-as-password>false</restict-login-as-password>
+        <restrict-same-password-as-new>false</restrict-same-password-as-new>
+    </security-policy>
+    <xi:include href="interface-settings/interface-settings.xml" parse="xml"/>
+    <navigationSettings show-bread-crumb="true" show-left-menu="false" show-top-menu="true">
+        <bread-crumb>
+            <item cases="task" code="992565bc-8032-7c10-9ba5-1bf3e0436ca7" metaClass="task" relationAttributes="task@problem task@changeRequest task@serviceCall"/>
+            <item cases="agreement" code="cc3b7ea2-d24a-44ee-6cfb-6d0d22bd3137" metaClass="agreement" relationAttributes="agreement@manager"/>
+            <item cases="serviceCall" code="de26d544-ebfa-2b26-fdaa-8ae485354fdb" metaClass="serviceCall" relationAttributes="serviceCall@clientTeam serviceCall@clientEmployee serviceCall@clientOU"/>
+            <item cases="agreementRule" code="187aa910-54b6-79c2-99c9-6ff01bc72e1f" metaClass="agreementRule" relationAttributes="agreementRule@parent"/>
+            <item cases="negotiation" code="090c5c07-f945-e21d-98aa-41ce43ea5d0b" metaClass="negotiation" relationAttributes="negotiation@source negotiation@sourceR"/>
+            <item cases="ou" code="96c09d41-90ee-517a-1636-63bf8cdf874d" metaClass="ou" relationAttributes="ou@parent"/>
+            <item cases="KB" code="4ca2f4fb-35c0-f024-b31e-48f53f5a43f4" metaClass="KB" relationAttributes="KB@parent"/>
+            <item cases="slmService" code="b3005d13-dcaf-f88e-5937-06be4c5f3024" metaClass="slmService" relationAttributes="slmService@responsibleEmployee slmService@responsibleTeam"/>
+            <item cases="vote" code="290b483c-abd5-86f1-3a26-1198c24f0377" metaClass="vote" relationAttributes="vote@parent"/>
+            <item cases="employee" code="3fb006d9-18f7-2b54-0859-0951dfaf7aaa" metaClass="employee" relationAttributes="employee@parent"/>
+            <item cases="objectBase" code="b9c89043-1b4f-18c5-75bc-4a2ec7d95ad7" metaClass="objectBase" relationAttributes="objectBase@parentBO"/>
+        </bread-crumb>
+        <left-menu code="lm_root">
+            <icon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="sysicons_e041" xsi:type="catalog-font-icon"/>
+            <title lang="client">Меню</title>
+            <title lang="de">Меню</title>
+            <title lang="en">Menu</title>
+            <title lang="ru">Меню</title>
+            <children/>
+        </left-menu>
+        <quick-access-panel-settings>
+            <areas>
+                <area code="adminArea" enabled="false">
+                    <tiles>
+                        <tile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="f606af71-1778-50eb-0000-000044ccdc1e" enabled="true" menu-item-code="lm_root" xsi:type="left-menu-quick-access-tile">
+                            <hint lang="client">Показать всё меню</hint>
+                            <hint lang="de">Показать всё меню</hint>
+                            <hint lang="en">Show whole menu</hint>
+                            <hint lang="ru">Показать всё меню</hint>
+                            <profiles/>
+                        </tile>
+                    </tiles>
+                </area>
+                <area code="userArea" enabled="false">
+                    <tiles/>
+                </area>
+            </areas>
+        </quick-access-panel-settings>
+        <top-menu>
+            <item code="f2465966-5188-0001-0001-002034976762" enabled="true" type="addButton">
+                <children/>
+                <title lang="ru">Создать</title>
+                <value list="true">
+                    <class-fqn>
+                        <id>task</id>
+                    </class-fqn>
+                    <class-fqn>
+                        <id>changeRequest</id>
+                    </class-fqn>
+                    <class-fqn>
+                        <id>serviceCall</id>
+                    </class-fqn>
+                    <class-fqn>
+                        <id>problem</id>
+                    </class-fqn>
+                    <class-fqn>
+                        <id>ou</id>
+                        <case>company</case>
+                    </class-fqn>
+                </value>
+            </item>
+            <item code="ad415914-7ca7-f7d1-f5dd-994e5bd499be" enabled="true" type="chapter">
+                <children>
+                    <item code="99e6d116-f0d5-0b18-3223-0fce2acd4bf9" enabled="true" type="reference">
+                        <children/>
+                        <title lang="ru">Мой аккаунт</title>
+                        <value>
+                            <referenceValue fqn="employee$employee" tab-uuid="account"/>
+                        </value>
+                    </item>
+                    <item code="2018cc4d-5ee3-96ac-8273-898baf8decea" enabled="true" type="chapter">
+                        <children>
+                            <item code="bfab9b1f-019f-8a1d-abfe-172547ddd91a" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Заявки в моей ответственности</title>
+                                <value>
+                                    <referenceValue fqn="employee$employee" tab-uuid="inResponsibility tabs_serviceCallsTab serviceCallsTab"/>
+                                </value>
+                            </item>
+                            <item code="13fac0f2-1178-556e-a11b-5cc7181306f5" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Заявки на моих командах</title>
+                                <value>
+                                    <referenceValue fqn="employee$employee" tab-uuid="inResponsibility tabs_serviceCallsTab serviceCallsTeamsTab"/>
+                                </value>
+                            </item>
+                            <item code="4365dd86-0339-1450-f790-459acc5e506c" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Мои заявки</title>
+                                <value>
+                                    <referenceValue fqn="employee$employee" tab-uuid="sendedTab tabs_serviceCallsOutTab serviceCallsOutTab"/>
+                                </value>
+                            </item>
+                            <item code="172c5081-92f6-d39d-92ce-1e104df0a163" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Мои заявки</title>
+                                <value>
+                                    <referenceValue fqn="employee$employee" tab-uuid="sendedTabNotLicense"/>
+                                </value>
+                            </item>
+                        </children>
+                        <title lang="ru">Заявки</title>
+                    </item>
+                    <item code="3a11fef1-8b5a-ad3f-f00c-01193c7df58e" enabled="true" type="chapter">
+                        <children>
+                            <item code="7fbfbd71-fec9-b295-a608-adb3204946ed" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Задачи в моей ответственности</title>
+                                <value>
+                                    <referenceValue fqn="employee$employee" tab-uuid="inResponsibility tabs_serviceCallsTab tasksTab"/>
+                                </value>
+                            </item>
+                            <item code="1074aecc-7f86-7296-4960-7fcb7ed5536c" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Задачи на моих командах</title>
+                                <value>
+                                    <referenceValue fqn="employee$employee" tab-uuid="inResponsibility tabs_serviceCallsTab tasksTeamTab"/>
+                                </value>
+                            </item>
+                            <item code="e23cdaa0-360f-34aa-a98c-5c33cb4f94b1" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Мои задачи</title>
+                                <value>
+                                    <referenceValue fqn="employee$employee" tab-uuid="sendedTab tabs_serviceCallsOutTab tasksOutTab"/>
+                                </value>
+                            </item>
+                        </children>
+                        <title lang="ru">Задачи</title>
+                    </item>
+                    <item code="0d74cb5b-0985-7490-03a0-1801fe5dadfb" enabled="true" type="chapter">
+                        <children>
+                            <item code="325b3f8b-c916-8cc5-18a9-f50352ecc9ff" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Проблемы в моей ответственности</title>
+                                <value>
+                                    <referenceValue fqn="employee$employee" tab-uuid="inResponsibility tabs_serviceCallsTab problemsTab"/>
+                                </value>
+                            </item>
+                            <item code="1ba7c931-a31e-6c2e-fc3a-eca995bd57b2" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Проблемы на моих командах</title>
+                                <value>
+                                    <referenceValue fqn="employee$employee" tab-uuid="inResponsibility tabs_serviceCallsTab problemsTeamTab"/>
+                                </value>
+                            </item>
+                            <item code="90cb9208-84b8-7930-902f-e738b29dcaef" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Мои проблемы</title>
+                                <value>
+                                    <referenceValue fqn="employee$employee" tab-uuid="sendedTab tabs_serviceCallsOutTab problemsOutTab"/>
+                                </value>
+                            </item>
+                        </children>
+                        <title lang="ru">Проблемы</title>
+                    </item>
+                    <item code="e0268383-cddd-384a-68d9-5b0e523bea72" enabled="true" type="chapter">
+                        <children>
+                            <item code="c866d7c7-954d-59c2-1911-d58cbafd97e3" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Запросы на изменение в моей ответственности</title>
+                                <value>
+                                    <referenceValue fqn="employee$employee" tab-uuid="inResponsibility tabs_serviceCallsTab changeRequestsTab"/>
+                                </value>
+                            </item>
+                            <item code="7612bda3-7c79-8c78-2922-7bb6821a1dab" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Запросы на изменение на моих командах</title>
+                                <value>
+                                    <referenceValue fqn="employee$employee" tab-uuid="inResponsibility tabs_serviceCallsTab changeRequestsTeamTab"/>
+                                </value>
+                            </item>
+                            <item code="72eb1bcb-5020-b8bf-ab71-d9a5de18fb04" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Мои запросы на изменение</title>
+                                <value>
+                                    <referenceValue fqn="employee$employee" tab-uuid="sendedTab tabs_serviceCallsOutTab changeRequestsOutTab"/>
+                                </value>
+                            </item>
+                        </children>
+                        <title lang="ru">Запросы на изменение</title>
+                    </item>
+                    <item code="8753ed55-fd94-772f-3275-647dd01070f7" enabled="true" type="chapter">
+                        <children>
+                            <item code="2476dfbe-77eb-c836-7e05-bbc90e86a3ea" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Согласования в моей ответственности</title>
+                                <value>
+                                    <referenceValue fqn="employee$employee" tab-uuid="agreementsTab tabs_inboxAgreementsTab inboxAgreementsTab"/>
+                                </value>
+                            </item>
+                            <item code="d2fb60b2-5e71-0c77-11d0-407001e11c9e" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Мои согласования</title>
+                                <value>
+                                    <referenceValue fqn="employee$employee" tab-uuid="agreementsTab tabs_inboxAgreementsTab outboxAgreementsTab"/>
+                                </value>
+                            </item>
+                        </children>
+                        <title lang="ru">Согласования</title>
+                    </item>
+                </children>
+                <title lang="ru">Мой профиль</title>
+            </item>
+            <item code="f5392123-5209-0001-0001-000509663065" enabled="true" type="chapter">
+                <children>
+                    <item code="5061193f-46b8-920d-9a03-f2bc2c4755af" enabled="true" type="chapter">
+                        <children>
+                            <item code="3e0780dc-c2ee-13a0-1fc8-ebc5adf6205e" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Мои заявки</title>
+                                <value>
+                                    <referenceValue fqn="employee$contactPerson" tab-uuid="ff4dbcb1-140c-0503-0000-ffffffffc80e7f4a"/>
+                                </value>
+                            </item>
+                            <item code="aed4a248-50c4-329d-5e33-a97674bdf738" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Заявки моей компании</title>
+                                <value>
+                                    <referenceValue fqn="ou$company" tab-uuid="f4a0eeb5-13d4-016e-0000-0000293ea6cd"/>
+                                </value>
+                            </item>
+                        </children>
+                        <title lang="ru">Заявки</title>
+                    </item>
+                    <item code="a3e078ed-499e-0f3f-7c6c-a34ca5457716" enabled="true" type="chapter">
+                        <children>
+                            <item code="f986e7ba-b17a-c33f-6fef-c4656a70cb52" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Мне на согласование</title>
+                                <value>
+                                    <referenceValue fqn="employee$contactPerson" tab-uuid="fd1eafcf-13f1-005f-0000-0000440a7bef"/>
+                                </value>
+                            </item>
+                        </children>
+                        <title lang="ru">Согласования</title>
+                    </item>
+                </children>
+                <title lang="ru">Активности</title>
+            </item>
+            <item code="f5333649-5190-0170-0001-001254466805" enabled="true" type="chapter">
+                <children>
+                    <item code="b2ad3166-904d-c9ad-d96e-a7fccac83af9" enabled="true" type="chapter">
+                        <children>
+                            <item code="3d60e194-b4d7-0a6e-e787-06e944be4de9" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Все заявки</title>
+                                <value>
+                                    <referenceValue fqn="root" tab-uuid="f168fe24-13d9-00ed-0000-ffffffffe3590e69 f929b0ae-13f1-037e-0000-ffffffff9e995d1c f929b0ac-13f1-037c-0000-ffffffff9e995d1c"/>
+                                </value>
+                            </item>
+                            <item code="1c2a678b-9c4e-b184-b2e7-801ff8df9dbd" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Все задачи</title>
+                                <value>
+                                    <referenceValue fqn="root" tab-uuid="f168fe24-13d9-00ed-0000-ffffffffe3590e69 f929b0ae-13f1-037e-0000-ffffffff9e995d1c f929e624-13f1-0381-0000-ffffffff9e995d1c"/>
+                                </value>
+                            </item>
+                            <item code="f810f85b-3a27-3b73-1948-8fb4a0c28280" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Все проблемы</title>
+                                <value>
+                                    <referenceValue fqn="root" tab-uuid="f168fe24-13d9-00ed-0000-ffffffffe3590e69 f929b0ae-13f1-037e-0000-ffffffff9e995d1c f92a073c-13f1-0387-0000-ffffffff9e995d1c"/>
+                                </value>
+                            </item>
+                            <item code="8af2e205-8467-853e-18b2-223cdcd85df3" enabled="true" type="reference">
+                                <children/>
+                                <title lang="ru">Все запросы на изменение</title>
+                                <value>
+                                    <referenceValue fqn="root" tab-uuid="f168fe24-13d9-00ed-0000-ffffffffe3590e69 f929b0ae-13f1-037e-0000-ffffffff9e995d1c f929f92a-13f1-0384-0000-ffffffff9e995d1c"/>
+                                </value>
+                            </item>
+                        </children>
+                        <title lang="ru">Активности</title>
+                    </item>
+                    <item code="f5335886-5190-0171-0001-001254466805" enabled="true" type="reference">
+                        <children/>
+                        <title lang="ru">Оргструктура</title>
+                        <value>
+                            <referenceValue fqn="root" tab-uuid="ff4ed612-13d3-0195-0000-0000003cafa8"/>
+                        </value>
+                    </item>
+                    <item code="f1336591-5199-0173-0001-000138850456" enabled="true" type="reference">
+                        <children/>
+                        <title lang="ru">Клиенты</title>
+                        <value>
+                            <referenceValue fqn="root" tab-uuid="f2605424-5197-0215-0001-000413527433"/>
+                        </value>
+                    </item>
+                    <item code="f5497483-5190-0173-0001-001254466805" enabled="true" type="reference">
+                        <children/>
+                        <title lang="ru">Каталог услуг</title>
+                        <value>
+                            <referenceValue fqn="root" tab-uuid="fe53fe3d-13d5-01f3-0000-00003a900151"/>
+                        </value>
+                    </item>
+                    <item code="f5846192-5190-0740-0001-000588385936" enabled="true" type="reference">
+                        <children/>
+                        <title lang="ru">ИТ-активы</title>
+                        <value>
+                            <referenceValue fqn="root" tab-uuid="fb62daa0-13d8-0069-0000-ffffffff891ebba0"/>
+                        </value>
+                    </item>
+                    <item code="f6568292-5190-0001-0001-002120181024" enabled="true" type="reference">
+                        <children/>
+                        <title lang="ru">Отчеты по компании</title>
+                        <value>
+                            <referenceValue fqn="root" tab-uuid="f3e99343-1429-00cc-0000-ffffffffdf7a20b0"/>
+                        </value>
+                    </item>
+                    <item code="f6571069-5190-0002-0001-002120181024" enabled="true" type="reference">
+                        <children/>
+                        <title lang="ru">База знаний</title>
+                        <value>
+                            <referenceValue fqn="root" tab-uuid="f20005e2-13d9-0088-0000-000077beaec5"/>
+                        </value>
+                    </item>
+                </children>
+                <title lang="ru">Общее</title>
+            </item>
+            <item code="f6045617-5186-0160-0001-001510285113" enabled="true" type="favorites">
+                <children/>
+                <title lang="ru">Избранное</title>
+            </item>
+        </top-menu>
+    </navigationSettings>
+    <alertProcessorRule>
+        <enabled>false</enabled>
+        <script/>
+    </alertProcessorRule>
+    <transfer-values>
+        <xi:include href="transfer-values/admin-lite.xml" parse="xml"/>
+        <xi:include href="transfer-values/learning.xml" parse="xml"/>
+        <xi:include href="transfer-values/live-chat.xml" parse="xml"/>
+        <xi:include href="transfer-values/mobile-settings/mobile-settings.xml" parse="xml"/>
+    </transfer-values>
+    <inputmaskExtension>
+        <javascript/>
+    </inputmaskExtension>
+    <dropDownSettings>onForRequired</dropDownSettings>
+    <structured-objects-views/>
+    <libraries/>
+</metainfoContainer>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<editable-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f99178f9-140b-026d-0000-00003de066fb" seg-type="contents" uuid="f99178f9-140b-026d-0000-00003de066fb">
+    <profiles/>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="f1bef335-16ff-25b1-0006-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Параметры учетной записи</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>84437c0f-3e10-4aed-b500-41b18f03951c</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/f992c8d5-140b-27d6-0000-000001b277ad.xml" parse="xml"/>
+    <resetValuesIfHidden>false</resetValuesIfHidden>
+</editable-properties>

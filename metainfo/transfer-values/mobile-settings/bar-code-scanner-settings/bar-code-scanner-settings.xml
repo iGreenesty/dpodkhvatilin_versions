@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<barcode-scanner-settings xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="bar-code-scanner-settings" seg-type="bar-code-scanner-settings" uuid="fc1c5b4a-168d-1355-0000-000000ffc2f3">
+    <profiles/>
+    <tags/>
+    <cases/>
+    <attributes/>
+    <available-in-attributes/>
+</barcode-scanner-settings>

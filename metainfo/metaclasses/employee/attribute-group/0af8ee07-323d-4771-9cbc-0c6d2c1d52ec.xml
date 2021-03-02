@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="0af8ee07-323d-4771-9cbc-0c6d2c1d52ec" seg-type="attribute-group">
+    <code>0af8ee07-323d-4771-9cbc-0c6d2c1d52ec</code>
+    <title lang="ru">Общие сведения</title>
+    <attribute>lastName</attribute>
+    <attribute>firstName</attribute>
+    <attribute>middleName</attribute>
+    <attribute>parent</attribute>
+    <attribute>post</attribute>
+    <attribute>immediateSupervisor</attribute>
+    <attribute>recipientAgreements</attribute>
+    <order>lastName</order>
+    <order>firstName</order>
+    <order>middleName</order>
+    <order>parent</order>
+    <order>post</order>
+    <order>immediateSupervisor</order>
+    <order>recipientAgreements</order>
+</group>

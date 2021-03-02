@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="system" seg-type="attribute-group-override">
+    <code>system</code>
+    <attribute>interface</attribute>
+    <attribute>portA</attribute>
+    <attribute>portZ</attribute>
+    <order>title</order>
+    <order>state</order>
+    <order>creationDate</order>
+    <order>author</order>
+    <order>metaClass</order>
+    <order>interface</order>
+    <order>portA</order>
+    <order>portZ</order>
+</override>

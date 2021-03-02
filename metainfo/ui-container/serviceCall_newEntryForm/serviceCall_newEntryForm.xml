@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="serviceCall_newEntryForm" seg-type="ui-container">
+    <fqn>
+        <id>serviceCall</id>
+    </fqn>
+    <code>newEntryForm</code>
+    <form seg-detach="false" uuid="f1e9fdfc-1336-0048-0000-0000004904bd">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Форма добавления</caption>
+        <layout seg-detach="false" uuid="f1e9fdfc-1337-0048-0000-0000004904bd">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/fb783161-140a-004f-0000-000019045840/fb783161-140a-004f-0000-000019045840.xml" parse="xml"/>
+            <xi:include href="contents/Otvetstvennyi/Otvetstvennyi.xml" parse="xml"/>
+            <xi:include href="contents/79de7d67-2fb7-692f-ac29-db043cbe4ff9/79de7d67-2fb7-692f-ac29-db043cbe4ff9.xml" parse="xml"/>
+            <xi:include href="contents/f23e3e2c-1411-000a-0000-0000014d0b69.xml" parse="xml"/>
+            <xi:include href="contents/KontragentNeNaiden/KontragentNeNaiden.xml" parse="xml"/>
+            <xi:include href="contents/KontaktnyeDannye/KontaktnyeDannye.xml" parse="xml"/>
+            <xi:include href="contents/fb750243-140a-002f-0000-000019045840.xml" parse="xml"/>
+            <xi:include href="contents/OpisanieUslugi/OpisanieUslugi.xml" parse="xml"/>
+            <xi:include href="contents/Kategoriya/Kategoriya.xml" parse="xml"/>
+            <xi:include href="contents/RekomenduemyeStatiBZ/RekomenduemyeStatiBZ.xml" parse="xml"/>
+            <xi:include href="contents/cmdb/cmdb.xml" parse="xml"/>
+            <xi:include href="contents/f0a09a2e-13f5-0065-0000-ffffffffa4f67e60/f0a09a2e-13f5-0065-0000-ffffffffa4f67e60.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+    </form>
+</ui>

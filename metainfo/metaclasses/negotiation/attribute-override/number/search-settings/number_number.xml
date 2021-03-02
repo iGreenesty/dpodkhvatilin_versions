@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<searchSetting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="number_number" seg-type="search-settings">
+    <simpleSearchableForLicensed>true</simpleSearchableForLicensed>
+    <simpleSearchableForNotLicensed>false</simpleSearchableForNotLicensed>
+    <extendedSearchableForNotLicensed>false</extendedSearchableForNotLicensed>
+    <extendedSearchableForLicensed>false</extendedSearchableForLicensed>
+    <searchAnalizer>ftsNoAnalyzer</searchAnalizer>
+    <searchBoost>2.0</searchBoost>
+    <code>number</code>
+    <declaredMetaClass>negotiation</declaredMetaClass>
+    <title>Номер</title>
+    <attrCode>number</attrCode>
+</searchSetting>

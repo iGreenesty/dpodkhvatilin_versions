@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="priority" seg-detach="true" seg-id="priority" seg-type="catalog" xsi:type="SystemCatalog">
+    <title lang="client">Приоритеты</title>
+    <title lang="en">Priorities</title>
+    <title lang="ru">Приоритеты</title>
+    <description lang="client">Содержит приоритеты, в соответствии с которыми определяется порядок выполнения запросов инженерами.</description>
+    <description lang="en">Contains priorities defining the order of requests execution</description>
+    <description lang="ru">Содержит приоритеты, в соответствии с которыми определяется порядок выполнения запросов инженерами.</description>
+</catalog>

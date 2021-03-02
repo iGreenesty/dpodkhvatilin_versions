@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f30c763d-1746-444b-003e-000036b4a082" seg-type="custom_forms">
+    <code>f30c763d-1746-444b-003e-000036b4a082</code>
+    <parameters>
+        <xi:include href="form-parameters/descr.xml" parse="xml"/>
+    </parameters>
+</form>

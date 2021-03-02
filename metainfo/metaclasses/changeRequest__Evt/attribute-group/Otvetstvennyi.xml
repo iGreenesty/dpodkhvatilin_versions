@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="Otvetstvennyi" seg-type="attribute-group">
+    <code>Otvetstvennyi</code>
+    <title lang="ru">Ответственный</title>
+    <attribute>senderTitle</attribute>
+    <attribute>eventDate</attribute>
+    <attribute>responsibleEmployee</attribute>
+    <attribute>responsibleTeam</attribute>
+    <attribute>responsibleElapsed</attribute>
+    <attribute>newResponsibleEmployee</attribute>
+    <attribute>newResponsibleTeam</attribute>
+    <attribute>responsibleChanged</attribute>
+</group>

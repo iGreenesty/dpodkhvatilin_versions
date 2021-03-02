@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" code="ShowInSearchResults" enabled="true" group="other" seg-detach="true" seg-id="ShowInSearchResults" seg-type="sec-actions">
+    <title lang="en">Show in the search results list</title>
+    <title lang="ru">Показывать в результатах поиска</title>
+</action>

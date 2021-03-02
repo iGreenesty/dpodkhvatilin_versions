@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="KastomizaciyaOpovesheniyaOPredostavleniiDostupaKLK" seg-type="scripts">
+    <code>KastomizaciyaOpovesheniyaOPredostavleniiDostupaKLK</code>
+    <title lang="ru">Кастомизация оповещения о предоставлении доступа к ЛК</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="KastomizaciyaOpovesheniyaOPredostavleniiDostupaKLK.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

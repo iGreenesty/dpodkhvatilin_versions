@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="observedCalls" seg-type="contents" uuid="observedCalls">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="b6319e05-db5e-47b0-1455-4ef227e7abd1">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Наблюдаемые заявки </caption>
+    <showCaption>false</showCaption>
+    <class>
+        <id>serviceCall</id>
+    </class>
+    <attributeGroup>DlyaSpiskaPodpisok</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/db982f1e-d85b-dc85-673f-c8c9b086c61f/db982f1e-d85b-dc85-673f-c8c9b086c61f.xml" parse="xml"/>
+    <xi:include href="tool-panels/4e0f8333-7015-bf1d-01c9-387fb51da589.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f1c92194-173e-bc37-001f-000060086411">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f1c92216-173e-bd06-001f-000060086411">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="f1c92194-173e-bc38-001f-000060086411">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>observedCall</attr-link-code>
+    <attrs-chain attr-code="observedCall" class-fqn="employee$contactPerson"/>
+    <filterRestrictionSettings/>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса Заявка</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

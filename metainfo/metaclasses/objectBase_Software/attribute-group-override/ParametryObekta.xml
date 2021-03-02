@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ParametryObekta" seg-type="attribute-group-override">
+    <code>ParametryObekta</code>
+    <attribute>version</attribute>
+    <attribute>license</attribute>
+    <attribute>requirements</attribute>
+    <order>producer</order>
+    <order>model</order>
+    <order>description</order>
+    <order>Price</order>
+    <order>version</order>
+    <order>license</order>
+    <order>requirements</order>
+</override>

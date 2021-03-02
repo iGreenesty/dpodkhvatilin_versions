@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="PoluchatelSoglasheniya(nelic)" licensed="false" seg-detach="true" seg-id="PoluchatelSoglasheniya(nelic)" seg-type="sec-profile" versioning="false">
+    <groups/>
+    <roles>AgreementRecipient</roles>
+    <title lang="ru">Получатель соглашения (нелиц)</title>
+</security-profile>

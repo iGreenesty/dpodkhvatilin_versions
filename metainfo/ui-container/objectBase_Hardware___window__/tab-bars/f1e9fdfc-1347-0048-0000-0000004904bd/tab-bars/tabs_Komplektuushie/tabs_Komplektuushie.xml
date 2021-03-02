@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_Komplektuushie" seg-type="tab-bars" uuid="tabs_Komplektuushie">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efd25-16fc-177b-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="Komplektuushie">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Комплектующие</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="3d1da6d5-08a8-032d-f532-f78ce7f43a04">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/KomplektuushiiSpisok/KomplektuushiiSpisok.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efd26-16fc-177d-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="ProgrammnoeObespechenie">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Программное обеспечение</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="46ff7488-1381-130c-f798-2612632e3b05">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/ProgrammnoeObespechenie_spisok_/ProgrammnoeObespechenie_spisok_.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efd27-16fc-177f-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="Porty">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Порты</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="82816f22-b9e9-0012-2a01-07211d8e2a55">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/SvyazannyePorty/SvyazannyePorty.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efd28-16fc-1781-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="VypolnivshiiRabotuAdfadbdbaedf48" seg-type="scripts">
+    <code>VypolnivshiiRabotuAdfadbdbaedf48</code>
+    <title lang="ru">Выполнивший работу. Права</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="VypolnivshiiRabotuAdfadbdbaedf48.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

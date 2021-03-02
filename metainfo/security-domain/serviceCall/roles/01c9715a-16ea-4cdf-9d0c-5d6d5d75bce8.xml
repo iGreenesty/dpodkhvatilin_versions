@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<role xmlns:xi="http://www.w3.org/2001/XInclude" code="01c9715a-16ea-4cdf-9d0c-5d6d5d75bce8" enabled="true" seg-detach="true" seg-id="01c9715a-16ea-4cdf-9d0c-5d6d5d75bce8" seg-type="roles" type="SCRIPT">
+    <onlyForGloballyLicensed>false</onlyForGloballyLicensed>
+    <property code="script">RukovoditelOtdelakontragentaCaeacdfdcdddbce38</property>
+    <title lang="ru">Руководитель отдела-контрагента</title>
+</role>

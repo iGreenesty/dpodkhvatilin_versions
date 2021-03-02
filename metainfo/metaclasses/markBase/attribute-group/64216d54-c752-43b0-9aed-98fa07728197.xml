@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="64216d54-c752-43b0-9aed-98fa07728197" seg-type="attribute-group">
+    <code>64216d54-c752-43b0-9aed-98fa07728197</code>
+    <title lang="ru">Для списка в статье БЗ</title>
+    <attribute>author</attribute>
+    <attribute>value</attribute>
+    <attribute>creationDate</attribute>
+    <order>author</order>
+    <order>value</order>
+    <order>creationDate</order>
+</group>

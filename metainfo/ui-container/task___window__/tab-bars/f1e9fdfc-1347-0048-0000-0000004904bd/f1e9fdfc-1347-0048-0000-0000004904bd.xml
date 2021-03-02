@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabBar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="true" seg-detach="true" seg-id="f1e9fdfc-1347-0048-0000-0000004904bd" seg-type="tab-bars" uuid="f1e9fdfc-1347-0048-0000-0000004904bd">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efeee-16fc-1875-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="f1e9fdfc-1348-0048-0000-0000004904bd">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Карточка задачи</caption>
+        <considerListFilter>false</considerListFilter>
+        <xi:include href="tool-panels/f6ae6292-15a2-0ec8-0000-000001c8b871.xml" parse="xml"/>
+        <layout seg-detach="false" uuid="f1e9fdfc-1349-0048-0000-0000004904bd">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/fc5ef63b-13f5-0898-0000-fffffffff1537d4b/fc5ef63b-13f5-0898-0000-fffffffff1537d4b.xml" parse="xml"/>
+            <xi:include href="contents/f9e84e38-140c-010a-0000-ffffffff857d8ae2/f9e84e38-140c-010a-0000-ffffffff857d8ae2.xml" parse="xml"/>
+            <xi:include href="contents/fa03f94d-140c-0115-0000-ffffffff857d8ae2/fa03f94d-140c-0115-0000-ffffffff857d8ae2.xml" parse="xml"/>
+            <xi:include href="contents/fea40871-140c-0577-0000-00000025976e/fea40871-140c-0577-0000-00000025976e.xml" parse="xml"/>
+            <xi:include href="contents/f4ed4172-140e-0542-0000-000062e178ca/f4ed4172-140e-0542-0000-000062e178ca.xml" parse="xml"/>
+            <xi:include href="contents/PodpischikiNaZadachu/PodpischikiNaZadachu.xml" parse="xml"/>
+            <xi:include href="tab-bars/f3b3ca29-1418-0052-0000-ffffffff92332d46/f3b3ca29-1418-0052-0000-ffffffff92332d46.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>true</windowLayout>
+        </layout>
+        <internalScrolling>NO</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efeef-16fc-1884-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="f9d4336f-140c-004b-0000-00004fc7702a">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>3f6043f1-42df-45dd-a13f-12732c327b21</profile>
+            <profile>862e093f-ff10-4dab-b6f2-036fcb8cc02d</profile>
+        </profiles>
+        <tags/>
+        <caption lang="ru">История изменения</caption>
+        <considerListFilter>false</considerListFilter>
+        <xi:include href="tool-panels/f6ae6292-15a2-0ec9-0000-000001c8b871.xml" parse="xml"/>
+        <layout seg-detach="false" uuid="f9d43371-140c-004c-0000-00004fc7702a">
+            <profiles/>
+            <tags/>
+            <xi:include href="tab-bars/tabs_GeneralHistory/tabs_GeneralHistory.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efef3-16fc-188c-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabBar>

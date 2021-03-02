@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="mobApp_card" seg-type="attribute-group">
+    <code>mobApp_card</code>
+    <title lang="ru">[МК] карточка</title>
+    <attribute>state</attribute>
+    <attribute>serviceCall</attribute>
+    <attribute>changeRequest</attribute>
+    <attribute>descrRtf</attribute>
+    <attribute>files</attribute>
+    <attribute>remark</attribute>
+</group>

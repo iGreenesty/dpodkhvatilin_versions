@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-objects xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f9754447-5186-0151-0001-001946532522" seg-type="contents" uuid="f9754447-5186-0151-0001-001946532522">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+        <profile>066759f5-fb96-4c3c-9d2d-49c628e98ef0</profile>
+        <profile>a3a3160f-1b5c-44fb-adf2-632a69c45924</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+        <profile>9ad6df49-3d63-401b-9f62-8be204a5952d</profile>
+        <profile>1091fac0-666d-42d3-ac24-df1a5cd6a8d3</profile>
+    </profiles>
+    <tags>
+        <tag>BazaZnanii</tag>
+    </tags>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6ef9e2-16fc-1621-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+        <elements seg-detach="false" uuid="a5728390-786d-09ec-7172-8758ce29998e">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="9e5d5042-ddb2-fd1b-1bd2-f8b0d476b624">
+                <profiles/>
+                <tags/>
+                <properties>
+                    <entry>
+                        <key>metaClassFqn</key>
+                        <value>KB$KBArticle</value>
+                    </entry>
+                    <entry>
+                        <key>isAttributeOfRelatedObject</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>isLinkToParent</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>backLinkAttr</key>
+                        <value>services</value>
+                    </entry>
+                    <entry>
+                        <key>attrTypeCode</key>
+                        <value>backBOLinks</value>
+                    </entry>
+                    <entry>
+                        <key>conditionCode</key>
+                        <value>notNull</value>
+                    </entry>
+                    <entry>
+                        <key>attributeFqn</key>
+                        <value>serviceCall@service.slmService@articlesKB</value>
+                    </entry>
+                </properties>
+            </elements>
+        </elements>
+    </visibilityCondition>
+    <caption lang="ru">Рекомендуемые статьи БЗ</caption>
+    <showCaption>true</showCaption>
+    <case>
+        <id>KB</id>
+        <case>KBArticleOpen</case>
+    </case>
+    <case>
+        <id>KB</id>
+        <case>KBArticle</case>
+    </case>
+    <attributeGroup>DlyaSpiskaNaKartochkeZayavki</attributeGroup>
+    <presentation>advlist</presentation>
+    <pagingSettings>
+        <position>BOTTOM</position>
+    </pagingSettings>
+    <xi:include href="tool-panels/f1279208-5200-0154-0001-000726843234.xml" parse="xml"/>
+    <xi:include href="tool-panels/f6ae67fb-15a2-11c8-0000-000001c8b871.xml" parse="xml"/>
+    <defaultSettings>
+        <inherit>true</inherit>
+        <listFilter seg-detach="false" uuid="f723bed4-1695-59c5-0040-000000ffc2f3">
+            <profiles/>
+            <tags/>
+        </listFilter>
+        <listSort seg-detach="false" uuid="f723bf8f-1695-5b0a-0040-000000ffc2f3">
+            <profiles/>
+            <tags/>
+        </listSort>
+        <pageSize>20</pageSize>
+        <showNestedEventList>false</showNestedEventList>
+        <tableWidth>0</tableWidth>
+    </defaultSettings>
+    <objectFilter seg-detach="false" uuid="fc1c4f08-168d-11de-0000-000000ffc2f3">
+        <profiles/>
+        <tags/>
+    </objectFilter>
+    <attr-link-code>articlesKB</attr-link-code>
+    <attrs-chain attr-code="service" class-fqn="serviceCall"/>
+    <attrs-chain attr-code="articlesKB" class-fqn="slmService"/>
+    <filterRestrictionSettings/>
+    <add-form>
+        <caption lang="ru">Добавление связи с объектом класса База знаний</caption>
+    </add-form>
+    <objectActionsMenu>
+        <useSystemSettings>true</useSystemSettings>
+    </objectActionsMenu>
+    <showLinkedObjects>false</showLinkedObjects>
+    <show-related-with-nested>false</show-related-with-nested>
+</related-objects>

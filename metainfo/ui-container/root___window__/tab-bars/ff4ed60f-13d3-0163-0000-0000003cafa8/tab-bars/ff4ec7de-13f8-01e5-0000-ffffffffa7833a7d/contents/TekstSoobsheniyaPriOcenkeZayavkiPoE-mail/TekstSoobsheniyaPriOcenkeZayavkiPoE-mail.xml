@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="TekstSoobsheniyaPriOcenkeZayavkiPoE-mail" seg-type="contents" uuid="TekstSoobsheniyaPriOcenkeZayavkiPoE-mail">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fb409ae9-16fe-3fbc-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Текст после выставления оценки по почте</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>Ocenka</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/4fbcf7b1-a0d5-4825-3ccf-aa1ea37ac1e8.xml" parse="xml"/>
+</properties>

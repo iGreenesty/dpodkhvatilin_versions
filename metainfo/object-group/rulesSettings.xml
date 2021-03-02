@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<class xmlns:xi="http://www.w3.org/2001/XInclude" id="rulesSettings" seg-detach="true" seg-id="rulesSettings" seg-type="object-group">
+    <object>
+        <attribute code="code">
+            <string>priority</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="defaultObject"/>
+        <attribute code="description"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="linkedClass">
+            <class-fqn>
+                <id>serviceCall</id>
+            </class-fqn>
+        </attribute>
+        <attribute code="linkedClasses" list="true">
+            <class-fqn>
+                <id>serviceCall</id>
+            </class-fqn>
+        </attribute>
+        <attribute code="metaClass">
+            <string>rulesSettings</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="sourceAttrs" list="true">
+            <string>impact</string>
+            <string>urgency</string>
+        </attribute>
+        <attribute code="targetAttrs" list="true">
+            <string>priority</string>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Приоритет</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="type"/>
+        <attribute code="UUID">
+            <string>rulesSettings$589701</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>reactTime</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="defaultObject"/>
+        <attribute code="description"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="linkedClass">
+            <class-fqn>
+                <id>serviceCall</id>
+            </class-fqn>
+        </attribute>
+        <attribute code="linkedClasses" list="true">
+            <class-fqn>
+                <id>serviceCall</id>
+            </class-fqn>
+        </attribute>
+        <attribute code="metaClass">
+            <string>rulesSettings</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="sourceAttrs" list="true">
+            <string>priority</string>
+            <string>agreement</string>
+            <string>service</string>
+            <string>metaClass</string>
+        </attribute>
+        <attribute code="targetAttrs" list="true">
+            <string>reactTime</string>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Нормативное время реакции</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="type"/>
+        <attribute code="UUID">
+            <string>rulesSettings$2262201</string>
+        </attribute>
+    </object>
+    <object>
+        <attribute code="code">
+            <string>resolutionTimeNew</string>
+        </attribute>
+        <attribute code="color"/>
+        <attribute code="defaultObject"/>
+        <attribute code="description"/>
+        <attribute code="folder">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="icon" list="true"/>
+        <attribute code="linkedClass">
+            <class-fqn>
+                <id>serviceCall</id>
+            </class-fqn>
+        </attribute>
+        <attribute code="linkedClasses" list="true">
+            <class-fqn>
+                <id>serviceCall</id>
+            </class-fqn>
+        </attribute>
+        <attribute code="metaClass">
+            <string>rulesSettings</string>
+        </attribute>
+        <attribute code="parent"/>
+        <attribute code="position">
+            <long>0</long>
+        </attribute>
+        <attribute code="removalDate"/>
+        <attribute code="removed">
+            <bool>false</bool>
+        </attribute>
+        <attribute code="sourceAttrs" list="true">
+            <string>priority</string>
+            <string>agreement</string>
+            <string>metaClass</string>
+            <string>service</string>
+        </attribute>
+        <attribute code="targetAttrs" list="true">
+            <string>resolutionTime</string>
+        </attribute>
+        <attribute code="title">
+            <localizedText>
+                <ru>Нормативное время</ru>
+            </localizedText>
+        </attribute>
+        <attribute code="type"/>
+        <attribute code="UUID">
+            <string>rulesSettings$1485702</string>
+        </attribute>
+    </object>
+</class>

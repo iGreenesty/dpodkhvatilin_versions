@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-domain xmlns:xi="http://www.w3.org/2001/XInclude" code="KB$KBArticleOpen" seg-detach="true" seg-id="KB$KBArticleOpen" seg-type="security-domain">
+    <xi:include href="access-matrix/access-matrix.xml" parse="xml"/>
+    <xi:include href="marker-declarations/d0555bc6-0d66-46dd-be00-08537490b463.xml" parse="xml"/>
+    <xi:include href="marker-overrides/faaea3cb-05cd-4588-871a-9715e9cd87c9.xml" parse="xml"/>
+</security-domain>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$SkriptPerevoditGolosovaniyaVProsrocheno" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[SkriptPerevoditGolosovaniyaVProsrocheno]]></script>
+        </script-action>
+        <code>eventAction$SkriptPerevoditGolosovaniyaVProsrocheno</code>
+        <description lang="ru">Переводит открытые голосования в "Просрочено", если Запас времени для согласований истёк на 100 процентов</description>
+        <event>
+            <eventType>escalation</eventType>
+        </event>
+        <fqn>
+            <id>negotiation</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Скрипт] Переводит голосования в "Просрочено" </title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

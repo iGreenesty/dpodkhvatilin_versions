@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_byStates" seg-type="tab-bars" uuid="tabs_byStates">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="7192cbc1-2684-3c7e-2f50-76f01c4e062b">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="byStates">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">По статусам</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="1d8c05c4-e5fd-552f-f915-9a02684dcce9">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/teamTasksByStates.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="f8ba3920-1745-7b60-003c-000036b4a082">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="byEmployee">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">По ответственным </caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="d0433a98-dfa5-1e17-39fc-826c7df6ef37">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/teamTasksByEmployees.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="954f63a2-6d05-430b-f2e9-8615be0dae43">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

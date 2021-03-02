@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="number" seg-type="attributes">
+    <code>serviceCall@number</code>
+    <presentation>long-value</presentation>
+    <uuid>f56f43b4-16ff-9961-0007-000014127783</uuid>
+</attribute>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="6aab767c-3521-472d-90ac-d8209fd02e14" seg-type="attribute-group">
+    <code>6aab767c-3521-472d-90ac-d8209fd02e14</code>
+    <title lang="ru">Для формы редактирования (менеджер и получатели)</title>
+    <attribute>manager</attribute>
+    <attribute>recipientsOU</attribute>
+    <attribute>autoCreation</attribute>
+    <order>manager</order>
+    <order>recipientsOU</order>
+    <order>autoCreation</order>
+</group>

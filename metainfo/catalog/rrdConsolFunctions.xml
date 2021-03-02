@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="rrdConsolFunctions" seg-detach="true" seg-id="rrdConsolFunctions" seg-type="catalog" xsi:type="SystemCatalog">
+    <title lang="client">Функции консолидации кольцевой базы данных</title>
+    <title lang="en">Consolidation functions</title>
+    <title lang="ru">Функции консолидации кольцевой базы данных</title>
+    <description lang="client">Функции консолидации кольцевой базы данных: Минимум, Максимум, Среднее, Последнее или Сумма.</description>
+    <description lang="en">Consolidation functions: Min, Max, Average, Last or Sum.</description>
+    <description lang="ru">Функции консолидации кольцевой базы данных: Минимум, Максимум, Среднее, Последнее или Сумма.</description>
+</catalog>

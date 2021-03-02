@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<form xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fdeef056-16f8-15ac-005a-000001d24423" seg-type="custom_forms">
+    <code>fdeef056-16f8-15ac-005a-000001d24423</code>
+    <parameters>
+        <xi:include href="form-parameters/isInternal.xml" parse="xml"/>
+        <xi:include href="form-parameters/parent.xml" parse="xml"/>
+        <xi:include href="form-parameters/services.xml" parse="xml"/>
+        <xi:include href="form-parameters/text.xml" parse="xml"/>
+        <xi:include href="form-parameters/title.xml" parse="xml"/>
+    </parameters>
+</form>

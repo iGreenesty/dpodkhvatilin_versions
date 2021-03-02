@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$KopirovaniePoslednegoKommentariyaVAtribut" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[KopirovaniePoslednegoKommentariyaVAtribut]]></script>
+        </script-action>
+        <code>eventAction$KopirovaniePoslednegoKommentariyaVAtribut</code>
+        <description lang="ru"/>
+        <event>
+            <eventType>addComment</eventType>
+        </event>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Скрипт] Копирование последнего комментария в атрибут, заполнение даты последнего комментария</title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

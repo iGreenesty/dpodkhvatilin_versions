@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="OpoveshenieKomandyONaznacheniiProblemyVOtvetstvennost" seg-type="scripts">
+    <code>OpoveshenieKomandyONaznacheniiProblemyVOtvetstvennost</code>
+    <title lang="ru">Оповещение команды о назначении проблемы в ответственность</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="OpoveshenieKomandyONaznacheniiProblemyVOtvetstvennost.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

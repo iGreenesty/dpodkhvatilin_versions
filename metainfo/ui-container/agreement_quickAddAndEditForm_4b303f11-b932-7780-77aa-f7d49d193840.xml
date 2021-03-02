@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="agreement_quickAddAndEditForm$4b303f11-b932-7780-77aa-f7d49d193840" seg-type="ui-container">
+    <fqn>
+        <id>agreement</id>
+    </fqn>
+    <code>quickAddAndEditForm$4b303f11-b932-7780-77aa-f7d49d193840</code>
+    <quickform seg-detach="false" uuid="quickAddAndEditForm$4b303f11-b932-7780-77aa-f7d49d193840">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Для быстрого добавления соглашения из услуги</caption>
+        <layout seg-detach="false" uuid="2350da0e-ba76-592a-8243-da254f284cf6">
+            <profiles/>
+            <tags/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <attrGroup>fastCreate</attrGroup>
+        <custom-form>QuickForm</custom-form>
+        <show-attr-description>false</show-attr-description>
+        <transitioncases>
+            <id>agreement</id>
+            <case>agreement</case>
+        </transitioncases>
+        <code>4b303f11-b932-7780-77aa-f7d49d193840</code>
+    </quickform>
+</ui>

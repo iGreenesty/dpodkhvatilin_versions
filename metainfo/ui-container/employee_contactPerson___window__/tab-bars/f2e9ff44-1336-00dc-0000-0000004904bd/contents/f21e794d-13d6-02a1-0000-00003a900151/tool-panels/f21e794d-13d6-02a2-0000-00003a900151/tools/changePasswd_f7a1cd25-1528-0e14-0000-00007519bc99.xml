@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="changePasswd_f7a1cd25-1528-0e14-0000-00007519bc99" seg-type="tools" uuid="f7a1cd25-1528-0e14-0000-00007519bc99">
+    <profiles/>
+    <tags/>
+    <appliedToType>currentObject</appliedToType>
+    <params/>
+    <presentationType>link</presentationType>
+    <action>changePasswd</action>
+    <allowedInMassOperations>true</allowedInMassOperations>
+    <blockable>true</blockable>
+    <caption lang="en">Change password</caption>
+    <caption lang="ru">Сменить пароль</caption>
+</action>

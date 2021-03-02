@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fast-link-setting xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="KB" seg-type="fast-link-settings">
+    <alias>БЗ</alias>
+    <code>KB</code>
+    <contextTypes>
+        <id>task</id>
+    </contextTypes>
+    <contextTypes>
+        <id>serviceCall</id>
+    </contextTypes>
+    <contextTypes>
+        <id>KB</id>
+        <case>KBArticle</case>
+    </contextTypes>
+    <contextTypes>
+        <id>KB</id>
+        <case>KBArticleOpen</case>
+    </contextTypes>
+    <mentionAttribute>UUID</mentionAttribute>
+    <mentionTypes>
+        <id>KB</id>
+        <case>KBArticle</case>
+    </mentionTypes>
+    <mentionTypes>
+        <id>KB</id>
+        <case>KBArticleOpen</case>
+    </mentionTypes>
+    <order>1</order>
+    <title lang="ru">База знаний</title>
+</fast-link-setting>

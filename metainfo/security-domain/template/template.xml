@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-domain xmlns:xi="http://www.w3.org/2001/XInclude" code="template" seg-detach="true" seg-id="template" seg-type="security-domain">
+    <xi:include href="access-matrix/access-matrix.xml" parse="xml"/>
+    <xi:include href="marker-declarations/editState.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleCurrentTeam.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleCurrentTeamEmployee.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleOtherTeam.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleOtherTeamEmployee.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleOwnTeam.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleOwnTeamEmployee.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleTake.xml" parse="xml"/>
+    <xi:include href="sec-actions/responsibleTakeCurrentTeam.xml" parse="xml"/>
+    <xi:include href="roles/template_LastEmpResp.xml" parse="xml"/>
+    <xi:include href="roles/template_LastEmpTeamMember.xml" parse="xml"/>
+    <xi:include href="roles/template_RespEmpTeamLeader.xml" parse="xml"/>
+    <xi:include href="roles/template_RespEmpTeamMember.xml" parse="xml"/>
+    <xi:include href="roles/template_RespHead.xml" parse="xml"/>
+    <xi:include href="roles/template_ResponsibleEmployee.xml" parse="xml"/>
+    <xi:include href="roles/template_ResponsibleTeamMember.xml" parse="xml"/>
+    <xi:include href="roles/template_RespTeamLeader.xml" parse="xml"/>
+</security-domain>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<related-object-properties xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f004db5d-140c-0383-0000-000001f3b28e" seg-type="contents" uuid="f004db5d-140c-0383-0000-000001f3b28e">
+    <profiles/>
+    <tags/>
+    <position>LEFT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6f14b5-16fc-72c4-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <caption lang="ru">Сведения о голосовании</caption>
+    <showCaption>true</showCaption>
+    <attributeGroup>e07d609e-1771-45e6-9f5f-0e99c5b3fdea</attributeGroup>
+    <showAttrDescription>false</showAttrDescription>
+    <xi:include href="tool-panels/f004e1e2-140c-2018-0000-0000000693b7.xml" parse="xml"/>
+    <attrCode>parent</attrCode>
+    <allowEdit>false</allowEdit>
+</related-object-properties>

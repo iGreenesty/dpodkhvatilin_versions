@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<livechat-settings xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="live-chat" seg-type="transfer-values" siteSupportEnabled="false" userSupportEnabled="false">
+    <logotype-file-uuid/>
+    <offline-closing-speech>Спасибо за Ваш вопрос. Мы обязательно ответим на него в ближайшее время.</offline-closing-speech>
+    <offline-welcome>К сожалению в данный момент наши онлайн-консультанты не могут ответить Вам. Вы можете отправить нам вопрос и мы отправим ответ на указанный Вами Email.</offline-welcome>
+    <online-closing-speech>Спасибо за Ваш вопрос!</online-closing-speech>
+    <online-initiator-groups/>
+    <online-support-teams/>
+    <online-welcome>Задайте интересующий Вас вопрос нашему онлайн оператору.</online-welcome>
+    <wasLoaded>false</wasLoaded>
+</livechat-settings>

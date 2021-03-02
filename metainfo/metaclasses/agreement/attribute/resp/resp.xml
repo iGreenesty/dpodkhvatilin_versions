@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<attribute xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="resp" seg-type="attribute">
+    <code>resp</code>
+    <hiddenAttrCaption>false</hiddenAttrCaption>
+    <computable>false</computable>
+    <editable>true</editable>
+    <editableInLists>false</editableInLists>
+    <required>false</required>
+    <requiredInInterface>false</requiredInInterface>
+    <unique>false</unique>
+    <determinable>false</determinable>
+    <title lang="ru">Ответственный</title>
+    <description lang="ru"/>
+    <type>
+        <code>aggregate</code>
+        <property code="aggregateClasses">["employee","team"]</property>
+        <property code="attributes">[{'attr':'resp_em','parents':['teams']}, {'attr':'resp_te','parents':[]}]</property>
+        <property code="code">aggregate</property>
+        <property code="complexRelation">false</property>
+        <property code="complexRelationsAttrGroups">{}</property>
+        <property code="metaClassFqn">agreement</property>
+        <property code="preparedAttributes">[{"attr":"resp_em","parents":["teams"],"referenceMetaClass":"employee"},{"attr":"resp_te","parents":[],"referenceMetaClass":"team"}]</property>
+    </type>
+    <filteredByScript>true</filteredByScript>
+    <scriptForFiltration>SCRIPTSD4002101</scriptForFiltration>
+    <computableOnForm>false</computableOnForm>
+    <viewPresentation>
+        <code>aggregateView</code>
+    </viewPresentation>
+    <editPresentation>
+        <code>aggregateEdit</code>
+    </editPresentation>
+    <useGenerationRule>false</useGenerationRule>
+    <accessor>aggregateAccessor</accessor>
+    <defaultByScript>false</defaultByScript>
+    <systemEditable>true</systemEditable>
+    <xi:include href="search-settings/resp_resp.xml" parse="xml"/>
+    <exportNDAP>false</exportNDAP>
+    <hiddenWhenEmpty>false</hiddenWhenEmpty>
+    <hiddenWhenNoPossibleValues>false</hiddenWhenNoPossibleValues>
+    <advlistSemanticFiltering>false</advlistSemanticFiltering>
+</attribute>

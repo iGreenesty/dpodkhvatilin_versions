@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ProverkaChtoDlyaGeneraciiParolyaEstLoginIEmail" seg-type="scripts">
+    <code>ProverkaChtoDlyaGeneraciiParolyaEstLoginIEmail</code>
+    <title lang="ru">Проверка, что для генерации пароля есть логин и email</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="ProverkaChtoDlyaGeneraciiParolyaEstLoginIEmail.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="ObrabotkaVhodyasheiPochty" seg-type="attribute-group">
+    <code>ObrabotkaVhodyasheiPochty</code>
+    <title lang="ru">Обработка входящей почты</title>
+    <attribute>isSCFrNotReg</attribute>
+    <attribute>isAutoMails</attribute>
+    <order>isSCFrNotReg</order>
+    <order>isAutoMails</order>
+</group>

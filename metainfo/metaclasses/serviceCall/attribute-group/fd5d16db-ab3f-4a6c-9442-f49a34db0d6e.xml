@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="fd5d16db-ab3f-4a6c-9442-f49a34db0d6e" seg-type="attribute-group">
+    <code>fd5d16db-ab3f-4a6c-9442-f49a34db0d6e</code>
+    <title lang="ru">Подписчики на заявку</title>
+    <attribute>subscribers</attribute>
+    <attribute>observers</attribute>
+    <order>subscribers</order>
+    <order>observers</order>
+</group>

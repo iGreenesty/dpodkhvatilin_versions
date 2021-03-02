@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="RukovoditelVypolnivshegoRabotuCfbfeedcdddbcc46" seg-type="scripts">
+    <code>RukovoditelVypolnivshegoRabotuCfbfeedcdddbcc46</code>
+    <title lang="ru">Руководитель выполнившего работу. Права</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="RukovoditelVypolnivshegoRabotuCfbfeedcdddbcc46.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

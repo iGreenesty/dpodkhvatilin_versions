@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ui xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="negotiation_quickAddAndEditForm$FormaBystrogoDobavleniyaSoglasovanii" seg-type="ui-container">
+    <fqn>
+        <id>negotiation</id>
+    </fqn>
+    <code>quickAddAndEditForm$FormaBystrogoDobavleniyaSoglasovanii</code>
+    <quickform seg-detach="false" uuid="quickAddAndEditForm$FormaBystrogoDobavleniyaSoglasovanii">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Форма быстрого добавления согласований</caption>
+        <layout seg-detach="false" uuid="3e20a3fc-8bc7-b284-a1b8-6228b2f55331">
+            <profiles/>
+            <tags/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <attrGroup>c98554c3-cc54-415f-aae9-b5f89656efc1</attrGroup>
+        <custom-form>QuickForm</custom-form>
+        <show-attr-description>false</show-attr-description>
+        <transitioncases>
+            <id>negotiation</id>
+            <case>approvalReq</case>
+        </transitioncases>
+        <transitioncases>
+            <id>negotiation</id>
+            <case>negotiation</case>
+        </transitioncases>
+        <code>FormaBystrogoDobavleniyaSoglasovanii</code>
+    </quickform>
+</ui>

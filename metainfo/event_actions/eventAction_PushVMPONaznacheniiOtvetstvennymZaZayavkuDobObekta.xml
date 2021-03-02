@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$PushVMPONaznacheniiOtvetstvennymZaZayavkuDobObekta" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <push-mobile-action>
+            <actionType>PushMobileEventAction</actionType>
+            <message>В Вашу ответственность назначена заявка №${subject.number}
+</message>
+            <roles>serviceCall_ResponsibleEmployee</roles>
+            <script><![CDATA[PerehodNaKartochkuVMP]]></script>
+            <html>false</html>
+            <pushHeaderFormat>Subject</pushHeaderFormat>
+            <subject>${pushMobile.scriptParams['root']}</subject>
+        </push-mobile-action>
+        <code>eventAction$PushVMPONaznacheniiOtvetstvennymZaZayavkuDobObekta</code>
+        <description lang="ru"/>
+        <event>
+            <eventType>add</eventType>
+        </event>
+        <fqn>
+            <id>serviceCall</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Push в МП] О назначении ответственным за заявку (доб. объекта)</title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

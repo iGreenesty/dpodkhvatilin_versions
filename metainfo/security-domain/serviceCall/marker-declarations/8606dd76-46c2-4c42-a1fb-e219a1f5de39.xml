@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<marker-declaration xmlns:xi="http://www.w3.org/2001/XInclude" code="8606dd76-46c2-4c42-a1fb-e219a1f5de39" enabled="true" group="editAttrs" seg-detach="true" seg-id="8606dd76-46c2-4c42-a1fb-e219a1f5de39" seg-type="marker-declarations">
+    <title lang="ru">Подписчики+Наблюдатели</title>
+    <attributes>subscribers</attributes>
+    <attributes>observers</attributes>
+</marker-declaration>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<override xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="closed" seg-type="attribute-group-override">
+    <code>closed</code>
+    <title lang="en">Closed by</title>
+    <title lang="ru">Кем закрыт</title>
+    <attribute>codeOfClosing</attribute>
+    <order>closedBy</order>
+    <order>closedByEmployee</order>
+    <order>closedByTeam</order>
+    <order>codeOfClosing</order>
+</override>

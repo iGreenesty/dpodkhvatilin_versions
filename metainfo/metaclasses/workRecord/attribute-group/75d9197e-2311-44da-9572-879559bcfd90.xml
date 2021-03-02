@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="75d9197e-2311-44da-9572-879559bcfd90" seg-type="attribute-group">
+    <code>75d9197e-2311-44da-9572-879559bcfd90</code>
+    <title lang="ru">Параметры </title>
+    <attribute>employee</attribute>
+    <attribute>timeStr</attribute>
+    <attribute>actualDate</attribute>
+    <attribute>description</attribute>
+    <order>employee</order>
+    <order>timeStr</order>
+    <order>actualDate</order>
+    <order>description</order>
+</group>

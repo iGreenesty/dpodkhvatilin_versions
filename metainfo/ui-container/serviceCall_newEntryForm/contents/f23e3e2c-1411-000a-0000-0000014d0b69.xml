@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sc-select-client xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="f23e3e2c-1411-000a-0000-0000014d0b69" seg-type="contents" uuid="f23e3e2c-1411-000a-0000-0000014d0b69">
+    <profiles>
+        <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+        <profile>51da8cfb-cfd8-4507-95a0-5c47eae79976</profile>
+    </profiles>
+    <tags/>
+    <position>RIGHT</position>
+    <visibilityCondition seg-detach="false" uuid="fd6f0325-16fc-2ed9-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+        <elements seg-detach="false" uuid="47e3168e-bcab-980f-c5cf-b22c36c7666f">
+            <profiles/>
+            <tags/>
+            <elements seg-detach="false" uuid="636d3f20-b6ad-f3c6-ccba-8032bf850b8b">
+                <profiles/>
+                <tags/>
+                <properties>
+                    <entry>
+                        <key>isAttributeOfRelatedObject</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>isLinkToParent</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>attrTypeCode</key>
+                        <value>bool</value>
+                    </entry>
+                    <entry>
+                        <key>conditionCode</key>
+                        <value>contains</value>
+                    </entry>
+                    <entry>
+                        <key>attributeFqn</key>
+                        <value>serviceCall@clientNotFound</value>
+                    </entry>
+                </properties>
+                <value>
+                    <bool>false</bool>
+                </value>
+            </elements>
+        </elements>
+    </visibilityCondition>
+    <caption lang="en">Choose user</caption>
+    <caption lang="ru">Выбор контрагента</caption>
+    <showCaption>true</showCaption>
+    <show-attributes-description>false</show-attributes-description>
+</sc-select-client>

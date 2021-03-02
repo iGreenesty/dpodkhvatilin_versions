@@ -1,0 +1,1 @@
+return (subject.isGenPass && changedAttributes.contains('isGenPass')) ? '' : 'Генерация пароля отключена'

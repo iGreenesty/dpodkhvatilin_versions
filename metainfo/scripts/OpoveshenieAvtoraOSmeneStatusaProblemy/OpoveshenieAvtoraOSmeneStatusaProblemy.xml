@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<script xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="OpoveshenieAvtoraOSmeneStatusaProblemy" seg-type="scripts">
+    <code>OpoveshenieAvtoraOSmeneStatusaProblemy</code>
+    <title lang="ru">Оповещение автора о смене статуса проблемы</title>
+    <mimeType>application/x-groovy</mimeType>
+    <scriptBody>
+        <xi:include href="OpoveshenieAvtoraOSmeneStatusaProblemy.groovy" parse="text"/>
+    </scriptBody>
+    <defaultCategories/>
+    <subjectDependencies/>
+</script>

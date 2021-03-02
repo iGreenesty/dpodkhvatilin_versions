@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<group xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="6c2b0ea6-9b3f-4007-a9d0-aaee591acb9e" seg-type="attribute-group">
+    <code>6c2b0ea6-9b3f-4007-a9d0-aaee591acb9e</code>
+    <title lang="ru">Характеристики объекта</title>
+    <attribute>title</attribute>
+    <attribute>state</attribute>
+    <attribute>owner</attribute>
+    <attribute>users</attribute>
+    <attribute>version</attribute>
+    <attribute>license</attribute>
+    <attribute>requirements</attribute>
+    <order>title</order>
+    <order>state</order>
+    <order>owner</order>
+    <order>users</order>
+    <order>version</order>
+    <order>license</order>
+    <order>requirements</order>
+</group>

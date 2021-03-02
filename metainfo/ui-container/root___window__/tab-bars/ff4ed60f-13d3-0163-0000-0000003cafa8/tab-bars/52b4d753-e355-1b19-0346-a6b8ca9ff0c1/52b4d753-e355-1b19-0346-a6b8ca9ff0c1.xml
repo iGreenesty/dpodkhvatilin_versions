@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="52b4d753-e355-1b19-0346-a6b8ca9ff0c1" seg-type="tab-bars" uuid="52b4d753-e355-1b19-0346-a6b8ca9ff0c1">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fb409aeb-16fe-3fd2-0002-000014127783">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="3f49cdf3-27a0-3fe5-d829-791a22846fb5">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Онлайн статистика</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="2830e58d-6e1f-b5d8-d660-97157b8b2e31">
+            <profiles/>
+            <tags/>
+            <xi:include href="tab-bars/5127ef24-a704-c7d2-f20b-9c0830acf000/5127ef24-a704-c7d2-f20b-9c0830acf000.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fb409aeb-16fe-3fd3-0002-000014127783">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="ObsheeSostoyanieDel">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Общее состояние дел</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="f90ef641-8854-9aab-2f1c-feb9e93be27b">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/TekusheeSostoyanieDel/TekusheeSostoyanieDel.xml" parse="xml"/>
+            <xi:include href="contents/SostoyanieDelZaPeriod/SostoyanieDelZaPeriod.xml" parse="xml"/>
+            <leftColumnWidth>50</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fb409aeb-16fe-3fdb-0002-000014127783">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="cd8c9c82-bb3e-be57-a130-59f89623d217">
+        <profiles/>
+        <tags/>
+        <caption lang="ru">Все отчеты</caption>
+        <considerListFilter>false</considerListFilter>
+        <layout seg-detach="false" uuid="41624e2f-0d6a-f7ca-d189-6df4828ee4db">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/54f632d0-caac-5c1c-3547-a4268644e78b.xml" parse="xml"/>
+            <xi:include href="contents/b367d414-79cf-bd98-224d-bafaec99bb7d.xml" parse="xml"/>
+            <xi:include href="contents/13577184-25b7-de44-43f4-a9ecf538ef2d.xml" parse="xml"/>
+            <xi:include href="contents/036d6578-e092-2b17-947e-248c02ed0a9e.xml" parse="xml"/>
+            <xi:include href="contents/aec5713f-25a2-5d23-a7b1-233d7e68f88f.xml" parse="xml"/>
+            <leftColumnWidth>50</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fb409aec-16fe-3fde-0002-000014127783">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

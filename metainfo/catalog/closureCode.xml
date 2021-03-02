@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="closureCode" seg-detach="true" seg-id="closureCode" seg-type="catalog" xsi:type="SystemCatalog">
+    <title lang="client">Коды закрытия</title>
+    <title lang="en">Codes of closure</title>
+    <title lang="ru">Коды закрытия</title>
+    <description lang="client">Содержит причины закрытия запросов.</description>
+    <description lang="en">Contains reasons of requests closure.</description>
+    <description lang="ru">Содержит причины закрытия запросов.</description>
+</catalog>

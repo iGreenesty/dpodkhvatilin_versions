@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tabbar xmlns:xi="http://www.w3.org/2001/XInclude" hasHead="false" seg-detach="true" seg-id="tabs_serviceCallsFollowsTab" seg-type="tab-bars" uuid="tabs_serviceCallsFollowsTab">
+    <profiles/>
+    <tags/>
+    <position>FULL</position>
+    <visibilityCondition seg-detach="false" uuid="fd6efc92-16fc-1749-0000-0000132f4b3f">
+        <profiles/>
+        <tags/>
+    </visibilityCondition>
+    <hideSingleTab>false</hideSingleTab>
+    <tab additional="false" seg-detach="false" uuid="serviceCallsFollowsTab">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+            <profile>371483c9-f6c2-45e4-8163-3f08121f1f1f</profile>
+        </profiles>
+        <tags/>
+        <caption lang="ru">Заявки</caption>
+        <countObjectsContentUuid>serviceCallsFollowsList</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="c6f1bdca-4ba8-61ec-360c-e9bcc2e6c1ba">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/serviceCallsFollowsList/serviceCallsFollowsList.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efc99-16fc-174b-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="tasksFollowsTab">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+            <profile>371483c9-f6c2-45e4-8163-3f08121f1f1f</profile>
+        </profiles>
+        <tags>
+            <tag>Zadachi</tag>
+        </tags>
+        <caption lang="ru">Задачи</caption>
+        <countObjectsContentUuid>tasksFollowsList</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="8c5eebc2-fea1-cf9b-1699-7eb5ded86a17">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/tasksFollowsList/tasksFollowsList.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="fd6efc99-16fc-174d-0000-0000132f4b3f">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+    <tab additional="false" seg-detach="false" uuid="observedCall">
+        <profiles>
+            <profile>c3878215-3a21-497d-a606-8854503ead1a</profile>
+            <profile>866028cf-6f06-4617-a76b-8a98f01effbf</profile>
+            <profile>371483c9-f6c2-45e4-8163-3f08121f1f1f</profile>
+            <profile>dd74dc05-d145-4a4d-b663-d11cfadf5b82</profile>
+        </profiles>
+        <tags/>
+        <caption lang="ru">Наблюдаемые заявки</caption>
+        <countObjectsContentUuid>observedCalls</countObjectsContentUuid>
+        <considerListFilter>true</considerListFilter>
+        <layout seg-detach="false" uuid="fed4edd2-8879-5ed2-ef75-7b33113f86ec">
+            <profiles/>
+            <tags/>
+            <xi:include href="contents/observedCalls/observedCalls.xml" parse="xml"/>
+            <leftColumnWidth>60</leftColumnWidth>
+            <windowLayout>false</windowLayout>
+        </layout>
+        <internalScrolling>INHERITED</internalScrolling>
+        <visibilityCondition seg-detach="false" uuid="cf38ae62-2caa-01e5-0390-25c0541ba4f6">
+            <profiles/>
+            <tags/>
+        </visibilityCondition>
+    </tab>
+</tabbar>

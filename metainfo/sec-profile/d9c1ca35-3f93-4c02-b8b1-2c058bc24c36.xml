@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<security-profile xmlns:xi="http://www.w3.org/2001/XInclude" code="d9c1ca35-3f93-4c02-b8b1-2c058bc24c36" licensed="true" seg-detach="true" seg-id="d9c1ca35-3f93-4c02-b8b1-2c058bc24c36" seg-type="sec-profile" versioning="false">
+    <groups>C2_seniorSpecialist</groups>
+    <roles>serviceCall_ResponsibleEmployee serviceCall_ResponsibleTeamMember</roles>
+    <title lang="ru">Ответственный специалист 2-ой линии</title>
+</security-profile>

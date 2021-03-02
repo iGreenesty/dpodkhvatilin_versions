@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$11" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[SkriptAvtomaticheskoeRasprostraneniePoluchateleiSoglasheniyaPo83]]></script>
+        </script-action>
+        <code>eventAction$11</code>
+        <xi:include href="script-action-condition/actionCondition_12.xml" parse="xml"/>
+        <description lang="ru">Распространяет получателей соглашения по оргструктуре</description>
+        <description>Распространяет получателей соглашения по оргструктуре</description>
+        <event>
+            <eventType>add</eventType>
+        </event>
+        <fqn>
+            <id>agreement</id>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">[Скрипт] Распространение получателей соглашения по оргструктуре</title>
+        <title>Скрипт: автоматическое распространение получателей соглашения по оргструктуре</title>
+        <txType>NEW_TX</txType>
+    </eventAction>
+</action>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user-metaclass xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="KB$KBSection" seg-type="metaclasses">
+    <fqn>
+        <id>KB</id>
+        <case>KBSection</case>
+    </fqn>
+    <parent>
+        <id>KB</id>
+    </parent>
+    <title lang="ru">Раздел базы знаний</title>
+    <description lang="ru"/>
+    <properties/>
+    <tags/>
+    <responsibilityTransferTableEnabled>false</responsibilityTransferTableEnabled>
+    <attributes>
+        <xi:include href="attribute/description/description.xml" parse="xml"/>
+    </attributes>
+    <attribute-overrides>
+        <xi:include href="attribute-override/metaClass/metaClass.xml" parse="xml"/>
+        <xi:include href="attribute-override/parent/parent.xml" parse="xml"/>
+    </attribute-overrides>
+    <permittedTypesInfo/>
+    <attribute-groups>
+        <xi:include href="attribute-group/1dada85f-eba0-466d-a247-b770a3ae202e.xml" parse="xml"/>
+        <xi:include href="attribute-group/27010f18-f78f-48fe-aabb-94a0e5c1d754.xml" parse="xml"/>
+        <xi:include href="attribute-group/488fbe38-6507-4681-b34f-96dd20d06dd1.xml" parse="xml"/>
+        <xi:include href="attribute-group/8a2dcbf6-bfb3-475d-bae5-7714a7382696.xml" parse="xml"/>
+        <xi:include href="attribute-group/98ba72a0-aa04-443f-aa2e-1e80b64c574f.xml" parse="xml"/>
+        <xi:include href="attribute-group/bbf4b590-0a88-492b-80ea-0afcf9ecd27d.xml" parse="xml"/>
+        <xi:include href="attribute-group/ce8acb54-b978-43e2-af15-932421b95be8.xml" parse="xml"/>
+        <xi:include href="attribute-group/e8d1a25f-512c-4a15-9610-3eac0d811827.xml" parse="xml"/>
+        <xi:include href="attribute-group/fc36b815-66bf-4919-92c5-96137d95b3d0.xml" parse="xml"/>
+    </attribute-groups>
+    <xi:include href="workflow/workflow.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_commentText_text.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileAuthor_author.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileContent_content.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileDescription_description.xml" parse="xml"/>
+    <xi:include href="search-settings/_fileTitle_title.xml" parse="xml"/>
+    <sortingCriteria>
+        <type>BY_ATTR_WEIGHT</type>
+    </sortingCriteria>
+    <maxSearchResults>3</maxSearchResults>
+    <searchOrder>8</searchOrder>
+    <allowPlanVer>false</allowPlanVer>
+    <depthEnv>1</depthEnv>
+    <status>DEFAULT</status>
+</user-metaclass>
