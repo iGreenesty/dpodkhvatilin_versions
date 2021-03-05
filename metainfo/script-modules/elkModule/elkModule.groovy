@@ -1,7 +1,6 @@
 /*! UTF8 */
 //Автор: dpodkhvatilin
 //Дата создания: 01.02.2021
-//Код: elkModule
 //Назначение:
 /**
  * Модуль для отправки данных в Elasticsearch
@@ -160,7 +159,7 @@ ElkClient getClient() {
 
 //Функции--------------------------------------------------------
 /**
- * @param request - мапа с параметрами отправляемого в эластик JSON-объекта
+ * @param request - содержит JSON-объект отправляемый в эластик
  */
 def createDocument(HttpServletRequest request) {
     RequestContent requestContent = Constants.GSON.fromJson(

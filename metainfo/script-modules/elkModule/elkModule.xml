@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <module xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="elkModule" seg-type="script-modules">
     <code>elkModule</code>
-    <moduleVersion>3</moduleVersion>
     <description/>
     <active>false</active>
-    <script checksum="a8720ccfdcf929af0c276c585efc37a4d41e8194f9cd1f6ce5cadaa9fc24c2ac">
+    <script checksum="6e4de0565deda8113a711291cd225b83dddb2049236820b96a1f924a9a7decce">
         <xi:include href="elkModule.groovy" parse="text"/>
     </script>
     <view_by_superusers>false</view_by_superusers>
