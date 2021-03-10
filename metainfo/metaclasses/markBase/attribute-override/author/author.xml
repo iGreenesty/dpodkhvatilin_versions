@@ -18,10 +18,10 @@
     <description lang="en"/>
     <description lang="ru"/>
     <type>
-        <property code="permittedTypes">["employee$employee","employee$contactPerson","employee"]</property>
-        <property code="metaClassFqn">employee</property>
-        <property code="complexRelation">false</property>
         <property code="code">object</property>
+        <property code="complexRelation">false</property>
+        <property code="metaClassFqn">employee</property>
+        <property code="permittedTypes">["employee$employee","employee$contactPerson","employee"]</property>
     </type>
     <filteredByScript>false</filteredByScript>
     <computableOnForm>false</computableOnForm>

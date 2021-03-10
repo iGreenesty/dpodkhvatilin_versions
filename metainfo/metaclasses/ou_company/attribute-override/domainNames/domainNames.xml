@@ -18,11 +18,11 @@
     <description lang="en"/>
     <description lang="ru">&lt;div&gt;Доменное имя - часть email адреса, которая идет после @. Например, &lt;a fr-original-style="" href="//itsm365.com" style="user-select: auto;"&gt;itsm365.com&lt;/a&gt;. При обработке писем с неизвестных адресов ITSM 365 по домену определит компанию.&lt;/div&gt;&lt;div&gt;&lt;strong fr-original-style="" style="font-weight: 700;"&gt;Один домен может быть связан только с одной компанией.&lt;/strong&gt;&lt;/div&gt;</description>
     <type>
-        <property code="permittedTypes">["domain","domain$domain"]</property>
+        <property code="backLinkAttr">company</property>
+        <property code="code">backBOLinks</property>
         <property code="complexRelation">false</property>
         <property code="metaClassFqn">domain</property>
-        <property code="code">backBOLinks</property>
-        <property code="backLinkAttr">company</property>
+        <property code="permittedTypes">["domain","domain$domain"]</property>
         <property code="quickAddFormCode">quickAddAndEditForm$031ef3af-b868-1ba6-e65a-0d9fa350e2e3</property>
     </type>
     <filteredByScript>false</filteredByScript>

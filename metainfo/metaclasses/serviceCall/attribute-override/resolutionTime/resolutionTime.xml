@@ -19,8 +19,8 @@
     <description lang="ru"/>
     <type>
         <property code="code">dtInterval</property>
-        <property code="needStoreUnits">true</property>
         <property code="intervalAvailableUnits">["HOUR","MINUTE","SECOND","WEEK","DAY"]</property>
+        <property code="needStoreUnits">true</property>
     </type>
     <filteredByScript>false</filteredByScript>
     <computableOnForm>false</computableOnForm>

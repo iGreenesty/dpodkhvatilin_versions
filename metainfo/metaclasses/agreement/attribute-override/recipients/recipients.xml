@@ -17,12 +17,12 @@
     <description lang="en"/>
     <description lang="ru"/>
     <type>
-        <property code="permittedTypes">["employee$employee","employee$contactPerson","employee"]</property>
-        <property code="metaClassFqn">employee</property>
-        <property code="complexRelation">true</property>
-        <property code="code">backBOLinks</property>
         <property code="backLinkAttr">recipientAgreements</property>
+        <property code="code">backBOLinks</property>
         <property code="complexAttrGroupCode">befc0c98-595a-422d-b1f6-bfc736d4e09f</property>
+        <property code="complexRelation">true</property>
+        <property code="metaClassFqn">employee</property>
+        <property code="permittedTypes">["employee$employee","employee$contactPerson","employee"]</property>
     </type>
     <filteredByScript>false</filteredByScript>
     <computableOnForm>false</computableOnForm>

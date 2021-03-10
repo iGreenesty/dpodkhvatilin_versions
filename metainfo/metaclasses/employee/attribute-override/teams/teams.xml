@@ -16,9 +16,9 @@
     <description lang="en"/>
     <description lang="ru"/>
     <type>
-        <property code="permittedTypes">["NO_ONE"]</property>
-        <property code="metaClassFqn">team</property>
         <property code="code">boLinks</property>
+        <property code="metaClassFqn">team</property>
+        <property code="permittedTypes">["NO_ONE"]</property>
     </type>
     <filteredByScript>false</filteredByScript>
     <scriptForFiltration/>

@@ -16,8 +16,8 @@
     <description lang="en"/>
     <description lang="ru"/>
     <type>
-        <property code="metaClassFqn">category</property>
         <property code="code">catalogItemSet</property>
+        <property code="metaClassFqn">category</property>
     </type>
     <filteredByScript>false</filteredByScript>
     <scriptForFiltration/>

@@ -19,8 +19,8 @@
     <description lang="ru"/>
     <type>
         <property code="code">string</property>
-        <property code="inputMaskMode"/>
         <property code="inputMask"/>
+        <property code="inputMaskMode"/>
         <property code="maxLength">4000</property>
     </type>
     <filteredByScript>false</filteredByScript>

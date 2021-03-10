@@ -11,9 +11,9 @@
     <description lang="en"/>
     <description lang="ru"/>
     <type>
-        <property code="metaClassFqn">servicetime</property>
-        <property code="complexRelation">false</property>
         <property code="code">catalogItem</property>
+        <property code="complexRelation">false</property>
+        <property code="metaClassFqn">servicetime</property>
     </type>
     <filteredByScript>false</filteredByScript>
     <computableOnForm>false</computableOnForm>

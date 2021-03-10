@@ -18,12 +18,12 @@
     <description lang="en"/>
     <description lang="ru"/>
     <type>
-        <property code="complexRelation">true</property>
-        <property code="metaClassFqn">serviceCall</property>
-        <property code="code">aggregate</property>
-        <property code="complexRelationsAttrGroups">{"ou":"c9e66f8f-da07-47fe-9034-4b6fca5e10e1","team":"2df8e56c-62c6-48b6-9fe5-daf8523bfd48","employee":"74c92645-fb4e-4b59-ab77-50226c288195"}</property>
-        <property code="preparedAttributes">[{"attr":"clientEmployee","parents":["parent"],"referenceMetaClass":"employee"},{"attr":"clientOU","referenceMetaClass":"ou"},{"attr":"clientTeam","referenceMetaClass":"team"}]</property>
         <property code="attributes">[{'attr':'clientEmployee','parents':['parent']},{'attr':'clientOU'},{'attr':'clientTeam'}]</property>
+        <property code="code">aggregate</property>
+        <property code="complexRelation">true</property>
+        <property code="complexRelationsAttrGroups">{"ou":"c9e66f8f-da07-47fe-9034-4b6fca5e10e1","team":"2df8e56c-62c6-48b6-9fe5-daf8523bfd48","employee":"74c92645-fb4e-4b59-ab77-50226c288195"}</property>
+        <property code="metaClassFqn">serviceCall</property>
+        <property code="preparedAttributes">[{"attr":"clientEmployee","parents":["parent"],"referenceMetaClass":"employee"},{"attr":"clientOU","referenceMetaClass":"ou"},{"attr":"clientTeam","referenceMetaClass":"team"}]</property>
     </type>
     <filteredByScript>false</filteredByScript>
     <computableOnForm>false</computableOnForm>

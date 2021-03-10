@@ -18,8 +18,8 @@
     <description lang="en"/>
     <description lang="ru"/>
     <type>
-        <property code="metaClassFqn">priority</property>
         <property code="code">catalogItem</property>
+        <property code="metaClassFqn">priority</property>
     </type>
     <filteredByScript>false</filteredByScript>
     <computableOnForm>false</computableOnForm>

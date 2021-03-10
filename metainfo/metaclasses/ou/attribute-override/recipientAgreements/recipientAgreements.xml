@@ -17,11 +17,11 @@
     <description lang="en"/>
     <description lang="ru"/>
     <type>
-        <property code="permittedTypes">["agreement","agreement$agreement"]</property>
-        <property code="metaClassFqn">agreement</property>
-        <property code="complexRelation"/>
         <property code="code">boLinks</property>
         <property code="complexAttrGroupCode"/>
+        <property code="complexRelation"/>
+        <property code="metaClassFqn">agreement</property>
+        <property code="permittedTypes">["agreement","agreement$agreement"]</property>
     </type>
     <filteredByScript>false</filteredByScript>
     <computableOnForm>false</computableOnForm>

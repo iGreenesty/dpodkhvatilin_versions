@@ -17,13 +17,13 @@
     <description lang="en"/>
     <description lang="ru"/>
     <type>
-        <property code="metaClassFqn">KB</property>
-        <property code="complexRelation">true</property>
-        <property code="code">responsible</property>
-        <property code="preparedAttributes">[{"attr":"responsibleEmployee","parents":["teams"],"referenceMetaClass":"employee"},{"attr":"responsibleTeam","parents":[],"referenceMetaClass":"team"}]</property>
-        <property code="complexRelationsAttrGroups">{"team":"e2f23c3b-e43d-4b1a-be47-5e3aa6ff6400","employee":"cd01b456-e587-4505-a84b-25531d88af36"}</property>
         <property code="aggregateClasses">["employee","team"]</property>
         <property code="attributes">[{'attr':'responsibleEmployee','parents':['teams']}, {'attr':'responsibleTeam','parents':[]}]</property>
+        <property code="code">responsible</property>
+        <property code="complexRelation">true</property>
+        <property code="complexRelationsAttrGroups">{"team":"e2f23c3b-e43d-4b1a-be47-5e3aa6ff6400","employee":"cd01b456-e587-4505-a84b-25531d88af36"}</property>
+        <property code="metaClassFqn">KB</property>
+        <property code="preparedAttributes">[{"attr":"responsibleEmployee","parents":["teams"],"referenceMetaClass":"employee"},{"attr":"responsibleTeam","parents":[],"referenceMetaClass":"team"}]</property>
     </type>
     <filteredByScript>false</filteredByScript>
     <computableOnForm>false</computableOnForm>

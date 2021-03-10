@@ -18,9 +18,9 @@
     <description lang="en"/>
     <description lang="ru"/>
     <type>
-        <property code="permittedTypes">["agreement","agreement$agreement"]</property>
-        <property code="metaClassFqn">agreement</property>
         <property code="code">boLinks</property>
+        <property code="metaClassFqn">agreement</property>
+        <property code="permittedTypes">["agreement","agreement$agreement"]</property>
         <property code="quickAddFormCode">quickAddAndEditForm$4b303f11-b932-7780-77aa-f7d49d193840</property>
     </type>
     <filteredByScript>false</filteredByScript>

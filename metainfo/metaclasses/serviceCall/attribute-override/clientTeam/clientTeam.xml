@@ -18,11 +18,11 @@
     <description lang="en"/>
     <description lang="ru"/>
     <type>
-        <property code="permittedTypes">["NO_ONE"]</property>
-        <property code="metaClassFqn">team</property>
-        <property code="complexRelation">true</property>
-        <property code="code">object</property>
         <property code="aggregator">client</property>
+        <property code="code">object</property>
+        <property code="complexRelation">true</property>
+        <property code="metaClassFqn">team</property>
+        <property code="permittedTypes">["NO_ONE"]</property>
     </type>
     <filteredByScript>false</filteredByScript>
     <computableOnForm>false</computableOnForm>

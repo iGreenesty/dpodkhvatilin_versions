@@ -582,8 +582,8 @@
     <xi:include href="scheduler-tasks/ExecuteScriptTask_recalcSumWorkRecords.xml" parse="xml"/>
     <xi:include href="scheduler-tasks/ReceiveMailTask_3.xml" parse="xml"/>
     <mail-processor-rules>
-        <xi:include href="mail_processors/106bfbc6-55bc-4a41-a970-0a2c00f70e56.xml" parse="xml"/>
-        <xi:include href="mail_processors/2534efb1-9c44-4282-ad88-f6330d5e6b6b.xml" parse="xml"/>
+        <xi:include href="mail_processors/aa569f30-dbd6-4cfa-b502-194241c3cd52.xml" parse="xml"/>
+        <xi:include href="mail_processors/b23cbf47-7bc6-4177-9c0d-637b4e84cdfb.xml" parse="xml"/>
     </mail-processor-rules>
     <xi:include href="timer-definition/forNegotiation.xml" parse="xml"/>
     <xi:include href="timer-definition/processingTime.xml" parse="xml"/>
@@ -751,6 +751,7 @@
         <xi:include href="event_actions/eventAction_mPush_stateClient.xml" parse="xml"/>
         <xi:include href="event_actions/eventAction_PeremeshenieOtdela.xml" parse="xml"/>
         <xi:include href="event_actions/eventAction_PeremeshenieSotrudnika.xml" parse="xml"/>
+        <xi:include href="event_actions/eventAction_proverkaOpisaniya.xml" parse="xml"/>
         <xi:include href="event_actions/eventAction_push_emplOnNewSc_addObject.xml" parse="xml"/>
         <xi:include href="event_actions/eventAction_push_newTaskInResponse.xml" parse="xml"/>
         <xi:include href="event_actions/eventAction_push_teamOnNewSc_addObject.xml" parse="xml"/>
@@ -1143,6 +1144,7 @@
         <xi:include href="scripts/VremyaReakciiPoZayavkamReactionTime162/VremyaReakciiPoZayavkamReactionTime162.xml" parse="xml"/>
         <xi:include href="scripts/VremyaResheniyaZayavokKontragentovSLA170/VremyaResheniyaZayavokKontragentovSLA170.xml" parse="xml"/>
         <xi:include href="scripts/VremyaResheniyaZayavokOtvetstvennymi184/VremyaResheniyaZayavokOtvetstvennymi184.xml" parse="xml"/>
+        <xi:include href="scripts/vyavayvyavayayv/vyavayvyavayayv.xml" parse="xml"/>
         <xi:include href="scripts/VychislenieDedlainaVZavisimostiOtVremeniNaReshenieVShablone/VychislenieDedlainaVZavisimostiOtVremeniNaReshenieVShablone.xml" parse="xml"/>
         <xi:include href="scripts/VychislenieTekstaPoShablonu/VychislenieTekstaPoShablonu.xml" parse="xml"/>
         <xi:include href="scripts/VychislenieVremeniOtpravkiPusha/VychislenieVremeniOtpravkiPusha.xml" parse="xml"/>

@@ -19,8 +19,8 @@
     <description lang="ru">Укажите рабочее время, которое дается на реакцию по заявке.&lt;div&gt;&lt;div&gt;Обратите внимание, что 1 день = 24 рабочих часа. То есть, если время на реакцию 1 день и график поддержки услуг в соглашении 8х5, то на реакцию по заявке будет отведено 3 рабочих дня (т.е. по 8 рабочих часов в день).&lt;/div&gt;&lt;/div&gt;</description>
     <type>
         <property code="code">dtInterval</property>
-        <property code="needStoreUnits">true</property>
         <property code="intervalAvailableUnits">["HOUR","MINUTE","WEEK","DAY"]</property>
+        <property code="needStoreUnits">true</property>
     </type>
     <filteredByScript>false</filteredByScript>
     <computableOnForm>false</computableOnForm>

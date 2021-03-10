@@ -18,9 +18,9 @@
     <description lang="en"/>
     <description lang="ru"/>
     <type>
-        <property code="permittedTypes">["team","team$team"]</property>
-        <property code="metaClassFqn">team</property>
         <property code="code">boLinks</property>
+        <property code="metaClassFqn">team</property>
+        <property code="permittedTypes">["team","team$team"]</property>
         <property code="quickAddFormCode">quickAddAndEditForm$f04d07f7-9cd9-4d54-10ff-c53662452a1d</property>
     </type>
     <filteredByScript>false</filteredByScript>

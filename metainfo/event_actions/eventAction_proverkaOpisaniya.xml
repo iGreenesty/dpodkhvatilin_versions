@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<action xmlns:xi="http://www.w3.org/2001/XInclude" seg-detach="true" seg-id="eventAction$proverkaOpisaniya" seg-type="event_actions">
+    <eventAction seg-detach="false">
+        <script-action>
+            <actionType>ScriptEventAction</actionType>
+            <script><![CDATA[vyavayvyavayayv]]></script>
+        </script-action>
+        <code>eventAction$proverkaOpisaniya</code>
+        <description lang="ru"/>
+        <event>
+            <eventType>add</eventType>
+        </event>
+        <fqn>
+            <id>serviceCall</id>
+            <case>serviceCall</case>
+        </fqn>
+        <on>true</on>
+        <slow>false</slow>
+        <title lang="ru">проверка описания</title>
+        <txType>CURRENT_TX</txType>
+    </eventAction>
+</action>

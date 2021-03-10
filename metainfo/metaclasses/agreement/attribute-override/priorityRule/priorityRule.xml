@@ -18,8 +18,8 @@
     <description lang="en"/>
     <description lang="ru"/>
     <type>
-        <property code="metaClassFqn">rulesSettings</property>
         <property code="code">catalogItem</property>
+        <property code="metaClassFqn">rulesSettings</property>
     </type>
     <filteredByScript>false</filteredByScript>
     <computableOnForm>false</computableOnForm>

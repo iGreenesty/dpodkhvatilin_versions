@@ -18,10 +18,10 @@
     <description lang="en"/>
     <description lang="ru"/>
     <type>
-        <property code="metaClassFqn">timezone</property>
-        <property code="complexRelation">false</property>
         <property code="code">catalogItem</property>
         <property code="complexAttrGroupCode"/>
+        <property code="complexRelation">false</property>
+        <property code="metaClassFqn">timezone</property>
     </type>
     <filteredByScript>false</filteredByScript>
     <computableOnForm>false</computableOnForm>

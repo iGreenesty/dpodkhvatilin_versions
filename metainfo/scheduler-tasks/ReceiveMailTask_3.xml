@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<task xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" del-mail-from-server="true" mail-processor-code="2534efb1-9c44-4282-ad88-f6330d5e6b6b" mail-server-code="5c2338ad-28b4-400f-94d0-130e0b4c246a" max-processed="10" max-received="100" save-original="true" seg-detach="true" seg-id="ReceiveMailTask$3" seg-type="scheduler-tasks" xsi:type="receive-mail-task">
+<task xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" del-mail-from-server="true" mail-processor-code="aa569f30-dbd6-4cfa-b502-194241c3cd52" mail-server-code="5c2338ad-28b4-400f-94d0-130e0b4c246a" max-processed="10" max-received="100" save-original="true" seg-detach="true" seg-id="ReceiveMailTask$3" seg-type="scheduler-tasks" xsi:type="receive-mail-task">
     <code>ReceiveMailTask$3</code>
     <title lang="ru">Обработка входящей почты</title>
     <title>Обработка входящей почты</title>

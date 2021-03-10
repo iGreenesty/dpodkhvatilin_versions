@@ -16,10 +16,10 @@
     <description lang="en"/>
     <description lang="ru"/>
     <type>
-        <property code="metaClassFqn">serviceCall</property>
-        <property code="code">aggregate</property>
-        <property code="preparedAttributes">[{"attr":"closedByEmployee","parents":["teams"],"referenceMetaClass":"employee"},{"attr":"closedByTeam","parents":[],"referenceMetaClass":"team"}]</property>
         <property code="attributes">[{'attr':'closedByEmployee','parents':['teams']},{'attr':'closedByTeam','parents':[]}]</property>
+        <property code="code">aggregate</property>
+        <property code="metaClassFqn">serviceCall</property>
+        <property code="preparedAttributes">[{"attr":"closedByEmployee","parents":["teams"],"referenceMetaClass":"employee"},{"attr":"closedByTeam","parents":[],"referenceMetaClass":"team"}]</property>
     </type>
     <filteredByScript>false</filteredByScript>
     <scriptForFiltration/>

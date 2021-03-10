@@ -16,10 +16,10 @@
     <description lang="en"/>
     <description lang="ru"/>
     <type>
-        <property code="permittedTypes">["serviceCall$serviceCall","serviceCall","serviceCall$request","serviceCall$call"]</property>
-        <property code="metaClassFqn">serviceCall</property>
-        <property code="code">backBOLinks</property>
         <property code="backLinkAttr">masterMassProblem</property>
+        <property code="code">backBOLinks</property>
+        <property code="metaClassFqn">serviceCall</property>
+        <property code="permittedTypes">["serviceCall$serviceCall","serviceCall","serviceCall$request","serviceCall$call"]</property>
     </type>
     <filteredByScript>false</filteredByScript>
     <scriptForFiltration/>
